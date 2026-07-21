@@ -1,0 +1,49 @@
+{
+  "name": "fantasy-crux-lite",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Markdown-first Fantasy Crux Lite rules and Cold Iron static website.",
+  "engines": {
+    "node": ">=24.16.0 <25"
+  },
+  "packageManager": "npm@11.13.0",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build:site": "eleventy",
+    "build:search": "pagefind --site _site",
+    "build": "npm run validate:content && npm run build:site && npm run build:search && node scripts/assert-output.mjs",
+    "preview": "sirv _site --dev --port 8080",
+    "validate:content": "node scripts/validate-content.mjs",
+    "lint:md": "markdownlint-cli2 \"src/content/**/*.md\"",
+    "lint:html": "html-validate \"_site/**/*.html\"",
+    "lint:links": "linkinator _site --recurse --skip \"^https?://\"",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test:unit": "vitest run tests/unit",
+    "test:browser": "playwright test",
+    "check": "npm run format:check && npm run lint:md && npm run test:unit && npm run build && npm run lint:html && npm run lint:links && npm run test:browser"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.6",
+    "@axe-core/playwright": "4.12.1",
+    "@fontsource/atkinson-hyperlegible": "5.3.0",
+    "@fontsource/barlow-condensed": "5.3.0",
+    "@fontsource/ibm-plex-mono": "5.3.0",
+    "@playwright/test": "1.61.1",
+    "gray-matter": "4.0.3",
+    "html-validate": "11.5.6",
+    "linkinator": "8.0.0",
+    "markdown-it": "14.3.0",
+    "markdown-it-anchor": "9.2.1",
+    "markdown-it-attrs": "5.0.0",
+    "markdown-it-deflist": "3.0.1",
+    "markdown-it-footnote": "4.0.0",
+    "markdownlint-cli2": "0.23.1",
+    "pagefind": "1.5.2",
+    "prettier": "3.9.6",
+    "sirv-cli": "3.0.1",
+    "vitest": "4.1.10",
+    "zod": "4.4.3"
+  }
+}
