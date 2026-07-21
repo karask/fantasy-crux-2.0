@@ -1,0 +1,25 @@
+export default {
+  title: 'Fantasy Crux Lite',
+  edition: 'Cold Iron Edition',
+  description: 'Compact, gritty fantasy rules built for fast use at the table.',
+  primaryNav: [
+    { number: 0, label: 'Start Here', href: '/rules/start-here/' },
+    { number: 1, label: 'Characters', href: '/rules/characters/' },
+    { number: 2, label: 'Skills', href: '/rules/skills/' },
+    { number: 3, label: 'Equipment', href: '/rules/equipment/' },
+    { number: 4, label: 'Combat', href: '/rules/combat/' },
+    { number: 5, label: 'Adventuring', href: '/rules/adventuring/' },
+    { number: 6, label: 'Talents', href: '/rules/talents/' },
+    { number: 'QR', label: 'Reference', href: '/reference/' },
+    { number: 7, label: 'Magic', href: '/rules/magic/' },
+  ],
+  quickGroups: [
+    { id: 'core', label: 'Core procedure' },
+    { id: 'characters', label: 'Characters' },
+    { id: 'skills', label: 'Skills' },
+    { id: 'equipment', label: 'Equipment' },
+    { id: 'combat', label: 'Combat' },
+    { id: 'adventuring', label: 'Adventuring' },
+    { id: 'talents', label: 'Talents' },
+  ],
+};

@@ -9,20 +9,21 @@
   },
   "packageManager": "npm@11.13.0",
   "scripts": {
-    "dev": "eleventy --serve",
-    "build:site": "eleventy",
-    "build:search": "pagefind --site _site",
-    "build": "npm run validate:content && npm run build:site && npm run build:search && node scripts/assert-output.mjs",
-    "preview": "sirv _site --dev --port 8080",
+    "clean": "node scripts/clean-site.mjs",
+    "dev": "npm run clean && eleventy --serve",
+    "build:site": "npm run clean && eleventy",
+    "build": "npm run validate:content && npm run build:site && node scripts/assert-output.mjs",
+    "preview": "node scripts/serve-site.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "lint:md": "markdownlint-cli2 \"src/content/**/*.md\"",
     "lint:html": "html-validate \"_site/**/*.html\"",
-    "lint:links": "linkinator _site --recurse --skip \"^https?://\"",
+    "lint:links": "node scripts/validate-links.mjs",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test:unit": "vitest run tests/unit",
-    "test:browser": "playwright test",
-    "check": "npm run format:check && npm run lint:md && npm run test:unit && npm run build && npm run lint:html && npm run lint:links && npm run test:browser"
+    "test:browser": "npm run build && npm run test:browser:built",
+    "test:browser:built": "node scripts/run-browser-tests.mjs",
+    "check": "npm run format:check && npm run lint:md && npm run test:unit && npm run build && npm run lint:html && npm run lint:links && npm run test:browser:built"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",
@@ -33,7 +34,6 @@
     "@playwright/test": "1.61.1",
     "gray-matter": "4.0.3",
     "html-validate": "11.5.6",
-    "linkinator": "8.0.0",
     "markdown-it": "14.3.0",
     "markdown-it-anchor": "9.2.1",
     "markdown-it-attrs": "5.0.0",
@@ -42,7 +42,6 @@
     "markdownlint-cli2": "0.23.1",
     "pagefind": "1.5.2",
     "prettier": "3.9.6",
-    "sirv-cli": "3.0.1",
     "vitest": "4.1.10",
     "zod": "4.4.3"
   }

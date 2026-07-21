@@ -1,5 +1,7 @@
 node_modules/
 _site/
+_prefix_site/
+_prefix_host/
 test-results/
 playwright-report/
 .cache/

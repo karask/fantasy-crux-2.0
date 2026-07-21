@@ -1,0 +1,33 @@
+---
+layout: layouts/base.njk
+title: Quick Reference
+summary: The essential Fantasy Crux Lite procedures on one screen.
+order: 8
+permalink: /reference/index.html
+---
+<div class="page-surface reference-page">
+  <header class="chapter-heading">
+    <p class="eyebrow">At-table index</p>
+    <h1>Quick Reference</h1>
+    <p class="chapter-deck">Short rulings for play. Follow a title for the complete rule and exceptions.</p>
+  </header>
+
+  <div class="reference-groups">
+    {% for group in site.quickGroups %}
+      {% set entries = collections.quickReference | quickGroup(group.id) %}
+      {% if entries | length %}
+        <section aria-labelledby="reference-{{ group.id }}">
+          <h2 id="reference-{{ group.id }}">{{ group.label }}</h2>
+          <dl>
+            {% for item in entries %}
+              <div>
+                <dt><a href="{{ item.url }}">{{ item.data.title }}</a></dt>
+                <dd>{{ item.data.summary | summaryText }}</dd>
+              </div>
+            {% endfor %}
+          </dl>
+        </section>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

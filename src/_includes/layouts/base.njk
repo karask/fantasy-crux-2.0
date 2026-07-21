@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111516">
+    <meta name="description" content="{{ summary | summaryText | default(site.description) }}">
+    <title>{% if title %}{{ title }} · {% endif %}{{ site.title }}</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <script src="/assets/js/site.js" type="module"></script>
+  </head>
+  <body class="{{ bodyClass | default('rules-page') }}">
+    <a class="skip-link" href="#main-content">Skip to rules</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="Fantasy Crux Lite home">
+        <span class="wordmark-mark" aria-hidden="true">FC</span>
+        <span>
+          <strong>Fantasy Crux</strong>
+          <small>Lite · Cold Iron</small>
+        </span>
+      </a>
+
+      <nav class="utility-nav" aria-label="Utilities">
+        <a href="/reference/">Quick reference</a>
+        <a class="search-link" href="/search/"><span aria-hidden="true">⌕</span> Search</a>
+      </nav>
+
+      <details class="nav-disclosure">
+        <summary>Rules menu</summary>
+        <nav aria-label="Mobile rules chapters">
+          {% for item in site.primaryNav %}
+            <a href="{{ item.href }}"{% if page.url | navCurrent(item.href) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+          {% endfor %}
+          <a href="/search/">Search</a>
+        </nav>
+      </details>
+    </header>
+
+    <div class="site-layout">
+      <nav class="chapter-nav" aria-label="Rules chapters">
+        <p class="nav-label">The rules</p>
+        {% for item in site.primaryNav %}
+          <a href="{{ item.href }}"{% if page.url | navCurrent(item.href) %} aria-current="page"{% endif %}>
+            <span>{{ item.number | padChapter }}</span>{{ item.label }}
+          </a>
+        {% endfor %}
+      </nav>
+
+      <main id="main-content" class="main-stage">
+        <div class="chapter-measure" aria-hidden="true">
+          <strong>{{ order | default(0) | padChapter }}</strong>
+          <span></span><i></i><span></span><i></i><span></span><i></i><span></span><i></i><span></span>
+          <small>CRUX</small>
+        </div>
+        {{ content | safe }}
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p><strong>{{ site.title }}</strong> · {{ site.edition }}</p>
+      <p>Canonical lite rules. The original LaTeX sources remain preserved as legacy material.</p>
+    </footer>
+  </body>
+</html>

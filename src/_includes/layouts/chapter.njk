@@ -1,0 +1,72 @@
+---
+layout: layouts/base.njk
+---
+<div class="page-surface chapter-page{% if id == 'magic' %} chapter-page--empty{% endif %}">
+  <header class="chapter-heading">
+    <p class="eyebrow">Chapter {{ order | padChapter }}</p>
+    <h1>{{ title }}</h1>
+    {% if id != 'magic' %}<p class="chapter-deck">{{ summary | summaryText }}</p>{% endif %}
+  </header>
+
+  <article class="prose chapter-intro"{% if id != 'magic' %} data-pagefind-ignore{% endif %}>
+    {{ content | safe }}
+  </article>
+
+  {% if id == 'talents' %}
+    <section class="talent-browser" aria-labelledby="talent-list-title" data-talent-browser>
+      <div class="section-rule">
+        <div>
+          <p class="eyebrow">Purchase catalogue</p>
+          <h2 id="talent-list-title">All Talents</h2>
+        </div>
+        <p role="status" aria-live="polite"><span data-talent-count>{{ collections.talents | length }}</span> Talents available</p>
+      </div>
+      <div class="talent-filters" role="group" aria-label="Filter Talents">
+        <button type="button" data-talent-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-talent-filter="offence" aria-pressed="false">Offence</button>
+        <button type="button" data-talent-filter="defence" aria-pressed="false">Defence</button>
+        <button type="button" data-talent-filter="ranged" aria-pressed="false">Ranged</button>
+        <button type="button" data-talent-filter="shield" aria-pressed="false">Shield</button>
+        <button type="button" data-talent-filter="unarmed" aria-pressed="false">Unarmed</button>
+      </div>
+      <div class="talent-grid">
+        {% for talent in collections.talents %}
+          <article class="talent-card" data-talent-card data-tags="{{ talent.data.tags | join(' ') }}">
+            <div class="talent-cost"><strong>{{ talent.data.cost }}</strong><span>IP</span></div>
+            <div>
+              <p class="talent-mode">{{ talent.data.activation }}</p>
+              <h3><a href="{{ talent.url }}">{{ talent.data.title }}</a></h3>
+              <p>{{ talent.data.summary | summaryText }}</p>
+              <p class="prerequisite"><span>Requires</span> {{ talent.data.prerequisites | summaryText }}</p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+      <p class="filter-empty" data-filter-empty hidden>No Talents match this filter.</p>
+    </section>
+  {% elif id != 'magic' %}
+    {% set chapterItems = collections.rules | chapterRules(id) %}
+    {% if chapterItems | length %}
+      <section class="chapter-contents" aria-labelledby="chapter-contents-title">
+        <div class="section-rule">
+          <div>
+            <p class="eyebrow">In this chapter</p>
+            <h2 id="chapter-contents-title">Rules</h2>
+          </div>
+          <p>{{ chapterItems | length }} sections</p>
+        </div>
+        <ol class="rule-index">
+          {% for item in chapterItems %}
+            <li>
+              <span>{{ loop.index | padChapter }}</span>
+              <div>
+                <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+                <p>{{ item.data.summary | summaryText }}</p>
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+      </section>
+    {% endif %}
+  {% endif %}
+</div>

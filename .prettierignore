@@ -1,0 +1,8 @@
+_site/
+_prefix_site/
+_prefix_host/
+node_modules/
+freeform-magic/
+tex/
+fantasy-crux.tex
+package-lock.json
