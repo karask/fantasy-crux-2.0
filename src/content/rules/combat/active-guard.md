@@ -32,3 +32,5 @@ Therefore, an ordinary successful shield Parry blocks all damage from a bow, cro
 A shield grants no passive cover or attack penalty by default. Terrain cover applies separately. The [Shield Cover](/rules/talents/shield-cover/) Talent creates a passive penalty, and the [Missile Guard](/rules/talents/missile-guard/) Talent removes Active Guard's `-1P` against bows, crossbows, and slings.
 
 A strapped shield that is unavailable while wielding a two-handed item is not ready and cannot provide Active Guard.
+
+Some [tangible magical projectiles](/rules/magic/casting-and-defence/#magic-cover-shields) count as thrown weapons for Active Guard only; use the Size and restrictions stated by Shaping.

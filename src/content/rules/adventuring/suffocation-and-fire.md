@@ -35,6 +35,8 @@ After reaching breathable air, make a Resilience test. On a failure, the charact
 
 Apply damage each round of direct exposure. Metal armour does not reduce fire or heat damage; other protection applies only when it plausibly insulates against the source.
 
+[Created magical hazards](/rules/magic/ongoing-and-magical-actions/#magic-created-hazards) use their fixed Shaping damage until they become mundane hazards.
+
 | Intensity   | Example                               | Damage per round |
 | ----------- | ------------------------------------- | ---------------: |
 | Flame       | Candle                                |                1 |

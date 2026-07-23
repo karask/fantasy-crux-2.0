@@ -6,7 +6,7 @@ bodyClass: home-page
 <div class="home-surface">
   <section class="home-hero" aria-labelledby="home-title">
     <div class="hero-copy">
-      <p class="eyebrow">Cold Iron Edition · Mundane rules</p>
+      <p class="eyebrow">Cold Iron Edition · Complete playtest rules</p>
       <h1 id="home-title"><span>Fantasy</span> Crux <em>Lite</em></h1>
       <p class="hero-deck">Hard choices. Fast rulings. Just enough steel between a hero and the dark.</p>
       <div class="hero-actions">
@@ -20,7 +20,7 @@ bodyClass: home-page
         <div><dt>D100</dt><dd>One core roll</dd></div>
         <div><dt>1 + 1 + 1</dt><dd>Action · Move · Reaction</dd></div>
         <div><dt>100%</dt><dd>Absolute skill ceiling</dd></div>
-        <div><dt>17</dt><dd>Optional Talents</dd></div>
+        <div><dt>6 × 8</dt><dd>Technique · Form</dd></div>
       </dl>
     </aside>
   </section>
@@ -30,20 +30,20 @@ bodyClass: home-page
       <p class="eyebrow">A three-minute orientation</p>
       <h2 id="home-start-title">Roll under. Read the situation. Live with the consequence.</h2>
     </div>
-    <p>Fantasy Crux Lite keeps the grounded consequences of the full game while moving specialist techniques into Talents. The basic rules remain lean; trained characters decide where complexity belongs.</p>
+    <p>Fantasy Crux Lite keeps the grounded consequences of the full game while moving specialist techniques into Talents. The basic rules remain lean; Talents and Shaping decide where complexity belongs.</p>
   </section>
 
   <section class="chapter-directory" aria-labelledby="directory-title">
     <div class="section-rule section-rule--dark">
       <div>
         <p class="eyebrow">Contents</p>
-        <h2 id="directory-title">The mundane rules</h2>
+        <h2 id="directory-title">The rules</h2>
       </div>
       <p>{{ collections.chapters | length }} chapters</p>
     </div>
     <ol>
       {% for chapter in collections.chapters %}
-        <li{% if chapter.data.id == 'magic' %} class="is-future"{% endif %}>
+        <li>
           <a href="{{ chapter.url }}">
             <span class="directory-number">{{ chapter.data.order | padChapter }}</span>
             <span class="directory-copy">

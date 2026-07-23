@@ -5,7 +5,7 @@ chapter: adventuring
 title: Light and Darkness
 slug: light-and-darkness
 order: 20
-summary: 'Poor light penalises sight and attacks from -1P to -3P; darkness also reduces Movement, while a light source creates bands based on its radius.'
+summary: 'Illumination penalises sight, attacks, and Movement from -1P to -3P; alternate senses improve or bypass only what they can perceive.'
 aliases:
   - illumination
   - vision
@@ -15,7 +15,9 @@ quickReference:
   order: 20
 ---
 
-Use the best illumination reaching a character or target. A light source illuminates its listed radius; its weaker outer bands extend from there.
+For vision and attacks, use illumination reaching the observed target; for Movement, use light reaching the mover. A light source illuminates its listed radius; weaker outer bands extend from there. Mist, fog, foliage, and smoke are obscurity, not illumination; apply their [ranged-combat modifier](/rules/combat/ranged-combat/#common-situational-modifiers) along the sightline separately.
+
+[Shaped light or obscurity](/rules/magic/techniques-and-forms/) pays for its mechanical outcome; any mundane illumination it creates then uses these bands.
 
 | Source           | Radius |
 | ---------------- | -----: |
@@ -28,12 +30,12 @@ Use the best illumination reaching a character or target. A light source illumin
 | ---------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | Bright           | Clear daylight                               | None.                                                                                                                                     |
 | Illuminated      | Overcast daylight; inside a light's radius   | None.                                                                                                                                     |
-| Partial darkness | Mist; outside the radius but within ×3       | `-1P` to vision-based Perception and attacks.                                                                                             |
-| Darkness         | Fog; beyond ×3 but within ×5                 | `-2P` to vision-based Perception and attacks; half Movement.                                                                              |
+| Partial darkness | Twilight; outside the radius but within ×3   | `-1P` to vision-based Perception and attacks.                                                                                             |
+| Darkness         | Starlight; beyond ×3 but within ×5           | `-2P` to vision-based Perception and attacks; half Movement.                                                                              |
 | Pitch black      | Sealed cavern; beyond ×5 with no other light | Vision-based Perception and ranged attacks cannot succeed without another applicable sense; Close attacks suffer `-3P`; quarter Movement. |
 
 ## Other senses {#adventuring-other-senses}
 
-- **Night Vision:** Natural night is treated as daylight, but this does not create sight in a sealed, lightless place.
-- **Night Sight:** Treat partial darkness as illuminated and darkness as partial darkness.
-- **Blind Sight (sense):** Ignore illumination while the named sense can accurately perceive the target. Barriers or conditions that defeat that sense still apply.
+- **Night Vision:** Natural surface night counts as Illuminated. It does not help underground, in a sealed or supernatural darkness, or against obscurity.
+- **Night Sight:** Treat Partial darkness as Illuminated and Darkness as Partial darkness. Pitch black is unchanged.
+- **Blind Sight (sense):** Ignore illumination for a target the named sense accurately perceives. It gives no colour, writing, fine visual detail, or eye contact. State what blocks it, such as a wall blocking heat or loud noise masking hearing. Use only the best applicable sense; senses do not stack.

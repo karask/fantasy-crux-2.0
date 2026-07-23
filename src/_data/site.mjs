@@ -10,8 +10,8 @@ export default {
     { number: 4, label: 'Combat', href: '/rules/combat/' },
     { number: 5, label: 'Adventuring', href: '/rules/adventuring/' },
     { number: 6, label: 'Talents', href: '/rules/talents/' },
-    { number: 'QR', label: 'Reference', href: '/reference/' },
     { number: 7, label: 'Magic', href: '/rules/magic/' },
+    { number: 'QR', label: 'Reference', href: '/reference/' },
   ],
   quickGroups: [
     { id: 'core', label: 'Core procedure' },
@@ -21,5 +21,6 @@ export default {
     { id: 'combat', label: 'Combat' },
     { id: 'adventuring', label: 'Adventuring' },
     { id: 'talents', label: 'Talents' },
+    { id: 'magic', label: 'Magic' },
   ],
 };

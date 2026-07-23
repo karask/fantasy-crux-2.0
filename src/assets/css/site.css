@@ -522,6 +522,14 @@ h3:hover .heading-anchor,
   background: var(--bone-light);
   font-family: var(--mono);
   font-size: 0.82em;
+}
+
+.prose code {
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.talent-facts code {
   white-space: nowrap;
 }
 
@@ -907,26 +915,6 @@ tbody tr:last-child td {
   font-size: 0.9rem;
 }
 
-.chapter-page--empty {
-  position: relative;
-  min-height: calc(100vh - 3.6rem);
-  overflow: hidden;
-}
-
-.chapter-page--empty::after {
-  position: absolute;
-  right: clamp(2rem, 8vw, 8rem);
-  bottom: 2rem;
-  color: #d1c8b8;
-  content: 'UNFORGED';
-  font-family: var(--display);
-  font-size: clamp(3.5rem, 12vw, 10rem);
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 0.8;
-  writing-mode: vertical-rl;
-}
-
 .reference-groups {
   display: grid;
   margin-top: 3rem;
@@ -1281,10 +1269,6 @@ tbody tr:last-child td {
 .chapter-directory li {
   border-right: 1px solid #3b4445;
   border-bottom: 1px solid #3b4445;
-}
-
-.chapter-directory li.is-future {
-  border-bottom-color: var(--brass);
 }
 
 .chapter-directory a {

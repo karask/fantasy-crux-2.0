@@ -36,6 +36,7 @@ Combat and Movement Actions happen in Combat Order. A Reaction interrupts that o
 - Aim a ranged weapon.
 - Set a weapon against a Charge.
 - Use a skill or object that can reasonably be handled in about five seconds.
+- Cast or maintain [Shaping](/rules/magic/casting-and-defence/) when its rule requires a Combat Action.
 - Delay: act after a chosen participant later in the round. To interrupt an action already beginning, make an opposed test using the relevant skills; the winner acts first.
 
 ## Common Movement Actions

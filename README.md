@@ -1,8 +1,8 @@
 # Fantasy Crux Lite
 
-Fantasy Crux Lite is the compact, mundane-rules edition of Fantasy Crux. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, and 17 optional Talents.
+Fantasy Crux Lite is the compact rules edition of Fantasy Crux. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, 17 optional Talents, and freeform Shaping magic.
 
-Magic is deliberately unfinished. The website exposes an empty Magic chapter containing only “Magic rules are in development.” The candidate systems in `freeform-magic/` are preserved for a later phase.
+Shaping is the canonical Magic system and is published as seven searchable rules pages. The alternative Magic 2.0 system remains preserved in `freeform-magic/FC-magic-potential-2.md` as an unpublished design document.
 
 ## Quick start
 
@@ -39,9 +39,10 @@ npm run preview
 - `src/lib/` — content schema and executable rules contracts
 - `tests/` — unit/content contracts and real-browser checks
 - `tex/` and `fantasy-crux.tex` — preserved legacy full-rule sources; not generated from Markdown
-- `freeform-magic/` — preserved candidate magic systems; not published
+- `freeform-magic/` — preserved Magic 2.0 alternative; not published
+- `freeform-creatures/` — Lite creature reference under review; deliberately not published
 
-Individual rules and Talents are the search units. Chapter hubs, Quick Reference, Search, and Magic are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, Talent filters, and collapsible examples are enhancements.
+Individual rules, Talents, and Shaping sections are the search units. Chapter hubs, Quick Reference, and Search are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, Talent filters, and collapsible examples are enhancements.
 
 The default build targets an origin root. To deploy under a subpath, set `FANTASY_CRUX_PATH_PREFIX` to that path before building; the HTML, assets, and search loader are path-prefix aware.
 
@@ -49,13 +50,13 @@ The default build targets an origin root. To deploy under a subpath, set `FANTAS
 
 Add or change rules in `src/content/rules/`. Keep frontmatter within the strict schemas in `src/lib/content-schema.mjs`; the validator rejects unknown keys, malformed IDs, duplicate IDs, and duplicate URLs. Markdown may use headings, lists, tables, definition lists, footnotes, and explicit heading IDs, but not raw HTML or MDX.
 
-Run `npm run check` before treating a change as complete. The content contract also protects the 17-Talent catalogue, the empty Magic placeholder, the no-image phase boundary, and the 12,000-word visible-copy ceiling.
+Run `npm run check` before treating a change as complete. The content contract also protects the 17-Talent catalogue, the seven-page Shaping chapter, the preserved Magic 2.0 alternative, the no-image phase boundary, and the 16,000-word visible-copy ceiling.
 
-The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md).
+The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md).
 
 ## Later phases
 
-1. Select and refine one magic system from `freeform-magic/`, then replace the placeholder chapter.
+1. Refine Shaping through playtesting while preserving its stable rule IDs and URLs.
 2. Establish an illustration style through dedicated visual studies before adding rules artwork.
 
-Neither phase is part of the current build.
+Rules artwork remains outside the current build.

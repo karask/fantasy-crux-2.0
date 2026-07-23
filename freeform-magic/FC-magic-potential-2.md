@@ -1,821 +1,513 @@
-# Fantasy Crux Magic 2.0
+# Fantasy Crux Lite Magic 2.0 — Traditions and Authorities
 
 ## Magic Without Spells
 
-Magic is not a list of named spells. A practitioner describes an effect, the
-Gamemaster prices its outcome, and the character attempts to make it happen.
-The same rules can represent a scholar rewriting natural laws, a priest
-channeling a god, a singer shaping emotions, a witch bargaining with spirits,
-or a mystic imposing disciplined will on the world.
+Magic is not a list of named spells. A practitioner describes an effect, the Gamemaster prices its outcome, and the character attempts to make it happen. The same rules can represent a scholar rewriting natural laws, a priest channeling a god, a singer shaping emotion, a witch bargaining with spirits, or a mystic imposing disciplined will on the world.
 
-A single use of magic is called a **Working**. Workings are created during
-play and do not have to be learned separately.
+A single use of magic is a **Working**. Workings are created during play and need not be learned separately. What a practitioner can attempt is defined by their **Tradition** and **Authorities**.
 
-This system is intended to replace Folk, Arcane, and Divine spell lists with
-one source-neutral discipline. Those systems can instead coexist with it if a
-campaign wants both fixed spells and freeform magic.
+> **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets the effect. Magnitude sets its PP requirement and cost, difficulty, active limit, and Dispel strength. Pay PP by the casting result.
 
-### Design Principles
+Unless noted, magic uses the core D100 and opposed tests, Bonus/Penalty dice, Reactions, armour, damage, wounds, Power Points, and Improvement.
 
-- **Describe the result, not a spell name.** The desired outcome determines
-  the cost, regardless of its colour or wording.
-- **Magic follows the character's concept.** A practitioner is flexible
-  within a few defined Authorities, not equally capable of every supernatural
-  act.
-- **Greater reach, scale, and duration cost more.** Increasing several of
-  them at once becomes expensive quickly.
-- **Magic is visible and answerable.** Workings have a Tell, unwilling targets
-  resist, and other practitioners can counter them.
-- **One roll resolves one clear outcome.** A Working that does several useful
-  things pays for every outcome.
+### Design principles
 
-## Practitioners
+- **Price outcomes, not descriptions.** Sleep, terror, stolen breath, and a spectral hammer cost the same when they impose the same result.
+- **Authority grants permission, not free power.** Every useful capability still pays Intensity and the other dials.
+- **Magic remains answerable.** Practice can be prevented, Tells reveal magic, unwilling targets defend, and practitioners can Counter or Dispel.
+- **One roll creates one clear outcome.** Additional outcomes pay separately.
+- **Great scale leaves consequences.** Large, lasting, and mythic Workings require rituals, anchors, sacrifices, or obligations.
 
-Access to this discipline costs **8 Improvement Points**. It grants a new
-**Magic Casting** skill, two Authorities, and the universal magical actions
-Sense Magic, Counter, and Dispel.
+---
 
-The base chance for Magic Casting is **POW plus one other Characteristic**
-chosen when the Tradition is created. INT suits study and calculation, CHA
-suits prayer, command, and performance, while CON suits bodily, ecstatic, or
-blood-based practices. Other Characteristics require the Gamemaster's
-approval. The choice represents how the Tradition works and cannot be changed
-merely to use a better score.
+## 1. Practitioners and Traditions
 
-Magic uses the character's normal Power Points. Power Points recover and the
-character falls unconscious at zero Power Points as described in the core
-rules.
+Access costs **8 IP** and grants:
+
+- the **Magic Casting** skill;
+- one **Authority**; and
+- **Sense Magic, Counter,** and **Dispel**.
+
+At character creation, declare and reserve the purchase before allocating skill points, then pay it during the starting-IP step. Magic Casting counts as Knowledge, follows the 30-point creation limit, and caps at 100%. Improving it costs 1 IP and uses the normal skill gains: +5% at 0–50%, +3% at 51–75%, and +1% at 76–99%, at most once between adventures.
+
+Magic Casting has a base of `POW + one Tradition-defining Characteristic`. Choose that Characteristic with the Gamemaster when creating the Tradition. INT suits study, calculation, and runes; CHA suits prayer, command, and performance; CON suits bodily, ecstatic, or blood practices. Another choice needs a compelling concept. The choice describes how the Tradition works and cannot change merely to use a better score.
+
+Magic uses normal PP: maximum PP equals POW; rest restores `ceil(maximum PP / 4)` after each complete two hours and all PP after eight hours. At 0 PP, the practitioner falls unconscious and cannot wake until they have at least 1 PP.
 
 ### Define a Tradition
 
-Every practitioner records the following details.
+Record five elements.
 
-| Element | Meaning |
-| --- | --- |
-| **Source** | Where the power comes from: study, a deity, spirits, nature, the practitioner's soul, a pact, an art, a relic, or something else. |
-| **Practice** | What the practitioner must do: chant, pray, gesture, draw signs, dance, bleed, burn offerings, play music, enter a trance, use a focus, and so on. |
-| **Tell** | An unavoidable sign of magic, such as luminous writing, frost, bells with no source, bleeding shadows, a divine voice, or a pressure in the mind. |
-| **Taboo** | A meaningful restriction imposed by the Source, such as never breaking an oath, refusing iron, observing holy days, or asking a spirit's consent. |
-| **Authorities** | The subjects, forces, or relationships over which the practitioner has established magical authority. |
+| Element | Mechanical role |
+|---|---|
+| **Source** | Explains where power comes from and sets hard fictional limits, suitable Backlash, and ritual prices. |
+| **Practice** | An observable, interruptible requirement such as prayer, gestures, song, signs, offerings, pain, a focus, or trance. |
+| **Tell** | An unavoidable sign such as luminous writing, frost, bells, bleeding shadows, a divine voice, or pressure in the mind. |
+| **Taboo** | A meaningful obligation or prohibition imposed by the Source. |
+| **Authority** | A focused subject, force, place, or relationship the Tradition can govern or work through. |
 
-A Practice must include at least one act that enemies can interrupt or one
-state that injury and distraction can break. A purely mental Practice is
-possible, but its trance must still be perceptible through its Tell and can be
-broken like concentration.
+A Practice must contain something enemies can prevent or a state that injury and distraction can break. A mental Practice is possible, but its trance remains perceptible through its Tell.
 
-The Tell is automatically noticeable within **10 metres per point of the
-Working's Magnitude**, with a minimum radius of 3 metres. Anyone directly
-watching the Practice also notices it. Witnesses know that magic is happening,
-but do not automatically understand its exact purpose.
+The Tell appears around the practitioner and any ranged target or area. It is automatically noticeable within `10 × Magnitude` metres, minimum 3 metres, and to anyone watching the Practice. Witnesses recognise magic, not its purpose. Concealment requires **Veiled**.
 
-For a ranged Working, the Tell manifests around both the caster and the target
-or affected area. This gives practitioners near either end a chance to Sense
-or Counter incoming magic.
-
-If a practitioner knowingly breaks a Taboo, their Magic Casting tests suffer
-a Penalty die (-1P) until they make meaningful amends. A deliberate and severe
-breach can block the Tradition entirely until it is repaired. A Taboo should
-create real choices, not punish accidental wording or trivial behaviour.
+Knowingly breaking a Taboo gives `-1P` to Magic Casting until meaningful amends are made. A deliberate, defining betrayal can block the Tradition until repaired. Taboos should create decisions, not punish accidental wording.
 
 ### Authorities
 
-An Authority is a focused subject, force, or relationship that the character
-may create, perceive, command, change, or work through to affect something
-else. Suitable Authorities include Flame, Storms, Stone, Beasts, Plants,
-Bodies, Dreams, Memory, Shadows, Roads, Oaths, Luck, Names, the Dead, or a
-particular deity's clearly defined concerns.
+An Authority answers **what the magic may govern or work through**, not what result it produces. Suitable Authorities include Flame, Storms, Stone, Beasts, Plants, Bodies, Dreams, Memory, Shadows, Roads, Oaths, Names, the Dead, or a deity's clearly defined concerns.
 
-An Authority answers **what magic can govern or work through**, not **what
-result it can produce**. Destruction, Control, Creation, and Protection are
-methods, not Authorities. Reality, Magic, Nature, Life, Matter, and Everything
-are too broad. Split them into narrower subjects.
+Destruction, Creation, Control, and Protection are methods, not Authorities. Reality, Magic, Nature, Life, Matter, and Everything are too broad.
 
-The Gamemaster and player should agree on an Authority's boundaries when it is
-chosen. If its meaning changes later, settle the new boundary before dice are
-rolled and apply it consistently thereafter.
+A relational Authority governs the relationship, not every connected subject. Names may identify, locate, contact, or bind through a true name; Oaths govern promises, obligations, and their consequences. A deity's distinct concerns are separate Authorities unless they form one narrow domain comparable with Flame, Bodies, or Roads. Broader alteration requires another Authority.
 
-For example, Flame can create light and heat, burn a creature, reveal a heat
-trail, or shape an existing fire. It cannot read thoughts, heal flesh, or
-control an object merely because that object could burn. Roads can find,
-shorten, ward, or reveal events along actual routes; it does not grant control
-over everything standing on a road.
+Write one sentence defining each Authority and one clear exclusion:
 
-Each additional Authority costs **4 Improvement Points** and requires an
-appropriate discovery, teacher, initiation, bargain, or period of research in
-the fiction.
+> **Roads:** Actual routes, journeys, and traces left along them. May find, ward, or alter travel; does not control every traveller or arbitrary space.
 
-Magic Casting improves like any other skill.
+For a complete Tradition:
 
-#### Crossing Authorities
+> **Ashen Cantor:** Source—Saint of Cinders. Practice—sing a litany through an iron censer. Tell—ash rises around practitioner and target. Taboo—never refuse shelter to a supplicant. Authority—Flame: flame, heat, and their traces; not general light or every combustible object.
 
-- A Working within one known Authority has no adjustment.
-- Each additional known Authority needed for the same outcome adds **+1
-  Magnitude**.
-- A Working just outside every known Authority may be attempted if it still
-  clearly follows the Source and Practice. It adds **+2 Magnitude** and a
-  Penalty die (-1P).
-- An effect that contradicts the Source or has no credible connection to the
-  Tradition is impossible, regardless of cost.
+An Authority may permit revealing, communicating, moving, shaping, mending, harming, concealing, influencing, conjuring, binding, warding, suppressing, or transforming when the connection is direct and credible. The method has no separate cost; the outcome does.
 
-The third option is deliberate overreach, not a way to make Authorities
-meaningless. It should cover an adjacent, surprising use, not an unrelated
-kind of magic.
+Each additional Authority costs **6 IP** and requires an appropriate teacher, initiation, bargain, discovery, or period of research. A Working using two or more known Authorities adds **+1 Magnitude per additional Authority**.
 
-## Creating a Working
+A standard Working outside every known Authority is impossible. A unique ritual may create a one-use exception when it follows the Source and changes the campaign; treat it as beyond the normal ritual maximum and require a lasting price. It never grants permanent access. An effect contradicting the Source or Tradition remains impossible regardless of cost.
 
-State a Working in ordinary language before calculating it:
+---
 
-> Using **[Authority]**, I **[method] [subject]** to cause **[one clear
-> outcome]**, affecting **[breadth]** at **[range]** for **[duration]**.
+## 2. Creating a Working
 
-Useful methods include reveal, communicate, move, shape, mend, harm, conceal,
-influence, conjure, bind, ward, suppress, and transform. These words have no
-cost of their own. The outcome does.
+State the Working before calculating it:
 
-Build the Working in this order:
+> Using **[Authority]**, I **[method and subject]** to cause **[one clear outcome]** at **[Range]**, affecting **[Reach]**, for **[Duration]**.
 
-1. Confirm that the Tradition and at least one Authority permit it.
-2. Choose its Impact.
-3. Add Range, Breadth, and Duration.
-4. Add any adjustments for extra Authorities, outcomes, or special traits.
-5. Total the ratings. This total is the Working's **Magnitude** and its base
-   Power Point cost.
-6. State the final cost, casting modifier, resistance, and likely effect before
-   anyone rolls.
+Build it in this order:
 
-A useful Working always has at least Impact 1 and therefore costs at least one
-Power Point. A purely cosmetic Trick can have Magnitude 0.
+1. Confirm that the Tradition and Authority permit the outcome.
+2. Choose the lowest Intensity that produces it.
+3. Add Range, Reach, and Duration.
+4. Add extra Authorities, outcomes, and other adjustments.
+5. Total Magnitude and confirm PP, modifier, defence, armour, and consequences.
 
-## Impact
+A useful Working has at least Intensity 1. Cosmetic details are free. A blue flame, wing-shaped ward, or choir accompanying a cure adds no Magnitude unless it provides an advantage.
 
-Impact measures how much the Working changes its subject. Use the highest row
-that describes any part of the intended outcome.
+The Gamemaster states the final ruling before the roll. Change terms afterward only to correct a genuine rules mistake; record new rulings as precedents.
 
-| Impact | Degree | Outcome benchmark |
-| ---: | --- | --- |
-| **0** | Trick | Harmless and cosmetic. It causes no damage, modifier, useful information, restraint, or other practical advantage. |
-| **1** | Minor | Comparable to an ordinary action or simple tool. It makes a small change, reveals one surface clue, shifts a mood, moves a loose object, or creates a brief inconvenience. |
-| **2** | Potent | Comparable to a trained combat action or specialist tool. It can harm, restrain, provide a Bonus or Penalty die, overcome a normal obstacle, or issue a limited compulsion. |
-| **3** | Major | Clearly superhuman. It can disable a person, overcome a fortified obstacle, produce full flight, substantially reshape a target, or reveal well-hidden and distant information. |
-| **4** | Greater | Dominates an encounter or changes an important part of the setting. It can control a person, transform a large target, demolish a structure, or reverse an otherwise lasting affliction. |
-| **5** | Mythic | Breaks a fundamental boundary: return the dead, permanently rewrite a person, cross worlds, or cause another campaign-changing result. It always requires a ritual and a lasting price. |
+---
 
-A **Mythic Working** is any Working with Impact 5, Range 5, or Breadth 5. It
-requires a ritual and a lasting price. Only Impact determines the caster's rank
-requirement, so a lower-Impact Working can reach another realm if a capable
-ritual group can pay for it and accept its price.
+## 3. Intensity and Expertise
 
-### Magic Casting Limits
+Intensity measures how strongly the Working changes its subject. Choose the lowest fitting row.
 
-The practitioner's Magic Casting skill limits the highest Impact they can
-attempt.
+| Intensity | Degree | Benchmark |
+|---:|---|---|
+| 0 | Trick | Cosmetic and harmless; no practical advantage. |
+| 1 | Minor | Ordinary action or tool: small change, clue, hindrance, or simple movement. |
+| 2 | Potent | Strong specialist action: harm, restraint, `+1B`/`-1P`, useful creation, or limited compulsion. |
+| 3 | Major | Superhuman: flight, lost Combat Action, essential transformation, remote observation, or competent summon. |
+| 4 | Greater | Encounter-changing: full control, `+2B`/`-2P`, impossible transformation, or major threat. |
+| 5 | Mythic | Break a fundamental boundary; ritual and lasting price required. |
 
-| Magic Casting | Rank | Maximum Impact |
-| ---: | --- | ---: |
-| 01-25% | Novice | 1 |
-| 26-50% | Apprentice | 2 |
-| 51-75% | Adept | 3 |
-| 76-100% | Master | 4 |
-| 101%+ | Legendary | 5 |
+Expertise limits both maximum Intensity and Safe Magnitude.
 
-No amount of extra time or Power Points removes this limit. A great ritual
-still needs a practitioner capable of shaping its central effect.
+| Magic Casting | Expertise | Maximum Intensity | Safe Magnitude |
+|---:|---|---:|---:|
+| 0–25% | Novice | 1 | 1 |
+| 26–50% | Apprentice | 2 | 2 |
+| 51–75% | Veteran | 3 | 3 |
+| 76–99% | Expert | 4 | 4 |
+| 100% | Master | 5 | 5 |
 
-### Common Impact Benchmarks
+No preparation, PP contribution, or ritual bypasses maximum Intensity. Intensity 5 is always Mythic.
 
-These are default rulings, not a spell list. Use them when a Working produces
-a familiar mechanical result.
+A Magnitude-0 Trick is free and automatic when calm. Under pressure, failure does nothing and a fumble causes only an inconvenient Tell—never PP loss or Backlash. Other Tricks cast normally.
 
-| Outcome | Impact benchmark |
-| --- | --- |
-| **Direct damage** | Deal 2 damage per Impact. Appropriate mundane Armour applies by default. A damaging Working designed to ignore it must add the Piercing adjustment, regardless of whether the description is physical, mental, spiritual, or immaterial. |
-| **Healing** | Restore 1 Hit Point per Impact. Any healing can stabilise a Major Wound or revive an unconscious living target. Impact 3 can purge one poison or disease. Impact 4 can repair one Major Wound. Returning the dead is Impact 5. |
-| **Armour or warding** | Grant 1 Armour Point per Impact against a defined class of harm. Broad protection against both physical and magical harm starts at Impact 2. |
-| **Skill modifier** | A narrowly defined +1B or -1P is Impact 2. A maximum +2B or -2P is Impact 4. Magic never increases a skill's critical range separately. |
-| **Characteristic modifier** | Increase or reduce one Characteristic by 1 per Impact, to the normal campaign limits. Changing POW does not change current or maximum Power Points. |
-| **Movement** | Impact 1 pushes a person a few metres or slowly moves a small object. Impact 2 moves a human-sized target slowly. Impact 3 grants controlled movement up to the target's normal Movement Rate, including flight when the Authority permits it. |
-| **Restraint** | Impact 1 hinders or briefly catches a target. Impact 2 fully restrains a human-sized target. Impact 3 creates restraint that needs exceptional force, the right tool, or magic to escape. |
-| **Influence** | Impact 1 colours an emotion or plants a plausible suggestion. Impact 2 compels one reasonable action. Impact 3 compels conduct against the target's interests. Impact 4 controls the target, with the safeguards below. |
-| **Sensing** | Impact 1 reveals one immediate clue or detects a defined nearby presence. Impact 2 locates, diagnoses, or sees through ordinary concealment. Impact 3 observes a remote scene or deeply hidden fact. Impact 4 reaches obscured history, motives, or possible futures. |
-| **Creation or transformation** | Impact 1 makes a superficial or simple change. Impact 2 makes a functional mundane object or substantial temporary alteration. Impact 3 changes essential form or properties. Impact 4 creates or transforms something that cannot normally exist. Each useful capability beyond the central change is an additional outcome. |
-| **Summoning** | Impact 1 calls a harmless guide or messenger; Impact 2 a useful but weak being; Impact 3 a being comparable to one competent adventurer; Impact 4 a major supernatural threat; Impact 5 a unique or legendary entity. Use the being's total threat, not its appearance, to set Impact. |
+---
 
-When no benchmark fits, compare the Working with a mundane character's action.
-Impact 1 should not outperform a specialist, Impact 2 can match a strong
-specialist action, and Impact 3 or more may exceed normal human capability.
+## 4. Range, Reach, Duration, and Adjustments
 
-## Range
-
-Choose the lowest Range that reaches every target. Range 1 and 2 require an
-unobstructed path to the target. Precise awareness alone does not let magic
-pass through a wall; doing so requires the Indirect adjustment. Range 3 or
-greater can use a familiar, marked, or mystically linked target as stated in
-the table.
+### Range
 
 | Rating | Range |
-| ---: | --- |
-| **0** | Self or touch |
-| **1** | Within POW x 3 metres |
-| **2** | Within POW x 30 metres |
-| **3** | Within POW x 3 kilometres; the target must be familiar, marked, or precisely located |
-| **4** | Anywhere in the same realm; requires a true name, sympathetic link, or equivalent connection and a ritual |
-| **5** | Another realm or plane; requires a mythic ritual |
+|---:|---|
+| 0 | Self or touch |
+| 1 | Within 15 metres |
+| 2 | Within 50 metres |
+| 3 | Any visible point |
+| 4 | Familiar, marked, or mystically linked target in the same realm; ritual |
+| 5 | Another realm or plane; mythic ritual |
 
-A Touch Working against a wary target also requires a successful Unarmed
-Combat test to make contact.
+Range 1–3 needs an unobstructed route. Precise awareness alone does not cross a wall; use **Indirect** when the Authority permits.
 
-## Breadth
+### Reach
 
-Breadth covers number of targets, area, and the physical size of a single
-target. Use the highest rating that applies. The exact shape may follow the
-fiction, but may not provide more useful coverage than the listed radius.
+Use the highest rating required by target count, area, or subject size.
 
-| Rating | Targets or area | Largest single subject |
-| ---: | --- | --- |
-| **0** | One target | A person, door, or object of roughly human size |
-| **1** | Up to 3 targets or a 3 metre radius | A wagon or large tree |
-| **2** | Up to 10 targets or a 10 metre radius | A room or similar space |
-| **3** | Up to 100 targets or a 50 metre radius | A building or ship |
-| **4** | Up to 1,000 targets or a 500 metre radius | A settlement |
-| **5** | An army, city, or region | A landscape-scale subject |
+| Rating | Targets or area | Largest subject |
+|---:|---|---|
+| 0 | One | Person, door, or human-sized object |
+| 1 | Up to 3 or 3-metre radius | Wagon or large tree |
+| 2 | Up to 10 or 10-metre radius | Room-sized structure |
+| 3 | Up to 100 or 50-metre radius | Building or ship; ritual |
+| 4 | Up to 1,000 or 500-metre radius | Settlement; ritual |
+| 5 | Army, city, or region | Landscape-scale; mythic ritual |
 
-Ratings 4 and 5 always require a ritual. A large subject may also require
-higher Impact because a minor change cannot demolish a castle merely by
-paying for its Breadth.
+Areas include allies. Excluding arbitrary subjects requires **Selective**. Paying Reach cannot let Minor Intensity demolish a castle or transform a city; both strength and scale must fit.
 
-## Duration
-
-Duration prolongs a state or change. It does not multiply instant damage,
-healing, or information.
+### Duration
 
 | Rating | Duration |
-| ---: | --- |
-| **0** | Instant, until the end of the next turn, or concentration |
-| **1** | One scene or 10 minutes |
-| **2** | Until the target next fully rests, up to 8 hours |
-| **3** | One week |
-| **4** | Indefinite, until dismissed or dispelled |
-| **5** | A permanent transformation or anchored enchantment |
+|---:|---|
+| 0 | Instant or until the end of the next turn |
+| 1 | One scene or 10 minutes |
+| 2 | Until the target next fully rests, maximum 8 hours |
+| 3 | One week; ritual |
+| 4 | Indefinite until dismissed or Dispelled; ritual |
+| 5 | Permanent; mythic ritual |
 
-While concentrating, the caster cannot take another Action and may move only
-half their Movement Rate. Injury or serious distraction requires a Persistence
-test to maintain the Working. A caster may concentrate on only one Working.
+Duration sustains a state, sense, or observation. It cannot make direct damage, healing, discrete answers, or other one-use outcomes repeat; created hazards use their separate benchmark below. Concentration is maintenance, and continuing beyond the next turn still requires Duration 1+.
 
-The total Magnitude of a caster's active Workings cannot exceed their POW.
-Concentrated Workings, summons, dormant Triggers, indefinite Workings, and
-anchored enchantments all count. Completed permanent transformations do not.
-Check only the Working's active footprint after success: instant outcomes and
-permanent transformations never consume this capacity. If a new ongoing
-Working would exceed the limit, the caster must first dismiss enough existing
-Workings. This limit still applies after spent Power Points recover.
-
-An indefinite Working also **commits** Power Points equal to its full
-Magnitude. On a success, reduce both the caster's current Power Points and
-their available maximum by the full Magnitude. A critical still commits the
-full amount; its only additional benefit for an indefinite Working is the
-Penalty die to resistance. The caster must personally have enough uncommitted
-maximum **and current** Power Points, so stores and ritual participants cannot
-substitute for this commitment.
-
-When an indefinite Working ends, restore the caster's available maximum
-immediately, but do not increase their current Power Points. The empty points
-recover through rest as normal. A failure costs 1 Power Point and commits
-nothing. A fumble loses the full cost and causes Backlash, but the failed
-Working commits nothing.
-
-A permanent Working always requires a ritual and a lasting price agreed with
-the Gamemaster. A permanent **transformation** completes a real change and then
-ceases to be magic; it has no anchor and must be reversed by a new Working. An
-**anchored enchantment** remains active magic, can be Sensed and Dispelled, and
-ends or becomes dormant if its physical or spiritual anchor is destroyed. It
-continues to count against the creator's active-Magnitude limit unless its
-lasting price explicitly severs that connection. Neither form can accumulate
-free permanent bonuses or valuable matter.
-
-Damage, healing, information, and other instant outcomes occur only once. They
-cannot recur automatically or be bundled into Duration; the caster must create
-a new Working for each use. Any foreseeable damage, condition, or resource
-benefit from created matter must be purchased as an outcome with normal Impact
-and Breadth. Incidental aftermath may colour the fiction, but cannot launder a
-stronger or repeating effect through a cheaply created poison, explosive,
-acid, fire, or similar hazard.
-
-## Adjustments
-
-Add these after Impact, Range, Breadth, and Duration.
+### Adjustments
 
 | Adjustment | Magnitude |
-| --- | ---: |
-| Each additional known Authority required | +1 |
-| Effect outside all known Authorities, when overreach is allowed | +2 and -1P |
-| Each independent additional outcome | Add that outcome's full Impact |
-| **Trigger:** hold the Working for one clear, observable event | +1, plus both Duration ratings |
-| **Selective:** choose an arbitrary subset inside an area, such as enemies but not allies | +1 |
-| **Veiled:** make the Tell subtle and harder to detect | +1 and -1P |
-| **Indirect:** pass through or around each solid barrier | +1 per barrier |
-| **Piercing:** make damaging magic ignore mundane Armour | +1 |
+|---|---:|
+| Each additional known Authority | +1 |
+| Additional outcome permitted by the Authorities | Add its full Intensity |
+| **Selective:** exclude chosen subjects from an area | +1 |
+| **Piercing:** ignore applicable mundane armour | +1 |
+| **Indirect:** cross a solid barrier | +1 per barrier |
+| **Veiled:** conceal the Tell | +1 and `-1P` to Magic Casting |
+| **Trigger:** wait for one observable event | +1, plus a second Duration rating for the wait |
 
-Shared Range, Breadth, and Duration are counted once for a combined Working,
-but every useful outcome pays its own Impact. If the outcomes could sensibly
-be cast at different times, they are usually separate Workings.
+Shared Range, Reach, and Duration are counted once. Outcomes using the same defence share one defence roll; outcomes using different defences resolve separately.
 
-A Trigger fires once and then ends. Add one Duration rating for how long it
-waits and a separate Duration rating for how long its effect lasts after it
-fires. An instant triggered effect has post-trigger Duration 0. A waiting
-Trigger remains an active Working, and an indefinite wait commits its full
-Magnitude as normal. A Trigger can observe a concrete event such as a door
-opening; detecting motives, identities, or hidden qualities requires an
-appropriate sensing outcome.
+An additional outcome must be mechanically distinct. The same subject cannot receive repeated damage, healing, movement, restraint, control, or another numerically cumulative outcome from one Working; use higher Intensity for a stronger version.
 
-A Veiled Tell is never erased. Observers use Perception opposed by the caster's
-Magic Casting to notice it, or use Sense Magic normally. The Practice remains
-interruptible, and anyone who detects the Tell in time may Counter.
+A Trigger uses ordinary Duration for its effect and a second Duration for its wait. It fires once. It can observe a door opening or spoken phrase; motives, identities, and hidden qualities require a sensing outcome.
 
-When a combined hostile Working has several outcomes, a target makes one
-resistance roll if the same resistance applies to all of them. If different
-resistances apply, resolve each outcome separately with its appropriate skill.
+A Veiled Tell is noticed by Perception opposed by Magic Casting. Practice remains interruptible, and anyone detecting the Tell in time may Counter.
 
-Cosmetic details are free. Making a fire blue, giving a ward the shape of
-wings, or having a divine cure sound like a choir does not add Magnitude.
+Natural consequences remain—a magically pushed foe may fall from a ledge—but cannot hide free damage, modifiers, conditions, or resources.
 
-## Control and Casting Difficulty
+---
 
-A practitioner's **Control** is the tens value of their Magic Casting skill,
-with a minimum of 1. A character with Magic Casting 67% has Control 6; one
-with 103% has Control 10.
+## 5. Effect Benchmarks
 
-| Magnitude compared with Control | Casting test |
-| --- | --- |
-| Magnitude no greater than Control | Normal |
-| 1 or 2 above Control | Penalty die (-1P) |
-| 3 or 4 above Control | Two Penalty dice (-2P) |
-| 5 or more above Control | Cannot be cast as a normal Working; use a ritual |
+Use these values for familiar mechanical outcomes.
 
-Modifiers for overreach, a Veiled Tell, circumstances, preparation, and
-assistance apply in addition. Bonus and Penalty dice cancel normally.
+| Outcome | Effect |
+|---|---|
+| Direct damage | Deal `Intensity D6`; never add Damage Modifier. |
+| Healing | Restore HP equal to Intensity. |
+| Armour or reduction | Grant AP equal to Intensity against one defined class of harm. |
+| Barrier | AP = Intensity; total HP = `5 × Intensity`; Reach sets footprint. |
+| Skill modifier | `+1B`/`-1P` at Intensity 2; `+2B`/`-2P` at Intensity 4. |
+| Characteristic modifier | ±1 at Intensity 3; ±2 at Intensity 4, within normal limits. |
+| Brief hindrance | Intensity 1 may halve Movement until the end of the next turn. |
+| Restraint or forced movement | Intensity 2 restrains a human-sized subject or moves it up to 3 metres. |
+| Flight | Intensity 3 moves a willing subject at normal Movement while controlled. |
+| Lost Combat Action | Intensity 3, once; immunity lasts until the target completes a later Combat Action. |
+| Full bodily or mental control | Intensity 4 and active control. |
 
-The caster must have access to enough Power Points to pay the final cost before
-rolling. Power from a store or ritual participants can meet this requirement.
+When no benchmark fits, compare the outcome with mundane action. Intensity 1 should not outperform a specialist; Intensity 2 may match a strong specialist action; Intensity 3+ exceeds ordinary human ability.
 
-## Casting a Working
+### Damage, armour, and wounds
 
-The player declares the complete Working and the Gamemaster confirms its
-Magnitude, test modifier, resistance, and consequences. These terms do not
-change after the roll unless the table discovers a genuine rules mistake.
+Magic damage follows normal Parry, armour, object, HP, and Major Wound rules. A post-armour hit equal to or greater than MWL causes Wounded and Bleeding normally. **Piercing** ignores mundane armour that would otherwise apply. A description such as internal, spiritual, or immaterial does not bypass armour for free; magical Wards may still apply.
 
-A standard Working begins at the start of the Combat Round and takes effect on
-the caster's Combat Order. The caster may move up to half their Movement Rate
-but may take no other Action while casting. The Practice and Tell occur during
-this time.
+A Working may damage a physical magical manifestation or exploit a genuine natural counter. Only **Dispel** directly ends an active Working.
 
-Blinding, silencing, binding, disarming, or otherwise obstructing a required
-part of the Practice ruins the Working. Injury or another serious distraction
-requires a Persistence test to continue, as with any interrupted casting.
+### Healing and death
 
-Roll D100 against Magic Casting and resolve the result:
+Healing cannot exceed maximum HP and also removes **Bleeding** and **Dying**. A living subject raised above 0 HP may act on their next turn in Combat Order. Wounded remains.
 
-| Result | Effect |
-| --- | --- |
-| **Critical** | The Working succeeds. Pay half its Power Point cost, rounded up. Any resistance against it suffers a Penalty die (-1P). |
-| **Success** | The Working succeeds and the caster pays its Power Point cost. |
-| **Failure** | The Working has no effect and the caster loses 1 Power Point. |
-| **Fumble** | The Working has no intended effect. The caster pays its full Power Point cost and suffers Backlash. |
+At Intensity 3+, healing counts as Surgery or equivalent treatment: natural recovery is unlocked, and Wounded ends after treatment once HP exceeds MWL.
 
-A Trick with final Magnitude 0 costs no Power Points and needs no test in calm
-conditions. Under pressure, test Magic Casting; failure simply produces no
-effect, while a fumble creates a minor embarrassing or inconvenient Tell.
+Curing poison or disease requires minimum Intensity `ceil(Potency / 25)`. Oppose Magic Casting with Potency; the practitioner must succeed and win. After failure, that practitioner needs new treatment, discovery, full rest, or another meaningful change before retrying.
 
-## Resistance
+Healing does not remove Fatigue, deprivation, age, or unrelated conditions without another paid outcome. Returning the dead requires Intensity 5, permanent Duration, a suitable Authority, a mythic ritual, a willing reachable soul, and a lasting price. The character returns at 1 HP and Wounded; a destroyed body must be restored separately.
 
-An unwilling target receives resistance whenever a Working would adversely
-change their body, mind, position, senses, capabilities, choices, or attended
-possessions. This includes harm, restraint, forced movement, penalties,
-sensory suppression, control, reading, banishment, theft, and transformation.
+### Modifiers and transformation
 
-| Resistance | Use when |
-| --- | --- |
-| **Dodge** | A visible projectile, beam, wave, explosion, or area can physically be avoided. The target must be able to use a Reaction. |
-| **Persistence** | The Working attacks thought, emotion, memory, identity, spirit, or magical control. |
-| **Resilience** | The Working attacks or forcibly changes the target's body, life force, or physical substance. |
+A modifier names one skill or narrow family. Identical magical modifiers do not stack. Magic never expands critical range or grants extra Combat Actions, Movement Actions, Reactions, Dodges, PP, IP, Hero Points, Talents, skills, or memories.
 
-A successful resistance prevents the hostile effect on that target. Power
-Points are still spent. Area targets resist separately unless the Gamemaster
-uses one representative score for a group of similar minor characters.
+Temporary characteristic changes affect direct tests and physical thresholds, never prerequisites or derived values: base skills, HP, MWL, PP, DM, Combat Order, and active capacity. Permanent changes recalculate normally. Permanent POW loss lowers maximum PP and active capacity, forcing dismissals until legal.
 
-Worn, held, or closely guarded objects use their bearer's resistance. Choose
-Dodge, Persistence, or Resilience according to how the Working reaches and
-changes the object. Unattended objects do not resist.
+A transformation changes appearance and form. AP, attacks, movement modes, senses, Size benefits, and other mechanics are additional outcomes guided by an existing profile. Concept grants permission, not free capabilities.
 
-A target controlled against its interests makes a new Persistence test when
-ordered to betray a defining loyalty, violate a central belief, or knowingly
-suffer serious harm. A command to certain death always grants another test and
-may require Impact 5 if it wholly erases the target's agency.
+### Restraint, influence, and control
 
-Illusions are not resisted on sight. A witness with a reason to doubt may use
-Perception in an opposed test against the caster's Magic Casting. An illusion
-cannot cause real damage unless real harm was purchased as an additional
-outcome.
+Intensity 1 may colour emotion or plant a plausible suggestion. Intensity 2 may compel one limited, reasonable action, but cannot consume or deny an Action in combat, create an immediate tactical disadvantage, or work against the subject's interests. Those effects require Intensity 3, which may also remove one Combat Action. Intensity 4 permits full control.
 
-## Backlash
+A compelled combat act occurs on the subject's next turn and spends its corresponding Action; it never grants an extra Action.
 
-Backlash follows the Source, Practice, and intended Working. The Gamemaster
-chooses or improvises a consequence proportionate to the Magnitude:
+A restrained subject may spend a Combat Action to retry its original defence against the stored casting result. Full control grants another Persistence test against serious self-harm, defining betrayal, or violation of a central belief; certain death always grants one. A successful defence ends that control for the subject.
 
-- The caster loses additional Power Points or suffers 1D4 damage that ignores
-  Armour.
-- The intended force spills onto the caster, an ally, or the surroundings at
-  one lower Impact.
-- A related condition lasts until the caster rests: a flame-worker radiates
-  dangerous heat, a dream-worker cannot distinguish one memory from fantasy,
-  or a spirit-worker becomes visible to the dead.
-- The Working attracts an entity, authority, omen, debt, or hostile attention
-  connected to its Source.
-- A focus breaks, an offering is consumed without effect, or the local area is
-  temporarily scarred by the magic.
-- The practitioner suffers a Penalty die (-1P) to Magic Casting until they
-  rest, repair the Practice, or appease the Source.
+Directing an actively controlled subject spends the practitioner's Combat Action. It obeys on its own turn in Combat Order, using the corresponding Action and gaining no extra one. Without maintenance, a creature regains control and an object stops where possible.
 
-Backlash should create a real complication without arbitrarily changing the
-character's concept. A fumbled minor Working causes a short, local problem. A
-fumbled ritual or mythic Working may create a lasting adventure.
+### Wards and barriers
 
-Repeating a failed Working without changing the approach or circumstances
-adds a Penalty die (-1P). This penalty ends when the situation changes
-meaningfully; it prevents unlimited rerolls, not later attempts in a new
-scene.
+A Ward grants one benefit: AP or reduction equal to Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint and resisted on each crossing attempt.
 
-## Rituals
+Ward AP never adds to worn armour against the same damage. If both apply, use the higher AP; if worn armour does not protect against the source, use Ward AP alone. Same-kind magical protection never stacks.
 
-Rituals handle Workings too large for one hurried practitioner. A ritual:
+A solid barrier blocks movement and line of effect until destroyed. It cannot appear through occupied space. Placement trapping an unwilling subject is hostile restraint; the defender chooses Dodge or Resilience. An Authority unable to create a solid structure cannot use barrier statistics.
 
-- takes **one hour per point of Magnitude**;
-- requires a prepared place, the full Practice, and an appropriate focus or
-  offering;
-- grants a Bonus die (+1B) to the leader's Magic Casting test;
-- permits a Magnitude up to **twice the leader's Control**; and
-- is mandatory for any Mythic Working, Range 4, Breadth 4, or permanent
-  Duration.
+### Divination and illusions
 
-Rituals ignore the normal prohibition against casting 5 or more points above
-Control. Determine the ritual's base modifier before its preparation bonus:
+| Intensity | Information within purchased Range |
+|---:|---|
+| 1 | Detect a defined presence or reveal one immediate clue. |
+| 2 | Locate, diagnose, communicate, or see through ordinary concealment. |
+| 3 | Observe a distant scene, read surface thoughts, or reveal deeply hidden information. |
+| 4 | Reach guarded memory, obscured history, motives, or uncertain possible futures. |
 
-| Ritual Magnitude | Base casting modifier |
-| --- | --- |
-| No greater than Control | Normal |
-| 1 or 2 above Control | Penalty die (-1P) |
-| 3 or more above Control, up to twice Control | Two Penalty dice (-2P) |
+Divination gives evidence, not omniscience or knowledge absent from every accessible mind, place, spirit, trace, or pattern. Possible futures change when acted upon. Live observation, communication, or thought-reading requires concentration; a static sense or single fact does not.
 
-Then apply the ritual's +1B and any Assistance. Thus a ritual 3 or more points
-above Control is cast at -1P before Assistance.
+A doubting witness may spend a Combat Action to oppose Perception with an illusion's stored result. Success recognises the falsehood and allows the witness to act on that knowledge, but does not Dispel the illusion or reveal anything it physically conceals. Failure requires new evidence before retrying. Illusions deal no direct harm.
 
-Beyond twice the leader's Control is possible only as a unique campaign event
-with the Gamemaster's approval, exceptional preparation, and a serious lasting
-price.
+### Summons and named beings
 
-One assistant with Magic Casting 26% or more can use the normal Assistance
-rules to grant a further Bonus die (+1B). Additional assistants do not add
-more Bonus dice, but any willing participant may contribute Power Points. All
-**pledged** contributions are declared before the roll. On a failure, the
-group loses half the final Power Point cost, rounded up, from those pledges;
-this replaces the normal 1 Power Point loss. Expended ritual components are
-also consumed. On a fumble, all pledged Power Points are lost and all
-participants are exposed to Backlash. A failed permanent
-or Mythic ritual also destroys or compromises one required offering, focus,
-anchor, or price identified by the Gamemaster before the roll.
+A practitioner may have only one combat-capable summon or actively controlled subject at a time. Reach does not bypass this limit.
 
-On a success, the group spends the pledged points as declared. On a critical,
-the group spends only half the final cost, rounded up, and may choose which
-pledged points are unused. Indefinite Workings are the exception: participants
-may assist but cannot pay their cost; the leader must personally commit the
-full Magnitude even on a critical.
+A generic combat summon acts immediately after its practitioner. It may move, communicate, and defend uncommanded. A consequential action costs the practitioner's Combat Action and the summon's corresponding Action. It has Movement 15, one Movement Action, and one base Reaction.
 
-### Leverage
+| Intensity | HP | AP | Attack/defence | Damage |
+|---:|---:|---:|---:|---:|
+| 1 | 3 | 0 | 25% | `1D3` |
+| 2 | 6 | 1 | 40% | `1D6` |
+| 3 | 10 | 2 | 55% | `1D8` |
+| 4 | 14 | 3 | 70% | `2D6` |
 
-Concrete advantages can supply up to 2 Power Points of a ritual's cost, one
-point each. Examples include:
+Listed defence covers Dodge, Resilience, Persistence, and a physically possible Parry; damage adds no DM. Summons ignore Major Wounds and vanish at 0 HP. Each useful capability beyond the listed profile—including flight, incorporeality, invisibility, spellcasting, additional natural armour, or special senses—raises minimum Intensity or adds an outcome.
 
-- a true name, body part, cherished possession, or other strong sympathetic
-  link;
-- a rare component that is consumed;
-- a place and time strongly aligned with the Source; or
-- an oath, bargain, or sacrifice whose consequence will matter after the
-  ritual.
+A named being uses its own profile; set Intensity from its actual threat, with Intensity 5 reserved for legendary beings. An unwilling named being resists the call with Persistence. Calling it does not grant control: it remembers treatment and may demand terms. Binding or commanding it is another outcome and allows Persistence. Duration and active limits apply until the Working ends. Afterward, the being may independently choose to remain, but the practitioner gains no magical command, guaranteed service, protection, or dismissal.
 
-Leverage reduces only the Power Points that participants pay. It does not
-reduce Magnitude, casting difficulty, committed Power Points for an indefinite
-Working, or the power needed to Counter or Dispel it. A ritual always costs at
-least 1 Power Point from its participants.
+Created, summoned, transformed, or compelled beings cannot summon, contribute PP, create magical resources, supply Leverage, or pay ritual prices.
 
-Something already required to make the ritual possible, such as the
-sympathetic link required by Range 4, does not also provide Leverage.
+---
 
-### Permanent and Mythic Prices
+## 6. Casting and Defence
 
-Permanent creation requires equivalent material: magic may shape a bridge
-from stone, but it does not create unlimited valuable stone from nothing.
-An anchored enchantment needs an anchor that can be found, guarded, stolen, or
-destroyed. Destroying that anchor ends the enchantment unless its agreed price
-explicitly says that it merely becomes dormant until the anchor is restored.
+### Safe Magnitude and overreach
 
-Mythic Workings also demand a lasting price chosen to fit the campaign. Valid
-prices include permanent loss of POW, one or more Hero Points, destruction of
-a unique treasure, a binding oath, a debt to a supernatural power, a permanent
-change to the caster, or a quest that must be completed. Power Points alone
-are never enough to reverse death or rewrite the setting.
+Normal casting reaches at most Safe Magnitude + 2.
 
-## Universal Magical Actions
+| Magnitude compared with Safe | Casting modifier |
+|---|---:|
+| No greater | None |
+| 1 higher | `-1P` |
+| 2 higher | `-2P` |
+| 3+ higher | Ritual required |
 
-These actions come with the discipline and do not require a separate
-Authority. Their appearance and Practice still follow the character's
-Tradition.
+It remains overreach when Bonus dice cancel the Penalty dice.
+
+### Cast
+
+1. Declare Authority and outcome; set Intensity, Range, Reach, Duration, and adjustments.
+2. The Gamemaster confirms Magnitude, modifiers, defence, armour, and consequences.
+3. Confirm current PP can cover full Magnitude, or ritual pledges can cover the final payable cost after Leverage. An indefinite ritual instead requires the leader personally to cover full Magnitude in current and available maximum PP. Confirm the active limit remains legal.
+4. Spend one Combat Action and test Magic Casting; retain the Movement Action and eligible Reactions.
+5. Resolve Counter and defence, pay PP, then apply the effect.
+
+Practice, Tell, a valid target, and line of effect are required unless divination, Indirect, or ritual Range says otherwise. If a required Practice is already prevented, casting cannot begin.
+
+| Casting result | Outcome |
+|---|---|
+| **Critical** | Success; pay half Magnitude, rounded up. Critical grade applies, but effect dice are not maximised. |
+| **Success** | Pay full Magnitude. |
+| **Failure within Safe Magnitude** | No effect; lose 1 PP. |
+| **Failed overreach** | No effect; lose half Magnitude, rounded up, and suffer Backlash. |
+| **Fumble** | No intended effect; lose full Magnitude and suffer Backlash. |
+
+A stopped successful Working still pays. Resolve Hero Point rerolls before PP loss or Backlash. Effects begin before 0-PP unconsciousness; concentration then ends.
+
+### Defence
+
+Use one defence per hostile outcome. Roll Magic Casting once and reuse its result.
+
+| Effect | Defence | Reaction? |
+|---|---|---:|
+| Self, willing subject, unattended object, empty point | None | No |
+| Visible projectile, beam, wave, burst, or avoidable area | Dodge at `-1P` | Base Reaction only |
+| Direct bodily alteration, restraint, or physical control | Resilience | No |
+| Thought, emotion, memory, identity, soul, or spiritual control | Persistence | No |
+
+Outcomes sharing a defence share its roll. One Dodge answers all dodgeable outcomes in one Working; different defences resolve separately.
+
+Resilience and Persistence are opposed tests: the practitioner must succeed and win. Neither spends a Reaction, and two failures never create an effect.
+
+Dodge uses the Magic Casting result and combat matrix. A magical Critical resolves the normal effect, not maximum damage or ignored armour. Dodge remains limited to once per round and the base Reaction.
+
+A hostile Touch Working first requires a no-damage Unarmed Combat delivery attack—the sole defence exception. It cannot use a Talent or trigger an off-hand attack. The target may React; contact succeeds only if the combat matrix does not stop the hit, and a partial Parry does not stop it. Failed contact spends the Combat Action but ends without a Magic Casting roll or PP loss; success proceeds to casting and resistance. Contact Criticals add nothing.
+
+Roll Magic Casting once for an area; unwilling subjects defend separately. An aware subject may Dodge a visible area at `-1P` through the combat matrix. Dodge grants no movement or prone condition. Attended objects use their bearer's defence.
+
+Each unwilling subject defends the first time an ongoing area would affect them. Store that subject's outcome for the Working's Duration; leaving suspends an effect already suffered, and re-entering grants no new defence.
+
+### Cover and shields
+
+When terrain interrupts a projected Working, partial cover gives `-1P`, substantial cover `-2P`, and complete cover prevents casting unless another route or Indirect applies.
+
+The Shield Cover Talent penalises plausibly obstructed projected Workings; use the better shield or terrain penalty. Internal bodily, mental, and spiritual effects gain none.
+
+Tangible magical projectiles are Light for Active Guard—existing objects retain Size—and count as thrown weapons. A full-block Parry stops projectile and outcome; a lesser Parry reduces damage only. Flame, wind, lightning, pure force, bodily, mental, and spiritual effects cannot be Parried.
+
+Counter resolves before target defence. A character cannot Counter and then Dodge or use Active Guard against the same Working, but another character's Counter does not consume the target's Reaction. Each affected target may use at most one eligible defensive Reaction.
+
+---
+
+## 7. Backlash
+
+Roll `1D4` or let the Gamemaster choose:
+
+| `1D4` | Result |
+|---:|---|
+| 1 | Take Magnitude damage ignoring armour; it can cause a Major Wound. |
+| 2 | Lose another Magnitude PP, to a minimum of 0. |
+| 3 | An immediate Reach-0 effect at one lower Intensity strikes the practitioner, nearest valid subject, or surroundings. It gains no beneficial adjustment; Intensity 0–1 is cosmetic trouble. |
+| 4 | Become Fatigued; if Fatigued, become Exhausted; if Exhausted, fall unconscious `3D6` minutes and awaken Fatigued. |
+
+Describe Backlash through the Source, Authority, Practice, and Tell. The Gamemaster may substitute an equally immediate and severe consequence established before the roll, but cannot arbitrarily rewrite the character's concept. Counter or Dispel spills use the target Working's Authority at one lower Intensity; Intensity 0 is cosmetic trouble.
+
+---
+
+## 8. Ongoing Workings
+
+Total active Magnitude cannot exceed permanent, unmodified POW. Count concentration, modifiers, Wards, barriers, summons, control, Triggers, and tied anchors; ignore instant effects and completed permanent transformations. Dismiss a Working on the practitioner's turn without spending an Action.
+
+Check Range and route when a set-duration effect begins; it then needs attention only if controlled. Concentration and active control cost the Combat Action each round, and only one may be maintained. A controlled subject must stay within purchased Range and a valid route unless Range 4+, Indirect, or the Authority establishes another link. Summon commands instead work within 15 metres and line of effect. Damage or serious distraction to the practitioner requires Persistence or ends maintenance. Record each ongoing Working's Magnitude and casting result.
+
+Only the strongest magical modifier, armour, or protection of the same kind applies. Mundane circumstances combine normally under the `+3B`/`-3P` cap.
+
+Temporary matter vanishes when Duration ends. It cannot leave value, supply permanent crafting, or create PP, IP, Hero Points, Talents, components, Leverage, anchors, or prices. Complex objects still require relevant Craft, Engineering, or Lore.
+
+A created hazard deals fixed damage equal to Intensity per round. It cannot appear overlapping an unwilling subject; drowning, suffocation, restraint, and immediate damage are separate outcomes. Mundane hazards it causes then use core rules.
+
+An indefinite Working commits full Magnitude from current and available maximum PP, even on a Critical; the reduced maximum governs recovery. Leave at least 1 available maximum PP unless helplessness until external Dispel is a declared mythic price. Ending restores maximum PP; current PP recover normally. Others cannot pay this commitment.
+
+---
+
+## 9. Universal Magical Actions
+
+These use the Tradition's Practice and Tell but require no Authority.
 
 ### Sense Magic
 
-Sensing the presence of an active Working within POW x 3 metres is Impact 1,
-Range 1, and Instant: Magnitude 2. Success reveals its approximate location,
-Authority, and emotional or sensory character. Increase Impact to 2 to learn
-its exact Magnitude, effects, and anchor. Concealed magic, including a Veiled
-Tell, makes this an opposed test against its creator's Magic Casting.
+Spend a Combat Action and 1 PP to test Magic Casting for active magic within 15 metres. Success reveals location and Authority; Critical adds Source, Magnitude, and whether it is concentrated, triggered, or anchored. Failure reveals nothing. A fumble gives a false impression and conspicuous Tell, not Backlash. Veiled magic opposes with its original result.
 
 ### Counter
 
-A practitioner who perceives a Working being cast or arriving within POW x 3
-metres may use their Reaction to Counter it. Counter is declared after the
-original caster rolls a success or critical, but before resistance or the
-effect. The countering practitioner must have Power Points equal to the
-Working's full Magnitude and rolls Magic Casting, comparing the result with the
-caster's original roll using the opposed test rules.
-
-The countering practitioner spends the full Magnitude whether they win or
-lose. The original caster pays or commits the amount required by the original
-casting rules, including the full commitment for an indefinite Working. If the
-countering practitioner wins, the Working is negated; otherwise it proceeds.
-Counter is an opposed test, not a resistance test, so the resistance penalty
-from an original critical does not apply. A countering fumble also causes
-Backlash.
-
-For example, a caster rolls 32 to create a Magnitude 4 Working. A nearby
-practitioner spends a Reaction and 4 Power Points to Counter, then rolls a
-successful 48. Both rolls succeeded, but 48 is higher, so the Counter wins and
-the original Working is negated. Its caster still pays the normal casting
-cost.
+After perceiving a successful Working cast or arriving within 15 metres, spend the base Reaction before defence or effect. Current PP must at least equal its Magnitude. Oppose Magic Casting with the original result; Counter must succeed and win. Spend full Magnitude either way; a fumble also causes Backlash at that Magnitude. Only one Counter may answer a Working, and Counter cannot be Countered.
 
 ### Dispel
 
-Dispel has a base Magnitude equal to the target Working's full Magnitude. It
-has no Impact and is not limited by Magic Casting rank. Add Range to reach it.
-Breadth is 0 for one Working even when that Working covers a large area; add
-Breadth only to remove several separate Workings at once. Duration is Instant.
-Apply Control and ritual limits to the final Dispel Magnitude normally.
+Dispel Magnitude equals the Working's full Magnitude plus Range to it; Reach is 0 for one Working regardless of area. Test and pay normally. On Success or Critical, oppose the result with the original practitioner's current unmodified Magic Casting. If unknown, use `10 × original Magnitude`, capped at 100%. The dispeller must succeed and win.
 
-Roll the dispeller's Magic Casting once and resolve its Power Point cost. A
-failure or fumble ends the attempt normally. On a success or critical, the
-original caster rolls Magic Casting and compares that result with the
-dispeller's existing roll as an opposed test. If the original caster is
-absent, the Gamemaster still rolls their recorded skill, or a score equal to
-the original Magnitude x 10 when no skill is known. If the dispeller wins, the
-active Working ends; otherwise it remains. A completed permanent
-transformation cannot be Dispelled, but an anchored enchantment can.
+Completed permanent transformations cannot be Dispelled; active anchored enchantments can.
 
-For example, removing Sira's Magnitude 6 shadow cloak by Touch is a Magnitude 6
-Dispel. Attempting it from within POW x 3 metres adds Range 1, making the
-Dispel Magnitude 7. The cloak affects a whole person, but it is still one
-Working, so the Dispel adds no Breadth.
+---
 
-## Special Cases
+## 10. Rituals and Leverage
 
-### Magic Cannot Create Its Own Costs
+Rituals are mandatory above normal Safe + 2, or for Intensity 5, Range 4+, Reach 3+, or Duration 3+. A ritual:
 
-No Working can create, duplicate, restore, or supply Power Points, Improvement
-Points, Hero Points, ritual Leverage, ritual components, anchors, or lasting
-prices. Magic can move or steal an existing Power Point store, but cannot make
-its contents from nothing.
+- takes one hour per Magnitude;
+- needs a prepared place, full Practice, and fitting focus or offering;
+- grants `+1B`; and
+- permits up to `max(Safe Magnitude + 2, 2 × Safe Magnitude)`.
 
-Created, summoned, compelled, or transformed beings cannot contribute Power
-Points to rituals, provide Leverage or lasting prices, or create and command
-further magical beings. A genuinely independent being recruited without magic
-may contribute normally.
+Anything beyond this maximum is a unique campaign event requiring exceptional preparation, Gamemaster approval, and a serious lasting price.
 
-### Beneficial Effects and Stacking
+| Magnitude compared with Safe | Base modifier |
+|---|---:|
+| No greater | None |
+| 1–2 higher | `-1P` |
+| 3+ higher | `-2P` |
 
-Only the strongest magical bonus or penalty of the same kind applies. Armour
-from different Workings does not stack unless a specific campaign rule says
-otherwise. A mundane advantage and a magical advantage may stack normally.
+Then apply ritual `+1B`, normal Assistance, circumstances, and the dice cap. A ritual above Safe counts as overreach on failure.
 
-A practitioner may dismiss any of their ongoing Workings as a free action.
-Ending concentration is immediate.
+Any willing participant present throughout and participating in the Practice may pledge PP. After Leverage, pledges must cover the payable cost and the leader must pledge at least 1 PP. Draw the leader's first PP first, then the remainder in the declared order. A Critical leaves unused pledges unspent. Only the leader rolls and suffers Backlash. On a fumble, each contributor advances one Fatigue step: normal to Fatigued, Fatigued to Exhausted, or Exhausted to unconscious for `3D6` minutes, awakening Fatigued.
 
-### Divination
+### Leverage
 
-Divination provides information, not omniscience. It reveals clues, sensory
-impressions, likely consequences, or possible futures appropriate to its
-Impact. It cannot create knowledge that no accessible person, place, spirit,
-or pattern contains. The future changes when people act on a vision.
+Up to two concrete advantages may each reduce a ritual's payable PP cost by 1:
 
-Questions that would remove the central uncertainty of an adventure may
-require higher Impact, a ritual, or a difficult-to-obtain connection.
+- a true name, body part, cherished possession, or strong sympathetic link;
+- a rare consumed component;
+- a place and time strongly aligned with the Source; or
+- an oath, bargain, or sacrifice with a consequential aftermath.
 
-### Conjuration and Created Matter
+Leverage is committed when the ritual begins: components are consumed and promised oaths, bargains, or sacrifices become binding even if the ritual fails. It reduces only PP paid or lost, to a minimum payable cost of 1. It never reduces Magnitude, difficulty, active capacity, Counter or Dispel strength, or an indefinite commitment. Something already required—such as the link enabling Range 4 or a lasting price—cannot also provide Leverage.
 
-Temporary created matter vanishes when Duration ends. It cannot be sold as
-genuine, used as a permanent crafting ingredient, or leave valuable residue.
-Creating a complex device requires the relevant Craft, Engineering, or Lore;
-magic supplies power and material, not missing expertise.
+When Leverage applies, replace Magnitude with payable cost only when calculating ritual PP expenditure: Critical pays half payable cost, rounded up; Success pays it in full; safe failure loses 1 PP; failed overreach loses half payable cost, rounded up, and causes Backlash; a fumble loses full payable cost and causes Backlash.
 
-### Transformation
+An indefinite ritual is the exception: the leader personally commits full Magnitude, with no Leverage or contributed PP.
 
-Use the closest existing creature or equipment profile for a transformed
-subject. Set Impact from the form's total usefulness and threat, not its name.
-Flight, Armour, natural weapons, special senses, and other independently useful
-capabilities beyond the transformation's central purpose are additional
-outcomes. Transformation cannot grant learned skills, memories, magical
-disciplines, or Power Points.
+### Permanent and Mythic Workings
 
-### Summoned Beings
+Permanent mundane creation requires equivalent material and becomes real and inactive, like a completed permanent transformation. Reversing either requires a new Working. Supernatural properties remain permanent enchantments: each needs a vulnerable physical or spiritual anchor and remains active and Dispellable through it. A lasting price may remove an enchantment from the creator's active total, but does not remove its anchor or Dispel vulnerability.
 
-A summoned being must be appropriate to the Authority and Source. A
-combat-capable summon can attack, cast a power, or take another consequential
-Action only when the caster spends an Action to command it. Otherwise it may
-move, communicate, and defend itself, but cannot take hostile action. A caster
-can control only one combat-capable summoned being at a time. Truly autonomous
-or multiple combatants are additional outcomes and increase Impact or
-Breadth.
+Any dial at 5 makes the ritual **Mythic** and requires a declared lasting price: permanent POW, a unique treasure, binding oath, supernatural debt, permanent change, or consequential quest. Consume required materials when the ritual begins; permanent POW, oaths, debts, quests, and other lasting changes attach on success, after resolving the Working. A fumble exacts them only if announced beforehand. PP alone cannot restore the dead or rewrite the setting, and magic cannot create its own costs.
 
-Named beings are not blank tools. They may demand terms, resist with
-Persistence, remember mistreatment, and exploit careless instructions.
+---
 
-### Healing and Death
+## 11. Examples
 
-Healing cannot restore Hit Points above the target's normal maximum. It does
-not remove fatigue, hunger, age, or a condition unless that outcome was
-included and priced. The same injury can be healed normally; Power Point cost
-already limits repeated use.
+Builds abbreviate Intensity as I, Range as R, and Duration as D.
 
-Returning the dead requires Impact 5, permanent Duration, one or more direct
-Authorities such as Bodies, Birth, the Dead, or Souls, and a mythic ritual.
-The soul must be willing and reachable. The ritual always carries a lasting
-price.
+| Intent | Authority and build | M | Result |
+|---|---|---:|---|
+| Cosmetic witch-light | Flame; I0 | 0 | Harmless blue flame until the end of the next turn; automatic when calm. |
+| Spear of sunlight within 15 m | Dawn; I2, R1 | 3 | `2D6` damage; Dodge `-1P`; armour applies. |
+| Treat a Major Wound | Bodies; I3 | 3 | Touch restores 3 HP, removes Bleeding/Dying, and counts as Surgery. |
+| Hammering gust within 15 m | Storms; I2 damage, extra I2 push, R1 | 5 | `2D6` and push up to 3 m; Dodge and Resilience resolve separately. |
+| Invoke the duke's sworn oath to answer | Oaths; I2, R1 | 3 | One limited truthful answer covered by the oath; Persistence resists. |
+| Carry a companion through the air for a scene | Winds; I3, D1 | 4 | A willing touched subject flies at normal Movement; active control spends the practitioner's Combat Action each round. |
+| Watch-rune for 8 hours | Thresholds; I1, wait D2, effect D0, Trigger +1 | 4 | Shouts once when the marked door opens. |
+| Indefinite shadow cloak | Shadows; I2, D4 | 6 | `-1P` to sight-based Perception; ritual commits 6 PP and requires available maximum PP 7+. |
+| Call the Ash Knight for a scene | The Dead; I3, D1 | 4 | Uses its established competent profile; it arrives unbound and may demand terms. Binding or commanding it is another resisted outcome. |
+| Permanent building-sized stone bridge | Stone; I3, Reach3, D5 | 11 | Requires equivalent stone and a unique mythic campaign event. The stone is required, not Leverage; an aligned crossing or the site's true name may reduce payable PP. |
+| Return the fallen queen | The Dead and Dawn; I5, R5, D5, extra Authority | 16 | A preserved body and reachable willing soul return at 1 HP and Wounded; unique mythic event and lasting price required. |
 
-## Examples
+At Magic Casting 50%, Safe Magnitude and maximum Intensity are 2. The sunlight spear is one-step overreach at `-1P`, and the watch-rune is two-step overreach at `-2P` but may be cast normally. The Magnitude-5 hammering gust exceeds an Apprentice's ritual maximum of 4 and requires a unique campaign event; at 51%, it becomes normal two-step overreach.
 
-### Witch-Light
+---
 
-Mara uses her Flame Authority to make a thumb-sized blue flame hover above her
-hand. It gives off no heat or useful illumination and grants no mechanical
-advantage. It is a Trick with Impact 0, Range 0, Breadth 0, and concentration:
-Magnitude 0. In calm conditions it simply works.
+## 12. Gamemaster Guidance
 
-### Freeze the Guard's Boots
+### Define Authority boundaries early
 
-Eira uses Winter to ice a guard's boots and halve his Movement until the end
-of his next turn. The hindrance is Minor Impact 1, Range 1, Breadth 0,
-Duration 0: **Magnitude 2**. Eira pays 2 Power Points on a success. The guard
-resists with Resilience.
+Agree on one inclusion and one exclusion when an Authority is learned. If a boundary changes, settle it before rolling and record the precedent. Do not reward persuasive wording with broader permissions than another character paid for.
 
-### Spear of Sunlight
+### Protect mundane roles
 
-Sol projects light hot enough to wound one creature. Potent Impact 2 deals 4
-damage, Range 1 reaches POW x 3 metres, Breadth and Duration are 0:
-**Magnitude 3**. The target may Dodge if it has a Reaction, and mundane Armour
-reduces the damage. Making the light ignore Armour adds Piercing, raising the
-Working to Magnitude 4.
+Magic may match a specialist for a scene by spending PP and accepting risk. It should not permanently erase Healing, Influence, Mechanisms, combat skills, equipment, or preparation. Complex mundane results may require the relevant skill as well as Magic Casting.
 
-### Hammering Gust
+### Preserve counterplay
 
-Tala wants one blast of wind to deal 4 damage and push a foe a few metres. The
-damage is Potent Impact 2, the push is an additional Minor Impact 1, and Range
-1 reaches the target: **Magnitude 4**. The target Dodges the damage and resists
-the push with Resilience, resolving the two outcomes separately.
+Unwilling targets defend against harm, lost freedom, identity, or control. Areas include allies without Selective. Tells permit Counter. Long-lasting Workings can be Dispelled or tied to vulnerable anchors. Named beings have motives rather than functioning as blank equipment.
 
-### Carry a Companion Through the Air
+---
 
-Tala uses Winds to fly a willing companion at normal Movement Rate for one
-scene. Full controlled flight is Major Impact 3, the target is touched for
-Range 0, Breadth 0, and one-scene Duration is 1: **Magnitude 4**. No resistance
-is needed.
+## 13. Quick Reference
 
-If Tala used concentration instead, Duration would be 0 and Magnitude would
-be 3, but she would spend her Actions maintaining the flight.
+| Rating | Intensity | Range | Reach | Duration |
+|---:|---|---|---|---|
+| 0 | Cosmetic | Self/touch | One human-sized subject | Instant/end next turn |
+| 1 | Ordinary action | 15 m | 3 targets/3 m radius | Scene/10 minutes |
+| 2 | Specialist action | 50 m | 10 targets/10 m radius | Until full rest, max 8 hours |
+| 3 | Superhuman | Visible point | 100 targets/50 m radius | One week; ritual |
+| 4 | Encounter-changing | Linked same-realm target | Settlement | Indefinite; ritual |
+| 5 | Mythic boundary | Another realm | City/region | Permanent; mythic |
 
-### Command the Duke to Confess
+**Worksheet:** `Intensity + Range + Reach + Duration + adjustments = Magnitude = base PP cost.`
 
-Iven uses Oaths to compel a duke to answer one question truthfully. A limited
-compulsion is Potent Impact 2, Range 1, Breadth 0, and Instant Duration 0:
-**Magnitude 3**. The duke resists with Persistence. A command to confess every
-secret publicly for a scene would have greater Impact and Duration.
+1. Name a known Authority and state one outcome.
+2. Set Intensity, Range, Reach, Duration, and adjustments.
+3. Confirm permission, Practice, Tell, target, route, defence, armour, PP, and active capacity.
+4. Apply overreach, spend one Combat Action, and test Magic Casting.
+5. Resolve Counter and defence; pay PP; apply and record the Working.
 
-### Fog Over the Courtyard
-
-Neris uses Mists to conceal a 10 metre radius for one scene. Obscuring sight is
-Potent Impact 2 because it imposes -1P on sight-based Perception tests. Range
-1, Breadth 2, and Duration 1 make **Magnitude 6**. Everyone inside is affected
-equally. A creature able to dive out of the area may Dodge when the fog forms;
-those that remain suffer the penalty. Selective casting that excludes Neris's
-allies would make Magnitude 7.
-
-### Watch-Rune
-
-Ko uses a Thresholds Authority to mark a door so that the rune shouts once when
-the door opens during the next 8 hours. The warning is Minor Impact 1, Touch
-Range and one target are 0, the waiting Duration is 2, the instant shout has
-Duration 0, and Trigger adds 1: **Magnitude 4**. It counts as an active
-Magnitude 4 Working until it fires or Ko dismisses it. An indefinite wait
-would use Duration 4, make Magnitude 6, and commit 6 Power Points.
-
-### Indefinite Shadow Cloak
-
-Sira uses Shadows to make herself supernaturally difficult to see until the
-effect is dispelled or dismissed. A -1P penalty to sight-based Perception is
-Potent Impact 2, with self Range 0, Breadth 0, and indefinite Duration 4:
-**Magnitude 6**. Sira has POW 10, 10 current Power Points, and Magic Casting
-67%, so she can commit the 6 points. On success, both her current and available
-maximum Power Points become 4. When she dismisses the cloak, her maximum
-returns to 10 but her current total remains 4 until she rests. A critical would
-still commit all 6 points.
-
-### Raise a Stone Bridge
-
-Oran permanently shapes available stone into a bridge the size of a building.
-The structural transformation is Major Impact 3, he works by Touch at Range
-0, the bridge is Breadth 3, and permanent Duration is 5: **Magnitude 11**.
-This requires enough stone, a ritual leader with Control 6 or more (Magic
-Casting 60%+), and a lasting price. Once shaped, the bridge is mundane stone
-and cannot be Dispelled.
-
-### Return the Fallen Queen
-
-A legendary hierophant uses the Dead to reach a willing queen's soul and Dawn
-to restore life to her body. Mythic Impact 5, other-realm Range 5, one target
-at Breadth 0, permanent Duration 5, and a second Authority +1 produce
-**Magnitude 16**. It is a mythic ritual. The Gamemaster also requires the
-queen's crown as a sympathetic focus, the willing sacrifice of 1 POW from the
-hierophant, and a journey to find the queen's soul.
-
-## Gamemaster Guidance
-
-### Price the Outcome
-
-Different descriptions of the same result have the same Impact. Knocking a
-guard unconscious with sleep, terror, stolen breath, or a spectral hammer is
-still an effect that disables a person. Creative description determines which
-Authority applies, what resistance is used, and what consequences make sense;
-it does not grant free power.
-
-### Protect Other Characters' Roles
-
-Magic may match a specialist for a scene by spending Power Points and risking
-failure. It should not permanently erase the value of Healing, Deception,
-Mechanisms, combat skills, or other expertise. Complex mundane results may
-require the relevant skill in addition to Magic Casting, especially when the
-caster lacks the knowledge needed to describe a successful result.
-
-### Preserve Choices and Counterplay
-
-- Unwilling creatures resist loss of health, freedom, identity, or control.
-- A large area affects allies unless Selective casting is purchased.
-- A Tell gives witnesses a chance to react.
-- Long-lasting magic can be Dispelled or tied to a vulnerable anchor.
-- Permanent and Mythic Workings create obligations and story consequences.
-
-### Make the Ruling Before the Roll
-
-The player should know the Magnitude, Power Point cost, Penalty dice,
-resistance, and obvious risk before committing. If a new interaction is
-unclear, choose a fair ruling for the current scene, write it down after play,
-and use it consistently.
-
-As a rough calibration, a normal combat Working usually has Magnitude 2 to 5.
-A Working that solves a whole scene is commonly Magnitude 5 to 8. Effects that
-bypass a major journey, reverse death, permanently alter the setting, or
-affect a settlement should be rituals with concrete requirements and lasting
-prices.
-
-## Quick Reference
-
-| Rating | Impact | Range | Breadth | Duration |
-| ---: | --- | --- | --- | --- |
-| **0** | Cosmetic Trick | Self or touch | One human-sized target | Instant, one turn, or concentration |
-| **1** | Ordinary action | POW x 3m | 3 targets or 3m radius | Scene or 10 minutes |
-| **2** | Strong specialist action | POW x 30m | 10 targets or 10m radius | Until full rest, up to 8 hours |
-| **3** | Superhuman result | POW x 3km, known target | 100 targets, 50m radius, or building | One week |
-| **4** | Encounter or setting change | Same realm, linked target | 1,000 targets or settlement | Indefinite |
-| **5** | Mythic boundary | Another realm | Army, city, or region | Permanent |
-
-**Worksheet:** `Impact + Range + Breadth + Duration + adjustments =
-Magnitude = base PP cost`. A Trigger adds both its waiting Duration and its
-post-trigger Duration.
-
-For a normal Working, Magnitude up to Control is unmodified, 1-2 above is -1P,
-3-4 above is -2P, and 5 or more above requires a ritual. A ritual may reach
-twice Control and applies its own difficulty table and +1B preparation bonus.
-
-1. Describe one outcome and name the Authority.
-2. Add Impact + Range + Breadth + Duration + adjustments.
-3. The total is both Magnitude and base Power Point cost.
-4. Compare Magnitude with Control, the tens value of Magic Casting.
-5. State resistance and all consequences.
-6. Roll Magic Casting, then resistance if needed.
-7. Spend Power Points and resolve the result.
-
-For interaction with older Fantasy Crux magic, use a Working's full Magnitude
-before ritual Leverage as its spell Magnitude.
+Price outcomes, not descriptions. Authority explains what magic can touch; Magnitude pays for what it accomplishes.

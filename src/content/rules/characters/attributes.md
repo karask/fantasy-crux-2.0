@@ -37,12 +37,12 @@ A single post-armour hit that equals or exceeds MWL causes a [Major Wound](/rule
 
 ## Power Points {#characters-power-points}
 
-Power Points fuel abilities that state a PP cost.
+Power Points fuel [Shaping](/rules/magic/) and other abilities that state a PP cost.
 They cannot exceed maximum PP.
 
 Recover `ceil(maximum PP / 4)` PP after each complete two hours of rest, up to the maximum.
 Eight hours of rest restores all PP.
-At 0 PP, the character falls unconscious and cannot wake until they have at least 1 PP.
+At 0 PP, living characters fall unconscious until regaining PP; nonliving characters stay active unless stated otherwise.
 
 ## Damage Modifier {#characters-damage-modifier}
 

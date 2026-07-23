@@ -16,8 +16,8 @@ test('home and primary rules navigation work at the target width', async ({ page
   await expect(page.locator('.chapter-directory li')).toHaveCount(8);
   await expect(page.locator('.chapter-nav a').nth(0)).toContainText('00');
   await expect(page.locator('.chapter-nav a').nth(4)).toContainText('04');
-  await expect(page.locator('.chapter-nav a').nth(7)).toContainText('QR');
-  await expect(page.locator('.chapter-nav a').nth(8)).toContainText('07');
+  await expect(page.locator('.chapter-nav a').nth(7)).toContainText('07');
+  await expect(page.locator('.chapter-nav a').nth(8)).toContainText('QR');
   await expectNoHorizontalOverflow(page);
 
   await page.goto('/rules/combat/two-ready-items/');
@@ -36,6 +36,53 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
   await expect(visibleCards.first()).toContainText(/shield/i);
   await expect(page.locator('[data-talent-count]')).not.toHaveText('17');
   await expect(page.getByRole('status')).toContainText('Talents available');
+  await expectNoHorizontalOverflow(page);
+});
+
+test('Shaping is a first-class rules chapter', async ({ page }) => {
+  const routes = [
+    '/rules/magic/becoming-a-shaper/',
+    '/rules/magic/building-a-shaping/',
+    '/rules/magic/techniques-and-forms/',
+    '/rules/magic/effects/',
+    '/rules/magic/casting-and-defence/',
+    '/rules/magic/ongoing-and-magical-actions/',
+    '/rules/magic/rituals-and-examples/',
+  ];
+
+  await page.goto('/');
+  const magicItem = page.locator('.chapter-directory li').filter({ hasText: 'Magic' });
+  await expect(magicItem).not.toHaveClass(/is-future/);
+  await magicItem.getByRole('link', { name: /Magic/ }).click();
+  await expect(page.locator('h1')).toHaveText('Magic');
+  const links = page.locator('.rule-index a');
+  await expect(links).toHaveCount(7);
+  expect(
+    await links.evaluateAll((items) => items.map((item) => new URL(item.href).pathname)),
+  ).toEqual(routes);
+  await expect(
+    page.locator('.rule-index').getByRole('link', { name: 'Becoming a Shaper' }),
+  ).toBeVisible();
+  await expect(page.locator('main')).not.toContainText('Magic rules are in development.');
+  await expectNoHorizontalOverflow(page);
+
+  await page.goto('/reference/');
+  await expect(page.getByRole('heading', { name: 'Magic', exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Building a Shaping' })).toHaveAttribute(
+    'href',
+    '/rules/magic/building-a-shaping/',
+  );
+
+  await page.goto('/rules/characters/character-creation/');
+  await expect(page.getByRole('link', { name: /Shaper/i })).toHaveAttribute(
+    'href',
+    '/rules/magic/becoming-a-shaper/',
+  );
+
+  await page.goto('/rules/magic/building-a-shaping/');
+  await expect(page.locator('h1')).toHaveText('Building a Shaping');
+  await expect(page.locator('main')).toContainText('Intensity + Range + Duration + Reach');
+  await expect(page.locator('.table-wrap')).not.toHaveCount(0);
   await expectNoHorizontalOverflow(page);
 });
 
@@ -62,6 +109,10 @@ test('Pagefind returns indexed rules and Talents', async ({ page }) => {
   await expect(page.locator('[data-search-results] li').first()).toBeVisible();
   await expect(page.locator('[data-search-results]')).not.toContainText('#');
 
+  await page.getByLabel('Rule, term, or Talent').fill('Unmake Fire cell');
+  await page.getByRole('button', { name: 'Search' }).click();
+  await expect(page.locator('[data-search-results]')).toContainText('Becoming a Shaper');
+
   await page.getByLabel('Rule, term, or Talent').fill('"development"');
   await page.getByRole('button', { name: 'Search' }).click();
   await expect(status).toContainText('0 results');
@@ -70,15 +121,27 @@ test('Pagefind returns indexed rules and Talents', async ({ page }) => {
 });
 
 test('table-heavy rules remain within the target width', async ({ page }) => {
-  for (const route of ['/rules/equipment/weapons/', '/rules/combat/active-guard/']) {
+  for (const route of [
+    '/rules/equipment/weapons/',
+    '/rules/combat/active-guard/',
+    '/rules/magic/techniques-and-forms/',
+    '/rules/magic/effects/',
+  ]) {
     await page.goto(route);
     await expect(page.locator('h1')).toBeVisible();
+    await expect(page.locator('.table-wrap').first()).toHaveAttribute('tabindex', '0');
     await expectNoHorizontalOverflow(page);
   }
 });
 
 test('core pages have no automatically detectable accessibility violations', async ({ page }) => {
-  for (const route of ['/', '/rules/combat/active-guard/', '/rules/talents/']) {
+  for (const route of [
+    '/',
+    '/rules/combat/active-guard/',
+    '/rules/talents/',
+    '/rules/magic/',
+    '/rules/magic/casting-and-defence/',
+  ]) {
     await page.goto(route);
     const results = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])

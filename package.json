@@ -15,7 +15,7 @@
     "build": "npm run validate:content && npm run build:site && node scripts/assert-output.mjs",
     "preview": "node scripts/serve-site.mjs",
     "validate:content": "node scripts/validate-content.mjs",
-    "lint:md": "markdownlint-cli2 \"src/content/**/*.md\"",
+    "lint:md": "markdownlint-cli2 \"src/content/**/*.md\" \"freeform-creatures/**/*.md\"",
     "lint:html": "html-validate \"_site/**/*.html\"",
     "lint:links": "node scripts/validate-links.mjs",
     "format": "prettier --write .",

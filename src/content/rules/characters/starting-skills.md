@@ -68,6 +68,10 @@ Skills with a parenthetical subject, such as `Craft (type)`, are separate skills
 | Streetwise       | `CHA + POW` |
 | Trade            |  `INT + 10` |
 
+## Access-gated skill {#characters-shaping-skill}
+
+A character with [Shaping access](/rules/magic/becoming-a-shaper/) adds **Shaping** to Knowledge at base `INT + POW`. Declare and reserve access before allocating Knowledge points. Other characters do not have Shaping and cannot allocate points to it.
+
 ## Allocate points {#characters-allocate-skills}
 
 | Category    | Points |

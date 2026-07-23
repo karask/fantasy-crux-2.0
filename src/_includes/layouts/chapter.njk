@@ -1,14 +1,14 @@
 ---
 layout: layouts/base.njk
 ---
-<div class="page-surface chapter-page{% if id == 'magic' %} chapter-page--empty{% endif %}">
+<div class="page-surface chapter-page">
   <header class="chapter-heading">
     <p class="eyebrow">Chapter {{ order | padChapter }}</p>
     <h1>{{ title }}</h1>
-    {% if id != 'magic' %}<p class="chapter-deck">{{ summary | summaryText }}</p>{% endif %}
+    <p class="chapter-deck">{{ summary | summaryText }}</p>
   </header>
 
-  <article class="prose chapter-intro"{% if id != 'magic' %} data-pagefind-ignore{% endif %}>
+  <article class="prose chapter-intro" data-pagefind-ignore>
     {{ content | safe }}
   </article>
 
@@ -44,7 +44,7 @@ layout: layouts/base.njk
       </div>
       <p class="filter-empty" data-filter-empty hidden>No Talents match this filter.</p>
     </section>
-  {% elif id != 'magic' %}
+  {% else %}
     {% set chapterItems = collections.rules | chapterRules(id) %}
     {% if chapterItems | length %}
       <section class="chapter-contents" aria-labelledby="chapter-contents-title">

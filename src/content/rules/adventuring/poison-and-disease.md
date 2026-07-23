@@ -40,4 +40,6 @@ A successful Healing test grants `+1B` to the patient's next resistance test.
 Ongoing effects remain, and damage from the disease cannot heal, while the disease
 is active. Normal recovery begins after the victim wins.
 
+[Magical curing](/rules/magic/effects/#magic-healing) opposes Shaping with Potency and requires Intensity based on that Potency.
+
 **The Shakes:** Spread by touch; Delay `1D2` days; Potency 50; Effect halves DEX and deals `1D6` damage each day while active.

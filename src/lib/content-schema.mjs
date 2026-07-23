@@ -28,6 +28,7 @@ const quickReference = z
       'combat',
       'adventuring',
       'talents',
+      'magic',
     ]),
     order,
   })

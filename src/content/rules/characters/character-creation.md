@@ -25,10 +25,11 @@ A varied group usually has more ways to solve problems.
 
 1. Assign characteristics.
 2. Calculate attributes.
-3. Calculate each skill's base value and spend the four skill pools.
-4. Spend 10 starting Improvement Points.
-5. Choose starting weapons, armour, gear, and personal details.
-6. Record 2 Hero Points.
+3. If becoming a [Shaper](/rules/magic/becoming-a-shaper/), declare access, reserve 8 starting IP, and add Shaping at `INT + POW`.
+4. Calculate each skill's base value and spend the four skill pools.
+5. Spend 10 starting Improvement Points, including any reserved Shaping access.
+6. Choose starting weapons, armour, gear, and personal details.
+7. Record 2 Hero Points.
 
 No skill may exceed 100%.
 Characteristics normally cannot exceed 18 during creation.

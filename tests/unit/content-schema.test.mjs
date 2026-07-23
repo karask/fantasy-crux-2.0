@@ -18,6 +18,22 @@ describe('content schema', () => {
     expect(permalinkFor(rule)).toBe('/rules/combat/active-guard/');
   });
 
+  it('accepts Magic rules in the quick-reference collection', () => {
+    const rule = validateRecord({
+      type: 'rule',
+      id: 'magic.building-a-shaping',
+      chapter: 'magic',
+      title: 'Building a Shaping',
+      slug: 'building-a-shaping',
+      order: 20,
+      summary: 'Combine Intensity, Range, Duration, Reach, and adjustments into Magnitude.',
+      aliases: ['Magnitude', 'magic formula'],
+      quickReference: { group: 'magic', order: 10 },
+    });
+
+    expect(permalinkFor(rule)).toBe('/rules/magic/building-a-shaping/');
+  });
+
   it('rejects unknown metadata and malformed immutable IDs', () => {
     expect(() =>
       validateRecord({

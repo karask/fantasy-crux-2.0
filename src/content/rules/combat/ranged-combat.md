@@ -40,12 +40,14 @@ Use only the best penalty from terrain and the [Shield Cover](/rules/talents/shi
 
 ## Common Situational Modifiers
 
+[Illumination](/rules/adventuring/light-and-darkness/) applies its own vision penalty. Obscurity below is separate.
+
 | Situation                                                 |        Modifier |
 | --------------------------------------------------------- | --------------: |
 | Target moved at least 10 m since the attacker's last turn |           `-1P` |
 | Target moved at least 30 m since the attacker's last turn |   `-2P` instead |
-| Target partly obscured by mist, smoke, or dim light       |           `-1P` |
-| Target heavily obscured by fog, smoke, or darkness        |   `-2P` instead |
+| Target partly obscured by mist, smoke, fog, or foliage    |           `-1P` |
+| Target heavily obscured by mist, smoke, fog, or foliage   |   `-2P` instead |
 | Target is prone                                           |           `-1P` |
 | Target is helpless                                        |           `+2B` |
 | High wind                                                 |           `-1P` |
