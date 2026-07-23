@@ -22,6 +22,14 @@ characteristics:
   int: '4 or 7 free-willed'
   pow: '4 or 11 free-willed'
   cha: '4 or 7 free-willed'
+characteristicDice:
+  str: 6D6+18
+  con: 3D6+18
+  dex: 2D6
+  siz: 3D6+18
+  int: 1D6/2D6
+  pow: 1D6/3D6
+  cha: 1D6/2D6
 derived:
   hp: 29
   mwl: 15

@@ -6,7 +6,7 @@ import {
   powerPointsRecovered,
 } from '../../src/lib/rules-contract.mjs';
 
-describe('locked Fantasy Crux Lite rules', () => {
+describe('locked Fantasy Crux 2.0 rules', () => {
   it.each([
     [9, 0],
     [10, 1],

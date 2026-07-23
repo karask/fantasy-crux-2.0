@@ -43,7 +43,7 @@ const copyrightNotices = [
   'The Age of Shadow Copyright 2011; Author Kristian Richards',
   'The Age of Shadow Campaign Guide Copyright 2011; Author Kristian Richards',
   'Fantasy Crux Copyright 2024; Author Konstantinos Karasavvas',
-  'Fantasy Crux 2.0 Lite Copyright 2026; Author Konstantinos Karasavvas',
+  'Fantasy Crux 2.0 Copyright 2026; Author Konstantinos Karasavvas',
 ];
 
 describe('Open Game License', () => {

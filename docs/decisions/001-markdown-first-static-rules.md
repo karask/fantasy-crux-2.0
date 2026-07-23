@@ -1,4 +1,4 @@
-# ADR-001: Use portable Markdown as the canonical lite rules source
+# ADR-001: Use portable Markdown as the canonical rules source
 
 ## Status
 
@@ -10,7 +10,7 @@ Accepted
 
 ## Context
 
-Fantasy Crux began as a LaTeX rulebook. The lite edition must be substantially shorter, easy to search during play, readable on phones and desktops, and able to evolve before its magic and illustration systems are chosen. The source also needs to remain useful outside any single website framework.
+Fantasy Crux began as a LaTeX rulebook. The website edition must be substantially shorter to browse, easy to search during play, readable on phones and desktops, and able to evolve before its magic and illustration systems are chosen. The source also needs to remain useful outside any single website framework.
 
 ## Decision
 
@@ -20,7 +20,7 @@ The interface uses progressive enhancement: navigation and all rules work withou
 
 ## Alternatives considered
 
-### Continue authoring the lite edition in LaTeX
+### Continue authoring this edition in LaTeX
 
 LaTeX remains strong for print, but it makes at-table navigation, responsive presentation, and section-level search indirect. It would also force the website to depend on a conversion pipeline whose output becomes a second source to debug.
 
@@ -39,4 +39,4 @@ A runtime application could provide rich interactions, but the rules do not need
 - The site can be hosted as static files with no backend.
 - Shared layouts can change the visual system without rewriting rules.
 - Component-like behavior cannot be embedded directly in Markdown; it must be expressed through metadata, standard Markdown structures, or progressive enhancement.
-- A future print edition will need a deliberate Markdown-to-print pipeline rather than treating the legacy LaTeX as the lite source.
+- A future print edition will need a deliberate Markdown-to-print pipeline rather than treating the legacy LaTeX as the canonical source.

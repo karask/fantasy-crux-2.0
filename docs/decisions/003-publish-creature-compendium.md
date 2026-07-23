@@ -10,7 +10,7 @@ Accepted
 
 ## Context
 
-`freeform-creatures/FC-creatures-lite.md` held 57 finished profiles converted to the current Lite rules, plus the shared procedures they depend on: profile formulas, creature tags, Mastery, Multiattack, senses, Spirit Combat, and Elemental shells. The compendium was complete but unpublished, so Gamemasters could not reach it from the site, search could not find a creature, and the contract tests guarded the rules against a document nobody could read.
+`freeform-creatures/FC-creatures-lite.md` held 57 finished profiles converted to the current rules, plus the shared procedures they depend on: profile formulas, creature tags, Mastery, Multiattack, senses, Spirit Combat, and Elemental shells. The compendium was complete but unpublished, so Gamemasters could not reach it from the site, search could not find a creature, and the contract tests guarded the rules against a document nobody could read.
 
 Publishing it as one long prose page would have carried the compendium's shape onto the site, but a bestiary is scanned, not read: the useful unit is the profile, and the useful action is narrowing 57 profiles down to the handful a scene needs. Illustrations are planned but not yet commissioned.
 
@@ -23,7 +23,7 @@ Split the compendium into two record types under `src/content/rules/creatures/`:
 - Seven `type: rule` records for the shared procedures, rendered exactly like any other rule section.
 - Fifty-seven `type: creature` records whose stat block lives in validated frontmatter — category, tags, characteristics, derived attributes, skills, attacks, and Talents — with only the abilities left as Markdown body.
 
-Structured frontmatter is what makes the presentation possible: the layout renders real stat grids, tag chips, and attack rows rather than reflowing prose, and the contract tests check the Lite formulas against typed values instead of parsing sentences. Values that the compendium qualifies (`4 or 7 free-willed`) or withholds (`—`) stay as strings, and a profile priced entirely by a rank table keeps its prose line.
+Structured frontmatter is what makes the presentation possible: the layout renders real stat grids, tag chips, and attack rows rather than reflowing prose, and the contract tests check the formulas against typed values instead of parsing sentences. Values that the compendium qualifies (`4 or 7 free-willed`) or withholds (`—`) stay as strings, and a profile priced entirely by a rank table keeps its prose line.
 
 Each profile carries a portrait frame. Until artwork exists it draws a placeholder; an optional `image` field swaps in a thumbnail per creature with no layout change.
 

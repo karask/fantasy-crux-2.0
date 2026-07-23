@@ -125,6 +125,15 @@ test('the bestiary publishes every profile and filters by creature type', async 
   await expect(dragon.locator('.creature-tags')).toContainText('living');
   await expect(dragon.locator('.creature-portrait')).toBeVisible();
 
+  // Each characteristic also lists the dice it was generated from, so a GM can roll a variant.
+  await expect(dragon.locator('.stat-dice').first()).toHaveText('(20D6)');
+  await expect(
+    page.locator('#reading-a-profile').locator('xpath=ancestor::section[1]'),
+  ).toContainText('vary an individual');
+
+  const golem = page.locator('#golem').locator('xpath=ancestor::article[1]');
+  await expect(golem.locator('.stat-dice', { hasText: '(1D6/2D6)' }).first()).toBeVisible();
+
   await page.getByRole('button', { name: 'Undead' }).click();
   await expect(page.locator('[data-filter-item]:visible')).toHaveCount(5);
   await expect(page.locator('[data-filter-count]')).toHaveText('5');
@@ -165,6 +174,10 @@ test('Gamemaster tools publish the procedures that reach past one character', as
   await expect(page.locator('#mass-combat').locator('xpath=ancestor::section[1]')).toContainText(
     'Lore (Military Tactics)',
   );
+  const fantasyRaces = page.locator('#fantasy-races').locator('xpath=ancestor::section[1]');
+  await expect(fantasyRaces).toContainText('Random characteristics');
+  await expect(fantasyRaces).toContainText('Racial maxima');
+  await expect(fantasyRaces).toContainText('DEX 27');
   await expectNoHorizontalOverflow(page);
 
   // Each creature carries the rating the plunder table reads.
@@ -189,7 +202,7 @@ test('the Open Game License ships with the rules it covers', async ({ page }) =>
     'Open Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.',
   );
   await expect(page.locator('main')).toContainText('OpenQuest Copyright 2009-2013');
-  await expect(page.locator('main')).toContainText('Fantasy Crux 2.0 Lite Copyright 2026');
+  await expect(page.locator('main')).toContainText('Fantasy Crux 2.0 Copyright 2026');
   // The typographer must not rewrite (c) as a copyright sign inside clause 1.
   await expect(page.locator('main li').first()).toContainText('(c) “Distribute”');
   await expectNoHorizontalOverflow(page);

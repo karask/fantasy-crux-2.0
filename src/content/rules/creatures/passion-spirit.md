@@ -19,6 +19,10 @@ characteristics:
   con: '—'
   dex: '—'
   siz: '—'
+characteristicDice:
+  int: 2D6+3
+  pow: 3D6+6
+  cha: 4D6
 derived:
   hp: '—'
   mwl: '—'

@@ -18,7 +18,7 @@ const records = markdownFiles(contentRoot).map((file) => {
   return { file, ...parsed };
 });
 
-describe('canonical lite content', () => {
+describe('canonical Fantasy Crux 2.0 content', () => {
   it('ships exactly the approved 17-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')

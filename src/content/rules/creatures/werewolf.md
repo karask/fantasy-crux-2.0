@@ -19,6 +19,14 @@ characteristics:
   int: '13/6'
   pow: 11
   cha: '11, human/wolf'
+characteristicDice:
+  str: 3D6/6D6
+  con: 3D6
+  dex: 3D6
+  siz: 2D6+6
+  int: 2D6+6/1D6+3
+  pow: 3D6
+  cha: 3D6
 derived:
   hp: 12
   mwl: 6

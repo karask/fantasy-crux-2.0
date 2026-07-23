@@ -12,7 +12,7 @@ Accepted
 
 An audit of every LaTeX chapter against `src/content/rules/` found two whole bodies of content that never reached the site, and two smaller omissions inside chapters that did.
 
-`tex/ch31-more-rules-advice.tex` holds the procedures a Gamemaster needs above the scale of one character: plunder, ships and sailing, mass combat, when to call for a test, playable fantasy races, minor-NPC shorthand, and epic characters. A Gamemaster running the Lite rules had no way to resolve a sea voyage, a battle, or a treasure hoard.
+`tex/ch31-more-rules-advice.tex` holds the procedures a Gamemaster needs above the scale of one character: plunder, ships and sailing, mass combat, when to call for a test, playable fantasy races, minor-NPC shorthand, and epic characters. A Gamemaster running Fantasy Crux 2.0 had no way to resolve a sea voyage, a battle, or a treasure hoard.
 
 The smaller omissions are the **Intimidate** Combat Action (`tex/ch14-combat.tex`), absent from the combat chapter altogether, and the **creature chapter's own framing** (`tex/ch32-creatures.tex`) — how to build on a profile, which creatures suit player characters, and how to scale an encounter.
 
@@ -24,11 +24,11 @@ Publish **GM Tools** as chapter 08, between Adventuring and Creatures, matching 
 
 Convert seven of the nine source sections as ordinary `type: rule` records. Four convert directly (Plunder Rating, Ships and Sailing, Mass Combat, Calling for Tests). Three need adaptation:
 
-- **Fantasy Races** — the compendium kept fixed characteristics and dropped the dice ranges, so starting spreads are restated against Lite's 56-point baseline and racial maxima are given explicitly per race.
+- **Fantasy Races** — the compendium kept fixed characteristics and dropped the dice ranges, so starting spreads are restated against the game's 56-point baseline and racial maxima are given explicitly per race.
 - **Minor NPCs** — discipline abbreviations become Talents and Shaping cells.
-- **Epic Characters** — the above-100% master-skill clause is dropped, since Lite caps skills at 100%.
+- **Epic Characters** — the above-100% master-skill clause is dropped, since skills cap at 100%.
 
-**Player Archetypes: Monk** and **Traits, Talents, Feats** are not published. Both are built on Folk Magic, which Lite replaced with Shaping; rewriting them is new design rather than conversion, and the second overlaps the Talents chapter.
+**Player Archetypes: Monk** and **Traits, Talents, Feats** are not published. Both are built on Folk Magic, which this rules set replaced with Shaping; rewriting them is new design rather than conversion, and the second overlaps the Talents chapter.
 
 Restore **Plunder Ratings** to the bestiary, since the table is unusable without them. They were converted from the `plunderrating` key in the LaTeX creature chapter, not from `freeform-creatures/FC-creatures-lite.md`, which never carried them, so the approved table is frozen in a contract test of its own rather than checked against a source file. The twenty profiles the LaTeX leaves unrated are all animals, the Elemental, or a spirit, and take 0 on the chapter's own statement that animals have no treasure by design.
 
@@ -60,5 +60,5 @@ Deferred rather than rejected. Monastic feats and once-per-day spell-like abilit
 - The site is compliant with the licence it publishes under, and finally names its author.
 - `padChapter` no longer pads non-numeric nav markers, so `QR` and `§` render as written.
 - The combat chapter regains a Combat Action, and the bestiary regains the framing that tells a Gamemaster what to do with 57 profiles.
-- With the conversion complete, `tex/` was reduced to the six chapters that have no Lite form: Disciplines, Battle, and the four magic systems. The published chapters, `license.tex`, and `fantasy-crux.tex` were removed, and the contracts that had read them now freeze their expectations instead. Deleted files remain in commit 040db44.
+- With the conversion complete, `tex/` was reduced to the six chapters not yet converted: Disciplines, Battle, and the four magic systems. The published chapters, `license.tex`, and `fantasy-crux.tex` were removed, and the contracts that had read them now freeze their expectations instead. Deleted files remain in commit 040db44.
 - ADR-001 through ADR-003 remain in force. This decision ends the unpublished-GM-tools phase, closes the licence gap, and repairs the conversion gaps the audit found, without changing the architecture.

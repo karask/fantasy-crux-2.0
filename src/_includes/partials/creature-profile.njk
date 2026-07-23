@@ -29,7 +29,10 @@
     {% else %}
       <dl class="stat-row">
         {% for key, label in { str: 'STR', con: 'CON', dex: 'DEX', siz: 'SIZ', int: 'INT', pow: 'POW', cha: 'CHA' } %}
-          <div><dt>{{ label }}</dt><dd>{{ profile.characteristics[key] | inlineMarkdown | safe }}</dd></div>
+          <div>
+            <dt>{{ label }}</dt>
+            <dd>{{ profile.characteristics[key] | inlineMarkdown | safe }}{% if profile.characteristicDice and profile.characteristicDice[key] %} <small class="stat-dice">({{ profile.characteristicDice[key] | inlineMarkdown | safe }})</small>{% endif %}</dd>
+          </div>
         {% endfor %}
       </dl>
     {% endif %}

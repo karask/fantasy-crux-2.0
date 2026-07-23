@@ -19,6 +19,12 @@ characteristics:
   int: 3
   pow: 11
   cha: 3
+characteristicDice:
+  str: 3D6+24
+  con: 3D6
+  dex: 2D6+6
+  siz: 3D6
+  pow: 3D6
 derived:
   hp: 11
   mwl: 6

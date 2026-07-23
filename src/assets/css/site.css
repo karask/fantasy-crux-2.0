@@ -1038,6 +1038,21 @@ tbody tr:last-child td {
   line-height: 1.1;
 }
 
+/* The generating dice for a characteristic, e.g. 14 (4D6) — roll it to vary an individual or
+   build a specific creature instead of using the average member. */
+.stat-dice {
+  /* --steel reads fine on the dark chrome but fails contrast on this light card;
+     match .creature-note's grey instead (6.5:1 against --bone-light). */
+  color: #4d5756;
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  /* A last resort: on its own line a long formula like (10D6+30) can still be wider than the
+     narrowest phone's stat cell. Never let it push the page wider than the viewport. */
+  overflow-wrap: anywhere;
+}
+
 .creature-lists {
   display: grid;
   margin-top: 1.2rem;
@@ -1913,6 +1928,12 @@ tbody tr:last-child td {
 
   .talent-cost {
     width: 42px;
+  }
+
+  /* The 4-column stat grid is too narrow here for a long formula like (10D6+30) to sit
+     next to its average on one line; drop it to its own line instead of overflowing. */
+  .stat-dice {
+    display: block;
   }
 }
 

@@ -114,6 +114,29 @@ const statBlock = (keys) =>
     z.string().trim().min(1),
   ]);
 
+// The dice a creature's characteristics were generated from, e.g. '4D6' or '10D6+30'. A dual
+// form such as '3D6/6D6' covers a creature with two states (Golem's programmed/free-willed,
+// Werewolf's human/wolf); only characteristics that actually vary carry an entry here — a fixed
+// value (a summoned being, or an undead's 0 POW) has nothing to roll and is simply omitted.
+const diceFormula = z
+  .string()
+  .regex(
+    /^\d+D\d+(?:[+-]\d+)?(?:\/\d+D\d+(?:[+-]\d+)?)?$/i,
+    'Use a dice formula like 4D6, 10D6+30, or 3D6/6D6.',
+  );
+const characteristicDice = z
+  .object({
+    str: diceFormula.optional(),
+    con: diceFormula.optional(),
+    dex: diceFormula.optional(),
+    siz: diceFormula.optional(),
+    int: diceFormula.optional(),
+    pow: diceFormula.optional(),
+    cha: diceFormula.optional(),
+  })
+  .strict()
+  .refine((value) => Object.keys(value).length > 0, 'List at least one characteristic die.');
+
 const creatureSchema = z
   .object({
     type: z.literal('creature'),
@@ -124,6 +147,7 @@ const creatureSchema = z
     tagNote: statNote.optional(),
     plunder: z.number().int().min(0).max(6),
     characteristics: statBlock(['str', 'con', 'dex', 'siz', 'int', 'pow', 'cha']),
+    characteristicDice: characteristicDice.optional(),
     derived: statBlock(['hp', 'mwl', 'pp', 'movement', 'combatOrder', 'ap', 'dm']),
     derivedNotes: statLine.optional(),
     skills: statLine,

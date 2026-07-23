@@ -183,7 +183,7 @@ describe('canonical Shaping and senses', () => {
   });
 });
 
-describe('published Lite creature compendium', () => {
+describe('published creature compendium', () => {
   it('publishes the 57 approved profiles and keeps the compendium as their source', () => {
     expect(existsSync(creaturePath)).toBe(true);
     expect(existsSync(publishedRoot)).toBe(true);
@@ -304,6 +304,265 @@ describe('published Lite creature compendium', () => {
     expect(Object.values(approved).filter((rating) => rating > 0)).toHaveLength(22);
   });
 
+  it('carries the approved characteristic dice on every profile that has them', () => {
+    const approved = {
+      'Ancestor Spirit': { int: '3D6', pow: '3D6+6', cha: '3D6' },
+      Basilisk: { str: '2D3', con: '2D6+6', dex: '3D6', siz: '1D3', pow: '1D6+12' },
+      Bear: { str: '3D6+15', con: '2D6+6', dex: '3D6', siz: '3D6+15', pow: '3D6' },
+      Beastman: {
+        str: '2D6+6',
+        con: '1D6+12',
+        dex: '3D6',
+        siz: '1D6+12',
+        int: '2D6+6',
+        pow: '3D6',
+        cha: '2D6',
+      },
+      Bull: { str: '4D6+6', con: '2D6+9', dex: '2D6', siz: '2D6+9', pow: '2D6' },
+      Crocodile: { str: '5D6+12', con: '3D6+12', dex: '3D6', siz: '4D6', pow: '3D6' },
+      'Disease Spirit': { int: '2D6', pow: '3D6+6', cha: '3D6' },
+      Dog: { str: '2D6+6', con: '3D6', dex: '2D6+6', siz: '1D6', pow: '1D6+6' },
+      Dragon: {
+        str: '20D6',
+        con: '10D6',
+        dex: '4D6',
+        siz: '10D6+30',
+        int: '6D6',
+        pow: '4D6+12',
+        cha: '6D6',
+      },
+      Dryad: {
+        str: '2D6',
+        con: '3D6',
+        dex: '4D6',
+        siz: '2D6+3',
+        int: '3D6+6',
+        pow: '2D6+15',
+        cha: '2D6+12',
+      },
+      Dwarf: {
+        str: '4D6',
+        con: '2D6+12',
+        dex: '3D6',
+        siz: '1D6+3',
+        int: '2D6+6',
+        pow: '3D6',
+        cha: '3D6',
+      },
+      Elephant: { str: '6D6+24', con: '3D6+15', dex: '3D6', siz: '6D6+30', pow: '2D6+6' },
+      Elf: {
+        str: '2D6+3',
+        con: '3D6',
+        dex: '3D6+6',
+        siz: '2D6+3',
+        int: '3D6+6',
+        pow: '2D6+6',
+        cha: '3D6',
+      },
+      Gargoyle: {
+        str: '5D6+12',
+        con: '3D6',
+        dex: '3D6',
+        siz: '5D6',
+        int: '1D6',
+        pow: '3D6',
+        cha: '1D6',
+      },
+      Ghost: { int: '3D6', pow: '3D6', cha: '3D6' },
+      Ghoul: {
+        str: '4D6',
+        con: '3D6',
+        dex: '3D6',
+        siz: '2D6+6',
+        int: '3D6',
+        pow: '3D6',
+        cha: '1D6',
+      },
+      'Giant Ant': { str: '4D6', con: '3D6+6', dex: '2D6+6', siz: '2D6', pow: '1D6+3' },
+      'Giant Hawk': { str: '6D6+21', con: '5D6+15', dex: '3D6+9', siz: '6D6+21', pow: '3D6' },
+      'Giant Lizard': { str: '2D6+12', con: '3D6', dex: '1D6+12', siz: '2D6+12', pow: '3D6' },
+      'Giant Octopus': { str: '12D6', con: '4D6+6', dex: '3D6+12', siz: '12D6', pow: '3D6' },
+      'Giant Python': { str: '3D6+24', con: '3D6', dex: '2D6+6', siz: '3D6', pow: '3D6' },
+      'Giant Spider': { str: '2D6+12', con: '3D6+6', dex: '2D6+9', siz: '4D6+12', pow: '3D6' },
+      Giant: {
+        str: '9D6+18',
+        con: '6D6+18',
+        dex: '2D6+3',
+        siz: '9D6+18',
+        int: '3D6',
+        pow: '3D6',
+        cha: '2D6',
+      },
+      Goblin: {
+        str: '2D6+3',
+        con: '2D6+3',
+        dex: '5D6',
+        siz: '2D6',
+        int: '3D6',
+        pow: '2D6+3',
+        cha: '2D6',
+      },
+      Golem: {
+        str: '6D6+18',
+        con: '3D6+18',
+        dex: '2D6',
+        siz: '3D6+18',
+        int: '1D6/2D6',
+        pow: '1D6/3D6',
+        cha: '1D6/2D6',
+      },
+      Griffin: { str: '8D6', con: '3D6+12', dex: '3D6+12', siz: '8D6', pow: '2D6+6' },
+      'Guardian Spirit': { int: '2D6', pow: '3D6+6', cha: '3D6' },
+      Hag: {
+        str: '6D6',
+        con: '3D6',
+        dex: '3D6',
+        siz: '3D6',
+        int: '2D6+12',
+        pow: '2D6+21',
+        cha: '1D6',
+      },
+      Harpy: { str: '3D6', con: '3D6', dex: '5D6', siz: '2D6', int: '3D6', pow: '3D6', cha: '1D6' },
+      Hawk: { str: '1D3', con: '2D3', dex: '3D6+18', siz: '1D2', pow: '2D6' },
+      'Healing Spirit': { int: '2D6', pow: '4D6', cha: '3D6' },
+      Horse: { str: '2D6+18', con: '3D6+6', dex: '2D6+3', siz: '2D6+18', pow: '3D6' },
+      Lion: { str: '3D6+12', con: '3D6', dex: '3D6+6', siz: '2D6+12', pow: '3D6' },
+      Lizardman: {
+        str: '3D6+6',
+        con: '3D6',
+        dex: '2D6+3',
+        siz: '3D6',
+        int: '2D6+6',
+        pow: '3D6',
+        cha: '2D6',
+      },
+      'Magic Spirit': { int: '3D6', pow: '4D6', cha: '1D6' },
+      Merfolk: {
+        str: '3D6+3',
+        con: '3D6',
+        dex: '2D6+6',
+        siz: '3D6+6',
+        int: '3D6',
+        pow: '3D6',
+        cha: '3D6',
+      },
+      Mummy: { str: '3D6+12', con: '3D6+12', dex: '2D6', siz: '2D6+6', int: '2D6+6' },
+      Naiad: {
+        str: '4D6',
+        con: '3D6',
+        dex: '4D6',
+        siz: '2D6+3',
+        int: '3D6+6',
+        pow: '2D6+18',
+        cha: '2D6+12',
+      },
+      Ogre: {
+        str: '3D6+12',
+        con: '2D6+6',
+        dex: '3D6',
+        siz: '3D6+12',
+        int: '2D6+3',
+        pow: '2D6+3',
+        cha: '1D6',
+      },
+      Orc: {
+        str: '4D6',
+        con: '3D6',
+        dex: '4D6',
+        siz: '2D6+3',
+        int: '3D6',
+        pow: '2D6+3',
+        cha: '2D6',
+      },
+      Oread: {
+        str: '2D6',
+        con: '3D6+3',
+        dex: '3D6+6',
+        siz: '2D6+3',
+        int: '3D6+3',
+        pow: '2D6+15',
+        cha: '2D6+9',
+      },
+      'Passion Spirit': { int: '2D6+3', pow: '3D6+6', cha: '4D6' },
+      Pixie: {
+        str: '2D3',
+        con: '3D6',
+        dex: '4D6',
+        siz: '1D6',
+        int: '3D6',
+        pow: '2D6+6',
+        cha: '3D6',
+      },
+      Raven: { str: '1D3', con: '2D3', dex: '3D6+12', siz: '1D2', pow: '2D6' },
+      Rhinoceros: { str: '2D6+21', con: '3D6', dex: '2D6', siz: '2D6+21', pow: '3D6' },
+      'Sea Serpent': { str: '8D6+30', con: '4D6+21', dex: '2D6', siz: '6D6+15', pow: '6D6' },
+      Skeleton: { str: '2D6+6', con: '1D6', dex: '3D6', siz: '3D6' },
+      Troll: {
+        str: '4D6+12',
+        con: '3D6+9',
+        dex: '2D6',
+        siz: '4D6+12',
+        int: '1D6+3',
+        pow: '3D6',
+        cha: '2D6',
+      },
+      Vampire: { str: '3D6+12', con: '3D6+12', dex: '3D6', siz: '2D6+6', int: '2D6+6', cha: '3D6' },
+      Viper: { str: '2D6+6', con: '2D6', dex: '3D6+18', siz: '2D6', pow: '2D6+6' },
+      Werewolf: {
+        str: '3D6/6D6',
+        con: '3D6',
+        dex: '3D6',
+        siz: '2D6+6',
+        int: '2D6+6/1D6+3',
+        pow: '3D6',
+        cha: '3D6',
+      },
+      Wolf: { str: '3D6', con: '3D6+3', dex: '3D6+3', siz: '2D6+3', pow: '3D6' },
+      Wyvern: { str: '4D6+12', con: '2D6+12', dex: '2D6+6', siz: '4D6+12', pow: '3D6' },
+      Zombie: { str: '3D6+12', con: '1D6', dex: '1D6+3', siz: '3D6', int: '1D3', cha: '1D3' },
+    };
+
+    expect(Object.keys(approved).sort()).toEqual(
+      publishedCreatures
+        .filter(({ data }) => data.characteristicDice)
+        .map(({ data }) => data.title)
+        .sort(),
+    );
+    for (const { data } of publishedCreatures) {
+      expect(data.characteristicDice ?? null, `${data.title}: dice`).toEqual(
+        approved[data.title] ?? null,
+      );
+    }
+    for (const name of ['Elemental', 'Holy Steed', 'Holy Warrior']) {
+      expect(creatureRecord(name).data.characteristicDice, name).toBeUndefined();
+    }
+  });
+
+  it("derives the published Fantasy Races maxima from each creature's own dice", () => {
+    const gmTools = read('src/content/rules/gm-tools/fantasy-races.md');
+    const maximaSection = gmTools.split('## Racial maxima')[1];
+    const racialTop = (formula) => {
+      const [, count, sides, modifier] = formula.match(/^(\d+)D(\d+)([+-]\d+)?$/i);
+      return Number(count) * Number(sides) + Number(modifier ?? 0) + 3;
+    };
+    const tableRow = (name) => {
+      const row = maximaSection.match(new RegExp(`^\\| ${name}\\s*\\|(.+)\\|\\s*$`, 'm'));
+      return row[1]
+        .split('|')
+        .map((cell) => cell.trim())
+        .filter(Boolean)
+        .map(Number);
+    };
+
+    for (const name of ['Elf', 'Dwarf']) {
+      const dice = creatureRecord(name).data.characteristicDice;
+      const computed = ['str', 'con', 'dex', 'siz', 'int', 'pow', 'cha'].map((key) =>
+        racialTop(dice[key]),
+      );
+      expect(tableRow(name), name).toEqual(computed);
+    }
+  });
+
   it('keeps every published value traceable to the compendium', () => {
     const flatten = (value) => String(value).replace(/\s+/g, ' ').trim();
 
@@ -357,7 +616,7 @@ describe('published Lite creature compendium', () => {
     expect(talentsOf('Hag')).toBe('Mastery (Deception) I');
   });
 
-  it('uses the Lite HP, MWL, PP, DM, and Combat Order formulas for fixed profiles', () => {
+  it('uses the standard HP, MWL, PP, DM, and Combat Order formulas for fixed profiles', () => {
     const wornArmourEnc = {
       leather: 3,
       ringmail: 4,

@@ -93,7 +93,7 @@ export async function startPreviewServer() {
     });
   });
 
-  console.log(`Fantasy Crux Lite preview: http://${host}:${port}${pathPrefix}`);
+  console.log(`Fantasy Crux 2.0 preview: http://${host}:${port}${pathPrefix}`);
   return server;
 }
 

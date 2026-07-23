@@ -1,6 +1,8 @@
-# Fantasy Crux Lite
+# Fantasy Crux 2.0
 
-Fantasy Crux Lite is the compact rules edition of Fantasy Crux. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, 17 optional Talents, freeform Shaping magic, Gamemaster tools, and a 57-profile bestiary.
+Fantasy Crux 2.0 is a fantasy RPG rules set. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, 17 optional Talents, freeform Shaping magic, Gamemaster tools, and a 57-profile bestiary.
+
+A more compact "Lite" edition is planned separately; this repository is the full 2.0 ruleset.
 
 Shaping is the canonical Magic system and is published as seven searchable sections of the single-page Magic chapter. The alternative Magic 2.0 system remains preserved in `freeform-magic/FC-magic-potential-2.md` as an unpublished design document.
 
@@ -41,7 +43,7 @@ npm run preview
 - `src/assets/` — the Cold Iron CSS, progressive-enhancement JavaScript, and brand mark
 - `src/lib/` — content schema and executable rules contracts
 - `tests/` — unit/content contracts and real-browser checks
-- `tex/` — the LaTeX chapters with no Lite form yet: Disciplines, Battle, and the Folk, Arcane, Divine, and Shamanism magic systems. Everything already published was removed; recover it with `git show 040db44:tex/<file>` if a conversion ever needs checking against the original
+- `tex/` — the LaTeX chapters not yet converted to Fantasy Crux 2.0: Disciplines, Battle, and the Folk, Arcane, Divine, and Shamanism magic systems. Everything already published was removed; recover it with `git show 040db44:tex/<file>` if a conversion ever needs checking against the original
 - `freeform-magic/` — preserved Magic 2.0 alternative; not published
 - `freeform-creatures/` — preserved drafting source for the published bestiary
 
@@ -53,13 +55,13 @@ The default build targets an origin root. To deploy under a subpath, set `FANTAS
 
 Add or change rules in `src/content/rules/`. Keep frontmatter within the strict schemas in `src/lib/content-schema.mjs`; the validator rejects unknown keys, malformed IDs, duplicate IDs, and duplicate URLs. Markdown may use headings, lists, tables, definition lists, footnotes, and explicit heading IDs, but not raw HTML or MDX.
 
-Creature profiles keep their stat block in frontmatter — category, tags, characteristics, derived attributes, skills, attacks, and Talents — so the layout can render stat grids and the contracts can check the Lite formulas against typed values. Only abilities are Markdown body. Add a thumbnail by setting `image` on a profile; without one the layout draws a placeholder frame.
+Creature profiles keep their stat block in frontmatter — category, tags, characteristics, derived attributes, skills, attacks, and Talents — so the layout can render stat grids and the contracts can check the formulas against typed values. Only abilities are Markdown body. Add a thumbnail by setting `image` on a profile; without one the layout draws a placeholder frame.
 
-Creature Plunder Ratings were converted from the original LaTeX creature chapter, which the compendium never carried; the approved table is frozen in `tests/unit/creature-and-shaping-contract.test.mjs`.
+Creature Plunder Ratings were converted from the original LaTeX creature chapter, which the compendium never carried; the approved table is frozen in `tests/unit/creature-and-shaping-contract.test.mjs`. Most characteristics also carry `characteristicDice`, the die each average was generated from (`4D6` under `STR 14`), for rolling a specific individual or a varied group instead of reusing the average member; a characteristic with nothing to roll is simply omitted. Nine dice formulas in the original LaTeX do not arithmetically match their own stated average — see [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md) for the list — and ship as authored rather than silently corrected.
 
-Run `npm run check` before treating a change as complete. The content contract also protects the 17-Talent catalogue, the seven-section Shaping chapter, the 57 approved creature profiles and their traceability to `freeform-creatures/`, the approved plunder ratings, the completeness of the Open Game License, the preserved Magic 2.0 alternative, the no-image phase boundary for rules prose, and the visible-copy ceilings: 16,250 words of rules, 4,500 of bestiary, and 4,000 of Gamemaster tools.
+Run `npm run check` before treating a change as complete. The content contract also protects the 17-Talent catalogue, the seven-section Shaping chapter, the 57 approved creature profiles and their traceability to `freeform-creatures/`, the approved plunder ratings and characteristic dice, the completeness of the Open Game License, the preserved Magic 2.0 alternative, the no-image phase boundary for rules prose, and the visible-copy ceilings: 16,250 words of rules, 4,500 of bestiary, and 4,000 of Gamemaster tools.
 
-The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md).
+The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md); restoring characteristic dice ranges is recorded in [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md).
 
 ## Later phases
 

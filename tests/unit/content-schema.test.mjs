@@ -60,4 +60,50 @@ describe('content schema', () => {
       }),
     ).toThrow();
   });
+
+  describe('creature characteristic dice', () => {
+    const baseCreature = {
+      type: 'creature',
+      id: 'creatures.test-wolf',
+      chapter: 'creatures',
+      title: 'Test Wolf',
+      slug: 'test-wolf',
+      order: 10,
+      category: 'animal',
+      summary: 'A test fixture.',
+      tags: ['living', 'corporeal'],
+      plunder: 0,
+      characteristics: { str: 11, con: 14, dex: 13, siz: 10, int: 5, pow: 11, cha: 5 },
+      derived: { hp: 12, mwl: 6, pp: 11, movement: '23 m', combatOrder: 9, ap: 0, dm: '+0' },
+      skills: ['Dodge 39%'],
+      attacks: ['Bite — Unarmed Combat 50%, `1D8 + DM`, Medium'],
+      talents: 'None',
+    };
+
+    it('accepts single and dual dice formulas', () => {
+      const record = validateRecord({
+        ...baseCreature,
+        characteristicDice: { str: '3D6', con: '3D6+3', int: '2D6+6/1D6+3' },
+      });
+      expect(record.characteristicDice).toEqual({ str: '3D6', con: '3D6+3', int: '2D6+6/1D6+3' });
+    });
+
+    it('rejects a malformed dice formula', () => {
+      expect(() =>
+        validateRecord({ ...baseCreature, characteristicDice: { str: '3d' } }),
+      ).toThrow();
+      expect(() =>
+        validateRecord({ ...baseCreature, characteristicDice: { str: '11' } }),
+      ).toThrow();
+    });
+
+    it('rejects an empty characteristicDice object', () => {
+      expect(() => validateRecord({ ...baseCreature, characteristicDice: {} })).toThrow();
+    });
+
+    it('omits characteristicDice cleanly for fixed-stat creatures', () => {
+      const record = validateRecord(baseCreature);
+      expect(record.characteristicDice).toBeUndefined();
+    });
+  });
 });

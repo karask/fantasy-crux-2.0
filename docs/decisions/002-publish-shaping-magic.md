@@ -10,7 +10,7 @@ Accepted
 
 ## Context
 
-Fantasy Crux Lite reserved an empty Magic chapter while two freeform systems were developed. The selected system now needs to use the current Lite skill, Power Point, action, defence, wound, and Improvement rules. It must also remain readable on phones, searchable by rule, and easy to refine through playtesting.
+Fantasy Crux 2.0 reserved an empty Magic chapter while two freeform systems were developed. The selected system now needs to use the current skill, Power Point, action, defence, wound, and Improvement rules. It must also remain readable on phones, searchable by rule, and easy to refine through playtesting.
 
 ## Decision
 
@@ -24,7 +24,7 @@ Use **Shaping** as the canonical Magic system. Store it under `src/content/rules
 - Ongoing Shapings and Magical Actions
 - Rituals and Examples
 
-Shaping access is declared before Knowledge points are allocated, reserves 8 starting IP, and is paid during the starting-IP step. The published rules reuse the core Lite procedures rather than duplicating alternative combat, recovery, or advancement systems.
+Shaping access is declared before Knowledge points are allocated, reserves 8 starting IP, and is paid during the starting-IP step. The published rules reuse the core procedures rather than duplicating alternative combat, recovery, or advancement systems.
 
 Remove the former Shaping candidate after migration so there is one canonical copy. Preserve `freeform-magic/FC-magic-potential-2.md` as the unpublished Magic 2.0 alternative.
 

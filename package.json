@@ -1,9 +1,9 @@
 {
-  "name": "fantasy-crux-lite",
+  "name": "fantasy-crux",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Markdown-first Fantasy Crux Lite rules and Cold Iron static website.",
+  "description": "Markdown-first Fantasy Crux 2.0 rules and Cold Iron static website.",
   "engines": {
     "node": ">=24.16.0 <25"
   },

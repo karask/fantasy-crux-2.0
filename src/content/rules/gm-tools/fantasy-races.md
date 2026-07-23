@@ -29,14 +29,22 @@ A human begins with every characteristic at 8 — 56 points in total — and the
 
 Distribute the usual 30 points on top, observing the creation maximum of 18 and the normal minimums.
 
+## Random characteristics {#gm-race-random-characteristics}
+
+As an alternative to the point method, roll the race's own [characteristic dice](/rules/creatures/#reading-a-profile) straight from its creature profile instead of the human `4D6`-drop-lowest method. An Elf rolls `DEX` as `3D6+6` and `STR` as `2D6+3`; a Dwarf rolls `SIZ` as `1D6+3` and `STR` as `4D6`. After all seven rolls, swap one pair if desired, as with [human random characters](/rules/characters/#characteristics--characters-random-characteristics).
+
 ## Racial maxima {#gm-race-maxima}
 
-Creature profiles list finished values rather than the range a species can reach, so state each race's maxima explicitly. A characteristic a race is not exceptional in uses the human limits.
+A race's top for any characteristic is the highest result its [generating die](/rules/creatures/#reading-a-profile) can roll, plus 3. Read the die straight off the creature profile.
 
-- **Elf:** `DEX` may reach 27, but `STR` never passes 18.
-- **Dwarf:** `STR` and `CON` may reach 27.
+|       | STR | CON | DEX | SIZ | INT | POW | CHA |
+| ----- | --: | --: | --: | --: | --: | --: | --: |
+| Elf   |  18 |  21 |  27 |  18 |  27 |  21 |  21 |
+| Dwarf |  27 |  27 |  21 |  12 |  21 |  21 |  21 |
 
-The creation cap of 18 still applies to every race. Racial maxima only matter once play begins and the character starts [improving characteristics](/rules/characters/#improvement--characters-improve-characteristics).
+An Elf tops out at DEX 27 and INT 27 but STR and SIZ 18, same as a human. A Dwarf reaches STR and CON 27 but SIZ only 12 — dwarves stay short no matter how they train. Work out any other race's maxima the same way: take its die per characteristic, roll the highest number it allows, add 3.
+
+The creation cap of 18 still applies to every race regardless of its maxima. Racial maxima only matter once play begins and the character starts [improving characteristics](/rules/characters/#improvement--characters-improve-characteristics).
 
 ## Racial abilities {#gm-race-abilities}
 
