@@ -20,7 +20,7 @@ Make a Ranged Combat test against a target within the weapon's listed Range. Bey
 
 Thrown attacks add Damage Modifier. Bows, crossbows, and slings use only their listed damage unless a Talent says otherwise. A ranged weapon with the **Close** tag can instead attack within 2 metres using Close Combat. Any other ranged weapon used there becomes an improvised Light club (`1D6 + DM`) and attacks at `-1P`.
 
-An aware target may Dodge at `-1P`. Thrown attacks and physical projectiles may also be eligible for [Active Guard](/rules/combat/active-guard/).
+An aware target may Dodge at `-1P`. Thrown attacks and physical projectiles may also be eligible for [Active Guard](/rules/combat/#active-guard).
 
 ## Aim
 
@@ -36,11 +36,11 @@ Cover penalises the attack; it does not reduce damage.
 | Substantial, such as battlements            |            `-2P` |
 | Complete: no attack line reaches the target | Attack prevented |
 
-Use only the best penalty from terrain and the [Shield Cover](/rules/talents/shield-cover/) Talent; they do not stack with each other.
+Use only the best penalty from terrain and the [Shield Cover](/rules/talents/#shield-cover) Talent; they do not stack with each other.
 
 ## Common Situational Modifiers
 
-[Illumination](/rules/adventuring/light-and-darkness/) applies its own vision penalty. Obscurity below is separate.
+[Illumination](/rules/adventuring/#light-and-darkness) applies its own vision penalty. Obscurity below is separate.
 
 | Situation                                                 |        Modifier |
 | --------------------------------------------------------- | --------------: |

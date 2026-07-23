@@ -1,6 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
+{% set isTalents = id == 'talents' %}
+{% set isCreatures = id == 'creatures' %}
+{% set chapterItems = collections.talents if isTalents else collections.rules | chapterRules(id) %}
 <div class="page-surface chapter-page">
   <header class="chapter-heading">
     <p class="eyebrow">Chapter {{ order | padChapter }}</p>
@@ -12,30 +15,30 @@ layout: layouts/base.njk
     {{ content | safe }}
   </article>
 
-  {% if id == 'talents' %}
-    <section class="talent-browser" aria-labelledby="talent-list-title" data-talent-browser>
+  {% if isTalents %}
+    <section class="talent-browser" aria-labelledby="talent-list-title" data-filter-browser data-pagefind-ignore>
       <div class="section-rule">
         <div>
           <p class="eyebrow">Purchase catalogue</p>
           <h2 id="talent-list-title">All Talents</h2>
         </div>
-        <p role="status" aria-live="polite"><span data-talent-count>{{ collections.talents | length }}</span> Talents available</p>
+        <p role="status" aria-live="polite"><span data-filter-count>{{ chapterItems | length }}</span> Talents available</p>
       </div>
-      <div class="talent-filters" role="group" aria-label="Filter Talents">
-        <button type="button" data-talent-filter="all" aria-pressed="true">All</button>
-        <button type="button" data-talent-filter="offence" aria-pressed="false">Offence</button>
-        <button type="button" data-talent-filter="defence" aria-pressed="false">Defence</button>
-        <button type="button" data-talent-filter="ranged" aria-pressed="false">Ranged</button>
-        <button type="button" data-talent-filter="shield" aria-pressed="false">Shield</button>
-        <button type="button" data-talent-filter="unarmed" aria-pressed="false">Unarmed</button>
+      <div class="filter-bar" role="group" aria-label="Filter Talents">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="offence" aria-pressed="false">Offence</button>
+        <button type="button" data-filter="defence" aria-pressed="false">Defence</button>
+        <button type="button" data-filter="ranged" aria-pressed="false">Ranged</button>
+        <button type="button" data-filter="shield" aria-pressed="false">Shield</button>
+        <button type="button" data-filter="unarmed" aria-pressed="false">Unarmed</button>
       </div>
       <div class="talent-grid">
-        {% for talent in collections.talents %}
-          <article class="talent-card" data-talent-card data-tags="{{ talent.data.tags | join(' ') }}">
+        {% for talent in chapterItems %}
+          <article class="talent-card" data-filter-item data-filter-tags="{{ talent.data.tags | join(' ') }}">
             <div class="talent-cost"><strong>{{ talent.data.cost }}</strong><span>IP</span></div>
             <div>
               <p class="talent-mode">{{ talent.data.activation }}</p>
-              <h3><a href="{{ talent.url }}">{{ talent.data.title }}</a></h3>
+              <h3><a href="#{{ talent.data.slug }}">{{ talent.data.title }}</a></h3>
               <p>{{ talent.data.summary | summaryText }}</p>
               <p class="prerequisite"><span>Requires</span> {{ talent.data.prerequisites | summaryText }}</p>
             </div>
@@ -44,29 +47,73 @@ layout: layouts/base.njk
       </div>
       <p class="filter-empty" data-filter-empty hidden>No Talents match this filter.</p>
     </section>
-  {% else %}
-    {% set chapterItems = collections.rules | chapterRules(id) %}
-    {% if chapterItems | length %}
-      <section class="chapter-contents" aria-labelledby="chapter-contents-title">
-        <div class="section-rule">
+  {% endif %}
+
+  <div class="chapter-sections">
+    {% for item in chapterItems %}
+      {% set rule = item.data %}
+      <section class="rule-section{% if isTalents %} talent-section{% endif %}" data-pagefind-body data-pagefind-meta="chapter:{{ id }}">
+        <header class="rule-section-heading">
+          {% if isTalents %}
+            <div class="talent-cost talent-cost--large"><strong>{{ rule.cost }}</strong><span>IP</span></div>
+          {% endif %}
           <div>
-            <p class="eyebrow">In this chapter</p>
-            <h2 id="chapter-contents-title">Rules</h2>
+            {% if isTalents %}<p class="eyebrow">{{ rule.activation }} talent</p>{% endif %}
+            <h2 id="{{ rule.slug }}" data-pagefind-meta="title">
+              {{ rule.title }}
+              <a class="heading-anchor" href="#{{ rule.slug }}" aria-label="Link to this section" data-pagefind-ignore></a>
+            </h2>
+            {% if rule.summary is iterable and rule.summary is not string %}
+              <ul class="rule-deck">
+                {% for line in rule.summary %}<li>{{ line }}</li>{% endfor %}
+              </ul>
+            {% else %}
+              <p class="rule-deck">{{ rule.summary }}</p>
+            {% endif %}
           </div>
-          <p>{{ chapterItems | length }} sections</p>
+        </header>
+
+        {% if isTalents %}
+          <dl class="talent-facts">
+            <div><dt>Cost</dt><dd>{{ rule.cost }} Improvement Points</dd></div>
+            <div><dt>Requires</dt><dd>{{ rule.prerequisites | summaryText }}</dd></div>
+            <div><dt>Use</dt><dd>{{ rule.activation }}</dd></div>
+          </dl>
+        {% endif %}
+
+        <div class="prose rule-copy">
+          <p class="search-index-context" aria-hidden="true" data-pagefind-weight="0.5">
+            {{ rule.title }}. {{ rule.summary | summaryText }}{% if rule.aliases %} Also known as {{ rule.aliases | join(', ') }}.{% endif %}{% if isTalents %} Costs {{ rule.cost }} Improvement Points. Requires {{ rule.prerequisites | summaryText }}. {{ rule.activation }} Talent. Tags: {{ rule.tags | join(', ') }}.{% endif %}
+          </p>
+          {{ item.templateContent | inlineSection(rule.slug) | safe }}
         </div>
-        <ol class="rule-index">
-          {% for item in chapterItems %}
-            <li>
-              <span>{{ loop.index | padChapter }}</span>
-              <div>
-                <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
-                <p>{{ item.data.summary | summaryText }}</p>
-              </div>
-            </li>
-          {% endfor %}
-        </ol>
       </section>
-    {% endif %}
+    {% endfor %}
+  </div>
+
+  {% if isCreatures %}
+    <section class="creature-browser" aria-labelledby="creature-list-title" data-filter-browser>
+      <div class="section-rule" data-pagefind-ignore>
+        <div>
+          <p class="eyebrow">Bestiary</p>
+          <h2 id="creature-list-title">Creature Profiles</h2>
+        </div>
+        <p role="status" aria-live="polite"><span data-filter-count>{{ collections.creatures | length }}</span> creatures shown</p>
+      </div>
+      <div class="filter-bar" role="group" aria-label="Filter creatures by type" data-pagefind-ignore>
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="animal" aria-pressed="false">Animals</button>
+        <button type="button" data-filter="monster" aria-pressed="false">Monsters</button>
+        <button type="button" data-filter="nymph" aria-pressed="false">Nymphs</button>
+        <button type="button" data-filter="spirit" aria-pressed="false">Spirits</button>
+        <button type="button" data-filter="undead" aria-pressed="false">Undead</button>
+      </div>
+      <div class="creature-grid">
+        {% for creature in collections.creatures %}
+          {% include "partials/creature-profile.njk" %}
+        {% endfor %}
+      </div>
+      <p class="filter-empty" data-filter-empty hidden>No creatures match this filter.</p>
+    </section>
   {% endif %}
 </div>

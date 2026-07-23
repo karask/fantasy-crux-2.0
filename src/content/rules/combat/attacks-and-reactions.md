@@ -18,12 +18,12 @@ quickReference:
 
 Roll `D100` against **Close Combat** for a held weapon, **Unarmed Combat** for an unarmed or natural attack, or **Ranged Combat** for a weapon used at distance. A roll at or below the relevant skill hits; a higher roll misses. Bonus and Penalty dice alter the roll, not the skill.
 
-After a hit, an aware defender may spend an eligible Reaction before damage is resolved. A failed Reaction changes nothing. Only one Reaction may answer a single attack or trigger, even when a character has more than one available. Compare critical results using the [combat result matrix](/rules/combat/critical-hits-and-fumbles/).
+After a hit, an aware defender may spend an eligible Reaction before damage is resolved. A failed Reaction changes nothing. Only one Reaction may answer a single attack or trigger, even when a character has more than one available. Compare critical results using the [combat result matrix](/rules/combat/#critical-hits-and-fumbles).
 
 ## Reactions
 
 - **Dodge:** roll Dodge. An ordinary success avoids an ordinary hit. Ranged attacks impose `-1P`. A character may Dodge no more than once per round, and only with their base Reaction.
-- **Parry:** roll Close Combat with a ready weapon or shield, or Unarmed Combat against an unarmed attack. A successful Parry reduces an ordinary hit according to item Size. Ranged attacks require [Active Guard](/rules/combat/active-guard/).
+- **Parry:** roll Close Combat with a ready weapon or shield, or Unarmed Combat against an unarmed attack. A successful Parry reduces an ordinary hit according to item Size. Ranged attacks require [Active Guard](/rules/combat/#active-guard).
 - **Opportunity Attack:** make one Close Combat attack when an adjacent enemy disengages or creates another clear opening. It does not trigger an extra off-hand attack.
 
 ## Parry Size

@@ -46,7 +46,7 @@ Pay the listed IP cost and meet any prerequisite.
 
 ## Learn Shaping {#characters-learn-shaping}
 
-[Shaping access and new Technique–Form cells](/rules/magic/becoming-a-shaper/) have their own IP costs. The Shaping skill itself improves normally.
+[Shaping access and new Technique–Form cells](/rules/magic/#becoming-a-shaper) have their own IP costs. The Shaping skill itself improves normally.
 
 ## Practice and research {#characters-practice-research}
 

@@ -25,7 +25,7 @@ The Gamemaster may allow purchases from starting money before play.
 ## Starting Improvement Points {#characters-starting-ip}
 
 Begin with 10 Improvement Points.
-Spend them on [improvements](/rules/characters/improvement/) or available Talents.
+Spend them on [improvements](/rules/characters/#improvement) or available Talents.
 If Shaping access was reserved before skill allocation, pay its 8 IP first.
 Characteristics remain capped at 18 during creation.
 

@@ -24,6 +24,6 @@ tags:
 
 ## Effect
 
-When an adjacent ally is hit by an attack you are aware of, spend your base Reaction to Parry for them with a ready shield using Close Combat. On success, reduce the incoming damage against your shield normally; on failure, the ally remains hit. Against a ranged attack, apply [Active Guard's](/rules/combat/active-guard/) eligibility and modifiers. The ally keeps their own Reaction for another trigger but cannot also React to this attack.
+When an adjacent ally is hit by an attack you are aware of, spend your base Reaction to Parry for them with a ready shield using Close Combat. On success, reduce the incoming damage against your shield normally; on failure, the ally remains hit. Against a ranged attack, apply [Active Guard's](/rules/combat/#active-guard) eligibility and modifiers. The ally keeps their own Reaction for another trigger but cannot also React to this attack.
 
 Protector can never use the extra off-hand Reaction.

@@ -15,9 +15,9 @@ quickReference:
   order: 20
 ---
 
-For vision and attacks, use illumination reaching the observed target; for Movement, use light reaching the mover. A light source illuminates its listed radius; weaker outer bands extend from there. Mist, fog, foliage, and smoke are obscurity, not illumination; apply their [ranged-combat modifier](/rules/combat/ranged-combat/#common-situational-modifiers) along the sightline separately.
+For vision and attacks, use illumination reaching the observed target; for Movement, use light reaching the mover. A light source illuminates its listed radius; weaker outer bands extend from there. Mist, fog, foliage, and smoke are obscurity, not illumination; apply their [ranged-combat modifier](/rules/combat/#ranged-combat--common-situational-modifiers) along the sightline separately.
 
-[Shaped light or obscurity](/rules/magic/techniques-and-forms/) pays for its mechanical outcome; any mundane illumination it creates then uses these bands.
+[Shaped light or obscurity](/rules/magic/#techniques-and-forms) pays for its mechanical outcome; any mundane illumination it creates then uses these bands.
 
 | Source           | Radius |
 | ---------------- | -----: |

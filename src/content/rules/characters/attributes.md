@@ -33,7 +33,7 @@ Unless a rule says to round up or down, round to the nearest whole number; round
 
 Hit Points measure how much injury a character can sustain.
 Use maximum HP when calculating MWL, even after losing HP.
-A single post-armour hit that equals or exceeds MWL causes a [Major Wound](/rules/characters/hero-points-and-wounds/).
+A single post-armour hit that equals or exceeds MWL causes a [Major Wound](/rules/characters/#hero-points-and-wounds).
 
 ## Power Points {#characters-power-points}
 

@@ -25,4 +25,4 @@ tags:
 
 ## Effect
 
-When using [Active Guard](/rules/combat/active-guard/) with a ready shield, ignore its `-1P` against bows, crossbows, and slings. You must still be aware of the attack, spend an eligible Reaction, and resolve the Parry normally.
+When using [Active Guard](/rules/combat/#active-guard) with a ready shield, ignore its `-1P` against bows, crossbows, and slings. You must still be aware of the attack, spend an eligible Reaction, and resolve the Parry normally.

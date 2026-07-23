@@ -1,11 +1,14 @@
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
+import matter from 'gray-matter';
 import { describe, expect, it } from 'vitest';
 
 const read = (location) => readFileSync(path.resolve(location), 'utf8');
 
+// The compendium remains the drafting source; the chapter under src/content is what ships.
 const creaturePath = path.resolve('freeform-creatures/FC-creatures-lite.md');
 const creatureText = existsSync(creaturePath) ? readFileSync(creaturePath, 'utf8') : '';
+const publishedRoot = path.resolve('src/content/rules/creatures');
 const publishedMagicPages = [
   'becoming-a-shaper.md',
   'building-a-shaping.md',
@@ -83,13 +86,25 @@ function creatureProfiles(markdown) {
 
 const parsedCreatureProfiles = creatureProfiles(creatureText);
 const creatureByName = new Map(parsedCreatureProfiles.map(({ name, body }) => [name, body]));
-const bodyOf = (name) => creatureByName.get(name) ?? '';
-const talentsOf = (name) => bodyOf(name).match(/\*\*Talents:\*\* ([^\r\n]+)/)?.[1] ?? '';
-const tagsOf = (name) =>
-  bodyOf(name)
-    .match(/\*\*Tags:\*\* ([^\r\n]+)/)?.[1]
-    .split(', ')
-    .map((tag) => tag.replace(/\.$/, '')) ?? [];
+const sourceBodyOf = (name) => creatureByName.get(name) ?? '';
+
+const publishedRecords = existsSync(publishedRoot)
+  ? readdirSync(publishedRoot)
+      .filter((file) => file.endsWith('.md'))
+      .map((file) => matter(read(path.join(publishedRoot, file))))
+      .sort((left, right) => left.data.order - right.data.order)
+  : [];
+const publishedCreatures = publishedRecords.filter((record) => record.data.type === 'creature');
+const creatureRecord = (name) =>
+  publishedCreatures.find((record) => record.data.title === name) ?? { data: {}, content: '' };
+const bodyOf = (name) => creatureRecord(name).content;
+const talentsOf = (name) => creatureRecord(name).data.talents ?? '';
+const tagsOf = (name) => creatureRecord(name).data.tags ?? [];
+const ruleContent = (slug) =>
+  publishedRecords.find((record) => record.data.slug === slug)?.content ?? '';
+const publishedText = publishedRecords
+  .map(({ data, content }) => `${data.skills?.join('; ') ?? ''} ${data.talents ?? ''} ${content}`)
+  .join('\n');
 
 describe('canonical Shaping and senses', () => {
   it('uses the approved six Techniques and ten Forms', () => {
@@ -164,71 +179,182 @@ describe('canonical Shaping and senses', () => {
     expect(light).toMatch(/observed target[\s\S]{0,100}mover/i);
     expect(ranged).not.toMatch(/mist, smoke, or dim light/i);
     expect(ranged).not.toMatch(/fog, smoke, or darkness/i);
-    expect(ranged).toContain('/rules/adventuring/light-and-darkness/');
+    expect(ranged).toContain('/rules/adventuring/#light-and-darkness');
   });
 });
 
-describe('unpublished Lite creature compendium', () => {
-  it('exists outside the published content tree with exactly 57 approved profiles', () => {
+describe('published Lite creature compendium', () => {
+  it('publishes the 57 approved profiles and keeps the compendium as their source', () => {
     expect(existsSync(creaturePath)).toBe(true);
-    expect(existsSync(path.resolve('src/content/rules/creatures'))).toBe(false);
+    expect(existsSync(publishedRoot)).toBe(true);
 
     expect(parsedCreatureProfiles.map(({ name }) => name)).toEqual(expectedCreatures);
+    expect(publishedCreatures.map((record) => record.data.title)).toEqual(expectedCreatures);
     for (const excluded of ['Centaur', 'Gorgon', 'Hippogriff', 'Lamia', 'Slime', 'Octupus']) {
-      expect(parsedCreatureProfiles.map(({ name }) => name)).not.toContain(excluded);
+      expect(publishedCreatures.map((record) => record.data.title)).not.toContain(excluded);
     }
 
-    expect(creatureText.match(/^## (Animals|Monsters|Nymphs|Spirits|Undead)$/gm)).toEqual([
-      '## Animals',
-      '## Monsters',
-      '## Nymphs',
-      '## Spirits',
-      '## Undead',
+    expect([...new Set(publishedCreatures.map((record) => record.data.category))]).toEqual([
+      'animal',
+      'monster',
+      'nymph',
+      'spirit',
+      'undead',
+    ]);
+    expect(
+      publishedRecords
+        .filter((record) => record.data.type === 'rule')
+        .map((record) => record.data.slug),
+    ).toEqual([
+      'using-creatures',
+      'reading-a-profile',
+      'creature-tags',
+      'creature-talents',
+      'multiattack',
+      'creature-senses',
+      'spirit-combat-and-possession',
+      'elemental-shells',
     ]);
   });
 
-  it('gives every profile a compact, self-contained rules schema', () => {
-    for (const { name, body } of parsedCreatureProfiles) {
-      for (const field of [
-        'Tags',
-        'Characteristics',
-        'Derived',
-        'Skills',
-        'Attacks',
-        'Talents',
-        'Abilities',
-      ]) {
-        expect(body, `${name}: ${field}`).toMatch(new RegExp(`\\*\\*${field}:\\*\\*\\s+\\S`));
+  it('gives every published profile a compact, self-contained rules schema', () => {
+    for (const { data } of publishedCreatures) {
+      const label = data.title;
+      expect(data.tags.length, `${label}: tags`).toBeGreaterThan(0);
+      expect(data.summary, `${label}: summary`).toBeTruthy();
+      expect(data.characteristics, `${label}: characteristics`).toBeTruthy();
+      expect(data.derived, `${label}: derived`).toBeTruthy();
+      expect(data.skills.length, `${label}: skills`).toBeGreaterThan(0);
+      expect(
+        (data.attacks?.length ?? 0) + (data.attackNotes?.length ?? 0),
+        `${label}: attacks`,
+      ).toBeGreaterThan(0);
+      expect(data.talents, `${label}: talents`).toBeTruthy();
+    }
+  });
+
+  // The approved Plunder Ratings, converted from the LaTeX creature chapter. Everything that
+  // chapter left unrated is an animal, the Elemental, or a spirit, and the chapter states
+  // outright that animals carry no treasure by design.
+  it('carries the approved Plunder Rating on every profile', () => {
+    const approved = {
+      'Giant Ant': 0,
+      Bear: 0,
+      Bull: 0,
+      Crocodile: 0,
+      Dog: 0,
+      Elephant: 0,
+      Hawk: 0,
+      'Giant Hawk': 0,
+      Horse: 0,
+      Lion: 0,
+      'Giant Lizard': 0,
+      'Giant Octopus': 0,
+      'Giant Python': 0,
+      Raven: 0,
+      Rhinoceros: 0,
+      'Giant Spider': 0,
+      Viper: 0,
+      Wolf: 0,
+      Basilisk: 5,
+      Beastman: 2,
+      Dragon: 5,
+      Dwarf: 3,
+      Elemental: 0,
+      Elf: 1,
+      Gargoyle: 0,
+      Giant: 1,
+      Goblin: 1,
+      Golem: 0,
+      Griffin: 0,
+      Harpy: 3,
+      Merfolk: 1,
+      'Sea Serpent': 3,
+      'Holy Steed': 0,
+      'Holy Warrior': 0,
+      Lizardman: 3,
+      Ogre: 1,
+      Orc: 2,
+      Pixie: 0,
+      Troll: 1,
+      Werewolf: 0,
+      Wyvern: 1,
+      Dryad: 1,
+      Hag: 3,
+      Naiad: 1,
+      Oread: 1,
+      'Ancestor Spirit': 0,
+      'Disease Spirit': 0,
+      Ghost: 0,
+      'Guardian Spirit': 0,
+      'Healing Spirit': 0,
+      'Magic Spirit': 0,
+      'Passion Spirit': 0,
+      Ghoul: 1,
+      Mummy: 4,
+      Skeleton: 0,
+      Vampire: 4,
+      Zombie: 0,
+    };
+
+    expect(Object.keys(approved)).toEqual(expectedCreatures);
+    for (const { data } of publishedCreatures) {
+      expect(data.plunder, `${data.title}: plunder`).toBe(approved[data.title]);
+    }
+    expect(Object.values(approved).filter((rating) => rating > 0)).toHaveLength(22);
+  });
+
+  it('keeps every published value traceable to the compendium', () => {
+    const flatten = (value) => String(value).replace(/\s+/g, ' ').trim();
+
+    for (const { data, content } of publishedCreatures) {
+      const source = flatten(sourceBodyOf(data.title));
+      const traces = [
+        data.summary,
+        data.talents,
+        ...data.tags.map((tag) => tag[0].toUpperCase() + tag.slice(1)),
+        ...data.skills,
+        ...(data.attacks ?? []),
+        ...(data.attackNotes ?? []),
+        ...content
+          .split(/\n\n+/)
+          .map((paragraph) => paragraph.trim())
+          .filter((paragraph) => paragraph && !paragraph.startsWith('|')),
+      ];
+
+      for (const trace of traces) {
+        expect(source, `${data.title}: ${trace}`).toContain(flatten(trace));
       }
     }
   });
 
   it('caps skills at 100% and preserves exceptional competence through Mastery', () => {
-    const percentages = [...creatureText.matchAll(/\b(\d{1,3})%/g)].map((match) =>
-      Number(match[1]),
-    );
+    const published = publishedCreatures
+      .map(({ data, content }) => `${data.skills.join('; ')} ${data.talents} ${content}`)
+      .join('\n');
+    const percentages = [...published.matchAll(/\b(\d{1,3})%/g)].map((match) => Number(match[1]));
     expect(percentages.length).toBeGreaterThan(50);
     expect(Math.max(...percentages)).toBeLessThanOrEqual(100);
 
     expect(
-      parsedCreatureProfiles
-        .filter(({ body }) => body.includes('Mastery ('))
-        .map(({ name }) => name),
+      publishedCreatures
+        .filter(({ data, content }) => `${data.talents}${content}`.includes('Mastery ('))
+        .map(({ data }) => data.title),
     ).toEqual(['Dragon', 'Elemental', 'Holy Steed', 'Holy Warrior', 'Hag']);
 
     expect(talentsOf('Dragon')).toBe(
-      'Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I.',
+      'Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I',
     );
     expect(talentsOf('Elemental')).toBe(
-      'Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Persistence) I. Medium: none.',
+      'Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Persistence) I. Medium: none',
     );
     expect(talentsOf('Holy Steed')).toBe(
-      'Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I.',
+      'Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I',
     );
     expect(talentsOf('Holy Warrior')).toBe(
-      'Mastery (Dodge) II; Mastery (chosen combat skill) II; Mastery (Resilience) I; Mastery (Athletics) I.',
+      'Mastery (Dodge) II; Mastery (chosen combat skill) II; Mastery (Resilience) I; Mastery (Athletics) I',
     );
-    expect(talentsOf('Hag')).toBe('Mastery (Deception) I.');
+    expect(talentsOf('Hag')).toBe('Mastery (Deception) I');
   });
 
   it('uses the Lite HP, MWL, PP, DM, and Combat Order formulas for fixed profiles', () => {
@@ -247,35 +373,39 @@ describe('unpublished Lite creature compendium', () => {
       if (total <= 45) return '+1D6';
       return `+${2 + Math.max(0, Math.ceil((total - 60) / 15))}D6`;
     };
+    const fixedNumber = (value) =>
+      typeof value === 'number' ? value : Number(String(value).match(/^\d+/)?.[0] ?? NaN);
     let checked = 0;
     const skipped = [];
 
-    for (const { name, body } of parsedCreatureProfiles) {
-      const characteristics = body.match(
-        /\*\*Characteristics:\*\* STR (\d+); CON (\d+); DEX (\d+); SIZ (\d+); INT (\d+); POW (\d+);/,
+    for (const { data } of publishedCreatures) {
+      const { title: name, characteristics, derived } = data;
+      const characteristicValues = ['str', 'con', 'dex', 'siz', 'int', 'pow'].map((key) =>
+        typeof characteristics === 'string' ? NaN : characteristics[key],
       );
-      const derived = body.match(
-        /\*\*Derived:\*\* HP (\d+); MWL (\d+); PP (\d+);[\s\S]*?Combat Order (\d+)[^;]*;[\s\S]*?DM ([+-](?:0|\d+D\d+))/,
-      );
-      if (!characteristics || !derived) {
+      const combatOrder = typeof derived === 'string' ? NaN : fixedNumber(derived.combatOrder);
+      const fixed =
+        typeof derived !== 'string' &&
+        characteristicValues.every((value) => typeof value === 'number') &&
+        ['hp', 'mwl', 'pp'].every((key) => typeof derived[key] === 'number') &&
+        /^[+-](?:0|\d+D\d+)$/.test(String(derived.dm)) &&
+        Number.isInteger(combatOrder);
+      if (!fixed) {
         skipped.push(name);
         continue;
       }
 
-      const [, str, con, dex, siz, int, pow] = characteristics.map(Number);
-      const [, hp, mwl, pp, combatOrder, dm] = derived;
+      const [str, con, dex, siz, int, pow] = characteristicValues;
       const armour = Object.entries(wornArmourEnc).find(([kind]) =>
-        derived[0].toLowerCase().includes(kind),
+        `${derived.ap} ${derived.combatOrder}`.toLowerCase().includes(kind),
       );
       const enc = armour?.[1] ?? 0;
 
-      expect(Number(hp), `${name}: HP`).toBe(Math.ceil((siz + con) / 2));
-      expect(Number(mwl), `${name}: MWL`).toBe(Math.ceil(Number(hp) / 2));
-      expect(Number(pp), `${name}: PP`).toBe(pow);
-      expect(Number(combatOrder), `${name}: Combat Order`).toBe(
-        Math.floor((dex + int) / 2 + 0.5) - enc,
-      );
-      expect(dm, `${name}: DM`).toBe(damageModifier(str + siz));
+      expect(derived.hp, `${name}: HP`).toBe(Math.ceil((siz + con) / 2));
+      expect(derived.mwl, `${name}: MWL`).toBe(Math.ceil(derived.hp / 2));
+      expect(derived.pp, `${name}: PP`).toBe(pow);
+      expect(combatOrder, `${name}: Combat Order`).toBe(Math.floor((dex + int) / 2 + 0.5) - enc);
+      expect(derived.dm, `${name}: DM`).toBe(damageModifier(str + siz));
       checked += 1;
     }
 
@@ -297,14 +427,15 @@ describe('unpublished Lite creature compendium', () => {
   });
 
   it('limits physical extra-attack packages to the approved four creatures', () => {
-    const packages = parsedCreatureProfiles
-      .filter(({ body }) => /\b(?:Multiattack|Many Arms|Raking Dive)\b/.test(body))
-      .map(({ name }) => name);
+    const packages = publishedCreatures
+      .filter(({ content }) => /\b(?:Multiattack|Many Arms|Raking Dive)\b/.test(content))
+      .map(({ data }) => data.title);
+    const multiattack = ruleContent('multiattack');
 
     expect(packages).toEqual(['Giant Octopus', 'Dragon', 'Griffin', 'Wyvern']);
-    expect(creatureText).toContain('each later attack at `-1P`');
-    expect(creatureText).toContain('same or different targets');
-    expect(creatureText).toContain('Dodge remains limited to the base Reaction');
+    expect(multiattack).toContain('each later attack at `-1P`');
+    expect(multiattack).toContain('same or different targets');
+    expect(multiattack).toContain('Dodge remains limited to the base Reaction');
     expect(bodyOf('Giant Octopus')).toContain('up to four Arm attacks');
     expect(bodyOf('Dragon')).toContain('Make two Claw attacks');
     expect(bodyOf('Griffin')).toContain('make two Claw attacks');
@@ -315,6 +446,10 @@ describe('unpublished Lite creature compendium', () => {
   });
 
   it('defines creature tags, vision, spirit combat, and undead consistently', () => {
+    const glossary = ruleContent('creature-tags');
+    const senses = ruleContent('creature-senses');
+    const spirits = ruleContent('spirit-combat-and-possession');
+
     for (const tag of [
       'Living',
       'Corporeal',
@@ -327,33 +462,39 @@ describe('unpublished Lite creature compendium', () => {
       'Mindless',
       'Anchored',
     ]) {
-      expect(creatureText).toMatch(new RegExp(`\\*\\*${tag}\\*\\*`));
+      expect(glossary, tag).toMatch(new RegExp(`\\*\\*${tag}\\*\\*`));
     }
-    expect(creatureText).toContain('Blind Sight (heat)');
-    expect(creatureText).toContain('Blind Sight (living beings)');
-    expect(creatureText).not.toContain('Dark Vision');
-    expect(creatureText).toContain('Spirit Combat');
-    expect(creatureText).toContain("host's existing Combat Order");
-    expect(creatureText).toContain('possession refreshes nothing');
-    expect(bodyOf('Elemental')).toContain('every other creature within the listed radius');
+    expect(publishedText).toContain('Blind Sight (heat)');
+    expect(publishedText).toContain('Blind Sight (living beings)');
+    expect(publishedText).not.toContain('Dark Vision');
+    expect(senses).toContain('Spirit Sense');
+    expect(spirits).toContain('Spirit Combat');
+    expect(spirits).toContain("host's existing Combat Order");
+    expect(spirits).toContain('possession refreshes nothing');
+    expect(creatureRecord('Elemental').data.attacks.join(' ')).toContain(
+      'every other creature within the listed radius',
+    );
     for (const name of ['Ghoul', 'Mummy', 'Vampire']) {
-      expect(tagsOf(name), name).toContain('Undead');
-      expect(tagsOf(name), name).toContain('Soulless');
-      expect(tagsOf(name), name).not.toContain('Mindless');
+      expect(tagsOf(name), name).toContain('undead');
+      expect(tagsOf(name), name).toContain('soulless');
+      expect(tagsOf(name), name).not.toContain('mindless');
     }
     for (const name of ['Skeleton', 'Zombie']) {
-      expect(tagsOf(name), name).toContain('Undead');
-      expect(tagsOf(name), name).toContain('Soulless');
-      expect(tagsOf(name), name).toContain('Mindless');
+      expect(tagsOf(name), name).toContain('undead');
+      expect(tagsOf(name), name).toContain('soulless');
+      expect(tagsOf(name), name).toContain('mindless');
     }
-    expect(tagsOf('Ghost')).not.toContain('Undead');
-    expect(tagsOf('Ghost')).not.toContain('Soulless');
+    expect(tagsOf('Ghost')).not.toContain('undead');
+    expect(tagsOf('Ghost')).not.toContain('soulless');
   });
 
-  it('contains no retired systems or publishable markup', () => {
-    expect(creatureText).not.toMatch(
-      /\b(?:Magnitude|Demoralise|Dark Vision|Folk Magic|Arcane Magic|Divine Magic|Shamanism)\b/,
-    );
-    expect(creatureText).not.toMatch(/!\[[^\]]*\]\(|<\/?[a-z][^>]*>/i);
+  it('contains no retired systems, draft framing, or publishable markup', () => {
+    for (const text of [creatureText, publishedText]) {
+      expect(text).not.toMatch(
+        /\b(?:Magnitude|Demoralise|Dark Vision|Folk Magic|Arcane Magic|Divine Magic|Shamanism)\b/,
+      );
+      expect(text).not.toMatch(/!\[[^\]]*\]\(|<\/?[a-z][^>]*>/i);
+    }
+    expect(publishedText).not.toContain('It is not part of the website yet');
   });
 });

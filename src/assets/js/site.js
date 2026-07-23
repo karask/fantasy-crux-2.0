@@ -1,24 +1,21 @@
 document.documentElement.classList.add('js');
 
-function enhanceTalentBrowser() {
-  const browser = document.querySelector('[data-talent-browser]');
-  if (!browser) return;
+// Drives the Talent catalogue and the bestiary: both filter tagged cards in place.
+function enhanceFilterBrowsers() {
+  for (const browser of document.querySelectorAll('[data-filter-browser]')) {
+    const buttons = [...browser.querySelectorAll('[data-filter]')];
+    const cards = [...browser.querySelectorAll('[data-filter-item]')];
+    const count = browser.querySelector('[data-filter-count]');
+    const empty = browser.querySelector('[data-filter-empty]');
 
-  const buttons = [...browser.querySelectorAll('[data-talent-filter]')];
-  const cards = [...browser.querySelectorAll('[data-talent-card]')];
-  const count = browser.querySelector('[data-talent-count]');
-  const empty = browser.querySelector('[data-filter-empty]');
-
-  for (const button of buttons) {
-    button.addEventListener('click', () => {
-      const filter = button.dataset.talentFilter;
+    function apply(filter) {
       let visible = 0;
 
-      for (const candidate of buttons) {
-        candidate.setAttribute('aria-pressed', String(candidate === button));
+      for (const button of buttons) {
+        button.setAttribute('aria-pressed', String(button.dataset.filter === filter));
       }
       for (const card of cards) {
-        const tags = (card.dataset.tags ?? '').split(' ');
+        const tags = (card.dataset.filterTags ?? '').split(' ');
         const show = filter === 'all' || tags.includes(filter);
         card.hidden = !show;
         if (show) visible += 1;
@@ -26,7 +23,21 @@ function enhanceTalentBrowser() {
 
       count.textContent = String(visible);
       empty.hidden = visible !== 0;
-    });
+    }
+
+    // A link to a filtered-out card would otherwise jump nowhere, so widen the filter first.
+    function revealTarget() {
+      const id = decodeURIComponent(window.location.hash.slice(1));
+      const target = id && document.getElementById(id);
+      if (!target?.closest('[data-filter-item]')?.hidden) return;
+      apply('all');
+      target.scrollIntoView();
+    }
+
+    for (const button of buttons) {
+      button.addEventListener('click', () => apply(button.dataset.filter));
+    }
+    window.addEventListener('hashchange', revealTarget);
   }
 }
 
@@ -79,7 +90,16 @@ async function enhanceSearch() {
   const input = page.querySelector('[data-search-input]');
   const status = page.querySelector('[data-search-status]');
   const results = page.querySelector('[data-search-results]');
+  const titleSource = page.querySelector('[data-section-titles]');
+  const sectionTitles = titleSource ? JSON.parse(titleSource.textContent) : {};
   let pagefind;
+
+  // Headings inside a rule are namespaced `rule-slug--heading`; report the rule itself.
+  function ruleAnchor(url) {
+    const [pathname, fragment = ''] = url.split('#', 2);
+    const rule = fragment.split('--', 1)[0];
+    return rule ? `${pathname}#${rule}` : pathname;
+  }
 
   async function runSearch(query) {
     const term = query.trim();
@@ -94,17 +114,34 @@ async function enhanceSearch() {
       pagefind ??= await import(new URL('../../pagefind/pagefind.js', import.meta.url));
       const response = await pagefind.search(term);
       const records = await Promise.all(response.results.map((result) => result.data()));
-      status.textContent = `${response.results.length} result${response.results.length === 1 ? '' : 's'} for “${term}”.`;
+      // Chapters are single pages: collapse every heading match back to its own rule anchor.
+      const sections = [];
+      const seen = new Set();
 
       for (const record of records) {
+        for (const entry of record.sub_results?.length ? record.sub_results : [record]) {
+          const url = ruleAnchor(entry.url ?? record.url);
+          if (seen.has(url)) continue;
+          seen.add(url);
+          sections.push({
+            chapter: record.meta.chapter ?? 'Rules',
+            title: sectionTitles[url] ?? entry.title ?? record.meta.title ?? 'Untitled rule',
+            url,
+            excerpt: entry.excerpt ?? record.excerpt,
+          });
+        }
+      }
+      status.textContent = `${sections.length} result${sections.length === 1 ? '' : 's'} for “${term}”.`;
+
+      for (const section of sections) {
         const item = document.createElement('li');
-        const meta = textElement('p', record.meta.chapter ?? 'Rules', 'search-result-meta');
+        const meta = textElement('p', section.chapter, 'search-result-meta');
         const heading = document.createElement('h2');
         const link = document.createElement('a');
         const excerpt = document.createElement('p');
-        link.href = record.url;
-        link.textContent = record.meta.title ?? 'Untitled rule';
-        excerpt.innerHTML = record.excerpt;
+        link.href = section.url;
+        link.textContent = section.title;
+        excerpt.innerHTML = section.excerpt;
         heading.append(link);
         item.append(meta, heading, excerpt);
         results.append(item);
@@ -132,6 +169,6 @@ async function enhanceSearch() {
   }
 }
 
-enhanceTalentBrowser();
+enhanceFilterBrowsers();
 enhanceExamples();
 enhanceSearch();

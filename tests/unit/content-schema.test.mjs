@@ -15,7 +15,7 @@ describe('content schema', () => {
       quickReference: { group: 'combat', order: 20 },
     });
 
-    expect(permalinkFor(rule)).toBe('/rules/combat/active-guard/');
+    expect(permalinkFor(rule)).toBe('/rules/combat/#active-guard');
   });
 
   it('accepts Magic rules in the quick-reference collection', () => {
@@ -31,7 +31,7 @@ describe('content schema', () => {
       quickReference: { group: 'magic', order: 10 },
     });
 
-    expect(permalinkFor(rule)).toBe('/rules/magic/building-a-shaping/');
+    expect(permalinkFor(rule)).toBe('/rules/magic/#building-a-shaping');
   });
 
   it('rejects unknown metadata and malformed immutable IDs', () => {

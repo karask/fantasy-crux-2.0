@@ -72,17 +72,31 @@ describe('canonical lite content', () => {
       ['magic.ongoing-and-magical-actions', 'ongoing-and-magical-actions'],
       ['magic.rituals-and-examples', 'rituals-and-examples'],
     ]);
-    expect(characterCreation.content).toContain('/rules/magic/becoming-a-shaper/');
+    expect(characterCreation.content).toContain('/rules/magic/#becoming-a-shaper');
     expect(alternateMagic).toContain('Traditions and Authorities');
     expect(existsSync(path.resolve('freeform-magic/FC-magic-shaping-potential-1.md'))).toBe(false);
   });
 
+  // Reference chapters carry their own budget so they never compete with rules prose for the
+  // same allowance. The core ceiling moved from 16,000 to 16,250 when Intimidate was restored:
+  // the original figure was measured against a conversion that had dropped a Combat Action.
   it('stays within the compact visible-copy budget', () => {
-    const words = records
-      .map((record) => record.content)
-      .join('\n')
-      .match(/[\p{L}\p{N}]+(?:[-'’][\p{L}\p{N}]+)*/gu);
-    expect(words.length).toBeLessThanOrEqual(16_000);
+    const chapterBudgets = { creatures: 4_500, 'gm-tools': 4_000 };
+    const chapterOf = (record) => record.data.chapter ?? record.data.id;
+    const countWords = (subset) =>
+      subset
+        .map((record) => record.content)
+        .join('\n')
+        .match(/[\p{L}\p{N}]+(?:[-'’][\p{L}\p{N}]+)*/gu).length;
+
+    for (const [chapter, budget] of Object.entries(chapterBudgets)) {
+      const subset = records.filter((record) => chapterOf(record) === chapter);
+      expect(subset.length, chapter).toBeGreaterThan(0);
+      expect(countWords(subset), chapter).toBeLessThanOrEqual(budget);
+    }
+
+    const core = records.filter((record) => !(chapterOf(record) in chapterBudgets));
+    expect(countWords(core)).toBeLessThanOrEqual(16_250);
   });
 
   it('contains no generic image or raw-HTML markup', () => {

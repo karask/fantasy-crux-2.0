@@ -12,6 +12,8 @@ aliases:
   - Combat Order
   - Withdraw
   - Set Weapon
+  - Intimidate
+  - surrender
 quickReference:
   group: combat
   order: 10
@@ -36,7 +38,8 @@ Combat and Movement Actions happen in Combat Order. A Reaction interrupts that o
 - Aim a ranged weapon.
 - Set a weapon against a Charge.
 - Use a skill or object that can reasonably be handled in about five seconds.
-- Cast or maintain [Shaping](/rules/magic/casting-and-defence/) when its rule requires a Combat Action.
+- Cast or maintain [Shaping](/rules/magic/#casting-and-defence) when its rule requires a Combat Action.
+- Intimidate an enemy or a whole group into surrendering or fleeing.
 - Delay: act after a chosen participant later in the round. To interrupt an action already beginning, make an opposed test using the relevant skills; the winner acts first.
 
 ## Common Movement Actions
@@ -63,3 +66,20 @@ Spend the Combat and Movement Actions to move up to twice Movement. The characte
 ## Charge
 
 Spend the Combat and Movement Actions and forfeit all Reactions. Move at least 5 metres and no more than twice Movement along a straight, unobstructed, passable route, ending adjacent to the target; then make one Close Combat attack. A hit gains `+1D6` damage. A Charge allows no other movement and is not a standard Close Combat attack for extra off-hand attacks.
+
+## Intimidate
+
+Spend the Combat Action to demand surrender or drive an enemy off. Declare a single target or the whole group, then oppose the character's Influence against the target's Persistence. A group rolls once on its leader's Persistence, or on the leader's Influence when that is higher.
+
+Apply the one modifier that best describes the enemy. They are not cumulative.
+
+| Enemy's condition                                                  | Modifier |
+| ------------------------------------------------------------------ | -------: |
+| At full strength, or carrying no more than minor wounds            |    `+2B` |
+| Outnumbers your side but has lost 20% of its numbers or Hit Points |    `+1B` |
+| Fewer than your side and already wounded                           |    `-1P` |
+| Has lost over half its Hit Points, or half the group is down       |    `-2P` |
+
+While the enemy is at full strength or outnumbers the characters, only a Critical Influence against a failed Persistence forces a surrender. A fumbled Persistence routs them outright.
+
+A shared language is not needed, but the character must be able to make themselves understood by sign, gesture, or bearing. The Gamemaster decides who can be targeted and whether the attempt is possible at all.

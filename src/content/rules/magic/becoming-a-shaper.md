@@ -21,9 +21,9 @@ Shaping access costs **8 IP**, requires a supernatural initiation or discovery, 
 - **Shaping**, a Knowledge skill with base `INT + POW`;
 - one specialty: a Technique or a Form;
 - two known cells containing that specialty; and
-- [Sense Magic, Counter, and Dispel](/rules/magic/ongoing-and-magical-actions/#magic-universal-actions).
+- [Sense Magic, Counter, and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
 
-During [character creation](/rules/characters/character-creation/), declare Shaping and reserve its 8 IP before allocating Knowledge points. Pay the reserved IP during the starting-IP step. Shaping follows the 30-point creation limit.
+During [character creation](/rules/characters/#character-creation), declare Shaping and reserve its 8 IP before allocating Knowledge points. Pay the reserved IP during the starting-IP step. Shaping follows the 30-point creation limit.
 
 Shaping caps at 100% and improves as a normal skill, at most once between adventures. Later learning requires suitable experience.
 
@@ -40,4 +40,4 @@ Every Shaper defines both:
 - **Practice:** an observable, interruptible requirement such as speech, gestures, a focus, prayer, or trance. Preventing it prevents casting.
 - **Tell:** an unavoidable sign around the Shaper and any ranged target or area. It reveals magic, not its purpose.
 
-Anyone watching the Practice notices the Tell. It is also automatically noticeable within `10 × Magnitude` metres of the Shaper and target, minimum 3 metres. Cosmetic style is free; concealing the Tell requires [Veiled](/rules/magic/building-a-shaping/#magic-adjustments).
+Anyone watching the Practice notices the Tell. It is also automatically noticeable within `10 × Magnitude` metres of the Shaper and target, minimum 3 metres. Cosmetic style is free; concealing the Tell requires [Veiled](/rules/magic/#building-a-shaping--magic-adjustments).

@@ -22,7 +22,7 @@ tags:
 
 ## Effect
 
-While already [grappling](/rules/combat/grappling/), spend a Combat Action and make an opposed Unarmed Combat test. On a win, choose one:
+While already [grappling](/rules/combat/#grappling), spend a Combat Action and make an opposed Unarmed Combat test. On a win, choose one:
 
 - deal normal unarmed damage; armour applies;
 - force one held item to be dropped at the target's feet; or

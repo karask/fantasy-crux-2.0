@@ -25,7 +25,7 @@ export default function configure(eleventyConfig) {
     .use(markdownItAnchor, {
       level: [2, 3],
       permalink: markdownItAnchor.permalink.linkInsideHeader({
-        symbol: '<span aria-hidden="true">#</span>',
+        symbol: '',
         placement: 'after',
         class: 'heading-anchor',
         ariaHidden: false,
@@ -35,6 +35,10 @@ export default function configure(eleventyConfig) {
         }),
       }),
     });
+
+  // Smart quotes stay on, but the (c)/(tm)/-- substitutions do not: they would rewrite the
+  // clause markers in the Open Game License. No rules content depends on them.
+  markdown.disable('replacements');
 
   markdown.renderer.rules.table_open = () => '<div class="table-wrap" tabindex="0"><table>';
   markdown.renderer.rules.table_close = () => '</table></div>';
@@ -103,6 +107,12 @@ export default function configure(eleventyConfig) {
       .filter((item) => item.data.type === 'talent')
       .sort(byOrder),
   );
+  eleventyConfig.addCollection('creatures', (collection) =>
+    collection
+      .getAll()
+      .filter((item) => item.data.type === 'creature')
+      .sort(byOrder),
+  );
   eleventyConfig.addCollection('quickReference', (collection) =>
     collection
       .getAll()
@@ -113,6 +123,28 @@ export default function configure(eleventyConfig) {
           left.data.quickReference.order - right.data.quickReference.order,
       ),
   );
+
+  // Maps every in-chapter anchor back to its rule title so search results stay rule-level.
+  eleventyConfig.addCollection('sectionTitles', (collection) =>
+    Object.fromEntries(
+      collection
+        .getAll()
+        .filter((item) => ['rule', 'talent', 'creature'].includes(item.data.type))
+        .map((item) => [`/rules/${item.data.chapter}/#${item.data.slug}`, item.data.title]),
+    ),
+  );
+
+  // Rules are rendered inside their chapter page, so their headings drop one level and
+  // every id/fragment is namespaced by the rule slug to stay unique across the chapter.
+  eleventyConfig.addFilter('inlineSection', (html, slug) =>
+    String(html ?? '')
+      .replace(/<(\/?)h([2-5])\b/g, (_match, close, level) => `<${close}h${Number(level) + 1}`)
+      .replace(/\bid="([^"]+)"/g, (_match, id) => `id="${slug}--${id}"`)
+      .replace(/\bhref="#([^"]+)"/g, (_match, id) => `href="#${slug}--${id}"`),
+  );
+
+  // Profile values keep their authored Markdown, so dice such as `1D6 + DM` stay code spans.
+  eleventyConfig.addFilter('inlineMarkdown', (value) => markdown.renderInline(String(value ?? '')));
 
   eleventyConfig.addFilter('summaryText', (value) =>
     Array.isArray(value) ? value.join(' ') : (value ?? ''),
@@ -126,7 +158,10 @@ export default function configure(eleventyConfig) {
   eleventyConfig.addFilter('navCurrent', (pageUrl, href) =>
     href === '/' ? pageUrl === '/' : pageUrl?.startsWith(href),
   );
-  eleventyConfig.addFilter('padChapter', (value) => String(value).padStart(2, '0'));
+  // Chapters pad to two digits; non-numeric markers such as QR or § stand as written.
+  eleventyConfig.addFilter('padChapter', (value) =>
+    typeof value === 'number' ? String(value).padStart(2, '0') : String(value),
+  );
   eleventyConfig.addFilter('json', (value) => JSON.stringify(value));
 
   return {

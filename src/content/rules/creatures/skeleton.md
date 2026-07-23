@@ -1,0 +1,43 @@
+---
+type: creature
+id: creatures.skeleton
+chapter: creatures
+title: 'Skeleton'
+slug: skeleton
+order: 550
+category: undead
+summary: 'Animated bones following simple commands.'
+tags:
+  - 'corporeal'
+  - 'undead'
+  - 'soulless'
+  - 'mindless'
+plunder: 0
+characteristics:
+  str: 13
+  con: 4
+  dex: 11
+  siz: 11
+  int: 0
+  pow: 0
+  cha: 0
+derived:
+  hp: 8
+  mwl: 4
+  pp: 0
+  movement: '15 m'
+  combatOrder: 3
+  ap: '2 leather'
+  dm: '+0'
+skills:
+  - 'Close Combat 35%'
+  - 'Dodge 10%'
+  - 'Persistence 100%'
+  - 'Resilience 100%'
+attacks:
+  - 'Arming Sword — Close Combat 35%, `1D8 + DM`, Medium'
+  - 'Medium Shield — Close Combat 35%, `1D6 + DM`, Heavy'
+talents: 'None'
+---
+
+**Pierce Resistance:** After Parry and AP, halve damage from piercing weapons, rounded down.

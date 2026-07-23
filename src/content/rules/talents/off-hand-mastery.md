@@ -25,6 +25,6 @@ tags:
 
 ## Effect
 
-Remove the `-1P` from both core [two-ready-item options](/rules/combat/two-ready-items/): the extra off-hand attack and the extra off-hand Parry or Opportunity Reaction.
+Remove the `-1P` from both core [off-hand options](/rules/combat/#off-hand-options): the extra off-hand attack and the extra off-hand Parry or Opportunity Reaction.
 
 This does not grant another use, allow both options in one round, enable an extra Dodge or Protector Reaction, or make a two-handed item qualify.

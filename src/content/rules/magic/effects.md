@@ -16,7 +16,7 @@ aliases:
   - magic summons
 ---
 
-Use the lowest [Intensity](/rules/magic/building-a-shaping/#magic-intensity) that produces the outcome.
+Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) that produces the outcome.
 
 | Outcome                       | Effect                                                                              |
 | ----------------------------- | ----------------------------------------------------------------------------------- |
@@ -34,7 +34,7 @@ Use the lowest [Intensity](/rules/magic/building-a-shaping/#magic-intensity) tha
 
 ## Damage, armour, and wounds {#magic-damage}
 
-Physical magic follows normal [damage rules](/rules/combat/damage-and-wounds/); **Piercing** ignores mundane armour. Mind deals no HP. Unmake·Spirit deals `Intensity D6` PP to any souled target and ignores AP. At 0 PP, a living target falls unconscious; a Spirit is banished and possession ends. Soulless targets are invalid.
+Physical magic follows normal [damage rules](/rules/combat/#damage-and-wounds); **Piercing** ignores mundane armour. Mind deals no HP. Unmake·Spirit deals `Intensity D6` PP to any souled target and ignores AP. At 0 PP, a living target falls unconscious; a Spirit is banished and possession ends. Soulless targets are invalid.
 
 A Shaping may damage a physical manifestation or exploit a genuine natural counter. Only Dispel directly ends an active Shaping.
 
@@ -42,7 +42,7 @@ A Shaping may damage a physical manifestation or exploit a genuine natural count
 
 Healing cannot exceed maximum HP and removes **Bleeding** and **Dying**. A living subject raised above 0 HP may act on their next turn in Combat Order. Wounded remains.
 
-At Intensity 3+, healing counts as [Surgery](/rules/adventuring/healing-and-recovery/#adventuring-surgery-recovery): natural recovery is unlocked, and Wounded ends after treatment once HP exceeds MWL.
+At Intensity 3+, healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery): natural recovery is unlocked, and Wounded ends after treatment once HP exceeds MWL.
 
 Curing poison or disease needs minimum Intensity `ceil(Potency / 25)`. Oppose Shaping with Potency; the Shaper must succeed and win. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change before retrying.
 

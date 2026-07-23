@@ -1,5 +1,5 @@
 export default {
-  title: 'Fantasy Crux Lite',
+  title: 'Fantasy Crux 2.0',
   edition: 'Cold Iron Edition',
   description: 'Compact, gritty fantasy rules built for fast use at the table.',
   primaryNav: [
@@ -8,10 +8,13 @@ export default {
     { number: 2, label: 'Skills', href: '/rules/skills/' },
     { number: 3, label: 'Equipment', href: '/rules/equipment/' },
     { number: 4, label: 'Combat', href: '/rules/combat/' },
-    { number: 5, label: 'Adventuring', href: '/rules/adventuring/' },
+    { number: 5, label: 'Magic', href: '/rules/magic/' },
     { number: 6, label: 'Talents', href: '/rules/talents/' },
-    { number: 7, label: 'Magic', href: '/rules/magic/' },
+    { number: 7, label: 'Adventuring', href: '/rules/adventuring/' },
+    { number: 8, label: 'GM Tools', href: '/rules/gm-tools/' },
+    { number: 9, label: 'Creatures', href: '/rules/creatures/' },
     { number: 'QR', label: 'Reference', href: '/reference/' },
+    { number: '§', label: 'License', href: '/license/' },
   ],
   quickGroups: [
     { id: 'core', label: 'Core procedure' },
@@ -19,8 +22,9 @@ export default {
     { id: 'skills', label: 'Skills' },
     { id: 'equipment', label: 'Equipment' },
     { id: 'combat', label: 'Combat' },
-    { id: 'adventuring', label: 'Adventuring' },
-    { id: 'talents', label: 'Talents' },
     { id: 'magic', label: 'Magic' },
+    { id: 'talents', label: 'Talents' },
+    { id: 'adventuring', label: 'Adventuring' },
+    { id: 'gm-tools', label: 'Gamemaster tools' },
   ],
 };

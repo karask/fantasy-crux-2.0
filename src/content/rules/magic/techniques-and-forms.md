@@ -15,7 +15,7 @@ aliases:
   - Shaping cells
 ---
 
-Combine one **Technique** and one **Form** to define an exact [known cell](/rules/magic/becoming-a-shaper/).
+Combine one **Technique** and one **Form** to define an exact [known cell](/rules/magic/#becoming-a-shaper).
 
 ## Techniques {#magic-techniques}
 
@@ -28,7 +28,7 @@ Combine one **Technique** and one **Form** to define an exact [known cell](/rule
 | **Ward**    | Grant one protection, resistance, or denial; no absolute immunity below Intensity 5.            |
 | **Scry**    | Gain information, communication, or a sense without changing the subject.                       |
 
-Unmake can damage a manifestation or exploit a genuine natural counter. Only [Dispel](/rules/magic/ongoing-and-magical-actions/#magic-dispel) directly ends an active Shaping.
+Unmake can damage a manifestation or exploit a genuine natural counter. Only [Dispel](/rules/magic/#ongoing-and-magical-actions--magic-dispel) directly ends an active Shaping.
 
 ## Forms {#magic-forms}
 
@@ -45,7 +45,7 @@ Unmake can damage a manifestation or exploit a genuine natural counter. Only [Di
 | **Paths**        | Routes, thresholds, distance, destinations, and spatial links; never time travel.                             | Resilience; Dodge `-1P` for a visible moving aperture or area |
 | **Fate**         | Unresolved chance, omens, vows, and declared contingencies; never a resolved event or compelled choice.       | Persistence                                                   |
 
-Physical damage uses [armour](/rules/equipment/armour/) unless **Piercing**; internal Flesh needs Piercing. Environmental fire uses core rules; Spirit damage follows its [own rule](/rules/magic/effects/#magic-damage).
+Physical damage uses [armour](/rules/equipment/#armour) unless **Piercing**; internal Flesh needs Piercing. Environmental fire uses core rules; Spirit damage follows its [own rule](/rules/magic/#effects--magic-damage).
 
 ### Bodies, minds, and souls {#magic-bodies-minds-souls}
 

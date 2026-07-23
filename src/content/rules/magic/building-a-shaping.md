@@ -17,7 +17,7 @@ aliases:
   - Shaping dials
 ---
 
-Choose a [known cell](/rules/magic/becoming-a-shaper/), describe one clear outcome, and price what it accomplishes.
+Choose a [known cell](/rules/magic/#becoming-a-shaper), describe one clear outcome, and price what it accomplishes.
 
 > **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets the effect. Magnitude sets required PP, base PP cost, difficulty, active limit, and Dispel strength; the casting result sets PP paid.
 
@@ -76,7 +76,7 @@ Range 1–3 needs an unobstructed route. **Indirect** crosses a barrier when the
 |      4 | Indefinite until dismissed or Dispelled; ritual              |
 |      5 | Permanent; mythic ritual                                     |
 
-Duration sustains a state, sense, or observation. It cannot repeat direct damage, healing, discrete answers, or another one-use outcome; [created hazards](/rules/magic/ongoing-and-magical-actions/#magic-created-hazards) use their separate rule. Concentration is maintenance, and continuing beyond the next turn requires Duration 1+.
+Duration sustains a state, sense, or observation. It cannot repeat direct damage, healing, discrete answers, or another one-use outcome; [created hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) use their separate rule. Concentration is maintenance, and continuing beyond the next turn requires Duration 1+.
 
 ## Reach {#magic-reach}
 

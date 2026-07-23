@@ -1,0 +1,39 @@
+---
+type: creature
+id: creatures.hawk
+chapter: creatures
+title: 'Hawk'
+slug: hawk
+order: 70
+category: animal
+summary: 'A small, agile bird of prey.'
+tags:
+  - 'living'
+  - 'corporeal'
+plunder: 0
+characteristics:
+  str: 2
+  con: 4
+  dex: 27
+  siz: 2
+  int: 4
+  pow: 7
+  cha: 4
+derived:
+  hp: 3
+  mwl: 2
+  pp: 7
+  movement: '15 m ground, 30 m fly'
+  combatOrder: 16
+  ap: 0
+  dm: '-1D6'
+skills:
+  - 'Dodge 81%'
+  - 'Persistence 21%'
+  - 'Resilience 12%'
+  - 'Unarmed Combat 50%'
+attacks:
+  - 'Claw — Unarmed Combat 50%, `1D6 + DM`, Light'
+  - 'Bite — Unarmed Combat 50%, `1D4 + DM`, Light'
+talents: 'None'
+---

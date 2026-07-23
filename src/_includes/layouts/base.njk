@@ -14,28 +14,30 @@
     <a class="skip-link" href="#main-content">Skip to rules</a>
 
     <header class="site-header">
-      <a class="wordmark" href="/" aria-label="Fantasy Crux Lite home">
-        <span class="wordmark-mark" aria-hidden="true">FC</span>
-        <span>
-          <strong>Fantasy Crux</strong>
-          <small>Lite · Cold Iron</small>
-        </span>
-      </a>
+      <div class="header-inner">
+        <a class="wordmark" href="/" aria-label="{{ site.title }} home">
+          <span class="wordmark-mark" aria-hidden="true">FC</span>
+          <span>
+            <strong>{{ site.title }}</strong>
+            <small>Lite</small>
+          </span>
+        </a>
 
-      <nav class="utility-nav" aria-label="Utilities">
-        <a href="/reference/">Quick reference</a>
-        <a class="search-link" href="/search/"><span aria-hidden="true">⌕</span> Search</a>
-      </nav>
+        <form class="header-search" role="search" action="/search/" method="get">
+          <label for="header-search-input">Search the rules</label>
+          <input id="header-search-input" name="q" type="search" autocomplete="off" placeholder="Search rules, Talents, Shaping, and creatures">
+          <button type="submit" aria-label="Search rules"><span aria-hidden="true">⌕</span></button>
+        </form>
 
-      <details class="nav-disclosure">
-        <summary>Rules menu</summary>
-        <nav aria-label="Mobile rules chapters">
-          {% for item in site.primaryNav %}
-            <a href="{{ item.href }}"{% if page.url | navCurrent(item.href) %} aria-current="page"{% endif %}>{{ item.label }}</a>
-          {% endfor %}
-          <a href="/search/">Search</a>
-        </nav>
-      </details>
+        <details class="nav-disclosure">
+          <summary>Rules menu</summary>
+          <nav aria-label="Mobile rules chapters">
+            {% for item in site.primaryNav %}
+              <a href="{{ item.href }}"{% if page.url | navCurrent(item.href) %} aria-current="page"{% endif %}>{{ item.label }}</a>
+            {% endfor %}
+          </nav>
+        </details>
+      </div>
     </header>
 
     <div class="site-layout">
@@ -61,6 +63,7 @@
     <footer class="site-footer">
       <p><strong>{{ site.title }}</strong> · {{ site.edition }}</p>
       <p>Canonical lite rules. The original LaTeX sources remain preserved as legacy material.</p>
+      <p><a href="/license/">Open Game License</a> · Rules text is Open Game Content</p>
     </footer>
   </body>
 </html>

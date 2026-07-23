@@ -21,7 +21,7 @@ permalink: /reference/index.html
           <dl>
             {% for item in entries %}
               <div>
-                <dt><a href="{{ item.url }}">{{ item.data.title }}</a></dt>
+                <dt><a href="{{ item.data.anchorUrl }}">{{ item.data.title }}</a></dt>
                 <dd>{{ item.data.summary | summaryText }}</dd>
               </div>
             {% endfor %}

@@ -1,0 +1,95 @@
+{% set profile = creature.data %}
+<article class="creature-profile" data-filter-item data-filter-tags="{{ profile.category }}" data-pagefind-body data-pagefind-meta="chapter:creatures">
+  {# Thumbnails are commissioned per creature; until one lands, the frame keeps its place. #}
+  <div class="creature-portrait">
+    {% if profile.image %}
+      <img src="{{ profile.image }}" alt="" width="320" height="320" loading="lazy" decoding="async">
+    {% else %}
+      <span class="creature-portrait-mark" aria-hidden="true">{{ profile.title.charAt(0) }}</span>
+      <span class="creature-portrait-note" aria-hidden="true">Art pending</span>
+    {% endif %}
+  </div>
+
+  <div class="creature-detail">
+    <header class="creature-heading">
+      <p class="eyebrow">{{ profile.category }}</p>
+      <h2 id="{{ profile.slug }}" data-pagefind-meta="title">
+        {{ profile.title }}
+        <a class="heading-anchor" href="#{{ profile.slug }}" aria-label="Link to this section" data-pagefind-ignore></a>
+      </h2>
+      <p class="creature-deck">{{ profile.summary | summaryText }}</p>
+      <ul class="creature-tags">
+        {% for tag in profile.tags %}<li>{{ tag }}</li>{% endfor %}
+      </ul>
+      {% if profile.tagNote %}<p class="creature-note">{{ profile.tagNote | inlineMarkdown | safe }}.</p>{% endif %}
+    </header>
+
+    {% if profile.characteristics is string %}
+      <p class="creature-note">{{ profile.characteristics | inlineMarkdown | safe }}.</p>
+    {% else %}
+      <dl class="stat-row">
+        {% for key, label in { str: 'STR', con: 'CON', dex: 'DEX', siz: 'SIZ', int: 'INT', pow: 'POW', cha: 'CHA' } %}
+          <div><dt>{{ label }}</dt><dd>{{ profile.characteristics[key] | inlineMarkdown | safe }}</dd></div>
+        {% endfor %}
+      </dl>
+    {% endif %}
+
+    {% if profile.derived is string %}
+      <p class="creature-note">{{ profile.derived | inlineMarkdown | safe }}.</p>
+    {% else %}
+      <dl class="stat-row stat-row--derived">
+        {% for key, label in { hp: 'HP', mwl: 'MWL', pp: 'PP', movement: 'Movement', combatOrder: 'Combat Order', ap: 'AP', dm: 'DM' } %}
+          <div><dt>{{ label }}</dt><dd>{{ profile.derived[key] | inlineMarkdown | safe }}</dd></div>
+        {% endfor %}
+      </dl>
+    {% endif %}
+    {% for note in profile.derivedNotes %}
+      <p class="creature-note">{{ note | inlineMarkdown | safe }}.</p>
+    {% endfor %}
+
+    <div class="creature-lists">
+      <section>
+        <h3>Skills</h3>
+        <ul class="chip-list">
+          {% for skill in profile.skills %}<li>{{ skill | inlineMarkdown | safe }}</li>{% endfor %}
+        </ul>
+        {% if profile.skillNote %}<p class="creature-note">{{ profile.skillNote | inlineMarkdown | safe }}.</p>{% endif %}
+      </section>
+
+      <section>
+        <h3>Attacks</h3>
+        {% if profile.attacks %}
+          <ul class="attack-list">
+            {% for attack in profile.attacks %}
+              {% set parts = attack.split(' — ') %}
+              <li><strong>{{ parts[0] }}</strong>{% if parts[1] %} — {{ parts[1] | inlineMarkdown | safe }}{% endif %}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+        {% for note in profile.attackNotes %}
+          <p class="creature-note">{{ note | inlineMarkdown | safe }}.</p>
+        {% endfor %}
+      </section>
+
+      <section class="creature-inline">
+        <h3>Talents</h3>
+        <p>{{ profile.talents | inlineMarkdown | safe }}.</p>
+      </section>
+
+      <section class="creature-inline">
+        <h3><a href="/rules/gm-tools/#plunder">Plunder</a></h3>
+        <p>{{ profile.plunder }}</p>
+      </section>
+    </div>
+
+    <div class="prose creature-abilities">
+      <p class="search-index-context" aria-hidden="true" data-pagefind-weight="0.5">
+        {{ profile.title }}. {{ profile.category }}. {{ profile.summary | summaryText }} Tags: {{ profile.tags | join(', ') }}.
+      </p>
+      {% if creature.templateContent %}
+        <h3 class="creature-abilities-title">Abilities</h3>
+        {{ creature.templateContent | inlineSection(profile.slug) | safe }}
+      {% endif %}
+    </div>
+  </div>
+</article>

@@ -27,6 +27,6 @@ tags:
 
 While you are aware of the attacker and hold a ready medium or large shield, ranged attacks against you suffer `-1P`. This spends no Reaction.
 
-Use only the best penalty from Shield Cover and terrain cover; they do not stack. You may still Dodge or use [Active Guard](/rules/combat/active-guard/) against a hit.
+Use only the best penalty from Shield Cover and terrain cover; they do not stack. You may still Dodge or use [Active Guard](/rules/combat/#active-guard) against a hit.
 
-Against [projected Shapings](/rules/magic/casting-and-defence/#magic-cover-shields), apply the same penalty only when the shield can plausibly obstruct the effect.
+Against [projected Shapings](/rules/magic/#casting-and-defence--magic-cover-shields), apply the same penalty only when the shield can plausibly obstruct the effect.

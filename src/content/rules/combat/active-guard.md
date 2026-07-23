@@ -25,12 +25,12 @@ Active Guard is a Reaction declared after a ranged attack hits but before damage
 | Thrown weapon                      | Ready shield      |     None |
 | Bow, crossbow, or sling projectile | Ready shield only |    `-1P` |
 
-Roll Close Combat and use the normal [critical matrix](/rules/combat/critical-hits-and-fumbles/) and [Parry Size rules](/rules/combat/attacks-and-reactions/). A thrown weapon keeps its listed Size; arrows, bolts, and sling projectiles are Light. Small, medium, and large shields are Medium, Heavy, and Huge respectively.
+Roll Close Combat and use the normal [critical matrix](/rules/combat/#critical-hits-and-fumbles) and [Parry Size rules](/rules/combat/#attacks-and-reactions). A thrown weapon keeps its listed Size; arrows, bolts, and sling projectiles are Light. Small, medium, and large shields are Medium, Heavy, and Huge respectively.
 
 Therefore, an ordinary successful shield Parry blocks all damage from a bow, crossbow, or sling projectile. Against a thrown weapon, compare the shield with that weapon's listed Size as normal.
 
-A shield grants no passive cover or attack penalty by default. Terrain cover applies separately. The [Shield Cover](/rules/talents/shield-cover/) Talent creates a passive penalty, and the [Missile Guard](/rules/talents/missile-guard/) Talent removes Active Guard's `-1P` against bows, crossbows, and slings.
+A shield grants no passive cover or attack penalty by default. Terrain cover applies separately. The [Shield Cover](/rules/talents/#shield-cover) Talent creates a passive penalty, and the [Missile Guard](/rules/talents/#missile-guard) Talent removes Active Guard's `-1P` against bows, crossbows, and slings.
 
 A strapped shield that is unavailable while wielding a two-handed item is not ready and cannot provide Active Guard.
 
-Some [tangible magical projectiles](/rules/magic/casting-and-defence/#magic-cover-shields) count as thrown weapons for Active Guard only; use the Size and restrictions stated by Shaping.
+Some [tangible magical projectiles](/rules/magic/#casting-and-defence--magic-cover-shields) count as thrown weapons for Active Guard only; use the Size and restrictions stated by Shaping.

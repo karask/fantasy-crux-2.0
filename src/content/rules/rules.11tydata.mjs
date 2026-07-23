@@ -1,13 +1,9 @@
 export default {
   eleventyComputed: {
-    layout: (data) => {
-      if (data.type === 'chapter') return 'layouts/chapter.njk';
-      if (data.type === 'talent') return 'layouts/talent.njk';
-      return 'layouts/rule.njk';
-    },
-    permalink: (data) => {
-      if (data.type === 'chapter') return `/rules/${data.id}/index.html`;
-      return `/rules/${data.chapter}/${data.slug}/index.html`;
-    },
+    // Rules and Talents are published inside their chapter page, never as standalone pages.
+    layout: (data) => (data.type === 'chapter' ? 'layouts/chapter.njk' : false),
+    permalink: (data) => (data.type === 'chapter' ? `/rules/${data.id}/index.html` : false),
+    anchorUrl: (data) =>
+      data.type === 'chapter' ? `/rules/${data.id}/` : `/rules/${data.chapter}/#${data.slug}`,
   },
 };

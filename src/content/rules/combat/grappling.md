@@ -29,4 +29,4 @@ Either participant may release the grapple freely on their own turn.
 
 To escape, spend a Combat Action and make another opposed Unarmed Combat test. If the escaping character wins, the grapple ends with the participants still adjacent.
 
-Apply Bonus or Penalty dice when Size, anatomy, footing, or extra limbs create a material advantage. The Gamemaster may rule that a grapple is impossible. The [Wrestler](/rules/talents/wrestler/) Talent adds damaging holds, forced drops, and throws.
+Apply Bonus or Penalty dice when Size, anatomy, footing, or extra limbs create a material advantage. The Gamemaster may rule that a grapple is impossible. The [Wrestler](/rules/talents/#wrestler) Talent adds damaging holds, forced drops, and throws.

@@ -16,7 +16,7 @@ quickReference:
   order: 80
 ---
 
-On a hit, roll weapon damage, add Damage Modifier when applicable, then add any extra dice or fixed damage from the declared action or Talent. Resolve any successful Parry, subtract Armour Points, and reduce current HP by the remaining damage, to a minimum of 0 damage. Current HP cannot fall below 0. [Critical hits](/rules/combat/critical-hits-and-fumbles/) change this procedure as stated in their result matrix.
+On a hit, roll weapon damage, add Damage Modifier when applicable, then add any extra dice or fixed damage from the declared action or Talent. Resolve any successful Parry, subtract Armour Points, and reduce current HP by the remaining damage, to a minimum of 0 damage. Current HP cannot fall below 0. [Critical hits](/rules/combat/#critical-hits-and-fumbles) change this procedure as stated in their result matrix.
 
 Damage Modifier applies to Close Combat, Unarmed Combat, and thrown attacks. Bows, crossbows, and slings use only listed damage unless a Talent says otherwise.
 
@@ -35,7 +35,7 @@ At 0 HP, a character falls unconscious and becomes **Dying**. If still Dying at 
 
 To stabilise a patient, an adjacent helper spends a full round—Combat Action, Movement Action, and all Reactions—and succeeds at a Healing test while both remain stationary. Success removes Bleeding and Dying but restores no HP; a patient at 0 HP remains unconscious. The test requires a Healing Kit or suitable improvised supplies and suffers `-2P` without them.
 
-After stabilisation, successful Surgery or equivalent treatment restores 1 HP and unlocks natural recovery. Wounded ends after that treatment once current HP is greater than MWL. See [healing and recovery](/rules/adventuring/healing-and-recovery/) for recovery time and equipment.
+After stabilisation, successful Surgery or equivalent treatment restores 1 HP and unlocks natural recovery. Wounded ends after that treatment once current HP is greater than MWL. See [healing and recovery](/rules/adventuring/#healing-and-recovery) for recovery time and equipment.
 
 Do not make a Resilience test or roll on an injury table for a Major Wound.
 

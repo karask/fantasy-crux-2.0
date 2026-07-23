@@ -30,7 +30,7 @@ Use a modifier only when the situation clearly warrants it. Combine different ca
 | Darkness                                          |              `-2P` |
 | Blinded or pitch darkness                         |              `-3P` |
 
-An unaware defender cannot React. Being behind or beside a target does not itself create surprise; the fiction determines awareness. [Battle Awareness](/rules/talents/battle-awareness/) can negate the flanking or rear-attack bonus without negating genuine surprise.
+An unaware defender cannot React. Being behind or beside a target does not itself create surprise; the fiction determines awareness. [Battle Awareness](/rules/talents/#battle-awareness) can negate the flanking or rear-attack bonus without negating genuine surprise.
 
 ## Mounted Combat
 
