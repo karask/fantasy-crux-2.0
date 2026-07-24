@@ -156,12 +156,24 @@ const creatureSchema = z
     attackNotes: statLine.optional(),
     talents: statNote,
     image: z.string().trim().min(1).optional(),
+    image320: z.string().trim().min(1).optional(),
+    imageAlt: z.string().trim().min(1).optional(),
   })
   .strict()
   .refine((value) => Boolean(value.attacks?.length || value.attackNotes?.length), {
     message: 'A creature needs at least one attack or an attack note.',
     path: ['attacks'],
-  });
+  })
+  .refine(
+    (value) => {
+      const imageFields = [value.image, value.image320, value.imageAlt];
+      return imageFields.every(Boolean) || imageFields.every((field) => field === undefined);
+    },
+    {
+      message: 'Creature artwork requires image, image320, and imageAlt together.',
+      path: ['image'],
+    },
+  );
 
 export const contentRecordSchema = z.discriminatedUnion('type', [
   chapterSchema,

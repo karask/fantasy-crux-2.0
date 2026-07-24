@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "finalist-stress-test-01",
+  "status": "complete-selected-inked-adventure-comic",
+  "created": "2026-07-24",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "method": "Each finalist was generated from the same six neutral grayscale composition references. The content reference was explicitly content/composition-only, while the selected finalist images were explicitly style-only references.",
+  "selectedStyle": "inked-adventure-comic",
+  "subjects": ["interior", "magic", "item", "humanoid-monster", "group-scene", "night-weather"],
+  "contentSources": [
+    {
+      "subject": "interior",
+      "generationId": "exec-e613e057-8aad-41b6-918a-d7f59d100d59",
+      "output": "art/production/fc-house-v1/finalist-stress-test-01/content/interior.png",
+      "prompt": "Use case: stylized-concept\nAsset type: neutral composition reference for a fantasy game art style comparison\nPrimary request: An empty medieval healer's workroom inside a timber-and-stone house.\nScene/backdrop: shelves of clay jars and folded cloth, a sturdy worktable with mortar and pestle, bunches of drying herbs, a small cold stone hearth, and one daylight window.\nStyle/medium: low-detail grayscale composition block-in using simple matte shapes; functional visual planning only, with no distinctive finished illustration style.\nComposition/framing: square interior establishing view from standing eye level; all principal furniture and the complete window safely framed.\nLighting/mood: neutral diffuse daylight; calm and practical.\nConstraints: no people, animals, creatures, fire, glowing objects, magic, text, labels, logo, watermark, frame, or border."
+    },
+    {
+      "subject": "magic",
+      "generationId": "exec-d30c673c-c538-435c-a05c-9aeebc3e969d",
+      "output": "art/production/fc-house-v1/finalist-stress-test-01/content/magic.png",
+      "prompt": "Use case: stylized-concept\nAsset type: neutral composition reference for a fantasy game art style comparison\nPrimary request: One adult robed spellcaster creating a protective magical ward in a ruined stone courtyard.\nSubject: complete standing figure, exactly one head, two arms, two hands, two legs, and two feet; both hands held forward around one translucent circular ward made from simple interlocking arcs.\nScene/backdrop: sparse weathered masonry and broken arch, subordinate to the figure.\nStyle/medium: low-detail grayscale composition block-in using simple matte shapes; functional visual planning only, with no distinctive finished illustration style.\nComposition/framing: square three-quarter full-body view; figure, hands, feet, and the entire circular ward safely inside the frame.\nLighting/mood: neutral overcast daylight.\nConstraints: the ward is cool pale cyan only; no fire, flames, sparks, smoke, weapons, extra characters, dramatic sky, text, glyphs, readable symbols, logo, watermark, frame, or border."
+    },
+    {
+      "subject": "item",
+      "generationId": "exec-2eeadbe9-b361-4097-847d-6d952e967334",
+      "output": "art/production/fc-house-v1/finalist-stress-test-01/content/item.png",
+      "prompt": "Use case: stylized-concept\nAsset type: neutral composition reference for a fantasy game art style comparison\nPrimary request: One well-used medieval fantasy navigational astrolabe resting on a folded blank map.\nSubject: circular engraved bronze instrument with a rotating pointer, small glass inset, leather cord, worn edges, and believable mechanical construction.\nScene/backdrop: plain wooden tabletop, subordinate to the item.\nStyle/medium: low-detail grayscale composition block-in using simple matte shapes; functional visual planning only, with no distinctive finished illustration style.\nComposition/framing: square close three-quarter tabletop view; exactly one complete astrolabe centered with generous padding.\nLighting/mood: neutral soft daylight.\nConstraints: no hands, people, creatures, coins, weapons, jewels, magic glow, fire, text, letters, numerals, readable map markings, logo, watermark, frame, or border."
+    },
+    {
+      "subject": "humanoid-monster",
+      "generationId": "exec-59d635ba-e4d6-442b-b3bd-a6803fe95384",
+      "output": "art/production/fc-house-v1/finalist-stress-test-01/content/humanoid-monster.png",
+      "prompt": "Use case: stylized-concept\nAsset type: neutral composition reference for a fantasy game art style comparison\nPrimary request: One adult bridge troll standing watch on an old stone bridge.\nSubject: a sturdy gray-green humanoid monster with believable anatomy, broad shoulders, long forearms, coarse tunic, rope belt, and bare feet; complete body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: mossy bridge parapets and a shallow ravine, subordinate to the troll.\nStyle/medium: low-detail grayscale composition block-in using simple matte shapes; functional visual planning only, with no distinctive finished illustration style.\nComposition/framing: square full-body three-quarter view; entire troll, hands, and feet safely framed with generous padding.\nLighting/mood: neutral diffuse daylight; alert but not attacking.\nConstraints: one troll only; no club, weapon, armor, extra heads, extra limbs, fire, magic, dramatic sky, text, logo, watermark, frame, or border."
+    },
+    {
+      "subject": "group-scene",
+      "generationId": "exec-821576df-eca6-458f-9dc5-cde6e369e9aa",
+      "output": "art/production/fc-house-v1/finalist-stress-test-01/content/group-scene.png",
+      "prompt": "Use case: stylized-concept\nAsset type: neutral composition reference for a fantasy game art style comparison\nPrimary request: Four adult medieval travelers working together to pull a small two-wheeled handcart through a shallow muddy ford.\nSubjects: exactly four distinct adults in practical travel clothing; two pull a rope from the front, one pushes the cart from behind, and one steadies a loose wheel; believable anatomy and clear readable actions.\nScene/backdrop: shallow stream, stones, grassy banks, and a simple woodland track; subordinate to the group.\nStyle/medium: low-detail grayscale composition block-in using simple matte shapes; functional visual planning only, with no distinctive finished illustration style.\nComposition/framing: square medium-wide view; all four complete people, the entire cart, both wheels, hands, and feet safely framed.\nLighting/mood: neutral overcast daylight; cooperative effort, not combat.\nConstraints: exactly four people and one cart; no animals, monsters, weapons drawn, fire, magic, dramatic sky, text, logo, watermark, frame, or border."
+    },
+    {
+      "subject": "night-weather",
+      "generationId": "exec-35572fdc-62a7-4b15-8e66-5c225763cf39",
+      "output": "art/production/fc-house-v1/finalist-stress-test-01/content/night-weather.png",
+      "prompt": "Use case: stylized-concept\nAsset type: neutral composition reference for a fantasy game art style comparison\nPrimary request: A solitary stone watchtower on a high sea cliff during heavy wind-driven rain at night.\nScene/backdrop: dark ocean below, bent coastal grass, slick rock, low clouds, and a faint moon behind clouds.\nSubject: one complete squat medieval watchtower with a narrow stair path and closed wooden door; no occupants.\nStyle/medium: low-detail grayscale composition block-in using simple matte shapes; functional visual planning only, with no distinctive finished illustration style.\nComposition/framing: square wide establishing view; the complete tower, cliff edge, path, and a band of sea and sky safely framed.\nLighting/mood: cold moonlit night, severe weather, readable dark values.\nConstraints: no people, animals, creatures, ships, lightning bolt, lamps, windows glowing, fire, smoke, magic, dramatic colored sky, text, logo, watermark, frame, or border."
+    }
+  ],
+  "styles": [
+    {
+      "id": "inked-adventure-comic",
+      "label": "Inked Adventure Comic",
+      "selectionStatus": "selected-and-promoted",
+      "styleSources": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png"
+      ],
+      "sharedPrompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG finalist stress-test tile\nInput images: Image 1 is the content and composition source only; preserve its subject, arrangement, camera, and spatial relationships, and explicitly do not inherit its grayscale rendering. Image 2 is the sole style reference; inherit only its medium, ink handling, contour language, shape simplification, detail density, color application, edge treatment, and material rendering. Do not copy Image 2's objects, layouts, lighting, palette, weather, or mood.\nStyle/medium: Hand-inked Western fantasy adventure comic matching Image 2 exactly: expressive variable-weight brush contours, confidently simplified believable forms, strong silhouettes, opaque natural local color, hard-edged shadow shapes, handmade ink texture, and selective fine linework at focal materials. Preserve the reference's actual visible contour density and surface treatment. No painterly blending and no glossy 3D.\nComposition/framing: preserve Image 1; square format; keep every principal subject safely inside the frame.\nConstraints: no added focal objects or characters; no unrequested fire; no dramatic rim light; no text, logo, watermark, decorative frame, or border.",
+      "assets": [
+        {
+          "subject": "interior",
+          "generationId": "exec-3fb9ba41-ba5f-4c75-a534-5c0e6bd3ea89",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/interior.png",
+          "output": "art/production/fc-house-v1/approved/inked-adventure-comic/interior.png",
+          "promptTail": "Primary request: Redraw the empty medieval healer's workroom from Image 1 in the exact Inked Adventure Comic style.\nLighting/mood: neutral diffuse daylight; calm and practical.\nColor palette: natural wood browns, pale stone, muted herb greens, off-white cloth, and subdued clay colors.\nSubject constraints: preserve the shelves, jars, folded cloth, worktable, mortar and pestle, drying herbs, cold hearth, and daylight window; no people, creatures, fire, glowing objects, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "The complete interior content is preserved; dense contour and opaque-color handling match the selected anchor."
+          }
+        },
+        {
+          "subject": "magic",
+          "generationId": "exec-ee898d2f-171a-4943-b8e2-8be289174d29",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/magic.png",
+          "output": "art/production/fc-house-v1/approved/inked-adventure-comic/magic.png",
+          "promptTail": "Primary request: Redraw the adult spellcaster and protective ward from Image 1 in the exact Inked Adventure Comic style.\nLighting/mood: neutral overcast daylight; the ward provides a restrained cool cyan glow only on nearby hands and cloth.\nColor palette: natural muted clothing and stone colors with cool pale cyan reserved for the ward.\nSubject constraints: preserve one complete adult figure, pose, ruined courtyard, and one entire circular ward; preserve exactly one head, two arms, two hands, two legs, and two feet; no fire, flames, sparks, smoke, weapons, extra characters, text, glyphs, or readable symbols.",
+          "qa": {
+            "status": "pass",
+            "notes": "The full figure and ward are safely framed; anatomy and requested non-fire magic pass."
+          }
+        },
+        {
+          "subject": "item",
+          "generationId": "exec-18100e93-ef59-405f-a18b-b3250f10692e",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/item.png",
+          "output": "art/production/fc-house-v1/approved/inked-adventure-comic/item.png",
+          "promptTail": "Primary request: Redraw the single navigational astrolabe still life from Image 1 in the exact Inked Adventure Comic style.\nLighting/mood: neutral soft daylight.\nColor palette: aged bronze, clear smoky glass, brown leather, warm wood, and off-white parchment.\nSubject constraints: preserve exactly one complete circular astrolabe, rotating pointer, small glass inset, leather cord, folded blank map, and plain tabletop; show believable construction and worn material differences; no hands, people, coins, jewels, magic glow, text, letters, numerals, or readable map markings.",
+          "qa": {
+            "status": "pass",
+            "notes": "The item remains complete and readable; bronze, glass, leather, parchment, and wood are distinct within the comic system."
+          }
+        },
+        {
+          "subject": "humanoid-monster",
+          "generationId": "exec-16f7aae3-020e-4532-9310-b56a288b028c",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/humanoid-monster.png",
+          "output": "art/production/fc-house-v1/approved/inked-adventure-comic/ogre.png",
+          "promptTail": "Primary request: Redraw the adult bridge troll from Image 1 in the exact Inked Adventure Comic style.\nLighting/mood: neutral diffuse daylight; alert but not attacking.\nColor palette: gray-green skin, weathered brown cloth and rope, muted moss greens, and cool gray stone.\nSubject constraints: preserve one complete troll, pose, mossy bridge, and shallow ravine; exactly one head, two arms, two hands, two legs, and two bare feet with believable digits; no weapon, armor, extra head, extra limb, fire, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "Complete anatomy and framing pass; the troll uses the same contour, texture, and local-color language as the selected anchor."
+          }
+        },
+        {
+          "subject": "group-scene",
+          "generationId": "exec-413f200c-9e3b-4cf6-93d0-b21c1029be39",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/group-scene.png",
+          "output": "art/production/fc-house-v1/approved/inked-adventure-comic/group-scene.png",
+          "promptTail": "Primary request: Redraw the four travelers pulling a handcart through the ford from Image 1 in the exact Inked Adventure Comic style.\nLighting/mood: neutral overcast daylight; cooperative effort, not combat.\nColor palette: varied natural clothing colors, weathered wood, gray stones, green banks, and shallow brown-blue water.\nSubject constraints: preserve exactly four distinct adults, their four clear actions, one complete two-wheeled handcart, shallow stream, stones, banks, and woodland track; keep all people, hands, feet, cart, and both wheels safely framed; no animals, monsters, drawn weapons, fire, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "Exactly four people and one two-wheeled cart pass; actions remain legible at a wider scale."
+          }
+        },
+        {
+          "subject": "night-weather",
+          "generationId": "exec-5e67d67b-620c-4672-b35a-96279a092976",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/night-weather.png",
+          "output": "art/production/fc-house-v1/approved/inked-adventure-comic/night-weather.png",
+          "promptTail": "Primary request: Redraw the solitary watchtower in heavy rain at night from Image 1 in the exact Inked Adventure Comic style.\nLighting/mood: cold moonlit night in severe wind-driven rain; maintain readable separation among tower, cliff, sea, and clouds without converting the scene to daylight.\nColor palette: deep blue-gray night values, wet charcoal stone, muted coastal green, pale moon and sea highlights.\nSubject constraints: preserve one complete squat tower, closed door, narrow path, cliff edge, dark sea, bent grass, rain, clouds, and faint moon; no people, creatures, ships, lightning bolt, lamps, glowing windows, fire, smoke, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "Night and severe weather remain clear without borrowing the daylight anchor's mood; no fire or glowing window was added."
+          }
+        }
+      ]
+    },
+    {
+      "id": "more-naturalistic",
+      "label": "More Naturalistic",
+      "selectionStatus": "reference",
+      "styleSources": [
+        "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/warrior.png",
+        "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/bear.png",
+        "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/dragon.png",
+        "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/village.png"
+      ],
+      "sharedPrompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG finalist stress-test tile\nInput images: Image 1 is the content and composition source only; preserve its subject, arrangement, camera, and spatial relationships, and explicitly do not inherit its grayscale rendering. Images 2 through 5 collectively define the selected More Naturalistic style only. Image 2 is primary for brushwork and edge handling, Image 3 supports organic material handling, and Images 4 and 5 support cross-subject application. Inherit only their shared medium, brushwork, edge language, shape simplification, detail density, and material rendering. Do not copy their people, creatures, objects, layouts, palettes, daylight, weather, or mood.\nStyle/medium: Illustrated fantasy realism matching the common visual language of Images 2 through 5: believable forms with only subtle cartoon-like shape design; four to six broad value shapes; matte opaque gouache brushwork; natural soft modeling with crisp focal edges and selected lost edges; restrained grouped material texture without photographic microdetail. Mature hand-painted illustration, neither photorealistic nor glossy.\nComposition/framing: preserve Image 1; square format; keep every principal subject safely inside the frame.\nConstraints: no added focal objects or characters; no unrequested fire; no dramatic rim light; no enclosing comic outlines; no text, logo, watermark, decorative frame, or border.",
+      "assets": [
+        {
+          "subject": "interior",
+          "generationId": "exec-c0425249-608b-4859-a646-57358e20b3e4",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/interior.png",
+          "output": "art/production/fc-house-v1/finalist-stress-test-01/more-naturalistic/interior.png",
+          "promptTail": "Primary request: Redraw the empty medieval healer's workroom from Image 1 in the exact More Naturalistic style.\nLighting/mood: neutral diffuse daylight; calm and practical.\nColor palette: natural wood browns, pale stone, muted herb greens, off-white cloth, and subdued clay colors.\nSubject constraints: preserve the shelves, jars, folded cloth, worktable, mortar and pestle, drying herbs, cold hearth, and daylight window; no people, creatures, fire, glowing objects, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "The complete interior content is preserved; matte painted modeling and grouped materials match the selected row."
+          }
+        },
+        {
+          "subject": "magic",
+          "generationId": "exec-a8aa6070-8016-405a-9265-86f51c1c6d56",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/magic.png",
+          "output": "art/production/fc-house-v1/finalist-stress-test-01/more-naturalistic/magic.png",
+          "promptTail": "Primary request: Redraw the adult spellcaster and protective ward from Image 1 in the exact More Naturalistic style.\nLighting/mood: neutral overcast daylight; the ward provides a restrained cool cyan glow only on nearby hands and cloth.\nColor palette: natural muted clothing and stone colors with cool pale cyan reserved for the ward.\nSubject constraints: preserve one complete adult figure, pose, ruined courtyard, and one entire circular ward; preserve exactly one head, two arms, two hands, two legs, and two feet; no fire, flames, sparks, smoke, weapons, extra characters, text, glyphs, or readable symbols.",
+          "qa": {
+            "status": "pass",
+            "notes": "The full figure and ward are safely framed; anatomy and requested non-fire magic pass."
+          }
+        },
+        {
+          "subject": "item",
+          "generationId": "exec-566834d3-c774-41ba-96c8-668e9f20c5d5",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/item.png",
+          "output": "art/production/fc-house-v1/finalist-stress-test-01/more-naturalistic/item.png",
+          "promptTail": "Primary request: Redraw the single navigational astrolabe still life from Image 1 in the exact More Naturalistic style.\nLighting/mood: neutral soft daylight.\nColor palette: aged bronze, clear smoky glass, brown leather, warm wood, and off-white parchment.\nSubject constraints: preserve exactly one complete circular astrolabe, rotating pointer, small glass inset, leather cord, folded blank map, and plain tabletop; show believable construction and worn material differences; no hands, people, coins, jewels, magic glow, text, letters, numerals, or readable map markings.",
+          "qa": {
+            "status": "pass",
+            "notes": "The item remains complete and readable; the material distinctions are convincing without becoming photographic."
+          }
+        },
+        {
+          "subject": "humanoid-monster",
+          "generationId": "exec-2b036663-d32f-4b11-9655-0c625f864c3d",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/humanoid-monster.png",
+          "output": "art/production/fc-house-v1/finalist-stress-test-01/more-naturalistic/humanoid-monster.png",
+          "promptTail": "Primary request: Redraw the adult bridge troll from Image 1 in the exact More Naturalistic style.\nLighting/mood: neutral diffuse daylight; alert but not attacking.\nColor palette: gray-green skin, weathered brown cloth and rope, muted moss greens, and cool gray stone.\nSubject constraints: preserve one complete troll, pose, mossy bridge, and shallow ravine; exactly one head, two arms, two hands, two legs, and two bare feet with believable digits; no weapon, armor, extra head, extra limb, fire, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "Complete anatomy and framing pass; skin, cloth, rope, moss, and stone share the selected matte painted treatment."
+          }
+        },
+        {
+          "subject": "group-scene",
+          "generationId": "exec-6b689835-f715-434f-88dc-7a3c8a35dfdb",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/group-scene.png",
+          "output": "art/production/fc-house-v1/finalist-stress-test-01/more-naturalistic/group-scene.png",
+          "promptTail": "Primary request: Redraw the four travelers pulling a handcart through the ford from Image 1 in the exact More Naturalistic style.\nLighting/mood: neutral overcast daylight; cooperative effort, not combat.\nColor palette: varied natural clothing colors, weathered wood, gray stones, green banks, and shallow brown-blue water.\nSubject constraints: preserve exactly four distinct adults, their four clear actions, one complete two-wheeled handcart, shallow stream, stones, banks, and woodland track; keep all people, hands, feet, cart, and both wheels safely framed; no animals, monsters, drawn weapons, fire, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "Exactly four people and one two-wheeled cart pass; the scene remains readable despite softer edge separation."
+          }
+        },
+        {
+          "subject": "night-weather",
+          "generationId": "exec-112ce3d3-d157-4dfa-9294-69f0a27242f2",
+          "contentSource": "art/production/fc-house-v1/finalist-stress-test-01/content/night-weather.png",
+          "output": "art/production/fc-house-v1/finalist-stress-test-01/more-naturalistic/night-weather.png",
+          "promptTail": "Primary request: Redraw the solitary watchtower in heavy rain at night from Image 1 in the exact More Naturalistic style.\nLighting/mood: cold moonlit night in severe wind-driven rain; maintain readable separation among tower, cliff, sea, and clouds without converting the scene to daylight.\nColor palette: deep blue-gray night values, wet charcoal stone, muted coastal green, pale moon and sea highlights.\nSubject constraints: preserve one complete squat tower, closed door, narrow path, cliff edge, dark sea, bent grass, rain, clouds, and faint moon; no people, creatures, ships, lightning bolt, lamps, glowing windows, fire, smoke, or magic.",
+          "qa": {
+            "status": "pass",
+            "notes": "Night and severe weather remain legible in the painterly system; no fire or glowing window was added."
+          }
+        }
+      ]
+    }
+  ]
+}

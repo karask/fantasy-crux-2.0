@@ -1,0 +1,68 @@
+{
+  "id": "inked-adventure-comic",
+  "label": "Inked adventure comic",
+  "styleBlock": "Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.",
+  "anchor": {
+    "generationId": "call_ZDGswz4rRjK25AUe4OdQGOpN",
+    "output": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+    "prompt": "Use case: stylized-concept\nAsset type: FC House Style consistency exploration anchor board\nPrimary request: Create one square 2x2 visual anchor board with four equal-sized panels separated by narrow, even gutters and no labels.\nSubjects: top-left, one adult medieval woman warrior standing in a village courtyard; top-right, one adult brown bear standing in a forest clearing; bottom-left, one four-legged, two-winged dragon standing on a rocky upland; bottom-right, a small medieval village with houses, a central well, and a watchtower, with no people or creatures.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: four equal square panels in a precise 2x2 grid; keep every subject complete and safely framed with generous internal padding; each panel must read independently while looking drawn by the same exact artist.\nLighting/mood: neutral diffuse daylight in every panel; calm, matter-of-fact presentation.\nColor palette: natural local colors appropriate to each subject and environment; do not impose one shared atmospheric tint.\nConstraints: consistent medium, brushwork, contour language, shape simplification, detail density, and material handling across all four panels; exactly the requested subjects and environments; the dragon has exactly four legs and two wings; no clipped bodies, limbs, wings, weapons, buildings, or tower; no fire, magic effects, dramatic sky, rim light, text, labels, logo, watermark, decorative frame, or outer border.",
+    "qa": {
+      "status": "pass",
+      "notes": "All four panels share the same variable-weight ink contours, opaque local color, hard-edged shadows, and handmade material language."
+    }
+  },
+  "sentinels": [
+    {
+      "id": "inked-adventure-comic-warrior",
+      "subject": "warrior",
+      "generationId": "exec-a0cc03db-036e-4e6b-99ae-40926d215d41",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/warrior.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/warrior.png",
+      "styleSource": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style independent consistency sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject and arrangement, and explicitly do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge language, shape simplification, detail density, and material handling, but do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nLighting/mood: preserve neutral diffuse daylight and a matter-of-fact presentation.\nColor palette: preserve the natural local palette of Image 1; do not import the anchor board's palette.\nPrimary request: Redraw the adult medieval woman warrior from Image 1 in the exact style system defined above.\nConstraints: preserve subject identity, adult age, believable anatomy, pose, camera, clothing, armor, shield, sword, and village-courtyard scene contents from Image 1; keep the complete warrior, feet, shield, and weapons safely inside the square with generous padding; one warrior only; no extra focal subjects, fire, magic, dramatic sky, rim light, text, logo, watermark, frame, or border.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete anatomy and equipment remain safely framed; ink, color, and hard-shadow treatment match the anchor."
+      }
+    },
+    {
+      "id": "inked-adventure-comic-bear",
+      "subject": "bear",
+      "generationId": "exec-7f4e19c3-d771-4e9c-a2fa-08b98848e83b",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/bear.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/bear.png",
+      "styleSource": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style independent consistency sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject and arrangement, and explicitly do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge language, shape simplification, detail density, and material handling, but do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nLighting/mood: preserve neutral diffuse daylight and a matter-of-fact presentation.\nColor palette: preserve the natural local palette of Image 1; do not import the anchor board's palette.\nPrimary request: Redraw the adult brown bear from Image 1 in the exact style system defined above.\nConstraints: preserve species, believable bear anatomy, standing pose, camera, proportions, forest-clearing scene contents, natural brown fur, and natural local palette from Image 1; keep the complete bear and all four paws safely inside the square with generous padding; use anatomically plausible paws and claws; one bear only; no extra focal subjects, fire, magic, dramatic sky, rim light, text, logo, watermark, frame, or border.",
+      "qa": {
+        "status": "pass",
+        "notes": "Four complete paws and plausible claws pass; fur is consistently interpreted through inked masses and hard-edged color shapes."
+      }
+    },
+    {
+      "id": "inked-adventure-comic-dragon",
+      "subject": "dragon",
+      "generationId": "exec-80b60f09-8e66-41fb-a977-d8e6898a4648",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/dragon.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/dragon.png",
+      "styleSource": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style independent consistency sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject and arrangement, and explicitly do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge language, shape simplification, detail density, and material handling, but do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nLighting/mood: preserve neutral diffuse daylight and a matter-of-fact presentation.\nColor palette: preserve the natural local palette of Image 1; do not import the anchor board's palette.\nPrimary request: Redraw the four-legged, two-winged dragon from Image 1 in the exact style system defined above.\nConstraints: preserve species design, believable fantasy anatomy, standing pose, camera, rocky-upland scene contents, natural local palette, exactly four legs, exactly two wings, and one tail from Image 1; keep the complete dragon, both wing tips, all four feet, and full tail safely inside the square with generous padding; one dragon only; no extra focal subjects, fire, smoke, magic, dramatic sky, rim light, text, logo, watermark, frame, or border.",
+      "qa": {
+        "status": "pass",
+        "notes": "Exactly four legs, two wings, and one tail are complete and safely framed; the comic rendering remains consistent."
+      }
+    },
+    {
+      "id": "inked-adventure-comic-village",
+      "subject": "village",
+      "generationId": "exec-bf0f1493-e466-4dcf-a17d-7d2bca24f2fe",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/village.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/village.png",
+      "styleSource": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style independent consistency sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject and arrangement, and explicitly do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge language, shape simplification, detail density, and material handling, but do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nLighting/mood: preserve neutral diffuse daylight and a matter-of-fact presentation.\nColor palette: preserve the natural local palette of Image 1; do not import the anchor board's palette.\nPrimary request: Redraw the small medieval village environment from Image 1 in the exact style system defined above.\nConstraints: preserve the elevated camera, environment-only composition, houses, roads, gardens, fences, central well, watchtower, surrounding fields, natural local palette, and scene contents from Image 1; keep the principal buildings, well, and watchtower safely inside the square; no people, animals, creatures, or extra focal subjects; no fire, magic, dramatic sky, rim light, text, logo, watermark, frame, or border.",
+      "qa": {
+        "status": "pass",
+        "notes": "Environment-only composition and landmarks pass; architecture uses the same ink contour and opaque-color grammar as the character and creatures."
+      }
+    }
+  ]
+}

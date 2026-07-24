@@ -7,6 +7,9 @@ slug: dragon
 order: 210
 category: monster
 summary: 'An ancient, intelligent flying reptile whose magic and temperament vary widely.'
+image: '/assets/images/creatures/dragon.webp'
+image320: '/assets/images/creatures/dragon-320.webp'
+imageAlt: 'A four-legged, two-winged dragon standing on a rocky upland.'
 tags:
   - 'living'
   - 'corporeal'

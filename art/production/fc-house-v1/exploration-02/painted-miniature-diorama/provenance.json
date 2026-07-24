@@ -1,0 +1,68 @@
+{
+  "id": "painted-miniature-diorama",
+  "label": "Painted miniature diorama",
+  "styleBlock": "Handcrafted painted-miniature diorama: clearly sculpted slightly exaggerated forms, matte hand-painted resin and plaster surfaces, simplified material textures, controlled edge wear and brush marks, deep but readable shapes, and a physically built scenic base. Photograph the miniature with neutral diffuse studio daylight and broad depth of field. No cinematic bokeh, no glossy CGI, no visible scale ruler or text.",
+  "anchor": {
+    "generationId": "call_AaD3FcAr3sIkH3VcaOk5wdVk",
+    "output": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/anchor.png",
+    "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG alternative house-style calibration anchor\nPrimary request: Create one square 2x2 visual reference board showing four separate handcrafted tabletop miniature dioramas in equal panels with narrow plain gutters and no labels. Top left: one adult medieval woman warrior standing at ease in a sparse village courtyard, full body visible with practical mail, worn leather armour, sheathed sword, round shield. Top right: one large adult brown bear standing naturally in a quiet forest clearing, whole body visible with four legs. Bottom left: one adult dragon standing calmly alert on rocky upland terrain, whole body visible with exactly one head, four legs, two fully framed wings, one tail, closed mouth. Bottom right: one small lived-in medieval village diorama with timber-and-stone houses, winding lane, well, fenced gardens, and modest watchtower, environment only.\nStyle/medium: Handcrafted painted-miniature diorama: clearly sculpted slightly exaggerated forms, matte hand-painted resin and plaster surfaces, simplified material textures, controlled edge wear and brush marks, deep but readable shapes, and a physically built scenic base. Photograph the miniature with neutral diffuse studio daylight and broad depth of field. No cinematic bokeh, no glossy CGI, no visible scale ruler or text.\nComposition/framing: four clean equal square panels; each miniature and scenic base complete and safely inside its panel; one coherent sculptor, painter, scale, and photographic setup across all four\nLighting/mood: neutral diffuse studio daylight, calm and evenly readable; no theatrical spotlights\nColor palette: natural local colors appropriate to each subject; no fixed dramatic palette\nConstraints: same exact craft and rendering system in every panel; no human hands, display plinth labels, fire, magic effects, dramatic sky, rim light, text, logo, watermark, decorative border, or extra focal subjects",
+    "qa": {
+      "status": "pass",
+      "notes": "All panels share the same sculpting, matte paint, scenic-base construction, scale, and neutral photographic setup."
+    }
+  },
+  "sentinels": [
+    {
+      "id": "painted-miniature-diorama-warrior",
+      "subject": "warrior",
+      "generationId": "call_as74HkzxFyOmyKz2rm4ad9e1",
+      "output": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/warrior.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/warrior.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, equipment, camera, and scene arrangement, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact sculpting language, shape exaggeration, matte paint handling, texture density, scenic construction, and neutral photographic treatment, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Rebuild the woman warrior scene from Image 1 as one standalone handcrafted tabletop miniature diorama using the exact fixed style below.\nStyle/medium: Handcrafted painted-miniature diorama: clearly sculpted slightly exaggerated forms, matte hand-painted resin and plaster surfaces, simplified material textures, controlled edge wear and brush marks, deep but readable shapes, and a physically built scenic base. Photograph the miniature with neutral diffuse studio daylight and broad depth of field. No cinematic bokeh, no glossy CGI, no visible scale ruler or text.\nComposition/framing: preserve Image 1's full-body pose and main village-courtyard arrangement as a compact scenic base; complete figure, shield, sword, hands, and feet safely inside the square\nLighting/mood: neutral diffuse studio daylight, calm and evenly readable; inherit no dramatic mood from either input\nColor palette: preserve natural local colors appropriate to the subject and village\nConstraints: exactly one adult woman miniature with one head, two arms, two hands, two legs, and two feet; practical mail and leather armour, sheathed sword, round shield; no human hands, packaging, display label, extra figures, fire, magic effects, dramatic backdrop, rim light, text, logo, watermark, border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete figure and equipment; the matte painted sculpt and physical courtyard base match the anchor."
+      }
+    },
+    {
+      "id": "painted-miniature-diorama-bear",
+      "subject": "bear",
+      "generationId": "call_X0OgYGBYjEt6Uqm1fttYo9q8",
+      "output": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/bear.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/bear.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and forest arrangement, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact sculpting language, shape exaggeration, matte paint handling, texture density, scenic construction, and neutral photographic treatment, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Rebuild the brown bear scene from Image 1 as one standalone handcrafted tabletop miniature diorama using the exact fixed style below.\nStyle/medium: Handcrafted painted-miniature diorama: clearly sculpted slightly exaggerated forms, matte hand-painted resin and plaster surfaces, simplified material textures, controlled edge wear and brush marks, deep but readable shapes, and a physically built scenic base. Photograph the miniature with neutral diffuse studio daylight and broad depth of field. No cinematic bokeh, no glossy CGI, no visible scale ruler or text.\nComposition/framing: preserve Image 1's natural three-quarter stance as a compact forest scenic base; complete animal and all four legs safely inside the square\nLighting/mood: neutral diffuse studio daylight, calm and evenly readable; inherit no dramatic mood from either input\nColor palette: preserve natural local colors appropriate to the bear and forest\nConstraints: exactly one adult brown bear miniature with one head, four legs, and four normal paws; simplified sculpted fur rather than photoreal strands; no human hands, packaging, display label, extra animals, fire, magic effects, dramatic backdrop, rim light, text, logo, watermark, border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Four legs and plausible claws pass; sculpted fur and forest base remain consistent."
+      }
+    },
+    {
+      "id": "painted-miniature-diorama-dragon",
+      "subject": "dragon",
+      "generationId": "call_BoAJtWcPXOm6UOC7geD8Y6jD",
+      "output": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/dragon.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/dragon.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and rocky-upland arrangement, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact sculpting language, shape exaggeration, matte paint handling, texture density, scenic construction, and neutral photographic treatment, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Rebuild the dragon scene from Image 1 as one standalone handcrafted tabletop miniature diorama using the exact fixed style below.\nStyle/medium: Handcrafted painted-miniature diorama: clearly sculpted slightly exaggerated forms, matte hand-painted resin and plaster surfaces, simplified material textures, controlled edge wear and brush marks, deep but readable shapes, and a physically built scenic base. Photograph the miniature with neutral diffuse studio daylight and broad depth of field. No cinematic bokeh, no glossy CGI, no visible scale ruler or text.\nComposition/framing: preserve Image 1's natural three-quarter stance as a compact rocky scenic base; complete dragon, both wings, all four legs, claws, and tail safely inside the square with margin\nLighting/mood: neutral diffuse studio daylight, calm and evenly readable; inherit no dramatic mood from either input\nColor palette: preserve natural local colors appropriate to the dragon and upland\nConstraints: exactly one adult dragon miniature with one head, four legs, two wings, and one tail; mouth closed; simplified sculpted scale groups; no human hands, packaging, display label, extra creatures, fire breath, fire, magic effects, dramatic backdrop, rim light, text, logo, watermark, border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Exactly four legs and two fully framed wings; sculpted scale groups and rocky base match the lane."
+      }
+    },
+    {
+      "id": "painted-miniature-diorama-village",
+      "subject": "village",
+      "generationId": "call_aY9c6T4WTS1Y1Xuzq2HXitA5",
+      "output": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/village.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/village.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its environment, buildings, elevated camera, layout, and scene contents, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact sculpting language, shape exaggeration, matte paint handling, texture density, scenic construction, and neutral photographic treatment, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Rebuild the medieval village from Image 1 as one standalone handcrafted tabletop miniature diorama using the exact fixed style below.\nStyle/medium: Handcrafted painted-miniature diorama: clearly sculpted slightly exaggerated forms, matte hand-painted resin and plaster surfaces, simplified material textures, controlled edge wear and brush marks, deep but readable shapes, and a physically built scenic base. Photograph the miniature with neutral diffuse studio daylight and broad depth of field. No cinematic bokeh, no glossy CGI, no visible scale ruler or text.\nComposition/framing: preserve Image 1's elevated village arrangement as one complete scenic base; houses, winding lane, well, fenced gardens, farmland, and watchtower all clearly readable inside the square\nLighting/mood: neutral diffuse studio daylight, calm and evenly readable; inherit no dramatic mood from either input\nColor palette: preserve natural local colors appropriate to the village and surrounding fields\nConstraints: environment-only diorama; no miniature people or creatures, human hands, packaging, display label, burning buildings, smoke, fire, magic effects, dramatic backdrop, rim light, text, logo, watermark, border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Environment-only scene and landmarks pass; built base, matte paint, and photographic setup match the other miniatures."
+      }
+    }
+  ]
+}

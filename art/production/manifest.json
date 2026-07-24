@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "styleVersion": "FC-HOUSE-V1",
+  "status": "production",
+  "created": "2026-07-24",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "selectedStyle": {
+    "id": "inked-adventure-comic",
+    "label": "Inked Adventure Comic",
+    "selected": "2026-07-24",
+    "masterRoot": "art/production/fc-house-v1/approved/inked-adventure-comic",
+    "styleAnchor": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+    "styleBlock": "Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.",
+    "referencePolicy": "Use the style anchor for rendering language only and the closest approved category anchor for subject-scale material handling. Do not inherit objects, layout, palette, lighting, weather, or mood unless requested by the new asset.",
+    "categoryAnchors": [
+      "warrior.png",
+      "bear.png",
+      "dragon.png",
+      "village.png",
+      "interior.png",
+      "magic.png",
+      "item.png",
+      "ogre.png",
+      "group-scene.png",
+      "night-weather.png"
+    ]
+  },
+  "explorations": [
+    {
+      "id": "exploration-02",
+      "status": "complete-selected-inked-adventure-comic",
+      "manifest": "art/production/fc-house-v1/exploration-02/manifest.json"
+    }
+  ],
+  "finalistStressTests": [
+    {
+      "id": "finalist-stress-test-01",
+      "status": "complete-selected-inked-adventure-comic",
+      "finalists": ["inked-adventure-comic", "more-naturalistic"],
+      "selectedStyle": "inked-adventure-comic",
+      "manifest": "art/production/fc-house-v1/finalist-stress-test-01/manifest.json",
+      "comparison": "art/production/fc-house-v1/finalist-stress-test-01/comparison.html"
+    }
+  ],
+  "calibration": {
+    "selectionStatus": "complete-selected-from-exploration-02",
+    "sourceDimensions": {
+      "width": 1254,
+      "height": 1254
+    },
+    "firstPassFinding": "Rejected: all three prose-only lanes converged on detailed painterly naturalism. Repetitive mail, fur, scale, roof, fence, and foliage detail overwhelmed the intended differences in shape simplification and value grouping.",
+    "revisionStatus": "complete-reference-only",
+    "lanes": [
+      {
+        "id": "more-graphic",
+        "label": "More graphic",
+        "styleBlock": "Semi-realistic fantasy illustration with clear cartoon-like shape design. Credible anatomy and perspective simplified into chunky readable silhouettes and decisive planar shapes. Matte opaque gouache-like painting with broad visible strokes and no enclosing contour line. Use firm focal edges, simplified secondary edges, and selected lost edges. Build most forms from two to four large value and color masses. Reserve small detail for the face or head, hands or claws, and one narrative accent. Materials read through shape breaks, grouped texture rhythms, and sparse highlights rather than individual hairs, scales, or pores. Handmade and mature, not cel-shaded, photorealistic, anime, or glossy 3D.",
+        "revisionStyleBlock": "Graphic painted adventure realism: believable anatomy with clearly designed, mildly cartoonish silhouettes; chunky simplified planes; two to four broad flat value shapes; matte gouache brushwork; firm focal edges and soft secondary edges; grouped materials with almost no repeated microtexture. Mature fantasy illustration, with no enclosing outlines and no cel shading."
+      },
+      {
+        "id": "balanced",
+        "label": "Balanced",
+        "styleBlock": "Semi-realistic fantasy illustration with restrained cartoon-like shape design. Credible anatomy and perspective simplified into broad readable silhouettes and gently designed planes. Matte opaque gouache-like rendering with visible broad strokes and no enclosing outline. Edges are crisp at focal overlaps, softened within secondary forms, and lost into the background. Build most forms from three to five large value and color masses. Fine detail is reserved for the face or head, hands or claws, and one narrative accent. Materials are distinguished through plane changes, texture rhythm, and a few controlled highlights rather than hair-by-hair, scale-by-scale, or pore-level rendering. Polished but handmade; neither photorealistic, cel-shaded, anime, nor glossy 3D.",
+        "revisionStyleBlock": "Painterly adventure realism: believable anatomy with gently cartoonish shape design; broad simplified planes; three to five clear value shapes; matte gouache brushwork; varied hard, soft, and lost edges; selective detail only at focal features; materials rendered by grouped texture and a few highlights. Mature fantasy illustration, with no enclosing outlines and no glossy realism."
+      },
+      {
+        "id": "more-naturalistic",
+        "label": "More naturalistic",
+        "styleBlock": "Semi-realistic fantasy illustration with subtle cartoon-like shape design. Credible anatomy and perspective with mildly simplified silhouettes and natural planar modeling. Matte opaque gouache-like painting with visible controlled strokes and no enclosing outline. Use crisp edges at focal overlaps, soft transitions across secondary forms, and lost edges into atmosphere. Build most forms from four to six broad value and color masses. Reserve fine detail for the face or head, hands or claws, and one narrative accent. Materials read through believable plane changes, restrained texture rhythms, and controlled highlights rather than microdetail. Handmade illustrative finish, not photorealistic, cel-shaded, anime, or glossy 3D.",
+        "revisionStyleBlock": "Illustrated fantasy realism: believable anatomy with only subtle cartoon-like shape design; four to six broad value shapes; matte gouache brushwork; natural soft modeling with crisp focal edges; restrained material texture and no repeated microdetail. Mature hand-painted illustration, neither photorealistic nor glossy."
+      }
+    ],
+    "subjects": [
+      {
+        "id": "warrior",
+        "label": "Warrior",
+        "subjectBlock": "Primary request: One adult medieval woman warrior standing at ease, alert but not posing theatrically\nScene/backdrop: sparse medieval village courtyard with a low stone wall, subordinate to the figure\nSubject: practical mail and worn leather outer armour, sword sheathed, round shield on her back; full body visible; exactly one head, two arms, two hands, two legs, and two feet"
+      },
+      {
+        "id": "bear",
+        "label": "Bear",
+        "subjectBlock": "Primary request: One large adult brown bear standing naturally in three-quarter view\nScene/backdrop: quiet forest clearing with moss and stone, subordinate to the animal\nSubject: whole body visible; exactly one head, four legs, four paws, and five claws on each visible front paw"
+      },
+      {
+        "id": "dragon",
+        "label": "Dragon",
+        "subjectBlock": "Primary request: One adult dragon standing calmly alert in a natural three-quarter view\nScene/backdrop: open rocky upland with sparse grass, subordinate to the creature\nSubject: whole body visible; exactly one head, four legs, two wings, and one tail; mouth closed; no fire breath"
+      },
+      {
+        "id": "village",
+        "label": "Village",
+        "subjectBlock": "Primary request: One small lived-in medieval village with a winding dirt lane, timber-and-stone houses, a well, fenced gardens, and a modest watchtower\nScene/backdrop: rolling green farmland and a distant tree line\nSubject: environment only; no foreground characters; no burning buildings or smoke"
+      }
+    ],
+    "assets": [
+      {
+        "id": "more-graphic-warrior",
+        "lane": "more-graphic",
+        "subject": "warrior",
+        "status": "rejected",
+        "rejectionReason": "Too naturalistic and detail-heavy for the more-graphic lane.",
+        "output": "art/production/fc-house-v1/calibration/more-graphic/warrior.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One adult medieval woman warrior standing at ease, alert but not posing theatrically\nScene/backdrop: sparse medieval village courtyard with a low stone wall, subordinate to the figure\nSubject: practical mail and worn leather outer armour, sword sheathed, round shield on her back; full body visible; exactly one head, two arms, two hands, two legs, and two feet\nStyle/medium: Semi-realistic fantasy illustration with clear cartoon-like shape design. Credible anatomy and perspective simplified into chunky readable silhouettes and decisive planar shapes. Matte opaque gouache-like painting with broad visible strokes and no enclosing contour line. Use firm focal edges, simplified secondary edges, and selected lost edges. Build most forms from two to four large value and color masses. Reserve small detail for the face or head, hands or claws, and one narrative accent. Materials read through shape breaks, grouped texture rhythms, and sparse highlights rather than individual hairs, scales, or pores. Handmade and mature, not cel-shaded, photorealistic, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-graphic-bear",
+        "lane": "more-graphic",
+        "subject": "bear",
+        "status": "rejected",
+        "rejectionReason": "Fur was rendered with dense repeated marks instead of grouped masses.",
+        "output": "art/production/fc-house-v1/calibration/more-graphic/bear.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One large adult brown bear standing naturally in three-quarter view\nScene/backdrop: quiet forest clearing with moss and stone, subordinate to the animal\nSubject: whole body visible; exactly one head, four legs, four paws, and five claws on each visible front paw\nStyle/medium: Semi-realistic fantasy illustration with clear cartoon-like shape design. Credible anatomy and perspective simplified into chunky readable silhouettes and decisive planar shapes. Matte opaque gouache-like painting with broad visible strokes and no enclosing contour line. Use firm focal edges, simplified secondary edges, and selected lost edges. Build most forms from two to four large value and color masses. Reserve small detail for the face or head, hands or claws, and one narrative accent. Materials read through shape breaks, grouped texture rhythms, and sparse highlights rather than individual hairs, scales, or pores. Handmade and mature, not cel-shaded, photorealistic, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-graphic-dragon",
+        "lane": "more-graphic",
+        "subject": "dragon",
+        "status": "rejected",
+        "rejectionReason": "Scale and spine microdetail obscured the intended graphic simplification.",
+        "output": "art/production/fc-house-v1/calibration/more-graphic/dragon.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One adult dragon standing calmly alert in a natural three-quarter view\nScene/backdrop: open rocky upland with sparse grass, subordinate to the creature\nSubject: whole body visible; exactly one head, four legs, two wings, and one tail; mouth closed; no fire breath\nStyle/medium: Semi-realistic fantasy illustration with clear cartoon-like shape design. Credible anatomy and perspective simplified into chunky readable silhouettes and decisive planar shapes. Matte opaque gouache-like painting with broad visible strokes and no enclosing contour line. Use firm focal edges, simplified secondary edges, and selected lost edges. Build most forms from two to four large value and color masses. Reserve small detail for the face or head, hands or claws, and one narrative accent. Materials read through shape breaks, grouped texture rhythms, and sparse highlights rather than individual hairs, scales, or pores. Handmade and mature, not cel-shaded, photorealistic, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-graphic-village",
+        "lane": "more-graphic",
+        "subject": "village",
+        "status": "rejected",
+        "rejectionReason": "Uniformly dense architectural and foliage detail defeated the graphic lane.",
+        "output": "art/production/fc-house-v1/calibration/more-graphic/village.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One small lived-in medieval village with a winding dirt lane, timber-and-stone houses, a well, fenced gardens, and a modest watchtower\nScene/backdrop: rolling green farmland and a distant tree line\nSubject: environment only; no foreground characters; no burning buildings or smoke\nStyle/medium: Semi-realistic fantasy illustration with clear cartoon-like shape design. Credible anatomy and perspective simplified into chunky readable silhouettes and decisive planar shapes. Matte opaque gouache-like painting with broad visible strokes and no enclosing contour line. Use firm focal edges, simplified secondary edges, and selected lost edges. Build most forms from two to four large value and color masses. Reserve small detail for the face or head, hands or claws, and one narrative accent. Materials read through shape breaks, grouped texture rhythms, and sparse highlights rather than individual hairs, scales, or pores. Handmade and mature, not cel-shaded, photorealistic, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "balanced-warrior",
+        "lane": "balanced",
+        "subject": "warrior",
+        "status": "rejected",
+        "rejectionReason": "Mail, leather, face, and ground were more naturalistic and detailed than the balanced target.",
+        "output": "art/production/fc-house-v1/calibration/balanced/warrior.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nScene/backdrop: sparse medieval village courtyard with a low stone wall, subordinate to the figure\nPrimary request: One adult medieval woman warrior standing at ease, alert but not posing theatrically\nSubject: practical mail and worn leather outer armour, sword sheathed, round shield on her back; full body visible; exactly one head, two arms, two hands, two legs, and two feet\nStyle/medium: Semi-realistic fantasy illustration with restrained cartoon-like shape design. Credible anatomy and perspective simplified into broad readable silhouettes and gently designed planes. Matte opaque gouache-like rendering with visible broad strokes and no enclosing outline. Edges are crisp at focal overlaps, softened within secondary forms, and lost into the background. Build most forms from three to five large value and color masses. Fine detail is reserved for the face or head, hands or claws, and one narrative accent. Materials are distinguished through plane changes, texture rhythm, and a few controlled highlights rather than hair-by-hair, scale-by-scale, or pore-level rendering. Polished but handmade; neither photorealistic, cel-shaded, anime, nor glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "balanced-bear",
+        "lane": "balanced",
+        "subject": "bear",
+        "status": "rejected",
+        "rejectionReason": "Fur and facial modelling exceeded the intended broad mass treatment.",
+        "output": "art/production/fc-house-v1/calibration/balanced/bear.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nScene/backdrop: quiet forest clearing with moss and stone, subordinate to the animal\nPrimary request: One large adult brown bear standing naturally in three-quarter view\nSubject: whole body visible; exactly one head, four legs, four paws, and five claws on each visible front paw\nStyle/medium: Semi-realistic fantasy illustration with restrained cartoon-like shape design. Credible anatomy and perspective simplified into broad readable silhouettes and gently designed planes. Matte opaque gouache-like rendering with visible broad strokes and no enclosing outline. Edges are crisp at focal overlaps, softened within secondary forms, and lost into the background. Build most forms from three to five large value and color masses. Fine detail is reserved for the face or head, hands or claws, and one narrative accent. Materials are distinguished through plane changes, texture rhythm, and a few controlled highlights rather than hair-by-hair, scale-by-scale, or pore-level rendering. Polished but handmade; neither photorealistic, cel-shaded, anime, nor glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "balanced-dragon",
+        "lane": "balanced",
+        "subject": "dragon",
+        "status": "rejected",
+        "rejectionReason": "Wing clipping and scale-by-scale rendering failed composition and style gates.",
+        "output": "art/production/fc-house-v1/calibration/balanced/dragon.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nScene/backdrop: open rocky upland with sparse grass, subordinate to the creature\nPrimary request: One adult dragon standing calmly alert in a natural three-quarter view\nSubject: whole body visible; exactly one head, four legs, two wings, and one tail; mouth closed; no fire breath\nStyle/medium: Semi-realistic fantasy illustration with restrained cartoon-like shape design. Credible anatomy and perspective simplified into broad readable silhouettes and gently designed planes. Matte opaque gouache-like rendering with visible broad strokes and no enclosing outline. Edges are crisp at focal overlaps, softened within secondary forms, and lost into the background. Build most forms from three to five large value and color masses. Fine detail is reserved for the face or head, hands or claws, and one narrative accent. Materials are distinguished through plane changes, texture rhythm, and a few controlled highlights rather than hair-by-hair, scale-by-scale, or pore-level rendering. Polished but handmade; neither photorealistic, cel-shaded, anime, nor glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "balanced-village",
+        "lane": "balanced",
+        "subject": "village",
+        "status": "rejected",
+        "rejectionReason": "Dense roofs, masonry, fences, and foliage plus sunny light failed the balanced target.",
+        "output": "art/production/fc-house-v1/calibration/balanced/village.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nScene/backdrop: rolling green farmland and a distant tree line\nPrimary request: One small lived-in medieval village with a winding dirt lane, timber-and-stone houses, a well, fenced gardens, and a modest watchtower\nSubject: environment only; no foreground characters; no burning buildings or smoke\nStyle/medium: Semi-realistic fantasy illustration with restrained cartoon-like shape design. Credible anatomy and perspective simplified into broad readable silhouettes and gently designed planes. Matte opaque gouache-like rendering with visible broad strokes and no enclosing outline. Edges are crisp at focal overlaps, softened within secondary forms, and lost into the background. Build most forms from three to five large value and color masses. Fine detail is reserved for the face or head, hands or claws, and one narrative accent. Materials are distinguished through plane changes, texture rhythm, and a few controlled highlights rather than hair-by-hair, scale-by-scale, or pore-level rendering. Polished but handmade; neither photorealistic, cel-shaded, anime, nor glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-naturalistic-warrior",
+        "lane": "more-naturalistic",
+        "subject": "warrior",
+        "status": "rejected",
+        "rejectionReason": "Correct subject, but repetitive mail and clothing detail exceeded the lane target.",
+        "output": "art/production/fc-house-v1/calibration/more-naturalistic/warrior.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One adult medieval woman warrior standing at ease, alert but not posing theatrically\nScene/backdrop: sparse medieval village courtyard with a low stone wall, subordinate to the figure\nSubject: practical mail and worn leather outer armour, sword sheathed, round shield on her back; full body visible; exactly one head, two arms, two hands, two legs, and two feet\nStyle/medium: Semi-realistic fantasy illustration with subtle cartoon-like shape design. Credible anatomy and perspective with mildly simplified silhouettes and natural planar modeling. Matte opaque gouache-like painting with visible controlled strokes and no enclosing outline. Use crisp edges at focal overlaps, soft transitions across secondary forms, and lost edges into atmosphere. Build most forms from four to six broad value and color masses. Reserve fine detail for the face or head, hands or claws, and one narrative accent. Materials read through believable plane changes, restrained texture rhythms, and controlled highlights rather than microdetail. Handmade illustrative finish, not photorealistic, cel-shaded, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-naturalistic-bear",
+        "lane": "more-naturalistic",
+        "subject": "bear",
+        "status": "rejected",
+        "rejectionReason": "Dense fur marks and an obscured rear paw failed detail and anatomy-readability gates.",
+        "output": "art/production/fc-house-v1/calibration/more-naturalistic/bear.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One large adult brown bear standing naturally in three-quarter view\nScene/backdrop: quiet forest clearing with moss and stone, subordinate to the animal\nSubject: whole body visible; exactly one head, four legs, four paws, and five claws on each visible front paw\nStyle/medium: Semi-realistic fantasy illustration with subtle cartoon-like shape design. Credible anatomy and perspective with mildly simplified silhouettes and natural planar modeling. Matte opaque gouache-like painting with visible controlled strokes and no enclosing outline. Use crisp edges at focal overlaps, soft transitions across secondary forms, and lost edges into atmosphere. Build most forms from four to six broad value and color masses. Reserve fine detail for the face or head, hands or claws, and one narrative accent. Materials read through believable plane changes, restrained texture rhythms, and controlled highlights rather than microdetail. Handmade illustrative finish, not photorealistic, cel-shaded, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-naturalistic-dragon",
+        "lane": "more-naturalistic",
+        "subject": "dragon",
+        "status": "rejected",
+        "rejectionReason": "Scale-by-scale rendering made the result conventionally realistic and over-detailed.",
+        "output": "art/production/fc-house-v1/calibration/more-naturalistic/dragon.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One adult dragon standing calmly alert in a natural three-quarter view\nScene/backdrop: open rocky upland with sparse grass, subordinate to the creature\nSubject: whole body visible; exactly one head, four legs, two wings, and one tail; mouth closed; no fire breath\nStyle/medium: Semi-realistic fantasy illustration with subtle cartoon-like shape design. Credible anatomy and perspective with mildly simplified silhouettes and natural planar modeling. Matte opaque gouache-like painting with visible controlled strokes and no enclosing outline. Use crisp edges at focal overlaps, soft transitions across secondary forms, and lost edges into atmosphere. Build most forms from four to six broad value and color masses. Reserve fine detail for the face or head, hands or claws, and one narrative accent. Materials read through believable plane changes, restrained texture rhythms, and controlled highlights rather than microdetail. Handmade illustrative finish, not photorealistic, cel-shaded, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      },
+      {
+        "id": "more-naturalistic-village",
+        "lane": "more-naturalistic",
+        "subject": "village",
+        "status": "rejected",
+        "rejectionReason": "Detail density and directional sunlight drifted from the other neutral sentinels.",
+        "output": "art/production/fc-house-v1/calibration/more-naturalistic/village.png",
+        "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG house-style calibration tile\nPrimary request: One small lived-in medieval village with a winding dirt lane, timber-and-stone houses, a well, fenced gardens, and a modest watchtower\nScene/backdrop: rolling green farmland and a distant tree line\nSubject: environment only; no foreground characters; no burning buildings or smoke\nStyle/medium: Semi-realistic fantasy illustration with subtle cartoon-like shape design. Credible anatomy and perspective with mildly simplified silhouettes and natural planar modeling. Matte opaque gouache-like painting with visible controlled strokes and no enclosing outline. Use crisp edges at focal overlaps, soft transitions across secondary forms, and lost edges into atmosphere. Build most forms from four to six broad value and color masses. Reserve fine detail for the face or head, hands or claws, and one narrative accent. Materials read through believable plane changes, restrained texture rhythms, and controlled highlights rather than microdetail. Handmade illustrative finish, not photorealistic, cel-shaded, anime, or glossy 3D.\nComposition/framing: square composition, complete subject safely inside the frame, generous margin\nLighting/mood: neutral diffuse midday daylight; calm clear atmosphere\nColor palette: natural local colors appropriate to the subject; no fixed house palette\nConstraints: style calibration only; no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, or extra focal subjects"
+      }
+    ],
+    "revisions": [
+      {
+        "id": "revision-01-more-graphic-warrior",
+        "iteration": "revision-01",
+        "sourceAsset": "more-graphic-warrior",
+        "lane": "more-graphic",
+        "subject": "warrior",
+        "status": "generated",
+        "generationId": "call_2fJfPKAqfQVk7NZ0VqgWI9gx",
+        "source": "art/production/fc-house-v1/calibration/more-graphic/warrior.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-graphic/warrior.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Graphic painted adventure realism: believable anatomy with clearly designed, mildly cartoonish silhouettes; chunky simplified planes; two to four broad flat value shapes; matte gouache brushwork; firm focal edges and soft secondary edges; grouped materials with almost no repeated microtexture. Mature fantasy illustration, with no enclosing outlines and no cel shading.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nSimplify mail into a grouped material pattern rather than individual rings.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Safe full-body anatomy and composition; mail rings remain more repetitive than the target."
+        }
+      },
+      {
+        "id": "revision-01-more-graphic-bear",
+        "iteration": "revision-01",
+        "sourceAsset": "more-graphic-bear",
+        "lane": "more-graphic",
+        "subject": "bear",
+        "status": "generated",
+        "generationId": "call_s4lhTmefXr7xIw1d8MGbAhOm",
+        "source": "art/production/fc-house-v1/calibration/more-graphic/bear.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-graphic/bear.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Graphic painted adventure realism: believable anatomy with clearly designed, mildly cartoonish silhouettes; chunky simplified planes; two to four broad flat value shapes; matte gouache brushwork; firm focal edges and soft secondary edges; grouped materials with almost no repeated microtexture. Mature fantasy illustration, with no enclosing outlines and no cel shading.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nSimplify fur into large directional masses rather than individual hairs.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Four-leg anatomy and visible front claws pass; some directional fur marks remain."
+        }
+      },
+      {
+        "id": "revision-01-more-graphic-dragon",
+        "iteration": "revision-01",
+        "sourceAsset": "more-graphic-dragon",
+        "lane": "more-graphic",
+        "subject": "dragon",
+        "status": "generated",
+        "generationId": "call_5rsdo2EABDb4QfmI0Q07G7KE",
+        "source": "art/production/fc-house-v1/calibration/more-graphic/dragon.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-graphic/dragon.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Graphic painted adventure realism: believable anatomy with clearly designed, mildly cartoonish silhouettes; chunky simplified planes; two to four broad flat value shapes; matte gouache brushwork; firm focal edges and soft secondary edges; grouped materials with almost no repeated microtexture. Mature fantasy illustration, with no enclosing outlines and no cel shading.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nSimplify scales and spines into grouped planes rather than individual repeated units; keep both wings fully inside the frame.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Correct anatomy and both wings fully framed; head scales and spines retain some repeated units."
+        }
+      },
+      {
+        "id": "revision-01-more-graphic-village",
+        "iteration": "revision-01",
+        "sourceAsset": "more-graphic-village",
+        "lane": "more-graphic",
+        "subject": "village",
+        "status": "generated",
+        "generationId": "call_ZAafN0EmtDzIba7lwVzYjNDk",
+        "source": "art/production/fc-house-v1/calibration/more-graphic/village.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-graphic/village.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Graphic painted adventure realism: believable anatomy with clearly designed, mildly cartoonish silhouettes; chunky simplified planes; two to four broad flat value shapes; matte gouache brushwork; firm focal edges and soft secondary edges; grouped materials with almost no repeated microtexture. Mature fantasy illustration, with no enclosing outlines and no cel shading.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nSimplify roofs, masonry, fences, crops, and foliage into large readable masses rather than repeated small marks.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Requested scene is intact; roof and fence repetition remains and a few transitions verge on cel-like."
+        }
+      },
+      {
+        "id": "revision-01-balanced-warrior",
+        "iteration": "revision-01",
+        "sourceAsset": "balanced-warrior",
+        "lane": "balanced",
+        "subject": "warrior",
+        "status": "generated",
+        "generationId": "call_wRHP9NR2KkS9MS8UrLQUF6iu",
+        "source": "art/production/fc-house-v1/calibration/balanced/warrior.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/balanced/warrior.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Painterly adventure realism: believable anatomy with gently cartoonish shape design; broad simplified planes; three to five clear value shapes; matte gouache brushwork; varied hard, soft, and lost edges; selective detail only at focal features; materials rendered by grouped texture and a few highlights. Mature fantasy illustration, with no enclosing outlines and no glossy realism.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nWarrior: Simplify mail into a grouped material pattern rather than individual rings.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Safe anatomy and composition; mail and leather remain somewhat more detailed than the target."
+        }
+      },
+      {
+        "id": "revision-01-balanced-bear",
+        "iteration": "revision-01",
+        "sourceAsset": "balanced-bear",
+        "lane": "balanced",
+        "subject": "bear",
+        "status": "generated",
+        "generationId": "call_skl5Iv6cKjlHyqq3qezNGd5v",
+        "source": "art/production/fc-house-v1/calibration/balanced/bear.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/balanced/bear.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Painterly adventure realism: believable anatomy with gently cartoonish shape design; broad simplified planes; three to five clear value shapes; matte gouache brushwork; varied hard, soft, and lost edges; selective detail only at focal features; materials rendered by grouped texture and a few highlights. Mature fantasy illustration, with no enclosing outlines and no glossy realism.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nBear: Simplify fur into large directional masses rather than individual hairs.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Full anatomy and visible front claws pass; minor smaller fur strokes remain near the face and legs."
+        }
+      },
+      {
+        "id": "revision-01-balanced-dragon",
+        "iteration": "revision-01",
+        "sourceAsset": "balanced-dragon",
+        "lane": "balanced",
+        "subject": "dragon",
+        "status": "generated",
+        "generationId": "call_ECZ0N34vqVnSA2emL4WkLCyK",
+        "source": "art/production/fc-house-v1/calibration/balanced/dragon.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/balanced/dragon.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Painterly adventure realism: believable anatomy with gently cartoonish shape design; broad simplified planes; three to five clear value shapes; matte gouache brushwork; varied hard, soft, and lost edges; selective detail only at focal features; materials rendered by grouped texture and a few highlights. Mature fantasy illustration, with no enclosing outlines and no glossy realism.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nDragon: Simplify scales and spines into grouped planes rather than individual repeated units; keep both wings fully inside the frame.",
+        "qa": {
+          "status": "fail",
+          "notes": "Content anatomy is correct, but the near wing clips the right frame and scales remain too repetitive."
+        }
+      },
+      {
+        "id": "revision-01-balanced-village",
+        "iteration": "revision-01",
+        "sourceAsset": "balanced-village",
+        "lane": "balanced",
+        "subject": "village",
+        "status": "generated",
+        "generationId": "call_yvHHUPqMfEmQ7nd8CKVArWX3",
+        "source": "art/production/fc-house-v1/calibration/balanced/village.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/balanced/village.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Painterly adventure realism: believable anatomy with gently cartoonish shape design; broad simplified planes; three to five clear value shapes; matte gouache brushwork; varied hard, soft, and lost edges; selective detail only at focal features; materials rendered by grouped texture and a few highlights. Mature fantasy illustration, with no enclosing outlines and no glossy realism.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nVillage: Simplify roofs, masonry, fences, crops, and foliage into large readable masses rather than repeated small marks.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "All scene contents pass; roofs, fences, and crops retain more repeated marks than the target."
+        }
+      },
+      {
+        "id": "revision-01-more-naturalistic-warrior",
+        "iteration": "revision-01",
+        "sourceAsset": "more-naturalistic-warrior",
+        "lane": "more-naturalistic",
+        "subject": "warrior",
+        "status": "generated",
+        "generationId": "call_B1hPd5Kz3ah4F2wzqoJ8qBmy",
+        "source": "art/production/fc-house-v1/calibration/more-naturalistic/warrior.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/warrior.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Illustrated fantasy realism: believable anatomy with only subtle cartoon-like shape design; four to six broad value shapes; matte gouache brushwork; natural soft modeling with crisp focal edges; restrained material texture and no repeated microdetail. Mature hand-painted illustration, neither photorealistic nor glossy.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nWarrior: Simplify mail into a grouped material pattern rather than individual rings.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Correct full-body anatomy and safe composition; grouped mail scallops remain somewhat repetitive."
+        }
+      },
+      {
+        "id": "revision-01-more-naturalistic-bear",
+        "iteration": "revision-01",
+        "sourceAsset": "more-naturalistic-bear",
+        "lane": "more-naturalistic",
+        "subject": "bear",
+        "status": "generated",
+        "generationId": "call_zBBqmIkv0G1Dw1aSLGgUnk2H",
+        "source": "art/production/fc-house-v1/calibration/more-naturalistic/bear.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/bear.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Illustrated fantasy realism: believable anatomy with only subtle cartoon-like shape design; four to six broad value shapes; matte gouache brushwork; natural soft modeling with crisp focal edges; restrained material texture and no repeated microdetail. Mature hand-painted illustration, neither photorealistic nor glossy.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nBear: Simplify fur into large directional masses rather than individual hairs.",
+        "qa": {
+          "status": "pass-with-notes",
+          "notes": "Front claws and visible anatomy pass; the far rear paw is occluded and moderate fur repetition remains."
+        }
+      },
+      {
+        "id": "revision-01-more-naturalistic-dragon",
+        "iteration": "revision-01",
+        "sourceAsset": "more-naturalistic-dragon",
+        "lane": "more-naturalistic",
+        "subject": "dragon",
+        "status": "generated",
+        "generationId": "call_bdXSTMbAZvmko7fZtIeCh4Br",
+        "source": "art/production/fc-house-v1/calibration/more-naturalistic/dragon.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/dragon.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Illustrated fantasy realism: believable anatomy with only subtle cartoon-like shape design; four to six broad value shapes; matte gouache brushwork; natural soft modeling with crisp focal edges; restrained material texture and no repeated microdetail. Mature hand-painted illustration, neither photorealistic nor glossy.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nDragon: Simplify scales and spines into grouped planes rather than individual repeated units; keep both wings fully inside the frame.",
+        "qa": {
+          "status": "fail",
+          "notes": "Content and framing pass, but conspicuous scale-by-scale repetition remains across the creature."
+        }
+      },
+      {
+        "id": "revision-01-more-naturalistic-village",
+        "iteration": "revision-01",
+        "sourceAsset": "more-naturalistic-village",
+        "lane": "more-naturalistic",
+        "subject": "village",
+        "status": "generated",
+        "generationId": "call_EaFXAJsHoNRwp8j8r3HuVk10",
+        "source": "art/production/fc-house-v1/calibration/more-naturalistic/village.png",
+        "output": "art/production/fc-house-v1/calibration/revision-01/more-naturalistic/village.png",
+        "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG house-style calibration revision\nInput images: Image 1 is the edit target and content/composition source only; do not inherit its rendering style\nPrimary request: Replace only the detailed painterly-naturalistic rendering with the style below\nStyle/medium: Illustrated fantasy realism: believable anatomy with only subtle cartoon-like shape design; four to six broad value shapes; matte gouache brushwork; natural soft modeling with crisp focal edges; restrained material texture and no repeated microdetail. Mature hand-painted illustration, neither photorealistic nor glossy.\nConstraints: preserve subject identity, anatomy, pose, camera, scene contents, natural local palette, and neutral daylight; keep the complete subject safely inside the square; no fire, magic effects, dramatic sky, rim light, text, logo, watermark, border, or extra focal subjects\nVillage: Simplify roofs, masonry, fences, crops, and foliage into large readable masses rather than repeated small marks.",
+        "qa": {
+          "status": "fail",
+          "notes": "Scene contents pass; excessive repeated detail and directional sunlight remain."
+        }
+      }
+    ]
+  },
+  "productionDefaults": {
+    "candidatesPerAsset": 2,
+    "reviewBatchSize": 6,
+    "styleScoreMinimum": 4,
+    "styleAxes": [
+      "brushwork",
+      "edge handling",
+      "shape simplification",
+      "detail density",
+      "material rendering"
+    ],
+    "webExports": [
+      {
+        "width": 320,
+        "height": 320,
+        "format": "webp"
+      },
+      {
+        "width": 640,
+        "height": 640,
+        "format": "webp"
+      }
+    ]
+  }
+}

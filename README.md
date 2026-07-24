@@ -43,6 +43,8 @@ npm run preview
 - `src/assets/` — the Cold Iron CSS, progressive-enhancement JavaScript, and brand mark
 - `src/lib/` — content schema and executable rules contracts
 - `tests/` — unit/content contracts and real-browser checks
+- `art/art-direction/` — canonical Grounded Painterly Fantasy references, production guidance, and alternative-style log
+- `art/style-studies/` — preserved visual studies used to select the illustration direction
 - `tex/` — the LaTeX chapters not yet converted to Fantasy Crux 2.0: Disciplines, Battle, and the Folk, Arcane, Divine, and Shamanism magic systems. Everything already published was removed; recover it with `git show 040db44:tex/<file>` if a conversion ever needs checking against the original
 - `freeform-magic/` — preserved Magic 2.0 alternative; not published
 - `freeform-creatures/` — preserved drafting source for the published bestiary
@@ -63,9 +65,15 @@ Run `npm run check` before treating a change as complete. The content contract a
 
 The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md); restoring characteristic dice ranges is recorded in [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md).
 
+## Art direction
+
+**Grounded Painterly Fantasy** is the accepted illustration style. Use the [art-direction guide](art/art-direction/README.md) and its canonical scenery and character references for future artwork. The other explored directions remain indexed in the [alternative style log](art/art-direction/alternatives.md).
+
+The website's Cold Iron palette does not constrain illustration colors. Artwork should match the canonical study-7 woman and scenery references: grounded proportions, matte traditional paint, broad forms, selective detail, muted color, restrained light, and a mature fantasy tone. The decision is recorded in [ADR-006](docs/decisions/006-adopt-grounded-painterly-fantasy-art-direction.md).
+
 ## Later phases
 
 1. Refine Shaping through playtesting while preserving its stable rule IDs and URLs.
-2. Establish an illustration style through dedicated visual studies, then fill the creature portrait frames.
+2. Apply the accepted Grounded Painterly Fantasy direction to rules artwork, validate it across characters, creatures, environments, equipment, and magic, then fill the creature portrait frames.
 
 Rules artwork beyond creature thumbnails remains outside the current build.

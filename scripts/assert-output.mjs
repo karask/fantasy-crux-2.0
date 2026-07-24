@@ -103,7 +103,7 @@ if (!magic.includes('Magnitude')) {
 }
 
 const creatures = await readFile('_site/rules/creatures/index.html', 'utf8');
-const publishedProfiles = [...creatures.matchAll(/class="creature-profile"/g)].length;
+const publishedProfiles = [...creatures.matchAll(/class="[^"]*\bcreature-profile\b[^"]*"/g)].length;
 if (publishedProfiles !== 57) {
   throw new Error(`Expected 57 published creature profiles, found ${publishedProfiles}.`);
 }

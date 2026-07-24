@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "exploration-02",
+  "status": "complete-selected-inked-adventure-comic",
+  "created": "2026-07-24",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "contentSourceRoot": "art/production/fc-house-v1/calibration/revision-01/more-graphic",
+  "methodology": "For each style, first generate one independent 2x2 anchor board containing the warrior, bear, dragon, and village. Then generate four independent sentinels by style transfer with two references: the matching more-graphic revision supplies content and composition only, while the style's anchor supplies rendering style only. Explicitly exclude the anchor's objects, layout, palette, lighting, and mood so consistency measures the reusable visual language rather than repeated scene atmosphere.",
+  "selectedStyle": "inked-adventure-comic",
+  "comparisonSheet": "art/production/fc-house-v1/exploration-02/contact-sheet.html",
+  "styles": [
+    {
+      "id": "inked-adventure-comic",
+      "label": "Inked adventure comic",
+      "selectionStatus": "selected-and-promoted",
+      "provenance": "art/production/fc-house-v1/exploration-02/inked-adventure-comic/provenance.json"
+    },
+    {
+      "id": "watercolor-storybook",
+      "label": "Watercolor storybook",
+      "selectionStatus": "reference",
+      "provenance": "art/production/fc-house-v1/exploration-02/watercolor-storybook/provenance.json"
+    },
+    {
+      "id": "hand-colored-woodcut",
+      "label": "Hand-colored woodcut",
+      "selectionStatus": "reference",
+      "provenance": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/provenance.json"
+    },
+    {
+      "id": "illuminated-chronicle",
+      "label": "Illuminated chronicle",
+      "selectionStatus": "reference",
+      "provenance": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/provenance.json"
+    },
+    {
+      "id": "painted-miniature-diorama",
+      "label": "Painted miniature diorama",
+      "selectionStatus": "reference",
+      "provenance": "art/production/fc-house-v1/exploration-02/painted-miniature-diorama/provenance.json"
+    }
+  ]
+}

@@ -1,0 +1,738 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FC House Style - Exploration 02</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --page: #e9e7e1;
+        --surface: #f8f7f3;
+        --ink: #242521;
+        --muted: #62645d;
+        --line: #c9c7bf;
+        --line-strong: #97988f;
+        --accent: #374c4a;
+        --radius: 0.25rem;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+        font-family:
+          Inter,
+          ui-sans-serif,
+          system-ui,
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          sans-serif;
+        line-height: 1.5;
+      }
+
+      main {
+        width: min(100% - 2rem, 96rem);
+        margin-inline: auto;
+        padding-block: 3rem 5rem;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 18ch;
+        margin-bottom: 0.75rem;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: clamp(2rem, 5vw, 4rem);
+        font-weight: 500;
+        letter-spacing: -0.025em;
+        line-height: 1;
+      }
+
+      h2 {
+        margin-bottom: 0.75rem;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: clamp(1.5rem, 3vw, 2.25rem);
+        font-weight: 500;
+        line-height: 1.15;
+      }
+
+      h3 {
+        margin-bottom: 0.25rem;
+        font-size: 1rem;
+        line-height: 1.3;
+      }
+
+      .lede {
+        max-width: 72ch;
+        margin-bottom: 1.5rem;
+        color: var(--muted);
+        font-size: 1.0625rem;
+      }
+
+      .method {
+        max-width: 78ch;
+        margin-bottom: 3rem;
+        padding: 1rem 1.25rem;
+        border-left: 0.25rem solid var(--accent);
+        background: var(--surface);
+      }
+
+      .method p {
+        margin: 0;
+      }
+
+      .section-heading {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid var(--line-strong);
+      }
+
+      .section-heading p {
+        margin-bottom: 0.75rem;
+        color: var(--muted);
+        font-size: 0.875rem;
+      }
+
+      .comparison {
+        display: grid;
+        gap: 2rem;
+      }
+
+      .style-row {
+        padding-top: 1rem;
+        border-top: 1px solid var(--line);
+      }
+
+      .style-row:first-child {
+        padding-top: 0;
+        border-top: 0;
+      }
+
+      .style-copy {
+        display: grid;
+        grid-template-columns: minmax(12rem, 0.35fr) minmax(20rem, 1fr);
+        gap: 1.5rem;
+        align-items: baseline;
+        margin-bottom: 0.75rem;
+      }
+
+      .style-copy p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.9375rem;
+      }
+
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 0.75rem;
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      .image-frame {
+        overflow: hidden;
+        border: 1px solid var(--line-strong);
+        border-radius: var(--radius);
+        background: #d6d4cc;
+      }
+
+      .image-frame img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+      }
+
+      figcaption {
+        padding-top: 0.375rem;
+        color: var(--muted);
+        font-size: 0.8125rem;
+      }
+
+      .compact-section,
+      .anchor-section {
+        margin-top: 4rem;
+      }
+
+      .compact-viewport {
+        overflow-x: auto;
+        padding-bottom: 0.5rem;
+      }
+
+      .compact-matrix {
+        display: grid;
+        min-width: 45rem;
+        grid-template-columns: minmax(12rem, 1fr) repeat(4, 132px);
+        gap: 0.75rem;
+        align-items: center;
+      }
+
+      .compact-heading {
+        color: var(--muted);
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+
+      .compact-label strong,
+      .compact-label span {
+        display: block;
+      }
+
+      .compact-label span {
+        color: var(--muted);
+        font-size: 0.75rem;
+      }
+
+      .compact-image {
+        width: 132px;
+        height: 132px;
+        border: 1px solid var(--line-strong);
+        border-radius: var(--radius);
+        object-fit: cover;
+      }
+
+      .anchor-grid {
+        display: grid;
+        grid-template-columns: repeat(5, minmax(0, 1fr));
+        gap: 1rem;
+      }
+
+      .anchor-card {
+        padding: 0.75rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--surface);
+      }
+
+      .anchor-card img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.75rem;
+        border: 1px solid var(--line-strong);
+        aspect-ratio: 1;
+        object-fit: cover;
+      }
+
+      .anchor-card p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.8125rem;
+      }
+
+      @media (max-width: 64rem) {
+        .anchor-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 48rem) {
+        main {
+          width: min(100% - 1.5rem, 96rem);
+          padding-block: 2rem 3rem;
+        }
+
+        .section-heading,
+        .style-copy {
+          display: block;
+        }
+
+        .style-copy h3 {
+          margin-bottom: 0.375rem;
+        }
+
+        .image-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .anchor-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+
+      @media (max-width: 30rem) {
+        .image-grid,
+        .anchor-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>House style exploration 02</h1>
+        <p class="lede">
+          Five deliberately different illustration systems, tested against the same warrior, bear,
+          dragon, and village subjects.
+        </p>
+        <aside class="method" aria-label="Generation method">
+          <p>
+            Each row used its own anchor as a style-only reference. The same more-graphic
+            calibration images were used as content and composition-only references. Palette and
+            mood were not inherited from either reference.
+          </p>
+        </aside>
+      </header>
+
+      <section aria-labelledby="full-matrix-title">
+        <div class="section-heading">
+          <h2 id="full-matrix-title">Full comparison</h2>
+          <p>Five style rows, four shared subjects</p>
+        </div>
+
+        <div class="comparison">
+          <article class="style-row">
+            <div class="style-copy">
+              <h3>1. Inked adventure comic</h3>
+              <p>
+                Varied confident ink contours, broad painted shapes, economical hatching, and crisp
+                focal details designed to remain readable.
+              </p>
+            </div>
+            <div class="image-grid">
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="../approved/inked-adventure-comic/warrior.png"
+                    alt="Warrior rendered in the inked adventure comic style"
+                  />
+                </div>
+                <figcaption>Warrior</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="../approved/inked-adventure-comic/bear.png"
+                    alt="Bear rendered in the inked adventure comic style"
+                  />
+                </div>
+                <figcaption>Bear</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="../approved/inked-adventure-comic/dragon.png"
+                    alt="Dragon rendered in the inked adventure comic style"
+                  />
+                </div>
+                <figcaption>Dragon</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="../approved/inked-adventure-comic/village.png"
+                    alt="Village rendered in the inked adventure comic style"
+                  />
+                </div>
+                <figcaption>Village</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="style-row">
+            <div class="style-copy">
+              <h3>2. Watercolor storybook</h3>
+              <p>
+                Transparent layered washes, lightly drawn structure, softened transitions, paper
+                texture, and selective crisp accents.
+              </p>
+            </div>
+            <div class="image-grid">
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="watercolor-storybook/warrior.png"
+                    alt="Warrior rendered in the watercolor storybook style"
+                  />
+                </div>
+                <figcaption>Warrior</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="watercolor-storybook/bear.png"
+                    alt="Bear rendered in the watercolor storybook style"
+                  />
+                </div>
+                <figcaption>Bear</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="watercolor-storybook/dragon.png"
+                    alt="Dragon rendered in the watercolor storybook style"
+                  />
+                </div>
+                <figcaption>Dragon</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="watercolor-storybook/village.png"
+                    alt="Village rendered in the watercolor storybook style"
+                  />
+                </div>
+                <figcaption>Village</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="style-row">
+            <div class="style-copy">
+              <h3>3. Hand-colored woodcut</h3>
+              <p>
+                Carved line rhythms, simplified block shapes, directional hatching, and flat
+                hand-applied color with slight registration irregularity.
+              </p>
+            </div>
+            <div class="image-grid">
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="hand-colored-woodcut/warrior.png"
+                    alt="Warrior rendered in the hand-colored woodcut style"
+                  />
+                </div>
+                <figcaption>Warrior</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="hand-colored-woodcut/bear.png"
+                    alt="Bear rendered in the hand-colored woodcut style"
+                  />
+                </div>
+                <figcaption>Bear</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="hand-colored-woodcut/dragon.png"
+                    alt="Dragon rendered in the hand-colored woodcut style"
+                  />
+                </div>
+                <figcaption>Dragon</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="hand-colored-woodcut/village.png"
+                    alt="Village rendered in the hand-colored woodcut style"
+                  />
+                </div>
+                <figcaption>Village</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="style-row">
+            <div class="style-copy">
+              <h3>4. Illuminated chronicle</h3>
+              <p>
+                Flattened pictorial space, manuscript contours, patterned materials, selective
+                modeled faces, and disciplined ornamental detail.
+              </p>
+            </div>
+            <div class="image-grid">
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="illuminated-chronicle/warrior.png"
+                    alt="Warrior rendered in the illuminated chronicle style"
+                  />
+                </div>
+                <figcaption>Warrior</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="illuminated-chronicle/bear.png"
+                    alt="Bear rendered in the illuminated chronicle style"
+                  />
+                </div>
+                <figcaption>Bear</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="illuminated-chronicle/dragon.png"
+                    alt="Dragon rendered in the illuminated chronicle style"
+                  />
+                </div>
+                <figcaption>Dragon</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="illuminated-chronicle/village.png"
+                    alt="Village rendered in the illuminated chronicle style"
+                  />
+                </div>
+                <figcaption>Village</figcaption>
+              </figure>
+            </div>
+          </article>
+
+          <article class="style-row">
+            <div class="style-copy">
+              <h3>5. Painted miniature diorama</h3>
+              <p>
+                Sculpted forms, hand-painted physical surfaces, tactile material marks, staged
+                depth, and the controlled detail of display miniatures.
+              </p>
+            </div>
+            <div class="image-grid">
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="painted-miniature-diorama/warrior.png"
+                    alt="Warrior rendered in the painted miniature diorama style"
+                  />
+                </div>
+                <figcaption>Warrior</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="painted-miniature-diorama/bear.png"
+                    alt="Bear rendered in the painted miniature diorama style"
+                  />
+                </div>
+                <figcaption>Bear</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="painted-miniature-diorama/dragon.png"
+                    alt="Dragon rendered in the painted miniature diorama style"
+                  />
+                </div>
+                <figcaption>Dragon</figcaption>
+              </figure>
+              <figure>
+                <div class="image-frame">
+                  <img
+                    src="painted-miniature-diorama/village.png"
+                    alt="Village rendered in the painted miniature diorama style"
+                  />
+                </div>
+                <figcaption>Village</figcaption>
+              </figure>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="compact-section" aria-labelledby="compact-title">
+        <div class="section-heading">
+          <h2 id="compact-title">Website-size comparison</h2>
+          <p>All crops shown at 132 by 132 pixels</p>
+        </div>
+        <div class="compact-viewport" tabindex="0" aria-label="Scrollable website-size comparison">
+          <div class="compact-matrix">
+            <div class="compact-heading">Style</div>
+            <div class="compact-heading">Warrior</div>
+            <div class="compact-heading">Bear</div>
+            <div class="compact-heading">Dragon</div>
+            <div class="compact-heading">Village</div>
+
+            <div class="compact-label">
+              <strong>Inked adventure comic</strong>
+              <span>Style 1</span>
+            </div>
+            <img
+              class="compact-image"
+              src="../approved/inked-adventure-comic/warrior.png"
+              alt="Website-size warrior in the inked adventure comic style"
+            />
+            <img
+              class="compact-image"
+              src="../approved/inked-adventure-comic/bear.png"
+              alt="Website-size bear in the inked adventure comic style"
+            />
+            <img
+              class="compact-image"
+              src="../approved/inked-adventure-comic/dragon.png"
+              alt="Website-size dragon in the inked adventure comic style"
+            />
+            <img
+              class="compact-image"
+              src="../approved/inked-adventure-comic/village.png"
+              alt="Website-size village in the inked adventure comic style"
+            />
+
+            <div class="compact-label">
+              <strong>Watercolor storybook</strong>
+              <span>Style 2</span>
+            </div>
+            <img
+              class="compact-image"
+              src="watercolor-storybook/warrior.png"
+              alt="Website-size warrior in the watercolor storybook style"
+            />
+            <img
+              class="compact-image"
+              src="watercolor-storybook/bear.png"
+              alt="Website-size bear in the watercolor storybook style"
+            />
+            <img
+              class="compact-image"
+              src="watercolor-storybook/dragon.png"
+              alt="Website-size dragon in the watercolor storybook style"
+            />
+            <img
+              class="compact-image"
+              src="watercolor-storybook/village.png"
+              alt="Website-size village in the watercolor storybook style"
+            />
+
+            <div class="compact-label">
+              <strong>Hand-colored woodcut</strong>
+              <span>Style 3</span>
+            </div>
+            <img
+              class="compact-image"
+              src="hand-colored-woodcut/warrior.png"
+              alt="Website-size warrior in the hand-colored woodcut style"
+            />
+            <img
+              class="compact-image"
+              src="hand-colored-woodcut/bear.png"
+              alt="Website-size bear in the hand-colored woodcut style"
+            />
+            <img
+              class="compact-image"
+              src="hand-colored-woodcut/dragon.png"
+              alt="Website-size dragon in the hand-colored woodcut style"
+            />
+            <img
+              class="compact-image"
+              src="hand-colored-woodcut/village.png"
+              alt="Website-size village in the hand-colored woodcut style"
+            />
+
+            <div class="compact-label">
+              <strong>Illuminated chronicle</strong>
+              <span>Style 4</span>
+            </div>
+            <img
+              class="compact-image"
+              src="illuminated-chronicle/warrior.png"
+              alt="Website-size warrior in the illuminated chronicle style"
+            />
+            <img
+              class="compact-image"
+              src="illuminated-chronicle/bear.png"
+              alt="Website-size bear in the illuminated chronicle style"
+            />
+            <img
+              class="compact-image"
+              src="illuminated-chronicle/dragon.png"
+              alt="Website-size dragon in the illuminated chronicle style"
+            />
+            <img
+              class="compact-image"
+              src="illuminated-chronicle/village.png"
+              alt="Website-size village in the illuminated chronicle style"
+            />
+
+            <div class="compact-label">
+              <strong>Painted miniature diorama</strong>
+              <span>Style 5</span>
+            </div>
+            <img
+              class="compact-image"
+              src="painted-miniature-diorama/warrior.png"
+              alt="Website-size warrior in the painted miniature diorama style"
+            />
+            <img
+              class="compact-image"
+              src="painted-miniature-diorama/bear.png"
+              alt="Website-size bear in the painted miniature diorama style"
+            />
+            <img
+              class="compact-image"
+              src="painted-miniature-diorama/dragon.png"
+              alt="Website-size dragon in the painted miniature diorama style"
+            />
+            <img
+              class="compact-image"
+              src="painted-miniature-diorama/village.png"
+              alt="Website-size village in the painted miniature diorama style"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="anchor-section" aria-labelledby="anchor-title">
+        <div class="section-heading">
+          <h2 id="anchor-title">Style-only anchors</h2>
+          <p>One anchor established each row's visual grammar</p>
+        </div>
+        <div class="anchor-grid">
+          <article class="anchor-card">
+            <img
+              src="../approved/inked-adventure-comic/style-anchor.png"
+              alt="Style-only anchor for the inked adventure comic row"
+            />
+            <h3>Inked adventure comic</h3>
+            <p>Style reference only. Palette and mood were excluded.</p>
+          </article>
+          <article class="anchor-card">
+            <img
+              src="watercolor-storybook/anchor.png"
+              alt="Style-only anchor for the watercolor storybook row"
+            />
+            <h3>Watercolor storybook</h3>
+            <p>Style reference only. Palette and mood were excluded.</p>
+          </article>
+          <article class="anchor-card">
+            <img
+              src="hand-colored-woodcut/anchor.png"
+              alt="Style-only anchor for the hand-colored woodcut row"
+            />
+            <h3>Hand-colored woodcut</h3>
+            <p>Style reference only. Palette and mood were excluded.</p>
+          </article>
+          <article class="anchor-card">
+            <img
+              src="illuminated-chronicle/anchor.png"
+              alt="Style-only anchor for the illuminated chronicle row"
+            />
+            <h3>Illuminated chronicle</h3>
+            <p>Style reference only. Palette and mood were excluded.</p>
+          </article>
+          <article class="anchor-card">
+            <img
+              src="painted-miniature-diorama/anchor.png"
+              alt="Style-only anchor for the painted miniature diorama row"
+            />
+            <h3>Painted miniature diorama</h3>
+            <p>Style reference only. Palette and mood were excluded.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

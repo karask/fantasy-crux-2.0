@@ -7,6 +7,9 @@ slug: ogre
 order: 360
 category: monster
 summary: 'A massive, warty humanoid who dominates weaker creatures through brute force.'
+image: '/assets/images/creatures/ogre.webp'
+image320: '/assets/images/creatures/ogre-320.webp'
+imageAlt: 'A broad-shouldered grey-green ogre standing on an old stone bridge.'
 tags:
   - 'living'
   - 'corporeal'

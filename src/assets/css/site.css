@@ -169,18 +169,11 @@ summary,
 }
 
 .wordmark-mark {
-  display: grid;
-  width: 38px;
-  height: 38px;
+  display: block;
+  width: 44px;
+  height: 44px;
   flex: none;
-  place-items: center;
-  border: 1px solid var(--brass);
-  color: var(--brass);
-  font-family: var(--display);
-  font-size: 1.2rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  transform: rotate(-2deg);
+  object-fit: contain;
 }
 
 .wordmark strong,
@@ -906,6 +899,11 @@ tbody tr:last-child td {
   grid-template-columns: 132px minmax(0, 1fr);
 }
 
+.creature-profile--illustrated {
+  gap: clamp(1.5rem, 3.5vw, 2.8rem);
+  grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
+}
+
 .creature-profile[hidden] {
   display: none;
 }
@@ -915,7 +913,6 @@ tbody tr:last-child td {
   border-top: 0;
 }
 
-/* Placeholder frame: swap the mark for an <img> once thumbnails arrive. */
 .creature-portrait {
   position: relative;
   display: grid;
@@ -932,6 +929,10 @@ tbody tr:last-child td {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.creature-profile--illustrated .creature-portrait {
+  box-shadow: 7px 7px 0 #cfc5b4;
 }
 
 .creature-portrait-mark {
@@ -1621,6 +1622,10 @@ tbody tr:last-child td {
   .page-surface {
     padding-inline: clamp(1.15rem, 4vw, 3rem);
   }
+
+  .creature-profile--illustrated {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 900px) {
@@ -1723,6 +1728,10 @@ tbody tr:last-child td {
   .home-start {
     grid-template-columns: 1fr;
   }
+
+  .creature-profile--illustrated {
+    grid-template-columns: 220px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 720px) {
@@ -1738,9 +1747,8 @@ tbody tr:last-child td {
   }
 
   .wordmark-mark {
-    width: 32px;
-    height: 32px;
-    font-size: 1rem;
+    width: 40px;
+    height: 40px;
   }
 
   .header-search input {
@@ -1756,11 +1764,6 @@ tbody tr:last-child td {
   .nav-disclosure {
     grid-row: 1;
     grid-column: 2;
-  }
-
-  .wordmark-mark {
-    width: 37px;
-    height: 37px;
   }
 
   .wordmark strong {
@@ -1879,6 +1882,14 @@ tbody tr:last-child td {
 
   .creature-profile {
     grid-template-columns: 96px minmax(0, 1fr);
+  }
+
+  .creature-profile--illustrated {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .creature-profile--illustrated .creature-portrait {
+    width: min(100%, 28rem);
   }
 
   .creature-portrait-mark {

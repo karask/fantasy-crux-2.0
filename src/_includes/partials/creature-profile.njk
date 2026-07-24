@@ -1,9 +1,16 @@
 {% set profile = creature.data %}
-<article class="creature-profile" data-filter-item data-filter-tags="{{ profile.category }}" data-pagefind-body data-pagefind-meta="chapter:creatures">
-  {# Thumbnails are commissioned per creature; until one lands, the frame keeps its place. #}
+<article class="creature-profile{% if profile.image %} creature-profile--illustrated{% endif %}" data-filter-item data-filter-tags="{{ profile.category }}" data-pagefind-body data-pagefind-meta="chapter:creatures">
   <div class="creature-portrait">
     {% if profile.image %}
-      <img src="{{ profile.image }}" alt="" width="320" height="320" loading="lazy" decoding="async">
+      <img
+        src="{{ profile.image }}"
+        {% if profile.image320 %}srcset="{{ profile.image320 }} 320w, {{ profile.image }} 640w" sizes="(max-width: 720px) calc(100vw - 2rem), (max-width: 1120px) 220px, 280px"{% endif %}
+        alt="{{ profile.imageAlt | default('') }}"
+        width="640"
+        height="640"
+        loading="lazy"
+        decoding="async"
+      >
     {% else %}
       <span class="creature-portrait-mark" aria-hidden="true">{{ profile.title.charAt(0) }}</span>
       <span class="creature-portrait-note" aria-hidden="true">Art pending</span>

@@ -105,5 +105,33 @@ describe('content schema', () => {
       const record = validateRecord(baseCreature);
       expect(record.characteristicDice).toBeUndefined();
     });
+
+    it('accepts a complete responsive image set', () => {
+      const record = validateRecord({
+        ...baseCreature,
+        image: '/assets/images/creatures/test-wolf.webp',
+        image320: '/assets/images/creatures/test-wolf-320.webp',
+        imageAlt: 'A grey wolf standing beneath pine trees.',
+      });
+
+      expect(record.image320).toBe('/assets/images/creatures/test-wolf-320.webp');
+      expect(record.imageAlt).toBe('A grey wolf standing beneath pine trees.');
+    });
+
+    it('rejects incomplete responsive image metadata', () => {
+      expect(() =>
+        validateRecord({
+          ...baseCreature,
+          image: '/assets/images/creatures/test-wolf.webp',
+        }),
+      ).toThrow();
+      expect(() =>
+        validateRecord({
+          ...baseCreature,
+          image320: '/assets/images/creatures/test-wolf-320.webp',
+          imageAlt: 'A grey wolf standing beneath pine trees.',
+        }),
+      ).toThrow();
+    });
   });
 });

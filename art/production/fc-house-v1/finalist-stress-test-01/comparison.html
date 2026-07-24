@@ -1,0 +1,258 @@
+<!-- [html-validate-disable doctype-style] -->
+<!doctype html>
+<!-- [html-validate-disable doctype-style, void-style] -->
+<!-- Prettier's HTML output is intentionally retained. -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fantasy Crux — Finalist Stress Test 01</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #f2eadb;
+        --muted: #b6ad9f;
+        --panel: #171a1f;
+        --line: #3b4048;
+        --accent: #d5ae68;
+        --page: #0d0f12;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--page);
+        color: var(--ink);
+        font:
+          16px/1.5 system-ui,
+          sans-serif;
+      }
+      main {
+        width: min(1480px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 42px 0 64px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-family: Georgia, serif;
+        font-size: clamp(2rem, 4vw, 4.2rem);
+        font-weight: 500;
+        letter-spacing: -0.03em;
+      }
+      .intro {
+        max-width: 78ch;
+        margin: 0 0 32px;
+        color: var(--muted);
+      }
+      .legend,
+      .pair {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+      .legend {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        padding: 12px 0;
+        background: color-mix(in srgb, var(--page) 92%, transparent);
+        backdrop-filter: blur(12px);
+      }
+      .legend div {
+        padding: 12px 16px;
+        border: 1px solid var(--line);
+        border-radius: 10px;
+        background: var(--panel);
+        color: var(--accent);
+        font-weight: 700;
+      }
+      section {
+        margin-top: 34px;
+      }
+      h2 {
+        margin: 0 0 12px;
+        font:
+          600 1rem/1.2 system-ui,
+          sans-serif;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+      figure {
+        min-width: 0;
+        margin: 0;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        overflow: hidden;
+        background: var(--panel);
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        object-fit: cover;
+      }
+      figcaption {
+        padding: 10px 12px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      footer {
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+      }
+      a {
+        color: var(--accent);
+      }
+      @media (max-width: 760px) {
+        .legend,
+        .pair {
+          grid-template-columns: 1fr;
+        }
+        .legend {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Finalist stress test</h1>
+      <p class="intro">
+        The two styles use the same six neutral composition references. Compare only rendering: line
+        and brush language, edge behavior, simplification, detail density, materials, and
+        readability across different scene types.
+      </p>
+      <div class="legend" role="group" aria-label="Comparison columns">
+        <div>Inked Adventure Comic</div>
+        <div>More Naturalistic</div>
+      </div>
+
+      <section>
+        <h2>Interior</h2>
+        <div class="pair">
+          <figure>
+            <img
+              src="../approved/inked-adventure-comic/interior.png"
+              alt="Healer's room in Inked Adventure Comic style"
+            />
+            <figcaption>Interior architecture and many small materials</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./more-naturalistic/interior.png"
+              alt="Healer's room in More Naturalistic style"
+            />
+            <figcaption>Interior architecture and many small materials</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Non-fire magic</h2>
+        <div class="pair">
+          <figure>
+            <img
+              src="../approved/inked-adventure-comic/magic.png"
+              alt="Protective ward in Inked Adventure Comic style"
+            />
+            <figcaption>Human anatomy, transparent glow, and restrained color accent</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./more-naturalistic/magic.png"
+              alt="Protective ward in More Naturalistic style"
+            />
+            <figcaption>Human anatomy, transparent glow, and restrained color accent</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Item</h2>
+        <div class="pair">
+          <figure>
+            <img
+              src="../approved/inked-adventure-comic/item.png"
+              alt="Astrolabe in Inked Adventure Comic style"
+            />
+            <figcaption>Bronze, glass, leather, parchment, and wood</figcaption>
+          </figure>
+          <figure>
+            <img src="./more-naturalistic/item.png" alt="Astrolabe in More Naturalistic style" />
+            <figcaption>Bronze, glass, leather, parchment, and wood</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Humanoid monster</h2>
+        <div class="pair">
+          <figure>
+            <img
+              src="../approved/inked-adventure-comic/ogre.png"
+              alt="Bridge troll in Inked Adventure Comic style"
+            />
+            <figcaption>Creature anatomy, skin, cloth, rope, moss, and stone</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./more-naturalistic/humanoid-monster.png"
+              alt="Bridge troll in More Naturalistic style"
+            />
+            <figcaption>Creature anatomy, skin, cloth, rope, moss, and stone</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Group scene</h2>
+        <div class="pair">
+          <figure>
+            <img
+              src="../approved/inked-adventure-comic/group-scene.png"
+              alt="Four travelers and cart in Inked Adventure Comic style"
+            />
+            <figcaption>Four readable actions at a wider scale</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./more-naturalistic/group-scene.png"
+              alt="Four travelers and cart in More Naturalistic style"
+            />
+            <figcaption>Four readable actions at a wider scale</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section>
+        <h2>Night and severe weather</h2>
+        <div class="pair">
+          <figure>
+            <img
+              src="../approved/inked-adventure-comic/night-weather.png"
+              alt="Rainy night watchtower in Inked Adventure Comic style"
+            />
+            <figcaption>Low-light hierarchy, rain, wet stone, clouds, and sea</figcaption>
+          </figure>
+          <figure>
+            <img
+              src="./more-naturalistic/night-weather.png"
+              alt="Rainy night watchtower in More Naturalistic style"
+            />
+            <figcaption>Low-light hierarchy, rain, wet stone, clouds, and sea</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <footer>
+        Exact prompts, generation IDs, style references, and QA notes are recorded in
+        <a href="./manifest.json">manifest.json</a>.
+      </footer>
+    </main>
+  </body>
+</html>

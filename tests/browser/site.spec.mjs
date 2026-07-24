@@ -125,6 +125,29 @@ test('the bestiary publishes every profile and filters by creature type', async 
   await expect(dragon.locator('.creature-tags')).toContainText('living');
   await expect(dragon.locator('.creature-portrait')).toBeVisible();
 
+  const illustratedProfiles = [
+    { slug: 'bear', image: '/assets/images/creatures/bear.webp' },
+    { slug: 'dragon', image: '/assets/images/creatures/dragon.webp' },
+    { slug: 'ogre', image: '/assets/images/creatures/ogre.webp' },
+  ];
+
+  for (const { slug, image } of illustratedProfiles) {
+    const profile = page.locator(`#${slug}`).locator('xpath=ancestor::article[1]');
+    const portrait = profile.locator('.creature-portrait');
+    const artwork = portrait.locator('img');
+
+    await expect(profile).toHaveClass(/creature-profile--illustrated/);
+    await expect(artwork).toBeVisible();
+    await expect(artwork).toHaveAttribute('src', image);
+    await expect(artwork).toHaveAttribute('srcset', new RegExp(`${slug}-320\\.webp 320w`));
+    await expect(artwork).toHaveAttribute('srcset', new RegExp(`${slug}\\.webp 640w`));
+
+    const portraitWidth = await portrait.evaluate((element) =>
+      Math.round(element.getBoundingClientRect().width),
+    );
+    expect(portraitWidth).toBeGreaterThanOrEqual(200);
+  }
+
   // Each characteristic also lists the dice it was generated from, so a GM can roll a variant.
   await expect(dragon.locator('.stat-dice').first()).toHaveText('(20D6)');
   await expect(

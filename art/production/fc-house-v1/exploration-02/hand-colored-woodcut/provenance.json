@@ -1,0 +1,68 @@
+{
+  "id": "hand-colored-woodcut",
+  "label": "Hand-colored woodcut",
+  "styleBlock": "Hand-colored fantasy woodcut print: strongly carved black-brown contour shapes, broad flat negative spaces, controlled parallel hatching only for major shadow planes, simplified angular anatomy, and translucent hand-applied color washes that sit imperfectly inside the cuts on warm paper. Bold, historic, and readable; no smooth gradients, no photorealism, no digital gloss.",
+  "anchor": {
+    "generationId": "call_GMKn9SwI8xPhpyaAFZYQ0JrE",
+    "output": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/anchor.png",
+    "prompt": "Use case: stylized-concept\nAsset type: FC House Style exploration anchor board\nPrimary request: Create one square 2x2 anchor board showing four independent fantasy subjects rendered by the same illustrator in exactly the same visual language.\nScene/backdrop and subjects: top-left panel — one adult medieval woman warrior standing in a village courtyard; top-right panel — one adult brown bear standing in a forest clearing; bottom-left panel — one four-legged, two-winged dragon standing on a rocky upland; bottom-right panel — one small medieval village containing modest houses, a central well, and a watchtower.\nStyle/medium: Hand-colored fantasy woodcut print: strongly carved black-brown contour shapes, broad flat negative spaces, controlled parallel hatching only for major shadow planes, simplified angular anatomy, and translucent hand-applied color washes that sit imperfectly inside the cuts on warm paper. Bold, historic, and readable; no smooth gradients, no photorealism, no digital gloss.\nComposition/framing: square canvas divided into four equal square panels with clean, even gutters and no labels; each subject centered, complete, safely framed, and immediately readable; keep the warrior full-body and the bear and dragon fully inside their panels, including every paw, claw, wing tip, tail tip, and horn.\nLighting/mood: neutral diffuse daylight; grounded and observational, neither grim nor celebratory.\nColor palette: natural local colors appropriate to each subject and scene; restrained translucent washes on warm paper; do not impose one dramatic color cast.\nConstraints: exactly four panels and exactly the four requested subjects; consistent artist, print process, contour carving, hatching density, shape simplification, and color-wash handling in every panel; anatomically plausible adult warrior, bear with four legs and normal paw anatomy, dragon with exactly four legs and exactly two wings; no fire, magic effects, dramatic sky, rim light, text, labels, logo, watermark, or ornate border; no extra focal subjects.",
+    "qa": {
+      "status": "pass",
+      "notes": "All four panels share black-brown carved contours, warm paper, restrained color washes, angular simplification, and consistent engraving-like material handling."
+    }
+  },
+  "sentinels": [
+    {
+      "id": "hand-colored-woodcut-warrior",
+      "subject": "warrior",
+      "generationId": "call_cPwN51X12DxspxUfS6NsUEzG",
+      "output": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/warrior.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/warrior.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style exploration sentinel — warrior\nPrimary request: Re-render the warrior scene from Image 1 in the visual language established by Image 2 while preserving the depicted content.\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and scene, and do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge handling, shape simplification, detail density, and material handling, and do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-colored fantasy woodcut print: strongly carved black-brown contour shapes, broad flat negative spaces, controlled parallel hatching only for major shadow planes, simplified angular anatomy, and translucent hand-applied color washes that sit imperfectly inside the cuts on warm paper. Bold, historic, and readable; no smooth gradients, no photorealism, no digital gloss.\nComposition/framing: preserve Image 1's square camera and scene arrangement; keep the adult woman warrior complete and safely inside the frame with head, hands, weapons, clothing, and both feet visible.\nLighting/mood: neutral diffuse daylight; preserve an observational, non-dramatic mood.\nColor palette: preserve Image 1's natural local colors without inheriting Image 2's palette.\nConstraints: preserve subject identity, plausible adult anatomy, pose, camera, village-courtyard scene, natural local palette, and neutral diffuse lighting; one focal warrior only; full subject safely framed; no fire, magic effects, dramatic sky, rim light, text, labels, logo, watermark, ornate border, smooth gradients, photorealism, or digital gloss; no extra focal subjects.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete figure and equipment; carved contours, warm paper, washes, and material handling match the anchor."
+      }
+    },
+    {
+      "id": "hand-colored-woodcut-bear",
+      "subject": "bear",
+      "generationId": "call_TjYwJzgcGiG6TBE63AOCxJQA",
+      "output": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/bear.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/bear.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style exploration sentinel — bear\nPrimary request: Re-render the bear scene from Image 1 in the visual language established by Image 2 while preserving the depicted content.\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and scene, and do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge handling, shape simplification, detail density, and material handling, and do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-colored fantasy woodcut print: strongly carved black-brown contour shapes, broad flat negative spaces, controlled parallel hatching only for major shadow planes, simplified angular anatomy, and translucent hand-applied color washes that sit imperfectly inside the cuts on warm paper. Bold, historic, and readable; no smooth gradients, no photorealism, no digital gloss.\nComposition/framing: preserve Image 1's square camera and forest-clearing arrangement; keep the entire adult brown bear complete and safely inside the frame with all four legs, all paws, both ears, and its full silhouette visible.\nLighting/mood: neutral diffuse daylight; preserve an observational, non-dramatic mood.\nColor palette: preserve Image 1's natural local colors without inheriting Image 2's palette.\nConstraints: preserve subject identity, plausible bear anatomy, pose, camera, forest-clearing scene, natural local palette, and neutral diffuse lighting; one focal bear only; full subject safely framed; exactly four legs with normal bear paws and believable claw counts; no fire, magic effects, dramatic sky, rim light, text, labels, logo, watermark, ornate border, smooth gradients, photorealism, or digital gloss; no extra focal subjects.",
+      "qa": {
+        "status": "pass",
+        "notes": "Four plausible legs and normal paws pass; fur engraving, contours, paper, and washes match the anchor."
+      }
+    },
+    {
+      "id": "hand-colored-woodcut-dragon",
+      "subject": "dragon",
+      "generationId": "call_E4yfIEGEvcyBFoSIBxPZDH6J",
+      "output": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/dragon.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/dragon.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style exploration sentinel — dragon\nPrimary request: Re-render the dragon scene from Image 1 in the visual language established by Image 2 while preserving the depicted content.\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and scene, and do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge handling, shape simplification, detail density, and material handling, and do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-colored fantasy woodcut print: strongly carved black-brown contour shapes, broad flat negative spaces, controlled parallel hatching only for major shadow planes, simplified angular anatomy, and translucent hand-applied color washes that sit imperfectly inside the cuts on warm paper. Bold, historic, and readable; no smooth gradients, no photorealism, no digital gloss.\nComposition/framing: preserve Image 1's square camera and rocky-upland arrangement; keep the entire dragon complete and safely inside the frame with head, all four legs, all paws, exactly two wings including every wing tip, and the full tail tip visible with generous breathing room.\nLighting/mood: neutral diffuse daylight; preserve an observational, non-dramatic mood.\nColor palette: preserve Image 1's natural local colors without inheriting Image 2's palette.\nConstraints: preserve subject identity, plausible dragon anatomy, pose, camera, rocky-upland scene, natural local palette, and neutral diffuse lighting; one focal dragon only; exactly four legs and exactly two wings; complete silhouette safely framed; no fire, smoke, magic effects, dramatic sky, rim light, text, labels, logo, watermark, ornate border, smooth gradients, photorealism, or digital gloss; no extra focal subjects.",
+      "qa": {
+        "status": "pass",
+        "notes": "Exactly four legs and two fully framed wings; scale engraving, contours, paper, and washes match the lane."
+      }
+    },
+    {
+      "id": "hand-colored-woodcut-village",
+      "subject": "village",
+      "generationId": "call_VfztXibgV0ojQIZ8ctyoNkbY",
+      "output": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/village.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/village.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/hand-colored-woodcut/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: FC House Style exploration sentinel — village\nPrimary request: Re-render the village scene from Image 1 in the visual language established by Image 2 while preserving the depicted content.\nInput images: Image 1 is the content and composition source only; preserve its subject, structures, camera, and scene, and do not inherit its rendering style. Image 2 is the style-only anchor; inherit only its medium, brushwork, edge handling, shape simplification, detail density, and material handling, and do not copy its objects, layout, palette, lighting, or mood.\nStyle/medium: Hand-colored fantasy woodcut print: strongly carved black-brown contour shapes, broad flat negative spaces, controlled parallel hatching only for major shadow planes, simplified angular anatomy, and translucent hand-applied color washes that sit imperfectly inside the cuts on warm paper. Bold, historic, and readable; no smooth gradients, no photorealism, no digital gloss.\nComposition/framing: preserve Image 1's square elevated camera and small-village arrangement; keep the houses, central well, watchtower, roads, fences, trees, and surrounding fields complete and safely inside the frame with clear visual hierarchy.\nLighting/mood: neutral diffuse daylight; preserve an observational, non-dramatic mood.\nColor palette: preserve Image 1's natural local colors without inheriting Image 2's palette.\nConstraints: preserve scene identity, architecture, camera, layout, natural local palette, and neutral diffuse lighting; one coherent small medieval village with houses, central well, and watchtower; no people or extra focal subjects; no fire, smoke, magic effects, dramatic sky, rim light, text, labels, logo, watermark, ornate border, smooth gradients, photorealism, or digital gloss.",
+      "qa": {
+        "status": "pass",
+        "notes": "Environment-only composition and landmarks pass; architectural engraving, paper, washes, and hierarchy match the other sentinels."
+      }
+    }
+  ]
+}

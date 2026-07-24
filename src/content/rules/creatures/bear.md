@@ -7,6 +7,9 @@ slug: bear
 order: 20
 category: animal
 summary: 'A massive, powerful omnivore with a thick hide.'
+image: '/assets/images/creatures/bear.webp'
+image320: '/assets/images/creatures/bear-320.webp'
+imageAlt: 'A massive brown bear standing in a forest clearing.'
 tags:
   - 'living'
   - 'corporeal'

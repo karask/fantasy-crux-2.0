@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FC-HOUSE-V1 calibration</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        background: #e9e4da;
+        color: #26231f;
+      }
+
+      body {
+        width: min(1600px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0 64px;
+      }
+
+      h1,
+      h2,
+      p {
+        margin-block: 0 16px;
+      }
+
+      p {
+        max-width: 80ch;
+        color: #5b554c;
+      }
+
+      .matrix {
+        display: grid;
+        grid-template-columns: 150px repeat(4, minmax(180px, 1fr));
+        gap: 12px;
+        align-items: start;
+        margin: 24px 0 48px;
+      }
+
+      .label {
+        align-self: center;
+        font-weight: 700;
+      }
+
+      .column {
+        text-align: center;
+        font-size: 0.85rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+      }
+
+      figure {
+        margin: 0;
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 1;
+        object-fit: cover;
+        background: #d4cec2;
+        border: 1px solid #aca395;
+      }
+
+      .thumbnail {
+        grid-template-columns: 150px repeat(4, 132px);
+        justify-content: start;
+      }
+
+      .thumbnail img {
+        width: 132px;
+        height: 132px;
+      }
+
+      @media (max-width: 1000px) {
+        .matrix {
+          overflow-x: auto;
+          grid-template-columns: 120px repeat(4, 200px);
+        }
+
+        .thumbnail {
+          grid-template-columns: 120px repeat(4, 132px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>FC-HOUSE-V1 calibration - targeted revision</h1>
+    <p>
+      The first prose-only pass was rejected because all three rows converged on detailed painterly
+      naturalism. These revision images preserve neutral content and replace only the rendering
+      treatment.
+    </p>
+    <p>
+      Known tile-level QA: the balanced dragon clips its right wing; the more-naturalistic dragon
+      and village remain overly detailed. These are logged production defects, not intended style
+      traits, and will be regenerated only if their row is selected.
+    </p>
+
+    <h2>Full comparison</h2>
+    <div class="matrix">
+      <div></div>
+      <div class="column">Warrior</div>
+      <div class="column">Bear</div>
+      <div class="column">Dragon</div>
+      <div class="column">Village</div>
+
+      <div class="label">More graphic</div>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/warrior.png" alt="More graphic warrior" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/bear.png" alt="More graphic bear" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/dragon.png" alt="More graphic dragon" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/village.png" alt="More graphic village" />
+      </figure>
+
+      <div class="label">Balanced</div>
+      <figure>
+        <img src="../calibration/revision-01/balanced/warrior.png" alt="Balanced warrior" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/balanced/bear.png" alt="Balanced bear" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/balanced/dragon.png" alt="Balanced dragon" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/balanced/village.png" alt="Balanced village" />
+      </figure>
+
+      <div class="label">More naturalistic</div>
+      <figure>
+        <img
+          src="../calibration/revision-01/more-naturalistic/warrior.png"
+          alt="More naturalistic warrior"
+        />
+      </figure>
+      <figure>
+        <img
+          src="../calibration/revision-01/more-naturalistic/bear.png"
+          alt="More naturalistic bear"
+        />
+      </figure>
+      <figure>
+        <img
+          src="../calibration/revision-01/more-naturalistic/dragon.png"
+          alt="More naturalistic dragon"
+        />
+      </figure>
+      <figure>
+        <img
+          src="../calibration/revision-01/more-naturalistic/village.png"
+          alt="More naturalistic village"
+        />
+      </figure>
+    </div>
+
+    <h2>132 px website-size comparison</h2>
+    <div class="matrix thumbnail">
+      <div></div>
+      <div class="column">Warrior</div>
+      <div class="column">Bear</div>
+      <div class="column">Dragon</div>
+      <div class="column">Village</div>
+
+      <div class="label">More graphic</div>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/warrior.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/bear.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/dragon.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-graphic/village.png" alt="" />
+      </figure>
+
+      <div class="label">Balanced</div>
+      <figure>
+        <img src="../calibration/revision-01/balanced/warrior.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/balanced/bear.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/balanced/dragon.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/balanced/village.png" alt="" />
+      </figure>
+
+      <div class="label">More naturalistic</div>
+      <figure>
+        <img src="../calibration/revision-01/more-naturalistic/warrior.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-naturalistic/bear.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-naturalistic/dragon.png" alt="" />
+      </figure>
+      <figure>
+        <img src="../calibration/revision-01/more-naturalistic/village.png" alt="" />
+      </figure>
+    </div>
+  </body>
+</html>

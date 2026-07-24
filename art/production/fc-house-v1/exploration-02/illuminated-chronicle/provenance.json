@@ -1,0 +1,68 @@
+{
+  "id": "illuminated-chronicle",
+  "label": "Illuminated chronicle",
+  "styleBlock": "Medieval illuminated chronicle illustration: elegant dark ink contours, flat mineral-pigment color fields, shallow layered space, simplified heraldic anatomy and architecture, small patterned accents only at focal areas, parchment surface, and restrained burnished-gold details used sparingly. Cohesive manuscript painting; no modern perspective realism, no dramatic lighting, no ornate border or text.",
+  "anchor": {
+    "generationId": "call_uroGsU8VXtaHiLu22acGuqPj",
+    "output": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/anchor.png",
+    "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG alternative house-style calibration anchor\nPrimary request: Create one square 2x2 visual reference board with four equal panels separated by narrow plain gutters and no labels. Top left: one adult medieval woman warrior standing at ease in a sparse village courtyard, full body visible, practical mail and worn leather armour, sheathed sword, round shield. Top right: one large adult brown bear standing naturally in a quiet forest clearing, whole body visible with four legs. Bottom left: one adult dragon standing calmly alert on an open rocky upland, whole body visible with exactly one head, four legs, two fully framed wings, one tail, closed mouth. Bottom right: one small lived-in medieval village with timber-and-stone houses, a winding lane, well, fenced gardens, and modest watchtower, environment only.\nStyle/medium: Medieval illuminated chronicle illustration: elegant dark ink contours, flat mineral-pigment color fields, shallow layered space, simplified heraldic anatomy and architecture, small patterned accents only at focal areas, parchment surface, and restrained burnished-gold details used sparingly. Cohesive manuscript painting; no modern perspective realism, no dramatic lighting, no ornate border or text.\nComposition/framing: four clean equal square panels; each subject complete and safely inside its panel; one coherent hand and rendering system across all four\nLighting/mood: neutral, calm, evenly readable illumination with no directional drama\nColor palette: natural local colors appropriate to each subject; parchment is the common ground; gold is only a sparse material accent\nConstraints: same exact illustrator and style in every panel; no fire, magic effects, dramatic sky, rim light, text, labels, letters, logo, watermark, decorative outer border, or extra focal subjects",
+    "qa": {
+      "status": "pass",
+      "notes": "All four panels share parchment, ink contours, flat mineral color, and controlled pattern density."
+    }
+  },
+  "sentinels": [
+    {
+      "id": "illuminated-chronicle-warrior",
+      "subject": "warrior",
+      "generationId": "call_Xc5G7xw4NrnnxMUvhCeNGjOS",
+      "output": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/warrior.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/warrior.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, equipment, camera, and scene, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact medium, linework, edge language, shape simplification, detail density, parchment treatment, and material handling, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Re-render the complete woman warrior from Image 1 as one standalone square illustration using the exact fixed style below.\nStyle/medium: Medieval illuminated chronicle illustration: elegant dark ink contours, flat mineral-pigment color fields, shallow layered space, simplified heraldic anatomy and architecture, small patterned accents only at focal areas, parchment surface, and restrained burnished-gold details used sparingly. Cohesive manuscript painting; no modern perspective realism, no dramatic lighting, no ornate border or text.\nComposition/framing: preserve Image 1's full-body pose and camera; complete figure, shield, sword, hands, and feet safely inside the square with margin\nLighting/mood: neutral, calm, evenly readable illumination; inherit no dramatic mood from either input\nColor palette: preserve the subject's natural local colors; parchment is the common ground; gold only as a sparse material accent\nConstraints: exactly one adult woman with one head, two arms, two hands, two legs, and two feet; practical mail and leather armour, sheathed sword, round shield; no extra characters, fire, magic effects, dramatic sky, rim light, text, letters, logo, watermark, decorative border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete anatomy and equipment; strong parchment, ink, and mineral-pigment continuity with the anchor."
+      }
+    },
+    {
+      "id": "illuminated-chronicle-bear",
+      "subject": "bear",
+      "generationId": "call_umQehp0HM8QJJBB7fSyuUf1i",
+      "output": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/bear.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/bear.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and scene, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact medium, linework, edge language, shape simplification, detail density, parchment treatment, and material handling, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Re-render the complete brown bear from Image 1 as one standalone square illustration using the exact fixed style below.\nStyle/medium: Medieval illuminated chronicle illustration: elegant dark ink contours, flat mineral-pigment color fields, shallow layered space, simplified heraldic anatomy and architecture, small patterned accents only at focal areas, parchment surface, and restrained burnished-gold details used sparingly. Cohesive manuscript painting; no modern perspective realism, no dramatic lighting, no ornate border or text.\nComposition/framing: preserve Image 1's natural three-quarter stance and camera; complete animal and all four legs safely inside the square with margin\nLighting/mood: neutral, calm, evenly readable illumination; inherit no dramatic mood from either input\nColor palette: preserve natural local colors; parchment is the common ground; gold only as a sparse material accent\nConstraints: exactly one adult brown bear with one head, four legs, and four paws; group fur into decorative masses instead of individual photoreal hairs; no extra animals, fire, magic effects, dramatic sky, rim light, text, letters, logo, watermark, decorative border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Four-leg anatomy and framing pass; decorative fur rhythm matches the anchor."
+      }
+    },
+    {
+      "id": "illuminated-chronicle-dragon",
+      "subject": "dragon",
+      "generationId": "call_uqQBV4iA51knX82slb3tZ2Ch",
+      "output": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/dragon.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/dragon.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its subject, anatomy, pose, camera, and scene, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact medium, linework, edge language, shape simplification, detail density, parchment treatment, and material handling, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Re-render the complete dragon from Image 1 as one standalone square illustration using the exact fixed style below.\nStyle/medium: Medieval illuminated chronicle illustration: elegant dark ink contours, flat mineral-pigment color fields, shallow layered space, simplified heraldic anatomy and architecture, small patterned accents only at focal areas, parchment surface, and restrained burnished-gold details used sparingly. Cohesive manuscript painting; no modern perspective realism, no dramatic lighting, no ornate border or text.\nComposition/framing: preserve Image 1's natural three-quarter stance and camera; complete dragon, both wings, all four legs, claws, and tail safely inside the square with margin\nLighting/mood: neutral, calm, evenly readable illumination; inherit no dramatic mood from either input\nColor palette: preserve natural local colors; parchment is the common ground; gold only as a sparse material accent\nConstraints: exactly one adult dragon with one head, four legs, two wings, and one tail; mouth closed; group scales and spines into decorative rhythms rather than photoreal microdetail; no extra creatures, fire breath, fire, magic effects, dramatic sky, rim light, text, letters, logo, watermark, decorative border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Exactly four legs and two fully framed wings; decorative scale treatment remains consistent."
+      }
+    },
+    {
+      "id": "illuminated-chronicle-village",
+      "subject": "village",
+      "generationId": "call_r1qQAQqENiJNNw0iT2z300MC",
+      "output": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/village.png",
+      "contentSource": "art/production/fc-house-v1/calibration/revision-01/more-graphic/village.png",
+      "styleSource": "art/production/fc-house-v1/exploration-02/illuminated-chronicle/anchor.png",
+      "prompt": "Use case: style-transfer\nAsset type: Fantasy tabletop RPG alternative house-style calibration sentinel\nInput images: Image 1 is the content and composition source only; preserve its environment, buildings, camera, layout, and scene contents, but do not inherit its rendering style. Image 2 is the style-only anchor; inherit its exact medium, linework, edge language, shape simplification, detail density, parchment treatment, and material handling, but do not copy its panel layout, objects, palette, or mood.\nPrimary request: Re-render the complete medieval village from Image 1 as one standalone square illustration using the exact fixed style below.\nStyle/medium: Medieval illuminated chronicle illustration: elegant dark ink contours, flat mineral-pigment color fields, shallow layered space, simplified heraldic anatomy and architecture, small patterned accents only at focal areas, parchment surface, and restrained burnished-gold details used sparingly. Cohesive manuscript painting; no modern perspective realism, no dramatic lighting, no ornate border or text.\nComposition/framing: preserve Image 1's elevated village view and main layout; keep houses, winding lane, well, fenced gardens, and watchtower clearly readable inside the square\nLighting/mood: neutral, calm, evenly readable illumination; inherit no dramatic mood from either input\nColor palette: preserve natural local colors; parchment is the common ground; gold only as a sparse material accent\nConstraints: environment only with no foreground characters; no burning buildings, smoke, fire, magic effects, dramatic sky, rim light, text, letters, logo, watermark, decorative border, or panel grid",
+      "qa": {
+        "status": "pass",
+        "notes": "Environment-only composition and required landmarks pass; parchment and ink treatment matches the other sentinels."
+      }
+    }
+  ]
+}
