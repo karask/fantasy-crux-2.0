@@ -7,6 +7,9 @@ slug: disease-spirit
 order: 470
 category: spirit
 summary: 'A predatory spirit embodying one disease.'
+image: '/assets/images/creatures/disease-spirit.webp'
+image320: '/assets/images/creatures/disease-spirit-320.webp'
+imageAlt: 'A gaunt yellow-green disease spirit in an empty sickroom.'
 tags:
   - 'incorporeal'
   - 'spirit'

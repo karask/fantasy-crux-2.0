@@ -106,6 +106,7 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
 });
 
 test('the bestiary publishes every profile and filters by creature type', async ({ page }) => {
+  test.setTimeout(60_000);
   await page.goto('/rules/creatures/');
   const profiles = page.locator('[data-filter-item]');
   await expect(profiles).toHaveCount(57);
@@ -128,7 +129,19 @@ test('the bestiary publishes every profile and filters by creature type', async 
   const illustratedProfiles = [
     { slug: 'bear', image: '/assets/images/creatures/bear.webp' },
     { slug: 'dragon', image: '/assets/images/creatures/dragon.webp' },
+    { slug: 'dryad', image: '/assets/images/creatures/dryad.webp' },
+    { slug: 'ghoul', image: '/assets/images/creatures/ghoul.webp' },
+    { slug: 'ghost', image: '/assets/images/creatures/ghost.webp' },
+    { slug: 'giant-spider', image: '/assets/images/creatures/giant-spider.webp' },
+    { slug: 'griffin', image: '/assets/images/creatures/griffin.webp' },
+    { slug: 'hag', image: '/assets/images/creatures/hag.webp' },
+    { slug: 'mummy', image: '/assets/images/creatures/mummy.webp' },
+    { slug: 'naiad', image: '/assets/images/creatures/naiad.webp' },
     { slug: 'ogre', image: '/assets/images/creatures/ogre.webp' },
+    { slug: 'oread', image: '/assets/images/creatures/oread.webp' },
+    { slug: 'skeleton', image: '/assets/images/creatures/skeleton.webp' },
+    { slug: 'vampire', image: '/assets/images/creatures/vampire.webp' },
+    { slug: 'zombie', image: '/assets/images/creatures/zombie.webp' },
   ];
 
   for (const { slug, image } of illustratedProfiles) {
@@ -146,6 +159,23 @@ test('the bestiary publishes every profile and filters by creature type', async 
       Math.round(element.getBoundingClientRect().width),
     );
     expect(portraitWidth).toBeGreaterThanOrEqual(200);
+  }
+
+  const everyCreatureProfile = page.locator('.creature-profile');
+  await expect(everyCreatureProfile).toHaveCount(57);
+  await expect(page.locator('.creature-profile--illustrated')).toHaveCount(57);
+
+  for (const profile of await everyCreatureProfile.all()) {
+    const artwork = profile.locator('.creature-portrait img');
+    await expect(artwork).toBeVisible();
+    await expect(artwork).toHaveAttribute('alt', /\S+/);
+    await expect(artwork).toHaveAttribute('src', /\/assets\/images\/creatures\/.+\.webp/);
+    await expect(artwork).toHaveAttribute('srcset', /-320\.webp 320w/);
+    await expect(artwork).toHaveAttribute('srcset', /\.webp 640w/);
+    await artwork.scrollIntoViewIfNeeded();
+    await expect
+      .poll(() => artwork.evaluate((image) => image.complete && image.naturalWidth > 0))
+      .toBe(true);
   }
 
   // Each characteristic also lists the dice it was generated from, so a GM can roll a variant.

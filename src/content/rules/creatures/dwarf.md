@@ -7,6 +7,9 @@ slug: dwarf
 order: 220
 category: monster
 summary: 'Stocky, long-lived underground folk renowned for craft, mining, and stonework.'
+image: '/assets/images/creatures/dwarf.webp'
+image320: '/assets/images/creatures/dwarf-320.webp'
+imageAlt: 'A broad dwarf warrior carrying a hammer and round shield.'
 tags:
   - 'living'
   - 'corporeal'

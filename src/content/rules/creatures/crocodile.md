@@ -7,6 +7,9 @@ slug: crocodile
 order: 40
 category: animal
 summary: 'A heavily armoured ambush predator equally dangerous in water and at the shore.'
+image: '/assets/images/creatures/crocodile.webp'
+image320: '/assets/images/creatures/crocodile-320.webp'
+imageAlt: 'A heavily armored crocodile resting on a muddy riverbank.'
 tags:
   - 'living'
   - 'corporeal'

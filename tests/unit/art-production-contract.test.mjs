@@ -257,4 +257,88 @@ describe('Fantasy Crux art production contract', () => {
       }
     }
   });
+
+  it('records every approved creature batch with reproducible prompts and existing masters', () => {
+    const manifest = readManifest();
+    const expectedBatchIds = [
+      'creature-batch-02',
+      'creature-batch-03',
+      'creature-batch-04',
+      'creature-batch-05',
+      'creature-batch-06',
+    ];
+    const expectedCreatureIds = [
+      ['griffin', 'dryad', 'ghost', 'skeleton', 'giant-spider'],
+      ['hag', 'naiad', 'oread', 'ghoul', 'mummy', 'vampire', 'zombie'],
+      [
+        'bull',
+        'crocodile',
+        'dog',
+        'elephant',
+        'giant-ant',
+        'giant-hawk',
+        'giant-lizard',
+        'giant-octopus',
+        'giant-python',
+        'hawk',
+        'horse',
+        'lion',
+        'raven',
+        'rhinoceros',
+        'viper',
+        'wolf',
+      ],
+      [
+        'basilisk',
+        'beastman',
+        'dwarf',
+        'elemental',
+        'elf',
+        'gargoyle',
+        'giant',
+        'goblin',
+        'golem',
+        'harpy',
+        'holy-steed',
+        'holy-warrior',
+        'lizardman',
+        'merfolk',
+        'orc',
+        'pixie',
+        'sea-serpent',
+        'troll',
+        'werewolf',
+        'wyvern',
+      ],
+      [
+        'ancestor-spirit',
+        'disease-spirit',
+        'guardian-spirit',
+        'healing-spirit',
+        'magic-spirit',
+        'passion-spirit',
+      ],
+    ];
+
+    expect(manifest.selectedStyle.productionBatches).toHaveLength(expectedBatchIds.length);
+
+    manifest.selectedStyle.productionBatches.forEach((batchPath, index) => {
+      expect(existsSync(path.resolve(batchPath)), batchPath).toBe(true);
+      const batch = JSON.parse(readFileSync(path.resolve(batchPath), 'utf8'));
+
+      expect(batch.batchId).toBe(expectedBatchIds[index]);
+      expect(batch.status).toBe('complete-approved');
+      expect(batch.styleVersion).toBe('FC-HOUSE-V1');
+      expect(batch.style).toBe('inked-adventure-comic');
+      expect(batch.assets.map((asset) => asset.id)).toEqual(expectedCreatureIds[index]);
+
+      for (const asset of batch.assets) {
+        expect(asset.prompt).toContain('Use case: stylized-concept');
+        expect(asset.prompt).toContain('Hand-inked Western fantasy adventure comic');
+        expect(asset.prompt).toContain('Do not inherit');
+        expect(asset.qa.status).toBe('pass');
+        expect(existsSync(path.resolve(asset.output)), asset.id).toBe(true);
+      }
+    });
+  });
 });

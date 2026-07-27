@@ -7,6 +7,9 @@ slug: wyvern
 order: 410
 category: monster
 summary: 'A lean, two-legged draconic predator armed with jaws, claws, and a venomous tail.'
+image: '/assets/images/creatures/wyvern.webp'
+image320: '/assets/images/creatures/wyvern-320.webp'
+imageAlt: 'A two-legged winged wyvern standing on a rocky mountain shelf.'
 tags:
   - 'living'
   - 'corporeal'

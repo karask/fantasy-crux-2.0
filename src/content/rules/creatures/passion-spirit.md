@@ -7,6 +7,9 @@ slug: passion-spirit
 order: 520
 category: spirit
 summary: 'A predatory embodiment of fear, madness, or pain; choose one passion when creating it.'
+image: '/assets/images/creatures/passion-spirit.webp'
+image320: '/assets/images/creatures/passion-spirit-320.webp'
+imageAlt: 'A violet fear spirit reaching through an empty stone passage.'
 tags:
   - 'incorporeal'
   - 'spirit'

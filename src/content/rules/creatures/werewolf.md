@@ -7,6 +7,9 @@ slug: werewolf
 order: 400
 category: monster
 summary: 'A person who can become a giant wolf willingly—or involuntarily beneath the full moon.'
+image: '/assets/images/creatures/werewolf.webp'
+image320: '/assets/images/creatures/werewolf-320.webp'
+imageAlt: 'A werewolf in giant-wolf form standing beside a discarded cloak.'
 tags:
   - 'living'
   - 'corporeal'

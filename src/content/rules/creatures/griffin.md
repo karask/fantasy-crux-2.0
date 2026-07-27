@@ -7,6 +7,9 @@ slug: griffin
 order: 290
 category: monster
 summary: "A proud mountain predator with a lion's body, an eagle's head, and immense wings."
+image: '/assets/images/creatures/griffin.webp'
+image320: '/assets/images/creatures/griffin-320.webp'
+imageAlt: 'An eagle-headed griffin with immense wings standing on a mountain meadow.'
 tags:
   - 'living'
   - 'corporeal'

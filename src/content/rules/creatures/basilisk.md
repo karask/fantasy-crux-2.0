@@ -7,6 +7,9 @@ slug: basilisk
 order: 190
 category: monster
 summary: 'A small, many-coloured reptile created by foul alchemy; its eyes and blood are deadlier than its jaws.'
+image: '/assets/images/creatures/basilisk.webp'
+image320: '/assets/images/creatures/basilisk-320.webp'
+imageAlt: 'A brightly colored alchemical basilisk standing on flagstones.'
 tags:
   - 'living'
   - 'corporeal'

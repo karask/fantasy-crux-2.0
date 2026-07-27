@@ -20,3 +20,16 @@ readable; no painterly blending, no glossy 3D.
 
 The exploration, calibration, and finalist directories remain intact as
 reference records. Only the selected masters were promoted here.
+
+## Production batches
+
+- `creature-batch-02.json` — Griffin, Dryad, Ghost, Skeleton, and Giant Spider,
+  generated and approved on 2026-07-26.
+- `creature-batch-03.json` — Hag, Naiad, Oread, Ghoul, Mummy, Vampire, and
+  Zombie, generated and approved on 2026-07-26.
+- `creature-batch-04.json` — all 16 remaining animals, generated and approved
+  on 2026-07-27.
+- `creature-batch-05.json` — all 20 remaining monsters, generated and approved
+  on 2026-07-27.
+- `creature-batch-06.json` — all 6 remaining spirits, generated and approved
+  on 2026-07-27.

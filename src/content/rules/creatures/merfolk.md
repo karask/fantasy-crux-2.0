@@ -7,6 +7,9 @@ slug: merfolk
 order: 310
 category: monster
 summary: 'A territorial sea-dweller whose undersea society mirrors kingdoms above.'
+image: '/assets/images/creatures/merfolk.webp'
+image320: '/assets/images/creatures/merfolk-320.webp'
+imageAlt: 'A merfolk guard carrying a longspear above an undersea terrace.'
 tags:
   - 'living'
   - 'corporeal'

@@ -7,6 +7,9 @@ slug: giant-spider
 order: 160
 category: animal
 summary: 'A horse-sized ambush predator that traps prey in venomous webs.'
+image: '/assets/images/creatures/giant-spider.webp'
+image320: '/assets/images/creatures/giant-spider-320.webp'
+imageAlt: 'A horse-sized brown spider standing beneath a web in a forest.'
 tags:
   - 'living'
   - 'corporeal'

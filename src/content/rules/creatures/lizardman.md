@@ -7,6 +7,9 @@ slug: lizardman
 order: 350
 category: monster
 summary: 'A tool-using reptilian person adapted to deserts, swamps, and other hot regions.'
+image: '/assets/images/creatures/lizardman.webp'
+image320: '/assets/images/creatures/lizardman-320.webp'
+imageAlt: 'A reptilian warrior carrying a battleaxe on a marsh bank.'
 tags:
   - 'living'
   - 'corporeal'

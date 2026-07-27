@@ -7,6 +7,9 @@ slug: giant-octopus
 order: 120
 category: animal
 summary: 'An enormous marine hunter whose arms can overwhelm several enemies.'
+image: '/assets/images/creatures/giant-octopus.webp'
+image320: '/assets/images/creatures/giant-octopus-320.webp'
+imageAlt: 'A huge reddish octopus moving across a shallow rocky seabed.'
 tags:
   - 'living'
   - 'corporeal'

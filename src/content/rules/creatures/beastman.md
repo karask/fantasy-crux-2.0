@@ -7,6 +7,9 @@ slug: beastman
 order: 200
 category: monster
 summary: 'Animal-headed humanoids who fiercely resist settlement of their wild territories.'
+image: '/assets/images/creatures/beastman.webp'
+image320: '/assets/images/creatures/beastman-320.webp'
+imageAlt: 'A ram-headed beastman carrying a spear and round shield.'
 tags:
   - 'living'
   - 'corporeal'

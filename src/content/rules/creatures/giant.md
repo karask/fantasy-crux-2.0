@@ -7,6 +7,9 @@ slug: giant
 order: 260
 category: monster
 summary: 'A six-metre humanoid who adopts nearby cultures or lives in an isolated mountain clan.'
+image: '/assets/images/creatures/giant.webp'
+image320: '/assets/images/creatures/giant-320.webp'
+imageAlt: 'A human-faced mountain giant standing beside a huge club and boulder.'
 tags:
   - 'living'
   - 'corporeal'

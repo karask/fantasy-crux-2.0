@@ -7,6 +7,9 @@ slug: harpy
 order: 300
 category: monster
 summary: 'A filthy, winged scavenger whose claws and missiles spread disease.'
+image: '/assets/images/creatures/harpy.webp'
+image320: '/assets/images/creatures/harpy-320.webp'
+imageAlt: 'A winged harpy holding a stone on a bare cliff ledge.'
 tags:
   - 'living'
   - 'corporeal'

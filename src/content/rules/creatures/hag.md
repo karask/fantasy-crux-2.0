@@ -7,6 +7,9 @@ slug: hag
 order: 430
 category: nymph
 summary: 'A cave or darkness spirit that hunts beyond its domain only between sunset and dawn.'
+image: '/assets/images/creatures/hag.webp'
+image320: '/assets/images/creatures/hag-320.webp'
+imageAlt: 'A clawed cave hag standing at the entrance to her rocky domain.'
 tags:
   - 'corporeal'
   - 'spirit'

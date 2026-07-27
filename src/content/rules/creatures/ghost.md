@@ -7,6 +7,9 @@ slug: ghost
 order: 480
 category: spirit
 summary: 'A dead soul held in the world by obsession, violence, or unfinished duty; it is neither Undead nor Soulless.'
+image: '/assets/images/creatures/ghost.webp'
+image320: '/assets/images/creatures/ghost-320.webp'
+imageAlt: 'A pale translucent ghost standing in an abandoned timber-framed room.'
 tags:
   - 'incorporeal'
   - 'spirit'

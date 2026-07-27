@@ -7,6 +7,9 @@ slug: goblin
 order: 270
 category: monster
 summary: 'A small, agile humanoid accustomed to surviving through cunning and numbers.'
+image: '/assets/images/creatures/goblin.webp'
+image320: '/assets/images/creatures/goblin-320.webp'
+imageAlt: 'A small goblin carrying a shortspear and round shield in a hill camp.'
 tags:
   - 'living'
   - 'corporeal'

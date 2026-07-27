@@ -7,6 +7,9 @@ slug: dog
 order: 50
 category: animal
 summary: 'A domestic or feral canine that relies on speed and its bite.'
+image: '/assets/images/creatures/dog.webp'
+image320: '/assets/images/creatures/dog-320.webp'
+imageAlt: 'An alert village dog standing on a medieval dirt lane.'
 tags:
   - 'living'
   - 'corporeal'

@@ -7,6 +7,9 @@ slug: guardian-spirit
 order: 490
 category: spirit
 summary: 'A bound spirit that protects a place, object, tomb, or treasure according to stated conditions.'
+image: '/assets/images/creatures/guardian-spirit.webp'
+image320: '/assets/images/creatures/guardian-spirit-320.webp'
+imageAlt: 'A translucent guardian spirit standing before a sealed tomb door.'
 tags:
   - 'incorporeal'
   - 'spirit'

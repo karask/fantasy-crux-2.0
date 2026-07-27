@@ -7,6 +7,9 @@ slug: troll
 order: 390
 category: monster
 summary: 'A large, solitary predator whose body repairs wounds with terrifying speed.'
+image: '/assets/images/creatures/troll.webp'
+image320: '/assets/images/creatures/troll-320.webp'
+imageAlt: 'A long-armed troll carrying a wooden club in a rocky ravine.'
 tags:
   - 'living'
   - 'corporeal'

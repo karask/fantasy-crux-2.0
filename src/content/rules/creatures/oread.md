@@ -7,6 +7,9 @@ slug: oread
 order: 450
 category: nymph
 summary: 'A stone spirit anchored to one hill, mountain, valley, or similar landform.'
+image: '/assets/images/creatures/oread.webp'
+image320: '/assets/images/creatures/oread-320.webp'
+imageAlt: 'A stone-skinned oread holding a rock on a mountain slope.'
 tags:
   - 'corporeal'
   - 'spirit'

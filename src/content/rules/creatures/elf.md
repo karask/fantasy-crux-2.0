@@ -7,6 +7,9 @@ slug: elf
 order: 240
 category: monster
 summary: 'Ageless forest folk bound to their woodland realms and fiercely protective of them.'
+image: '/assets/images/creatures/elf.webp'
+image320: '/assets/images/creatures/elf-320.webp'
+imageAlt: 'A forest elf carrying a longbow and shortspear beside an old tree.'
 tags:
   - 'living'
   - 'corporeal'

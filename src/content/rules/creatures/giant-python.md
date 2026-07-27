@@ -7,6 +7,9 @@ slug: giant-python
 order: 130
 category: animal
 summary: 'A huge constricting snake capable of crushing prey within its coils.'
+image: '/assets/images/creatures/giant-python.webp'
+image320: '/assets/images/creatures/giant-python-320.webp'
+imageAlt: 'A giant patterned python resting in coils on a forest floor.'
 tags:
   - 'living'
   - 'corporeal'

@@ -7,6 +7,9 @@ slug: golem
 order: 280
 category: monster
 summary: 'A clay construct animated to execute a sacred command with literal, tireless precision.'
+image: '/assets/images/creatures/golem.webp'
+image320: '/assets/images/creatures/golem-320.webp'
+imageAlt: 'A heavy clay golem standing motionless in a temple courtyard.'
 tags:
   - 'corporeal'
   - 'construct'

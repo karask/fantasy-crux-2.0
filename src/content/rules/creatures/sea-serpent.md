@@ -7,6 +7,9 @@ slug: sea-serpent
 order: 320
 category: monster
 summary: 'An enormous aquatic serpent that drags prey to caverns beneath the sea.'
+image: '/assets/images/creatures/sea-serpent.webp'
+image320: '/assets/images/creatures/sea-serpent-320.webp'
+imageAlt: 'A huge finned sea serpent swimming near an underwater cavern.'
 tags:
   - 'living'
   - 'corporeal'

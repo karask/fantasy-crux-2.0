@@ -7,6 +7,9 @@ slug: wolf
 order: 180
 category: animal
 summary: 'A swift pack predator armed with powerful jaws and claws.'
+image: '/assets/images/creatures/wolf.webp'
+image320: '/assets/images/creatures/wolf-320.webp'
+imageAlt: 'A grey wolf standing alert in a forest clearing.'
 tags:
   - 'living'
   - 'corporeal'

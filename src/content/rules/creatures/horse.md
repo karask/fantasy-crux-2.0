@@ -7,6 +7,9 @@ slug: horse
 order: 90
 category: animal
 summary: 'A swift riding and draft animal whose kick can shatter bone.'
+image: '/assets/images/creatures/horse.webp'
+image320: '/assets/images/creatures/horse-320.webp'
+imageAlt: 'A sturdy brown horse standing in a simple paddock.'
 tags:
   - 'living'
   - 'corporeal'

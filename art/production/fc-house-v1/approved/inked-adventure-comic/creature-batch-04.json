@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "batchId": "creature-batch-04",
+  "created": "2026-07-27",
+  "styleVersion": "FC-HOUSE-V1",
+  "style": "inked-adventure-comic",
+  "status": "complete-approved",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "referencePolicy": "Image 1 supplies rendering language only. Image 2 supplies subject-scale line, shape, material, anatomy, and detail handling only. Neither reference supplies identity, objects, composition, palette, lighting, weather, or mood.",
+  "assets": [
+    {
+      "id": "bull",
+      "generationId": "call_uj1AabTKqIvwXRaw0wQqK0p3",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/bull.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies animal-scale line, shape, hide, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One muscular adult bull standing alert in a grassy pasture, with a broad head, two curved horns, four sturdy legs, and cloven hooves; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no rider, tack, magic, dramatic sky, rim light, text, watermark, extra animals, horns, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete bull with two horns, four legs, and readable cloven hooves."
+      }
+    },
+    {
+      "id": "crocodile",
+      "generationId": "call_exxTgP8XmO6cuA7P4B5cr5gT",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/crocodile.png",
+      "referenceImages": ["style-anchor.png", "dragon.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies reptile-scale line, shape, skin, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One large adult crocodile resting alert on a muddy riverbank, with a broad armoured body, long jaws, four short legs, and one heavy tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: mouth closed, no prey, blood, magic, dramatic lighting, text, watermark, extra animals, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete armoured reptile with four legs and one safely framed tail."
+      }
+    },
+    {
+      "id": "dog",
+      "generationId": "call_AqdrWmj81oyT6dTsJgZGNpuh",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/dog.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies animal-scale line, shape, fur, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One alert medium-sized medieval village dog standing naturally on a dirt lane, athletic and practical rather than a modern show breed; whole animal visible with one head, four legs, four paws, and one tail.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no collar, owner, attack pose, magic, dramatic lighting, text, watermark, extra animals, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete practical village dog with coherent canine anatomy."
+      }
+    },
+    {
+      "id": "elephant",
+      "generationId": "call_xJzJq1XWT2kXNzmqB1HnvcNz",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/elephant.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-animal line, shape, hide, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One immense adult elephant standing calmly on open dry grassland, with two tusks, one trunk, two broad ears, four pillar-like legs, and one tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal and tusks safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no rider, harness, ornaments, attack pose, magic, dramatic lighting, text, watermark, extra animals, trunks, tusks, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete elephant with one trunk, two tusks, four legs, and one tail."
+      }
+    },
+    {
+      "id": "giant-ant",
+      "generationId": "call_zvVlVRH8ALuhKMJovxlM4tSe",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant-ant.png",
+      "referenceImages": ["style-anchor.png", "giant-spider.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies giant-arthropod line, shape, chitin, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One pony-sized worker ant standing on a forest floor, with one head, two antennae, three body sections, six jointed legs, and heavy dark reddish chitin; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete creature and all six legs safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse woodland daylight; calm clear atmosphere.\nConstraints: no colony, eggs, prey, gore, magic, dramatic lighting, text, watermark, wings, extra heads, antennae, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Single worker ant with two antennae, three body sections, and six readable legs."
+      }
+    },
+    {
+      "id": "giant-hawk",
+      "generationId": "call_6Utni63Y63qc08NM7yzwbHEo",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant-hawk.png",
+      "referenceImages": ["style-anchor.png", "griffin.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-bird line, shape, feather, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One horse-sized giant hawk standing alert on a high rocky meadow, with one hooked beak, two folded wings, two powerful feathered legs, and large talons; whole bird visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete bird safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no rider, prey, attack pose, spread wings, magic, dramatic sky, rim light, text, watermark, extra birds, heads, wings, or legs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete giant raptor with two folded wings and two taloned legs."
+      }
+    },
+    {
+      "id": "giant-lizard",
+      "generationId": "call_lL3kTAWZ2m9TBY3iev4fUVC4",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant-lizard.png",
+      "referenceImages": ["style-anchor.png", "dragon.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-reptile line, shape, scale, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One horse-sized predatory lizard standing alert on a rocky scrubland path, with a low powerful body, blunt jaws, four strong legs, and one long battering tail; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete creature and tail safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no wings, horns, fire, prey, magic, dramatic sky, rim light, text, watermark, extra animals, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete large lizard with four legs and one long safely framed tail."
+      }
+    },
+    {
+      "id": "giant-octopus",
+      "generationId": "call_4N2kXdxtGSPdNVToqltLJpb6",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant-octopus.png",
+      "referenceImages": ["style-anchor.png", "giant-spider.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies giant-invertebrate line, shape, material, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One enormous reddish-brown octopus moving across a shallow rocky seabed, with one mantle, two eyes, one beak area, and exactly eight muscular arms; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square underwater composition; complete creature and all eight arms safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse shallow-water daylight; calm clear atmosphere.\nConstraints: no ship, diver, prey, ink cloud, magic, dramatic lighting, text, watermark, extra creatures, eyes, arms, or tentacles.",
+      "qa": {
+        "status": "pass",
+        "notes": "Single coherent octopus with a complete readable arm silhouette."
+      }
+    },
+    {
+      "id": "giant-python",
+      "generationId": "call_UZW1J85mAMg7cwy3lE0BJhZU",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant-python.png",
+      "referenceImages": ["style-anchor.png", "dragon.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-reptile line, shape, scale, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One enormous thick-bodied python resting in broad loose coils on a humid forest floor, with one head and one continuous body ending in one tail; entire silhouette readable.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete coils, head, and tail safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse woodland daylight; calm clear atmosphere.\nConstraints: mouth closed, no prey, constricted victim, blood, magic, dramatic lighting, text, watermark, extra snakes, heads, or tails.",
+      "qa": {
+        "status": "pass",
+        "notes": "Single continuous giant snake with one head, broad coils, and one visible tail."
+      }
+    },
+    {
+      "id": "hawk",
+      "generationId": "call_4ygTr5n3FkXzRUyramLDAgZJ",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/hawk.png",
+      "referenceImages": ["style-anchor.png", "griffin.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies bird line, shape, feather, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One ordinary adult hawk perched alert on a plain weathered branch above open countryside, with one hooked beak, two folded wings, two legs, and natural talons; whole bird visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete bird and perch safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: ordinary-sized bird, no prey, attack pose, spread wings, magic, dramatic sky, rim light, text, watermark, extra birds, heads, wings, or legs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete ordinary hawk, clearly distinct in scale from the giant hawk."
+      }
+    },
+    {
+      "id": "horse",
+      "generationId": "call_llT6g7fNmmFXNpUhmM2RPFY1",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/horse.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-mammal line, shape, hide, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One sturdy adult riding horse standing at ease in a simple paddock, with a natural mane, four sound legs, four hooves, and one tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no rider, saddle, bridle, armour, magic, dramatic lighting, text, watermark, extra horses, heads, tails, or limbs.",
+      "qa": { "status": "pass", "notes": "Complete untacked horse with coherent legs and hooves." }
+    },
+    {
+      "id": "lion",
+      "generationId": "call_FQ8uLfLiHHXx9xabr4Zt8BZK",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/lion.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-predator line, shape, fur, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult male lion standing calmly alert on open grassland, with a full tawny mane, muscular feline body, four paws, and one tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: mouth closed, no prey, blood, attack pose, magic, dramatic sky, rim light, text, watermark, extra lions, heads, tails, or limbs.",
+      "qa": { "status": "pass", "notes": "Complete adult lion with readable mane, paws, and tail." }
+    },
+    {
+      "id": "raven",
+      "generationId": "call_Ye5kuCAMWUtqQS6PvyFN3JQC",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/raven.png",
+      "referenceImages": ["style-anchor.png", "griffin.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies bird line, shape, feather, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One ordinary adult raven perched observantly on a low mossy stone wall, with glossy black plumage, one stout beak, two folded wings, and two feet; whole bird visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete bird and perch safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: ordinary-sized bird, no skull, treasure, magic, dramatic sky, rim light, text, watermark, extra birds, heads, wings, or legs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete observant raven with readable dark feather grouping."
+      }
+    },
+    {
+      "id": "rhinoceros",
+      "generationId": "call_l2bqQ2mZNpjaOHG3hKWs31pN",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/rhinoceros.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-animal line, shape, hide, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One massive adult rhinoceros standing alert on open scrubland, with thick folded grey hide, one large front horn and one smaller rear horn, four stout legs, and one short tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal and horns safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no rider, armour, charge pose, magic, dramatic sky, rim light, text, watermark, extra animals, horns, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete rhinoceros with two correctly ordered horns and four sturdy legs."
+      }
+    },
+    {
+      "id": "viper",
+      "generationId": "call_MNWNZwB4CCnEJR2gf4ecspAo",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/viper.png",
+      "referenceImages": ["style-anchor.png", "dragon.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies reptile line, shape, scale, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One ordinary-sized venomous viper resting in a compact coil on a sun-warmed rock, with a broad triangular head, short fangs concealed by a closed mouth, and one continuous patterned body ending in one tail; whole snake visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete coil, head, and tail safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: ordinary-sized snake, no strike pose, prey, blood, magic, dramatic lighting, text, watermark, extra snakes, heads, or tails.",
+      "qa": {
+        "status": "pass",
+        "notes": "Single ordinary-sized viper with one continuous body and clear scale reference."
+      }
+    },
+    {
+      "id": "wolf",
+      "generationId": "call_8IzV5g77Tvp2nd9YOYg92wBU",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/wolf.png",
+      "referenceImages": ["style-anchor.png", "bear.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-predator line, shape, fur, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult grey wolf standing calmly alert in a quiet forest clearing, with a lean powerful canine body, four paws, and one natural tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse woodland daylight; calm clear atmosphere.\nConstraints: mouth closed, no pack, prey, blood, attack pose, magic, dramatic lighting, text, watermark, extra animals, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete ordinary wolf with coherent canine anatomy and clear silhouette."
+      }
+    }
+  ]
+}

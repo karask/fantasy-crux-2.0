@@ -7,6 +7,9 @@ slug: viper
 order: 170
 category: animal
 summary: 'A fast venomous snake whose bite can bring down much larger prey.'
+image: '/assets/images/creatures/viper.webp'
+image320: '/assets/images/creatures/viper-320.webp'
+imageAlt: 'A patterned viper resting in a compact coil on a rock.'
 tags:
   - 'living'
   - 'corporeal'

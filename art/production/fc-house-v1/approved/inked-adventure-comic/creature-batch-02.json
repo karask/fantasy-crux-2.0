@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "batchId": "creature-batch-02",
+  "created": "2026-07-26",
+  "styleVersion": "FC-HOUSE-V1",
+  "style": "inked-adventure-comic",
+  "status": "complete-approved",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "referencePolicy": "Image 1 supplies rendering language only. Image 2 supplies subject-scale line, shape, material, and detail handling only. Neither reference supplies content, composition, palette, lighting, weather, or mood.",
+  "assets": [
+    {
+      "id": "griffin",
+      "title": "Griffin",
+      "category": "monster",
+      "generationId": "call_2b0uzxpi9hOW3wazCJDclJrt",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/griffin.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/dragon.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved large-creature anchor; inherit only its line, shape, material, and detail handling at creature scale. Do not inherit any objects, composition, palette, lighting, weather, or mood from either reference.\nPrimary request: One adult griffin standing calmly alert on a high mountain meadow.\nSubject: A proud mountain predator with an eagle's head and hooked beak, feathered eagle forelegs, a lion's body and hind legs, two immense feathered wings, and one lion tail. Whole creature visible in natural three-quarter view; exactly one head, four legs, two wings, and one tail.\nScene/backdrop: Open grassy mountain shelf with a few pale rocks and distant slopes, subordinate to the creature.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, feathers, and claws. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject safely inside the frame with generous margin; wings fully visible and not cropped.\nLighting/mood: Neutral diffuse daytime light; clear calm atmosphere.\nConstraints: no fire, magic effects, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra creatures, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete readable silhouette; one head, four legs, two wings, and one tail; both wings safely inside the frame."
+      }
+    },
+    {
+      "id": "dryad",
+      "title": "Dryad",
+      "category": "nymph",
+      "generationId": "call_acas0uOBUmIu5KgDmqtbltNu",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/dryad.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/warrior.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved humanoid anchor; inherit only its line, shape, material, and detail handling at human scale. Do not inherit any character identity, clothing, objects, composition, palette, lighting, weather, or mood from either reference.\nPrimary request: One adult dryad standing calmly beside the ancient tree to which her spirit is anchored.\nSubject: A believable woodland spirit in human female form, with subtly bark-textured skin, dark leafy hair, a simple moss-green woven dress, and a plain wooden quarterstaff. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: Quiet green grove around one old broad-trunked tree, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, bark, leaves, and staff. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse woodland daylight; calm clear atmosphere.\nConstraints: no glowing aura, magic effects, fire, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra people, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Full-body humanoid anatomy and quarterstaff are clear; the anchor tree remains subordinate and no magic effect was introduced."
+      }
+    },
+    {
+      "id": "ghost",
+      "title": "Ghost",
+      "category": "spirit",
+      "generationId": "call_JU0MD5D2vp853wfklNu8iILX",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/ghost.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/magic.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved supernatural-subject anchor; inherit only its line, shape, material, and detail handling. Do not inherit any character identity, objects, composition, palette, lighting, ruins, symbols, weather, or mood from either reference.\nPrimary request: One solitary human ghost standing quietly in the remains of a plain abandoned room.\nSubject: A dead adult soul with a recognizable human face and simple worn medieval clothing; the full figure is visible, slightly translucent, with the lower legs fading softly into thin pale mist. Exactly one head, two arms, two hands, two legs, and no extra body parts.\nScene/backdrop: Sparse abandoned timber-and-plaster room with one broken chair and a dark doorway, subordinate to the ghost.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face and worn cloth. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete figure safely inside the frame with generous margin.\nLighting/mood: Soft neutral overcast window light; quiet and restrained, not horror-cinematic.\nColor palette: Natural muted room colors; the ghost is pale desaturated grey-blue.\nConstraints: no magic circle, glowing runes, fire, lightning, exaggerated aura, dramatic rim light, text, logo, watermark, decorative border, extra figures, gore, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Recognizable full human figure with restrained translucency; the scene avoids inherited magic symbols and cinematic horror lighting."
+      }
+    },
+    {
+      "id": "skeleton",
+      "title": "Skeleton",
+      "category": "undead",
+      "generationId": "call_xLaFd9VmVUFt8ZPgd8M8Elen",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/skeleton.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/warrior.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved armed-humanoid anchor; inherit only its line, shape, equipment material, and detail handling. Do not inherit any character identity, objects, composition, palette, lighting, weather, or mood from either reference.\nPrimary request: One animated human skeleton standing ready but motionless in an old stone courtyard.\nSubject: A complete adult human skeleton wearing sparse cracked brown leather armour, holding one plain arming sword in its right hand and one medium round wooden shield in its left hand. Full body visible; anatomically coherent human skeleton with exactly one skull, two arms, two hands, two legs, and two feet.\nScene/backdrop: Plain neglected stone courtyard with a low wall and weeds, subordinate to the skeleton.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the skull, hands, sword, shield, and leather. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject, sword, and shield safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daytime light; calm clear atmosphere.\nConstraints: no glowing eyes, magic effects, fire, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra skeletons, gore, extra weapons, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete humanoid skeleton with one sword and one shield; equipment and body are safely inside the frame with no glow or added magic."
+      }
+    },
+    {
+      "id": "giant-spider",
+      "title": "Giant Spider",
+      "category": "animal",
+      "generationId": "call_j0YK6za1Z26OJxewF1dEObnb",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant-spider.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/bear.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved animal anchor; inherit only its line, shape, material, and detail handling at animal scale. Do not inherit any animal identity, objects, composition, palette, lighting, weather, or mood from either reference.\nPrimary request: One horse-sized giant spider standing naturally on a woodland floor beneath part of its web.\nSubject: A single believable heavy-bodied ambush spider with dark brown chitin, a broad abdomen, two short pedipalps, visible fangs, and exactly eight jointed legs. Whole creature visible in natural three-quarter view; no missing, fused, or extra legs.\nScene/backdrop: Quiet shaded woodland floor with roots, stones, and a simple web stretched between two tree trunks, subordinate to the spider.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the eyes, fangs, joints, and chitin. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete creature safely inside the frame with generous margin; all eight legs fully visible and not cropped.\nLighting/mood: Neutral diffuse woodland daylight; calm clear atmosphere.\nConstraints: no victim, cocoon, blood, gore, fire, magic effects, dramatic lighting, text, logo, watermark, decorative border, other spiders, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Single complete spider with eight visible legs, two pedipalps, and a clear silhouette; no prey, gore, or extra creatures."
+      }
+    }
+  ]
+}

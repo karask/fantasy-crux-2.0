@@ -7,6 +7,9 @@ slug: lion
 order: 100
 category: animal
 summary: 'A powerful feline predator armed with jaws and claws.'
+image: '/assets/images/creatures/lion.webp'
+image320: '/assets/images/creatures/lion-320.webp'
+imageAlt: 'A full-maned male lion standing alert on open grassland.'
 tags:
   - 'living'
   - 'corporeal'

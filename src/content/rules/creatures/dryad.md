@@ -7,6 +7,9 @@ slug: dryad
 order: 420
 category: nymph
 summary: 'A woodland spirit whose body grows from one tree and whose grove extends 44 m from it.'
+image: '/assets/images/creatures/dryad.webp'
+image320: '/assets/images/creatures/dryad-320.webp'
+imageAlt: 'A bark-skinned dryad holding a wooden staff beside her ancient tree.'
 tags:
   - 'corporeal'
   - 'spirit'

@@ -7,6 +7,9 @@ slug: holy-steed
 order: 330
 category: monster
 summary: "A deity's otherworldly mount, manifesting as a sacred eagle, kraken, iron horse, or similar form."
+image: '/assets/images/creatures/holy-steed.webp'
+image320: '/assets/images/creatures/holy-steed-320.webp'
+imageAlt: 'A sacred horse formed from dark iron plates in a temple court.'
 tags:
   - 'living'
   - 'corporeal'

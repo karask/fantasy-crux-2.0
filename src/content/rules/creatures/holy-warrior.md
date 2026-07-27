@@ -7,6 +7,9 @@ slug: holy-warrior
 order: 340
 category: monster
 summary: 'An otherworldly champion whose form and weapon reflect its deity.'
+image: '/assets/images/creatures/holy-warrior.webp'
+image320: '/assets/images/creatures/holy-warrior-320.webp'
+imageAlt: 'A holy warrior carrying a longspear and round shield.'
 tags:
   - 'living'
   - 'corporeal'

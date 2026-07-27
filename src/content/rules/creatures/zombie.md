@@ -7,6 +7,9 @@ slug: zombie
 order: 570
 category: undead
 summary: 'A rotting corpse animated to obey simple commands or attack the living.'
+image: '/assets/images/creatures/zombie.webp'
+image320: '/assets/images/creatures/zombie-320.webp'
+imageAlt: 'A grey-green zombie standing slackly on an abandoned farm lane.'
 tags:
   - 'corporeal'
   - 'undead'

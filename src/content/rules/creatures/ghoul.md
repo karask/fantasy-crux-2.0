@@ -7,6 +7,9 @@ slug: ghoul
 order: 530
 category: undead
 summary: 'An intelligent corpse-eater driven by endless hunger.'
+image: '/assets/images/creatures/ghoul.webp'
+image320: '/assets/images/creatures/ghoul-320.webp'
+imageAlt: 'A gaunt grey ghoul with long claws standing in an old burial ground.'
 tags:
   - 'corporeal'
   - 'undead'

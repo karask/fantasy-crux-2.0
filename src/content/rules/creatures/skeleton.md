@@ -7,6 +7,9 @@ slug: skeleton
 order: 550
 category: undead
 summary: 'Animated bones following simple commands.'
+image: '/assets/images/creatures/skeleton.webp'
+image320: '/assets/images/creatures/skeleton-320.webp'
+imageAlt: 'An animated skeleton carrying an arming sword and round wooden shield.'
 tags:
   - 'corporeal'
   - 'undead'

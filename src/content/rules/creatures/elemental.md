@@ -7,6 +7,9 @@ slug: elemental
 order: 230
 category: monster
 summary: 'Raw elemental substance embodied as water, darkness, flame, stone, or storm.'
+image: '/assets/images/creatures/elemental.webp'
+image320: '/assets/images/creatures/elemental-320.webp'
+imageAlt: 'A stone elemental formed from interlocking rock slabs.'
 tags:
   - 'corporeal'
   - 'elemental'

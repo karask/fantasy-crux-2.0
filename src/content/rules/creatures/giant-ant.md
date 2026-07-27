@@ -7,6 +7,9 @@ slug: giant-ant
 order: 10
 category: animal
 summary: 'A pony-sized colony predator protected by heavy chitin.'
+image: '/assets/images/creatures/giant-ant.webp'
+image320: '/assets/images/creatures/giant-ant-320.webp'
+imageAlt: 'A pony-sized red-brown ant standing on a forest floor.'
 tags:
   - 'living'
   - 'corporeal'

@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "batchId": "creature-batch-06",
+  "created": "2026-07-27",
+  "styleVersion": "FC-HOUSE-V1",
+  "style": "inked-adventure-comic",
+  "status": "complete-approved",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "referencePolicy": "Image 1 supplies rendering language only. Image 2 supplies incorporeal or supernatural line, shape, translucency, material, and detail handling only. Neither reference supplies identity, objects, composition, palette, lighting, weather, or mood.",
+  "assets": [
+    {
+      "id": "ancestor-spirit",
+      "generationId": "call_V68zQxoNHKemYudCKRTOMS4S",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/ancestor-spirit.png",
+      "referenceImages": ["style-anchor.png", "ghost.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies incorporeal-humanoid line, shape, translucency, cloth, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One deceased ancestor spirit standing quietly beside a simple family hearth, an elderly craftsperson with a kind intelligent face, worn medieval work clothes, and one small woodworking chisel held naturally; full human figure visible, pale and slightly translucent with feet fading softly.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete spirit safely inside the frame with generous margin.\nLighting/mood: Soft neutral interior daylight; calm and reassuring.\nConstraints: no ghost duplicates, horror pose, glow aura, magic symbols, fire effects, dramatic lighting, text, watermark, extra figures, heads, tools, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete recognizable ancestor with restrained translucency and one craft tool."
+      }
+    },
+    {
+      "id": "disease-spirit",
+      "generationId": "call_bv8MfWJL01AVhLG1QC56g5Zm",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/disease-spirit.png",
+      "referenceImages": ["style-anchor.png", "ghost.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies incorporeal-humanoid line, shape, translucency, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One disease spirit embodying fever standing hunched in an empty sickroom, a gaunt translucent humanoid silhouette with a masklike face, mottled dull yellow-green vapour within its body, two long spectral arms, and clawed hands; complete figure visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete spirit safely inside the frame with generous margin.\nLighting/mood: Neutral overcast window light; uneasy but restrained.\nConstraints: no patient, corpse, blood, sores, insects, gore, glowing eyes, magic symbols, dramatic lighting, text, watermark, extra spirits, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete fever embodiment with readable clawed silhouette and no victim or gore."
+      }
+    },
+    {
+      "id": "guardian-spirit",
+      "generationId": "call_dsqlJzxaWKexvXzw9cF0y6Eb",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/guardian-spirit.png",
+      "referenceImages": ["style-anchor.png", "ghost.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies incorporeal-humanoid line, shape, translucency, cloth, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One guardian spirit manifested before the sealed stone door of a tomb, a broad translucent sentinel in plain ancient guard clothing with a stern masklike human face and two large spectral clawed hands; full figure visible and clearly bound to the doorway.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete spirit and anchor doorway safely inside the frame.\nLighting/mood: Soft neutral indirect light; vigilant and restrained.\nConstraints: no weapon, armour spectacle, glowing runes, aura, fire, dramatic lighting, text, watermark, extra spirits, heads, claws, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete sentinel clearly anchored to one sealed doorway with two clawed hands."
+      }
+    },
+    {
+      "id": "healing-spirit",
+      "generationId": "call_QtXolcGxetpqxBBJErxQQy6T",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/healing-spirit.png",
+      "referenceImages": ["style-anchor.png", "ghost.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies incorporeal-humanoid line, shape, translucency, cloth, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One luminous healing spirit standing with open empty hands in a simple herb garden, a calm translucent adult humanlike figure formed from pale cream and soft green shapes with a clear compassionate face; full figure visible, feet fading gently into air.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete spirit safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm and restorative.\nConstraints: no patient, magic circle, runes, staff, halo, wings, dramatic rays, text, watermark, extra spirits, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete restorative spirit with open hands and a clear compassionate expression."
+      }
+    },
+    {
+      "id": "magic-spirit",
+      "generationId": "call_C2i64JcZPgtiPHkbrKmfEXyM",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/magic-spirit.png",
+      "referenceImages": ["style-anchor.png", "magic.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies supernatural-light line, shape, color, and detail handling only. Do not inherit identity, symbols, objects, composition, palette, lighting, ruins, weather, or mood.\nPrimary request: One magic spirit of the Air and Storm theme floating above a bare hilltop, a coherent loose humanoid constellation made from distinct pale blue, slate, violet, and white lights joined by sparse inked wisps; one head shape, two arm shapes, and a tapering lower body clearly readable.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete constellation spirit safely inside the frame with generous margin.\nLighting/mood: Neutral overcast daylight; curious and restrained.\nConstraints: no spellcaster, magic circle, runes, lightning bolt, dramatic storm, fire, cinematic glow, text, watermark, extra spirits, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "One coherent themed constellation with a readable humanoid silhouette and no spellcaster."
+      }
+    },
+    {
+      "id": "passion-spirit",
+      "generationId": "call_4DoJ6kmzWumOSzy9ac3EkdKh",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/passion-spirit.png",
+      "referenceImages": ["style-anchor.png", "ghost.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies incorporeal-humanoid line, shape, translucency, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One passion spirit embodying fear floating in an empty stone passage, a predatory translucent humanoid shape built from muted violet, charcoal, and dull red forms, with one elongated masklike face, two grasping arms, two clawed hands, and a tapering lower body; complete figure visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete spirit safely inside the frame with generous margin.\nLighting/mood: Neutral low indirect light; threatening but restrained.\nConstraints: no victim, gore, screaming mouth, glowing eyes, magic symbols, fire, dramatic lighting, text, watermark, extra spirits, heads, claws, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete fear embodiment with restrained predatory shape and no victim, gore, or added magic symbols."
+      }
+    }
+  ]
+}

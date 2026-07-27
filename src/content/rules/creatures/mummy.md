@@ -7,6 +7,9 @@ slug: mummy
 order: 540
 category: undead
 summary: 'An intelligent, ritually preserved ruler or guardian with no Shaping by default.'
+image: '/assets/images/creatures/mummy.webp'
+image320: '/assets/images/creatures/mummy-320.webp'
+imageAlt: 'A bandaged mummy holding a great hammer in a dry stone burial chamber.'
 tags:
   - 'corporeal'
   - 'undead'

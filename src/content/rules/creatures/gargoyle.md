@@ -7,6 +7,9 @@ slug: gargoyle
 order: 250
 category: monster
 summary: 'A grey, winged humanoid predator often mistaken for a grotesque stone statue.'
+image: '/assets/images/creatures/gargoyle.webp'
+image320: '/assets/images/creatures/gargoyle-320.webp'
+imageAlt: 'A grey winged gargoyle crouching on a cathedral parapet.'
 tags:
   - 'living'
   - 'corporeal'

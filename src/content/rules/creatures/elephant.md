@@ -7,6 +7,9 @@ slug: elephant
 order: 60
 category: animal
 summary: 'An immense herd animal whose bulk makes its tusks and feet lethal.'
+image: '/assets/images/creatures/elephant.webp'
+image320: '/assets/images/creatures/elephant-320.webp'
+imageAlt: 'A large tusked elephant standing on open dry grassland.'
 tags:
   - 'living'
   - 'corporeal'

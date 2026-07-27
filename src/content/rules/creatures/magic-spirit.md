@@ -7,6 +7,9 @@ slug: magic-spirit
 order: 510
 category: spirit
 summary: 'A constellation of coloured lights gathered around one coherent magical theme.'
+image: '/assets/images/creatures/magic-spirit.webp'
+image320: '/assets/images/creatures/magic-spirit-320.webp'
+imageAlt: 'A blue-violet constellation spirit floating above a hilltop.'
 tags:
   - 'incorporeal'
   - 'spirit'

@@ -7,6 +7,9 @@ slug: bull
 order: 30
 category: animal
 summary: 'A territorial herd animal capable of devastating charges.'
+image: '/assets/images/creatures/bull.webp'
+image320: '/assets/images/creatures/bull-320.webp'
+imageAlt: 'A muscular brown bull standing alert in a grassy pasture.'
 tags:
   - 'living'
   - 'corporeal'

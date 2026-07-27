@@ -7,6 +7,9 @@ slug: hawk
 order: 70
 category: animal
 summary: 'A small, agile bird of prey.'
+image: '/assets/images/creatures/hawk.webp'
+image320: '/assets/images/creatures/hawk-320.webp'
+imageAlt: 'A hawk perched on a weathered branch above open countryside.'
 tags:
   - 'living'
   - 'corporeal'

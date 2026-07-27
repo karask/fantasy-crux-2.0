@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "batchId": "creature-batch-03",
+  "created": "2026-07-26",
+  "styleVersion": "FC-HOUSE-V1",
+  "style": "inked-adventure-comic",
+  "status": "complete-approved",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "referencePolicy": "Image 1 supplies rendering language only. Image 2 supplies subject-scale line, shape, material, and detail handling only. Neither reference supplies content, composition, palette, lighting, weather, or mood.",
+  "assets": [
+    {
+      "id": "hag",
+      "title": "Hag",
+      "category": "nymph",
+      "generationId": "call_lCkxLSSUH6nfkoJiEn77yIe8",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/hag.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/dryad.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved nymph anchor; inherit only its line, shape, material, and detail handling. Do not inherit identity, clothing, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult hag standing at the mouth of the cave to which her spirit is anchored.\nSubject: A lean, powerful cave spirit in weathered female human form, with an intelligent severe face, long dark hair, grey-brown skin, ragged practical clothing, and long clawed fingers. Full body visible; exactly one head, two arms, two hands, two legs, and two feet. No witch hat or broom.\nScene/backdrop: Plain rocky cave entrance with sparse scrub, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, hands, cloth, and rock. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse dusk light; clear restrained atmosphere.\nConstraints: no magic effects, fire, glowing eyes, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra figures, gore, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete humanoid anatomy and a clear clawed silhouette; the cave remains subordinate and no stereotypical witch props were added."
+      }
+    },
+    {
+      "id": "naiad",
+      "title": "Naiad",
+      "category": "nymph",
+      "generationId": "call_y1AqIf5SIEWfKmUeldTbWMnr",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/naiad.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/dryad.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved nymph anchor; inherit only its line, shape, material, and detail handling. Do not inherit identity, clothing, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult naiad standing on the shallow bank of the stream to which her spirit is anchored.\nSubject: A believable water spirit in human female form, with dark wet hair, subtly blue-grey water-sheened skin, a simple blue-green woven dress, and one plain shortspear. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: Clear shallow stream with a few smooth stones and green banks, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, wet hair, cloth, water, and spear. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject and spear safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daytime light; clear restrained atmosphere.\nConstraints: no glowing aura, magic effects, giant wave, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra people, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Full-body nymph with one spear and coherent anatomy; water identity is readable without an added magical effect."
+      }
+    },
+    {
+      "id": "oread",
+      "title": "Oread",
+      "category": "nymph",
+      "generationId": "call_i5pJNJ48n44sxEgofEgect5a",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/oread.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/dryad.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved nymph anchor; inherit only its line, shape, material, and detail handling. Do not inherit identity, clothing, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult oread standing on the stony slope of the mountain to which her spirit is anchored.\nSubject: A believable stone spirit in human female form, with subtly granite-textured grey skin, dark wind-tossed hair, a simple rust-brown woven dress, one bare stone fist, and one small loose rock held naturally in the other hand. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: Open rocky mountain slope with sparse grass and distant ridges, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, stone skin, cloth, hands, and rocks. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daytime light; clear restrained atmosphere.\nConstraints: no glowing cracks, magic effects, levitating stones, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra people, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete humanoid anatomy with readable stone material and one held rock; no glow or levitation was introduced."
+      }
+    },
+    {
+      "id": "ghoul",
+      "title": "Ghoul",
+      "category": "undead",
+      "generationId": "call_pAInHwPCWDLLIzZMib9qPSzW",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/ghoul.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/ogre.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved monstrous-humanoid anchor; inherit only its line, shape, flesh, cloth, and detail handling. Do not inherit identity, clothing, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One intelligent ghoul standing warily in an old neglected burial ground.\nSubject: A gaunt adult corpse-eater with grey sallow skin, a recognizably human but predatory face, sharp teeth, long clawed fingers, and simple ragged medieval clothing. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: A few plain weathered gravestones, weeds, and a low wall, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, teeth, claws, skin, and cloth. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject safely inside the frame with generous margin.\nLighting/mood: Neutral overcast daylight; clear restrained atmosphere.\nConstraints: no corpse, blood, gore, glowing eyes, magic effects, fire, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra figures, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Predatory but intelligent corpse-eater reads clearly with complete anatomy; no victim, gore, or magical glow was added."
+      }
+    },
+    {
+      "id": "mummy",
+      "title": "Mummy",
+      "category": "undead",
+      "generationId": "call_BbqlFZzRS0o0J8q0I79OEw1g",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/mummy.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/skeleton.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved undead anchor; inherit only its line, shape, bone, cloth, weapon, and detail handling. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One intelligent mummy standing guard in a dry stone burial chamber.\nSubject: A fully bandaged preserved adult human with a dignified, watchful posture, faded ceremonial cloth over old wrappings, and one large plain great hammer held naturally in both hands. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: Plain dry stone burial chamber with a sealed tomb recess, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face wrappings, cloth, hands, hammer, and stone. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject and hammer safely inside the frame with generous margin.\nLighting/mood: Soft neutral indirect light; clear restrained atmosphere.\nConstraints: no glowing eyes, magic effects, fire, dramatic sky, cinematic rim light, blood, gore, exposed organs, text, logo, watermark, decorative border, extra figures, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete bandaged figure with one great hammer and coherent hands; the chamber is restrained and contains no glow, fire, or gore."
+      }
+    },
+    {
+      "id": "vampire",
+      "title": "Vampire",
+      "category": "undead",
+      "generationId": "call_dKQgdy5YeSwHSKULEwdSB7TS",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/vampire.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/warrior.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved warrior anchor; inherit only its line, shape, anatomy, armor, weapon, and detail handling. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult vampire standing composed in an old stone hall.\nSubject: An intelligent undead aristocrat with a pale but recognizably human face, restrained subtle fangs, dark practical chainmail beneath a plain burgundy surcoat, one arming sword, and one medium round shield. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: Plain old stone hall with a simple archway, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, hair, mail, cloth, hands, sword, shield, and stone. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject, sword, and shield safely inside the frame with generous margin.\nLighting/mood: Soft neutral indirect light; clear restrained atmosphere.\nConstraints: no blood, gore, glowing eyes, bats, mist, magic effects, fire, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra figures, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete armored humanoid with one sword and one shield; vampiric identity is restrained without bats, blood, mist, or magical lighting."
+      }
+    },
+    {
+      "id": "zombie",
+      "title": "Zombie",
+      "category": "undead",
+      "generationId": "call_x3w05q89uqJZXmjhF5sCtx3v",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/zombie.png",
+      "referenceImages": [
+        "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
+        "art/production/fc-house-v1/approved/inked-adventure-comic/ogre.png"
+      ],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 is the FC-HOUSE-V1 style anchor; inherit only its rendering language. Image 2 is the approved humanoid-creature anchor; inherit only its line, shape, anatomy, flesh, cloth, and detail handling. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One animated zombie standing slackly in an abandoned medieval farm lane.\nSubject: A weathered adult human corpse with dull grey-green skin, a vacant expression, stiff uneven posture, and simple torn tunic and trousers. Decay is restrained and readable without exposed organs. Full body visible; exactly one head, two arms, two hands, two legs, and two feet.\nScene/backdrop: Plain abandoned farm lane with a low fence and sparse weeds, subordinate to the figure.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at the face, hands, damaged skin, cloth, and ground. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square composition; complete subject safely inside the frame with generous margin.\nLighting/mood: Neutral overcast daylight; clear restrained atmosphere.\nConstraints: no blood, gore, exposed organs, severed parts, glowing eyes, magic effects, fire, dramatic sky, cinematic rim light, text, logo, watermark, decorative border, extra figures, or extra limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete readable figure with restrained decay and a slack pose; no gore, severed anatomy, glow, or magic was introduced."
+      }
+    }
+  ]
+}

@@ -7,6 +7,9 @@ slug: giant-hawk
 order: 80
 category: animal
 summary: 'A massive raptor capable of hunting prey as large as a horse.'
+image: '/assets/images/creatures/giant-hawk.webp'
+image320: '/assets/images/creatures/giant-hawk-320.webp'
+imageAlt: 'A horse-sized hawk standing on a high rocky meadow.'
 tags:
   - 'living'
   - 'corporeal'

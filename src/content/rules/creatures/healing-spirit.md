@@ -7,6 +7,9 @@ slug: healing-spirit
 order: 500
 category: spirit
 summary: 'A luminous restorative spirit and natural enemy of Disease Spirits.'
+image: '/assets/images/creatures/healing-spirit.webp'
+image320: '/assets/images/creatures/healing-spirit-320.webp'
+imageAlt: 'A pale healing spirit with open hands in an herb garden.'
 tags:
   - 'incorporeal'
   - 'spirit'

@@ -7,6 +7,9 @@ slug: raven
 order: 140
 category: animal
 summary: 'A quick and observant scavenging bird.'
+image: '/assets/images/creatures/raven.webp'
+image320: '/assets/images/creatures/raven-320.webp'
+imageAlt: 'A black raven perched on a mossy stone wall.'
 tags:
   - 'living'
   - 'corporeal'

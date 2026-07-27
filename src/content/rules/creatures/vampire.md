@@ -7,6 +7,9 @@ slug: vampire
 order: 560
 category: undead
 summary: 'An intelligent undead predator sustained by stolen blood and life force.'
+image: '/assets/images/creatures/vampire.webp'
+image320: '/assets/images/creatures/vampire-320.webp'
+imageAlt: 'A pale armored vampire carrying a sword and round shield in a stone hall.'
 tags:
   - 'corporeal'
   - 'undead'

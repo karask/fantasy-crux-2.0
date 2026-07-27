@@ -7,6 +7,9 @@ slug: naiad
 order: 440
 category: nymph
 summary: 'A water spirit anchored to one stream, lake, swamp, or coastal reach.'
+image: '/assets/images/creatures/naiad.webp'
+image320: '/assets/images/creatures/naiad-320.webp'
+imageAlt: 'A blue-grey naiad holding a spear in the shallow stream she guards.'
 tags:
   - 'corporeal'
   - 'spirit'

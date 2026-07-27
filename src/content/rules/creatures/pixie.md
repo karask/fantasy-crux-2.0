@@ -7,6 +7,9 @@ slug: pixie
 order: 380
 category: monster
 summary: 'A tiny, winged forest person known for curiosity, mischief, and subtle magic.'
+image: '/assets/images/creatures/pixie.webp'
+image320: '/assets/images/creatures/pixie-320.webp'
+imageAlt: 'A tiny winged pixie standing on a broad shelf mushroom.'
 tags:
   - 'living'
   - 'corporeal'

@@ -7,6 +7,9 @@ slug: ancestor-spirit
 order: 460
 category: spirit
 summary: 'A deceased relative who preserves family memory, craft, and counsel.'
+image: '/assets/images/creatures/ancestor-spirit.webp'
+image320: '/assets/images/creatures/ancestor-spirit-320.webp'
+imageAlt: 'A translucent ancestor spirit holding a woodworking chisel by a hearth.'
 tags:
   - 'incorporeal'
   - 'spirit'

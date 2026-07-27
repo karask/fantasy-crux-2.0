@@ -7,6 +7,9 @@ slug: rhinoceros
 order: 150
 category: animal
 summary: 'A thick-skinned herbivore whose charge can tear through a battle line.'
+image: '/assets/images/creatures/rhinoceros.webp'
+image320: '/assets/images/creatures/rhinoceros-320.webp'
+imageAlt: 'A two-horned rhinoceros standing on open scrubland.'
 tags:
   - 'living'
   - 'corporeal'

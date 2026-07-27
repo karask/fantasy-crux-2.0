@@ -7,6 +7,9 @@ slug: giant-lizard
 order: 110
 category: animal
 summary: 'A large reptilian predator with powerful jaws and a battering tail.'
+image: '/assets/images/creatures/giant-lizard.webp'
+image320: '/assets/images/creatures/giant-lizard-320.webp'
+imageAlt: 'A large scaled lizard standing on a rocky scrubland path.'
 tags:
   - 'living'
   - 'corporeal'

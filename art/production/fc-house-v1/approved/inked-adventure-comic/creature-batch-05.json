@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "batchId": "creature-batch-05",
+  "created": "2026-07-27",
+  "styleVersion": "FC-HOUSE-V1",
+  "style": "inked-adventure-comic",
+  "status": "complete-approved",
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "referencePolicy": "Image 1 supplies rendering language only. Image 2 supplies subject-scale line, shape, material, anatomy, equipment, and detail handling only. Neither reference supplies identity, objects, composition, palette, lighting, weather, or mood.",
+  "rejectedCandidates": [
+    {
+      "subject": "giant",
+      "generationId": "call_cQb9SYHTUgW3cErGvp2a1ufL",
+      "reason": "The ogre reference contaminated subject identity, producing an orc-like face instead of a human giant."
+    },
+    {
+      "subject": "wyvern",
+      "generationId": "call_XBJ7ixhgEv7zwniYHrLHWWDR",
+      "reason": "The dragon reference contaminated anatomy, producing four legs instead of the required two."
+    }
+  ],
+  "assets": [
+    {
+      "id": "basilisk",
+      "generationId": "call_iOytTJ9NyS6HmHv9NHCeLSxl",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/basilisk.png",
+      "referenceImages": ["style-anchor.png", "giant-lizard.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies small-reptile line, shape, scale, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One small alchemical basilisk standing alert on a flagstone floor, a squat four-legged reptile with a short tail, crown-like head spines, vivid but natural patches of red, blue, yellow, and green scales, and unnervingly direct eyes; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete creature safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse interior light; clear restrained atmosphere.\nConstraints: mouth closed, no gaze beams, blood, victim, magic effects, dramatic lighting, text, watermark, extra creatures, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Single many-coloured four-legged reptile with readable crown spines and no added gaze effect."
+      }
+    },
+    {
+      "id": "beastman",
+      "generationId": "call_PH4scWPZVQ3oCt1VIeEliEnP",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/beastman.png",
+      "referenceImages": ["style-anchor.png", "ogre.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies monstrous-humanoid line, shape, anatomy, hide, cloth, and equipment handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult ram-headed beastman standing watch at a wild woodland boundary, with a powerful human-shaped body, two curled horns, rough practical hide clothing, one plain shortspear, and one medium round wooden shield; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, horns, spear, and shield safely inside the frame.\nLighting/mood: Neutral diffuse daylight; alert but restrained.\nConstraints: no human face, extra weapons, magic, fire, dramatic sky, rim light, text, watermark, extra figures, heads, horns, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete ram-headed humanoid with two horns, spear, and shield."
+      }
+    },
+    {
+      "id": "dwarf",
+      "generationId": "call_reYWFAFTbZpYAH3IDQmr74XC",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/dwarf.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies armed-humanoid line, shape, anatomy, armor, weapon, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One stocky adult dwarf craft-warrior standing in a plain underground stone workshop, long braided beard, practical mail and leather, one war hammer, and one medium round shield; full body visible with believable short broad proportions.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, hammer, and shield safely inside the frame.\nLighting/mood: Soft neutral indirect light; calm clear atmosphere.\nConstraints: no ornate royal armour, oversized helmet, magic, fire, dramatic lighting, text, watermark, extra figures, heads, weapons, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete short broad humanoid with one hammer and one shield."
+      }
+    },
+    {
+      "id": "elemental",
+      "generationId": "call_ncZlnvo5W0B25fP9AHaxoGQn",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/elemental.png",
+      "referenceImages": ["style-anchor.png", "magic.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies supernatural-material line, shape, and detail handling only. Do not inherit identity, symbols, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One medium stone elemental standing on a bare rocky shelf, a coherent roughly humanoid body assembled from broad interlocking slabs and earth, with one head, two arms, two hands, two legs, and two feet; full figure visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: no glowing cracks, runes, spell circle, weapons, fire, dramatic sky, rim light, text, watermark, extra figures, floating rocks, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete stone embodiment with a coherent humanoid silhouette and no added magic effects."
+      }
+    },
+    {
+      "id": "elf",
+      "generationId": "call_De0zMdLHVoMNo32iLCPzTCdW",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/elf.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies armed-humanoid line, shape, anatomy, cloth, weapon, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One ageless adult forest elf standing watch beside an old tree, with restrained pointed ears, practical green-brown woodland clothing, one plain longbow, a quiver, and one shortspear; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, bow, and spear safely inside the frame.\nLighting/mood: Neutral diffuse woodland daylight; calm and vigilant.\nConstraints: no ornate high-fantasy armour, crown, glowing eyes, magic effects, dramatic lighting, text, watermark, extra figures, weapons, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete forest sentinel with restrained ears, longbow, quiver, and shortspear."
+      }
+    },
+    {
+      "id": "gargoyle",
+      "generationId": "call_XwSTkR88W1lpx1eqzUrlmGP9",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/gargoyle.png",
+      "referenceImages": ["style-anchor.png", "ogre.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies monstrous-humanoid line, shape, anatomy, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One grey stone-skinned gargoyle crouching alert on a plain cathedral parapet, a lean predatory humanoid with one horned head, two clawed arms, two clawed legs, one tail, and two folded bat-like wings; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete creature, wings, and tail safely inside the frame.\nLighting/mood: Neutral overcast daylight; restrained atmosphere.\nConstraints: no glowing eyes, magic, rain, lightning, dramatic sky, rim light, text, watermark, extra gargoyles, heads, wings, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete grey winged humanoid with coherent claws and one safely framed tail."
+      }
+    },
+    {
+      "id": "giant",
+      "generationId": "call_B7liWcL7zwh5JNKIsz6VVbsp",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/giant.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies human line, shape, anatomy, cloth, and equipment handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One six-metre adult human giant standing at ease on a broad upland path, with an ordinary weathered human face, rounded human ears, simple mountain-clan wool, hide, and leather, one enormous plain wooden club resting on the ground, and one loose boulder nearby; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure and club safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: human giant, no tusks, fangs, pointed ears, monstrous face, normal-sized people, attack pose, magic, fire, dramatic lighting, text, watermark, extra figures, heads, clubs, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Replacement candidate passes with an ordinary human face, one club, and a clear large-scale setting."
+      }
+    },
+    {
+      "id": "goblin",
+      "generationId": "call_y6wSTA5Cvr66XMJc0ncaSvfw",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/goblin.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies armed-humanoid line, shape, anatomy, cloth, and equipment handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One small agile adult goblin standing warily in a rough hill camp, with green-grey skin, large pointed ears, practical patched clothing, one shortspear, one small round shield, and a sling at the belt; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, spear, and shield safely inside the frame.\nLighting/mood: Neutral diffuse daylight; alert but restrained.\nConstraints: no grotesque caricature, oversized grin, extra weapons, magic, fire, dramatic lighting, text, watermark, extra goblins, heads, ears, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete small humanoid with spear, shield, sling, and restrained features."
+      }
+    },
+    {
+      "id": "golem",
+      "generationId": "call_W7M1E8R0P08kTeBO9Rn9ffOp",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/golem.png",
+      "referenceImages": ["style-anchor.png", "ogre.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-humanoid line, shape, anatomy, and detail handling only. Do not inherit identity, flesh, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One large clay golem standing motionless in a plain temple courtyard, a heavy handmade humanoid construct of fired brown clay with simple joined plates and a blank sculpted face; full body visible with one head, two arms, two hands, two legs, and two feet.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: clay material, no flesh, armour, weapon, runes, glowing cracks, magic effects, dramatic lighting, text, watermark, extra figures, heads, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete fired-clay construct with blank face and no flesh, weapons, or runes."
+      }
+    },
+    {
+      "id": "harpy",
+      "generationId": "call_5XkHBVkA2Jvc4l6sTf5jRMfH",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/harpy.png",
+      "referenceImages": ["style-anchor.png", "griffin.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-wing and feather line, shape, material, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One filthy adult harpy standing on a bare cliff ledge, a lean female humanoid scavenger with one stern humanlike head, two wiry arms, two folded feathered wings, two birdlike clawed legs, ragged cloth, and one plain fist-sized stone held naturally; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, wings, and claws safely inside the frame.\nLighting/mood: Neutral diffuse daylight; restrained atmosphere.\nConstraints: no dung, gore, victim, extra stones, magic, dramatic sky, rim light, text, watermark, extra harpies, heads, arms, wings, or legs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete winged scavenger with two arms, two wings, two clawed legs, and one stone."
+      }
+    },
+    {
+      "id": "holy-steed",
+      "generationId": "call_iHiSzw3PsUrFCCVWOxgLUUhV",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/holy-steed.png",
+      "referenceImages": ["style-anchor.png", "horse.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies horse line, shape, anatomy, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One deity's immense sacred iron horse standing composed in a plain temple court, a living equine form built from broad dark forged-iron plates with restrained brass joints, four legs, four hooves, one mane, and one tail; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete creature safely inside the frame with generous margin.\nLighting/mood: Soft neutral daylight; dignified and restrained.\nConstraints: no rider, tack, wings, horn, glowing runes, aura, fire, dramatic lighting, text, watermark, extra creatures, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete divine iron horse with readable forged plates and no added magical spectacle."
+      }
+    },
+    {
+      "id": "holy-warrior",
+      "generationId": "call_ddbQ0okTYIpfi00q3otZ2aXO",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/holy-warrior.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies champion line, shape, anatomy, armor, weapon, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One deity's otherworldly holy warrior standing composed in a plain sanctuary court, a tall humanlike champion of justice in practical bronze scale armour and undyed linen, carrying one plain longspear and one round shield marked only by balanced geometric divisions; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, spear, and shield safely inside the frame.\nLighting/mood: Soft neutral daylight; dignified and restrained.\nConstraints: no halo, wings, glowing weapon, magic effects, fire, dramatic lighting, text, watermark, extra figures, heads, weapons, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete divine champion with restrained deity cues and no glow, halo, or wings."
+      }
+    },
+    {
+      "id": "lizardman",
+      "generationId": "call_0cRXgj8Wp5Wufx85rDWqDKEP",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/lizardman.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies armed-humanoid line, shape, anatomy, cloth, and equipment handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult lizardman standing alert on a warm marsh bank, a tool-using reptilian person with a scaled head, two arms, two clawed hands, two legs, two clawed feet, one tail, practical woven clothing, one battleaxe, and a sling at the belt; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, axe, and tail safely inside the frame.\nLighting/mood: Neutral diffuse daylight; calm and vigilant.\nConstraints: no wings, horns, fire, magic, dramatic lighting, text, watermark, extra figures, heads, tails, weapons, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete reptilian person with one battleaxe, one sling, and one safely framed tail."
+      }
+    },
+    {
+      "id": "merfolk",
+      "generationId": "call_Y16P2O4iuqbcLJc4iDVZuZAd",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/merfolk.png",
+      "referenceImages": ["style-anchor.png", "warrior.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies armed-humanoid line, shape, anatomy, cloth, weapon, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult merfolk guard hovering upright above a shallow undersea stone terrace, with a humanlike upper body, subtle finned ears, two arms, two hands, one powerful scaled fish tail, practical woven harness, one plain longspear, and one sheathed dagger; whole figure visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square underwater composition; complete figure, spear, and tail safely inside the frame.\nLighting/mood: Neutral diffuse shallow-water daylight; calm and vigilant.\nConstraints: no legs, crown, ornate armour, magic, glowing objects, dramatic lighting, text, watermark, extra figures, heads, tails, weapons, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete merfolk guard with one fish tail, longspear, and sheathed dagger."
+      }
+    },
+    {
+      "id": "orc",
+      "generationId": "call_YazU8I5Pi85y3AMTFXAInurw",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/orc.png",
+      "referenceImages": ["style-anchor.png", "ogre.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies monstrous-humanoid line, shape, anatomy, flesh, cloth, and equipment handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One adult orc warband fighter standing alert outside a rough timber hall, with a powerful green-grey humanoid body, restrained lower tusks, practical leather and mail, one scimitar, one medium round shield, and a shortbow at the back; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, scimitar, and shield safely inside the frame.\nLighting/mood: Neutral diffuse daylight; alert but restrained.\nConstraints: no oversized tusks, skull decorations, gore, magic, fire, dramatic lighting, text, watermark, extra orcs, heads, weapons, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete armed orc with restrained tusks, one scimitar, shield, and shortbow."
+      }
+    },
+    {
+      "id": "pixie",
+      "generationId": "call_QrlEC8PttMrip4WViR6YwKpJ",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/pixie.png",
+      "referenceImages": ["style-anchor.png", "dryad.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies small forest-humanoid line, shape, anatomy, cloth, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One tiny adult pixie standing curiously on a broad shelf mushroom in a quiet forest, a hand-sized winged person with believable adult proportions, two translucent insect-like wings, simple leaf-and-cloth clothing, one tiny dagger, and a sling pouch; full figure visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete tiny figure and both wings safely inside the frame; mushroom establishes scale.\nLighting/mood: Neutral diffuse woodland daylight; curious and restrained.\nConstraints: adult not child, no glitter, aura, magic effects, oversized butterfly wings, dramatic lighting, text, watermark, extra pixies, heads, wings, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Tiny scale is established by the mushroom; adult proportions and two wings are clear."
+      }
+    },
+    {
+      "id": "sea-serpent",
+      "generationId": "call_xcjpVUTZAVBzngfZFg419s8F",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/sea-serpent.png",
+      "referenceImages": ["style-anchor.png", "dragon.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies immense-reptile line, shape, scale, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One enormous sea serpent swimming calmly above a rocky seabed near a cavern mouth, with one long serpentine body, a broad finned head, two small steering fins, a ridged back, and one powerful tail; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square underwater composition; complete head, body curve, fins, and tail safely inside the frame.\nLighting/mood: Neutral diffuse underwater daylight; calm clear atmosphere.\nConstraints: mouth closed, no ship, prey, people, wings, legs, fire, magic, dramatic lighting, text, watermark, extra serpents, heads, or tails.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete aquatic serpent with readable fins, long body, and one tail."
+      }
+    },
+    {
+      "id": "troll",
+      "generationId": "call_b5wUasQSHFA349E2wEYQB0fo",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/troll.png",
+      "referenceImages": ["style-anchor.png", "ogre.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies large-predator-humanoid line, shape, anatomy, flesh, cloth, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One large solitary troll standing warily in a damp rocky ravine, with long powerful arms, heavy clawed hands, coarse grey-green skin, sparse dark hair, simple hide clothing, and one plain wooden club; full body visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete figure, claws, and club safely inside the frame.\nLighting/mood: Neutral diffuse daylight; restrained atmosphere.\nConstraints: no wounds, regeneration effects, fire, skulls, gore, magic, dramatic lighting, text, watermark, extra trolls, heads, clubs, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Complete long-armed solitary predator with clawed hands and one club."
+      }
+    },
+    {
+      "id": "werewolf",
+      "generationId": "call_JFPxM6lJyDmJniRBHVJY4yfq",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/werewolf.png",
+      "referenceImages": ["style-anchor.png", "wolf.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies wolf line, shape, anatomy, fur, and detail handling only. Do not inherit identity, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One werewolf in its giant-wolf form standing alert beside a discarded plain human cloak in a quiet woodland clearing, an unusually large powerful wolf with subtly longer forelimbs and intelligent eyes, four paws, and one tail; whole animal visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete animal safely inside the frame with generous margin.\nLighting/mood: Neutral diffuse daylight; restrained atmosphere.\nConstraints: wolf form, not bipedal hybrid; mouth closed; no full moon, transformation effect, blood, victim, magic, dramatic lighting, text, watermark, extra wolves, heads, tails, or limbs.",
+      "qa": {
+        "status": "pass",
+        "notes": "Giant-wolf form is complete and differentiated from an ordinary wolf by scale, proportions, expression, and cloak."
+      }
+    },
+    {
+      "id": "wyvern",
+      "generationId": "call_mYxrbwDzVRwvogdDW9wXEyNQ",
+      "output": "art/production/fc-house-v1/approved/inked-adventure-comic/wyvern.png",
+      "referenceImages": ["style-anchor.png", "giant-hawk.png"],
+      "prompt": "Use case: stylized-concept\nAsset type: Fantasy tabletop RPG creature illustration\nInput images: Image 1 supplies rendering language only. Image 2 supplies two-legged winged anatomy, silhouette, and detail handling only. Do not inherit identity, feathers, objects, composition, palette, lighting, weather, or mood.\nPrimary request: One lean adult wyvern standing alert on an open rocky shelf, a reptilian two-legged predator with one horned draconic head, exactly two clawed hind legs, exactly two broad leathery wings that replace all forelegs, and one long tail ending in a single venomous stinger; whole creature visible.\nStyle/medium: Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail. Mature, handmade, and readable; no painterly blending, no glossy 3D.\nComposition/framing: Square; complete creature, both wings, both legs, and stinger safely inside the frame.\nLighting/mood: Neutral diffuse daylight; calm clear atmosphere.\nConstraints: exactly two legs total and exactly two wings; wings are the forelimbs; absolutely no front legs or extra limbs; no feathers, fire, prey, blood, magic, dramatic lighting, text, watermark, extra creatures, heads, wings, or tails.",
+      "qa": {
+        "status": "pass",
+        "notes": "Replacement candidate has exactly two legs and two wing forelimbs, with no extra front legs."
+      }
+    }
+  ]
+}
