@@ -48,6 +48,7 @@ npm run preview
 - `tex/` — the LaTeX chapters not yet converted to Fantasy Crux 2.0: Disciplines, Battle, and the Folk, Arcane, Divine, and Shamanism magic systems. Everything already published was removed; recover it with `git show 040db44:tex/<file>` if a conversion ever needs checking against the original
 - `freeform-magic/` — preserved Magic 2.0 alternative; not published
 - `freeform-creatures/` — preserved drafting source for the published bestiary
+- `potential-worlds/` — unpublished, noncanonical setting candidates; compare them in the [candidate-world index](potential-worlds/README.md)
 
 Each chapter is one page: its rules, Talents, Shaping, and creature sections are inlined and addressed by anchor, such as `/rules/combat/#active-guard` or `/rules/creatures/#vampire`. Individual rule sections are still the search units, and results link to the matching anchor. Chapter introductions, Quick Reference, and Search are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, the Talent and creature filters, and collapsible examples are enhancements.
 
