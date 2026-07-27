@@ -10,9 +10,6 @@ aliases:
   - armor
   - armour points
   - AP
-quickReference:
-  group: equipment
-  order: 30
 ---
 
 Armour Points (AP) reduce incoming damage after any Parry. Armour ENC counts toward carried load and is also subtracted from the wearer's base Combat Order.

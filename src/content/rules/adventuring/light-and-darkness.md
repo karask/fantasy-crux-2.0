@@ -10,9 +10,6 @@ aliases:
   - illumination
   - vision
   - night sight
-quickReference:
-  group: adventuring
-  order: 20
 ---
 
 For vision and attacks, use illumination reaching the observed target; for Movement, use light reaching the mover. A light source illuminates its listed radius; weaker outer bands extend from there. Mist, fog, foliage, and smoke are obscurity, not illumination; apply their [ranged-combat modifier](/rules/combat/#ranged-combat--common-situational-modifiers) along the sightline separately.

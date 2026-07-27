@@ -417,7 +417,6 @@ summary,
 .rule-section,
 .chapter-intro,
 .talent-browser,
-.reference-groups,
 .search-form,
 .search-status,
 .search-results,
@@ -634,8 +633,7 @@ h3:hover .heading-anchor,
   font-weight: 700;
 }
 
-.prose a,
-.reference-page a {
+.prose a {
   color: #81301f;
   font-weight: 700;
 }
@@ -1230,49 +1228,6 @@ tbody tr:last-child td {
 .talent-facts dd {
   margin: 0.25rem 0 0;
   font-size: 0.9rem;
-}
-
-.reference-groups {
-  display: grid;
-  margin-top: 3rem;
-  gap: 3rem 2.2rem;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.reference-groups section {
-  min-width: 0;
-}
-
-.reference-groups h2 {
-  margin: 0 0 0.75rem;
-  padding-bottom: 0.55rem;
-  border-bottom: 3px solid var(--ink);
-  font-size: 1.8rem;
-  text-transform: uppercase;
-}
-
-.reference-groups dl,
-.reference-groups dd {
-  margin: 0;
-}
-
-.reference-groups dl > div {
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--paper-line);
-}
-
-.reference-groups dt {
-  font-family: var(--display);
-  font-size: 1.12rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.reference-groups dd {
-  margin-top: 0.2rem;
-  color: #455150;
-  font-size: 0.88rem;
-  line-height: 1.38;
 }
 
 .search-form {
@@ -1878,7 +1833,6 @@ tbody tr:last-child td {
   }
 
   .talent-grid,
-  .reference-groups,
   .chapter-directory ol {
     grid-template-columns: 1fr;
   }

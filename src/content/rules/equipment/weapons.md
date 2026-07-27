@@ -11,9 +11,6 @@ aliases:
   - ranged weapons
   - ammunition
   - weapon size
-quickReference:
-  group: equipment
-  order: 20
 ---
 
 Use Close Combat for hand-to-hand attacks and Ranged Combat for attacks made at distance. If either STR or DEX is below a weapon's listed minimum, attacks and Parries with it suffer `-1P`; being below both still applies only `-1P`.

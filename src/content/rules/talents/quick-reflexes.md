@@ -9,9 +9,6 @@ summary: Add 2 to Combat Order.
 aliases:
   - initiative bonus
   - faster Combat Order
-quickReference:
-  group: talents
-  order: 20
 cost: 2
 prerequisites: DEX 13
 activation: passive

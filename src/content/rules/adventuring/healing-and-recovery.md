@@ -12,9 +12,6 @@ aliases:
   - dying
   - surgery
   - natural healing
-quickReference:
-  group: adventuring
-  order: 40
 ---
 
 A post-armour hit that deals damage equal to or greater than the target's Major Wound Level makes the target **Wounded** and **Bleeding** after damage is applied.

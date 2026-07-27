@@ -10,9 +10,6 @@ aliases:
   - missile Parry
   - shield against arrows
   - active shield defence
-quickReference:
-  group: combat
-  order: 30
 ---
 
 ## Using Active Guard

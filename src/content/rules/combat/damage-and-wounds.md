@@ -11,9 +11,6 @@ aliases:
   - Bleeding
   - Dying
   - Surgery
-quickReference:
-  group: combat
-  order: 80
 ---
 
 On a hit, roll weapon damage, add Damage Modifier when applicable, then add any extra dice or fixed damage from the declared action or Talent. Resolve any successful Parry, subtract Armour Points, and reduce current HP by the remaining damage, to a minimum of 0 damage. Current HP cannot fall below 0. [Critical hits](/rules/combat/#critical-hits-and-fumbles) change this procedure as stated in their result matrix.

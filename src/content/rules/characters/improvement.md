@@ -6,9 +6,6 @@ title: Improvement
 slug: improvement
 order: 70
 summary: Spend IP between adventures to improve each skill at most once, raise eligible characteristics, or buy Talents; skills and human characteristics cap at 100% and 21 respectively.
-quickReference:
-  group: characters
-  order: 50
 aliases:
   - Improvement Points
   - IP

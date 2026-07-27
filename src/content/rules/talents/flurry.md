@@ -9,9 +9,6 @@ summary: Forfeit all Reactions to make two Unarmed Combat attacks at -1P each.
 aliases:
   - unarmed rapid attack
   - two unarmed attacks
-quickReference:
-  group: talents
-  order: 130
 cost: 3
 prerequisites: Unarmed Combat 76%
 activation: action

@@ -20,8 +20,7 @@ test('home and primary rules navigation work at the target width', async ({ page
   await expect(page.locator('.chapter-nav a').nth(7)).toContainText('Adventuring');
   await expect(page.locator('.chapter-nav a').nth(8)).toContainText('GM Tools');
   await expect(page.locator('.chapter-nav a').nth(9)).toContainText('Creatures');
-  await expect(page.locator('.chapter-nav a').nth(10)).toContainText('QR');
-  await expect(page.locator('.chapter-nav a').nth(11)).toContainText('License');
+  await expect(page.locator('.chapter-nav a').nth(10)).toContainText('License');
   await expectNoHorizontalOverflow(page);
 
   await page.goto('/rules/combat/#off-hand-options');
@@ -138,13 +137,6 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
   await expect(page.locator('#becoming-a-shaper')).toBeVisible();
   await expect(page.locator('main')).not.toContainText('Magic rules are in development.');
   await expectNoHorizontalOverflow(page);
-
-  await page.goto('/reference/');
-  await expect(page.getByRole('heading', { name: 'Magic', exact: true })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Building a Shaping' })).toHaveAttribute(
-    'href',
-    '/rules/magic/#building-a-shaping',
-  );
 
   await page.goto('/rules/characters/');
   await expect(page.getByRole('link', { name: /Shaper/i }).first()).toHaveAttribute(

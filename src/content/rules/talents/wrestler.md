@@ -9,9 +9,6 @@ summary: Win an opposed Unarmed Combat test while grappling to hurt, disarm, or 
 aliases:
   - grapple techniques
   - wrestling hold
-quickReference:
-  group: talents
-  order: 60
 cost: 2
 prerequisites: Unarmed Combat 51%
 activation: action

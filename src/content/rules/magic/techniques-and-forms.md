@@ -6,9 +6,6 @@ title: Techniques and Forms
 slug: techniques-and-forms
 order: 30
 summary: A Technique limits what the Shaping does; a Form limits what it can affect and how an unwilling subject usually defends.
-quickReference:
-  group: magic
-  order: 20
 aliases:
   - Conjure Bend Unmake Alter Ward Scry
   - Fire Water Air Earth Flesh Mind Force Spirit Paths Fate

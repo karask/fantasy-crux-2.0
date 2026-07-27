@@ -9,9 +9,6 @@ summary: Forfeit all Reactions to make one Close or Unarmed attack at +1B and +2
 aliases:
   - power attack
   - great attack
-quickReference:
-  group: talents
-  order: 70
 cost: 3
 prerequisites: Close Combat 76% or Unarmed Combat 76%
 activation: action

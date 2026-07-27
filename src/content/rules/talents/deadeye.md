@@ -9,9 +9,6 @@ summary: Remain stationary and forfeit all Reactions for one ranged attack at +1
 aliases:
   - aimed shot
   - precision shot
-quickReference:
-  group: talents
-  order: 140
 cost: 4
 prerequisites: Ranged Combat 76%
 activation: action

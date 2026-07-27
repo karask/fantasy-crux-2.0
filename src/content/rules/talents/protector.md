@@ -9,9 +9,6 @@ summary: Spend the base Reaction to Parry an attack that hit an adjacent ally wi
 aliases:
   - guard ally
   - shield ally
-quickReference:
-  group: talents
-  order: 160
 cost: 2
 prerequisites:
   - Close Combat 51%

@@ -8,9 +8,6 @@ order: 20
 summary:
   - Choose a known Technique–Form cell and one clear outcome.
   - Intensity + Range + Duration + Reach + adjustments equals Magnitude.
-quickReference:
-  group: magic
-  order: 10
 aliases:
   - Magnitude
   - magic formula

@@ -6,9 +6,6 @@ title: Starting skills
 slug: starting-skills
 order: 40
 summary: Calculate every base skill, spend each category's points, add no more than 30 points to one skill during creation, and cap every skill at 100%.
-quickReference:
-  group: characters
-  order: 30
 aliases:
   - skill points
   - base skills

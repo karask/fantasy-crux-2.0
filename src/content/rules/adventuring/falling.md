@@ -8,9 +8,6 @@ order: 60
 summary: 'A fall deals 1D6 per full 3 metres; Acrobatics removes 1D6 on success or 2D6 on a critical, rather than halving the fall.'
 aliases:
   - fall damage
-quickReference:
-  group: adventuring
-  order: 60
 ---
 
 ## Falling damage {#adventuring-falling-damage}

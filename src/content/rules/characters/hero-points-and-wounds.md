@@ -8,9 +8,6 @@ order: 60
 summary:
   - A Major Wound causes Wounded and Bleeding; at 0 HP the character is unconscious and Dying.
   - Spend Hero Points to reroll, prevent a Major Wound's conditions, avoid death, or secure a plausible story benefit.
-quickReference:
-  group: characters
-  order: 40
 aliases:
   - Hero Points
   - Major Wound

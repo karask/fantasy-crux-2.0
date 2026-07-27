@@ -9,9 +9,6 @@ summary: Attack at -1P to knock a chosen held item 1D6 metres away instead of de
 aliases:
   - disarming attack
   - knock weapon away
-quickReference:
-  group: talents
-  order: 80
 cost: 1
 prerequisites: Close Combat 51%
 activation: action

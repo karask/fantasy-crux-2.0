@@ -9,9 +9,6 @@ summary: Attack at -1P to leave the target prone instead of dealing damage.
 aliases:
   - trip attack
   - knock prone
-quickReference:
-  group: talents
-  order: 90
 cost: 1
 prerequisites: Close Combat 51% or Unarmed Combat 51%
 activation: action

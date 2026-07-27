@@ -9,9 +9,6 @@ summary: 'Carry up to STR + SIZ ENC normally; above that, physical tests and Fat
 aliases:
   - ENC
   - overloaded
-quickReference:
-  group: adventuring
-  order: 50
 ---
 
 ## Carrying capacity {#adventuring-carrying-capacity}

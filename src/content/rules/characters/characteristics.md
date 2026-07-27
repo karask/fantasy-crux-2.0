@@ -6,9 +6,6 @@ title: Characteristics
 slug: characteristics
 order: 20
 summary: Start each characteristic at 8, distribute 30 additional points, and observe the starting minimums and maximum of 18.
-quickReference:
-  group: characters
-  order: 10
 aliases:
   - STR CON DEX SIZ INT POW CHA
   - characteristic points

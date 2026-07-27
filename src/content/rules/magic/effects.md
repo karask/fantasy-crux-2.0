@@ -6,9 +6,6 @@ title: Effects
 slug: effects
 order: 40
 summary: Use fixed benchmarks for damage, healing, protection, information, control, transformation, and summoned beings.
-quickReference:
-  group: magic
-  order: 30
 aliases:
   - magic damage
   - magical healing

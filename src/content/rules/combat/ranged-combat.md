@@ -11,9 +11,6 @@ aliases:
   - range bands
   - cover
   - crossbow reload
-quickReference:
-  group: combat
-  order: 40
 ---
 
 Make a Ranged Combat test against a target within the weapon's listed Range. Beyond Range but no farther than twice Range, attack at `-2P`. A farther target cannot be hit.

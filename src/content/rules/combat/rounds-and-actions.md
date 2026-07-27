@@ -14,9 +14,6 @@ aliases:
   - Set Weapon
   - Intimidate
   - surrender
-quickReference:
-  group: combat
-  order: 10
 ---
 
 **Close** means within 2 metres. Anything farther away is **Ranged**.

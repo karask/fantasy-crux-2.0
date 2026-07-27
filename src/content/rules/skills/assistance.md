@@ -6,9 +6,6 @@ title: Assistance
 slug: assistance
 order: 40
 summary: Meaningful help from one or more capable characters usually grants +1B in total, or +2B when the combined assistance is exceptionally effective.
-quickReference:
-  group: skills
-  order: 40
 aliases:
   - aid another
   - helping

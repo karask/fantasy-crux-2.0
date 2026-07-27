@@ -12,13 +12,12 @@ describe('content schema', () => {
       order: 40,
       summary: ['A ready shield can parry missiles.'],
       aliases: ['missile parry'],
-      quickReference: { group: 'combat', order: 20 },
     });
 
     expect(permalinkFor(rule)).toBe('/rules/combat/#active-guard');
   });
 
-  it('accepts Magic rules in the quick-reference collection', () => {
+  it('accepts Magic rules with computed anchors', () => {
     const rule = validateRecord({
       type: 'rule',
       id: 'magic.building-a-shaping',
@@ -28,7 +27,6 @@ describe('content schema', () => {
       order: 20,
       summary: 'Combine Intensity, Range, Duration, Reach, and adjustments into Magnitude.',
       aliases: ['Magnitude', 'magic formula'],
-      quickReference: { group: 'magic', order: 10 },
     });
 
     expect(permalinkFor(rule)).toBe('/rules/magic/#building-a-shaping');

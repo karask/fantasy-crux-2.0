@@ -6,9 +6,6 @@ title: Opposed tests
 slug: opposed-tests
 order: 30
 summary: Compare result grade first; within the same successful grade the higher roll wins, while matching failures favour the lower roll. Exact ties favour higher base skill, then the defender or status quo.
-quickReference:
-  group: skills
-  order: 30
 aliases:
   - contested test
   - resisted test

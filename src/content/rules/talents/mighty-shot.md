@@ -9,9 +9,6 @@ summary: Add a positive Damage Modifier to one bow or sling attack per round wit
 aliases:
   - strength bow
   - powerful shot
-quickReference:
-  group: talents
-  order: 170
 cost: 4
 prerequisites: Ranged Combat 76%
 activation: passive

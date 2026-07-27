@@ -10,9 +10,6 @@ aliases:
   - inanimate objects
   - doors
   - walls
-quickReference:
-  group: adventuring
-  order: 90
 ---
 
 ## Attacking objects {#adventuring-attacking-objects}

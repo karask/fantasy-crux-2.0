@@ -6,9 +6,6 @@ title: Rituals and Examples
 slug: rituals-and-examples
 order: 70
 summary: Rituals extend Magnitude through time, preparation, PP contributors, and lasting mythic prices.
-quickReference:
-  group: magic
-  order: 60
 aliases:
   - magic rituals
   - mythic Shaping

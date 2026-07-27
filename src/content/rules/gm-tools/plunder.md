@@ -10,9 +10,6 @@ aliases:
   - treasure
   - hoard
   - loot
-quickReference:
-  group: gm-tools
-  order: 10
 ---
 
 Fantasy Crux is not a game of killing things and taking their stuff, but creatures met on an adventure do own things. Normally the story decides what a creature carries. When it does not, roll on the table below.

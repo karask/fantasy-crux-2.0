@@ -6,9 +6,6 @@ title: Bonus and Penalty dice
 slug: bonus-and-penalty-dice
 order: 20
 summary: Cancel Bonus and Penalty dice one for one, cap the net modifier at +3B or -3P, then choose the best or worst D100 result from the extra tens dice.
-quickReference:
-  group: skills
-  order: 20
 aliases:
   - bonus dice
   - penalty dice

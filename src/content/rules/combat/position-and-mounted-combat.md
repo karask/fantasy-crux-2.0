@@ -11,9 +11,6 @@ aliases:
   - higher ground
   - darkness
   - mounted combat
-quickReference:
-  group: combat
-  order: 90
 ---
 
 Use a modifier only when the situation clearly warrants it. Combine different causes under the normal `+3B`/`-3P` cap.

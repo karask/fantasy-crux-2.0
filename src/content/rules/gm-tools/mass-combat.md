@@ -10,9 +10,6 @@ aliases:
   - battle
   - armies
   - rout
-quickReference:
-  group: gm-tools
-  order: 30
 ---
 
 Use these rules for a one-roll solution to a battle. The commanders' skills decide it, modified by the armies they lead.

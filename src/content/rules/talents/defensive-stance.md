@@ -9,9 +9,6 @@ summary: Give up attacks and limit movement to gain +2 Armour Points while holdi
 aliases:
   - all-out defence
   - shield stance
-quickReference:
-  group: talents
-  order: 150
 cost: 2
 prerequisites:
   - Close Combat 51%

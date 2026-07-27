@@ -9,9 +9,6 @@ summary: Flanking and attacks from behind grant no bonus while you remain aware 
 aliases:
   - rear guard
   - flanking defence
-quickReference:
-  group: talents
-  order: 10
 cost: 2
 prerequisites: Perception 51%
 activation: passive

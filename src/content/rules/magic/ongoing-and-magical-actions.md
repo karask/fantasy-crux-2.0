@@ -6,9 +6,6 @@ title: Ongoing Shapings and Magical Actions
 slug: ongoing-and-magical-actions
 order: 60
 summary: Active Magnitude cannot exceed POW; Sense Magic, Counter, and Dispel require no known cell.
-quickReference:
-  group: magic
-  order: 50
 aliases:
   - active magic
   - Sense Magic

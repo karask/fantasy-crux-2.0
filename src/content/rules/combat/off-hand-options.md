@@ -12,9 +12,6 @@ aliases:
   - fighting with two ready items
   - weapon and shield
   - extra Parry
-quickReference:
-  group: combat
-  order: 60
 ---
 
 ## Choose One Option

@@ -14,18 +14,6 @@ export default {
     { number: 7, label: 'Adventuring', href: '/rules/adventuring/' },
     { number: 8, label: 'GM Tools', href: '/rules/gm-tools/' },
     { number: 9, label: 'Creatures', href: '/rules/creatures/' },
-    { number: 'QR', label: 'Reference', href: '/reference/' },
     { number: '§', label: 'License', href: '/license/' },
-  ],
-  quickGroups: [
-    { id: 'core', label: 'Core procedure' },
-    { id: 'characters', label: 'Characters' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'equipment', label: 'Equipment' },
-    { id: 'combat', label: 'Combat' },
-    { id: 'magic', label: 'Magic' },
-    { id: 'talents', label: 'Talents' },
-    { id: 'adventuring', label: 'Adventuring' },
-    { id: 'gm-tools', label: 'Gamemaster tools' },
   ],
 };

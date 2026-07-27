@@ -9,9 +9,6 @@ summary: Forfeit all Reactions to make two bow or sling attacks at -1P each.
 aliases:
   - rapid fire
   - two ranged attacks
-quickReference:
-  group: talents
-  order: 120
 cost: 3
 prerequisites:
   - Ranged Combat 76%

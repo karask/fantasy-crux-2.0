@@ -10,9 +10,6 @@ aliases:
   - grapple
   - break free
   - wrestling
-quickReference:
-  group: combat
-  order: 50
 ---
 
 ## Establish and Escape

@@ -148,8 +148,7 @@ async function enhanceSearch() {
       }
     } catch (error) {
       console.error(error);
-      status.textContent =
-        'Search could not load. Use the chapter menu or Quick Reference instead.';
+      status.textContent = 'Search could not load. Use the chapter menu instead.';
     }
   }
 

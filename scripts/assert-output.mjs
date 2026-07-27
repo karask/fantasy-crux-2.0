@@ -13,7 +13,6 @@ const required = [
   'rules/magic/index.html',
   'rules/gm-tools/index.html',
   'rules/creatures/index.html',
-  'reference/index.html',
   'license/index.html',
   'search/index.html',
   'pagefind/pagefind.js',

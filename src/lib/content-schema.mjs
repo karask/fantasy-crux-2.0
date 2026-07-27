@@ -20,23 +20,6 @@ export const chapterIds = [
 ];
 
 const chapterId = z.enum(chapterIds);
-const quickReference = z
-  .object({
-    group: z.enum([
-      'core',
-      'characters',
-      'skills',
-      'equipment',
-      'combat',
-      'adventuring',
-      'talents',
-      'magic',
-      'gm-tools',
-    ]),
-    order,
-  })
-  .strict();
-
 export const creatureCategories = ['animal', 'monster', 'nymph', 'spirit', 'undead'];
 
 export const creatureTags = [
@@ -81,7 +64,6 @@ const sharedRuleFields = {
   order,
   summary,
   aliases,
-  quickReference: quickReference.optional(),
 };
 
 const ruleSchema = z

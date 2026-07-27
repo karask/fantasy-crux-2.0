@@ -9,9 +9,6 @@ summary: Remove the -1P from either core off-hand option when fighting with two 
 aliases:
   - ambidexterity
   - dual-wield mastery
-quickReference:
-  group: talents
-  order: 50
 cost: 4
 prerequisites:
   - Close Combat 76%

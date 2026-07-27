@@ -9,9 +9,6 @@ summary: A penalised blunt attack can render a target unconscious without inflic
 aliases:
   - knockout attack
   - nonlethal attack
-quickReference:
-  group: talents
-  order: 100
 cost: 2
 prerequisites:
   - Close Combat 51% or Unarmed Combat 51%

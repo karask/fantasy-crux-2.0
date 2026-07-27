@@ -9,9 +9,6 @@ summary: A ready medium or large shield imposes -1P on ranged attacks you can se
 aliases:
   - passive shield cover
   - shield missile protection
-quickReference:
-  group: talents
-  order: 40
 cost: 2
 prerequisites:
   - Close Combat 51%

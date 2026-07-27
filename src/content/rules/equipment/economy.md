@@ -6,9 +6,6 @@ title: Markets and Currency
 slug: economy
 order: 10
 summary: 'Listed prices assume a well-stocked city: 10 CP equal 1 SP, and 10 SP equal 1 GP.'
-quickReference:
-  group: equipment
-  order: 10
 ---
 
 ## Availability and exchange {#equipment-markets}

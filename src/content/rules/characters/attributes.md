@@ -8,9 +8,6 @@ order: 30
 summary:
   - Maximum HP is the average of SIZ and CON, rounded up; Major Wound Level is half maximum HP, rounded up.
   - Maximum PP equals POW; recover one quarter, rounded up, per two hours of rest, and all PP after eight hours.
-quickReference:
-  group: characters
-  order: 20
 aliases:
   - HP MWL PP
   - damage modifier

@@ -9,9 +9,6 @@ summary: 'Choose a daily travel rate, multiply it by the terrain percentage, and
 aliases:
   - daily travel
   - overland movement
-quickReference:
-  group: adventuring
-  order: 10
 ---
 
 ## Daily pace {#adventuring-daily-travel}

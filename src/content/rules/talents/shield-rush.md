@@ -9,9 +9,6 @@ summary: A penalised shield attack pushes the target 2 metres and may knock them
 aliases:
   - shield bash
   - knock-back attack
-quickReference:
-  group: talents
-  order: 110
 cost: 2
 prerequisites:
   - Close Combat 51%

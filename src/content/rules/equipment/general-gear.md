@@ -10,9 +10,6 @@ aliases:
   - supplies
   - healing kit
   - torch
-quickReference:
-  group: equipment
-  order: 40
 ---
 
 | Item               | ENC |  Cost |

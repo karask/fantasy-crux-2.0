@@ -10,9 +10,6 @@ aliases:
   - potency
   - venom
   - infection
-quickReference:
-  group: adventuring
-  order: 80
 ---
 
 Poisons and diseases list a **Type**, **Delay**, **Potency** from 10 to 100, **Effect**, and—where needed—**Duration**. Roll Potency like a skill in an opposed test against the victim's Resilience.

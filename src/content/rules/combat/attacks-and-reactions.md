@@ -11,9 +11,6 @@ aliases:
   - Dodge
   - Parry
   - Opportunity Attack
-quickReference:
-  group: combat
-  order: 20
 ---
 
 Roll `D100` against **Close Combat** for a held weapon, **Unarmed Combat** for an unarmed or natural attack, or **Ranged Combat** for a weapon used at distance. A roll at or below the relevant skill hits; a higher roll misses. Bonus and Penalty dice alter the roll, not the skill.

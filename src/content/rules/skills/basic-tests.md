@@ -8,9 +8,6 @@ order: 10
 summary:
   - Roll D100 at or below the skill to succeed; 00 counts as 100.
   - The critical range is 01 through the skill's integer tens digit; fumbles are 99–00 below 100%, and 00 at 100%.
-quickReference:
-  group: skills
-  order: 10
 aliases:
   - roll under
   - critical success

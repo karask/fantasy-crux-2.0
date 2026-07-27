@@ -11,9 +11,6 @@ aliases:
   - boarding
   - sea travel
   - structure points
-quickReference:
-  group: gm-tools
-  order: 20
 ---
 
 ## Ship types {#gm-ship-types}

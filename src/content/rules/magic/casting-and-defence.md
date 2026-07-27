@@ -6,9 +6,6 @@ title: Casting and Defence
 slug: casting-and-defence
 order: 50
 summary: Spend one Combat Action, test Shaping, resolve Counter and one eligible defence, pay PP, and apply the effect.
-quickReference:
-  group: magic
-  order: 40
 aliases:
   - cast magic
   - resist magic

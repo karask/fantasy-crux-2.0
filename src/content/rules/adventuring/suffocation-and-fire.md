@@ -11,9 +11,6 @@ aliases:
   - smoke
   - burning
   - heat
-quickReference:
-  group: adventuring
-  order: 70
 ---
 
 ## Suffocation {#adventuring-suffocation}

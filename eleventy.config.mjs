@@ -113,16 +113,6 @@ export default function configure(eleventyConfig) {
       .filter((item) => item.data.type === 'creature')
       .sort(byOrder),
   );
-  eleventyConfig.addCollection('quickReference', (collection) =>
-    collection
-      .getAll()
-      .filter((item) => item.data.quickReference)
-      .sort(
-        (left, right) =>
-          left.data.quickReference.group.localeCompare(right.data.quickReference.group) ||
-          left.data.quickReference.order - right.data.quickReference.order,
-      ),
-  );
 
   // Maps every in-chapter anchor back to its rule title so search results stay rule-level.
   eleventyConfig.addCollection('sectionTitles', (collection) =>
@@ -151,9 +141,6 @@ export default function configure(eleventyConfig) {
   );
   eleventyConfig.addFilter('chapterRules', (items, chapter) =>
     (items ?? []).filter((item) => item.data.chapter === chapter).sort(byOrder),
-  );
-  eleventyConfig.addFilter('quickGroup', (items, group) =>
-    (items ?? []).filter((item) => item.data.quickReference.group === group),
   );
   eleventyConfig.addFilter('navCurrent', (pageUrl, href) =>
     href === '/' ? pageUrl === '/' : pageUrl?.startsWith(href),
