@@ -11,6 +11,23 @@ layout: layouts/base.njk
     <p class="chapter-deck">{{ summary | summaryText }}</p>
   </header>
 
+  <nav class="chapter-tabs" aria-label="In this chapter" data-pagefind-ignore>
+    <span class="chapter-tabs__label">Sections</span>
+    <div class="chapter-tabs__scroller">
+      <ul>
+        {% if isTalents %}
+          <li><a href="#talent-list-title">All Talents</a></li>
+        {% endif %}
+        {% for item in chapterItems %}
+          <li><a href="#{{ item.data.slug }}">{{ item.data.title }}</a></li>
+        {% endfor %}
+        {% if isCreatures %}
+          <li><a href="#creature-list-title">Creature Profiles</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </nav>
+
   <article class="prose chapter-intro" data-pagefind-ignore>
     {{ content | safe }}
   </article>

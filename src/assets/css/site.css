@@ -413,6 +413,7 @@ summary,
 }
 
 .chapter-heading,
+.chapter-tabs,
 .rule-section,
 .chapter-intro,
 .talent-browser,
@@ -429,6 +430,59 @@ summary,
 .chapter-heading {
   padding-bottom: clamp(1.8rem, 4vw, 3.4rem);
   border-bottom: 1px solid var(--paper-line);
+}
+
+.chapter-tabs {
+  display: grid;
+  align-items: center;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--paper-line);
+  gap: 0.75rem 1rem;
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.chapter-tabs__label {
+  color: var(--oxide);
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.chapter-tabs__scroller {
+  min-width: 0;
+  padding: 0.25rem 0.1rem 0.4rem;
+}
+
+.chapter-tabs ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  list-style: none;
+}
+
+.chapter-tabs a {
+  display: block;
+  padding: 0.42rem 0.65rem;
+  border: 1px solid var(--paper-line);
+  color: var(--ink);
+  background: var(--bone-light);
+  font-family: var(--display);
+  font-size: 0.88rem;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+  line-height: 1.1;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.chapter-tabs a:hover {
+  border-color: var(--oxide);
+  color: var(--bone-light);
+  background: var(--oxide);
 }
 
 .eyebrow {
@@ -1793,6 +1847,22 @@ tbody tr:last-child td {
     padding: 2.2rem 1rem 3rem;
   }
 
+  .chapter-tabs {
+    align-items: stretch;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .chapter-tabs__scroller {
+    overflow-x: auto;
+    scrollbar-color: var(--oxide) var(--paper-line);
+    scrollbar-width: thin;
+  }
+
+  .chapter-tabs ul {
+    width: max-content;
+    flex-wrap: nowrap;
+  }
+
   h1 {
     font-size: clamp(2.9rem, 16vw, 4.8rem);
   }
@@ -1969,6 +2039,7 @@ tbody tr:last-child td {
 
   .site-header,
   .chapter-nav,
+  .chapter-tabs,
   .chapter-measure,
   .site-footer,
   .filter-bar {

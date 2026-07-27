@@ -50,6 +50,60 @@ test('home and primary rules navigation work at the target width', async ({ page
   await expect(page.getByLabel('Search the rules')).toBeInViewport();
 });
 
+test('every rules chapter links to each of its sections below the chapter heading', async ({
+  page,
+}) => {
+  test.setTimeout(60_000);
+  const chapterIds = [
+    'start-here',
+    'characters',
+    'skills',
+    'equipment',
+    'combat',
+    'magic',
+    'talents',
+    'adventuring',
+    'gm-tools',
+    'creatures',
+  ];
+
+  for (const chapterId of chapterIds) {
+    await page.goto(`/rules/${chapterId}/`);
+
+    const sectionTabs = page.locator('.chapter-heading + .chapter-tabs');
+    await expect(sectionTabs).toBeVisible();
+    await expect(sectionTabs).toHaveAttribute('aria-label', 'In this chapter');
+
+    const links = sectionTabs.getByRole('link');
+    expect(await links.count()).toBeGreaterThan(0);
+
+    const destinations = await links.evaluateAll((items) =>
+      items.map((item) => item.getAttribute('href')),
+    );
+    for (const destination of destinations) {
+      expect(destination).toMatch(/^#[a-z0-9-]+$/);
+      await expect(page.locator(destination)).toHaveCount(1);
+    }
+
+    await expectNoHorizontalOverflow(page);
+  }
+
+  await page.goto('/rules/combat/');
+  await page.locator('.chapter-tabs').getByRole('link', { name: 'Damage and Wounds' }).click();
+  await expect(page).toHaveURL(/#damage-and-wounds$/);
+  await expect(page.locator('#damage-and-wounds')).toBeInViewport();
+
+  await page.goto('/rules/talents/');
+  await expect(
+    page.locator('.chapter-tabs').getByRole('link', { name: 'All Talents' }),
+  ).toHaveAttribute('href', '#talent-list-title');
+
+  await page.goto('/rules/creatures/');
+  await expect(
+    page.locator('.chapter-tabs').getByRole('link', { name: 'Creature Profiles' }),
+  ).toHaveAttribute('href', '#creature-list-title');
+});
+
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
   await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(17);
