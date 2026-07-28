@@ -50,7 +50,7 @@ npm run preview
 - `freeform-creatures/` — preserved drafting source for the published bestiary
 - `potential-worlds/` — unpublished, noncanonical setting candidates; compare them in the [candidate-world index](potential-worlds/README.md)
 
-Each chapter is one page: its rules, Talents, Shaping, and creature sections are inlined and addressed by anchor, such as `/rules/combat/#active-guard` or `/rules/creatures/#vampire`. Individual rule sections are still the search units, and results link to the matching anchor. Chapter introductions and Search are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, the Talent and creature filters, and collapsible examples are enhancements.
+Each chapter is one page: its rules, Talents, Shaping, and creature sections are inlined and addressed by anchor, such as `/rules/combat/#active-guard` or `/rules/creatures/#vampire`. Individual rule sections are still the search units: each result links to the best-matching heading inside its rule, names that heading, and cites the rule it belongs to. Because Pagefind scores whole chapter pages, results are reordered by each rule's own strongest match. Chapter introductions and Search are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, the Talent and creature filters, and collapsible examples are enhancements.
 
 The default build targets an origin root. To deploy under a subpath, set `FANTASY_CRUX_PATH_PREFIX` to that path before building; the HTML, assets, and search loader are path-prefix aware.
 

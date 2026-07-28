@@ -31,7 +31,7 @@ Distribute the usual 30 points on top, observing the creation maximum of 18 and 
 
 ## Random characteristics {#gm-race-random-characteristics}
 
-As an alternative to the point method, roll the race's own [characteristic dice](/rules/creatures/#reading-a-profile) straight from its creature profile instead of the human `4D6`-drop-lowest method. An Elf rolls `DEX` as `3D6+6` and `STR` as `2D6+3`; a Dwarf rolls `SIZ` as `1D6+3` and `STR` as `4D6`. After all seven rolls, swap one pair if desired, as with [human random characters](/rules/characters/#characteristics--characters-random-characteristics).
+As an alternative to the point method, roll the race's own [characteristic dice](/rules/creatures/#reading-a-profile) straight from its creature profile instead of the human `4D6`-drop-lowest method. An Elf rolls `DEX` as `3D6+6` and `STR` as `2D6+3`; a Dwarf rolls `SIZ` as `1D6+3` and `STR` as `4D6`. After all seven rolls, swap one pair if desired, as with [human random characters](/rules/characters/#character-creation--characters-random-characteristics).
 
 ## Racial maxima {#gm-race-maxima}
 

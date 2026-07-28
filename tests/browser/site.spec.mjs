@@ -70,6 +70,15 @@ test('every rules chapter links to each of its sections below the chapter headin
     await page.goto(`/rules/${chapterId}/`);
 
     const sectionTabs = page.locator('.chapter-heading + .chapter-tabs');
+
+    // Chapters with a single section (e.g. Start Here) skip the tabs menu — it has nothing to navigate between.
+    if (chapterId === 'start-here') {
+      await expect(sectionTabs).toHaveCount(0);
+      await expect(page.locator('.chapter-sections .rule-section-heading h2')).toHaveCount(1);
+      await expectNoHorizontalOverflow(page);
+      continue;
+    }
+
     await expect(sectionTabs).toBeVisible();
     await expect(sectionTabs).toHaveAttribute('aria-label', 'In this chapter');
 
@@ -346,6 +355,39 @@ test('Pagefind returns indexed rules and Talents', async ({ page }) => {
   await page.getByRole('button', { name: 'Search', exact: true }).click();
   await expect(status).toContainText('0 results');
   await expect(page.locator('[data-search-results] li')).toHaveCount(0);
+  await expectNoHorizontalOverflow(page);
+});
+
+// A long rule such as Character creation covers many steps, so a hit inside one must link to that
+// step rather than dumping the reader at the top of the rule.
+test('search links into the matching subsection of a long rule', async ({ page }) => {
+  await page.goto('/search/');
+
+  await page.getByLabel('Rule, term, or Talent').fill('Damage Modifier');
+  await page.getByRole('button', { name: 'Search', exact: true }).click();
+  const damage = page
+    .locator('[data-search-results] li')
+    .filter({ has: page.getByRole('link', { name: 'Damage Modifier', exact: true }) })
+    .first();
+  await expect(damage.getByRole('link')).toHaveAttribute(
+    'href',
+    '/rules/characters/#character-creation--characters-damage-modifier',
+  );
+  await expect(damage.locator('.search-result-meta')).toHaveText('characters · Character creation');
+
+  // A match on the rule as a whole still reports the rule, with no subsection trail.
+  await page.getByLabel('Rule, term, or Talent').fill('corpse-eater');
+  await page.getByRole('button', { name: 'Search', exact: true }).click();
+  const ghoul = page.locator('[data-search-results] li').first();
+  await expect(ghoul.getByRole('link')).toHaveAttribute('href', '/rules/creatures/#ghoul');
+  await expect(ghoul.locator('.search-result-meta')).toHaveText('creatures');
+
+  // Following a subsection result lands on that heading rather than the rule heading.
+  await page.getByLabel('Rule, term, or Talent').fill('Damage Modifier');
+  await page.getByRole('button', { name: 'Search', exact: true }).click();
+  await damage.getByRole('link').click();
+  await expect(page).toHaveURL(/#character-creation--characters-damage-modifier$/);
+  await expect(page.locator('#character-creation--characters-damage-modifier')).toBeInViewport();
   await expectNoHorizontalOverflow(page);
 });
 

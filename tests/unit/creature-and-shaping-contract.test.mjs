@@ -150,7 +150,7 @@ describe('canonical Shaping and senses', () => {
     const techniques = read('src/content/rules/magic/techniques-and-forms.md');
     const effects = read('src/content/rules/magic/effects.md');
     const examples = read('src/content/rules/magic/rituals-and-examples.md');
-    const attributes = read('src/content/rules/characters/attributes.md');
+    const attributes = read('src/content/rules/characters/character-creation.md');
     const combined = `${techniques}\n${effects}\n${examples}`;
 
     expect(combined).toMatch(/Bend[·.]Paths[\s\S]{0,120}Intensity 2/i);

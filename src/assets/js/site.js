@@ -94,11 +94,17 @@ async function enhanceSearch() {
   const sectionTitles = titleSource ? JSON.parse(titleSource.textContent) : {};
   let pagefind;
 
-  // Headings inside a rule are namespaced `rule-slug--heading`; report the rule itself.
+  // Headings inside a rule are namespaced `rule-slug--heading`; recover the rule that owns one.
   function ruleAnchor(url) {
     const [pathname, fragment = ''] = url.split('#', 2);
     const rule = fragment.split('--', 1)[0];
     return rule ? `${pathname}#${rule}` : pathname;
+  }
+
+  // Pagefind scores a heading match far above a body match, so the strongest sub-result is the
+  // subsection a reader actually wants — long rules stay one result but link to the right step.
+  function matchStrength(entry) {
+    return (entry.weighted_locations ?? []).reduce((total, at) => total + at.balanced_score, 0);
   }
 
   async function runSearch(query) {
@@ -114,28 +120,37 @@ async function enhanceSearch() {
       pagefind ??= await import(new URL('../../pagefind/pagefind.js', import.meta.url));
       const response = await pagefind.search(term);
       const records = await Promise.all(response.results.map((result) => result.data()));
-      // Chapters are single pages: collapse every heading match back to its own rule anchor.
-      const sections = [];
-      const seen = new Set();
+      // Chapters are single pages: keep one result per rule, anchored at its best-matching heading.
+      const sections = new Map();
 
       for (const record of records) {
         for (const entry of record.sub_results?.length ? record.sub_results : [record]) {
-          const url = ruleAnchor(entry.url ?? record.url);
-          if (seen.has(url)) continue;
-          seen.add(url);
-          sections.push({
+          const url = entry.url ?? record.url;
+          const rule = ruleAnchor(url);
+          const strength = matchStrength(entry);
+          if (sections.get(rule)?.strength >= strength) continue;
+          const ruleTitle = sectionTitles[rule] ?? record.meta.title ?? 'Untitled rule';
+          sections.set(rule, {
+            strength,
             chapter: record.meta.chapter ?? 'Rules',
-            title: sectionTitles[url] ?? entry.title ?? record.meta.title ?? 'Untitled rule',
+            // A subsection names itself and cites its rule; a whole-rule match just names the rule.
+            rule: url === rule ? null : ruleTitle,
+            title: url === rule ? ruleTitle : (entry.title ?? ruleTitle),
             url,
             excerpt: entry.excerpt ?? record.excerpt,
           });
         }
       }
-      status.textContent = `${sections.length} result${sections.length === 1 ? '' : 's'} for “${term}”.`;
+      status.textContent = `${sections.size} result${sections.size === 1 ? '' : 's'} for “${term}”.`;
 
-      for (const section of sections) {
+      // Pagefind ranks whole chapter pages, which says nothing about which rule on that page fits.
+      // Rules are the search unit here, so order them by their own strongest match instead.
+      const ranked = [...sections.values()].sort((left, right) => right.strength - left.strength);
+
+      for (const section of ranked) {
         const item = document.createElement('li');
-        const meta = textElement('p', section.chapter, 'search-result-meta');
+        const trail = section.rule ? `${section.chapter} · ${section.rule}` : section.chapter;
+        const meta = textElement('p', trail, 'search-result-meta');
         const heading = document.createElement('h2');
         const link = document.createElement('a');
         const excerpt = document.createElement('p');

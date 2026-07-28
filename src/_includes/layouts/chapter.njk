@@ -4,6 +4,7 @@ layout: layouts/base.njk
 {% set isTalents = id == 'talents' %}
 {% set isCreatures = id == 'creatures' %}
 {% set chapterItems = collections.talents if isTalents else collections.rules | chapterRules(id) %}
+{% set sectionTabCount = chapterItems | length + (1 if isTalents else 0) + (1 if isCreatures else 0) %}
 <div class="page-surface chapter-page">
   <header class="chapter-heading">
     <p class="eyebrow">Chapter {{ order | padChapter }}</p>
@@ -11,22 +12,24 @@ layout: layouts/base.njk
     <p class="chapter-deck">{{ summary | summaryText }}</p>
   </header>
 
-  <nav class="chapter-tabs" aria-label="In this chapter" data-pagefind-ignore>
-    <span class="chapter-tabs__label">Sections</span>
-    <div class="chapter-tabs__scroller">
-      <ul>
-        {% if isTalents %}
-          <li><a href="#talent-list-title">All Talents</a></li>
-        {% endif %}
-        {% for item in chapterItems %}
-          <li><a href="#{{ item.data.slug }}">{{ item.data.title }}</a></li>
-        {% endfor %}
-        {% if isCreatures %}
-          <li><a href="#creature-list-title">Creature Profiles</a></li>
-        {% endif %}
-      </ul>
-    </div>
-  </nav>
+  {% if sectionTabCount > 1 %}
+    <nav class="chapter-tabs" aria-label="In this chapter" data-pagefind-ignore>
+      <span class="chapter-tabs__label">Sections</span>
+      <div class="chapter-tabs__scroller">
+        <ul>
+          {% if isTalents %}
+            <li><a href="#talent-list-title">All Talents</a></li>
+          {% endif %}
+          {% for item in chapterItems %}
+            <li><a href="#{{ item.data.slug }}">{{ item.data.title }}</a></li>
+          {% endfor %}
+          {% if isCreatures %}
+            <li><a href="#creature-list-title">Creature Profiles</a></li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+  {% endif %}
 
   <article class="prose chapter-intro" data-pagefind-ignore>
     {{ content | safe }}

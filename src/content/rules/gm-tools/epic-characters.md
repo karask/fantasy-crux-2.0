@@ -18,4 +18,4 @@ For a more heroic campaign, where the characters face whole hosts of foes and be
 - **Epic skills:** raise up to 50 points of starting skill instead of 30. The 100% ceiling still holds.
 - **Epic Improvement Points:** each character finishes creation with 6 additional Improvement Points.
 
-Everything else, including [wounds](/rules/characters/#hero-points-and-wounds) and the [improvement table](/rules/characters/#improvement), works normally. Epic characters absorb far more punishment than ordinary ones, so raise opposition accordingly or the danger the rest of the rules assume will disappear.
+Everything else, including [wounds](/rules/characters/#character-creation--characters-hero-points) and the [improvement table](/rules/characters/#improvement), works normally. Epic characters absorb far more punishment than ordinary ones, so raise opposition accordingly or the danger the rest of the rules assume will disappear.
