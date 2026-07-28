@@ -27,12 +27,12 @@ After a hit, an aware defender may spend an eligible Reaction before damage is r
 
 Compare the attacking weapon with the ready item used to Parry. Unarmed attacks and projectiles from bows, crossbows, and slings are Light. Natural weapons use their listed Size, or Medium when none is listed. Thrown weapons retain their listed Size.
 
-| Parrying item             | Effect on an ordinary hit                                    |
-| ------------------------- | ------------------------------------------------------------ |
-| Same Size or larger       | Block all damage.                                            |
-| One Size smaller          | Block half the total damage, rounding the amount blocked up. |
-| Two or more Sizes smaller | Reduce no damage.                                            |
-| Critical Parry            | Block all damage, regardless of Size.                        |
+| Parrying item             | Effect on an ordinary hit             |
+| ------------------------- | ------------------------------------- |
+| Same Size or larger       | Block all damage.                     |
+| One Size smaller          | Block half the total damage.          |
+| Two or more Sizes smaller | Reduce no damage.                     |
+| Critical Parry            | Block all damage, regardless of Size. |
 
 Apply armour only after a Parry has changed the damage.
 
