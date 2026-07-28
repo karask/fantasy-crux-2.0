@@ -71,10 +71,10 @@ test('every rules chapter links to each of its sections below the chapter headin
 
     const sectionTabs = page.locator('.chapter-heading + .chapter-tabs');
 
-    // Chapters with a single section (e.g. Start Here) skip the tabs menu — it has nothing to navigate between.
-    if (chapterId === 'start-here') {
+    // Single-section chapters skip the tabs menu — there is nothing to navigate between. Start
+    // Here holds one rule; every Talent lives in one filterable section.
+    if (chapterId === 'start-here' || chapterId === 'talents') {
       await expect(sectionTabs).toHaveCount(0);
-      await expect(page.locator('.chapter-sections .rule-section-heading h2')).toHaveCount(1);
       await expectNoHorizontalOverflow(page);
       continue;
     }
@@ -101,11 +101,6 @@ test('every rules chapter links to each of its sections below the chapter headin
   await expect(page).toHaveURL(/#damage-and-wounds$/);
   await expect(page.locator('#damage-and-wounds')).toBeInViewport();
 
-  await page.goto('/rules/talents/');
-  await expect(
-    page.locator('.chapter-tabs').getByRole('link', { name: 'All Talents' }),
-  ).toHaveAttribute('href', '#talent-list-title');
-
   await page.goto('/rules/creatures/');
   await expect(
     page.locator('.chapter-tabs').getByRole('link', { name: 'Creature Profiles' }),
@@ -114,9 +109,9 @@ test('every rules chapter links to each of its sections below the chapter headin
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(18);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(18);
   await page.getByRole('button', { name: 'Shield' }).click();
-  const visibleCards = page.locator('.talent-grid [data-filter-item]:visible');
+  const visibleCards = page.locator('.talent-list [data-filter-item]:visible');
   await expect(visibleCards).not.toHaveCount(0);
   await expect(visibleCards.first()).toContainText(/shield/i);
   await expect(page.locator('[data-filter-count]')).not.toHaveText('18');
@@ -440,7 +435,7 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(18);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(18);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();

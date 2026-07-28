@@ -515,12 +515,6 @@ summary,
   margin-top: clamp(1.4rem, 3vw, 2.2rem);
 }
 
-.talent-section .rule-section-heading {
-  display: flex;
-  align-items: flex-start;
-  gap: clamp(1rem, 2vw, 1.6rem);
-}
-
 .home-surface .eyebrow {
   color: var(--oxide-light);
 }
@@ -779,25 +773,28 @@ tbody tr:last-child td {
   background: var(--ink);
 }
 
-.talent-grid {
-  display: grid;
-  gap: 1px;
+.talent-list {
   border-top: 1px solid var(--paper-line);
-  background: var(--paper-line);
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.talent-card {
-  display: grid;
-  min-width: 0;
-  gap: 1rem;
-  padding: 1.45rem;
-  background: var(--bone);
-  grid-template-columns: 48px 1fr;
+.talent-profile {
+  display: block;
+  padding-top: clamp(2.4rem, 5vw, 3.6rem);
+  padding-bottom: clamp(1rem, 2vw, 1.6rem);
 }
 
-.talent-card[hidden] {
+.talent-profile + .talent-profile {
+  border-top: 1px solid var(--paper-line);
+}
+
+.talent-profile[hidden] {
   display: none;
+}
+
+.talent-profile-heading {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(1rem, 2vw, 1.6rem);
 }
 
 .talent-cost {
@@ -821,48 +818,6 @@ tbody tr:last-child td {
   margin-top: 0.12rem;
   font-family: var(--mono);
   font-size: 0.55rem;
-}
-
-.talent-mode {
-  margin: 0;
-  color: #4d5756;
-  font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-}
-
-.talent-card h3 {
-  margin: 0.18rem 0 0.5rem;
-  font-size: 1.55rem;
-  text-transform: uppercase;
-}
-
-.talent-card h3 a {
-  text-decoration: none;
-}
-
-.talent-card h3 a:hover {
-  color: var(--oxide);
-}
-
-.talent-card p:not(.talent-mode) {
-  margin: 0.35rem 0;
-  color: #43504e;
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
-.talent-card .prerequisite {
-  padding-top: 0.45rem;
-  border-top: 1px solid var(--paper-line);
-}
-
-.prerequisite span {
-  color: var(--oxide);
-  font-family: var(--mono);
-  font-size: 0.61rem;
-  text-transform: uppercase;
 }
 
 /* Legal copy: dense, readable, and never competing with the rules typography. */
@@ -1823,14 +1778,8 @@ tbody tr:last-child td {
     margin: 0;
   }
 
-  .talent-grid,
   .chapter-directory ol {
     grid-template-columns: 1fr;
-  }
-
-  .talent-card {
-    padding-inline: 0;
-    border-right: 0;
   }
 
   .talent-heading {
@@ -1945,15 +1894,6 @@ tbody tr:last-child td {
   .hero-principles dl > div:nth-child(even) {
     padding-left: 0;
     border-left: 0;
-  }
-
-  .talent-card {
-    gap: 0.7rem;
-    grid-template-columns: 42px 1fr;
-  }
-
-  .talent-cost {
-    width: 42px;
   }
 
   /* The 4-column stat grid is too narrow here for a long formula like (10D6+30) to sit

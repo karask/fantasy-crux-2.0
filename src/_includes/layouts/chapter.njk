@@ -4,7 +4,8 @@ layout: layouts/base.njk
 {% set isTalents = id == 'talents' %}
 {% set isCreatures = id == 'creatures' %}
 {% set chapterItems = collections.talents if isTalents else collections.rules | chapterRules(id) %}
-{% set sectionTabCount = chapterItems | length + (1 if isTalents else 0) + (1 if isCreatures else 0) %}
+{# Talents live in one filterable section, so the chapter has nothing to tab between. #}
+{% set sectionTabCount = 1 if isTalents else chapterItems | length + (1 if isCreatures else 0) %}
 <div class="page-surface chapter-page">
   <header class="chapter-heading">
     <p class="eyebrow">Chapter {{ order | padChapter }}</p>
@@ -36,15 +37,15 @@ layout: layouts/base.njk
   </article>
 
   {% if isTalents %}
-    <section class="talent-browser" aria-labelledby="talent-list-title" data-filter-browser data-pagefind-ignore>
-      <div class="section-rule">
+    <section class="talent-browser" aria-labelledby="talent-list-title" data-filter-browser>
+      <div class="section-rule" data-pagefind-ignore>
         <div>
           <p class="eyebrow">Purchase catalogue</p>
           <h2 id="talent-list-title">All Talents</h2>
         </div>
         <p role="status" aria-live="polite"><span data-filter-count>{{ chapterItems | length }}</span> Talents available</p>
       </div>
-      <div class="filter-bar" role="group" aria-label="Filter Talents">
+      <div class="filter-bar" role="group" aria-label="Filter Talents" data-pagefind-ignore>
         <button type="button" data-filter="all" aria-pressed="true">All</button>
         <button type="button" data-filter="offence" aria-pressed="false">Offence</button>
         <button type="button" data-filter="defence" aria-pressed="false">Defence</button>
@@ -53,15 +54,33 @@ layout: layouts/base.njk
         <button type="button" data-filter="unarmed" aria-pressed="false">Unarmed</button>
         <button type="button" data-filter="magic" aria-pressed="false">Magic</button>
       </div>
-      <div class="talent-grid">
-        {% for talent in chapterItems %}
-          <article class="talent-card" data-filter-item data-filter-tags="{{ talent.data.tags | join(' ') }}">
-            <div class="talent-cost"><strong>{{ talent.data.cost }}</strong><span>IP</span></div>
-            <div>
-              <p class="talent-mode">{{ talent.data.activation }}</p>
-              <h3><a href="#{{ talent.data.slug }}">{{ talent.data.title }}</a></h3>
-              <p>{{ talent.data.summary | summaryText }}</p>
-              <p class="prerequisite"><span>Requires</span> {{ talent.data.prerequisites | summaryText }}</p>
+      <div class="talent-list">
+        {% for item in chapterItems %}
+          {% set talent = item.data %}
+          <article class="talent-profile" data-filter-item data-filter-tags="{{ talent.tags | join(' ') }}" data-pagefind-body data-pagefind-meta="chapter:talents">
+            <header class="rule-section-heading talent-profile-heading">
+              <div class="talent-cost talent-cost--large"><strong>{{ talent.cost }}</strong><span>IP</span></div>
+              <div>
+                <p class="eyebrow">{{ talent.activation }} talent</p>
+                <h2 id="{{ talent.slug }}" data-pagefind-meta="title">
+                  {{ talent.title }}
+                  <a class="heading-anchor" href="#{{ talent.slug }}" aria-label="Link to this section" data-pagefind-ignore></a>
+                </h2>
+                <p class="rule-deck">{{ talent.summary | summaryText }}</p>
+              </div>
+            </header>
+
+            <dl class="talent-facts">
+              <div><dt>Cost</dt><dd>{{ talent.cost }} Improvement Points</dd></div>
+              <div><dt>Requires</dt><dd>{{ talent.prerequisites | summaryText }}</dd></div>
+              <div><dt>Use</dt><dd>{{ talent.activation }}</dd></div>
+            </dl>
+
+            <div class="prose rule-copy">
+              <p class="search-index-context" aria-hidden="true" data-pagefind-weight="0.5">
+                {{ talent.title }}. {{ talent.summary | summaryText }}{% if talent.aliases %} Also known as {{ talent.aliases | join(', ') }}.{% endif %} Costs {{ talent.cost }} Improvement Points. Requires {{ talent.prerequisites | summaryText }}. {{ talent.activation }} Talent. Tags: {{ talent.tags | join(', ') }}.
+              </p>
+              {{ item.templateContent | inlineSection(talent.slug) | safe }}
             </div>
           </article>
         {% endfor %}
@@ -70,16 +89,13 @@ layout: layouts/base.njk
     </section>
   {% endif %}
 
+  {# Talents already rendered above, inside their filterable section. #}
   <div class="chapter-sections">
-    {% for item in chapterItems %}
+    {% for item in chapterItems if not isTalents %}
       {% set rule = item.data %}
-      <section class="rule-section{% if isTalents %} talent-section{% endif %}" data-pagefind-body data-pagefind-meta="chapter:{{ id }}">
+      <section class="rule-section" data-pagefind-body data-pagefind-meta="chapter:{{ id }}">
         <header class="rule-section-heading">
-          {% if isTalents %}
-            <div class="talent-cost talent-cost--large"><strong>{{ rule.cost }}</strong><span>IP</span></div>
-          {% endif %}
           <div>
-            {% if isTalents %}<p class="eyebrow">{{ rule.activation }} talent</p>{% endif %}
             <h2 id="{{ rule.slug }}" data-pagefind-meta="title">
               {{ rule.title }}
               <a class="heading-anchor" href="#{{ rule.slug }}" aria-label="Link to this section" data-pagefind-ignore></a>
@@ -94,17 +110,9 @@ layout: layouts/base.njk
           </div>
         </header>
 
-        {% if isTalents %}
-          <dl class="talent-facts">
-            <div><dt>Cost</dt><dd>{{ rule.cost }} Improvement Points</dd></div>
-            <div><dt>Requires</dt><dd>{{ rule.prerequisites | summaryText }}</dd></div>
-            <div><dt>Use</dt><dd>{{ rule.activation }}</dd></div>
-          </dl>
-        {% endif %}
-
         <div class="prose rule-copy">
           <p class="search-index-context" aria-hidden="true" data-pagefind-weight="0.5">
-            {{ rule.title }}. {{ rule.summary | summaryText }}{% if rule.aliases %} Also known as {{ rule.aliases | join(', ') }}.{% endif %}{% if isTalents %} Costs {{ rule.cost }} Improvement Points. Requires {{ rule.prerequisites | summaryText }}. {{ rule.activation }} Talent. Tags: {{ rule.tags | join(', ') }}.{% endif %}
+            {{ rule.title }}. {{ rule.summary | summaryText }}{% if rule.aliases %} Also known as {{ rule.aliases | join(', ') }}.{% endif %}
           </p>
           {{ item.templateContent | inlineSection(rule.slug) | safe }}
         </div>
