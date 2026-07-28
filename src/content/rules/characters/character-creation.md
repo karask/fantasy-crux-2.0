@@ -70,13 +70,13 @@ Calculate attributes after assigning characteristics.
 
 | Attribute                   | Value                                  |
 | --------------------------- | -------------------------------------- |
-| Maximum Hit Points (`HP`)   | `ceil((SIZ + CON) / 2)`                |
-| Major Wound Level (`MWL`)   | `ceil(maximum HP / 2)`                 |
+| Maximum Hit Points (`HP`)   | `(SIZ + CON) / 2`                      |
+| Major Wound Level (`MWL`)   | `maximum HP / 2`                       |
 | Maximum Power Points (`PP`) | `POW`                                  |
 | Movement                    | 15 metres per Combat Round for a human |
-| Combat Order                | `round((DEX + INT) / 2) - armour ENC`  |
+| Combat Order                | `(DEX + INT) / 2` minus armour ENC     |
 
-Unless a rule says to round up or down, round to the nearest whole number; round exact halves up.
+Round to the nearest whole number; round exact halves up, as in [D100 Percentile](/rules/start-here/#d100-percentile).
 
 ### Hit Points and Major Wounds {#characters-hit-points}
 
@@ -89,7 +89,7 @@ A single post-armour hit that equals or exceeds MWL causes a [Major Wound](/rule
 Power Points fuel [Shaping](/rules/magic/) and other abilities that state a PP cost.
 They cannot exceed maximum PP.
 
-Recover `ceil(maximum PP / 4)` PP after each complete two hours of rest, up to the maximum.
+Recover a quarter of maximum PP after each complete two hours of rest, up to the maximum.
 Eight hours of rest restores all PP.
 At 0 PP, living characters fall unconscious until regaining PP; nonliving characters stay active unless stated otherwise.
 
@@ -108,14 +108,6 @@ Bows, slings, and crossbows use only their listed damage unless a Talent says ot
 |              46–60 | `+2D6`          |
 |              61–75 | `+3D6`          |
 | Each additional 15 | another `+1D6`  |
-
-## Shaping access {#characters-shaping-access}
-
-A character who will be a [Shaper](/rules/magic/#becoming-a-shaper) declares access here and requires 20 starting Improvement Points to pay for it.
-Access adds **Shaping** to the Knowledge skills at base `INT + POW`.
-
-Declare and reserve access before allocating Knowledge points.
-Other characters do not have Shaping and cannot allocate points to it.
 
 ## Starting skills {#characters-starting-skills}
 
@@ -191,8 +183,7 @@ These bonus IP may raise characteristics or buy Talents, but may not raise skill
 ## Starting Improvement Points {#characters-starting-ip}
 
 Begin with 10 Improvement Points.
-Spend them on [improvements](/rules/characters/#improvement) or available Talents.
-If Shaping access was reserved before skill allocation, pay its 8 IP first.
+Spend them on [improvements](/rules/characters/#improvement) or available Talents, including [Shaping](/rules/talents/#shaping) for a character who begins play as a Shaper.
 Characteristics remain capped at 18 during creation.
 
 ## Equipment and details {#characters-equipment-details}

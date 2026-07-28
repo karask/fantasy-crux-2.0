@@ -5,7 +5,7 @@ chapter: magic
 title: Becoming a Shaper
 slug: becoming-a-shaper
 order: 10
-summary: Spend 8 IP for Shaping, one Technique or Form specialty, two exact cells, and the universal magical actions.
+summary: Buy the 20 IP Shaping Talent for the Shaping skill, one Technique or Form specialty, two exact cells, and the universal magical actions.
 aliases:
   - Shaper creation
   - learn magic
@@ -16,14 +16,14 @@ Shapers combine one **Technique** with one **Form**. The exact pairing is a **ce
 
 ## Access {#magic-shaping-access}
 
-Shaping access costs **8 IP**, requires a supernatural initiation or discovery, and grants:
+Shaping is the [Shaping Talent](/rules/talents/#shaping). It costs **20 IP**, requires a supernatural initiation or discovery, and grants:
 
 - **Shaping**, a Knowledge skill with base `INT + POW`;
 - one specialty: a Technique or a Form;
 - two known cells containing that specialty; and
 - [Sense Magic, Counter, and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
 
-During [character creation](/rules/characters/#character-creation), declare Shaping and reserve its 8 IP before allocating Knowledge points. Pay the reserved IP during the starting-IP step. Shaping follows the 30-point creation limit.
+Buy it like any other Talent, either during [character creation](/rules/characters/#character-creation--characters-starting-ip) or later in play. A character who buys it at creation begins with Shaping at its base value, so affording it usually means trading skill points for Improvement Points.
 
 Shaping caps at 100% and improves as a normal skill, at most once between adventures. Later learning requires suitable experience.
 

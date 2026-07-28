@@ -48,4 +48,4 @@ attacks:
 talents: 'None'
 ---
 
-**Pierce Resistance:** After Parry and AP, halve damage from piercing weapons, rounded down.
+**Pierce Resistance:** After Parry and AP, halve damage from piercing weapons.

@@ -114,13 +114,18 @@ test('every rules chapter links to each of its sections below the chapter headin
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(17);
+  await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(18);
   await page.getByRole('button', { name: 'Shield' }).click();
   const visibleCards = page.locator('.talent-grid [data-filter-item]:visible');
   await expect(visibleCards).not.toHaveCount(0);
   await expect(visibleCards.first()).toContainText(/shield/i);
-  await expect(page.locator('[data-filter-count]')).not.toHaveText('17');
+  await expect(page.locator('[data-filter-count]')).not.toHaveText('18');
   await expect(page.getByRole('status')).toContainText('Talents available');
+
+  // Shaping is the one non-combat Talent, so it carries the only magic tag.
+  await page.getByRole('button', { name: 'Magic' }).click();
+  await expect(visibleCards).toHaveCount(1);
+  await expect(visibleCards.first()).toContainText('Shaping');
   await expectNoHorizontalOverflow(page);
 });
 
@@ -136,10 +141,10 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
   ];
 
   await page.goto('/');
-  const magicItem = page.locator('.chapter-directory li').filter({ hasText: 'Magic' });
+  const magicItem = page.locator('.chapter-directory li').filter({ hasText: 'Shaping' });
   await expect(magicItem).not.toHaveClass(/is-future/);
-  await magicItem.getByRole('link', { name: /Magic/ }).click();
-  await expect(page.locator('h1')).toHaveText('Magic');
+  await magicItem.getByRole('link', { name: /Shaping/ }).click();
+  await expect(page.locator('h1')).toHaveText('Shaping');
   const headings = page.locator('.rule-section-heading h2');
   await expect(headings).toHaveCount(7);
   expect(await headings.evaluateAll((items) => items.map((item) => item.id))).toEqual(sections);
@@ -147,8 +152,17 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
   await expect(page.locator('main')).not.toContainText('Magic rules are in development.');
   await expectNoHorizontalOverflow(page);
 
+  // Shaping is bought as a Talent, so creation points at the Talent and the Talent at the chapter.
   await page.goto('/rules/characters/');
-  await expect(page.getByRole('link', { name: /Shaper/i }).first()).toHaveAttribute(
+  await expect(page.getByRole('link', { name: 'Shaping', exact: true }).last()).toHaveAttribute(
+    'href',
+    '/rules/talents/#shaping',
+  );
+
+  await page.goto('/rules/talents/#shaping');
+  const shaping = page.locator('#shaping').locator('xpath=ancestor::section[1]');
+  await expect(shaping).toContainText('20');
+  await expect(shaping.getByRole('link', { name: 'Shaper', exact: true })).toHaveAttribute(
     'href',
     '/rules/magic/#becoming-a-shaper',
   );
@@ -426,7 +440,7 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(17);
+  await expect(page.locator('.talent-grid [data-filter-item]')).toHaveCount(18);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();

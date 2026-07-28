@@ -45,7 +45,7 @@ talents: 'Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Pe
 
 **Engulf:** Spend one Combat Action, centred on the Elemental; complete barriers block it. Roll damage once. Small through Large roll Attack once, which must succeed and win against each target's listed resistance separately.
 
-**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half rounded down, and Failure or Fumble takes full damage.
+**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half, and Failure or Fumble takes full damage.
 
 - **Undine — Drown:** Resilience; HP damage; ignores AP.
 - **Shade — Fear:** Persistence; PP damage; ignores AP; normal 0-PP unconsciousness applies.

@@ -45,6 +45,6 @@ attacks:
 talents: 'None'
 ---
 
-**Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `min(POW × 5, 100)%`. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.
+**Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `POW × 5`%, capped at 100%. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.
 
 **Defensive Spirit:** It cannot initiate Spirit Combat but may defend when another creature initiates it.

@@ -36,13 +36,13 @@ It remains overreach when Bonus dice cancel the Penalty dice. [Shaping expertise
 
 Practice, Tell, a valid target, and line of effect are required unless Scry, Indirect, or ritual Range says otherwise. If a required Practice is already prevented, casting cannot begin.
 
-| Casting result                    | Outcome                                                                                             |
-| --------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **Critical**                      | Success; pay half Magnitude, rounded up. Critical grade applies, but effect dice are not maximised. |
-| **Success**                       | Pay full Magnitude.                                                                                 |
-| **Failure within Safe Magnitude** | No effect; lose 1 PP.                                                                               |
-| **Failed overreach**              | No effect; lose half Magnitude, rounded up, and suffer Backlash.                                    |
-| **Fumble**                        | No intended effect; lose full Magnitude and suffer Backlash.                                        |
+| Casting result                    | Outcome                                                                                 |
+| --------------------------------- | --------------------------------------------------------------------------------------- |
+| **Critical**                      | Success; pay half Magnitude. Critical grade applies, but effect dice are not maximised. |
+| **Success**                       | Pay full Magnitude.                                                                     |
+| **Failure within Safe Magnitude** | No effect; lose 1 PP.                                                                   |
+| **Failed overreach**              | No effect; lose half Magnitude and suffer Backlash.                                     |
+| **Fumble**                        | No intended effect; lose full Magnitude and suffer Backlash.                            |
 
 A stopped successful Shaping still pays. Resolve Hero Point rerolls before PP loss or Backlash. Effects begin before 0-PP unconsciousness; concentration then ends.
 

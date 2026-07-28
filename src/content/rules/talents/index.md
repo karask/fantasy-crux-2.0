@@ -2,11 +2,11 @@
 type: chapter
 id: talents
 title: Talents
-order: 6
-summary: Optional combat techniques purchased with Improvement Points after meeting their prerequisites.
+order: 5
+summary: Optional techniques and abilities purchased with Improvement Points after meeting their prerequisites.
 ---
 
-Talents hold the specialised combat options omitted from the core rules. Pay the listed Improvement Point cost once and record the Talent. Skill and Characteristic prerequisites must be met when it is bought; listed equipment is a use requirement, not something that must be held during purchase.
+Talents hold the specialised options omitted from the core rules, from combat techniques to Shaping itself. Pay the listed Improvement Point cost once and record the Talent. Skill and Characteristic prerequisites must be met when it is bought; listed equipment is a use requirement, not something that must be held during purchase.
 
 **Passive** Talents apply whenever their conditions are met. An **action** Talent spends the Combat Action; a **reaction** Talent spends the Reaction named in its text. Only one action Talent can modify an attack, and an attack made by an action Talent is not a standard attack for extra off-hand attacks. Passive Talents still apply when relevant.
 

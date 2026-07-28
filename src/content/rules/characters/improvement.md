@@ -40,10 +40,7 @@ A human characteristic cannot exceed 21 after play begins, or 18 during characte
 
 Talents provide trained exceptions and advanced manoeuvres.
 Pay the listed IP cost and meet any prerequisite.
-
-## Learn Shaping {#characters-learn-shaping}
-
-[Shaping access and new Technique–Form cells](/rules/magic/#becoming-a-shaper) have their own IP costs. The Shaping skill itself improves normally.
+This includes [Shaping](/rules/talents/#shaping); new [Technique–Form cells](/rules/magic/#becoming-a-shaper) have their own IP costs, while the Shaping skill itself improves normally.
 
 ## Practice and research {#characters-practice-research}
 

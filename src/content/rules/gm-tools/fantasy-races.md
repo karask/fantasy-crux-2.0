@@ -53,4 +53,4 @@ Abilities from the creature profile are paid for out of the character's 10 start
 - **Elf** — Night Sight and Exceptional Archer, 3 IP each.
 - **Dwarf** — Blind Sight (heat), 4 IP, because it works in any light; and Earth Sense, 2 IP, because it is situational.
 
-Six of the ten starting points are gone either way, which is the intended cost of playing something other than human. Price any other race's abilities the same way, and remember that a race whose profile carries Shaping cells must pay for [Shaping access](/rules/magic/#becoming-a-shaper) as well.
+Six of the ten starting points are gone either way, which is the intended cost of playing something other than human. Price any other race's abilities the same way, and remember that a race whose profile carries Shaping cells must buy the [Shaping Talent](/rules/talents/#shaping) as well.

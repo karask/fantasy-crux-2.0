@@ -28,7 +28,7 @@ Check fumbles first; a fumble overrides success.
 
 | Grade    | Result                                                   |
 | -------- | -------------------------------------------------------- |
-| Critical | Roll from 01 through `floor(skill / 10)`.                |
+| Critical | Roll from 01 through the skill's tens digit.             |
 | Success  | Roll at or below the skill without a Critical or Fumble. |
 | Failure  | Roll above the skill without a Fumble.                   |
 | Fumble   | Roll 99 or 00 with a skill below 100%; at 100%, only 00. |

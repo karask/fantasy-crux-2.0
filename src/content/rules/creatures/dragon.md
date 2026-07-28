@@ -57,7 +57,7 @@ talents: 'Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience
 
 **Double Claw 2 (Multiattack):** Make two Claw attacks. Mastery (Unarmed Combat) I normally removes the second attack's `-1P`.
 
-**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage, rounded down; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.
+**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.
 
 **Fire Resistance:** Reduce fire damage by 12 after other reductions.
 

@@ -4,7 +4,7 @@ This unpublished reference converts the original creature chapter to the current
 
 ## Reading a profile
 
-Characteristics and attributes are fixed ready-to-play values. HP is `ceil((SIZ + CON) / 2)`, MWL is `ceil(HP / 2)`, PP normally equals POW, and Combat Order is `round((DEX + INT) / 2)` minus worn-armour ENC. Unlisted skills use their normal Lite base values.
+Characteristics and attributes are fixed ready-to-play values. HP is `(SIZ + CON) / 2`, MWL is `HP / 2`, PP normally equals POW, and Combat Order is `(DEX + INT) / 2` minus worn-armour ENC. Unlisted skills use their normal Lite base values.
 
 An attack lists its skill, base damage, and Size. Add DM once to close, unarmed, and thrown damage; bows, slings, and crossbows never add it. Natural weapons are Light at SIZ 1–5, Medium at 6–20, Heavy at 21–40, and Huge at 41+; ordinary fists and kicks remain Light.
 
@@ -441,7 +441,7 @@ An ancient, intelligent flying reptile whose magic and temperament vary widely.
 
 **Abilities:** **Double Claw 2 (Multiattack):** Make two Claw attacks. Mastery (Unarmed Combat) I normally removes the second attack's `-1P`.
 
-**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage, rounded down; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.
+**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.
 
 **Fire Resistance:** Reduce fire damage by 12 after other reductions.
 
@@ -494,7 +494,7 @@ Raw elemental substance embodied as water, darkness, flame, stone, or storm.
 
 **Abilities:** **Engulf:** Spend one Combat Action, centred on the Elemental; complete barriers block it. Roll damage once. Small through Large roll Attack once, which must succeed and win against each target's listed resistance separately.
 
-**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half rounded down, and Failure or Fumble takes full damage.
+**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half, and Failure or Fumble takes full damage.
 
 - **Undine — Drown:** Resilience; HP damage; ignores AP.
 - **Shade — Fear:** Persistence; PP damage; ignores AP; normal 0-PP unconsciousness applies.
@@ -1060,7 +1060,7 @@ A constellation of coloured lights gathered around one coherent magical theme.
 
 **Talents:** None.
 
-**Abilities:** **Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `min(POW × 5, 100)%`. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.
+**Abilities:** **Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `POW × 5`%, capped at 100%. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.
 
 **Defensive Spirit:** It cannot initiate Spirit Combat but may defend when another creature initiates it.
 
@@ -1146,7 +1146,7 @@ Animated bones following simple commands.
 
 **Talents:** None.
 
-**Abilities:** **Pierce Resistance:** After Parry and AP, halve damage from piercing weapons, rounded down.
+**Abilities:** **Pierce Resistance:** After Parry and AP, halve damage from piercing weapons.
 
 ### Vampire
 

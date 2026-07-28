@@ -41,7 +41,7 @@ Healing cannot exceed maximum HP and removes **Bleeding** and **Dying**. A livin
 
 At Intensity 3+, healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery): natural recovery is unlocked, and Wounded ends after treatment once HP exceeds MWL.
 
-Curing poison or disease needs minimum Intensity `ceil(Potency / 25)`. Oppose Shaping with Potency; the Shaper must succeed and win. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change before retrying.
+Curing poison or disease needs a minimum Intensity of Potency divided by 25. Oppose Shaping with Potency; the Shaper must succeed and win. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change before retrying.
 
 Healing does not remove Fatigue, deprivation, age, or unrelated conditions without another paid outcome. Returning the dead requires Intensity 5, permanent Duration, a mythic ritual, a willing reachable soul, and a lasting price. The subject returns at 1 HP and Wounded; a destroyed body must be restored separately.
 

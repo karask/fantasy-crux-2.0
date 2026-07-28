@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 17-Talent catalogue', () => {
+  it('ships exactly the approved 18-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -39,6 +39,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Protector',
         'Quick Reflexes',
         'Rapid Shot',
+        'Shaping',
         'Shield Cover',
         'Shield Rush',
         'Subdue',
@@ -53,9 +54,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     const magicRules = records
       .filter((record) => record.data.type === 'rule' && record.data.chapter === 'magic')
       .sort((left, right) => left.data.order - right.data.order);
-    const characterCreation = records.find(
-      (record) => record.data.id === 'characters.character-creation',
-    );
+    const shapingTalent = records.find((record) => record.data.id === 'talent.shaping');
     const alternateMagic = readFileSync(
       path.resolve('freeform-magic/FC-magic-potential-2.md'),
       'utf8',
@@ -72,7 +71,8 @@ describe('canonical Fantasy Crux 2.0 content', () => {
       ['magic.ongoing-and-magical-actions', 'ongoing-and-magical-actions'],
       ['magic.rituals-and-examples', 'rituals-and-examples'],
     ]);
-    expect(characterCreation.content).toContain('/rules/magic/#becoming-a-shaper');
+    expect(shapingTalent.data.cost).toBe(20);
+    expect(shapingTalent.content).toContain('/rules/magic/#becoming-a-shaper');
     expect(alternateMagic).toContain('Traditions and Authorities');
     expect(existsSync(path.resolve('freeform-magic/FC-magic-shaping-potential-1.md'))).toBe(false);
   });

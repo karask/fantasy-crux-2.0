@@ -23,9 +23,9 @@ After strenuous activity such as a long fight, sprint, hard climb, or strong-cur
 - A failed Fatigue test makes a fresh character Fatigued.
 - Strenuous activity while Fatigued calls for another Fatigue test at `-1P`; failure makes the character Exhausted.
 - A fumbled Fatigue test causes unconsciousness for `3D6` minutes. The character awakens Fatigued.
-- `max(1, 20 − CON)` hours of complete rest removes Fatigued or Exhausted.
+- `20 − CON` hours of complete rest, minimum 1, removes Fatigued or Exhausted.
 
-Fractions of Movement are rounded down, to a minimum of 1 metre.
+Reduced Movement is never less than 1 metre.
 
 ## Exposure, starvation, and thirst {#adventuring-deprivation}
 

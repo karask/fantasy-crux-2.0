@@ -19,7 +19,7 @@ Rituals are mandatory above normal Safe + 2, or for Intensity 5, Range 4+, Reach
 - takes one hour per Magnitude;
 - needs a prepared place, full Practice, and fitting focus or offering;
 - grants `+1B`; and
-- permits up to `max(Safe Magnitude + 2, 2 × Safe Magnitude)`.
+- permits up to `Safe Magnitude + 2` or `2 × Safe Magnitude`, whichever is greater.
 
 Anything beyond this maximum is a unique campaign event requiring exceptional preparation, Gamemaster approval, and a serious lasting price.
 

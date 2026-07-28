@@ -9,4 +9,4 @@ summary: Resolve uncertain actions with capped D100 skills, Bonus and Penalty di
 Use a skill test only when the outcome is uncertain and failure would matter.
 
 All skills range from 0% to 100%.
-[Shaping](/rules/magic/#becoming-a-shaper) is an access-gated Knowledge skill rather than a general skill.
+[Shaping](/rules/magic/#becoming-a-shaper) is a Knowledge skill granted by the [Shaping Talent](/rules/talents/#shaping) rather than a general skill.

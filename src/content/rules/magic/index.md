@@ -1,8 +1,8 @@
 ---
 type: chapter
 id: magic
-title: Magic
-order: 5
+title: Shaping
+order: 6
 summary: Build flexible freeform magic by combining learned Techniques and Forms, then price each effect through Magnitude and Power Points.
 ---
 

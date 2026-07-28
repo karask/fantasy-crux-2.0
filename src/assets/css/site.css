@@ -666,15 +666,6 @@ h3:hover .heading-anchor,
   background: rgb(255 255 255 / 25%);
 }
 
-.prose blockquote > :first-child::before {
-  color: var(--oxide);
-  content: 'RULING · ';
-  font-family: var(--mono);
-  font-size: 0.68rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-}
-
 .table-wrap {
   width: 100%;
   margin: 1.7rem 0 2rem;

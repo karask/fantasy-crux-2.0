@@ -24,7 +24,7 @@ Weapons use four sizes: **Light, Medium, Heavy,** and **Huge**. Size determines 
 | Parrying item compared with the attack |          Damage blocked |
 | -------------------------------------- | ----------------------: |
 | Same size or larger                    |                     All |
-| One size smaller                       |        Half, rounded up |
+| One size smaller                       |                    Half |
 | Two or more sizes smaller              |                    None |
 | Critical Parry                         | All, regardless of size |
 
