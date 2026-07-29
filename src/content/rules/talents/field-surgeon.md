@@ -5,7 +5,7 @@ chapter: talents
 title: Field Surgeon
 slug: field-surgeon
 order: 330
-summary: Perform Surgery without safe conditions, and treat improvised supplies as a Healing Kit.
+summary: Perform Surgery anywhere, and end Wounded the moment the Surgery succeeds.
 aliases:
   - battlefield surgery
   - improvised kit
@@ -13,11 +13,11 @@ cost: 3
 prerequisites: Healing 76%
 activation: passive
 tags:
-  - survival
+  - healing
 ---
 
 ## Effect
 
-Attempt Surgery without safe working conditions, and treat improvised supplies as a Healing Kit, removing its `-2P`.
+Attempt Surgery wherever you can stop and work; it needs no prepared place. It still cannot be attempted during combat, still needs a Healing Kit, and still restores 1 HP on a success.
 
-Surgery still cannot be attempted during combat, and still restores 1 HP on a success.
+Your successful Surgery ends Wounded at once, rather than making the patient wait until their current HP rises above their Major Wound Level.

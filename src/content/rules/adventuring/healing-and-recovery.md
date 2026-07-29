@@ -28,7 +28,7 @@ stopped.
 
 A helper can spend their entire round and make a Healing test while adjacent to the patient. Both remain stationary. Success removes Bleeding and Dying, but restores no HP. At 0 HP, a stable patient remains unconscious until restored to at least 1 HP.
 
-Healing requires a Healing Kit or suitable improvised bandages and supplies. Without a kit, the test suffers `-2P`.
+Healing requires a Healing Kit; without one, the test suffers `-2P`.
 
 ## Treating ordinary damage {#adventuring-ordinary-healing}
 
@@ -39,8 +39,7 @@ After an encounter, a character who is not Wounded may receive one Healing attem
 A Wounded character cannot recover HP naturally until successful Surgery or equivalent treatment. Surgery:
 
 - uses Healing and cannot be attempted during combat;
-- requires safe working conditions and suitable medical supplies;
-- suffers `-2P` without a Healing Kit;
+- requires safe working conditions;
 - restores 1 HP on a success.
 
 After treatment, a character performing no more than light activity recovers a quarter of CON in HP per 24 hours, up to maximum HP. Wounded ends once current HP is greater than Major Wound Level.

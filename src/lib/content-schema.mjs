@@ -40,6 +40,7 @@ export const talentTags = [
   'close',
   'craft',
   'defence',
+  'healing',
   'magic',
   'mobility',
   'offence',

@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 35-Talent catalogue', () => {
+  it('ships exactly the approved 47-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -39,28 +39,40 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Field Surgeon',
         'Flurry',
         'Indirect',
+        'Killing Angle',
         'Lockbreaker',
+        'Master Assassin',
+        'Master Craftsman',
         'Mastery',
+        "Merchant's Eye",
         'Mighty Shot (Bow or Sling)',
         'Missile Guard',
         'Off-Hand Mastery',
+        'Physician',
         'Piercing',
+        'Point-Blank Shot',
+        'Poisoner',
+        'Practised Hands',
         'Protector',
         'Quick Reflexes',
+        'Rally',
         'Rapid Shot',
+        'Selective',
         'Shaping',
         'Shield Cover',
-        'Selective',
         'Shield Rush',
         'Silent Step',
         'Silver Tongue',
+        'Steady Aim',
         'Steady Casting',
         'Subdue',
         'Sure Hand',
+        'Tracker',
         'Trigger',
         'Trip',
         'Veiled',
         'Wayfinder',
+        'Weak Point',
         'Wrestler',
       ].sort(),
     );
@@ -95,13 +107,13 @@ describe('canonical Fantasy Crux 2.0 content', () => {
   });
 
   // Reference chapters carry their own budget so they never compete with rules prose for the
-  // same allowance. The core ceiling moved from 16,000 to 16,250 when Intimidate was restored:
-  // the original figure was measured against a conversion that had dropped a Combat Action.
-  // It moved again to 16,650 as the catalogue opened past combat: Mastery, the stealth, social,
-  // craft, and survival entries, and the Shaping set. The Shaping Talents are close to free —
-  // Counter and the adjustments moved out of the Magic chapter rather than being written anew.
-  // Then to 16,730 for the Enchanter Talent; enchanting itself is written in GM Tools, which
-  // carries its own allowance.
+  // same allowance.
+  //
+  // The core ceiling was raised repeatedly as the Talent catalogue grew from 17 combat entries to
+  // 47 covering every role, each rise tracking the last commit rather than any intended length.
+  // It is set here once, deliberately, at 17,400: the catalogue is complete, so this is the size
+  // the core rules are meant to be. Treat a failure as a signal to cut prose, not to raise the
+  // number again.
   it('stays within the compact visible-copy budget', () => {
     const chapterBudgets = { creatures: 4_500, 'gm-tools': 4_000 };
     const chapterOf = (record) => record.data.chapter ?? record.data.id;
@@ -118,7 +130,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     }
 
     const core = records.filter((record) => !(chapterOf(record) in chapterBudgets));
-    expect(countWords(core)).toBeLessThanOrEqual(16_730);
+    expect(countWords(core)).toBeLessThanOrEqual(17_400);
   });
 
   it('contains no generic image or raw-HTML markup', () => {

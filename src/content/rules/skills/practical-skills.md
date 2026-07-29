@@ -68,7 +68,7 @@ Engineering designs, builds, repairs, sabotages, and operates large works such a
 
 ## Healing {#skills-healing}
 
-Healing requires a kit or suitable improvised supplies; without them, test at `-2P`.
+Healing requires a Healing Kit; without one, the test suffers `-2P`.
 
 - **Battlefield treatment:** spend the full round adjacent to a stationary patient.
   Success removes Bleeding and Dying but restores no HP.
