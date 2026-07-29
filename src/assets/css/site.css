@@ -1122,16 +1122,6 @@ tbody tr:last-child td {
   margin: 0.55rem 0 0;
 }
 
-.talent-heading {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.4rem;
-}
-
-.talent-heading h1 {
-  margin-top: 0.3rem;
-}
-
 .talent-cost--large {
   width: 70px;
   min-width: 70px;
@@ -1780,10 +1770,6 @@ tbody tr:last-child td {
 
   .chapter-directory ol {
     grid-template-columns: 1fr;
-  }
-
-  .talent-heading {
-    gap: 0.8rem;
   }
 
   .talent-cost--large {

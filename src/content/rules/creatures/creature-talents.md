@@ -5,7 +5,7 @@ chapter: creatures
 title: 'Creature Talents'
 slug: creature-talents
 order: 30
-summary: 'Mastery I–III preserves exceptional competence without raising any skill above the 100% ceiling.'
+summary: 'Creature profiles list Talents at a fixed rank; creatures never pay Improvement Points for them.'
 ---
 
-**Mastery (skill) I–III** preserves exceptional creature competence without a skill over 100%. Rating 101–125 becomes Mastery I, 126–150 becomes II, and 151+ becomes III. After ordinary Bonus/Penalty cancellation, but before the final dice cap, remove up to the rank in remaining Penalty dice from that skill's test. Mastery never creates Bonus dice, raises the skill above 100%, or expands its critical range.
+A profile may list any [Talent](/rules/talents/), most often [Mastery](/rules/talents/#mastery) at a rank of I, II, or III. They work exactly as written. Creatures never pay Improvement Points or meet prerequisites for them.

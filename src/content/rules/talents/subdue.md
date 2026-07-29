@@ -10,7 +10,7 @@ aliases:
   - knockout attack
   - nonlethal attack
 cost: 2
-prerequisites:
+prerequisites: Close Combat 51% or Unarmed Combat 51%
   - Close Combat 51% or Unarmed Combat 51%
   - Blunt attack
 activation: action

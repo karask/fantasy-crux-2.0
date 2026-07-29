@@ -42,7 +42,7 @@ Unmake can damage a manifestation or exploit a genuine natural counter. Only [Di
 | **Paths**        | Routes, thresholds, distance, destinations, and spatial links; never time travel.                             | Resilience; Dodge `-1P` for a visible moving aperture or area |
 | **Fate**         | Unresolved chance, omens, vows, and declared contingencies; never a resolved event or compelled choice.       | Persistence                                                   |
 
-Physical damage uses [armour](/rules/equipment/#armour) unless **Piercing**; internal Flesh needs Piercing. Environmental fire uses core rules; Spirit damage follows its [own rule](/rules/magic/#effects--magic-damage).
+Physical damage uses [armour](/rules/equipment/#armour) unless **Piercing**: armour and its padding interrupt the contact a Shaping needs, exactly as they blunt a weapon. Reaching inside a living body — withering an organ, rotting tissue where it lies — is **internal Flesh**, and always needs Piercing for the same reason. Environmental fire uses core rules; Spirit damage follows its [own rule](/rules/magic/#effects--magic-damage).
 
 ### Bodies, minds, and souls {#magic-bodies-minds-souls}
 

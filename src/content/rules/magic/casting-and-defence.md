@@ -77,7 +77,7 @@ The [Shield Cover Talent](/rules/talents/#shield-cover) penalises plausibly obst
 
 Tangible magical projectiles are Light for [Active Guard](/rules/combat/#active-guard)—existing objects retain Size—and count as thrown weapons for Active Guard only. A full-block Parry stops projectile and outcome; a lesser Parry reduces damage only. Flame, wind, lightning, pure Force, Flesh, Mind, and Spirit effects cannot be Parried.
 
-[Counter](/rules/magic/#ongoing-and-magical-actions--magic-counter) resolves before target defence. A character cannot Counter and then Dodge or use Active Guard against the same Shaping, but another character's Counter does not consume the target's Reaction. Each affected target may use at most one eligible defensive Reaction.
+[Counter](/rules/talents/#counter) resolves before target defence. A character cannot Counter and then Dodge or use Active Guard against the same Shaping, but another character's Counter does not consume the target's Reaction. Each affected target may use at most one eligible defensive Reaction.
 
 ## Backlash {#magic-backlash}
 

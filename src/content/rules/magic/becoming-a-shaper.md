@@ -21,7 +21,7 @@ Shaping is the [Shaping Talent](/rules/talents/#shaping). It costs **20 IP**, re
 - **Shaping**, a Knowledge skill with base `INT + POW`;
 - one specialty: a Technique or a Form;
 - two known cells containing that specialty; and
-- [Sense Magic, Counter, and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
+- [Sense Magic and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
 
 Buy it like any other Talent, either during [character creation](/rules/characters/#character-creation--characters-starting-ip) or later in play. A character who buys it at creation begins with Shaping at its base value, so affording it usually means trading skill points for Improvement Points.
 
@@ -40,4 +40,4 @@ Every Shaper defines both:
 - **Practice:** an observable, interruptible requirement such as speech, gestures, a focus, prayer, or trance. Preventing it prevents casting.
 - **Tell:** an unavoidable sign around the Shaper and any ranged target or area. It reveals magic, not its purpose.
 
-Anyone watching the Practice notices the Tell. It is also automatically noticeable within `10 × Magnitude` metres of the Shaper and target, minimum 3 metres. Cosmetic style is free; concealing the Tell requires [Veiled](/rules/magic/#building-a-shaping--magic-adjustments).
+Anyone watching the Practice notices the Tell. It is also automatically noticeable within `10 × Magnitude` metres of the Shaper and target, minimum 3 metres. Cosmetic style is free; concealing the Tell requires the [Veiled](/rules/talents/#veiled) Talent.

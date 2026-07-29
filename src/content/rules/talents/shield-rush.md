@@ -10,7 +10,7 @@ aliases:
   - shield bash
   - knock-back attack
 cost: 2
-prerequisites:
+prerequisites: Close Combat 51%
   - Close Combat 51%
   - Ready shield
 activation: action

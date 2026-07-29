@@ -92,19 +92,10 @@ Areas include allies. Excluding arbitrary subjects requires **Selective**. Reach
 
 ## Adjustments {#magic-adjustments}
 
-| Adjustment                                               |                                      Magnitude |
-| -------------------------------------------------------- | ---------------------------------------------: |
-| Additional outcome allowed by the same cell              |                         Add its full Intensity |
-| **Selective:** exclude chosen subjects from an area      |                                             +1 |
-| **Piercing:** ignore otherwise applicable mundane armour |                                             +1 |
-| **Indirect:** cross a solid barrier                      |                                 +1 per barrier |
-| **Veiled:** conceal the Tell                             |                        +1 and `-1P` to Shaping |
-| **Trigger:** wait for one observable event               | +1, plus a second Duration rating for the wait |
+One adjustment needs no training: an **additional outcome** allowed by the same cell adds its full Intensity. It must be mechanically distinct — the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version.
 
-Shared Range, Duration, and Reach are counted once. An additional outcome must be mechanically distinct: the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version.
+Every other adjustment is a learned technique bought as a Talent, each stating the Magnitude it adds: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
 
-Noticing a Veiled Tell requires Perception opposed by Shaping. Practice remains interruptible, and anyone detecting the Tell in time may Counter.
-
-A Trigger uses one Duration for its effect and another for its wait. It fires once; hidden qualities require Scry.
+Shared Range, Duration, and Reach are counted once.
 
 Natural consequences remain—a pushed foe may fall—but cannot hide free damage, modifiers, conditions, or resources.

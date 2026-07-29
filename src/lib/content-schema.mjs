@@ -38,12 +38,17 @@ export const creatureTags = [
 export const talentTags = [
   'awareness',
   'close',
+  'craft',
   'defence',
   'magic',
   'mobility',
   'offence',
   'ranged',
   'shield',
+  'social',
+  'stealth',
+  'survival',
+  'training',
   'unarmed',
 ];
 

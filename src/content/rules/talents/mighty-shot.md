@@ -9,7 +9,7 @@ summary: Add a positive Damage Modifier to one bow or sling attack per round wit
 aliases:
   - strength bow
   - powerful shot
-cost: 4
+cost: 5
 prerequisites: Ranged Combat 76%
 activation: passive
 tags:

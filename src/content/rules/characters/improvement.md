@@ -24,8 +24,7 @@ Use its score before the increase to determine the gain.
 | Current skill | Gain for 1 IP | Maximum gain between adventures |
 | ------------: | ------------: | ------------------------------: |
 |         0–50% |           +5% |                             +5% |
-|        51–75% |           +3% |                             +3% |
-|        76–99% |           +1% |                             +1% |
+|        51–99% |           +3% |                             +3% |
 |          100% |             — |                               — |
 
 No skill can exceed 100%.

@@ -9,8 +9,8 @@ summary: Remove the -1P from either core off-hand option when fighting with two 
 aliases:
   - ambidexterity
   - dual-wield mastery
-cost: 4
-prerequisites:
+cost: 5
+prerequisites: Close Combat 76%
   - Close Combat 76%
   - Two ready one-handed items
 activation: passive

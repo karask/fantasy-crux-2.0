@@ -9,7 +9,7 @@ summary: Flanking and attacks from behind grant no bonus while you remain aware 
 aliases:
   - rear guard
   - flanking defence
-cost: 2
+cost: 3
 prerequisites: Perception 51%
 activation: passive
 tags:

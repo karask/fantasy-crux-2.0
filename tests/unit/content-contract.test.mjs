@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 18-Talent catalogue', () => {
+  it('ships exactly the approved 34-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -27,23 +27,39 @@ describe('canonical Fantasy Crux 2.0 content', () => {
 
     expect(titles).toEqual(
       [
+        'Ambusher',
         'Battle Awareness',
         'Committed Strike',
+        'Counter',
+        'Cutpurse',
         'Deadeye',
         'Defensive Stance',
         'Disarm',
+        'Field Surgeon',
         'Flurry',
+        'Indirect',
+        'Lockbreaker',
+        'Mastery',
         'Mighty Shot (Bow or Sling)',
         'Missile Guard',
         'Off-Hand Mastery',
+        'Piercing',
         'Protector',
         'Quick Reflexes',
         'Rapid Shot',
         'Shaping',
         'Shield Cover',
+        'Selective',
         'Shield Rush',
+        'Silent Step',
+        'Silver Tongue',
+        'Steady Casting',
         'Subdue',
+        'Sure Hand',
+        'Trigger',
         'Trip',
+        'Veiled',
+        'Wayfinder',
         'Wrestler',
       ].sort(),
     );
@@ -80,6 +96,9 @@ describe('canonical Fantasy Crux 2.0 content', () => {
   // Reference chapters carry their own budget so they never compete with rules prose for the
   // same allowance. The core ceiling moved from 16,000 to 16,250 when Intimidate was restored:
   // the original figure was measured against a conversion that had dropped a Combat Action.
+  // It moved again to 16,650 as the catalogue opened past combat: Mastery, the stealth, social,
+  // craft, and survival entries, and the Shaping set. The Shaping Talents are close to free —
+  // Counter and the adjustments moved out of the Magic chapter rather than being written anew.
   it('stays within the compact visible-copy budget', () => {
     const chapterBudgets = { creatures: 4_500, 'gm-tools': 4_000 };
     const chapterOf = (record) => record.data.chapter ?? record.data.id;
@@ -96,7 +115,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     }
 
     const core = records.filter((record) => !(chapterOf(record) in chapterBudgets));
-    expect(countWords(core)).toBeLessThanOrEqual(16_250);
+    expect(countWords(core)).toBeLessThanOrEqual(16_650);
   });
 
   it('contains no generic image or raw-HTML markup', () => {

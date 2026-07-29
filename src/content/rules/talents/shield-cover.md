@@ -9,8 +9,8 @@ summary: A ready medium or large shield imposes -1P on ranged attacks you can se
 aliases:
   - passive shield cover
   - shield missile protection
-cost: 2
-prerequisites:
+cost: 3
+prerequisites: Close Combat 51%
   - Close Combat 51%
   - Medium or large shield
 activation: passive

@@ -10,7 +10,7 @@ aliases:
   - rapid fire
   - two ranged attacks
 cost: 3
-prerequisites:
+prerequisites: Ranged Combat 76%
   - Ranged Combat 76%
   - Bow or sling
 activation: action

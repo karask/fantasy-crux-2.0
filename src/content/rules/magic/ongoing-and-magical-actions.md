@@ -5,11 +5,10 @@ chapter: magic
 title: Ongoing Shapings and Magical Actions
 slug: ongoing-and-magical-actions
 order: 60
-summary: Active Magnitude cannot exceed POW; Sense Magic, Counter, and Dispel require no known cell.
+summary: Active Magnitude cannot exceed POW; Sense Magic and Dispel require no known cell.
 aliases:
   - active magic
   - Sense Magic
-  - Counter magic
   - Dispel magic
 ---
 
@@ -38,10 +37,6 @@ These use the Shaper's Practice and Tell but require no cell.
 ### Sense Magic {#magic-sense}
 
 Spend a Combat Action and 1 PP to test Shaping for active magic within 15 metres. Success reveals location and Form; Critical adds Technique, Magnitude, and whether it is concentrated, triggered, or anchored. Failure reveals nothing. A fumble gives a false impression and conspicuous Tell, not Backlash. Veiled magic opposes with its original result.
-
-### Counter {#magic-counter}
-
-After perceiving a successful Shaping being cast within 15 metres, or its projected effect entering within 15 metres, spend the base Reaction before defence or effect. Current PP must at least equal its Magnitude. Oppose Shaping with the original result; Counter must succeed and win. Spend full Magnitude either way; a fumble also causes Backlash at that Magnitude. Only one Counter may answer a Shaping, and Counter cannot be Countered.
 
 ### Dispel {#magic-dispel}
 

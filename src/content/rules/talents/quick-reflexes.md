@@ -9,8 +9,8 @@ summary: Add 2 to Combat Order.
 aliases:
   - initiative bonus
   - faster Combat Order
-cost: 2
-prerequisites: DEX 13
+cost: 3
+prerequisites: DEX 13 and Dodge 51%
 activation: passive
 tags:
   - awareness

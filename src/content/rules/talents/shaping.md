@@ -24,7 +24,7 @@ Buying this Talent makes the character a [Shaper](/rules/magic/#becoming-a-shape
 - **Shaping**, a Knowledge skill starting at its base `INT + POW`;
 - one specialty: a Technique or a Form;
 - two known cells containing that specialty; and
-- [Sense Magic, Counter, and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
+- [Sense Magic and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
 
 A character without this Talent has no Shaping skill and cannot cast.
 

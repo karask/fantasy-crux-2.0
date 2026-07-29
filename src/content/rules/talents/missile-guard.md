@@ -9,8 +9,8 @@ summary: Remove the Active Guard penalty when parrying arrows, bolts, and sling 
 aliases:
   - missile Parry mastery
   - shield against arrows
-cost: 1
-prerequisites:
+cost: 2
+prerequisites: Close Combat 51%
   - Close Combat 51%
   - Ready shield
 activation: passive
