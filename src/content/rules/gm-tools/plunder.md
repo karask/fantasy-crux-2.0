@@ -30,6 +30,6 @@ Every creature profile lists a **Plunder Rating**. For creatures that gather in 
 
 ## Enchantments {#gm-plunder-enchantments}
 
-An **enchantment** is a permanent [ritual Shaping](/rules/magic/#rituals-and-examples--magic-mythic) bound to a physical or spiritual anchor. Treat a minor enchantment as one modest effect, and a major one as a high-Magnitude or Mythic working with a price paid long ago. Both remain Dispellable through their anchor.
+Roll the minor and major [enchanted items](/rules/gm-tools/#enchanted-items) from that rule, which also covers who may use one and how it is identified.
 
 In a campaign without Shaping, ignore that column and roll coin alone.

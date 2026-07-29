@@ -37,7 +37,7 @@ An indefinite ritual is the exception: the leader personally commits full Magnit
 
 ## Permanent and Mythic Shapings {#magic-mythic}
 
-Permanent mundane creation requires equivalent material and becomes real and inactive, like a completed permanent transformation. Reversing either requires a new Shaping. Supernatural properties remain permanent enchantments: each needs a vulnerable physical or spiritual anchor and remains active and Dispellable through it. A lasting price may remove an enchantment from the creator's active total, but does not remove its anchor or Dispel vulnerability.
+Permanent mundane creation requires equivalent material and becomes real and inactive, like a completed permanent transformation. Reversing either requires a new Shaping. Supernatural properties remain permanent enchantments: each needs a vulnerable physical or spiritual anchor and remains active and Dispellable through it. A lasting price may remove an enchantment from the creator's active total, but does not remove its anchor or Dispel vulnerability. See [Enchanted Items](/rules/gm-tools/#enchanted-items) for making, using, and identifying them.
 
 Any dial at 5 makes the ritual **Mythic** and requires a declared lasting price: permanent POW, a unique treasure, binding oath, supernatural debt, permanent change, or consequential quest. Consume required materials when the ritual begins; permanent POW, oaths, debts, quests, and other lasting changes attach on success, after resolving the Shaping. A fumble exacts them only if announced beforehand. PP alone cannot restore the dead or rewrite the setting, and rituals cannot create their own costs.
 

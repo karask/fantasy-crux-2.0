@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 34-Talent catalogue', () => {
+  it('ships exactly the approved 35-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -35,6 +35,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Deadeye',
         'Defensive Stance',
         'Disarm',
+        'Enchanter',
         'Field Surgeon',
         'Flurry',
         'Indirect',
@@ -99,6 +100,8 @@ describe('canonical Fantasy Crux 2.0 content', () => {
   // It moved again to 16,650 as the catalogue opened past combat: Mastery, the stealth, social,
   // craft, and survival entries, and the Shaping set. The Shaping Talents are close to free —
   // Counter and the adjustments moved out of the Magic chapter rather than being written anew.
+  // Then to 16,730 for the Enchanter Talent; enchanting itself is written in GM Tools, which
+  // carries its own allowance.
   it('stays within the compact visible-copy budget', () => {
     const chapterBudgets = { creatures: 4_500, 'gm-tools': 4_000 };
     const chapterOf = (record) => record.data.chapter ?? record.data.id;
@@ -115,7 +118,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     }
 
     const core = records.filter((record) => !(chapterOf(record) in chapterBudgets));
-    expect(countWords(core)).toBeLessThanOrEqual(16_650);
+    expect(countWords(core)).toBeLessThanOrEqual(16_730);
   });
 
   it('contains no generic image or raw-HTML markup', () => {
