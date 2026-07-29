@@ -18,10 +18,11 @@ aliases:
 | Culture (other)  |      `INT` |
 | Language (own)   | `INT + 50` |
 | Language (other) |      `INT` |
-| Lore (type)      |      `INT` |
+| Lore (own field) | `INT + 10` |
+| Lore (other)     |      `INT` |
 | Natural Lore     | `INT + 10` |
 
-Each foreign Culture, foreign Language, and Lore subject is a separate skill.
+Each foreign Culture, foreign Language, and Lore field is a separate skill. Choose one own field of study at character creation.
 
 ## Culture {#skills-culture}
 
@@ -36,7 +37,10 @@ A score of at least 50% means fluent everyday speech; lower scores allow simpler
 ## Lore {#skills-lore}
 
 Each Lore is a specialised field of study and improves separately.
-Examples include alchemy, art, astronomy, gambling, geography, heraldry, law, logistics, military tactics, philosophy, and poisons.
+Common fields are **Alchemy** (reagents, distillation, poisons, and antidotes), **Magic**, **Military Tactics**, **Spirit World**, **Undead**, **Law and Heraldry**, and **Astronomy**.
+Other fields, such as art, gambling, or philosophy, follow the same rules.
+
+A successful Lore test also grants `+1B` to one directly related skill test made soon after, when recognition or preparation would plausibly help.
 
 ## Natural Lore {#skills-natural-lore}
 

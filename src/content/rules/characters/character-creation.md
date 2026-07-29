@@ -145,7 +145,8 @@ Skills with a parenthetical subject, such as `Craft (type)`, are separate skills
 | Language (own)   | `INT + 50` |
 | Language (other) |      `INT` |
 | Natural Lore     | `INT + 10` |
-| Lore (type)      |      `INT` |
+| Lore (own field) | `INT + 10` |
+| Lore (other)     |      `INT` |
 
 | Practical skills |        Base |
 | ---------------- | ----------: |

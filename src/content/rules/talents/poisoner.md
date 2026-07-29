@@ -4,13 +4,13 @@ id: talent.poisoner
 chapter: talents
 title: Poisoner
 slug: poisoner
-order: 335
-summary: Brew a dose of poison whose Potency is half your Natural Lore.
+order: 352
+summary: Brew a dose of poison whose Potency is half your Lore (Alchemy).
 aliases:
   - brew poison
   - venom
 cost: 4
-prerequisites: Natural Lore 76%
+prerequisites: Lore (Alchemy) 76% and Alchemist
 activation: passive
 tags:
   - craft
@@ -19,7 +19,7 @@ tags:
 
 ## Effect
 
-Spend a day and materials worth 50 SP to brew one dose of poison. Its Potency is half your Natural Lore, and it keeps that strength for a month.
+Spend a day and materials worth 50 SP to brew one dose of poison. Its Potency is half your Lore (Alchemy), and it keeps that strength for a month.
 
 Choose one Effect as you brew: `1D6` HP damage, `-2` to one characteristic, or unconsciousness. An Effect that lasts runs for `1D6 × 10` minutes.
 
