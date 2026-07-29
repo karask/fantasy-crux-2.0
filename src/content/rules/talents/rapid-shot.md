@@ -5,7 +5,7 @@ chapter: talents
 title: Rapid Shot
 slug: rapid-shot
 order: 120
-summary: Forfeit all Reactions to make two bow or sling attacks at -1P each.
+summary: Forfeit all Reactions to make two attacks at -1P each.
 aliases:
   - rapid fire
   - two ranged attacks

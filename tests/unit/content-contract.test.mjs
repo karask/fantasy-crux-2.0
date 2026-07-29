@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 47-Talent catalogue', () => {
+  it('ships exactly the approved 48-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -37,7 +37,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Disarm',
         'Enchanter',
         'Field Surgeon',
-        'Flurry',
+        'Iron Fist',
         'Indirect',
         'Killing Angle',
         'Lockbreaker',
@@ -45,7 +45,8 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Master Craftsman',
         'Mastery',
         "Merchant's Eye",
-        'Mighty Shot (Bow or Sling)',
+        'Master Brawler',
+        'Mighty Shot',
         'Missile Guard',
         'Off-Hand Mastery',
         'Physician',
