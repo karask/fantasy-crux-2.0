@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "exploration-03",
+  "label": "Cinematic Graphic Novel",
+  "status": "candidate-awaiting-selection",
+  "created": "2026-07-29",
+  "websiteIntegrated": false,
+  "generationTool": {
+    "workflow": "built-in image_gen",
+    "modelVersion": "not exposed by built-in workflow"
+  },
+  "contentSourceRoot": "art/production/fc-house-v1/calibration/revision-01/more-naturalistic",
+  "methodology": "Generate one independent 2x2 anchor board containing the recurring female warrior, bear, dragon, and village. Then generate four independent full-size sentinels by style transfer with two references: the matching More Naturalistic revision supplies content and composition only, while the new anchor supplies rendering style only. Explicitly exclude the anchor's objects, layout, palette, lighting, weather, and mood.",
+  "styles": [
+    {
+      "id": "cinematic-graphic-novel",
+      "label": "Cinematic Graphic Novel",
+      "selectionStatus": "candidate",
+      "provenance": "art/production/fc-house-v1/exploration-03/cinematic-graphic-novel/provenance.json"
+    }
+  ]
+}

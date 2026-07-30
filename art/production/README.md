@@ -14,6 +14,12 @@ approved master anchors live under
 anchor plus the closest approved category anchor, each with an explicit
 style-only role.
 
+As of 2026-07-29, the canonical color treatment is **vivid but disciplined
+natural color**: clear saturated local colors, strong warm/cool separation,
+and chromatic shadows, with believable material colors and no neon or forced
+uniform palette. The accepted 57-creature reference set lives under
+`fc-house-v1/creature-style-candidates/inked-adventure-comic-vivid/`.
+
 The first matrix tests three adjacent interpretations of semi-realistic,
 mildly cartoon-like fantasy illustration:
 
@@ -68,6 +74,10 @@ Together they store:
 After a row is selected, freeze its revision style block as `FC-HOUSE-V1`; do
 not rewrite it per subject. Palette, light, weather, mood, scene content,
 anatomy, and composition belong in separate prompt fields.
+
+For Inked Adventure Comic production, the canonical vivid color treatment is
+the palette default unless a specific asset explicitly requires another
+treatment. A style reference's incidental palette or mood is never inherited.
 
 ## Reference roles after calibration
 

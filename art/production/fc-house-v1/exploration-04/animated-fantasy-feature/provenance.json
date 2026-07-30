@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "animated-fantasy-feature",
+  "label": "Animated Fantasy Feature",
+  "status": "candidate-awaiting-selection",
+  "created": "2026-07-30",
+  "websiteIntegrated": false,
+  "generationMode": "built-in image_gen",
+  "methodology": "Independent 2x2 anchor board followed by four full-size two-reference style-transfer sentinels. Content and composition come only from the matching More Naturalistic revision; rendering language comes only from this style anchor.",
+  "styleLock": "Polished hand-drawn fantasy feature-animation cartoon. Clean tapered dark-colored contours with confident curves and selective internal lines; smoothly sculpted, believable anatomy with restrained appealing exaggeration—slightly emphasized heads, hands, paws, and expressions, never chibi or childish. Three-to-five clean color and value shapes, crisp cel boundaries, and very limited soft painted occlusion only where forms overlap. Broad simplified material shapes, readable silhouettes, expressive posing, high detail at faces and creature heads, medium detail on bodies and buildings, sparse atmospheric backgrounds.",
+  "colorLock": "Vivid natural local colors with controlled complementary accents; palette and mood chosen separately for each subject.",
+  "anchor": {
+    "generationId": "exec-7d6f4acd-7862-4eae-853e-751bd0e083ff",
+    "output": "anchor.png",
+    "prompt": "Use case: stylized-concept. Asset type: Fantasy Crux cartoon house-style exploration anchor board. Create one square 2x2 anchor board showing four separate fantasy subjects rendered by the same exact illustrator in one fully consistent style. Top-left: an adult medieval woman warrior in a quiet village courtyard, alert but not fighting, full body, practical sword and round shield. Top-right: an adult brown bear standing naturally in a forest clearing, complete body. Bottom-left: one dragon on a rocky upland in readable three-quarter pose, exactly four legs and exactly two wings, all extremities visible. Bottom-right: a small medieval village with timber-and-stone houses, central well, watchtower, paths, and vegetation, environment only. Four equal panels, narrow clean gutters, no labels or heavy border. Complete safe framing, one focal subject per character panel. Same line language, shape simplification, detail density, color construction, material logic, and surface treatment in every panel. Neutral daylight and grounded adventurous tone; do not force shared mood or palette. No fire, magic, dramatic sky, rim light, text, captions, speech balloons, logo, watermark, anime, photorealism, glossy 3D, or extra focal subjects. Style: Polished hand-drawn fantasy feature-animation cartoon. Clean tapered dark-colored contours with confident curves and selective internal lines; smoothly sculpted, believable anatomy with restrained appealing exaggeration—slightly emphasized heads, hands, paws, and expressions, never chibi or childish. Three-to-five clean color and value shapes, crisp cel boundaries, and very limited soft painted occlusion only where forms overlap. Broad simplified material shapes, readable silhouettes, expressive posing, high detail at faces and creature heads, medium detail on bodies and buildings, sparse atmospheric backgrounds. Vivid natural local colors with controlled complementary accents. No comic hatching, no painterly brush noise, no uniform vector stroke, no 3D render.",
+    "dimensions": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sha256": "6766bbe1d560ecd96d98f09cc69f359dd12da890d4f2ddf325bc96b291bcd280",
+    "qa": "pass"
+  },
+  "sharedSentinelPrompt": "Use case: style-transfer. Asset type: independent Fantasy Crux cartoon style sentinel. Image 1 is the approved content and composition blueprint only: preserve subject identity, anatomy, pose, camera, framing, equipment, scene layout, and narrative intent, but do not inherit its painterly rendering. Do not copy any object, panel layout, composition, palette, lighting, weather, or mood from Image 2. One independent square illustration, no border or panels. Image 2 is the Animated Fantasy Feature anchor: inherit only its tapered contour language, appealing shape design, clean cel color construction, edge hierarchy, detail density, and simplified material rendering. Style lock: Polished hand-drawn fantasy feature-animation cartoon. Clean tapered dark-colored contours with confident curves and selective internal lines; smoothly sculpted, believable anatomy with restrained appealing exaggeration—slightly emphasized heads, hands, paws, and expressions, never chibi or childish. Three-to-five clean color and value shapes, crisp cel boundaries, and very limited soft painted occlusion only where forms overlap. Broad simplified material shapes, readable silhouettes, expressive posing, high detail at faces and creature heads, medium detail on bodies and buildings, sparse atmospheric backgrounds. Color lock: Vivid natural local colors with controlled complementary accents; palette and mood chosen separately for each subject. No added focal subjects, fire, magic, dramatic sky, rim light, text, captions, logo, watermark, comic hatching, painterly brush noise, uniform vector stroke, anime, photorealism, or 3D render.",
+  "sentinels": [
+    {
+      "subject": "female warrior",
+      "generationId": "exec-2492f92a-0b62-4851-a9d4-4a72671992c0",
+      "output": "warrior.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/warrior.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the adult medieval woman warrior from Image 1. Preserve her identity, complete anatomy, alert noncombat stance, practical sword, round shield, armor, village courtyard, camera, and comfortable full-body framing. Exactly one adult woman; coherent face, two hands, two arms, and two legs.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "c0ba5dd1da13009a25d8dc33c3330cf0ce74b12468b760aa30a3359d74c8a86d",
+      "qa": "pass"
+    },
+    {
+      "subject": "bear",
+      "generationId": "exec-5c421adc-0a1a-4c4e-a645-ecfc54dd88df",
+      "output": "bear.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/bear.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the adult brown bear from Image 1. Preserve its identity, natural pose, forest-clearing environment, camera, and comfortable complete framing. Exactly four anatomically coherent limbs, plausible paws and claws, one natural bear only, no humanlike features.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "e51f953c18b4eef8458d9a0ebe150fff722a4ef4190dd267a1fe4a9126906ba6",
+      "qa": "pass"
+    },
+    {
+      "subject": "dragon",
+      "generationId": "exec-68bc79f8-ad38-4088-9b7a-ad01932e8c44",
+      "output": "dragon.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/dragon.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the dragon from Image 1. Preserve identity, pose, rocky-upland environment, camera, and complete safe framing including both wing tips, all four feet, and tail tip. Exactly four legs and exactly two wings with coherent attachments; one dragon only.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "2befb2d7e2a5a4d04f03232695d4cef84c30e709b70b163e066eb5a6149d724f",
+      "qa": "pass"
+    },
+    {
+      "subject": "village",
+      "generationId": "exec-bcf81052-9cfe-4300-8d67-29cc9353a110",
+      "output": "village.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/village.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the small medieval village from Image 1. Preserve camera, spatial arrangement, timber-and-stone houses, central well, watchtower, paths, vegetation, and comfortable framing. Environment only; no focal people or creatures.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "19187d15fb525a7e0f6f18c584303a88c6be1ddc725b18d9dcdc4e60132db528",
+      "qa": "pass"
+    }
+  ],
+  "qaPolicy": [
+    "four independent full-size sentinels match the anchor's rendering system",
+    "warrior has one coherent adult body, face, hands, sword, shield, and full-body framing",
+    "bear has four coherent limbs and plausible paws and claws",
+    "dragon has exactly four legs and exactly two wings with coherent attachments",
+    "village retains houses, central well, watchtower, paths, vegetation, and no focal character",
+    "no website integration performed"
+  ]
+}

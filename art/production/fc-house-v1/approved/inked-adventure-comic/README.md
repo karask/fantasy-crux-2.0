@@ -10,6 +10,21 @@ colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and
 selective line detail at faces and focal materials. Mature, handmade, and
 readable; no painterly blending, no glossy 3D.
 
+## Canonical color default
+
+Vivid but disciplined natural color: clear saturated local colors, strong
+warm/cool separation, and chromatic shadows. Selectively draw from jewel-toned
+teal, cobalt, jade, vermilion, amber, violet, and warm cream according to the
+actual subject and environment. Preserve believable material colors. No neon,
+psychedelic rainbow, forced uniform palette, destructive oversaturation, or
+washed-out sepia.
+
+This color treatment is the default for all new Inked Adventure Comic images
+as of 2026-07-29. The style anchor still supplies rendering language only; its
+specific palette, lighting, and mood are not inherited. The accepted
+57-creature reference set is stored at
+`../../creature-style-candidates/inked-adventure-comic-vivid/`.
+
 ## Reference roles
 
 1. Use `style-anchor.png` for rendering language only.

@@ -14,7 +14,10 @@
     "masterRoot": "art/production/fc-house-v1/approved/inked-adventure-comic",
     "styleAnchor": "art/production/fc-house-v1/approved/inked-adventure-comic/style-anchor.png",
     "styleBlock": "Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.",
-    "referencePolicy": "Use the style anchor for rendering language only and the closest approved category anchor for subject-scale material handling. Do not inherit objects, layout, palette, lighting, weather, or mood unless requested by the new asset.",
+    "defaultColorTreatment": "Vivid but disciplined natural color: clear saturated local colors, strong warm/cool separation, and chromatic shadows. Selectively draw from jewel-toned teal, cobalt, jade, vermilion, amber, violet, and warm cream according to the actual subject and environment. Preserve believable material colors. No neon, psychedelic rainbow, forced uniform palette, destructive oversaturation, or washed-out sepia.",
+    "defaultCreatureSet": "art/production/fc-house-v1/creature-style-candidates/inked-adventure-comic-vivid",
+    "colorDefaultSelected": "2026-07-29",
+    "referencePolicy": "Use the style anchor for rendering language only and the closest approved category anchor for subject-scale material handling. Apply the canonical vivid color treatment by default, but do not inherit objects, layout, a reference image's specific palette, lighting, weather, or mood unless requested by the new asset.",
     "categoryAnchors": [
       "warrior.png",
       "bear.png",

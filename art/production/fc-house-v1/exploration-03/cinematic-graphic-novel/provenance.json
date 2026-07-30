@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "id": "cinematic-graphic-novel",
+  "label": "Cinematic Graphic Novel",
+  "status": "candidate-awaiting-selection",
+  "created": "2026-07-29",
+  "websiteIntegrated": false,
+  "generationMode": "built-in image_gen",
+  "styleLock": "Mature painted graphic novel. Semi-realistic believable anatomy and architecture built from decisive brush-ink drawing; variable-width dark sepia-indigo contours with dry-brush breaks; restrained directional cross-hatching only in core shadows; four-to-six broad matte gouache-like color and value shapes with a few translucent glaze transitions; crisp focal edges with selectively lost or broken shadow edges; angular readable silhouette simplification; materials rendered through designed shape rhythms rather than photographic microtexture. High detail at faces, hands, eyes, creature heads, and key material junctions; medium detail across bodies and main buildings; sparse atmospheric backgrounds. Cinematic sequential-art finish, neither superhero comic nor photorealistic concept painting.",
+  "colorLock": "Natural local colors with a deep ink-value structure, moderate saturation, warm-light/cool-shadow separation, and at most one restrained focal accent family appropriate to each subject. Do not force a shared palette or mood across subjects.",
+  "anchor": {
+    "generationId": "call_jPcrt47u15JbLjXsgXDX1RGa",
+    "output": "anchor.png",
+    "dimensions": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sha256": "c94ada836e5a578c0f595e7d643a1fb62317d076d5b72195e50bf10500485520",
+    "prompt": "Use case: stylized-concept\nAsset type: Fantasy Crux house-style exploration anchor board\nPrimary request: Create one square 2x2 anchor board showing four separate fantasy subjects rendered by the same exact illustrator in one fully consistent new Cinematic Graphic Novel style.\nScene/backdrop: Top-left panel: an adult medieval woman warrior in a quiet village courtyard, alert but not fighting. Top-right panel: an adult brown bear in a forest clearing, standing naturally. Bottom-left panel: a four-legged, two-winged dragon on a rocky upland, standing in a readable three-quarter pose. Bottom-right panel: a small medieval village with timber-and-stone houses, a central well, and a watchtower.\nStyle/medium: Mature painted graphic novel. Semi-realistic believable anatomy and architecture built from decisive brush-ink drawing; variable-width dark sepia-indigo contours with dry-brush breaks; restrained directional cross-hatching only in core shadows; four-to-six broad matte gouache-like color and value shapes with a few translucent glaze transitions; crisp focal edges with selectively lost or broken shadow edges; angular readable silhouette simplification; materials rendered through designed shape rhythms rather than photographic microtexture. High detail at faces, hands, eyes, creature heads, and key material junctions; medium detail across bodies and main buildings; sparse atmospheric backgrounds. Cinematic sequential-art finish, neither superhero comic nor photorealistic concept painting.\nComposition/framing: Square canvas divided into four equal panels with narrow clean gutters and no labels. Each subject and all essential anatomy must be complete, comfortably inside its panel, and safely framed. Each panel has one clear focal subject; the village panel is environment-only.\nLighting/mood: Neutral directional daylight with readable form and modest cinematic contrast; calm, grounded adventure tone. Do not make every panel gloomy or dramatic.\nColor palette: Natural local colors with a deep ink-value structure, moderate saturation, warm-light/cool-shadow separation, and one restrained accent family appropriate to each individual subject. Do not force a shared palette or mood across panels.\nConstraints: The same exact artist, brushwork, line-weight logic, hatching density, edge hierarchy, shape simplification, detail density, color construction, and material rendering in all four panels. Adult woman warrior. Bear has anatomically correct four limbs and plausible paws. Dragon has exactly four legs and exactly two wings. Village contains no focal people or creatures. No fire, magic, dramatic sky, rim light, speech balloons, captions, sound effects, halftone screen, panel labels, logo, watermark, decorative frame, enclosing heavy comic panel borders, extra focal subjects, glossy digital rendering, cel shading, anime styling, or photorealism.",
+    "qa": {
+      "status": "pass",
+      "notes": "All four panels share variable brush-ink, restrained shadow hatching, matte grouped color, compatible edge hierarchy, and the same focal-to-background detail falloff. Anatomy and required landmarks pass."
+    }
+  },
+  "sharedSentinelPrompt": "Use case: style-transfer\nAsset type: independent Fantasy Crux Graphic Novel style sentinel\nInput images: Image 1 is the approved content and composition blueprint only. Preserve its subject identity, anatomy, pose, camera, framing, equipment, environment layout, and narrative intent; explicitly do not inherit its painterly rendering. Image 2 is the approved Cinematic Graphic Novel style anchor. Inherit only its brush-ink line language, cross-hatching logic, matte color construction, edge hierarchy, shape simplification, detail density, paper/paint surface, and material rendering. Do not copy any object, panel layout, composition, palette, lighting, weather, or mood from Image 2.\nStyle/medium: Mature painted graphic novel. Semi-realistic believable anatomy and architecture built from decisive brush-ink drawing; variable-width dark sepia-indigo contours with dry-brush breaks; restrained directional cross-hatching only in core shadows; four-to-six broad matte gouache-like color and value shapes with a few translucent glaze transitions; crisp focal edges with selectively lost or broken shadow edges; angular readable silhouette simplification; materials rendered through designed shape rhythms rather than photographic microtexture. High detail at faces, hands, eyes, creature heads, and key material junctions; medium detail across bodies and main buildings; sparse atmospheric backgrounds. Cinematic sequential-art finish, neither superhero comic nor photorealistic concept painting.\nLighting/mood: Preserve Image 1's neutral daylight and grounded adventure tone. Do not inherit a dark or dramatic mood from any anchor panel.\nColor palette: Natural local colors appropriate to Image 1, moderate saturation, warm-light/cool-shadow separation, and at most one restrained focal accent family. Do not force a shared palette across subjects.\nConstraints: One independent square illustration, no panel gutters or border. No added focal subjects, fire, magic, dramatic sky, rim light, speech balloons, captions, sound effects, halftone screen, text, logo, watermark, glossy digital rendering, cel shading, anime styling, or photorealism.",
+  "sentinels": [
+    {
+      "subject": "female warrior",
+      "generationId": "exec-6fa8347f-93bf-4f88-94de-44410c614273",
+      "output": "warrior.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/warrior.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the adult medieval woman warrior from Image 1. Preserve her identity, complete anatomy, alert noncombat stance, practical sword, round shield, armor, village courtyard, camera, and comfortable full-body framing. Anatomically correct face, hands, and limbs; one adult woman only.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "b01f0dd71f4195464be9147dd1773b5f304bae8740d731ec6c997046208414bb",
+      "qa": "pass"
+    },
+    {
+      "subject": "bear",
+      "generationId": "exec-637800c0-67ba-4d18-975b-ff5b98f8e4f2",
+      "output": "bear.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/bear.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the adult brown bear from Image 1. Preserve its identity, complete four-limbed anatomy, plausible paws and claws, natural pose, forest-clearing environment, camera, and comfortable full-body framing. One natural bear only; no humanlike features.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "3ddf9aaf1e9f57b25ecdb5d4b581f3b948725d350329ef1eda386442016ffbcb",
+      "qa": "pass"
+    },
+    {
+      "subject": "dragon",
+      "generationId": "exec-9840d5d0-12ce-424b-aedf-1600b0355283",
+      "output": "dragon.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/dragon.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the dragon from Image 1. Preserve its identity, pose, rocky-upland environment, camera, and complete safe framing including both wing tips, all four feet, and tail tip. Exactly four legs and exactly two wings with coherent attachments; one dragon only.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "f5c55944335e714b93e57d4bc39a4a6f0810dc93d8f80682869e41b3bd23c955",
+      "qa": "pass"
+    },
+    {
+      "subject": "village",
+      "generationId": "exec-ebc219a8-c3aa-4364-abdd-9c1e1c721be5",
+      "output": "village.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/village.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the small medieval village from Image 1. Preserve its camera, spatial arrangement, timber-and-stone houses, central well, watchtower, paths, vegetation, and comfortable framing. Environment only; no focal people or creatures.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "0c68d1e74c28a011afdfc98a922fcb499e7023aae4c271e0f07b1f8b52af4a55",
+      "qa": "pass"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "storybook-gouache-cartoon",
+  "label": "Storybook Gouache Cartoon",
+  "status": "candidate-awaiting-selection",
+  "created": "2026-07-30",
+  "websiteIntegrated": false,
+  "generationMode": "built-in image_gen",
+  "methodology": "Independent 2x2 anchor board followed by four full-size two-reference style-transfer sentinels. Content and composition come only from the matching More Naturalistic revision; rendering language comes only from this style anchor.",
+  "styleLock": "Unmistakably cartooned mature European storybook gouache. Clearly simplified rounded anatomy and architecture; heads, hands, paws, muzzles, and roof shapes about fifteen percent broader and more expressive than reality; short confident curves and chunky tapering limbs; simple readable faces; each material built from two or three large opaque matte gouache blobs rather than realistic modeling. Soft graphite and colored-pencil contours thicken at overlaps and disappear into paint elsewhere. Visible dry-brush scumble and paper grain; a few playful tactile marks identify fur, scales, cloth, timber, and stone, never individual realistic strands or microtexture. High detail only at faces and creature heads, medium-low detail elsewhere, loose painted backgrounds.",
+  "colorLock": "Warm natural local colors, gently muted but lively; palette and mood chosen separately for each subject.",
+  "anchor": {
+    "generationId": "call_gPQwAqNCcrlCLQmPR8uQcVoO",
+    "output": "anchor.png",
+    "prompt": "Use case: stylized-concept. Asset type: Fantasy Crux cartoon house-style exploration anchor board. Create one square 2x2 anchor board showing four separate fantasy subjects rendered by the same exact illustrator in one fully consistent style. Top-left: an adult medieval woman warrior in a quiet village courtyard, alert but not fighting, full body, practical sword and round shield. Top-right: an adult brown bear standing naturally in a forest clearing, complete body. Bottom-left: one dragon on a rocky upland in readable three-quarter pose, exactly four legs and exactly two wings, all extremities visible. Bottom-right: a small medieval village with timber-and-stone houses, central well, watchtower, paths, and vegetation, environment only. Four equal panels, narrow clean gutters, no labels or heavy border. Complete safe framing, one focal subject per character panel. Same line language, shape simplification, detail density, color construction, material logic, and surface treatment in every panel. Neutral daylight and grounded adventurous tone; do not force shared mood or palette. No fire, magic, dramatic sky, rim light, text, captions, speech balloons, logo, watermark, anime, photorealism, glossy 3D, or extra focal subjects. Style lock: mature European storybook gouache cartoon; clearly simplified rounded anatomy and architecture; heads, hands, paws, muzzles, and roof shapes about fifteen percent broader and more expressive than reality; short confident curves; chunky tapering limbs; simple readable faces; each material built from two or three large opaque matte gouache blobs rather than realistic modeling. Soft graphite and colored-pencil contours thicken at overlaps and disappear into paint elsewhere. Visible dry-brush scumble and paper grain; a few playful tactile marks identify fur, scales, cloth, timber, and stone, never individual realistic strands or microtexture. High detail only at faces and creature heads, medium-low detail elsewhere, loose painted backgrounds. Warm natural local colors, gently muted but lively. Adult adventure storybook, whimsical without being childish.",
+    "dimensions": {
+      "width": 1254,
+      "height": 1254
+    },
+    "sha256": "002bc1435862885f6aafe795ed8113c3a06510da6bd721be1b23874a3a212925",
+    "qa": "pass"
+  },
+  "sharedSentinelPrompt": "Use case: style-transfer. Asset type: independent Fantasy Crux cartoon style sentinel. Image 1 is the approved content and composition blueprint only: preserve subject identity, anatomy, pose, camera, framing, equipment, scene layout, and narrative intent, but do not inherit its painterly rendering. Do not copy any object, panel layout, composition, palette, lighting, weather, or mood from Image 2. One independent square illustration, no border or panels. Image 2 is the Storybook Gouache Cartoon anchor: inherit only its rounded cartoon proportions, soft broken contour behavior, chunky gouache shapes, paper texture, simplified material marks, edge hierarchy, and detail density. Style lock: Unmistakably cartooned mature European storybook gouache. Clearly simplified rounded anatomy and architecture; heads, hands, paws, muzzles, and roof shapes about fifteen percent broader and more expressive than reality; short confident curves and chunky tapering limbs; simple readable faces; each material built from two or three large opaque matte gouache blobs rather than realistic modeling. Soft graphite and colored-pencil contours thicken at overlaps and disappear into paint elsewhere. Visible dry-brush scumble and paper grain; a few playful tactile marks identify fur, scales, cloth, timber, and stone, never individual realistic strands or microtexture. High detail only at faces and creature heads, medium-low detail elsewhere, loose painted backgrounds. Color lock: Warm natural local colors, gently muted but lively; palette and mood chosen separately for each subject. No added focal subjects, realistic anatomy rendering, realistic fur or scale microdetail, photorealism, watercolor transparency, hard cel shading, comic hatching, glossy digital paint, anime, 3D, fire, magic, dramatic sky, text, logo, or watermark.",
+  "sentinels": [
+    {
+      "subject": "female warrior",
+      "generationId": "exec-08c72c10-2bb7-4072-9344-b670eb98cdff",
+      "output": "warrior.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/warrior.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the adult medieval woman warrior from Image 1. Preserve her identity, complete anatomy, alert noncombat stance, practical sword, round shield, armor, village courtyard, camera, and comfortable full-body framing. Exactly one adult woman; coherent face, two hands, two arms, and two legs.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "042bf41f2281305b1f39a982c466508476eb92f6630bd110e271802773f31625",
+      "qa": "pass"
+    },
+    {
+      "subject": "bear",
+      "generationId": "exec-745c07ad-3581-49bc-8a64-0c9d0ed37ada",
+      "output": "bear.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/bear.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the adult brown bear from Image 1. Preserve its identity, natural pose, forest-clearing environment, camera, and comfortable complete framing. Exactly four anatomically coherent limbs, plausible paws and claws, one natural bear only, no humanlike features.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "408baad816f907fe74361bacf08f4e11cf74c99fd5e8adb7822444e42570d535",
+      "qa": "pass"
+    },
+    {
+      "subject": "dragon",
+      "generationId": "exec-946171a2-53f8-4229-8670-9bddd9dd3680",
+      "output": "dragon.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/dragon.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the dragon from Image 1. Preserve identity, pose, rocky-upland environment, camera, and complete safe framing including both wing tips, all four feet, and tail tip. Exactly four legs and exactly two wings with coherent attachments; one dragon only.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "b1f6c3ac3365b44fca1ed40d43daf67abbe56342333b5acce6bc73f16fa382d8",
+      "qa": "pass"
+    },
+    {
+      "subject": "village",
+      "generationId": "exec-acaa333f-b69d-41e9-8c40-4b1b482dbfbc",
+      "output": "village.png",
+      "contentSource": "../../calibration/revision-01/more-naturalistic/village.png",
+      "styleSource": "anchor.png",
+      "subjectRequest": "Re-render the small medieval village from Image 1. Preserve camera, spatial arrangement, timber-and-stone houses, central well, watchtower, paths, vegetation, and comfortable framing. Environment only; no focal people or creatures.",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "ec5c572c6129537f92d978b973ba911d66d29ad664c979b74248a58fa94fc204",
+      "qa": "pass"
+    }
+  ],
+  "qaPolicy": [
+    "four independent full-size sentinels match the anchor's rendering system",
+    "warrior has one coherent adult body, face, hands, sword, shield, and full-body framing",
+    "bear has four coherent limbs and plausible paws and claws",
+    "dragon has exactly four legs and exactly two wings with coherent attachments",
+    "village retains houses, central well, watchtower, paths, vegetation, and no focal character",
+    "no website integration performed"
+  ]
+}

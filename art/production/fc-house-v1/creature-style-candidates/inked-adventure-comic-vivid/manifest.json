@@ -1,0 +1,1453 @@
+{
+  "schemaVersion": 1,
+  "set": "Fantasy Crux canonical creature reference — Inked Adventure Comic, vivid color",
+  "canonicalColorDefault": true,
+  "generatedOn": "2026-07-29",
+  "websiteIntegrated": false,
+  "imageGenerationMode": "built-in image generation with one content blueprint and one approved style-only anchor per asset",
+  "styleLock": "Hand-inked Western fantasy adventure comic: expressive variable-weight brush contours, simplified believable anatomy, bold silhouette design, flat opaque colors, two or three hard-edged shadow shapes, sparse dry-brush texture, and selective line detail at faces and focal materials. Mature, handmade, and readable; no painterly blending, no glossy 3D.",
+  "vividColorTreatment": "More vivid than the approved anchor while remaining disciplined and readable. Clear saturated local colors, strong warm/cool separation, and chromatic shadows; selectively using jewel-toned teal, cobalt, jade, vermilion, amber, violet, and warm cream according to subject and environment. No neon, psychedelic rainbow, uniform palette, destructive oversaturation, or washed-out sepia.",
+  "styleAnchor": "../../approved/inked-adventure-comic/style-anchor.png",
+  "contentBlueprintSet": "../more-naturalistic/",
+  "interpretations": {
+    "elemental": "large stone elemental",
+    "holySteedAndWarrior": "road-and-protection deity; sacred iron horse",
+    "passionSpirit": "fear",
+    "guardianSpirit": "bound to a bronze burial mask"
+  },
+  "qaPolicy": [
+    "current profile facts and statistics inherited from the approved content-blueprint manifest",
+    "content blueprint preserved for anatomy, pose, action, camera, equipment, and environment",
+    "approved Inked Adventure Comic anchor used for style only",
+    "anatomy, limb plan, action readability, vivid color treatment, and style consistency visually inspected",
+    "no website integration performed"
+  ],
+  "count": 57,
+  "assets": [
+    {
+      "sourceSlug": "ancestor-spirit",
+      "title": "Ancestor Spirit",
+      "category": "spirit",
+      "summary": "A deceased relative who preserves family memory, craft, and counsel.",
+      "characteristics": {
+        "int": "11",
+        "pow": "17",
+        "cha": "11",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/ancestor-spirit.md",
+      "image": "ancestor.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "47f1ec9b05626ffdb4462c97e28f60082337c1852c20e0373530d4639f303e56",
+      "poseBrief": "Kneeling beneath a cottage loom while demonstrating a treadle repair.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/ancestor.png"
+    },
+    {
+      "sourceSlug": "basilisk",
+      "title": "Basilisk",
+      "category": "monster",
+      "summary": "A small, many-coloured reptile created by foul alchemy; its eyes and blood are deadlier than its jaws.",
+      "characteristics": {
+        "str": "4",
+        "con": "13",
+        "dex": "11",
+        "siz": "2",
+        "int": "3",
+        "pow": "16",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/basilisk.md",
+      "image": "basilisk.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "c7859a4bdeb29b74cdad76bea53de92fc4c7b85d587fff46620717584846e287",
+      "poseBrief": "Creeping sideways from beneath a cracked mortar in an abandoned apothecary.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/basilisk.png"
+    },
+    {
+      "sourceSlug": "bear",
+      "title": "Bear",
+      "category": "animal",
+      "summary": "A massive, powerful omnivore with a thick hide.",
+      "characteristics": {
+        "str": "25",
+        "con": "13",
+        "dex": "11",
+        "siz": "25",
+        "int": "5",
+        "pow": "11",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/bear.md",
+      "image": "bear.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "d5299687214f24d31a57d3d75e71305c8e436a8a041912eae0515d2a06a02a1c",
+      "poseBrief": "Twisting back from an overturned log beside a mountain stream.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/bear.png"
+    },
+    {
+      "sourceSlug": "beastman",
+      "title": "Beastman",
+      "category": "monster",
+      "summary": "Animal-headed humanoids who fiercely resist settlement of their wild territories.",
+      "characteristics": {
+        "str": "13",
+        "con": "16",
+        "dex": "11",
+        "siz": "16",
+        "int": "13",
+        "pow": "11",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/beastman.md",
+      "image": "beastman.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "794eb91a6de9aca60994c0fbf41141550677ea99825cbf6efb207f6ce78b4eee",
+      "poseBrief": "Levering a leaning palisade timber aside with spear and shield.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/beastman.png"
+    },
+    {
+      "sourceSlug": "bull",
+      "title": "Bull",
+      "category": "animal",
+      "summary": "A territorial herd animal capable of devastating charges.",
+      "characteristics": {
+        "str": "20",
+        "con": "15",
+        "dex": "7",
+        "siz": "15",
+        "int": "4",
+        "pow": "7",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/bull.md",
+      "image": "bull.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "e192a6fcbd75522ed5ed6f1689e05ff6eda1176100d13d2c7c284156a1bc4921",
+      "poseBrief": "Pivoting heavily in mud to line up a charge.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/bull.png"
+    },
+    {
+      "sourceSlug": "crocodile",
+      "title": "Crocodile",
+      "category": "animal",
+      "summary": "A heavily armoured ambush predator equally dangerous in water and at the shore.",
+      "characteristics": {
+        "str": "30",
+        "con": "19",
+        "dex": "11",
+        "siz": "14",
+        "int": "3",
+        "pow": "11",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/crocodile.md",
+      "image": "crocodile.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "7c43ae15bbb4a81ec4fc40e8e6eb89f569ff94f0b7a4601b72bae86299f10949",
+      "poseBrief": "Surging sideways from reeds onto a muddy bank.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/crocodile.png"
+    },
+    {
+      "sourceSlug": "disease-spirit",
+      "title": "Disease Spirit",
+      "category": "spirit",
+      "summary": "A predatory spirit embodying one disease.",
+      "characteristics": {
+        "int": "7",
+        "pow": "17",
+        "cha": "11",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/disease-spirit.md",
+      "image": "disease.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "7f34574a71aada1ca93c797addd0daf746e3f4eff264db3bb3b287c591da06d3",
+      "poseBrief": "Flattening and reforming beneath grain sacks while stalking warmth.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/disease.png"
+    },
+    {
+      "sourceSlug": "dog",
+      "title": "Dog",
+      "category": "animal",
+      "summary": "A domestic or feral canine that relies on speed and its bite.",
+      "characteristics": {
+        "str": "13",
+        "con": "11",
+        "dex": "13",
+        "siz": "3",
+        "int": "5",
+        "pow": "9",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/dog.md",
+      "image": "dog.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "323f7e3daec807386bb8c2f64be920e13e3f84917489ebc6d1b0240eafcbaaff",
+      "poseBrief": "Digging under a tilted farm gate while looking back to listen.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/dog.png"
+    },
+    {
+      "sourceSlug": "dragon",
+      "title": "Dragon",
+      "category": "monster",
+      "summary": "An ancient, intelligent flying reptile whose magic and temperament vary widely.",
+      "characteristics": {
+        "str": "70",
+        "con": "35",
+        "dex": "14",
+        "siz": "65",
+        "int": "21",
+        "pow": "26",
+        "cha": "21"
+      },
+      "sourceProfile": "src/content/rules/creatures/dragon.md",
+      "image": "dragon.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "80ea050f97f43e8da3f15b594915d63772340a7c93616af6d2eb05c954458a96",
+      "poseBrief": "Descending carefully into a ruined courtyard while lighting one brazier.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/dragon.png"
+    },
+    {
+      "sourceSlug": "dryad",
+      "title": "Dryad",
+      "category": "nymph",
+      "summary": "A woodland spirit whose body grows from one tree and whose grove extends 44 m from it.",
+      "characteristics": {
+        "str": "7",
+        "con": "11",
+        "dex": "14",
+        "siz": "10",
+        "int": "17",
+        "pow": "22",
+        "cha": "19"
+      },
+      "sourceProfile": "src/content/rules/creatures/dryad.md",
+      "image": "dryad.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "9212bae7f8f057e29503ea679cbc8538d46221a4317baaccf520aa1f1636f185",
+      "poseBrief": "Leaning from a rooted foot to guide a broken branch down safely.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/dryad.png"
+    },
+    {
+      "sourceSlug": "dwarf",
+      "title": "Dwarf",
+      "category": "monster",
+      "summary": "Stocky, long-lived underground folk renowned for craft, mining, and stonework.",
+      "characteristics": {
+        "str": "14",
+        "con": "19",
+        "dex": "11",
+        "siz": "7",
+        "int": "13",
+        "pow": "11",
+        "cha": "11"
+      },
+      "sourceProfile": "src/content/rules/creatures/dwarf.md",
+      "image": "dwarf.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "112fe7a0e5863e05d25aff094ea35c32117fdf8d49b75ae7f854c27526b6d325",
+      "poseBrief": "Kneeling in a mine with one palm to stone, using Earth Sense.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/dwarf.png"
+    },
+    {
+      "sourceSlug": "elemental",
+      "title": "Elemental",
+      "category": "monster",
+      "summary": "Raw elemental substance embodied as water, darkness, flame, stone, or storm.",
+      "characteristics": {
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "by rank",
+        "int": "—",
+        "pow": "—",
+        "cha": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/elemental.md",
+      "image": "elemental.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "4dcd54d26e4409255132a1786e189df2b2aad0834675f9eec0e52c20d0586623",
+      "poseBrief": "Pulling free from a quarry face, body still half merged with rock.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/elemental.png"
+    },
+    {
+      "sourceSlug": "elephant",
+      "title": "Elephant",
+      "category": "animal",
+      "summary": "An immense herd animal whose bulk makes its tusks and feet lethal.",
+      "characteristics": {
+        "str": "45",
+        "con": "24",
+        "dex": "11",
+        "siz": "48",
+        "int": "6",
+        "pow": "13",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/elephant.md",
+      "image": "elephant.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "b2ff755d181fc55019de90a8b5cbe28bf5454f290405658ad79795c2254e8d99",
+      "poseBrief": "Stepping down a riverbank while spraying water across its shoulder.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/elephant.png"
+    },
+    {
+      "sourceSlug": "elf",
+      "title": "Elf",
+      "category": "monster",
+      "summary": "Ageless forest folk bound to their woodland realms and fiercely protective of them.",
+      "characteristics": {
+        "str": "10",
+        "con": "11",
+        "dex": "17",
+        "siz": "10",
+        "int": "17",
+        "pow": "13",
+        "cha": "11"
+      },
+      "sourceProfile": "src/content/rules/creatures/elf.md",
+      "image": "elf.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "928eb29f03eef52d32da72ce0cd9b75979ba56e18a5cd10d27843e9c8f327347",
+      "poseBrief": "Crouched sideways on a fallen trunk, drawing a bow through leaves.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/elf.png"
+    },
+    {
+      "sourceSlug": "gargoyle",
+      "title": "Gargoyle",
+      "category": "monster",
+      "summary": "A grey, winged humanoid predator often mistaken for a grotesque stone statue.",
+      "characteristics": {
+        "str": "29",
+        "con": "11",
+        "dex": "11",
+        "siz": "17",
+        "int": "4",
+        "pow": "11",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/gargoyle.md",
+      "image": "gargoyle.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "962f4c3a063bddb42c4733d18cdad7cd1bea02ff6226ae841c680f14c7033a3f",
+      "poseBrief": "Crawling headfirst down a rain-dark cathedral buttress.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/gargoyle.png"
+    },
+    {
+      "sourceSlug": "ghost",
+      "title": "Ghost",
+      "category": "spirit",
+      "summary": "A dead soul held in the world by obsession, violence, or unfinished duty; it is neither Undead nor Soulless.",
+      "characteristics": {
+        "int": "11",
+        "pow": "11",
+        "cha": "11",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/ghost.md",
+      "image": "ghost.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "fc88cfc4f7fe4183126076b09c1bb7526c8bc45d28dea0f011b5326137260b2e",
+      "poseBrief": "Pulling an immaterial ferry rope that vanishes into dry sand.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/ghost.png"
+    },
+    {
+      "sourceSlug": "ghoul",
+      "title": "Ghoul",
+      "category": "undead",
+      "summary": "An intelligent corpse-eater driven by endless hunger.",
+      "characteristics": {
+        "str": "14",
+        "con": "11",
+        "dex": "11",
+        "siz": "13",
+        "int": "11",
+        "pow": "11",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/ghoul.md",
+      "image": "ghoul.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "49fca7e1db18f09bf63ce339cba38b125bf42e1569a89180362342099e8e2083",
+      "poseBrief": "Moving beneath a smokehouse table while twisting into a warning howl.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/ghoul.png"
+    },
+    {
+      "sourceSlug": "giant-ant",
+      "title": "Giant Ant",
+      "category": "animal",
+      "summary": "A pony-sized colony predator protected by heavy chitin.",
+      "characteristics": {
+        "str": "14",
+        "con": "17",
+        "dex": "13",
+        "siz": "7",
+        "int": "2",
+        "pow": "6",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant-ant.md",
+      "image": "giant-ant.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "901a432f825777fe9d12bacfd03c53f4f0c89f09c10def70021bebe2b9b00a73",
+      "poseBrief": "Climbing a fallen log while shearing a thick root with its mandibles.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant-ant.png"
+    },
+    {
+      "sourceSlug": "giant-hawk",
+      "title": "Giant Hawk",
+      "category": "animal",
+      "summary": "A massive raptor capable of hunting prey as large as a horse.",
+      "characteristics": {
+        "str": "39",
+        "con": "33",
+        "dex": "18",
+        "siz": "39",
+        "int": "4",
+        "pow": "11",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant-hawk.md",
+      "image": "giant-hawk.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "0732b06d63f38bdea5be1e40779301a5461e1893fad8830e0f1ce87bafc48418",
+      "poseBrief": "Pulling out of a raking dive along a mountain shelf.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant-hawk.png"
+    },
+    {
+      "sourceSlug": "giant-lizard",
+      "title": "Giant Lizard",
+      "category": "animal",
+      "summary": "A large reptilian predator with powerful jaws and a battering tail.",
+      "characteristics": {
+        "str": "19",
+        "con": "11",
+        "dex": "15",
+        "siz": "19",
+        "int": "3",
+        "pow": "11",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant-lizard.md",
+      "image": "giant-lizard.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "94703d5a96bc3352a9ea66c46fd6e321955f547761ebfcae3503c9a27c1d4e57",
+      "poseBrief": "Whipping around a ravine boulder, head and tail moving oppositely.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant-lizard.png"
+    },
+    {
+      "sourceSlug": "giant-octopus",
+      "title": "Giant Octopus",
+      "category": "animal",
+      "summary": "An enormous marine hunter whose arms can overwhelm several enemies.",
+      "characteristics": {
+        "str": "42",
+        "con": "14",
+        "dex": "23",
+        "siz": "42",
+        "int": "4",
+        "pow": "11",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant-octopus.md",
+      "image": "giant-octopus.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "dba445d5b5d0084ad35d0a13072a73f9a5ad64dbfcb398b92d9939ea5b27e8ee",
+      "poseBrief": "Squeezing from a sea cave with eight countable bracing and reaching arms.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant-octopus.png"
+    },
+    {
+      "sourceSlug": "giant-python",
+      "title": "Giant Python",
+      "category": "animal",
+      "summary": "A huge constricting snake capable of crushing prey within its coils.",
+      "characteristics": {
+        "str": "35",
+        "con": "11",
+        "dex": "13",
+        "siz": "11",
+        "int": "3",
+        "pow": "11",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant-python.md",
+      "image": "giant-python.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "5d59384ee5f316a97d064a0c8e11a00ee139898162383508239110ddf322d46c",
+      "poseBrief": "Coiling continuously around a cracked pillar for leverage.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant-python.png"
+    },
+    {
+      "sourceSlug": "giant-spider",
+      "title": "Giant Spider",
+      "category": "animal",
+      "summary": "A horse-sized ambush predator that traps prey in venomous webs.",
+      "characteristics": {
+        "str": "19",
+        "con": "17",
+        "dex": "16",
+        "siz": "26",
+        "int": "8",
+        "pow": "11",
+        "cha": "2"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant-spider.md",
+      "image": "giant-spider.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "2a8b827b46472d974d198461bd4fbe38ff9dfeccf32724560e2515d262c6c27e",
+      "poseBrief": "Hanging beneath a ruined roof beam on taut silk lines.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant-spider.png"
+    },
+    {
+      "sourceSlug": "giant",
+      "title": "Giant",
+      "category": "monster",
+      "summary": "A six-metre humanoid who adopts nearby cultures or lives in an isolated mountain clan.",
+      "characteristics": {
+        "str": "49",
+        "con": "39",
+        "dex": "10",
+        "siz": "49",
+        "int": "11",
+        "pow": "11",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/giant.md",
+      "image": "giant.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "30d1fa6ac6ddd58e2c973bc3498b7cf910f7c659a448ae120bdb6e7661679de0",
+      "poseBrief": "Crouching in a flooded field to lift a stranded wooden cart.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/giant.png"
+    },
+    {
+      "sourceSlug": "goblin",
+      "title": "Goblin",
+      "category": "monster",
+      "summary": "A small, agile humanoid accustomed to surviving through cunning and numbers.",
+      "characteristics": {
+        "str": "10",
+        "con": "10",
+        "dex": "17",
+        "siz": "7",
+        "int": "11",
+        "pow": "10",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/goblin.md",
+      "image": "goblin.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "0ffd8106aa009656c2e32f3d2cfc45cc1ae586c8319f4aadcd4a7cfe99d7438b",
+      "poseBrief": "Sliding feet-first beneath a tunnel beam with shield overhead.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/goblin.png"
+    },
+    {
+      "sourceSlug": "golem",
+      "title": "Golem",
+      "category": "monster",
+      "summary": "A clay construct animated to execute a sacred command with literal, tireless precision.",
+      "characteristics": {
+        "str": "39",
+        "con": "29",
+        "dex": "7",
+        "siz": "29",
+        "int": "4 or 7 free-willed",
+        "pow": "4 or 11 free-willed",
+        "cha": "4 or 7 free-willed"
+      },
+      "sourceProfile": "src/content/rules/creatures/golem.md",
+      "image": "golem.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "a6293926e4ed592acf36056872152b33aca7d9c0dc68e2fc7de36b8269e845ed",
+      "poseBrief": "Lowering a collapsed roof beam while checking a boundary stone.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/golem.png"
+    },
+    {
+      "sourceSlug": "griffin",
+      "title": "Griffin",
+      "category": "monster",
+      "summary": null,
+      "characteristics": {
+        "str": "28",
+        "con": "22",
+        "dex": "22",
+        "siz": "28",
+        "int": "6",
+        "pow": "13",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/griffin.md",
+      "image": "griffin.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "68478009f94ffbe6ca2f28f1fc4dbc8d758093963b4824da5eaac208a144291b",
+      "poseBrief": "Braking asymmetrically just after a raking-dive landing.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/griffin.png"
+    },
+    {
+      "sourceSlug": "guardian-spirit",
+      "title": "Guardian Spirit",
+      "category": "spirit",
+      "summary": "A bound spirit that protects a place, object, tomb, or treasure according to stated conditions.",
+      "characteristics": {
+        "int": "7",
+        "pow": "17",
+        "cha": "11",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/guardian-spirit.md",
+      "image": "guardian.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "0ffca979c2dd6488b7b4fa876f4fb1f534a32b436f4f767ed998a047f3005f63",
+      "poseBrief": "Coiling around a bronze burial mask and howling toward a breached roof.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/guardian.png"
+    },
+    {
+      "sourceSlug": "hag",
+      "title": "Hag",
+      "category": "nymph",
+      "summary": "A cave or darkness spirit that hunts beyond its domain only between sunset and dawn.",
+      "characteristics": {
+        "str": "21",
+        "con": "11",
+        "dex": "11",
+        "siz": "11",
+        "int": "19",
+        "pow": "28",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/hag.md",
+      "image": "hag.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "5fe6325f775333f5fa8a061be822fa456344d1dbfa2c101a82beb159e68ff784",
+      "poseBrief": "Crawling crabwise through a cave fissure while shielding light-sensitive eyes.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/hag.png"
+    },
+    {
+      "sourceSlug": "harpy",
+      "title": "Harpy",
+      "category": "monster",
+      "summary": "A filthy, winged scavenger whose claws and missiles spread disease.",
+      "characteristics": {
+        "str": "11",
+        "con": "11",
+        "dex": "18",
+        "siz": "7",
+        "int": "11",
+        "pow": "11",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/harpy.md",
+      "image": "harpy.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "c941c1289f28eb416a0a639764b206719b4a3f6033ef7f9c2b394c7a59aa1477",
+      "poseBrief": "Banking over a coastal cliff with a filthy dropped missile.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/harpy.png"
+    },
+    {
+      "sourceSlug": "hawk",
+      "title": "Hawk",
+      "category": "animal",
+      "summary": "A small, agile bird of prey.",
+      "characteristics": {
+        "str": "2",
+        "con": "4",
+        "dex": "27",
+        "siz": "2",
+        "int": "4",
+        "pow": "7",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/hawk.md",
+      "image": "hawk.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "3c0e562447c1c7583b257082fa7949d4a24ecdc829b669b5af6e0fe69a51c784",
+      "poseBrief": "Banking through tall meadow grass with talons opening.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/hawk.png"
+    },
+    {
+      "sourceSlug": "healing-spirit",
+      "title": "Healing Spirit",
+      "category": "spirit",
+      "summary": "A luminous restorative spirit and natural enemy of Disease Spirits.",
+      "characteristics": {
+        "int": "7",
+        "pow": "14",
+        "cha": "11",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/healing-spirit.md",
+      "image": "healing.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "4923a278b118b54115645bb797e4e03534a026802c4250e79be63c596796993c",
+      "poseBrief": "Heron-like spirit spearing a patch of fever vapor in an herb garden.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/healing.png"
+    },
+    {
+      "sourceSlug": "holy-steed",
+      "title": "Holy Steed",
+      "category": "monster",
+      "summary": null,
+      "characteristics": {
+        "str": "30",
+        "con": "20",
+        "dex": "18",
+        "siz": "30",
+        "int": "18",
+        "pow": "18",
+        "cha": "18"
+      },
+      "sourceProfile": "src/content/rules/creatures/holy-steed.md",
+      "image": "holy-steed.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "694ae7605bdb0ab49dc229bfcb9e190657a6f0b8c168b68ec94b65e3ca18d40a",
+      "poseBrief": "Testing a broken stone bridge with deliberate, intelligent balance.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/holy-steed.png"
+    },
+    {
+      "sourceSlug": "holy-warrior",
+      "title": "Holy Warrior",
+      "category": "monster",
+      "summary": "An otherworldly champion whose form and weapon reflect its deity.",
+      "characteristics": {
+        "str": "20",
+        "con": "18",
+        "dex": "15",
+        "siz": "18",
+        "int": "15",
+        "pow": "18",
+        "cha": "18"
+      },
+      "sourceProfile": "src/content/rules/creatures/holy-warrior.md",
+      "image": "holy-warrior.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "4fe035e58f1bf63ee16a7a663d4d2165187e7f9d0e7447a2ecde8ed979609cca",
+      "poseBrief": "Lying prone across a washed-out ditch, using a shield as a bridge.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/holy-warrior.png"
+    },
+    {
+      "sourceSlug": "horse",
+      "title": "Horse",
+      "category": "animal",
+      "summary": "A swift riding and draft animal whose kick can shatter bone.",
+      "characteristics": {
+        "str": "25",
+        "con": "17",
+        "dex": "10",
+        "siz": "25",
+        "int": "4",
+        "pow": "11",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/horse.md",
+      "image": "horse.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "3f0114b55782444700e6f60b4c67e249e88a0160d2b197c188299485383de70f",
+      "poseBrief": "Backing and turning on a rain-dark forest path.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/horse.png"
+    },
+    {
+      "sourceSlug": "lion",
+      "title": "Lion",
+      "category": "animal",
+      "summary": "A powerful feline predator armed with jaws and claws.",
+      "characteristics": {
+        "str": "24",
+        "con": "11",
+        "dex": "17",
+        "siz": "19",
+        "int": "5",
+        "pow": "11",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/lion.md",
+      "image": "lion.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "cc5b8514c7a0902ae16c55d01348193aba436c5a0ca47bcfbb23c10f663446c7",
+      "poseBrief": "Dropping from a ledge into tall grass in a descending arc.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/lion.png"
+    },
+    {
+      "sourceSlug": "lizardman",
+      "title": "Lizardman",
+      "category": "monster",
+      "summary": "A tool-using reptilian person adapted to deserts, swamps, and other hot regions.",
+      "characteristics": {
+        "str": "17",
+        "con": "11",
+        "dex": "10",
+        "siz": "11",
+        "int": "13",
+        "pow": "11",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/lizardman.md",
+      "image": "lizardman.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "65b3afb795c8c8453ee7fd6932105a6bbea573e5b4f97a6babfcf9af9c9e2752",
+      "poseBrief": "Lying across a drifting log while hooking a supply bundle with an axe.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/lizardman.png"
+    },
+    {
+      "sourceSlug": "magic-spirit",
+      "title": "Magic Spirit",
+      "category": "spirit",
+      "summary": "A constellation of coloured lights gathered around one coherent magical theme.",
+      "characteristics": {
+        "int": "11",
+        "pow": "14",
+        "cha": "4",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/magic-spirit.md",
+      "image": "magic.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "057bce12e973f394b335ab1db0ebd9c634fb150755feac171b4c665bb0ba5919",
+      "poseBrief": "Folding a constellation-like body through an overturned astrolabe.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/magic.png"
+    },
+    {
+      "sourceSlug": "merfolk",
+      "title": "Merfolk",
+      "category": "monster",
+      "summary": "A territorial sea-dweller whose undersea society mirrors kingdoms above.",
+      "characteristics": {
+        "str": "14",
+        "con": "11",
+        "dex": "13",
+        "siz": "17",
+        "int": "11",
+        "pow": "11",
+        "cha": "11"
+      },
+      "sourceProfile": "src/content/rules/creatures/merfolk.md",
+      "image": "merfolk.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "3976825b0431db00e6ebbc60702fbc58d3726ea6711c82560fa12313e5905b86",
+      "poseBrief": "Rolling under a fallen mast using spear and tail as a pivot.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/merfolk.png"
+    },
+    {
+      "sourceSlug": "mummy",
+      "title": "Mummy",
+      "category": "undead",
+      "summary": "An intelligent, ritually preserved ruler or guardian with no Shaping by default.",
+      "characteristics": {
+        "str": "23",
+        "con": "23",
+        "dex": "4",
+        "siz": "13",
+        "int": "13",
+        "pow": "0",
+        "cha": "1"
+      },
+      "sourceProfile": "src/content/rules/creatures/mummy.md",
+      "image": "mummy.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "86956aaa0c02766e8770bd1275d193e69908f3932ceed1595453af31dac1f3a0",
+      "poseBrief": "Descending a burial stair seated, one rigid step at a time.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/mummy.png"
+    },
+    {
+      "sourceSlug": "naiad",
+      "title": "Naiad",
+      "category": "nymph",
+      "summary": "A water spirit anchored to one stream, lake, swamp, or coastal reach.",
+      "characteristics": {
+        "str": "14",
+        "con": "11",
+        "dex": "14",
+        "siz": "10",
+        "int": "17",
+        "pow": "25",
+        "cha": "19"
+      },
+      "sourceProfile": "src/content/rules/creatures/naiad.md",
+      "image": "naiad.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "9dadd02d8f9daafee438af7f451544cfb09f65e5c7bfefc26e261dfeea391bde",
+      "poseBrief": "Swinging horizontally around a planted spear through fast current.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/naiad.png"
+    },
+    {
+      "sourceSlug": "ogre",
+      "title": "Ogre",
+      "category": "monster",
+      "summary": "A massive, warty humanoid who dominates weaker creatures through brute force.",
+      "characteristics": {
+        "str": "23",
+        "con": "13",
+        "dex": "11",
+        "siz": "23",
+        "int": "10",
+        "pow": "10",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/ogre.md",
+      "image": "ogre.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "73959fc2ff79d02939b394006d963dae0092dea6c658f5b880ed2a7ab4649e6d",
+      "poseBrief": "Hauling a great axe free from a shattered stump in a rocky ravine.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/ogre.png"
+    },
+    {
+      "sourceSlug": "orc",
+      "title": "Orc",
+      "category": "monster",
+      "summary": "A violent clan-based humanoid whose warband is ruled by strength and ambition.",
+      "characteristics": {
+        "str": "14",
+        "con": "11",
+        "dex": "14",
+        "siz": "10",
+        "int": "11",
+        "pow": "10",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/orc.md",
+      "image": "orc.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "f14f270af039b31164286c7bf9eb6ea87b181bc3758602180cd2d3a50cfd07a6",
+      "poseBrief": "Vaulting sideways through a ruined window with shield leading.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/orc.png"
+    },
+    {
+      "sourceSlug": "oread",
+      "title": "Oread",
+      "category": "nymph",
+      "summary": "A stone spirit anchored to one hill, mountain, valley, or similar landform.",
+      "characteristics": {
+        "str": "7",
+        "con": "12",
+        "dex": "17",
+        "siz": "10",
+        "int": "14",
+        "pow": "22",
+        "cha": "15"
+      },
+      "sourceProfile": "src/content/rules/creatures/oread.md",
+      "image": "oread.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "82c5e97cf5a68afdcd333b841b9ed54c8fe7c4823cce82ff6080c84e58994ea3",
+      "poseBrief": "Skating down steep scree on a slab while catching a falling stone.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/oread.png"
+    },
+    {
+      "sourceSlug": "passion-spirit",
+      "title": "Passion Spirit",
+      "category": "spirit",
+      "summary": "A predatory embodiment of fear, madness, or pain; choose one passion when creating it.",
+      "characteristics": {
+        "int": "10",
+        "pow": "17",
+        "cha": "14",
+        "str": "—",
+        "con": "—",
+        "dex": "—",
+        "siz": "—"
+      },
+      "sourceProfile": "src/content/rules/creatures/passion-spirit.md",
+      "image": "passion.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "56ba4911ae4e64c67ea590ae58a4300380c65a03f6a223257399b27f2f6b9846",
+      "poseBrief": "Spiraling around a swinging watchtower door as embodied fear.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/passion.png"
+    },
+    {
+      "sourceSlug": "pixie",
+      "title": "Pixie",
+      "category": "monster",
+      "summary": "A tiny, winged forest person known for curiosity, mischief, and subtle magic.",
+      "characteristics": {
+        "str": "4",
+        "con": "11",
+        "dex": "14",
+        "siz": "4",
+        "int": "11",
+        "pow": "13",
+        "cha": "11"
+      },
+      "sourceProfile": "src/content/rules/creatures/pixie.md",
+      "image": "pixie.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "a75f50432016eacc279be4316ee44f25166c1cd1569edbaff9682177bc645f12",
+      "poseBrief": "Hanging upside down from a blackberry cane while loosening a boot lace.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/pixie.png"
+    },
+    {
+      "sourceSlug": "raven",
+      "title": "Raven",
+      "category": "animal",
+      "summary": "A quick and observant scavenging bird.",
+      "characteristics": {
+        "str": "2",
+        "con": "4",
+        "dex": "21",
+        "siz": "2",
+        "int": "5",
+        "pow": "7",
+        "cha": "4"
+      },
+      "sourceProfile": "src/content/rules/creatures/raven.md",
+      "image": "raven.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "a9e032c4279474522883502cbc5a622631b6e2deba1c830c1f4d68c760504a1a",
+      "poseBrief": "Hopping sideways on a fence rail while snatching a beetle.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/raven.png"
+    },
+    {
+      "sourceSlug": "rhinoceros",
+      "title": "Rhinoceros",
+      "category": "animal",
+      "summary": "A thick-skinned herbivore whose charge can tear through a battle line.",
+      "characteristics": {
+        "str": "26",
+        "con": "11",
+        "dex": "7",
+        "siz": "26",
+        "int": "3",
+        "pow": "11",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/rhinoceros.md",
+      "image": "rhinoceros.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "f7d78230096d3956bfd303f66f308bcbcf5b8df07b5d36d9f40f26894eb19176",
+      "poseBrief": "Braking and swinging its mass after a missed charge.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/rhinoceros.png"
+    },
+    {
+      "sourceSlug": "sea-serpent",
+      "title": "Sea Serpent",
+      "category": "monster",
+      "summary": "An enormous aquatic serpent that drags prey to caverns beneath the sea.",
+      "characteristics": {
+        "str": "58",
+        "con": "35",
+        "dex": "7",
+        "siz": "36",
+        "int": "3",
+        "pow": "21",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/sea-serpent.md",
+      "image": "sea-serpent.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "6e930ec3d539c4f260bdae84f5fc2f2f66e191049c77fd6e2cbd1a44c69548de",
+      "poseBrief": "Turning slowly around a sea stack, body split above and below water.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/sea-serpent.png"
+    },
+    {
+      "sourceSlug": "skeleton",
+      "title": "Skeleton",
+      "category": "undead",
+      "summary": "Animated bones following simple commands.",
+      "characteristics": {
+        "str": "13",
+        "con": "4",
+        "dex": "11",
+        "siz": "11",
+        "int": "0",
+        "pow": "0",
+        "cha": "0"
+      },
+      "sourceProfile": "src/content/rules/creatures/skeleton.md",
+      "image": "skeleton.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "722362a0775caf253bc5984e8a5ae4fcb53fd76cb23d9ac31647b3a72ce76b05",
+      "poseBrief": "Descending a broken staircase backward on hands and feet.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/skeleton.png"
+    },
+    {
+      "sourceSlug": "troll",
+      "title": "Troll",
+      "category": "monster",
+      "summary": "A large, solitary predator whose body repairs wounds with terrifying speed.",
+      "characteristics": {
+        "str": "26",
+        "con": "20",
+        "dex": "7",
+        "siz": "26",
+        "int": "6",
+        "pow": "11",
+        "cha": "7"
+      },
+      "sourceProfile": "src/content/rules/creatures/troll.md",
+      "image": "troll.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "2d5517f779346ba5ee32c58332e79de5bd989aeaf46c5823c5954fbff16ce75f",
+      "poseBrief": "Crawling awkwardly beneath a fallen trunk while a wound closes.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/troll.png"
+    },
+    {
+      "sourceSlug": "vampire",
+      "title": "Vampire",
+      "category": "undead",
+      "summary": "An intelligent undead predator sustained by stolen blood and life force.",
+      "characteristics": {
+        "str": "23",
+        "con": "23",
+        "dex": "11",
+        "siz": "13",
+        "int": "13",
+        "pow": "0",
+        "cha": "11"
+      },
+      "sourceProfile": "src/content/rules/creatures/vampire.md",
+      "image": "vampire.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "2b2434a3e18e276d19fc81cd2dd1a1dd37ce970244d00673266b36c8be3fa01b",
+      "poseBrief": "Turning its lower body to mist while levering a locked inn latch.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/vampire.png"
+    },
+    {
+      "sourceSlug": "viper",
+      "title": "Viper",
+      "category": "animal",
+      "summary": "A fast venomous snake whose bite can bring down much larger prey.",
+      "characteristics": {
+        "str": "13",
+        "con": "6",
+        "dex": "27",
+        "siz": "7",
+        "int": "3",
+        "pow": "13",
+        "cha": "3"
+      },
+      "sourceProfile": "src/content/rules/creatures/viper.md",
+      "image": "viper.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "9ede4e4b52b170ce5f0b7a9c299969f6534a2837d86cd83c47b4570f48fbd67c",
+      "poseBrief": "Flowing through a grounded S-turn between sunlit stones.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/viper.png"
+    },
+    {
+      "sourceSlug": "werewolf",
+      "title": "Werewolf",
+      "category": "monster",
+      "summary": "A person who can become a giant wolf willingly—or involuntarily beneath the full moon.",
+      "characteristics": {
+        "str": "11/22",
+        "con": "11",
+        "dex": "11",
+        "siz": "13",
+        "int": "13/6",
+        "pow": "11",
+        "cha": "11, human/wolf"
+      },
+      "sourceProfile": "src/content/rules/creatures/werewolf.md",
+      "image": "werewolf.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "5050c7eb1fc46d1cc9b1999aa880c8004de19cba075a916bd137b71f42476d40",
+      "poseBrief": "Twisting low mid-transformation while pulling at an ankle chain.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/werewolf.png"
+    },
+    {
+      "sourceSlug": "wolf",
+      "title": "Wolf",
+      "category": "animal",
+      "summary": "A swift pack predator armed with powerful jaws and claws.",
+      "characteristics": {
+        "str": "11",
+        "con": "14",
+        "dex": "13",
+        "siz": "10",
+        "int": "5",
+        "pow": "11",
+        "cha": "5"
+      },
+      "sourceProfile": "src/content/rules/creatures/wolf.md",
+      "image": "wolf.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "a2f62798411e9a335aaf4d970b8e8c9d7784c7e7bd46c265a68f0238ed77871f",
+      "poseBrief": "Pausing mid-trot in snow to listen toward an off-frame pack.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/wolf.png"
+    },
+    {
+      "sourceSlug": "wyvern",
+      "title": "Wyvern",
+      "category": "monster",
+      "summary": "A lean, two-legged draconic predator armed with jaws, claws, and a venomous tail.",
+      "characteristics": {
+        "str": "26",
+        "con": "19",
+        "dex": "13",
+        "siz": "26",
+        "int": "7",
+        "pow": "11",
+        "cha": "6"
+      },
+      "sourceProfile": "src/content/rules/creatures/wyvern.md",
+      "image": "wyvern.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "9cf3e9d93c559253743fdedce6ec5f3e6ae74c0cbaeaa8126ee4c5be964a6ae7",
+      "poseBrief": "Climbing an escarpment with two hind legs and wing-wrists.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/wyvern.png"
+    },
+    {
+      "sourceSlug": "zombie",
+      "title": "Zombie",
+      "category": "undead",
+      "summary": "A rotting corpse animated to obey simple commands or attack the living.",
+      "characteristics": {
+        "str": "23",
+        "con": "4",
+        "dex": "7",
+        "siz": "10",
+        "int": "0",
+        "pow": "0",
+        "cha": "2"
+      },
+      "sourceProfile": "src/content/rules/creatures/zombie.md",
+      "image": "zombie.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "79accf73eae25385945d809f7901d1277880761c6cbb2572b1fdbf09026ea022",
+      "poseBrief": "Crawling belly-down up a loose grain slope without coordination.",
+      "qa": "accepted",
+      "sourceBlueprint": "../more-naturalistic/zombie.png"
+    }
+  ]
+}
