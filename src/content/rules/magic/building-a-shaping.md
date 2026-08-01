@@ -92,9 +92,11 @@ Areas include allies. Excluding arbitrary subjects requires **Selective**. Reach
 
 ## Adjustments {#magic-adjustments}
 
-One adjustment needs no training: an **additional outcome** allowed by the same cell adds its full Intensity. It must be mechanically distinct — the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version.
+Anything a Shaping does beyond its Intensity, Range, Duration, and Reach is an adjustment, and each adds Magnitude.
 
-Every other adjustment is a learned technique bought as a Talent, each stating the Magnitude it adds: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
+One needs no training: an **additional outcome** allowed by the same cell adds its full Intensity. It must be mechanically distinct — the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version.
+
+Every other is a learned technique bought as a Talent, each stating the Magnitude it adds: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
 
 Shared Range, Duration, and Reach are counted once.
 
