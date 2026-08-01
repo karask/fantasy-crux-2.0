@@ -59,11 +59,14 @@ layout: layouts/base.njk
         <button type="button" data-filter="craft" aria-pressed="false">Craft</button>
         <button type="button" data-filter="survival" aria-pressed="false">Survival</button>
         <button type="button" data-filter="healing" aria-pressed="false">Healing</button>
+        <button type="button" data-filter="general" aria-pressed="false">General</button>
       </div>
       <div class="talent-list">
         {% for item in chapterItems %}
           {% set talent = item.data %}
-          <article class="talent-profile" data-filter-item data-filter-tags="{{ talent.tags | join(' ') }}" data-pagefind-body data-pagefind-meta="chapter:talents">
+          {# "General" is a filter bucket, not a tag: it gathers the Talents that serve every role rather than one style of play. #}
+          {% set isGeneral = 'training' in talent.tags or 'awareness' in talent.tags or 'mobility' in talent.tags %}
+          <article class="talent-profile" data-filter-item data-filter-tags="{{ talent.tags | join(' ') }}{{ ' general' if isGeneral }}" data-pagefind-body data-pagefind-meta="chapter:talents">
             <header class="rule-section-heading talent-profile-heading">
               <div class="talent-cost talent-cost--large"><strong>{{ talent.cost }}</strong><span>IP</span></div>
               <div>

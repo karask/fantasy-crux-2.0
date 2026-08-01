@@ -4,7 +4,7 @@ id: magic.techniques-and-forms
 chapter: magic
 title: Techniques and Forms
 slug: techniques-and-forms
-order: 30
+order: 20
 summary: A Technique limits what the Shaping does; a Form limits what it can affect and how an unwilling subject usually defends.
 aliases:
   - Conjure Bend Unmake Alter Ward Scry
@@ -12,7 +12,7 @@ aliases:
   - Shaping cells
 ---
 
-Combine one **Technique** and one **Form** to define an exact [known cell](/rules/magic/#becoming-a-shaper).
+Combine one **Technique** and one **Form** to define an exact [known cell](/rules/magic/#becoming-a-shaper), then [price what it does](/rules/magic/#building-a-shaping).
 
 ## Techniques {#magic-techniques}
 
@@ -49,6 +49,8 @@ Physical damage uses [armour](/rules/equipment/#armour) unless **Piercing**: arm
 All **Undead** are Soulless. Mind affects intelligent undead; a Mindless creature has no Mind to affect. Flesh affects living creatures and corporeal undead. Unmake·Flesh harms their body; limb loss is narrative with damage, or a separately priced condition or transformation. Spirit cannot affect Soulless creatures.
 
 Bend·Flesh can restrain or puppet a body through Resilience and active control, but supplies no beliefs, tactics, or loyalty. Alter·Flesh heals living tissue and repairs corporeal undead, but creates no soul, identity, or memory.
+
+Force/Motion handles a body as mass: pushing, lifting, or pinning it. Working the body itself — limbs, tissue, its own actions — is Flesh.
 
 ### Paths {#magic-paths}
 

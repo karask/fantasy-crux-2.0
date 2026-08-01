@@ -11,8 +11,8 @@ const creatureText = existsSync(creaturePath) ? readFileSync(creaturePath, 'utf8
 const publishedRoot = path.resolve('src/content/rules/creatures');
 const publishedMagicPages = [
   'becoming-a-shaper.md',
-  'building-a-shaping.md',
   'techniques-and-forms.md',
+  'building-a-shaping.md',
   'effects.md',
   'casting-and-defence.md',
   'ongoing-and-magical-actions.md',
@@ -240,17 +240,15 @@ describe('published creature compendium', () => {
       expect((data.attacks ?? []).join('\n'), `${data.title}: attacks`).not.toMatch(/\bDM\b/);
     }
 
-    expect(creatureRecord('Mummy').data.attacks.some((attack) => attack.includes('`2D8 + 1D6`'))).toBe(
-      true,
-    );
     expect(
-      creatureRecord('Basilisk').data.attacks.some((attack) =>
-        attack.includes('`1D6 - 1D6`'),
-      ),
+      creatureRecord('Mummy').data.attacks.some((attack) => attack.includes('`2D8 + 1D6`')),
     ).toBe(true);
-    expect(creatureRecord('Dwarf').data.attacks.some((attack) => attack.includes('`1D8 + 0`'))).toBe(
-      true,
-    );
+    expect(
+      creatureRecord('Basilisk').data.attacks.some((attack) => attack.includes('`1D6 - 1D6`')),
+    ).toBe(true);
+    expect(
+      creatureRecord('Dwarf').data.attacks.some((attack) => attack.includes('`1D8 + 0`')),
+    ).toBe(true);
   });
 
   // The approved Plunder Ratings, converted from the LaTeX creature chapter. Everything that

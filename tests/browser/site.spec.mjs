@@ -310,14 +310,19 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
   // Medicine has its own tag, so Field Surgeon no longer sits under Survival.
   await page.getByRole('button', { name: 'Healing' }).click();
   await expect(visibleCards).toHaveCount(3);
+
+  // General gathers the Talents that suit every role, so Mastery has a filter of its own.
+  await page.getByRole('button', { name: 'General', exact: true }).click();
+  await expect(visibleCards).toHaveCount(6);
+  await expect(visibleCards.filter({ hasText: 'Mastery' }).first()).toBeVisible();
   await expectNoHorizontalOverflow(page);
 });
 
 test('Shaping is a first-class rules chapter', async ({ page }) => {
   const sections = [
     'becoming-a-shaper',
-    'building-a-shaping',
     'techniques-and-forms',
+    'building-a-shaping',
     'effects',
     'casting-and-defence',
     'ongoing-and-magical-actions',

@@ -4,7 +4,7 @@ id: magic.building-a-shaping
 chapter: magic
 title: Building a Shaping
 slug: building-a-shaping
-order: 20
+order: 30
 summary:
   - Choose a known Technique–Form cell and one clear outcome.
   - Intensity + Range + Duration + Reach + adjustments equals Magnitude.

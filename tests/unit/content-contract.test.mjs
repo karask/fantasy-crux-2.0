@@ -96,8 +96,8 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     expect(magicChapter.content).not.toContain('Magic rules are in development.');
     expect(magicRules.map((record) => [record.data.id, record.data.slug])).toEqual([
       ['magic.becoming-a-shaper', 'becoming-a-shaper'],
-      ['magic.building-a-shaping', 'building-a-shaping'],
       ['magic.techniques-and-forms', 'techniques-and-forms'],
+      ['magic.building-a-shaping', 'building-a-shaping'],
       ['magic.effects', 'effects'],
       ['magic.casting-and-defence', 'casting-and-defence'],
       ['magic.ongoing-and-magical-actions', 'ongoing-and-magical-actions'],
