@@ -18,11 +18,11 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) th
 | Outcome                       | Effect                                                                              |
 | ----------------------------- | ----------------------------------------------------------------------------------- |
 | Direct damage                 | Unmake deals `Intensity D6`; never add Damage Modifier.                             |
-| Healing                       | Alter·Flesh restores HP equal to Intensity.                                         |
-| Armour or reduction           | Ward grants AP equal to Intensity against one defined class of harm.                |
-| Barrier                       | AP = Intensity; total HP = `5 × Intensity`; Reach sets footprint.                   |
+| Healing                       | Alter·Flesh restores `1D4` HP per Intensity.                                        |
+| Armour or reduction           | Ward grants AP of twice Intensity against one defined class of harm.                |
+| Barrier                       | AP = twice Intensity; total HP = `5 × Intensity`; Reach sets footprint.             |
 | Skill modifier                | `+1B`/`-1P` at Intensity 2; `+2B`/`-2P` at Intensity 4.                             |
-| Characteristic modifier       | ±1 at Intensity 3; ±2 at Intensity 4, within normal limits.                         |
+| Characteristic modifier       | ±1 per Intensity, within normal limits.                                             |
 | Brief hindrance               | Intensity 1 may halve Movement until the end of the affected subject's next turn.   |
 | Restraint or forced movement  | Intensity 2 restrains a human-sized subject or moves it up to 3 metres.             |
 | Flight                        | Intensity 3 moves a willing subject at normal Movement while actively controlled.   |
@@ -71,7 +71,7 @@ Directing an actively controlled subject spends the Shaper's Combat Action. It o
 
 ## Wards and barriers {#magic-wards}
 
-A Ward grants one benefit: AP or reduction equal to Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint and resisted on each crossing attempt.
+A Ward grants one benefit: AP or reduction of twice Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint and resisted on each crossing attempt.
 
 Ward AP never adds to worn armour against the same damage. If both apply, use the higher AP; if worn armour cannot protect against the source, use Ward AP alone. Same-kind magical protection never stacks.
 

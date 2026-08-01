@@ -49,12 +49,12 @@ Builds abbreviate Intensity as I, Range as R, and Duration as D.
 | -------------------------------------- | -------------------------------- | --: | ----------------------------------------------------------------------------- |
 | `2D6` firebolt within 15 m             | Unmake·Fire; I2, R1              |   3 | Dodge `-1P`; fire protection applies.                                         |
 | `2D6` frost burst, 3 m radius at 15 m  | Unmake·Water/Ice; I2, R1, Reach1 |   4 | Aware subjects, including allies, may Dodge at `-1P` using the base Reaction. |
-| Scene-long 3 m stone wall              | Conjure·Earth; I2, D1, Reach1    |   4 | AP 2, 10 HP total.                                                            |
+| Scene-long 3 m stone wall              | Conjure·Earth; I2, D1, Reach1    |   4 | AP 4, 10 HP total.                                                            |
 | Teleport a willing subject within 15 m | Bend·Paths; I2, R1               |   3 | Range reaches both subject and safe destination.                              |
 | Scene-long one-way portal within 15 m  | Conjure·Paths; I3, R1, D1        |   5 | Stationary; each traveller spends a Movement Action.                          |
 | `2D6` internal wither within 15 m      | Unmake·Flesh; I2, R1, Piercing   |   4 | Resilience opposes; ignores mundane armour.                                   |
-| Treat a Major Wound by touch           | Alter·Flesh; I3                  |   3 | Restore 3 HP, remove Bleeding/Dying, and count as Surgery.                    |
-| 3 AP stoneskin for a scene             | Ward·Earth; I3, D1               |   4 | Use it or worn armour, whichever is higher.                                   |
+| Treat a Major Wound by touch           | Alter·Flesh; I3                  |   3 | Restore `3D4` HP, remove Bleeding/Dying, and count as Surgery.                |
+| 6 AP stoneskin for a scene             | Ward·Earth; I3, D1               |   4 | Use it or worn armour, whichever is higher.                                   |
 | Bless the next named test this scene   | Bend·Fate; I2, Trigger, wait D1  |   4 | Declare the trigger first; the test gains `+1B`.                              |
 | Animate a corpse for a scene           | Conjure·Flesh; I3, D1            |   4 | Generic 10 HP Mindless, Soulless Undead; the remains collapse when it ends.   |
 | Permanently return a willing soul      | Alter·Spirit; I5, D5             |  10 | Master mythic ritual and lasting price; restore a body separately.            |
