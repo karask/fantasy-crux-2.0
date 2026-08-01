@@ -51,9 +51,9 @@ skills:
   - 'Deception 80%'
   - 'Perception 80%'
 attacks:
-  - 'Arming Sword — Close Combat 50%, `1D8 + DM`, Medium'
-  - 'Medium Shield — Close Combat 50%, `1D6 + DM`, Heavy'
-  - 'Bite — Unarmed Combat 60%, `1D6 + DM`, Medium'
+  - 'Arming Sword — Close Combat 50%, `1D8 + 1D6`, Medium'
+  - 'Medium Shield — Close Combat 50%, `1D6 + 1D6`, Heavy'
+  - 'Bite — Unarmed Combat 60%, `1D6 + 1D6`, Medium'
 talents: 'None'
 ---
 

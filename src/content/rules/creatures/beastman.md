@@ -47,10 +47,10 @@ skills:
   - 'Close Combat 50%'
   - 'Unarmed Combat 60%'
 attacks:
-  - 'Club — Close Combat 50%, `1D6 + DM`, Light'
-  - 'Shortspear — Close Combat 50%, `1D6 + DM`, Medium'
-  - 'Medium Shield — Close Combat 50%, `1D6 + DM`, Heavy'
-  - 'Head Butt — Unarmed Combat 60%, `1D6 + DM`, Medium'
+  - 'Club — Close Combat 50%, `1D6 + 1D4`, Light'
+  - 'Shortspear — Close Combat 50%, `1D6 + 1D4`, Medium'
+  - 'Medium Shield — Close Combat 50%, `1D6 + 1D4`, Heavy'
+  - 'Head Butt — Unarmed Combat 60%, `1D6 + 1D4`, Medium'
 talents: 'None'
 ---
 

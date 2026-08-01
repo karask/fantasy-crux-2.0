@@ -9,7 +9,7 @@ category: monster
 summary: 'A violent clan-based humanoid whose warband is ruled by strength and ambition.'
 image: '/assets/images/creatures/orc.webp'
 image320: '/assets/images/creatures/orc-320.webp'
-imageAlt: 'An orc fighter carrying a scimitar and round shield.'
+imageAlt: 'An orc fighter advancing through ruined streets behind a round shield.'
 tags:
   - 'living'
   - 'corporeal'
@@ -49,8 +49,8 @@ skills:
   - 'Close Combat 40%'
   - 'Ranged Combat 50%'
 attacks:
-  - 'Scimitar — Close Combat 40%, `1D8 + DM`, Medium'
-  - 'Medium Shield — Close Combat 40%, `1D6 + DM`, Heavy'
+  - 'Scimitar — Close Combat 40%, `1D8 + 0`, Medium'
+  - 'Medium Shield — Close Combat 40%, `1D6 + 0`, Heavy'
   - 'Shortbow — Ranged Combat 50%, `1D8`, 75 m'
 talents: 'None'
 ---

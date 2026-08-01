@@ -4,11 +4,14 @@ title: Open Game License
 bodyClass: legal-page
 permalink: /license/index.html
 eleventyExcludeFromCollections: true
+artKey: license
 ---
 
-# Open Game License Version 1.0a
+# Open Game License Version 1.0a {#open-game-license}
 
 The rules text on this site is Open Game Content, published under the Open Game License 1.0a and derived from the works credited in Section 15 below. Section 10 of that licence requires a copy to travel with every distribution of the content, which is what this page is.
+
+## Terms of the License {#license-terms}
 
 The following text is the property of Wizards of the Coast Inc. and is Copyright 2000 Wizards of the Coast, Inc (“Wizards”). All Rights Reserved.
 

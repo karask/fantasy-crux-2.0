@@ -3,6 +3,7 @@ layout: layouts/base.njk
 ---
 {% set isTalents = id == 'talents' %}
 {% set isCreatures = id == 'creatures' %}
+{% set chapterArtItems = site.chapterArt[id] or [] %}
 {% set chapterItems = collections.talents if isTalents else collections.rules | chapterRules(id) %}
 {# Talents live in one filterable section, so the chapter has nothing to tab between. #}
 {% set sectionTabCount = 1 if isTalents else chapterItems | length + (1 if isCreatures else 0) %}
@@ -85,7 +86,18 @@ layout: layouts/base.njk
               <p class="search-index-context" aria-hidden="true" data-pagefind-weight="0.5">
                 {{ talent.title }}. {{ talent.summary | summaryText }}{% if talent.aliases %} Also known as {{ talent.aliases | join(', ') }}.{% endif %} Costs {{ talent.cost }} Improvement Points. Requires {{ talent.prerequisites | summaryText }}. {{ talent.activation }} Talent. Tags: {{ talent.tags | join(', ') }}.
               </p>
-              {{ item.templateContent | inlineSection(talent.slug) | safe }}
+              {% set renderedTalent = item.templateContent | inlineSection(talent.slug) %}
+              {% for chapterArt in chapterArtItems %}
+                {% if chapterArt.rule == talent.slug %}
+                  {% set chapterArtMarkup %}{% include "partials/chapter-art.njk" %}{% endset %}
+                  {% if chapterArt.position == 'rule-start' %}
+                    {% set renderedTalent = chapterArtMarkup ~ renderedTalent %}
+                  {% else %}
+                    {% set renderedTalent = renderedTalent | placeAfterHeading(talent.slug ~ '--' ~ chapterArt.afterHeading, chapterArtMarkup) %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              {{ renderedTalent | safe }}
             </div>
           </article>
         {% endfor %}
@@ -119,7 +131,19 @@ layout: layouts/base.njk
           <p class="search-index-context" aria-hidden="true" data-pagefind-weight="0.5">
             {{ rule.title }}. {{ rule.summary | summaryText }}{% if rule.aliases %} Also known as {{ rule.aliases | join(', ') }}.{% endif %}
           </p>
-          {{ item.templateContent | inlineSection(rule.slug) | safe }}
+          {% set inlineRule = item.templateContent | inlineSection(rule.slug) %}
+          {% set renderedRule = inlineRule %}
+          {% for chapterArt in chapterArtItems %}
+            {% if chapterArt.rule == rule.slug %}
+              {% set chapterArtMarkup %}{% include "partials/chapter-art.njk" %}{% endset %}
+              {% if chapterArt.position == 'rule-start' %}
+                {% set renderedRule = chapterArtMarkup ~ renderedRule %}
+              {% else %}
+                {% set renderedRule = renderedRule | placeAfterHeading(rule.slug ~ '--' ~ chapterArt.afterHeading, chapterArtMarkup) %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          {{ renderedRule | safe }}
         </div>
       </section>
     {% endfor %}

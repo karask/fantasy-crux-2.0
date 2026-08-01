@@ -48,8 +48,8 @@ skills:
   - 'Natural Lore 80%'
   - 'Close Combat 35%'
 attacks:
-  - 'Longspear — Close Combat 35%, `1D8+1 + DM`, Medium'
-  - 'Dagger — Close Combat 35%, `1D4+1 + DM`, Light'
+  - 'Longspear — Close Combat 35%, `1D8+1 + 1D6`, Medium'
+  - 'Dagger — Close Combat 35%, `1D4+1 + 1D6`, Light'
 talents: 'None'
 ---
 

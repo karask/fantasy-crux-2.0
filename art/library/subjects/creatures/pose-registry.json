@@ -1,0 +1,522 @@
+{
+  "schemaVersion": 1,
+  "activeStyleId": "inked-adventure-comic-vivid",
+  "generatedOn": "2026-08-01",
+  "purpose": "Canonical pose, source profile, master path, hash, and QA registry for the 57 creature illustrations.",
+  "count": 57,
+  "creatures": [
+    {
+      "slug": "ancestor-spirit",
+      "title": "Ancestor Spirit",
+      "sourceProfile": "src/content/rules/creatures/ancestor-spirit.md",
+      "poseBrief": "Kneeling beneath a cottage loom while demonstrating a treadle repair.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ancestor-spirit.png",
+      "masterSha256": "47f1ec9b05626ffdb4462c97e28f60082337c1852c20e0373530d4639f303e56",
+      "qa": "accepted"
+    },
+    {
+      "slug": "basilisk",
+      "title": "Basilisk",
+      "sourceProfile": "src/content/rules/creatures/basilisk.md",
+      "poseBrief": "Creeping sideways from beneath a cracked mortar in an abandoned apothecary.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/basilisk.png",
+      "masterSha256": "c7859a4bdeb29b74cdad76bea53de92fc4c7b85d587fff46620717584846e287",
+      "qa": "accepted"
+    },
+    {
+      "slug": "bear",
+      "title": "Bear",
+      "sourceProfile": "src/content/rules/creatures/bear.md",
+      "poseBrief": "Twisting back from an overturned log beside a mountain stream.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/bear.png",
+      "masterSha256": "d5299687214f24d31a57d3d75e71305c8e436a8a041912eae0515d2a06a02a1c",
+      "qa": "accepted"
+    },
+    {
+      "slug": "beastman",
+      "title": "Beastman",
+      "sourceProfile": "src/content/rules/creatures/beastman.md",
+      "poseBrief": "Advancing downhill from a rocky pine woodland, medium round shield held correctly forward on the strapped left forearm and shortspear carried low in the right hand for a compact thrust; horned head lowered behind the guard.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/beastman.png",
+      "masterSha256": "e2650faa65cad649fd5558b1613cd2ea353c46e11521eeafc119e39de7291297",
+      "qa": "accepted"
+    },
+    {
+      "slug": "bull",
+      "title": "Bull",
+      "sourceProfile": "src/content/rules/creatures/bull.md",
+      "poseBrief": "Pivoting heavily in mud to line up a charge.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/bull.png",
+      "masterSha256": "e192a6fcbd75522ed5ed6f1689e05ff6eda1176100d13d2c7c284156a1bc4921",
+      "qa": "accepted"
+    },
+    {
+      "slug": "crocodile",
+      "title": "Crocodile",
+      "sourceProfile": "src/content/rules/creatures/crocodile.md",
+      "poseBrief": "Surging sideways from reeds onto a muddy bank.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/crocodile.png",
+      "masterSha256": "7c43ae15bbb4a81ec4fc40e8e6eb89f569ff94f0b7a4601b72bae86299f10949",
+      "qa": "accepted"
+    },
+    {
+      "slug": "disease-spirit",
+      "title": "Disease Spirit",
+      "sourceProfile": "src/content/rules/creatures/disease-spirit.md",
+      "poseBrief": "Flattening and reforming beneath grain sacks while stalking warmth.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/disease-spirit.png",
+      "masterSha256": "7f34574a71aada1ca93c797addd0daf746e3f4eff264db3bb3b287c591da06d3",
+      "qa": "accepted"
+    },
+    {
+      "slug": "dog",
+      "title": "Dog",
+      "sourceProfile": "src/content/rules/creatures/dog.md",
+      "poseBrief": "Digging under a tilted farm gate while looking back to listen.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dog.png",
+      "masterSha256": "323f7e3daec807386bb8c2f64be920e13e3f84917489ebc6d1b0240eafcbaaff",
+      "qa": "accepted"
+    },
+    {
+      "slug": "dragon",
+      "title": "Dragon",
+      "sourceProfile": "src/content/rules/creatures/dragon.md",
+      "poseBrief": "Descending carefully into a ruined courtyard while lighting one brazier.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dragon.png",
+      "masterSha256": "80ea050f97f43e8da3f15b594915d63772340a7c93616af6d2eb05c954458a96",
+      "qa": "accepted"
+    },
+    {
+      "slug": "dryad",
+      "title": "Dryad",
+      "sourceProfile": "src/content/rules/creatures/dryad.md",
+      "poseBrief": "Standing in a stable three-quarter pose beside her intact anchor tree, one open hand resting flat against its trunk while the other guides two low ribbons of ivy apart across the forest floor; both feet remain distinct and naturally planted, and no limb, staff, or branch merges with the tree.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dryad.png",
+      "masterSha256": "86bff0bed603f2b02faa870276aa919317bb90dbf95d301504d3d5fd1765495a",
+      "qa": "accepted"
+    },
+    {
+      "slug": "dwarf",
+      "title": "Dwarf",
+      "sourceProfile": "src/content/rules/creatures/dwarf.md",
+      "poseBrief": "Kneeling in a mine with one palm to stone, using Earth Sense.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dwarf.png",
+      "masterSha256": "112fe7a0e5863e05d25aff094ea35c32117fdf8d49b75ae7f854c27526b6d325",
+      "qa": "accepted"
+    },
+    {
+      "slug": "elemental",
+      "title": "Elemental",
+      "sourceProfile": "src/content/rules/creatures/elemental.md",
+      "poseBrief": "Pulling free from a quarry face, body still half merged with rock.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elemental.png",
+      "masterSha256": "4dcd54d26e4409255132a1786e189df2b2aad0834675f9eec0e52c20d0586623",
+      "qa": "accepted"
+    },
+    {
+      "slug": "elephant",
+      "title": "Elephant",
+      "sourceProfile": "src/content/rules/creatures/elephant.md",
+      "poseBrief": "Stepping down a riverbank while spraying water across its shoulder.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elephant.png",
+      "masterSha256": "b2ff755d181fc55019de90a8b5cbe28bf5454f290405658ad79795c2254e8d99",
+      "qa": "accepted"
+    },
+    {
+      "slug": "elf",
+      "title": "Elf",
+      "sourceProfile": "src/content/rules/creatures/elf.md",
+      "poseBrief": "Crouched sideways on a fallen trunk, drawing a bow through leaves.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elf.png",
+      "masterSha256": "928eb29f03eef52d32da72ce0cd9b75979ba56e18a5cd10d27843e9c8f327347",
+      "qa": "accepted"
+    },
+    {
+      "slug": "gargoyle",
+      "title": "Gargoyle",
+      "sourceProfile": "src/content/rules/creatures/gargoyle.md",
+      "poseBrief": "Crawling headfirst down a rain-dark cathedral buttress.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/gargoyle.png",
+      "masterSha256": "962f4c3a063bddb42c4733d18cdad7cd1bea02ff6226ae841c680f14c7033a3f",
+      "qa": "accepted"
+    },
+    {
+      "slug": "ghost",
+      "title": "Ghost",
+      "sourceProfile": "src/content/rules/creatures/ghost.md",
+      "poseBrief": "Pulling an immaterial ferry rope that vanishes into dry sand.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghost.png",
+      "masterSha256": "fc88cfc4f7fe4183126076b09c1bb7526c8bc45d28dea0f011b5326137260b2e",
+      "qa": "accepted"
+    },
+    {
+      "slug": "ghoul",
+      "title": "Ghoul",
+      "sourceProfile": "src/content/rules/creatures/ghoul.md",
+      "poseBrief": "Moving beneath a smokehouse table while twisting into a warning howl.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghoul.png",
+      "masterSha256": "49fca7e1db18f09bf63ce339cba38b125bf42e1569a89180362342099e8e2083",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant-ant",
+      "title": "Giant Ant",
+      "sourceProfile": "src/content/rules/creatures/giant-ant.md",
+      "poseBrief": "Climbing a fallen log while shearing a thick root with its mandibles.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-ant.png",
+      "masterSha256": "901a432f825777fe9d12bacfd03c53f4f0c89f09c10def70021bebe2b9b00a73",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant-hawk",
+      "title": "Giant Hawk",
+      "sourceProfile": "src/content/rules/creatures/giant-hawk.md",
+      "poseBrief": "Pulling out of a raking dive along a mountain shelf.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-hawk.png",
+      "masterSha256": "0732b06d63f38bdea5be1e40779301a5461e1893fad8830e0f1ce87bafc48418",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant-lizard",
+      "title": "Giant Lizard",
+      "sourceProfile": "src/content/rules/creatures/giant-lizard.md",
+      "poseBrief": "Whipping around a ravine boulder, head and tail moving oppositely.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-lizard.png",
+      "masterSha256": "94703d5a96bc3352a9ea66c46fd6e321955f547761ebfcae3503c9a27c1d4e57",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant-octopus",
+      "title": "Giant Octopus",
+      "sourceProfile": "src/content/rules/creatures/giant-octopus.md",
+      "poseBrief": "Squeezing from a sea cave with eight countable bracing and reaching arms.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-octopus.png",
+      "masterSha256": "dba445d5b5d0084ad35d0a13072a73f9a5ad64dbfcb398b92d9939ea5b27e8ee",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant-python",
+      "title": "Giant Python",
+      "sourceProfile": "src/content/rules/creatures/giant-python.md",
+      "poseBrief": "Coiling continuously around a cracked pillar for leverage.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-python.png",
+      "masterSha256": "5d59384ee5f316a97d064a0c8e11a00ee139898162383508239110ddf322d46c",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant-spider",
+      "title": "Giant Spider",
+      "sourceProfile": "src/content/rules/creatures/giant-spider.md",
+      "poseBrief": "Hanging beneath a ruined roof beam on taut silk lines.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-spider.png",
+      "masterSha256": "2a8b827b46472d974d198461bd4fbe38ff9dfeccf32724560e2515d262c6c27e",
+      "qa": "accepted"
+    },
+    {
+      "slug": "giant",
+      "title": "Giant",
+      "sourceProfile": "src/content/rules/creatures/giant.md",
+      "poseBrief": "Crouching in a flooded field to lift a stranded wooden cart.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant.png",
+      "masterSha256": "30d1fa6ac6ddd58e2c973bc3498b7cf910f7c659a448ae120bdb6e7661679de0",
+      "qa": "accepted"
+    },
+    {
+      "slug": "goblin",
+      "title": "Goblin",
+      "sourceProfile": "src/content/rules/creatures/goblin.md",
+      "poseBrief": "Sliding feet-first beneath a tunnel beam with shield overhead.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/goblin.png",
+      "masterSha256": "0ffd8106aa009656c2e32f3d2cfc45cc1ae586c8319f4aadcd4a7cfe99d7438b",
+      "qa": "accepted"
+    },
+    {
+      "slug": "golem",
+      "title": "Golem",
+      "sourceProfile": "src/content/rules/creatures/golem.md",
+      "poseBrief": "Lowering a collapsed roof beam while checking a boundary stone.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/golem.png",
+      "masterSha256": "a6293926e4ed592acf36056872152b33aca7d9c0dc68e2fc7de36b8269e845ed",
+      "qa": "accepted"
+    },
+    {
+      "slug": "griffin",
+      "title": "Griffin",
+      "sourceProfile": "src/content/rules/creatures/griffin.md",
+      "poseBrief": "Braking asymmetrically just after a raking-dive landing.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/griffin.png",
+      "masterSha256": "68478009f94ffbe6ca2f28f1fc4dbc8d758093963b4824da5eaac208a144291b",
+      "qa": "accepted"
+    },
+    {
+      "slug": "guardian-spirit",
+      "title": "Guardian Spirit",
+      "sourceProfile": "src/content/rules/creatures/guardian-spirit.md",
+      "poseBrief": "Coiling around a bronze burial mask and howling toward a breached roof.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/guardian-spirit.png",
+      "masterSha256": "0ffca979c2dd6488b7b4fa876f4fb1f534a32b436f4f767ed998a047f3005f63",
+      "qa": "accepted"
+    },
+    {
+      "slug": "hag",
+      "title": "Hag",
+      "sourceProfile": "src/content/rules/creatures/hag.md",
+      "poseBrief": "Crawling crabwise through a cave fissure while shielding light-sensitive eyes.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hag.png",
+      "masterSha256": "5fe6325f775333f5fa8a061be822fa456344d1dbfa2c101a82beb159e68ff784",
+      "qa": "accepted"
+    },
+    {
+      "slug": "harpy",
+      "title": "Harpy",
+      "sourceProfile": "src/content/rules/creatures/harpy.md",
+      "poseBrief": "Banking over a coastal cliff with a filthy dropped missile.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/harpy.png",
+      "masterSha256": "c941c1289f28eb416a0a639764b206719b4a3f6033ef7f9c2b394c7a59aa1477",
+      "qa": "accepted"
+    },
+    {
+      "slug": "hawk",
+      "title": "Hawk",
+      "sourceProfile": "src/content/rules/creatures/hawk.md",
+      "poseBrief": "Banking through tall meadow grass with talons opening.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hawk.png",
+      "masterSha256": "3c0e562447c1c7583b257082fa7949d4a24ecdc829b669b5af6e0fe69a51c784",
+      "qa": "accepted"
+    },
+    {
+      "slug": "healing-spirit",
+      "title": "Healing Spirit",
+      "sourceProfile": "src/content/rules/creatures/healing-spirit.md",
+      "poseBrief": "Heron-like spirit spearing a patch of fever vapor in an herb garden.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/healing-spirit.png",
+      "masterSha256": "4923a278b118b54115645bb797e4e03534a026802c4250e79be63c596796993c",
+      "qa": "accepted"
+    },
+    {
+      "slug": "holy-steed",
+      "title": "Holy Steed",
+      "sourceProfile": "src/content/rules/creatures/holy-steed.md",
+      "poseBrief": "Testing a broken stone bridge with deliberate, intelligent balance.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/holy-steed.png",
+      "masterSha256": "694ae7605bdb0ab49dc229bfcb9e190657a6f0b8c168b68ec94b65e3ca18d40a",
+      "qa": "accepted"
+    },
+    {
+      "slug": "holy-warrior",
+      "title": "Holy Warrior",
+      "sourceProfile": "src/content/rules/creatures/holy-warrior.md",
+      "poseBrief": "Striding down broken sanctuary steps in full silver-and-gold plate, round shield raised in a natural forward guard and longspear angled back; calm commanding face framed by a disciplined golden-white dawn halo and radiant aura, with cobalt tabard and vermilion cloak lifted by a sacred wind.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/holy-warrior.png",
+      "masterSha256": "cc4965b8422ee0b936130d381eac4419a291e884db2c0f9650856288e437f126",
+      "qa": "accepted"
+    },
+    {
+      "slug": "horse",
+      "title": "Horse",
+      "sourceProfile": "src/content/rules/creatures/horse.md",
+      "poseBrief": "Backing and turning on a rain-dark forest path.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/horse.png",
+      "masterSha256": "3f0114b55782444700e6f60b4c67e249e88a0160d2b197c188299485383de70f",
+      "qa": "accepted"
+    },
+    {
+      "slug": "lion",
+      "title": "Lion",
+      "sourceProfile": "src/content/rules/creatures/lion.md",
+      "poseBrief": "Dropping from a ledge into tall grass in a descending arc.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lion.png",
+      "masterSha256": "cc5b8514c7a0902ae16c55d01348193aba436c5a0ca47bcfbb23c10f663446c7",
+      "qa": "accepted"
+    },
+    {
+      "slug": "lizardman",
+      "title": "Lizardman",
+      "sourceProfile": "src/content/rules/creatures/lizardman.md",
+      "poseBrief": "Lying across a drifting log while hooking a supply bundle with an axe.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardman.png",
+      "masterSha256": "65b3afb795c8c8453ee7fd6932105a6bbea573e5b4f97a6babfcf9af9c9e2752",
+      "qa": "accepted"
+    },
+    {
+      "slug": "magic-spirit",
+      "title": "Magic Spirit",
+      "sourceProfile": "src/content/rules/creatures/magic-spirit.md",
+      "poseBrief": "Folding a constellation-like body through an overturned astrolabe.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/magic-spirit.png",
+      "masterSha256": "057bce12e973f394b335ab1db0ebd9c634fb150755feac171b4c665bb0ba5919",
+      "qa": "accepted"
+    },
+    {
+      "slug": "merfolk",
+      "title": "Merfolk",
+      "sourceProfile": "src/content/rules/creatures/merfolk.md",
+      "poseBrief": "Rolling under a fallen mast using spear and tail as a pivot.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/merfolk.png",
+      "masterSha256": "3f8b68cf6b41fb0603e7f2b4c1bed527766a9392c8345d2727f3bd4a43d9c11b",
+      "qa": "accepted"
+    },
+    {
+      "slug": "mummy",
+      "title": "Mummy",
+      "sourceProfile": "src/content/rules/creatures/mummy.md",
+      "poseBrief": "Descending a burial stair seated, one rigid step at a time.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/mummy.png",
+      "masterSha256": "86956aaa0c02766e8770bd1275d193e69908f3932ceed1595453af31dac1f3a0",
+      "qa": "accepted"
+    },
+    {
+      "slug": "naiad",
+      "title": "Naiad",
+      "sourceProfile": "src/content/rules/creatures/naiad.md",
+      "poseBrief": "Swinging horizontally around a planted spear through fast current.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/naiad.png",
+      "masterSha256": "9dadd02d8f9daafee438af7f451544cfb09f65e5c7bfefc26e261dfeea391bde",
+      "qa": "accepted"
+    },
+    {
+      "slug": "ogre",
+      "title": "Ogre",
+      "sourceProfile": "src/content/rules/creatures/ogre.md",
+      "poseBrief": "Hauling a great axe free from a shattered stump in a rocky ravine.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ogre.png",
+      "masterSha256": "73959fc2ff79d02939b394006d963dae0092dea6c658f5b880ed2a7ab4649e6d",
+      "qa": "accepted"
+    },
+    {
+      "slug": "orc",
+      "title": "Orc",
+      "sourceProfile": "src/content/rules/creatures/orc.md",
+      "poseBrief": "Vaulting sideways through a ruined window with shield leading.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/orc.png",
+      "masterSha256": "96b49ce657c454f8359c6337585b7894f9b489ea37b11fc39948efd3772ff365",
+      "qa": "accepted"
+    },
+    {
+      "slug": "oread",
+      "title": "Oread",
+      "sourceProfile": "src/content/rules/creatures/oread.md",
+      "poseBrief": "Skating down steep scree on a slab while catching a falling stone.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/oread.png",
+      "masterSha256": "82c5e97cf5a68afdcd333b841b9ed54c8fe7c4823cce82ff6080c84e58994ea3",
+      "qa": "accepted"
+    },
+    {
+      "slug": "passion-spirit",
+      "title": "Passion Spirit",
+      "sourceProfile": "src/content/rules/creatures/passion-spirit.md",
+      "poseBrief": "Spiraling around a swinging watchtower door as embodied fear.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/passion-spirit.png",
+      "masterSha256": "56ba4911ae4e64c67ea590ae58a4300380c65a03f6a223257399b27f2f6b9846",
+      "qa": "accepted"
+    },
+    {
+      "slug": "pixie",
+      "title": "Pixie",
+      "sourceProfile": "src/content/rules/creatures/pixie.md",
+      "poseBrief": "Standing upright after a light landing on a broad shelf mushroom, head, torso, hips, and feet aligned in one natural three-quarter direction; exactly four translucent wings attach symmetrically behind the shoulder blades with leading edges and tips extending outward, upward, and backward, while one open hand guides a subtle breeze around a luminous seed.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/pixie.png",
+      "masterSha256": "90342bc0b23e625a2f1fadb3388c9b4e4b43ddc5293ceac92212ae4255bd0b30",
+      "qa": "accepted"
+    },
+    {
+      "slug": "raven",
+      "title": "Raven",
+      "sourceProfile": "src/content/rules/creatures/raven.md",
+      "poseBrief": "Hopping sideways on a fence rail while snatching a beetle.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/raven.png",
+      "masterSha256": "a9e032c4279474522883502cbc5a622631b6e2deba1c830c1f4d68c760504a1a",
+      "qa": "accepted"
+    },
+    {
+      "slug": "rhinoceros",
+      "title": "Rhinoceros",
+      "sourceProfile": "src/content/rules/creatures/rhinoceros.md",
+      "poseBrief": "Braking and swinging its mass after a missed charge.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/rhinoceros.png",
+      "masterSha256": "f7d78230096d3956bfd303f66f308bcbcf5b8df07b5d36d9f40f26894eb19176",
+      "qa": "accepted"
+    },
+    {
+      "slug": "sea-serpent",
+      "title": "Sea Serpent",
+      "sourceProfile": "src/content/rules/creatures/sea-serpent.md",
+      "poseBrief": "Turning slowly around a sea stack, body split above and below water.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/sea-serpent.png",
+      "masterSha256": "6e930ec3d539c4f260bdae84f5fc2f2f66e191049c77fd6e2cbd1a44c69548de",
+      "qa": "accepted"
+    },
+    {
+      "slug": "skeleton",
+      "title": "Skeleton",
+      "sourceProfile": "src/content/rules/creatures/skeleton.md",
+      "poseBrief": "Descending a broken staircase backward on hands and feet.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/skeleton.png",
+      "masterSha256": "13cf27d6394cc7868ca625f98052131e69a770b9ef775cbe40063a44a237e02f",
+      "qa": "accepted"
+    },
+    {
+      "slug": "troll",
+      "title": "Troll",
+      "sourceProfile": "src/content/rules/creatures/troll.md",
+      "poseBrief": "Crawling awkwardly beneath a fallen trunk while a wound closes.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/troll.png",
+      "masterSha256": "2d5517f779346ba5ee32c58332e79de5bd989aeaf46c5823c5954fbff16ce75f",
+      "qa": "accepted"
+    },
+    {
+      "slug": "vampire",
+      "title": "Vampire",
+      "sourceProfile": "src/content/rules/creatures/vampire.md",
+      "poseBrief": "Turning its lower body to mist while levering a locked inn latch.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/vampire.png",
+      "masterSha256": "2b2434a3e18e276d19fc81cd2dd1a1dd37ce970244d00673266b36c8be3fa01b",
+      "qa": "accepted"
+    },
+    {
+      "slug": "viper",
+      "title": "Viper",
+      "sourceProfile": "src/content/rules/creatures/viper.md",
+      "poseBrief": "Flowing through a grounded S-turn between sunlit stones.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/viper.png",
+      "masterSha256": "9ede4e4b52b170ce5f0b7a9c299969f6534a2837d86cd83c47b4570f48fbd67c",
+      "qa": "accepted"
+    },
+    {
+      "slug": "werewolf",
+      "title": "Werewolf",
+      "sourceProfile": "src/content/rules/creatures/werewolf.md",
+      "poseBrief": "Twisting low mid-transformation while pulling at an ankle chain.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/werewolf.png",
+      "masterSha256": "5050c7eb1fc46d1cc9b1999aa880c8004de19cba075a916bd137b71f42476d40",
+      "qa": "accepted"
+    },
+    {
+      "slug": "wolf",
+      "title": "Wolf",
+      "sourceProfile": "src/content/rules/creatures/wolf.md",
+      "poseBrief": "Pausing mid-trot in snow to listen toward an off-frame pack.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wolf.png",
+      "masterSha256": "a2f62798411e9a335aaf4d970b8e8c9d7784c7e7bd46c265a68f0238ed77871f",
+      "qa": "accepted"
+    },
+    {
+      "slug": "wyvern",
+      "title": "Wyvern",
+      "sourceProfile": "src/content/rules/creatures/wyvern.md",
+      "poseBrief": "Climbing an escarpment with two hind legs and wing-wrists.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wyvern.png",
+      "masterSha256": "58100c53fd674f1dfdf802ff04d71477ff35c410ab5ba09903ce9ba5c3f21b7b",
+      "qa": "accepted"
+    },
+    {
+      "slug": "zombie",
+      "title": "Zombie",
+      "sourceProfile": "src/content/rules/creatures/zombie.md",
+      "poseBrief": "Crawling belly-down up a loose grain slope without coordination.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/zombie.png",
+      "masterSha256": "79accf73eae25385945d809f7901d1277880761c6cbb2572b1fdbf09026ea022",
+      "qa": "accepted"
+    }
+  ]
+}

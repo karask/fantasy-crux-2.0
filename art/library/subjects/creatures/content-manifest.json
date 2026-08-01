@@ -1,0 +1,3031 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-08-01",
+  "purpose": "Style-independent creature content blueprints. Combine one record with one art/library/styles/*/STYLE.md brief to recreate its illustration.",
+  "generationRecipe": [
+    "Treat the creature record as the only source of identity, anatomy, temperament, equipment, environment, action, pose, and rules-derived visual cues.",
+    "Use summary, imageAlt, poseBrief, statistics, and rulesAndAbilitiesMarkdown together; preserve unusually high or low characteristics and visible abilities.",
+    "Treat STYLE.md and its anchor as rendering-only references; do not inherit the anchor subject, composition, palette, lighting, weather, or mood.",
+    "Keep anatomy coherent and preserve the varied poseBrief rather than defaulting bipedal creatures to one repeated stance."
+  ],
+  "styleIds": ["inked-adventure-comic-vivid"],
+  "count": 57,
+  "creatures": [
+    {
+      "id": "creatures.ancestor-spirit",
+      "slug": "ancestor-spirit",
+      "title": "Ancestor Spirit",
+      "category": "spirit",
+      "summary": "A deceased relative who preserves family memory, craft, and counsel.",
+      "imageAlt": "A translucent ancestor spirit holding a woodworking chisel by a hearth.",
+      "poseBrief": "Kneeling beneath a cottage loom while demonstrating a treadle repair.",
+      "tags": ["incorporeal", "spirit"],
+      "statistics": {
+        "characteristics": {
+          "int": 11,
+          "pow": 17,
+          "cha": 11,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "3D6", "pow": "3D6+6", "cha": "3D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 17,
+          "movement": "30 m",
+          "combatOrder": 11,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": ["Dodge 40%", "Persistence 50%", "Lore (Spirit World) 40%", "Spirit Combat 40%"],
+        "attacks": ["Spectral Blast — Spirit Combat 40%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Helpful Possession:** The Ancestor and a willing Living relative each spend a Combat Action while Close; no Spirit Combat is required. Choose `1D6` appropriate inherited skills when creating it. During possession, the host gains `+1B` with them and normally chooses the shared actions.",
+      "sourceProfile": "src/content/rules/creatures/ancestor-spirit.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ancestor-spirit.png"
+      }
+    },
+    {
+      "id": "creatures.basilisk",
+      "slug": "basilisk",
+      "title": "Basilisk",
+      "category": "monster",
+      "summary": "A small, many-coloured reptile created by foul alchemy; its eyes and blood are deadlier than its jaws.",
+      "imageAlt": "A brightly colored alchemical basilisk standing on flagstones.",
+      "poseBrief": "Creeping sideways from beneath a cracked mortar in an abandoned apothecary.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 4,
+          "con": 13,
+          "dex": 11,
+          "siz": 2,
+          "int": 3,
+          "pow": 16,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "2D3",
+          "con": "2D6+6",
+          "dex": "3D6",
+          "siz": "1D3",
+          "pow": "1D6+12"
+        },
+        "derived": {
+          "hp": 8,
+          "mwl": 4,
+          "pp": 16,
+          "movement": "15 m",
+          "combatOrder": 7,
+          "ap": "2 scales",
+          "dm": "-1D6"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 50%",
+          "Resilience 70%",
+          "Athletics 65%",
+          "Deception 40%",
+          "Natural Lore 40%",
+          "Unarmed Combat 35%"
+        ],
+        "attacks": ["Bite — Unarmed Combat 35%, `1D6 - 1D6`, Light"],
+        "talents": "None",
+        "plunder": 5
+      },
+      "rulesAndAbilitiesMarkdown": "**Death Gaze:** Once per turn, freely choose a creature within 16 m that can see the basilisk's eyes. It may avert its gaze, preventing the Gaze; without suitable Blind Sight it then cannot attack or React against the basilisk until its next turn. If it does not avert, oppose the basilisk's Persistence with Resilience. Defeat reduces it to 0 HP and makes it Dying, subject to its type rules; victory grants immunity for this combat. Eye contact must be mutual and Blind Sight never triggers the Gaze. The basilisk may still Bite.\n\n**Basilisk Venom:** **Type:** Injected or contact. **Delay:** Immediate. **Potency:** 65. **Effect:** `-6 CON` for the Duration and `1D4` HP at each minute's end; CON 0 causes death. **Duration:** `6D10` minutes.\n\n**Corrosive Blood:** A mundane weapon that deals HP damage to the basilisk is destroyed after `1D4` rounds. Before the end of the wielder's next turn, a Combat Action with abundant water or a suitable neutraliser prevents this.",
+      "sourceProfile": "src/content/rules/creatures/basilisk.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/basilisk.png"
+      }
+    },
+    {
+      "id": "creatures.bear",
+      "slug": "bear",
+      "title": "Bear",
+      "category": "animal",
+      "summary": "A massive, powerful omnivore with a thick hide.",
+      "imageAlt": "A massive brown bear standing in a forest clearing.",
+      "poseBrief": "Twisting back from an overturned log beside a mountain stream.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 25,
+          "con": 13,
+          "dex": 11,
+          "siz": 25,
+          "int": 5,
+          "pow": 11,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "3D6+15",
+          "con": "2D6+6",
+          "dex": "3D6",
+          "siz": "3D6+15",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 19,
+          "mwl": 10,
+          "pp": 11,
+          "movement": "23 m",
+          "combatOrder": 8,
+          "ap": "3 hide",
+          "dm": "+2D6"
+        },
+        "skills": ["Dodge 33%", "Persistence 33%", "Resilience 39%", "Unarmed Combat 60%"],
+        "attacks": [
+          "Bite — Unarmed Combat 60%, `1D8 + 2D6`, Heavy",
+          "Claw — Unarmed Combat 60%, `1D6 + 2D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/bear.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/bear.png"
+      }
+    },
+    {
+      "id": "creatures.beastman",
+      "slug": "beastman",
+      "title": "Beastman",
+      "category": "monster",
+      "summary": "Animal-headed humanoids who fiercely resist settlement of their wild territories.",
+      "imageAlt": "A ram-headed beastman carrying a spear and round shield.",
+      "poseBrief": "Advancing downhill from a rocky pine woodland, medium round shield held correctly forward on the strapped left forearm and shortspear carried low in the right hand for a compact thrust; horned head lowered behind the guard.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 13,
+          "con": 16,
+          "dex": 11,
+          "siz": 16,
+          "int": 13,
+          "pow": 11,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "2D6+6",
+          "con": "1D6+12",
+          "dex": "3D6",
+          "siz": "1D6+12",
+          "int": "2D6+6",
+          "pow": "3D6",
+          "cha": "2D6"
+        },
+        "derived": {
+          "hp": 16,
+          "mwl": 8,
+          "pp": 11,
+          "movement": "15 m",
+          "combatOrder": 9,
+          "ap": "2 leather",
+          "dm": "+1D4"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 30%",
+          "Resilience 30%",
+          "Deception 40%",
+          "Natural Lore 70%",
+          "Close Combat 50%",
+          "Unarmed Combat 60%"
+        ],
+        "attacks": [
+          "Club — Close Combat 50%, `1D6 + 1D4`, Light",
+          "Shortspear — Close Combat 50%, `1D6 + 1D4`, Medium",
+          "Medium Shield — Close Combat 50%, `1D6 + 1D4`, Heavy",
+          "Head Butt — Unarmed Combat 60%, `1D6 + 1D4`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 2
+      },
+      "rulesAndAbilitiesMarkdown": "Leaders or mystics may know individual nature-themed Shaping cells.",
+      "sourceProfile": "src/content/rules/creatures/beastman.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/beastman.png"
+      }
+    },
+    {
+      "id": "creatures.bull",
+      "slug": "bull",
+      "title": "Bull",
+      "category": "animal",
+      "summary": "A territorial herd animal capable of devastating charges.",
+      "imageAlt": "A muscular brown bull standing alert in a grassy pasture.",
+      "poseBrief": "Pivoting heavily in mud to line up a charge.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 20,
+          "con": 15,
+          "dex": 7,
+          "siz": 15,
+          "int": 4,
+          "pow": 7,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "4D6+6",
+          "con": "2D6+9",
+          "dex": "2D6",
+          "siz": "2D6+9",
+          "pow": "2D6"
+        },
+        "derived": {
+          "hp": 15,
+          "mwl": 8,
+          "pp": 7,
+          "movement": "15 m",
+          "combatOrder": 6,
+          "ap": "2 hide",
+          "dm": "+1D6"
+        },
+        "skills": ["Dodge 21%", "Persistence 21%", "Resilience 45%", "Unarmed Combat 40%"],
+        "attacks": [
+          "Horns — Unarmed Combat 40%, `1D8 + 1D6`, Medium",
+          "Trample — Unarmed Combat 40%, `1D8 + 1D6`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Horn Charge:** Use Horns for a normal Charge attack and add the Charge's `+1D6` damage.",
+      "sourceProfile": "src/content/rules/creatures/bull.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/bull.png"
+      }
+    },
+    {
+      "id": "creatures.crocodile",
+      "slug": "crocodile",
+      "title": "Crocodile",
+      "category": "animal",
+      "summary": "A heavily armoured ambush predator equally dangerous in water and at the shore.",
+      "imageAlt": "A heavily armored crocodile resting on a muddy riverbank.",
+      "poseBrief": "Surging sideways from reeds onto a muddy bank.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 30,
+          "con": 19,
+          "dex": 11,
+          "siz": 14,
+          "int": 3,
+          "pow": 11,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "5D6+12",
+          "con": "3D6+12",
+          "dex": "3D6",
+          "siz": "4D6",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 17,
+          "mwl": 9,
+          "pp": 11,
+          "movement": "7 m land, 23 m swim",
+          "combatOrder": 7,
+          "ap": "5 hide",
+          "dm": "+1D6"
+        },
+        "skills": ["Dodge 33%", "Persistence 33%", "Resilience 57%", "Unarmed Combat 50%"],
+        "attacks": ["Bite — Unarmed Combat 50%, `1D8 + 1D6`, Medium"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/crocodile.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/crocodile.png"
+      }
+    },
+    {
+      "id": "creatures.disease-spirit",
+      "slug": "disease-spirit",
+      "title": "Disease Spirit",
+      "category": "spirit",
+      "summary": "A predatory spirit embodying one disease.",
+      "imageAlt": "A gaunt yellow-green disease spirit in an empty sickroom.",
+      "poseBrief": "Flattening and reforming beneath grain sacks while stalking warmth.",
+      "tags": ["incorporeal", "spirit"],
+      "statistics": {
+        "characteristics": {
+          "int": 7,
+          "pow": 17,
+          "cha": 11,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "2D6", "pow": "3D6+6", "cha": "3D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 17,
+          "movement": "30 m",
+          "combatOrder": 7,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 50%",
+          "Lore (Disease) 100%",
+          "Lore (Spirit World) 40%",
+          "Deception 30%",
+          "Spirit Combat 50%"
+        ],
+        "attacks": ["Spectral Claw — Spirit Combat 50%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Disease Possession:** Choose one disease when creating the Spirit. The host chooses shared actions, immediately contracts the disease, and suffers `-1P` on Resilience against disease. A successful recovery test prevents that interval's effect, but the disease remains and tests again after its Delay until the Spirit is expelled. Expulsion permits normal recovery but removes no accumulated effect.",
+      "sourceProfile": "src/content/rules/creatures/disease-spirit.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/disease-spirit.png"
+      }
+    },
+    {
+      "id": "creatures.dog",
+      "slug": "dog",
+      "title": "Dog",
+      "category": "animal",
+      "summary": "A domestic or feral canine that relies on speed and its bite.",
+      "imageAlt": "An alert village dog standing on a medieval dirt lane.",
+      "poseBrief": "Digging under a tilted farm gate while looking back to listen.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 13,
+          "con": 11,
+          "dex": 13,
+          "siz": 3,
+          "int": 5,
+          "pow": 9,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "2D6+6",
+          "con": "3D6",
+          "dex": "2D6+6",
+          "siz": "1D6",
+          "pow": "1D6+6"
+        },
+        "derived": {
+          "hp": 7,
+          "mwl": 4,
+          "pp": 9,
+          "movement": "23 m",
+          "combatOrder": 9,
+          "ap": 0,
+          "dm": "+0"
+        },
+        "skills": ["Dodge 39%", "Persistence 27%", "Resilience 33%", "Unarmed Combat 40%"],
+        "attacks": ["Bite — Unarmed Combat 40%, `1D6 + 0`, Light"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/dog.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dog.png"
+      }
+    },
+    {
+      "id": "creatures.dragon",
+      "slug": "dragon",
+      "title": "Dragon",
+      "category": "monster",
+      "summary": "An ancient, intelligent flying reptile whose magic and temperament vary widely.",
+      "imageAlt": "A four-legged, two-winged dragon standing on a rocky upland.",
+      "poseBrief": "Descending carefully into a ruined courtyard while lighting one brazier.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 70,
+          "con": 35,
+          "dex": 14,
+          "siz": 65,
+          "int": 21,
+          "pow": 26,
+          "cha": 21
+        },
+        "characteristicDice": {
+          "str": "20D6",
+          "con": "10D6",
+          "dex": "4D6",
+          "siz": "10D6+30",
+          "int": "6D6",
+          "pow": "4D6+12",
+          "cha": "6D6"
+        },
+        "derived": {
+          "hp": 50,
+          "mwl": 25,
+          "pp": 26,
+          "movement": "30 m ground, 45 m fly",
+          "combatOrder": 18,
+          "ap": "12 scales",
+          "dm": "+7D6"
+        },
+        "skills": [
+          "Dodge 30%",
+          "Persistence 100%",
+          "Resilience 100%",
+          "Athletics 100%",
+          "Influence 100%",
+          "Perception 100%",
+          "Culture (Local) 100%",
+          "Natural Lore 100%",
+          "Unarmed Combat 100%"
+        ],
+        "attacks": [
+          "Bite — Unarmed Combat 100%, `1D10 + 7D6`, Huge",
+          "Claw — Unarmed Combat 100%, `1D8 + 7D6`, Huge",
+          "Tail — Unarmed Combat 100%, `1D20 + 7D6`, Huge"
+        ],
+        "talents": "Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I",
+        "plunder": 5
+      },
+      "rulesAndAbilitiesMarkdown": "**Double Claw 2 (Multiattack):** Make two Claw attacks. Mastery (Unarmed Combat) I normally removes the second attack's `-1P`.\r\n\r\n**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.\r\n\r\n**Fire Resistance:** Reduce fire damage by 12 after other reductions.\r\n\r\nAncient dragons may know potent cells such as Conjure·Fire, Bend·Fire, Ward·Fire, or Scry·Fate.",
+      "sourceProfile": "src/content/rules/creatures/dragon.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dragon.png"
+      }
+    },
+    {
+      "id": "creatures.dryad",
+      "slug": "dryad",
+      "title": "Dryad",
+      "category": "nymph",
+      "summary": "A woodland spirit whose body grows from one tree and whose grove extends 44 m from it.",
+      "imageAlt": "A bark-skinned dryad touching her ancient tree while guiding ivy across the grove.",
+      "poseBrief": "Standing in a stable three-quarter pose beside her intact anchor tree, one open hand resting flat against its trunk while the other guides two low ribbons of ivy apart across the forest floor; both feet remain distinct and naturally planted, and no limb, staff, or branch merges with the tree.",
+      "tags": ["corporeal", "spirit", "anchored"],
+      "statistics": {
+        "characteristics": {
+          "str": 7,
+          "con": 11,
+          "dex": 14,
+          "siz": 10,
+          "int": 17,
+          "pow": 22,
+          "cha": 19
+        },
+        "characteristicDice": {
+          "str": "2D6",
+          "con": "3D6",
+          "dex": "4D6",
+          "siz": "2D6+3",
+          "int": "3D6+6",
+          "pow": "2D6+15",
+          "cha": "2D6+12"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 22,
+          "movement": "15 m",
+          "combatOrder": 16,
+          "ap": 0,
+          "dm": "+0"
+        },
+        "skills": [
+          "Close Combat 40%",
+          "Dodge 50%",
+          "Persistence 60%",
+          "Resilience 40%",
+          "Natural Lore 60%",
+          "Deception 50%",
+          "Perception 50%",
+          "Performance 50%",
+          "Shaping 60%"
+        ],
+        "attacks": ["Quarterstaff — Close Combat 40%, `1D8 + 0`, Medium"],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Mind, Alter·Mind, Conjure·Fire, Bend·Paths.\n\n**Grove Anchor:** The Dryad cannot leave its grove; doing so dissolves its body and returns its Spirit to the tree. If the tree is destroyed, it cannot reform.\n\n**Tree Passage:** While touching its tree, spend a Movement Action to dissolve the body or emerge beside the tree.\n\n**One with the Grove:** As a Combat Action, choose one 3 m-radius patch of vegetation in the grove. Until this ability is used again, movement through it costs double, or existing vegetation opens to permit normal movement. The Dryad may instead cause harmless growth, flowers, or fruit. Damage and restraint require Shaping.",
+      "sourceProfile": "src/content/rules/creatures/dryad.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dryad.png"
+      }
+    },
+    {
+      "id": "creatures.dwarf",
+      "slug": "dwarf",
+      "title": "Dwarf",
+      "category": "monster",
+      "summary": "Stocky, long-lived underground folk renowned for craft, mining, and stonework.",
+      "imageAlt": "A broad dwarf warrior carrying a hammer and round shield.",
+      "poseBrief": "Kneeling in a mine with one palm to stone, using Earth Sense.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 14,
+          "con": 19,
+          "dex": 11,
+          "siz": 7,
+          "int": 13,
+          "pow": 11,
+          "cha": 11
+        },
+        "characteristicDice": {
+          "str": "4D6",
+          "con": "2D6+12",
+          "dex": "3D6",
+          "siz": "1D6+3",
+          "int": "2D6+6",
+          "pow": "3D6",
+          "cha": "3D6"
+        },
+        "derived": {
+          "hp": 13,
+          "mwl": 7,
+          "pp": 11,
+          "movement": "12 m",
+          "combatOrder": 5,
+          "ap": "5 chainmail",
+          "dm": "+0"
+        },
+        "skills": [
+          "Dodge 20%",
+          "Persistence 40%",
+          "Resilience 55%",
+          "Athletics 50%",
+          "Engineering 35%",
+          "Mechanisms 40%",
+          "Trade 60%",
+          "Craft 70%",
+          "Close Combat 65%",
+          "Ranged Combat 45%"
+        ],
+        "attacks": [
+          "War Hammer or Battleaxe — Close Combat 65%, `1D8 + 0`, Medium",
+          "Medium Shield — Close Combat 65%, `1D6 + 0`, Heavy",
+          "Light Crossbow — Ranged Combat 45%, `1D8`, 125 m"
+        ],
+        "talents": "None",
+        "plunder": 3
+      },
+      "rulesAndAbilitiesMarkdown": "**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.\n\n**Earth Sense:** While touching connected earth or stone, the dwarf knows approximate depth and whether the surrounding chamber is structurally unstable.\n\nDwarven Shapers commonly favour Bend, Alter, Ward, or Scry·Earth/Stone cells.",
+      "sourceProfile": "src/content/rules/creatures/dwarf.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dwarf.png"
+      }
+    },
+    {
+      "id": "creatures.elemental",
+      "slug": "elemental",
+      "title": "Elemental",
+      "category": "monster",
+      "summary": "Raw elemental substance embodied as water, darkness, flame, stone, or storm.",
+      "imageAlt": "A stone elemental formed from interlocking rock slabs.",
+      "poseBrief": "Pulling free from a quarry face, body still half merged with rock.",
+      "tags": ["corporeal", "elemental", "soulless", "mindless"],
+      "statistics": {
+        "characteristics": {
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "by rank",
+          "int": "—",
+          "pow": "—",
+          "cha": "—"
+        },
+        "characteristicDice": {},
+        "derived": "Use the rank table; Combat Order 10 is an explicit profile value because Elementals have no DEX or INT",
+        "skills": [
+          "Perception 80%",
+          "Deception 80% while merged with a substantial quantity of its own element",
+          "rank-table combat skills"
+        ],
+        "attacks": [
+          "Engulf — Attack by rank, rank damage, every other creature within the listed radius"
+        ],
+        "talents": "Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Persistence) I. Medium: none",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "| Rank   | SIZ |  HP | MWL |  PP | Move |  CO |  AP | DM  | Damage | Area | Attack | Dodge | Persistence | Resilience |\r\n| ------ | --: | --: | --: | --: | ---: | --: | --: | :-: | -----: | ---: | -----: | ----: | ----------: | ---------: |\r\n| Small  |   3 |   3 |   2 |   0 | 15 m |  10 |   0 |  —  |  `1D6` |  1 m |    15% |  100% |         30% |       100% |\r\n| Medium |   9 |   9 |   5 |   0 | 23 m |  10 |   0 |  —  |  `2D6` |  3 m |    45% |   90% |         60% |       100% |\r\n| Large  |  21 |  21 |  11 |   0 | 30 m |  10 |   0 |  —  |  `3D6` |  7 m |   100% |   60% |         90% |       100% |\r\n| Huge   |  50 |  50 |  25 |   0 | 45 m |  10 |   0 |  —  |  `4D6` | 16 m |      — |   30% |        100% |       100% |\r\n\r\n**Engulf:** Spend one Combat Action, centred on the Elemental; complete barriers block it. Roll damage once. Small through Large roll Attack once, which must succeed and win against each target's listed resistance separately.\r\n\r\n**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half, and Failure or Fumble takes full damage.\r\n\r\n- **Undine — Drown:** Resilience; HP damage; ignores AP.\r\n- **Shade — Fear:** Persistence; PP damage; ignores AP; normal 0-PP unconsciousness applies.\r\n- **Salamander — Burn:** Resilience; HP damage; AP applies.\r\n- **Gnome — Crush:** Resilience; HP damage; AP applies.\r\n- **Sylph — Buffet:** Resilience; HP damage; AP applies.\r\n\r\n**Elemental Nature:** Immune to poison, disease, and its own element.\r\n\r\n**Elemental Sense:** Perception 80% detects invisible, Spirit, and magical targets regardless of light or invisibility; a solid barrier blocks it. Ordinary darkness still affects ordinary, nonmagical targets. Oppose concealment with Deception.\r\n\r\n**Camouflage:** Deception 80% while merged with matching water, fire, stone, darkness, or cloud.",
+      "sourceProfile": "src/content/rules/creatures/elemental.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elemental.png"
+      }
+    },
+    {
+      "id": "creatures.elephant",
+      "slug": "elephant",
+      "title": "Elephant",
+      "category": "animal",
+      "summary": "An immense herd animal whose bulk makes its tusks and feet lethal.",
+      "imageAlt": "A large tusked elephant standing on open dry grassland.",
+      "poseBrief": "Stepping down a riverbank while spraying water across its shoulder.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 45,
+          "con": 24,
+          "dex": 11,
+          "siz": 48,
+          "int": 6,
+          "pow": 13,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "6D6+24",
+          "con": "3D6+15",
+          "dex": "3D6",
+          "siz": "6D6+30",
+          "pow": "2D6+6"
+        },
+        "derived": {
+          "hp": 36,
+          "mwl": 18,
+          "pp": 13,
+          "movement": "23 m",
+          "combatOrder": 9,
+          "ap": "3 hide",
+          "dm": "+5D6"
+        },
+        "skills": ["Dodge 33%", "Persistence 39%", "Resilience 72%", "Unarmed Combat 45%"],
+        "attacks": [
+          "Trample — Unarmed Combat 45%, `1D12 + 5D6`, Huge",
+          "Tusk — Unarmed Combat 45%, `1D10 + 5D6`, Huge"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/elephant.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elephant.png"
+      }
+    },
+    {
+      "id": "creatures.elf",
+      "slug": "elf",
+      "title": "Elf",
+      "category": "monster",
+      "summary": "Ageless forest folk bound to their woodland realms and fiercely protective of them.",
+      "imageAlt": "A forest elf carrying a longbow and shortspear beside an old tree.",
+      "poseBrief": "Crouched sideways on a fallen trunk, drawing a bow through leaves.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 10,
+          "con": 11,
+          "dex": 17,
+          "siz": 10,
+          "int": 17,
+          "pow": 13,
+          "cha": 11
+        },
+        "characteristicDice": {
+          "str": "2D6+3",
+          "con": "3D6",
+          "dex": "3D6+6",
+          "siz": "2D6+3",
+          "int": "3D6+6",
+          "pow": "2D6+6",
+          "cha": "3D6"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 13,
+          "movement": "15 m",
+          "combatOrder": 14,
+          "ap": "2 leather",
+          "dm": "+0"
+        },
+        "skills": [
+          "Dodge 55%",
+          "Persistence 55%",
+          "Resilience 20%",
+          "Athletics 55%",
+          "Deception 55%",
+          "Healing 50%",
+          "Perception 30%",
+          "Natural Lore 80%",
+          "Close Combat 60%",
+          "Ranged Combat 80%"
+        ],
+        "attacks": [
+          "Shortspear — Close Combat 60%, `1D6 + 0`, Medium",
+          "Longbow — Ranged Combat 80%, `1D10`, 150 m"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Exceptional Archer:** Gain `+1B` with bows. The longbow's minimum STR gives this elf `-1P`, so the dice normally cancel.\n\n**Night Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.\n\nElf Shapers often favour Alter·Flesh, Scry·Flesh, Bend·Earth/Stone, and protective nature cells.",
+      "sourceProfile": "src/content/rules/creatures/elf.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elf.png"
+      }
+    },
+    {
+      "id": "creatures.gargoyle",
+      "slug": "gargoyle",
+      "title": "Gargoyle",
+      "category": "monster",
+      "summary": "A grey, winged humanoid predator often mistaken for a grotesque stone statue.",
+      "imageAlt": "A grey winged gargoyle crouching on a cathedral parapet.",
+      "poseBrief": "Crawling headfirst down a rain-dark cathedral buttress.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 29,
+          "con": 11,
+          "dex": 11,
+          "siz": 17,
+          "int": 4,
+          "pow": 11,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "5D6+12",
+          "con": "3D6",
+          "dex": "3D6",
+          "siz": "5D6",
+          "int": "1D6",
+          "pow": "3D6",
+          "cha": "1D6"
+        },
+        "derived": {
+          "hp": 14,
+          "mwl": 7,
+          "pp": 11,
+          "movement": "15 m ground, 23 m fly",
+          "combatOrder": 8,
+          "ap": "6 hide",
+          "dm": "+2D6"
+        },
+        "skills": [
+          "Dodge 25%",
+          "Persistence 40%",
+          "Resilience 40%",
+          "Athletics 40%",
+          "Deception 30%",
+          "Perception 40%",
+          "Natural Lore 40%",
+          "Unarmed Combat 50%"
+        ],
+        "attacks": ["Claw — Unarmed Combat 50%, `1D6 + 2D6`, Medium"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "Trained individuals may know a few scouting or warfare Shaping cells.",
+      "sourceProfile": "src/content/rules/creatures/gargoyle.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/gargoyle.png"
+      }
+    },
+    {
+      "id": "creatures.ghost",
+      "slug": "ghost",
+      "title": "Ghost",
+      "category": "spirit",
+      "summary": "A dead soul held in the world by obsession, violence, or unfinished duty; it is neither Undead nor Soulless.",
+      "imageAlt": "A pale translucent ghost standing in an abandoned timber-framed room.",
+      "poseBrief": "Pulling an immaterial ferry rope that vanishes into dry sand.",
+      "tags": ["incorporeal", "spirit"],
+      "statistics": {
+        "characteristics": {
+          "int": 11,
+          "pow": 11,
+          "cha": 11,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "3D6", "pow": "3D6", "cha": "3D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 11,
+          "movement": "23 m",
+          "combatOrder": 11,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 50%",
+          "Lore (Spirit World) 30%",
+          "Deception 50%",
+          "Perception 40%",
+          "Spirit Combat 40%"
+        ],
+        "attacks": ["Spectral Grasp — Spirit Combat 40%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Dominant Possession:** The Ghost normally chooses shared actions. At each turn's start, the host opposes Persistence with the Ghost's Persistence. A host win lets it choose that turn; a Critical win by the host also ends possession.\n\n**Echoes of Life:** A particular Ghost may retain appropriate mundane skills or Shaping cells known while alive.",
+      "sourceProfile": "src/content/rules/creatures/ghost.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghost.png"
+      }
+    },
+    {
+      "id": "creatures.ghoul",
+      "slug": "ghoul",
+      "title": "Ghoul",
+      "category": "undead",
+      "summary": "An intelligent corpse-eater driven by endless hunger.",
+      "imageAlt": "A gaunt grey ghoul with long claws standing in an old burial ground.",
+      "poseBrief": "Moving beneath a smokehouse table while twisting into a warning howl.",
+      "tags": ["corporeal", "undead", "soulless"],
+      "statistics": {
+        "characteristics": {
+          "str": 14,
+          "con": 11,
+          "dex": 11,
+          "siz": 13,
+          "int": 11,
+          "pow": 11,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "4D6",
+          "con": "3D6",
+          "dex": "3D6",
+          "siz": "2D6+6",
+          "int": "3D6",
+          "pow": "3D6",
+          "cha": "1D6"
+        },
+        "derived": {
+          "hp": 12,
+          "mwl": 6,
+          "pp": 11,
+          "movement": "15 m",
+          "combatOrder": 11,
+          "ap": 0,
+          "dm": "+1D4"
+        },
+        "skills": [
+          "Unarmed Combat 60%",
+          "Dodge 40%",
+          "Persistence 30%",
+          "Resilience 40%",
+          "Lore (Undead) 75%",
+          "Athletics 40%",
+          "Deception 60%",
+          "Perception 30%"
+        ],
+        "attacks": [
+          "Claw — Unarmed Combat 60%, `1D4 + 1D4`, Medium",
+          "Bite — Unarmed Combat 60%, `1D6 + 1D4`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Ghoul Howl:** Freely at the start of its turn, affect every Living listener within 11 m. A howl remains audible until the Ghoul's next turn. Oppose the highest-Persistence audible Ghoul with each listener's Persistence. Defeat gives `-1P` on attacks and Reactions while any howl is audible; victory grants immunity for this combat. A listener tests once per round and multiple howls do not stack. The Ghoul retains its normal actions.\n\n**Ghoul Venom:** **Type:** Injected, ingested, or smeared. **Delay:** `1D3` rounds. **Potency:** 22. **Effect:** Paralysed. **Duration:** `1D10` hours or until healing restores at least 1 HP.",
+      "sourceProfile": "src/content/rules/creatures/ghoul.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghoul.png"
+      }
+    },
+    {
+      "id": "creatures.giant-ant",
+      "slug": "giant-ant",
+      "title": "Giant Ant",
+      "category": "animal",
+      "summary": "A pony-sized colony predator protected by heavy chitin.",
+      "imageAlt": "A pony-sized red-brown ant standing on a forest floor.",
+      "poseBrief": "Climbing a fallen log while shearing a thick root with its mandibles.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 14,
+          "con": 17,
+          "dex": 13,
+          "siz": 7,
+          "int": 2,
+          "pow": 6,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "4D6",
+          "con": "3D6+6",
+          "dex": "2D6+6",
+          "siz": "2D6",
+          "pow": "1D6+3"
+        },
+        "derived": {
+          "hp": 12,
+          "mwl": 6,
+          "pp": 6,
+          "movement": "15 m",
+          "combatOrder": 8,
+          "ap": "5 chitin",
+          "dm": "+0"
+        },
+        "skills": ["Dodge 39%", "Persistence 18%", "Resilience 51%", "Unarmed Combat 50%"],
+        "attacks": ["Bite — Unarmed Combat 50%, `1D6 + 0`, Medium"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/giant-ant.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-ant.png"
+      }
+    },
+    {
+      "id": "creatures.giant-hawk",
+      "slug": "giant-hawk",
+      "title": "Giant Hawk",
+      "category": "animal",
+      "summary": "A massive raptor capable of hunting prey as large as a horse.",
+      "imageAlt": "A horse-sized hawk standing on a high rocky meadow.",
+      "poseBrief": "Pulling out of a raking dive along a mountain shelf.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 39,
+          "con": 33,
+          "dex": 18,
+          "siz": 39,
+          "int": 4,
+          "pow": 11,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "6D6+21",
+          "con": "5D6+15",
+          "dex": "3D6+9",
+          "siz": "6D6+21",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 36,
+          "mwl": 18,
+          "pp": 11,
+          "movement": "23 m ground, 30 m fly",
+          "combatOrder": 11,
+          "ap": "3 feathers",
+          "dm": "+4D6"
+        },
+        "skills": ["Dodge 54%", "Persistence 33%", "Resilience 99%", "Unarmed Combat 80%"],
+        "attacks": [
+          "Claw — Unarmed Combat 80%, `1D8 + 4D6`, Heavy",
+          "Bite — Unarmed Combat 80%, `1D6 + 4D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/giant-hawk.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-hawk.png"
+      }
+    },
+    {
+      "id": "creatures.giant-lizard",
+      "slug": "giant-lizard",
+      "title": "Giant Lizard",
+      "category": "animal",
+      "summary": "A large reptilian predator with powerful jaws and a battering tail.",
+      "imageAlt": "A large scaled lizard standing on a rocky scrubland path.",
+      "poseBrief": "Whipping around a ravine boulder, head and tail moving oppositely.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 19,
+          "con": 11,
+          "dex": 15,
+          "siz": 19,
+          "int": 3,
+          "pow": 11,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "2D6+12",
+          "con": "3D6",
+          "dex": "1D6+12",
+          "siz": "2D6+12",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 15,
+          "mwl": 8,
+          "pp": 11,
+          "movement": "15 m",
+          "combatOrder": 9,
+          "ap": "2 hide",
+          "dm": "+1D6"
+        },
+        "skills": ["Dodge 45%", "Persistence 33%", "Resilience 33%", "Unarmed Combat 35%"],
+        "attacks": [
+          "Bite — Unarmed Combat 35%, `1D6 + 1D6`, Medium",
+          "Tail — Unarmed Combat 35%, `1D8 + 1D6`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/giant-lizard.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-lizard.png"
+      }
+    },
+    {
+      "id": "creatures.giant-octopus",
+      "slug": "giant-octopus",
+      "title": "Giant Octopus",
+      "category": "animal",
+      "summary": "An enormous marine hunter whose arms can overwhelm several enemies.",
+      "imageAlt": "A huge reddish octopus moving across a shallow rocky seabed.",
+      "poseBrief": "Squeezing from a sea cave with eight countable bracing and reaching arms.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 42,
+          "con": 14,
+          "dex": 23,
+          "siz": 42,
+          "int": 4,
+          "pow": 11,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "12D6",
+          "con": "4D6+6",
+          "dex": "3D6+12",
+          "siz": "12D6",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 28,
+          "mwl": 14,
+          "pp": 11,
+          "movement": "7 m land, 30 m swim",
+          "combatOrder": 14,
+          "ap": "4 skin",
+          "dm": "+4D6"
+        },
+        "skills": ["Dodge 69%", "Persistence 33%", "Resilience 42%", "Unarmed Combat 50%"],
+        "attacks": [
+          "Bite — Unarmed Combat 50%, `1D8 + 4D6`, Huge",
+          "Arm — Unarmed Combat 50%, `1D4 + 4D6`, Huge"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Many Arms (Multiattack):** Make up to four Arm attacks under the Multiattack rule.",
+      "sourceProfile": "src/content/rules/creatures/giant-octopus.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-octopus.png"
+      }
+    },
+    {
+      "id": "creatures.giant-python",
+      "slug": "giant-python",
+      "title": "Giant Python",
+      "category": "animal",
+      "summary": "A huge constricting snake capable of crushing prey within its coils.",
+      "imageAlt": "A giant patterned python resting in coils on a forest floor.",
+      "poseBrief": "Coiling continuously around a cracked pillar for leverage.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 35,
+          "con": 11,
+          "dex": 13,
+          "siz": 11,
+          "int": 3,
+          "pow": 11,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "3D6+24",
+          "con": "3D6",
+          "dex": "2D6+6",
+          "siz": "3D6",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 11,
+          "movement": "15 m",
+          "combatOrder": 8,
+          "ap": "3 scales",
+          "dm": "+2D6"
+        },
+        "skills": ["Dodge 39%", "Persistence 33%", "Resilience 33%", "Unarmed Combat 50%"],
+        "attacks": [
+          "Bite — Unarmed Combat 50%, `1D4 + 2D6`, Medium",
+          "Constrict — Unarmed Combat 50%, `1D8 + 2D6`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Constrict:** Use only against a creature the python is grappling. The grapple continues whether this attack hits or misses.",
+      "sourceProfile": "src/content/rules/creatures/giant-python.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-python.png"
+      }
+    },
+    {
+      "id": "creatures.giant-spider",
+      "slug": "giant-spider",
+      "title": "Giant Spider",
+      "category": "animal",
+      "summary": "A horse-sized ambush predator that traps prey in venomous webs.",
+      "imageAlt": "A horse-sized brown spider standing beneath a web in a forest.",
+      "poseBrief": "Hanging beneath a ruined roof beam on taut silk lines.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 19,
+          "con": 17,
+          "dex": 16,
+          "siz": 26,
+          "int": 8,
+          "pow": 11,
+          "cha": 2
+        },
+        "characteristicDice": {
+          "str": "2D6+12",
+          "con": "3D6+6",
+          "dex": "2D6+9",
+          "siz": "4D6+12",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 22,
+          "mwl": 11,
+          "pp": 11,
+          "movement": "15 m ground, 23 m on web",
+          "combatOrder": 12,
+          "ap": "4 chitin",
+          "dm": "+1D6"
+        },
+        "skills": ["Dodge 48%", "Persistence 33%", "Resilience 51%", "Unarmed Combat 50%"],
+        "attacks": [
+          "Bite — Unarmed Combat 50%, `1D6 + 1D6`, Heavy",
+          "Web — Unarmed Combat 50%, no damage, Heavy, 15 m"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Web:** Spend a Combat Action and oppose Unarmed Combat against the Athletics of one target within 15 m. If the spider wins, the target cannot take Movement Actions and suffers `-1P` on physical tests until the web is destroyed. Each web has 22 HP and 0 AP.\n\n**Giant Spider Venom:** A Bite dealing HP damage exposes the target. **Type:** Injected. **Delay:** `1D3` rounds. **Potency:** 51. **Effect:** `-6 DEX` for the Duration and `1D3` HP at each minute's end; DEX 0 causes paralysis. **Duration:** `6D10` minutes.",
+      "sourceProfile": "src/content/rules/creatures/giant-spider.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-spider.png"
+      }
+    },
+    {
+      "id": "creatures.giant",
+      "slug": "giant",
+      "title": "Giant",
+      "category": "monster",
+      "summary": "A six-metre humanoid who adopts nearby cultures or lives in an isolated mountain clan.",
+      "imageAlt": "A human-faced mountain giant standing beside a huge club and boulder.",
+      "poseBrief": "Crouching in a flooded field to lift a stranded wooden cart.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 49,
+          "con": 39,
+          "dex": 10,
+          "siz": 49,
+          "int": 11,
+          "pow": 11,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "9D6+18",
+          "con": "6D6+18",
+          "dex": "2D6+3",
+          "siz": "9D6+18",
+          "int": "3D6",
+          "pow": "3D6",
+          "cha": "2D6"
+        },
+        "derived": {
+          "hp": 44,
+          "mwl": 22,
+          "pp": 11,
+          "movement": "30 m",
+          "combatOrder": 11,
+          "ap": "3 hide",
+          "dm": "+5D6"
+        },
+        "skills": [
+          "Dodge 10%",
+          "Persistence 25%",
+          "Resilience 80%",
+          "Athletics 50%",
+          "Deception 5%",
+          "Perception 40%",
+          "Natural Lore 20%",
+          "Close Combat 90%",
+          "Ranged Combat 35%",
+          "Unarmed Combat 75%"
+        ],
+        "attacks": [
+          "Huge Club — Close Combat 90%, `2D6 + 5D6`, Huge",
+          "Thrown Boulder — Ranged Combat 35%, `2D6 + 5D6`, Huge, 49 m",
+          "Stomp — Unarmed Combat 75%, `1D6 + 5D6`, Huge"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "Giants may learn cultural Shaping; isolated ones favour Earth/Stone, Air/Storm, or Spirit cells.",
+      "sourceProfile": "src/content/rules/creatures/giant.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant.png"
+      }
+    },
+    {
+      "id": "creatures.goblin",
+      "slug": "goblin",
+      "title": "Goblin",
+      "category": "monster",
+      "summary": "A small, agile humanoid accustomed to surviving through cunning and numbers.",
+      "imageAlt": "A small goblin carrying a shortspear and round shield in a hill camp.",
+      "poseBrief": "Sliding feet-first beneath a tunnel beam with shield overhead.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 10,
+          "con": 10,
+          "dex": 17,
+          "siz": 7,
+          "int": 11,
+          "pow": 10,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "2D6+3",
+          "con": "2D6+3",
+          "dex": "5D6",
+          "siz": "2D6",
+          "int": "3D6",
+          "pow": "2D6+3",
+          "cha": "2D6"
+        },
+        "derived": {
+          "hp": 9,
+          "mwl": 5,
+          "pp": 10,
+          "movement": "15 m",
+          "combatOrder": 11,
+          "ap": "2 leather",
+          "dm": "+0"
+        },
+        "skills": [
+          "Dodge 50%",
+          "Persistence 20%",
+          "Resilience 35%",
+          "Athletics 50%",
+          "Deception 75%",
+          "Mechanisms 50%",
+          "Perception 35%",
+          "Natural Lore 50%",
+          "Close Combat 40%",
+          "Ranged Combat 50%"
+        ],
+        "attacks": [
+          "Shortspear — Close Combat 40%, `1D6 + 0`, Medium",
+          "Small Shield — Close Combat 40%, `1D4 + 0`, Medium",
+          "Sling — Ranged Combat 50%, `1D6`, 50 m"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.\n\nLeaders and shamans may know combat, trickery, or survival-themed Shaping cells.",
+      "sourceProfile": "src/content/rules/creatures/goblin.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/goblin.png"
+      }
+    },
+    {
+      "id": "creatures.golem",
+      "slug": "golem",
+      "title": "Golem",
+      "category": "monster",
+      "summary": "A clay construct animated to execute a sacred command with literal, tireless precision.",
+      "imageAlt": "A heavy clay golem standing motionless in a temple courtyard.",
+      "poseBrief": "Lowering a collapsed roof beam while checking a boundary stone.",
+      "tags": ["corporeal", "construct", "soulless", "mindless"],
+      "statistics": {
+        "characteristics": {
+          "str": 39,
+          "con": 29,
+          "dex": 7,
+          "siz": 29,
+          "int": "4 or 7 free-willed",
+          "pow": "4 or 11 free-willed",
+          "cha": "4 or 7 free-willed"
+        },
+        "characteristicDice": {
+          "str": "6D6+18",
+          "con": "3D6+18",
+          "dex": "2D6",
+          "siz": "3D6+18",
+          "int": "1D6/2D6",
+          "pow": "1D6/3D6",
+          "cha": "1D6/2D6"
+        },
+        "derived": {
+          "hp": 29,
+          "mwl": 15,
+          "pp": "4 or 11 free-willed",
+          "movement": "15 m",
+          "combatOrder": "6 or 7 free-willed",
+          "ap": "8, or 4 against crushing harm",
+          "dm": "+3D6"
+        },
+        "skills": [
+          "Dodge 0%",
+          "Persistence 90%",
+          "Resilience 100%",
+          "Lore (Allocated Task) 50%",
+          "one programmed skill 100%",
+          "Unarmed Combat 30%"
+        ],
+        "attacks": ["Fist — Unarmed Combat 30%, `1D8 + 3D6`, Light"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Programmed Task:** A programmed Golem pursues only its stated task and obeys literally. A free-willed Golem is not bound by this rule.\n\n**Construct Body:** It does not breathe, eat, sleep, bleed, or suffer poison or disease. At 0 HP it is disabled or destroyed; 0 PP does not incapacitate it.\n\n**Slow:** It cannot Sprint. Free-willed Golems may learn Shaping.",
+      "sourceProfile": "src/content/rules/creatures/golem.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/golem.png"
+      }
+    },
+    {
+      "id": "creatures.griffin",
+      "slug": "griffin",
+      "title": "Griffin",
+      "category": "monster",
+      "summary": "A proud mountain predator with a lion's body, an eagle's head, and immense wings.",
+      "imageAlt": "An eagle-headed griffin with immense wings standing on a mountain meadow.",
+      "poseBrief": "Braking asymmetrically just after a raking-dive landing.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 28,
+          "con": 22,
+          "dex": 22,
+          "siz": 28,
+          "int": 6,
+          "pow": 13,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "8D6",
+          "con": "3D6+12",
+          "dex": "3D6+12",
+          "siz": "8D6",
+          "pow": "2D6+6"
+        },
+        "derived": {
+          "hp": 25,
+          "mwl": 13,
+          "pp": 13,
+          "movement": "23 m ground, 30 m fly",
+          "combatOrder": 14,
+          "ap": "3 hide",
+          "dm": "+2D6"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 80%",
+          "Resilience 70%",
+          "Athletics 80%",
+          "Deception 28%",
+          "Perception 50%",
+          "Natural Lore 60%",
+          "Unarmed Combat 70%"
+        ],
+        "attacks": [
+          "Bite — Unarmed Combat 70%, `1D8 + 2D6`, Heavy",
+          "Claw — Unarmed Combat 70%, `1D6 + 2D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Raking Dive (Multiattack):** Spend the Combat and Movement Actions to fly at least 10 m straight and then make two Claw attacks. This replaces Charge, grants no Charge damage, and retains the base Reaction.",
+      "sourceProfile": "src/content/rules/creatures/griffin.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/griffin.png"
+      }
+    },
+    {
+      "id": "creatures.guardian-spirit",
+      "slug": "guardian-spirit",
+      "title": "Guardian Spirit",
+      "category": "spirit",
+      "summary": "A bound spirit that protects a place, object, tomb, or treasure according to stated conditions.",
+      "imageAlt": "A translucent guardian spirit standing before a sealed tomb door.",
+      "poseBrief": "Coiling around a bronze burial mask and howling toward a breached roof.",
+      "tags": ["incorporeal", "spirit", "anchored"],
+      "statistics": {
+        "characteristics": {
+          "int": 7,
+          "pow": 17,
+          "cha": 11,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "2D6", "pow": "3D6+6", "cha": "3D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 17,
+          "movement": "30 m",
+          "combatOrder": 7,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": ["Dodge 40%", "Persistence 60%", "Lore (Spirit World) 40%", "Spirit Combat 70%"],
+        "attacks": ["Spectral Claw — Spirit Combat 70%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Binding:** Define the anchor and conduct that triggers the Guardian. It cannot move more than 17 m from the anchor.\n\n**Alarm:** When its condition is broken, it howls audibly to 170 m and identifies the intruders. On its next turn it spends its Combat Action to manifest, then acts according to its binding.",
+      "sourceProfile": "src/content/rules/creatures/guardian-spirit.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/guardian-spirit.png"
+      }
+    },
+    {
+      "id": "creatures.hag",
+      "slug": "hag",
+      "title": "Hag",
+      "category": "nymph",
+      "summary": "A cave or darkness spirit that hunts beyond its domain only between sunset and dawn.",
+      "imageAlt": "A clawed cave hag standing at the entrance to her rocky domain.",
+      "poseBrief": "Crawling crabwise through a cave fissure while shielding light-sensitive eyes.",
+      "tags": ["corporeal", "spirit", "anchored"],
+      "statistics": {
+        "characteristics": {
+          "str": 21,
+          "con": 11,
+          "dex": 11,
+          "siz": 11,
+          "int": 19,
+          "pow": 28,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "6D6",
+          "con": "3D6",
+          "dex": "3D6",
+          "siz": "3D6",
+          "int": "2D6+12",
+          "pow": "2D6+21",
+          "cha": "1D6"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 28,
+          "movement": "15 m",
+          "combatOrder": 15,
+          "ap": 0,
+          "dm": "+1D6"
+        },
+        "skills": [
+          "Unarmed Combat 55%",
+          "Dodge 50%",
+          "Persistence 60%",
+          "Resilience 40%",
+          "Lore (Magic) 40%",
+          "Lore (Undead) 40%",
+          "Natural Lore 40%",
+          "Deception 100%",
+          "Perception 50%",
+          "Shaping 75%"
+        ],
+        "attacks": ["Claw — Unarmed Combat 55%, `1D6 + 1D6`, Medium"],
+        "talents": "Mastery (Deception) I",
+        "plunder": 3
+      },
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Mind, Alter·Mind, Unmake·Fire, Unmake·Flesh.\n\n**Nightbound:** The Hag may leave its domain only at night. Dawn outside the domain or direct natural sunlight destroys its body and returns its Spirit home.\n\n**Create Shade:** In Darkness within its domain, spend a Combat Action and 3 PP to create one Small Shade using the Elemental profile. Give it one simple standing order; it follows literally and otherwise protects the Hag. Changing the order costs the Hag a Combat Action. It acts immediately after the Hag and remains within the domain until destroyed or dismissed. Only one may exist at a time.",
+      "sourceProfile": "src/content/rules/creatures/hag.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hag.png"
+      }
+    },
+    {
+      "id": "creatures.harpy",
+      "slug": "harpy",
+      "title": "Harpy",
+      "category": "monster",
+      "summary": "A filthy, winged scavenger whose claws and missiles spread disease.",
+      "imageAlt": "A winged harpy holding a stone on a bare cliff ledge.",
+      "poseBrief": "Banking over a coastal cliff with a filthy dropped missile.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 11,
+          "con": 11,
+          "dex": 18,
+          "siz": 7,
+          "int": 11,
+          "pow": 11,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "3D6",
+          "con": "3D6",
+          "dex": "5D6",
+          "siz": "2D6",
+          "int": "3D6",
+          "pow": "3D6",
+          "cha": "1D6"
+        },
+        "derived": {
+          "hp": 9,
+          "mwl": 5,
+          "pp": 11,
+          "movement": "15 m ground, 30 m fly",
+          "combatOrder": 15,
+          "ap": 0,
+          "dm": "+0"
+        },
+        "skills": [
+          "Dodge 50%",
+          "Persistence 25%",
+          "Resilience 60%",
+          "Athletics 60%",
+          "Deception 60%",
+          "Perception 75%",
+          "Natural Lore 60%",
+          "Ranged Combat 40%",
+          "Unarmed Combat 75%"
+        ],
+        "attacks": [
+          "Claw — Unarmed Combat 75%, `1D6 + 0`, Medium",
+          "Dropped Stone — Ranged Combat 40%, `1D6` per full 3 m fallen, maximum `10D6`, Light, directly below",
+          "Dung — Ranged Combat 40%, no damage, Light, directly below"
+        ],
+        "talents": "None",
+        "plunder": 3
+      },
+      "rulesAndAbilitiesMarkdown": "**Dropped Missile:** Choose a target directly below the Harpy, no more than 30 m down. Dropping a stone or dung is a Ranged Combat attack; an aware target may React normally.\n\n**Filth:** A damaging Claw, dung hit, or dung-coated stone exposes the victim to the Shakes. **Type:** Touch. **Delay:** `1D2` days. **Potency:** 50. **Effect:** DEX remains halved while active; lose `1D6` HP after each Delay. **Duration:** Until the victim wins a repeated Resilience-versus-Potency test.\n\n**Stench:** A dung hit gives `-1P` to Influence and Deception until the victim and equipment are washed for one hour. Harpies are immune to disease. Some know Bend·Force/Motion or Alter·Flesh.",
+      "sourceProfile": "src/content/rules/creatures/harpy.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/harpy.png"
+      }
+    },
+    {
+      "id": "creatures.hawk",
+      "slug": "hawk",
+      "title": "Hawk",
+      "category": "animal",
+      "summary": "A small, agile bird of prey.",
+      "imageAlt": "A hawk perched on a weathered branch above open countryside.",
+      "poseBrief": "Banking through tall meadow grass with talons opening.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 2,
+          "con": 4,
+          "dex": 27,
+          "siz": 2,
+          "int": 4,
+          "pow": 7,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "1D3",
+          "con": "2D3",
+          "dex": "3D6+18",
+          "siz": "1D2",
+          "pow": "2D6"
+        },
+        "derived": {
+          "hp": 3,
+          "mwl": 2,
+          "pp": 7,
+          "movement": "15 m ground, 30 m fly",
+          "combatOrder": 16,
+          "ap": 0,
+          "dm": "-1D6"
+        },
+        "skills": ["Dodge 81%", "Persistence 21%", "Resilience 12%", "Unarmed Combat 50%"],
+        "attacks": [
+          "Claw — Unarmed Combat 50%, `1D6 - 1D6`, Light",
+          "Bite — Unarmed Combat 50%, `1D4 - 1D6`, Light"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/hawk.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hawk.png"
+      }
+    },
+    {
+      "id": "creatures.healing-spirit",
+      "slug": "healing-spirit",
+      "title": "Healing Spirit",
+      "category": "spirit",
+      "summary": "A luminous restorative spirit and natural enemy of Disease Spirits.",
+      "imageAlt": "A pale healing spirit with open hands in an herb garden.",
+      "poseBrief": "Heron-like spirit spearing a patch of fever vapor in an herb garden.",
+      "tags": ["incorporeal", "spirit"],
+      "statistics": {
+        "characteristics": {
+          "int": 7,
+          "pow": 14,
+          "cha": 11,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "2D6", "pow": "4D6", "cha": "3D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 14,
+          "movement": "30 m",
+          "combatOrder": 7,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 50%",
+          "Lore (Disease) 100%",
+          "Lore (Spirit World) 60%",
+          "Spirit Combat 50%",
+          "Shaping 100%"
+        ],
+        "attacks": ["Spectral Blast — Spirit Combat 50%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Alter·Flesh, Scry·Flesh.\n\n**Disease Hunter:** It may initiate Spirit Combat with a Disease Spirit possessing a creature it touches. The host suffers no PP damage from that combat. Banishment ends the disease possession. A Healing Spirit cannot possess.",
+      "sourceProfile": "src/content/rules/creatures/healing-spirit.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/healing-spirit.png"
+      }
+    },
+    {
+      "id": "creatures.holy-steed",
+      "slug": "holy-steed",
+      "title": "Holy Steed",
+      "category": "monster",
+      "summary": "A deity's otherworldly mount, manifesting as a sacred eagle, kraken, iron horse, or similar form.",
+      "imageAlt": "A sacred horse formed from dark iron plates in a temple court.",
+      "poseBrief": "Testing a broken stone bridge with deliberate, intelligent balance.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 30,
+          "con": 20,
+          "dex": 18,
+          "siz": 30,
+          "int": 18,
+          "pow": 18,
+          "cha": 18
+        },
+        "characteristicDice": {},
+        "derived": {
+          "hp": 25,
+          "mwl": 13,
+          "pp": 18,
+          "movement": "20 m",
+          "combatOrder": 18,
+          "ap": 6,
+          "dm": "+2D6"
+        },
+        "skills": ["Dodge 100%", "Persistence 100%", "Resilience 100%", "Unarmed Combat 80%"],
+        "attacks": ["Fist or Kick — Unarmed Combat 80%, `1D10 + 2D6`, Light"],
+        "talents": "Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Divine Form:** Choose land, swim, or flight as its 20 m movement mode when creating it.",
+      "sourceProfile": "src/content/rules/creatures/holy-steed.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/holy-steed.png"
+      }
+    },
+    {
+      "id": "creatures.holy-warrior",
+      "slug": "holy-warrior",
+      "title": "Holy Warrior",
+      "category": "monster",
+      "summary": "An otherworldly champion whose form and weapon reflect its deity.",
+      "imageAlt": "A holy warrior carrying a longspear and round shield.",
+      "poseBrief": "Striding down broken sanctuary steps in full silver-and-gold plate, round shield raised in a natural forward guard and longspear angled back; calm commanding face framed by a disciplined golden-white dawn halo and radiant aura, with cobalt tabard and vermilion cloak lifted by a sacred wind.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 20,
+          "con": 18,
+          "dex": 15,
+          "siz": 18,
+          "int": 15,
+          "pow": 18,
+          "cha": 18
+        },
+        "characteristicDice": {},
+        "derived": {
+          "hp": 18,
+          "mwl": 9,
+          "pp": 18,
+          "movement": "12 m",
+          "combatOrder": 15,
+          "ap": 6,
+          "dm": "+1D6"
+        },
+        "skills": [
+          "Dodge 100%",
+          "Persistence 100%",
+          "Resilience 100%",
+          "Athletics 100%",
+          "choose Close Combat, Ranged Combat, or Unarmed Combat 100%"
+        ],
+        "attacks": [],
+        "talents": "Mastery (Dodge) II; Mastery (chosen combat skill) II; Mastery (Resilience) I; Mastery (Athletics) I",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "Appearance, weapon, and optional Shaping cells express its patron without changing these values.",
+      "sourceProfile": "src/content/rules/creatures/holy-warrior.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/holy-warrior.png"
+      }
+    },
+    {
+      "id": "creatures.horse",
+      "slug": "horse",
+      "title": "Horse",
+      "category": "animal",
+      "summary": "A swift riding and draft animal whose kick can shatter bone.",
+      "imageAlt": "A sturdy brown horse standing in a simple paddock.",
+      "poseBrief": "Backing and turning on a rain-dark forest path.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 25,
+          "con": 17,
+          "dex": 10,
+          "siz": 25,
+          "int": 4,
+          "pow": 11,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "2D6+18",
+          "con": "3D6+6",
+          "dex": "2D6+3",
+          "siz": "2D6+18",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 21,
+          "mwl": 11,
+          "pp": 11,
+          "movement": "30 m",
+          "combatOrder": 7,
+          "ap": "2 hide",
+          "dm": "+2D6"
+        },
+        "skills": ["Dodge 30%", "Persistence 33%", "Resilience 51%", "Unarmed Combat 40%"],
+        "attacks": ["Kick — Unarmed Combat 40%, `1D6 + 2D6`, Light"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/horse.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/horse.png"
+      }
+    },
+    {
+      "id": "creatures.lion",
+      "slug": "lion",
+      "title": "Lion",
+      "category": "animal",
+      "summary": "A powerful feline predator armed with jaws and claws.",
+      "imageAlt": "A full-maned male lion standing alert on open grassland.",
+      "poseBrief": "Dropping from a ledge into tall grass in a descending arc.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 24,
+          "con": 11,
+          "dex": 17,
+          "siz": 19,
+          "int": 5,
+          "pow": 11,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "3D6+12",
+          "con": "3D6",
+          "dex": "3D6+6",
+          "siz": "2D6+12",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 15,
+          "mwl": 8,
+          "pp": 11,
+          "movement": "23 m",
+          "combatOrder": 11,
+          "ap": "2 hide",
+          "dm": "+1D6"
+        },
+        "skills": ["Dodge 51%", "Persistence 33%", "Resilience 33%", "Unarmed Combat 60%"],
+        "attacks": [
+          "Bite — Unarmed Combat 60%, `1D8 + 1D6`, Medium",
+          "Claw — Unarmed Combat 60%, `1D6 + 1D6`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/lion.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lion.png"
+      }
+    },
+    {
+      "id": "creatures.lizardman",
+      "slug": "lizardman",
+      "title": "Lizardman",
+      "category": "monster",
+      "summary": "A tool-using reptilian person adapted to deserts, swamps, and other hot regions.",
+      "imageAlt": "A reptilian warrior carrying a battleaxe on a marsh bank.",
+      "poseBrief": "Lying across a drifting log while hooking a supply bundle with an axe.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 17,
+          "con": 11,
+          "dex": 10,
+          "siz": 11,
+          "int": 13,
+          "pow": 11,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "3D6+6",
+          "con": "3D6",
+          "dex": "2D6+3",
+          "siz": "3D6",
+          "int": "2D6+6",
+          "pow": "3D6",
+          "cha": "2D6"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 11,
+          "movement": "15 m",
+          "combatOrder": 12,
+          "ap": "2 scales",
+          "dm": "+1D4"
+        },
+        "skills": [
+          "Dodge 45%",
+          "Persistence 25%",
+          "Resilience 30%",
+          "Athletics 45%",
+          "Deception 30%",
+          "Perception 35%",
+          "Natural Lore 45%",
+          "Close Combat 45%",
+          "Ranged Combat 35%",
+          "Unarmed Combat 25%"
+        ],
+        "attacks": [
+          "Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium",
+          "Sling — Ranged Combat 35%, `1D6`, 50 m",
+          "Bite — Unarmed Combat 25%, `1D6 + 1D4`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 3
+      },
+      "rulesAndAbilitiesMarkdown": "Lizardman cultures may teach any appropriate Shaping cells.",
+      "sourceProfile": "src/content/rules/creatures/lizardman.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardman.png"
+      }
+    },
+    {
+      "id": "creatures.magic-spirit",
+      "slug": "magic-spirit",
+      "title": "Magic Spirit",
+      "category": "spirit",
+      "summary": "A constellation of coloured lights gathered around one coherent magical theme.",
+      "imageAlt": "A blue-violet constellation spirit floating above a hilltop.",
+      "poseBrief": "Folding a constellation-like body through an overturned astrolabe.",
+      "tags": ["incorporeal", "spirit"],
+      "statistics": {
+        "characteristics": {
+          "int": 11,
+          "pow": 14,
+          "cha": 4,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "3D6", "pow": "4D6", "cha": "1D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 14,
+          "movement": "30 m",
+          "combatOrder": 11,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 50%",
+          "Lore (Spirit World) 60%",
+          "Spirit Combat 50%",
+          "Shaping 70%"
+        ],
+        "attacks": ["Spectral Blast — Spirit Combat 50%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `POW × 5`%, capped at 100%. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.\r\n\r\n**Defensive Spirit:** It cannot initiate Spirit Combat but may defend when another creature initiates it.",
+      "sourceProfile": "src/content/rules/creatures/magic-spirit.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/magic-spirit.png"
+      }
+    },
+    {
+      "id": "creatures.merfolk",
+      "slug": "merfolk",
+      "title": "Merfolk",
+      "category": "monster",
+      "summary": "A territorial sea-dweller whose undersea society mirrors kingdoms above.",
+      "imageAlt": "A merfolk guard carrying a longspear above an undersea terrace.",
+      "poseBrief": "Rolling under a fallen mast using spear and tail as a pivot.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 14,
+          "con": 11,
+          "dex": 13,
+          "siz": 17,
+          "int": 11,
+          "pow": 11,
+          "cha": 11
+        },
+        "characteristicDice": {
+          "str": "3D6+3",
+          "con": "3D6",
+          "dex": "2D6+6",
+          "siz": "3D6+6",
+          "int": "3D6",
+          "pow": "3D6",
+          "cha": "3D6"
+        },
+        "derived": {
+          "hp": 14,
+          "mwl": 7,
+          "pp": 11,
+          "movement": "23 m swim, 7 m crawl",
+          "combatOrder": 12,
+          "ap": 0,
+          "dm": "+1D6"
+        },
+        "skills": [
+          "Dodge 30%",
+          "Persistence 30%",
+          "Resilience 30%",
+          "Athletics 60%",
+          "Deception 30%",
+          "Perception 50%",
+          "Natural Lore 80%",
+          "Close Combat 35%"
+        ],
+        "attacks": [
+          "Longspear — Close Combat 35%, `1D8+1 + 1D6`, Medium",
+          "Dagger — Close Combat 35%, `1D4+1 + 1D6`, Light"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Aquatic:** Breathes air and can hold its breath underwater for 11 minutes. Merfolk Shapers commonly know Water/Ice cells.",
+      "sourceProfile": "src/content/rules/creatures/merfolk.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/merfolk.png"
+      }
+    },
+    {
+      "id": "creatures.mummy",
+      "slug": "mummy",
+      "title": "Mummy",
+      "category": "undead",
+      "summary": "An intelligent, ritually preserved ruler or guardian with no Shaping by default.",
+      "imageAlt": "A bandaged mummy holding a great hammer in a dry stone burial chamber.",
+      "poseBrief": "Descending a burial stair seated, one rigid step at a time.",
+      "tags": ["corporeal", "undead", "soulless"],
+      "statistics": {
+        "characteristics": {
+          "str": 23,
+          "con": 23,
+          "dex": 4,
+          "siz": 13,
+          "int": 13,
+          "pow": 0,
+          "cha": 1
+        },
+        "characteristicDice": {
+          "str": "3D6+12",
+          "con": "3D6+12",
+          "dex": "2D6",
+          "siz": "2D6+6",
+          "int": "2D6+6"
+        },
+        "derived": {
+          "hp": 18,
+          "mwl": 9,
+          "pp": 0,
+          "movement": "15 m",
+          "combatOrder": 9,
+          "ap": "2 natural",
+          "dm": "+1D6"
+        },
+        "skills": [
+          "Close Combat 80%",
+          "Unarmed Combat 60%",
+          "Dodge 30%",
+          "Persistence 80%",
+          "Resilience 50%",
+          "Lore (Undead) 65%",
+          "Athletics 10%",
+          "Deception 10%",
+          "Perception 40%"
+        ],
+        "attacks": [
+          "Great Hammer — Close Combat 80%, `2D8 + 1D6`, Heavy",
+          "Fist — Unarmed Combat 60%, `1D6 + 1D6`, Light"
+        ],
+        "talents": "None",
+        "plunder": 4
+      },
+      "rulesAndAbilitiesMarkdown": "**Flammable:** Fire that deals HP damage ignites the Mummy. At each round's end it suffers that damage again without reapplying AP. Extinguishing costs its Combat Action, Movement Action, and all Reactions while it rolls, smothers the flames, or enters water.\n\n**Preserved Flesh:** Alter·Flesh repairs it at normal Intensity. Mind affects it normally; Soulless protects only against Spirit.",
+      "sourceProfile": "src/content/rules/creatures/mummy.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/mummy.png"
+      }
+    },
+    {
+      "id": "creatures.naiad",
+      "slug": "naiad",
+      "title": "Naiad",
+      "category": "nymph",
+      "summary": "A water spirit anchored to one stream, lake, swamp, or coastal reach.",
+      "imageAlt": "A blue-grey naiad holding a spear in the shallow stream she guards.",
+      "poseBrief": "Swinging horizontally around a planted spear through fast current.",
+      "tags": ["corporeal", "spirit", "anchored"],
+      "statistics": {
+        "characteristics": {
+          "str": 14,
+          "con": 11,
+          "dex": 14,
+          "siz": 10,
+          "int": 17,
+          "pow": 25,
+          "cha": 19
+        },
+        "characteristicDice": {
+          "str": "4D6",
+          "con": "3D6",
+          "dex": "4D6",
+          "siz": "2D6+3",
+          "int": "3D6+6",
+          "pow": "2D6+18",
+          "cha": "2D6+12"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 25,
+          "movement": "15 m",
+          "combatOrder": 16,
+          "ap": 0,
+          "dm": "+0"
+        },
+        "skills": [
+          "Close Combat 40%",
+          "Ranged Combat 40%",
+          "Dodge 80%",
+          "Persistence 70%",
+          "Resilience 60%",
+          "Natural Lore 40%",
+          "Deception 65%",
+          "Perception 40%",
+          "Performance 40%",
+          "Shaping 60%"
+        ],
+        "attacks": [
+          "Shortspear — Close Combat 40%, `1D6 + 0`, Medium",
+          "Javelin — Ranged Combat 40%, `1D6 + 0`, Medium, 28 m"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Water/Ice, Alter·Water/Ice, Ward·Water/Ice, Alter·Flesh, Bend·Mind.\n\n**Water Anchor:** Each complete 10 m band travelled away from its water costs 1 PP; returning restores none. The Naiad recovers PP only while submerged. At 0 PP, its body collapses into water and its Spirit returns home.\n\n**Undine Transformation:** Spend a Combat Action and 9 PP to adopt a Medium Undine shell under the shared rule. A Combat Action restores normal form.",
+      "sourceProfile": "src/content/rules/creatures/naiad.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/naiad.png"
+      }
+    },
+    {
+      "id": "creatures.ogre",
+      "slug": "ogre",
+      "title": "Ogre",
+      "category": "monster",
+      "summary": "A massive, warty humanoid who dominates weaker creatures through brute force.",
+      "imageAlt": "A broad-shouldered grey-green ogre standing on an old stone bridge.",
+      "poseBrief": "Hauling a great axe free from a shattered stump in a rocky ravine.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 23,
+          "con": 13,
+          "dex": 11,
+          "siz": 23,
+          "int": 10,
+          "pow": 10,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "3D6+12",
+          "con": "2D6+6",
+          "dex": "3D6",
+          "siz": "3D6+12",
+          "int": "2D6+3",
+          "pow": "2D6+3",
+          "cha": "1D6"
+        },
+        "derived": {
+          "hp": 18,
+          "mwl": 9,
+          "pp": 10,
+          "movement": "15 m",
+          "combatOrder": 11,
+          "ap": "2 skin",
+          "dm": "+2D6"
+        },
+        "skills": [
+          "Dodge 35%",
+          "Persistence 45%",
+          "Resilience 35%",
+          "Athletics 35%",
+          "Deception 50%",
+          "Perception 50%",
+          "Natural Lore 35%",
+          "Close Combat 60%",
+          "Ranged Combat 40%",
+          "Unarmed Combat 60%"
+        ],
+        "attacks": [
+          "Great Axe — Close Combat 60%, `2D8 + 2D6`, Heavy",
+          "Improvised Rock — Ranged Combat 40%, `1D4 + 2D6`, Light, 23 m",
+          "Fist — Unarmed Combat 60%, `1D6 + 2D6`, Light",
+          "Bite — Unarmed Combat 60%, `1D8 + 2D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "Ogre mystics commonly favour destructive Fire, Flesh, Mind, or Spirit cells.",
+      "sourceProfile": "src/content/rules/creatures/ogre.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ogre.png"
+      }
+    },
+    {
+      "id": "creatures.orc",
+      "slug": "orc",
+      "title": "Orc",
+      "category": "monster",
+      "summary": "A violent clan-based humanoid whose warband is ruled by strength and ambition.",
+      "imageAlt": "An orc fighter advancing through ruined streets behind a round shield.",
+      "poseBrief": "Vaulting sideways through a ruined window with shield leading.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 14,
+          "con": 11,
+          "dex": 14,
+          "siz": 10,
+          "int": 11,
+          "pow": 10,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "4D6",
+          "con": "3D6",
+          "dex": "4D6",
+          "siz": "2D6+3",
+          "int": "3D6",
+          "pow": "2D6+3",
+          "cha": "2D6"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 10,
+          "movement": "15 m",
+          "combatOrder": 10,
+          "ap": "2 leather",
+          "dm": "+0"
+        },
+        "skills": [
+          "Dodge 35%",
+          "Persistence 35%",
+          "Resilience 35%",
+          "Athletics 35%",
+          "Deception 45%",
+          "Perception 45%",
+          "Craft 40%",
+          "Close Combat 40%",
+          "Ranged Combat 50%"
+        ],
+        "attacks": [
+          "Scimitar — Close Combat 40%, `1D8 + 0`, Medium",
+          "Medium Shield — Close Combat 40%, `1D6 + 0`, Heavy",
+          "Shortbow — Ranged Combat 50%, `1D8`, 75 m"
+        ],
+        "talents": "None",
+        "plunder": 2
+      },
+      "rulesAndAbilitiesMarkdown": "War leaders and shamans may know aggressive or protective Shaping cells.",
+      "sourceProfile": "src/content/rules/creatures/orc.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/orc.png"
+      }
+    },
+    {
+      "id": "creatures.oread",
+      "slug": "oread",
+      "title": "Oread",
+      "category": "nymph",
+      "summary": "A stone spirit anchored to one hill, mountain, valley, or similar landform.",
+      "imageAlt": "A stone-skinned oread holding a rock on a mountain slope.",
+      "poseBrief": "Skating down steep scree on a slab while catching a falling stone.",
+      "tags": ["corporeal", "spirit", "anchored"],
+      "statistics": {
+        "characteristics": {
+          "str": 7,
+          "con": 12,
+          "dex": 17,
+          "siz": 10,
+          "int": 14,
+          "pow": 22,
+          "cha": 15
+        },
+        "characteristicDice": {
+          "str": "2D6",
+          "con": "3D6+3",
+          "dex": "3D6+6",
+          "siz": "2D6+3",
+          "int": "3D6+3",
+          "pow": "2D6+15",
+          "cha": "2D6+9"
+        },
+        "derived": {
+          "hp": 11,
+          "mwl": 6,
+          "pp": 22,
+          "movement": "15 m",
+          "combatOrder": 16,
+          "ap": 0,
+          "dm": "+0"
+        },
+        "skills": [
+          "Unarmed Combat 35%",
+          "Ranged Combat 40%",
+          "Dodge 40%",
+          "Persistence 30%",
+          "Resilience 50%",
+          "Natural Lore 40%",
+          "Deception 80%",
+          "Perception 50%",
+          "Performance 50%",
+          "Shaping 70%"
+        ],
+        "attacks": [
+          "Stone Fist — Unarmed Combat 35%, `1D6 + 0`, Medium",
+          "Thrown Rock — Ranged Combat 40%, `1D4 + 0`, Light, 7 m"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Earth/Stone, Alter·Earth/Stone, Ward·Earth/Stone, Unmake·Earth/Stone, Scry·Earth/Stone.\n\n**Earth Anchor:** Each complete 10 m band travelled away from its domain costs 1 PP; returning restores none. The Oread recovers PP only within its domain. At 0 PP, its body petrifies and its Spirit returns home.\n\n**Gnome Transformation:** Spend a Combat Action and 9 PP to adopt a Medium Gnome shell under the shared rule. A Combat Action restores normal form.",
+      "sourceProfile": "src/content/rules/creatures/oread.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/oread.png"
+      }
+    },
+    {
+      "id": "creatures.passion-spirit",
+      "slug": "passion-spirit",
+      "title": "Passion Spirit",
+      "category": "spirit",
+      "summary": "A predatory embodiment of fear, madness, or pain; choose one passion when creating it.",
+      "imageAlt": "A violet fear spirit reaching through an empty stone passage.",
+      "poseBrief": "Spiraling around a swinging watchtower door as embodied fear.",
+      "tags": ["incorporeal", "spirit"],
+      "statistics": {
+        "characteristics": {
+          "int": 10,
+          "pow": 17,
+          "cha": 14,
+          "str": "—",
+          "con": "—",
+          "dex": "—",
+          "siz": "—"
+        },
+        "characteristicDice": { "int": "2D6+3", "pow": "3D6+6", "cha": "4D6" },
+        "derived": {
+          "hp": "—",
+          "mwl": "—",
+          "pp": 17,
+          "movement": "30 m",
+          "combatOrder": 10,
+          "ap": "—",
+          "dm": "—"
+        },
+        "skills": ["Dodge 40%", "Persistence 50%", "Lore (Spirit World) 60%", "Spirit Combat 55%"],
+        "attacks": ["Spectral Claw — Spirit Combat 55%, `1D6` PP"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "The host chooses shared actions except when Madness incapacitates it.\n\n**Fear Possession:** The host suffers `-1P` on attacks and Reactions.\n\n**Pain Possession:** The host suffers `-1P` on every skill test.\n\n**Madness Possession:** At each stressful scene's start, oppose the Spirit's Persistence with the host's Resilience. If the Spirit wins, the host is Incapacitated—no Actions or Reactions—for `1D6 × 10` minutes. A host win prevents another fit that scene.",
+      "sourceProfile": "src/content/rules/creatures/passion-spirit.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/passion-spirit.png"
+      }
+    },
+    {
+      "id": "creatures.pixie",
+      "slug": "pixie",
+      "title": "Pixie",
+      "category": "monster",
+      "summary": "A tiny, winged forest person known for curiosity, mischief, and subtle magic.",
+      "imageAlt": "A tiny winged pixie standing on a broad shelf mushroom.",
+      "poseBrief": "Standing upright after a light landing on a broad shelf mushroom, head, torso, hips, and feet aligned in one natural three-quarter direction; exactly four translucent wings attach symmetrically behind the shoulder blades with leading edges and tips extending outward, upward, and backward, while one open hand guides a subtle breeze around a luminous seed.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 4,
+          "con": 11,
+          "dex": 14,
+          "siz": 4,
+          "int": 11,
+          "pow": 13,
+          "cha": 11
+        },
+        "characteristicDice": {
+          "str": "2D3",
+          "con": "3D6",
+          "dex": "4D6",
+          "siz": "1D6",
+          "int": "3D6",
+          "pow": "2D6+6",
+          "cha": "3D6"
+        },
+        "derived": {
+          "hp": 8,
+          "mwl": 4,
+          "pp": 13,
+          "movement": "15 m ground, 30 m fly",
+          "combatOrder": 13,
+          "ap": 0,
+          "dm": "-1D6"
+        },
+        "skills": [
+          "Dodge 60%",
+          "Persistence 60%",
+          "Resilience 20%",
+          "Athletics 60%",
+          "Deception 60%",
+          "Perception 60%",
+          "Natural Lore 80%",
+          "Close Combat 10%",
+          "Ranged Combat 25%"
+        ],
+        "attacks": [
+          "Dagger — Close Combat 10%, `1D4+1 - 1D6`, Light",
+          "Sling — Ranged Combat 25%, `1D6`, 50 m"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "Magical Pixies may know cells such as Conjure·Mind, Bend·Air/Storm, or Bend·Paths; set Shaping to suit the individual.",
+      "sourceProfile": "src/content/rules/creatures/pixie.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/pixie.png"
+      }
+    },
+    {
+      "id": "creatures.raven",
+      "slug": "raven",
+      "title": "Raven",
+      "category": "animal",
+      "summary": "A quick and observant scavenging bird.",
+      "imageAlt": "A black raven perched on a mossy stone wall.",
+      "poseBrief": "Hopping sideways on a fence rail while snatching a beetle.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 2,
+          "con": 4,
+          "dex": 21,
+          "siz": 2,
+          "int": 5,
+          "pow": 7,
+          "cha": 4
+        },
+        "characteristicDice": {
+          "str": "1D3",
+          "con": "2D3",
+          "dex": "3D6+12",
+          "siz": "1D2",
+          "pow": "2D6"
+        },
+        "derived": {
+          "hp": 3,
+          "mwl": 2,
+          "pp": 7,
+          "movement": "15 m ground, 25 m fly",
+          "combatOrder": 13,
+          "ap": 0,
+          "dm": "-1D6"
+        },
+        "skills": ["Dodge 63%", "Persistence 21%", "Resilience 12%", "Unarmed Combat 35%"],
+        "attacks": [
+          "Claw — Unarmed Combat 35%, `1D6 - 1D6`, Light",
+          "Bite — Unarmed Combat 35%, `1D4 - 1D6`, Light"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/raven.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/raven.png"
+      }
+    },
+    {
+      "id": "creatures.rhinoceros",
+      "slug": "rhinoceros",
+      "title": "Rhinoceros",
+      "category": "animal",
+      "summary": "A thick-skinned herbivore whose charge can tear through a battle line.",
+      "imageAlt": "A two-horned rhinoceros standing on open scrubland.",
+      "poseBrief": "Braking and swinging its mass after a missed charge.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 26,
+          "con": 11,
+          "dex": 7,
+          "siz": 26,
+          "int": 3,
+          "pow": 11,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "2D6+21",
+          "con": "3D6",
+          "dex": "2D6",
+          "siz": "2D6+21",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 19,
+          "mwl": 10,
+          "pp": 11,
+          "movement": "23 m",
+          "combatOrder": 5,
+          "ap": "5 hide",
+          "dm": "+2D6"
+        },
+        "skills": ["Dodge 21%", "Persistence 33%", "Resilience 33%", "Unarmed Combat 50%"],
+        "attacks": [
+          "Bite — Unarmed Combat 50%, `1D6 + 2D6`, Heavy",
+          "Gore — Unarmed Combat 50%, `1D8 + 2D6`, Heavy",
+          "Trample — Unarmed Combat 50%, `1D12 + 2D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Horn Charge:** Use Gore for a normal Charge attack and add the Charge's `+1D6` damage.",
+      "sourceProfile": "src/content/rules/creatures/rhinoceros.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/rhinoceros.png"
+      }
+    },
+    {
+      "id": "creatures.sea-serpent",
+      "slug": "sea-serpent",
+      "title": "Sea Serpent",
+      "category": "monster",
+      "summary": "An enormous aquatic serpent that drags prey to caverns beneath the sea.",
+      "imageAlt": "A huge finned sea serpent swimming near an underwater cavern.",
+      "poseBrief": "Turning slowly around a sea stack, body split above and below water.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 58,
+          "con": 35,
+          "dex": 7,
+          "siz": 36,
+          "int": 3,
+          "pow": 21,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "8D6+30",
+          "con": "4D6+21",
+          "dex": "2D6",
+          "siz": "6D6+15",
+          "pow": "6D6"
+        },
+        "derived": {
+          "hp": 36,
+          "mwl": 18,
+          "pp": 21,
+          "movement": "23 m swim, 0 m land",
+          "combatOrder": 5,
+          "ap": "5 scales",
+          "dm": "+5D6"
+        },
+        "skills": [
+          "Dodge 40%",
+          "Persistence 40%",
+          "Resilience 80%",
+          "Athletics 60%",
+          "Deception 25%",
+          "Unarmed Combat 60%"
+        ],
+        "attacks": ["Bite — Unarmed Combat 60%, `1D6 + 5D6`, Heavy"],
+        "talents": "None",
+        "plunder": 3
+      },
+      "rulesAndAbilitiesMarkdown": "**Aquatic:** Breathes water and cannot move under its own power on land.",
+      "sourceProfile": "src/content/rules/creatures/sea-serpent.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/sea-serpent.png"
+      }
+    },
+    {
+      "id": "creatures.skeleton",
+      "slug": "skeleton",
+      "title": "Skeleton",
+      "category": "undead",
+      "summary": "Animated bones following simple commands.",
+      "imageAlt": "An animated skeleton carrying an arming sword and round wooden shield.",
+      "poseBrief": "Descending a broken staircase backward on hands and feet.",
+      "tags": ["corporeal", "undead", "soulless", "mindless"],
+      "statistics": {
+        "characteristics": {
+          "str": 13,
+          "con": 4,
+          "dex": 11,
+          "siz": 11,
+          "int": 0,
+          "pow": 0,
+          "cha": 0
+        },
+        "characteristicDice": { "str": "2D6+6", "con": "1D6", "dex": "3D6", "siz": "3D6" },
+        "derived": {
+          "hp": 8,
+          "mwl": 4,
+          "pp": 0,
+          "movement": "15 m",
+          "combatOrder": 3,
+          "ap": "2 leather",
+          "dm": "+0"
+        },
+        "skills": ["Close Combat 35%", "Dodge 10%", "Persistence 100%", "Resilience 100%"],
+        "attacks": [
+          "Arming Sword — Close Combat 35%, `1D8 + 0`, Medium",
+          "Medium Shield — Close Combat 35%, `1D6 + 0`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Pierce Resistance:** After Parry and AP, halve damage from piercing weapons.",
+      "sourceProfile": "src/content/rules/creatures/skeleton.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/skeleton.png"
+      }
+    },
+    {
+      "id": "creatures.troll",
+      "slug": "troll",
+      "title": "Troll",
+      "category": "monster",
+      "summary": "A large, solitary predator whose body repairs wounds with terrifying speed.",
+      "imageAlt": "A long-armed troll carrying a wooden club in a rocky ravine.",
+      "poseBrief": "Crawling awkwardly beneath a fallen trunk while a wound closes.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 26,
+          "con": 20,
+          "dex": 7,
+          "siz": 26,
+          "int": 6,
+          "pow": 11,
+          "cha": 7
+        },
+        "characteristicDice": {
+          "str": "4D6+12",
+          "con": "3D6+9",
+          "dex": "2D6",
+          "siz": "4D6+12",
+          "int": "1D6+3",
+          "pow": "3D6",
+          "cha": "2D6"
+        },
+        "derived": {
+          "hp": 23,
+          "mwl": 12,
+          "pp": 11,
+          "movement": "23 m",
+          "combatOrder": 7,
+          "ap": "3 hide",
+          "dm": "+2D6"
+        },
+        "skills": [
+          "Dodge 25%",
+          "Persistence 25%",
+          "Resilience 60%",
+          "Athletics 20%",
+          "Deception 20%",
+          "Perception 20%",
+          "Natural Lore 40%",
+          "Close Combat 40%",
+          "Unarmed Combat 40%"
+        ],
+        "attacks": [
+          "Club — Close Combat 40%, `1D6 + 2D6`, Light",
+          "Claw — Unarmed Combat 40%, `1D6 + 2D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Regeneration:** At the start of its turn, even at 0 HP, recover `1D6` HP unless it has taken fire damage since the start of its previous turn. This bypasses Wounded's recovery lock and removes Bleeding and Dying; Wounded remains. If HP rises above 0, the Troll wakes and may act that turn.\n\n**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.",
+      "sourceProfile": "src/content/rules/creatures/troll.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/troll.png"
+      }
+    },
+    {
+      "id": "creatures.vampire",
+      "slug": "vampire",
+      "title": "Vampire",
+      "category": "undead",
+      "summary": "An intelligent undead predator sustained by stolen blood and life force.",
+      "imageAlt": "A pale armored vampire carrying a sword and round shield in a stone hall.",
+      "poseBrief": "Turning its lower body to mist while levering a locked inn latch.",
+      "tags": ["corporeal", "undead", "soulless"],
+      "statistics": {
+        "characteristics": {
+          "str": 23,
+          "con": 23,
+          "dex": 11,
+          "siz": 13,
+          "int": 13,
+          "pow": 0,
+          "cha": 11
+        },
+        "characteristicDice": {
+          "str": "3D6+12",
+          "con": "3D6+12",
+          "dex": "3D6",
+          "siz": "2D6+6",
+          "int": "2D6+6",
+          "cha": "3D6"
+        },
+        "derived": {
+          "hp": 18,
+          "mwl": 9,
+          "pp": 0,
+          "movement": "15 m",
+          "combatOrder": "5 in chainmail or 3 in platemail",
+          "ap": "5/6",
+          "dm": "+1D6"
+        },
+        "skills": [
+          "Close Combat 50%",
+          "Unarmed Combat 60%",
+          "Dodge 40%",
+          "Persistence 80%",
+          "Resilience 80%",
+          "Culture (Local) 80%",
+          "Athletics 50%",
+          "Deception 80%",
+          "Perception 80%"
+        ],
+        "attacks": [
+          "Arming Sword — Close Combat 50%, `1D8 + 1D6`, Medium",
+          "Medium Shield — Close Combat 50%, `1D6 + 1D6`, Heavy",
+          "Bite — Unarmed Combat 60%, `1D6 + 1D6`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 4
+      },
+      "rulesAndAbilitiesMarkdown": "**Senses:** Night Vision; Blind Sight (living beings), blocked by walls and complete solid cover.\n\n**Blood Reserve:** Maximum 18, current 0. Use current Reserve as PP and maximum Reserve instead of POW for the active Shaping limit. It pays costs, Counter, rituals, and commitments, but never recovers naturally; 0 does not incapacitate the Vampire. It also recovers no HP naturally.\n\n**Clinging Bite:** If Bite deals HP damage, establish a grapple with that target without another Action or test.\n\n**Drain:** While grappling a Living target, spend a Combat Action and roll `1D6`. If the target began above 0 PP, drain actual PP up to its current PP; only if it began at 0 PP, drain HP instead. Drain ignores AP and never spills from PP to HP. Allocate the actual amount between Vampire HP and Blood Reserve within their maxima; excess is lost.\n\n**Mist Form:** Spend a Combat Action to become mist with carried nonliving equipment. It is immune to mundane physical attacks and can only use its Movement Action or a Combat Action to reform. Magic and sunlight work normally.\n\n**Death Mist:** At 0 HP, the Vampire is disabled until the start of its next turn, then enters Mist Form at 1 HP. Before then, an adjacent creature can spend a full round to stake and decapitate it, destroying it permanently.\n\n**Sunlight:** Direct natural sunlight deals 2 HP at each round's end, ignoring AP; complete opaque covering prevents exposure.\n\n**Holy Aversion:** Choose a sacred symbol. Presenting it within sight spends a Combat Action and opposes the bearer's Persistence with the Vampire's Resilience. If the bearer wins, the Vampire loses `1D4` HP ignoring AP and cannot attack the bearer until the bearer's next turn while the symbol remains visible.\n\nIndividual Vampires may learn Shaping cells and pay for them from Blood Reserve.",
+      "sourceProfile": "src/content/rules/creatures/vampire.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/vampire.png"
+      }
+    },
+    {
+      "id": "creatures.viper",
+      "slug": "viper",
+      "title": "Viper",
+      "category": "animal",
+      "summary": "A fast venomous snake whose bite can bring down much larger prey.",
+      "imageAlt": "A patterned viper resting in a compact coil on a rock.",
+      "poseBrief": "Flowing through a grounded S-turn between sunlit stones.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 13,
+          "con": 6,
+          "dex": 27,
+          "siz": 7,
+          "int": 3,
+          "pow": 13,
+          "cha": 3
+        },
+        "characteristicDice": {
+          "str": "2D6+6",
+          "con": "2D6",
+          "dex": "3D6+18",
+          "siz": "2D6",
+          "pow": "2D6+6"
+        },
+        "derived": {
+          "hp": 7,
+          "mwl": 4,
+          "pp": 13,
+          "movement": "30 m",
+          "combatOrder": 15,
+          "ap": "1 scales",
+          "dm": "+0"
+        },
+        "skills": ["Dodge 81%", "Persistence 39%", "Resilience 18%", "Unarmed Combat 60%"],
+        "attacks": ["Bite — Unarmed Combat 60%, `1D6 + 0`, Medium"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Viper Venom:** A Bite dealing HP damage exposes the target. **Type:** Injected. **Delay:** 1 round. **Potency:** 48. **Effect:** `-3 CON` for the Duration and `1D4` HP at each minute's end; CON 0 causes death. **Duration:** `6D10` minutes.",
+      "sourceProfile": "src/content/rules/creatures/viper.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/viper.png"
+      }
+    },
+    {
+      "id": "creatures.werewolf",
+      "slug": "werewolf",
+      "title": "Werewolf",
+      "category": "monster",
+      "summary": "A person who can become a giant wolf willingly—or involuntarily beneath the full moon.",
+      "imageAlt": "A werewolf in giant-wolf form standing beside a discarded cloak.",
+      "poseBrief": "Twisting low mid-transformation while pulling at an ankle chain.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": "11/22",
+          "con": 11,
+          "dex": 11,
+          "siz": 13,
+          "int": "13/6",
+          "pow": 11,
+          "cha": "11, human/wolf"
+        },
+        "characteristicDice": {
+          "str": "3D6/6D6",
+          "con": "3D6",
+          "dex": "3D6",
+          "siz": "2D6+6",
+          "int": "2D6+6/1D6+3",
+          "pow": "3D6",
+          "cha": "3D6"
+        },
+        "derived": {
+          "hp": 12,
+          "mwl": 6,
+          "pp": 11,
+          "movement": "15/30 m",
+          "combatOrder": "12/9",
+          "ap": "0/1",
+          "dm": "+0/+1D6, human/wolf"
+        },
+        "skills": [
+          "Dodge 60%",
+          "Persistence 60%",
+          "Resilience 60%",
+          "Athletics 60%",
+          "Deception 60%",
+          "Perception 60%",
+          "Natural Lore 80%",
+          "human Close Combat 35%",
+          "human Ranged Combat 25%",
+          "wolf Unarmed Combat 60%"
+        ],
+        "attacks": [
+          "Human Arming Sword — Close Combat 35%, `1D8 + 0`, Medium",
+          "Human Shortbow — Ranged Combat 25%, `1D8`, 75 m",
+          "Wolf Bite — Unarmed Combat 60%, `1D8 + 1D6`, Medium",
+          "Wolf Claw — Unarmed Combat 60%, `1D6 + 1D6`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "**Shapeshift:** Spend a Combat Action on two consecutive turns; transformation completes after the second. A full moon forces wolf form.\n\n**Night Vision:** In either form, natural surface night counts as Illuminated. It does not overcome sealed, underground, or supernatural darkness or obscurity.\n\n**Wolf Immunity:** In wolf form, mundane attacks deal no damage unless silver, fire, or magical; a qualifying source deals normal damage. Poison, suffocation, and drowning still work. Mystics favour Alter·Flesh, Scry·Flesh, or Earth/Stone cells.",
+      "sourceProfile": "src/content/rules/creatures/werewolf.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/werewolf.png"
+      }
+    },
+    {
+      "id": "creatures.wolf",
+      "slug": "wolf",
+      "title": "Wolf",
+      "category": "animal",
+      "summary": "A swift pack predator armed with powerful jaws and claws.",
+      "imageAlt": "A grey wolf standing alert in a forest clearing.",
+      "poseBrief": "Pausing mid-trot in snow to listen toward an off-frame pack.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 11,
+          "con": 14,
+          "dex": 13,
+          "siz": 10,
+          "int": 5,
+          "pow": 11,
+          "cha": 5
+        },
+        "characteristicDice": {
+          "str": "3D6",
+          "con": "3D6+3",
+          "dex": "3D6+3",
+          "siz": "2D6+3",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 12,
+          "mwl": 6,
+          "pp": 11,
+          "movement": "23 m",
+          "combatOrder": 9,
+          "ap": 0,
+          "dm": "+0"
+        },
+        "skills": ["Dodge 39%", "Persistence 33%", "Resilience 42%", "Unarmed Combat 50%"],
+        "attacks": [
+          "Bite — Unarmed Combat 50%, `1D8 + 0`, Medium",
+          "Claw — Unarmed Combat 50%, `1D6 + 0`, Medium"
+        ],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/wolf.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wolf.png"
+      }
+    },
+    {
+      "id": "creatures.wyvern",
+      "slug": "wyvern",
+      "title": "Wyvern",
+      "category": "monster",
+      "summary": "A lean, two-legged draconic predator armed with jaws, claws, and a venomous tail.",
+      "imageAlt": "A two-legged winged wyvern standing on a rocky mountain shelf.",
+      "poseBrief": "Climbing an escarpment with two hind legs and wing-wrists.",
+      "tags": ["living", "corporeal"],
+      "statistics": {
+        "characteristics": {
+          "str": 26,
+          "con": 19,
+          "dex": 13,
+          "siz": 26,
+          "int": 7,
+          "pow": 11,
+          "cha": 6
+        },
+        "characteristicDice": {
+          "str": "4D6+12",
+          "con": "2D6+12",
+          "dex": "2D6+6",
+          "siz": "4D6+12",
+          "pow": "3D6"
+        },
+        "derived": {
+          "hp": 23,
+          "mwl": 12,
+          "pp": 11,
+          "movement": "23 m ground, 30 m fly",
+          "combatOrder": 10,
+          "ap": "5 scales",
+          "dm": "+2D6"
+        },
+        "skills": [
+          "Dodge 50%",
+          "Persistence 35%",
+          "Resilience 50%",
+          "Athletics 50%",
+          "Deception 10%",
+          "Perception 60%",
+          "Unarmed Combat 60%"
+        ],
+        "attacks": [
+          "Bite — Unarmed Combat 60%, `1D10 + 2D6`, Heavy",
+          "Claw — Unarmed Combat 60%, `1D6 + 2D6`, Heavy",
+          "Sting — Unarmed Combat 60%, `1D6 + 2D6`, Heavy"
+        ],
+        "talents": "None",
+        "plunder": 1
+      },
+      "rulesAndAbilitiesMarkdown": "**Bite/Claw/Sting 3 (Multiattack):** Make all three attacks; Bite is normal, while Claw and Sting each suffer `-1P` under Multiattack.\n\n**Wyvern Venom:** **Type:** Injected. **Delay:** `1D2` rounds. **Potency:** 60. **Effect:** `1D6` HP and `-4 CON`. **Duration:** `6D10` minutes.",
+      "sourceProfile": "src/content/rules/creatures/wyvern.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wyvern.png"
+      }
+    },
+    {
+      "id": "creatures.zombie",
+      "slug": "zombie",
+      "title": "Zombie",
+      "category": "undead",
+      "summary": "A rotting corpse animated to obey simple commands or attack the living.",
+      "imageAlt": "A grey-green zombie standing slackly on an abandoned farm lane.",
+      "poseBrief": "Crawling belly-down up a loose grain slope without coordination.",
+      "tags": ["corporeal", "undead", "soulless", "mindless"],
+      "statistics": {
+        "characteristics": {
+          "str": 23,
+          "con": 4,
+          "dex": 7,
+          "siz": 10,
+          "int": 0,
+          "pow": 0,
+          "cha": 2
+        },
+        "characteristicDice": {
+          "str": "3D6+12",
+          "con": "1D6",
+          "dex": "1D6+3",
+          "siz": "3D6",
+          "int": "1D3",
+          "cha": "1D3"
+        },
+        "derived": {
+          "hp": 7,
+          "mwl": 4,
+          "pp": 0,
+          "movement": "7 m",
+          "combatOrder": 4,
+          "ap": 0,
+          "dm": "+1D6"
+        },
+        "skills": ["Unarmed Combat 50%", "Dodge 0%", "Persistence 100%", "Resilience 100%"],
+        "attacks": ["Fist — Unarmed Combat 50%, `1D3 + 1D6`, Light"],
+        "talents": "None",
+        "plunder": 0
+      },
+      "rulesAndAbilitiesMarkdown": "No additional rules or abilities beyond the listed statistics, skills, attacks, talents, and tags.",
+      "sourceProfile": "src/content/rules/creatures/zombie.md",
+      "styleImages": {
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/zombie.png"
+      }
+    }
+  ]
+}

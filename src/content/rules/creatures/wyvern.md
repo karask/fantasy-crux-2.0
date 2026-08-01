@@ -45,9 +45,9 @@ skills:
   - 'Perception 60%'
   - 'Unarmed Combat 60%'
 attacks:
-  - 'Bite — Unarmed Combat 60%, `1D10 + DM`, Heavy'
-  - 'Claw — Unarmed Combat 60%, `1D6 + DM`, Heavy'
-  - 'Sting — Unarmed Combat 60%, `1D6 + DM`, Heavy'
+  - 'Bite — Unarmed Combat 60%, `1D10 + 2D6`, Heavy'
+  - 'Claw — Unarmed Combat 60%, `1D6 + 2D6`, Heavy'
+  - 'Sting — Unarmed Combat 60%, `1D6 + 2D6`, Heavy'
 attackNotes:
   - 'a damaging Sting injects venom'
 talents: 'None'

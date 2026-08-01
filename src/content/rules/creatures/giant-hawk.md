@@ -42,7 +42,7 @@ skills:
   - 'Resilience 99%'
   - 'Unarmed Combat 80%'
 attacks:
-  - 'Claw — Unarmed Combat 80%, `1D8 + DM`, Heavy'
-  - 'Bite — Unarmed Combat 80%, `1D6 + DM`, Heavy'
+  - 'Claw — Unarmed Combat 80%, `1D8 + 4D6`, Heavy'
+  - 'Bite — Unarmed Combat 80%, `1D6 + 4D6`, Heavy'
 talents: 'None'
 ---

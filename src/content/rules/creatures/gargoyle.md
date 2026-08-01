@@ -48,7 +48,7 @@ skills:
   - 'Natural Lore 40%'
   - 'Unarmed Combat 50%'
 attacks:
-  - 'Claw — Unarmed Combat 50%, `1D6 + DM`, Medium'
+  - 'Claw — Unarmed Combat 50%, `1D6 + 2D6`, Medium'
 talents: 'None'
 ---
 

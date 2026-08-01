@@ -42,8 +42,8 @@ skills:
   - 'Resilience 42%'
   - 'Unarmed Combat 50%'
 attacks:
-  - 'Bite — Unarmed Combat 50%, `1D8 + DM`, Huge'
-  - 'Arm — Unarmed Combat 50%, `1D4 + DM`, Huge'
+  - 'Bite — Unarmed Combat 50%, `1D8 + 4D6`, Huge'
+  - 'Arm — Unarmed Combat 50%, `1D4 + 4D6`, Huge'
 talents: 'None'
 ---
 

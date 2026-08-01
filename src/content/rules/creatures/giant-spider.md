@@ -42,7 +42,7 @@ skills:
   - 'Resilience 51%'
   - 'Unarmed Combat 50%'
 attacks:
-  - 'Bite — Unarmed Combat 50%, `1D6 + DM`, Heavy'
+  - 'Bite — Unarmed Combat 50%, `1D6 + 1D6`, Heavy'
   - 'Web — Unarmed Combat 50%, no damage, Heavy, 15 m'
 talents: 'None'
 ---

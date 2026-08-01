@@ -5,31 +5,24 @@ bodyClass: home-page
 ---
 <div class="home-surface">
   <section class="home-hero" aria-labelledby="home-title">
-    <div class="hero-copy">
-      <p class="eyebrow">Cold Iron Edition · Complete playtest rules</p>
-      <h1 id="home-title"><span>Fantasy</span> Crux <em>2.0</em></h1>
-      <p class="hero-deck">Hard choices. Fast rulings. Just enough steel between a hero and the dark.</p>
-      <div class="hero-actions">
-        <a class="button button--primary" href="/rules/start-here/">Enter the rules <span aria-hidden="true">→</span></a>
-      </div>
-    </div>
-    <aside class="hero-principles" aria-label="Design principles">
-      <p class="stamp">Built for play</p>
-      <dl>
-        <div><dt>D100</dt><dd>One core roll</dd></div>
-        <div><dt>1 + 1 + 1</dt><dd>Action · Move · Reaction</dd></div>
-        <div><dt>100%</dt><dd>Absolute skill ceiling</dd></div>
-        <div><dt>6 × 8</dt><dd>Technique · Form</dd></div>
-      </dl>
-    </aside>
-  </section>
-
-  <section class="home-start" aria-labelledby="home-start-title">
-    <div>
-      <p class="eyebrow">A three-minute orientation</p>
-      <h2 id="home-start-title">Roll under. Read the situation. Live with the consequence.</h2>
-    </div>
-    <p>Fantasy Crux 2.0 keeps combat grounded and consequences real, while moving specialist techniques into Talents. The basic rules stay lean; Talents and Shaping decide where complexity belongs.</p>
+    <picture class="home-hero-picture">
+      <img
+        class="home-hero-art"
+        src="/assets/images/home/index-tower-hero.webp"
+        srcset="/assets/images/home/index-tower-hero-960.webp 960w, /assets/images/home/index-tower-hero.webp 1672w"
+        sizes="(max-width: 720px) 100vw, calc(100vw - 220px)"
+        width="1672"
+        height="941"
+        alt="Four adventurers cross a rain-soaked marsh toward a lonely candlelit tower at sunset while a creature lurks behind a dead tree."
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      >
+    </picture>
+    <header class="home-hero-caption">
+      <p class="eyebrow">Fantasy Crux 2.0 · Complete playtest rules</p>
+      <h1 id="home-title">Roll under. Read the situation. Live with the consequence.</h1>
+    </header>
   </section>
 
   <section class="chapter-directory" aria-labelledby="directory-title">

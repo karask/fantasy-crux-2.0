@@ -42,9 +42,9 @@ skills:
   - 'Resilience 33%'
   - 'Unarmed Combat 50%'
 attacks:
-  - 'Bite — Unarmed Combat 50%, `1D6 + DM`, Heavy'
-  - 'Gore — Unarmed Combat 50%, `1D8 + DM`, Heavy'
-  - 'Trample — Unarmed Combat 50%, `1D12 + DM`, Heavy'
+  - 'Bite — Unarmed Combat 50%, `1D6 + 2D6`, Heavy'
+  - 'Gore — Unarmed Combat 50%, `1D8 + 2D6`, Heavy'
+  - 'Trample — Unarmed Combat 50%, `1D12 + 2D6`, Heavy'
 talents: 'None'
 ---
 

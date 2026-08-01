@@ -45,6 +45,6 @@ skills:
   - 'Persistence 100%'
   - 'Resilience 100%'
 attacks:
-  - 'Fist — Unarmed Combat 50%, `1D3 + DM`, Light'
+  - 'Fist — Unarmed Combat 50%, `1D3 + 1D6`, Light'
 talents: 'None'
 ---

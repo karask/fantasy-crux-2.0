@@ -9,10 +9,17 @@ async function expectNoHorizontalOverflow(page) {
   expect(dimensions.scroll).toBeLessThanOrEqual(dimensions.client + 1);
 }
 
-test('home and primary rules navigation work at the target width', async ({ page }) => {
+test('home and primary rules navigation work at the target width', async ({ page }, testInfo) => {
   await page.goto('/');
-  await expect(page.locator('h1')).toContainText('Fantasy Crux 2.0');
-  await expect(page.getByRole('link', { name: /Enter the rules/i })).toBeVisible();
+  await expect(page.locator('h1')).toHaveText(
+    'Roll under. Read the situation. Live with the consequence.',
+  );
+  const heroArtwork = page.locator('.home-hero-art');
+  await expect(heroArtwork).toBeVisible();
+  await expect(heroArtwork).toHaveAttribute('src', '/assets/images/home/index-tower-hero.webp');
+  await expect(heroArtwork).toHaveAttribute('alt', /four adventurers.+tower.+sunset/i);
+  await expect(page.locator('.home-hero + .chapter-directory')).toBeVisible();
+  await expect(page.locator('.hero-copy, .hero-principles, .home-start')).toHaveCount(0);
   await expect(page.locator('.chapter-directory li')).toHaveCount(10);
   await expect(page.locator('.chapter-nav a').nth(0)).toContainText('00');
   await expect(page.locator('.chapter-nav a').nth(4)).toContainText('04');
@@ -47,6 +54,177 @@ test('home and primary rules navigation work at the target width', async ({ page
     0,
   );
   await expect(page.getByLabel('Search the rules')).toBeInViewport();
+
+  if (testInfo.project.name === 'desktop-1440') {
+    const centers = await page.evaluate(() => {
+      const search = document.querySelector('.header-search').getBoundingClientRect();
+      const body = document.querySelector('.main-stage').getBoundingClientRect();
+      return {
+        search: search.left + search.width / 2,
+        body: body.left + body.width / 2,
+      };
+    });
+    expect(centers.search).toBeCloseTo(centers.body, 0);
+  }
+});
+
+test('the site uses Vivid Ink artwork without an art-style selector', async ({ page }) => {
+  await page.goto('/');
+  await expect(page.getByLabel('Art style')).toHaveCount(0);
+  await expect(page.locator('.home-hero-art')).toHaveAttribute(
+    'src',
+    '/assets/images/home/index-tower-hero.webp',
+  );
+  await page.goto('/rules/creatures/');
+  const firstCreature = page.locator('.creature-portrait img').first();
+  await expect(firstCreature).toHaveAttribute('src', /\/assets\/images\/creatures\/.+\.webp/);
+  await expect(firstCreature).toHaveAttribute(
+    'srcset',
+    /\/assets\/images\/creatures\/.+-320\.webp 320w/,
+  );
+  await expectNoHorizontalOverflow(page);
+});
+
+test('chapter artwork is immersed beside its related rule in Vivid Ink', async ({
+  page,
+}, testInfo) => {
+  const placements = [
+    {
+      chapter: 'start-here',
+      subject: 'medieval-village',
+      alt: /small lived-in medieval village/i,
+      heading: '#d100-percentile--dice-notation',
+      layout: 'cloud-vignette',
+      side: 'left',
+    },
+    {
+      chapter: 'characters',
+      subject: 'female-warrior-cutout',
+      alt: /alert medieval woman warrior/i,
+      heading: '#character-creation--characters-concept',
+      layout: 'cutout',
+      side: 'right',
+    },
+    {
+      chapter: 'adventuring',
+      subject: 'bridge-hill-fort',
+      alt: /rain-wet stone bridge.+ruined hill-fort/i,
+      heading: '#travel--adventuring-daily-travel',
+      layout: 'mist-panorama',
+    },
+    {
+      chapter: 'gm-tools',
+      subject: 'storm-sea-watchtower',
+      alt: /solitary stone watchtower.+stormy moonlit sea/i,
+      heading: '#ships-and-sailing--gm-sea-travel',
+      layout: 'storm-cloud',
+    },
+    {
+      chapter: 'skills',
+      subject: 'athletics-chasm-leap',
+      alt: /scout leaps across a misty chasm/i,
+      heading: '#practical-skills--skills-athletics',
+      layout: 'action-panorama',
+    },
+    {
+      chapter: 'equipment',
+      subject: 'armour-field-sketch',
+      alt: /armourer.s field sketch compares leather, ringmail, scalemail, chainmail, and plate/i,
+      heading: '#armour--equipment-armour-fit',
+      layout: 'folio-panorama',
+    },
+    {
+      chapter: 'magic',
+      subject: 'ritual-company',
+      alt: /four adventurers perform a careful moonlit ritual/i,
+      heading: '#rituals-and-examples--magic-rituals',
+      layout: 'night-oval',
+    },
+    {
+      route: '/license/',
+      subject: 'shared-rules-codex',
+      alt: /two scribes pass an open rules codex/i,
+      heading: '#license-terms',
+      layout: 'folio-panorama',
+    },
+  ];
+
+  for (const placement of placements) {
+    await page.goto(placement.route ?? `/rules/${placement.chapter}/`);
+    const figure = page.locator(`.chapter-art--${placement.layout}`, {
+      has: page.locator(`img[src="/assets/images/chapter-art/${placement.subject}.webp"]`),
+    });
+    const image = figure.locator('img');
+    await expect(image).toHaveCount(1);
+    await expect(image).toBeVisible();
+    await expect(page.locator('.chapter-heading + .chapter-art')).toHaveCount(0);
+    await expect(page.locator('.chapter-tabs + .chapter-art')).toHaveCount(0);
+    await expect(figure.locator('figcaption')).toHaveCount(0);
+    await expect(figure).toHaveClass(
+      new RegExp(
+        `chapter-art--${placement.layout}${
+          placement.side ? `.*chapter-art--${placement.side}` : ''
+        }`,
+      ),
+    );
+    await expect(page.locator(placement.heading)).toBeVisible();
+    expect(
+      await page
+        .locator(placement.heading)
+        .evaluate(
+          (heading, figureClass) =>
+            heading.nextElementSibling?.classList.contains(figureClass) ?? false,
+          'chapter-art',
+        ),
+    ).toBe(true);
+    await expect(image).toHaveAttribute(
+      'src',
+      `/assets/images/chapter-art/${placement.subject}.webp`,
+    );
+    await expect(image).toHaveAttribute('alt', placement.alt);
+    await expect(image).toHaveAttribute('loading', 'lazy');
+
+    const visualStyle = await figure.evaluate((element) => {
+      const computed = getComputedStyle(element);
+      const bounds = element.getBoundingClientRect();
+      const parent = element.parentElement;
+      const parentComputed = getComputedStyle(parent);
+      const parentContentWidth =
+        parent.clientWidth -
+        Number.parseFloat(parentComputed.paddingLeft) -
+        Number.parseFloat(parentComputed.paddingRight);
+      return {
+        float: computed.float,
+        mask: computed.maskImage || computed.webkitMaskImage,
+        shapeOutside: computed.shapeOutside,
+        width: bounds.width,
+        parentContentWidth,
+      };
+    });
+    expect(visualStyle.mask).toBe('none');
+    if (placement.layout === 'cutout') {
+      if (testInfo.project.name === 'desktop-1440') {
+        expect(visualStyle.shapeOutside).toContain('female-warrior-cutout.webp');
+      } else {
+        expect(visualStyle.shapeOutside).toBe('none');
+      }
+    }
+
+    if (testInfo.project.name === 'desktop-1440') {
+      if (placement.side) {
+        expect(visualStyle.float).toBe(placement.side);
+        expect(visualStyle.width).toBeLessThan(visualStyle.parentContentWidth * 0.5);
+      } else {
+        expect(visualStyle.float).toBe('none');
+        expect(visualStyle.width).toBeGreaterThan(visualStyle.parentContentWidth);
+      }
+    } else {
+      expect(visualStyle.float).toBe('none');
+      expect(visualStyle.width).toBeLessThanOrEqual(visualStyle.parentContentWidth + 1);
+    }
+
+    await expectNoHorizontalOverflow(page);
+  }
 });
 
 test('every rules chapter links to each of its sections below the chapter heading', async ({

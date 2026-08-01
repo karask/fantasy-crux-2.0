@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640">
+  <filter id="soft-edge" x="-8%" y="-14%" width="116%" height="128%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+  <g fill="#fff" filter="url(#soft-edge)">
+    <ellipse cx="177" cy="350" rx="142" ry="180"/>
+    <ellipse cx="350" cy="292" rx="208" ry="218"/>
+    <ellipse cx="570" cy="325" rx="256" ry="228"/>
+    <ellipse cx="787" cy="286" rx="147" ry="180"/>
+    <ellipse cx="830" cy="411" rx="112" ry="118"/>
+    <ellipse cx="480" cy="455" rx="348" ry="115"/>
+  </g>
+</svg>

@@ -36,7 +36,7 @@ skills:
   - 'Resilience 100%'
   - 'Unarmed Combat 80%'
 attacks:
-  - 'Fist or Kick — Unarmed Combat 80%, `1D10 + DM`, Light'
+  - 'Fist or Kick — Unarmed Combat 80%, `1D10 + 2D6`, Light'
 talents: 'Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I'
 ---
 

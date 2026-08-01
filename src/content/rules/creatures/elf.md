@@ -50,7 +50,7 @@ skills:
   - 'Close Combat 60%'
   - 'Ranged Combat 80%'
 attacks:
-  - 'Shortspear — Close Combat 60%, `1D6 + DM`, Medium'
+  - 'Shortspear — Close Combat 60%, `1D6 + 0`, Medium'
   - 'Longbow — Ranged Combat 80%, `1D10`, 150 m'
 talents: 'None'
 ---

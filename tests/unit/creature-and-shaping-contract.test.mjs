@@ -233,6 +233,26 @@ describe('published creature compendium', () => {
     }
   });
 
+  it('spells out each creature damage modifier in its attack damage', () => {
+    expect(creatureText).not.toMatch(/\+\s*DM\b/);
+
+    for (const { data } of publishedCreatures) {
+      expect((data.attacks ?? []).join('\n'), `${data.title}: attacks`).not.toMatch(/\bDM\b/);
+    }
+
+    expect(creatureRecord('Mummy').data.attacks.some((attack) => attack.includes('`2D8 + 1D6`'))).toBe(
+      true,
+    );
+    expect(
+      creatureRecord('Basilisk').data.attacks.some((attack) =>
+        attack.includes('`1D6 - 1D6`'),
+      ),
+    ).toBe(true);
+    expect(creatureRecord('Dwarf').data.attacks.some((attack) => attack.includes('`1D8 + 0`'))).toBe(
+      true,
+    );
+  });
+
   // The approved Plunder Ratings, converted from the LaTeX creature chapter. Everything that
   // chapter left unrated is an animal, the Elemental, or a spirit, and the chapter states
   // outright that animals carry no treasure by design.

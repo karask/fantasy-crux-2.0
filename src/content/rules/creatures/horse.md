@@ -42,6 +42,6 @@ skills:
   - 'Resilience 51%'
   - 'Unarmed Combat 40%'
 attacks:
-  - 'Kick — Unarmed Combat 40%, `1D6 + DM`, Light'
+  - 'Kick — Unarmed Combat 40%, `1D6 + 2D6`, Light'
 talents: 'None'
 ---

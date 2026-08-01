@@ -46,8 +46,8 @@ skills:
   - 'Natural Lore 60%'
   - 'Unarmed Combat 70%'
 attacks:
-  - 'Bite — Unarmed Combat 70%, `1D8 + DM`, Heavy'
-  - 'Claw — Unarmed Combat 70%, `1D6 + DM`, Heavy'
+  - 'Bite — Unarmed Combat 70%, `1D8 + 2D6`, Heavy'
+  - 'Claw — Unarmed Combat 70%, `1D6 + 2D6`, Heavy'
 talents: 'None'
 ---
 

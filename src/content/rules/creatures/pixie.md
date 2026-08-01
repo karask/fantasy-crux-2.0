@@ -49,7 +49,7 @@ skills:
   - 'Close Combat 10%'
   - 'Ranged Combat 25%'
 attacks:
-  - 'Dagger — Close Combat 10%, `1D4+1 + DM`, Light'
+  - 'Dagger — Close Combat 10%, `1D4+1 - 1D6`, Light'
   - 'Sling — Ranged Combat 25%, `1D6`, 50 m'
 talents: 'None'
 ---

@@ -1,6 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
+{% set pageArtItems = site.chapterArt[artKey] or [] %}
+{% set renderedPage = content %}
+{% for chapterArt in pageArtItems %}
+  {% set chapterArtMarkup %}{% include "partials/chapter-art.njk" %}{% endset %}
+  {% set renderedPage = renderedPage | placeAfterHeading(chapterArt.pageTarget, chapterArtMarkup) %}
+{% endfor %}
 <div class="page-surface page-surface--wide">
-  {{ content | safe }}
+  {{ renderedPage | safe }}
 </div>

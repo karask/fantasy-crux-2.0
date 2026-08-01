@@ -44,7 +44,7 @@ skills:
   - 'Deception 25%'
   - 'Unarmed Combat 60%'
 attacks:
-  - 'Bite — Unarmed Combat 60%, `1D6 + DM`, Heavy'
+  - 'Bite — Unarmed Combat 60%, `1D6 + 5D6`, Heavy'
 talents: 'None'
 ---
 

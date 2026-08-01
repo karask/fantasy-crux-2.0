@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "set": "Fantasy Crux homepage hero — cross-style Drowned Causeway",
+  "generatedOn": "2026-07-30",
+  "websiteIntegratedStyle": "inked-adventure-comic-vivid",
+  "canvas": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": "approximately 16:9"
+  },
+  "contentReference": "../inked-adventure-comic-vivid/variant-a-drowned-causeway.png",
+  "promptMethod": "Preserve the content reference's scene, camera, spatial relationships, four role silhouettes, equipment, sunset direction, weather, crop-safe placement, and narrative beat. Use each matching approved anchor only for medium, brushwork, edge language, shape simplification, detail density, and material rendering. Do not inherit subjects, objects, layouts, daylight, palette, weather, or mood from style anchors.",
+  "commonContentPrompt": "Exactly four medieval adventurers, all seen from behind, stand ankle-deep on a broken stone causeway through a flooded reed marsh in thin rain. Drowned posts, exposed roots, mud, black water, and pale marsh flowers lead to one narrow leaning stone tower on a low island with one amber window. Heavy indigo storm clouds part over a vermilion-gold sunset; night is close. The party is a broad fighter in battered mail with shield and sword; a lean jack-of-all-trades with bow, rope, satchel, compact tools, and map case; a tall scholarly mage in a cobalt mantle with a crooked staff; and a shorter field mage in a vermilion weather cloak with a shuttered arcane lantern. Wide 16:9 landscape; complete figures and tower inside the central 70 percent; quieter upper-left sky for live HTML heading; no baked-in text.",
+  "constraints": "Exactly four adventurers and one tower; no front-facing figures, extra people, creatures, fire, lightning, magical effects, logos, text, watermark, frame, border, or panel divisions.",
+  "images": [
+    {
+      "style": "inked-adventure-comic-vivid",
+      "file": "inked-adventure-comic-vivid.png",
+      "source": "existing selected Variant A",
+      "styleReference": "../../../approved/inked-adventure-comic/style-anchor.png",
+      "sha256": "e548c13b49c3e3d91642d1b4996faf2498e4414e5958e2c2ffd87c8266e26696"
+    },
+    {
+      "style": "more-naturalistic",
+      "file": "more-naturalistic.png",
+      "styleReference": "../../../calibration/revision-01/more-naturalistic/warrior.png and village.png",
+      "stylePrompt": "Illustrated fantasy realism with believable anatomy and only subtle cartoon-like shape design; four to six broad value shapes; matte opaque gouache brushwork; natural soft modeling with crisp focal edges and selected lost edges; restrained grouped material texture without photographic microdetail. Mature hand-painted illustration, neither photorealistic nor glossy.",
+      "sha256": "5c6040aed70e6fac471ac41a326928a21abe682db25873a37d8225f682a3c583"
+    },
+    {
+      "style": "watercolor-storybook",
+      "file": "watercolor-storybook.png",
+      "styleReference": "../../../exploration-02/watercolor-storybook/anchor.png",
+      "stylePrompt": "Traditional mature fantasy storybook watercolor with believable but gently exaggerated forms, transparent layered washes on cold-press paper, soft color blooms and granulation, mostly soft edges with a few crisp inkless focal edges, large uncluttered shapes, and minimal colored-pencil accents at focal materials. No opaque digital painting, cel shading, glossy rendering, or comic ink contours.",
+      "sha256": "e91187adfe86a62241c4ca606cad9ef46430af4eca14652e9bc606c0a3230acd"
+    },
+    {
+      "style": "cinematic-graphic-novel",
+      "file": "cinematic-graphic-novel.png",
+      "styleReference": "../../../exploration-03/cinematic-graphic-novel/anchor.png",
+      "stylePrompt": "Mature painted graphic novel with semi-realistic believable anatomy and architecture, decisive brush-ink drawing, variable-width sepia-indigo contours with dry-brush breaks, restrained cross-hatching, four to six broad matte gouache-like value shapes, occasional translucent glazes, crisp focal edges, selectively lost shadow edges, and angular readable silhouettes.",
+      "sha256": "6cdb31ef38c60c4266897c529235ffda80174969909a56e027b5aa9530476081"
+    },
+    {
+      "style": "animated-fantasy-feature",
+      "file": "animated-fantasy-feature.png",
+      "styleReference": "../../../exploration-04/animated-fantasy-feature/anchor.png",
+      "stylePrompt": "Polished hand-drawn fantasy feature-animation cartoon with clean tapered dark-colored contours, restrained appealing exaggeration, three to five clean color and value shapes with crisp cel boundaries, very limited soft occlusion, broad simplified material shapes, readable silhouettes, expressive stance, and sparse atmospheric backgrounds.",
+      "sha256": "deb5dbf267c88d923c81677647f4833140fea34cc13de8b1200f13612b200a01"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "set": "Fantasy Crux homepage hero candidates — vivid Inked Adventure Comic",
+  "generatedOn": "2026-07-30",
+  "websiteIntegrated": true,
+  "selectedVariant": "A",
+  "websiteAssets": [
+    "src/assets/images/home/index-tower-hero.webp",
+    "src/assets/images/home/index-tower-hero-960.webp"
+  ],
+  "canvas": {
+    "width": 1672,
+    "height": 941,
+    "aspectRatio": "approximately 16:9"
+  },
+  "commonContentLock": {
+    "partyCount": 4,
+    "view": "all four adventurers seen from behind and looking toward the tower",
+    "roles": [
+      "broad fighter in battered mail with shield and sword",
+      "lean jack-of-all-trades with bow, rope, satchel, compact tools, and map case",
+      "tall scholarly mage in a cobalt mantle with a crooked staff",
+      "shorter field mage in a vermilion weather cloak with a shuttered arcane lantern"
+    ],
+    "destination": "one creepy isolated tower in the distance",
+    "time": "sunset with some remaining light and night close",
+    "terrain": "wet, muddy, flooded, swampy, or windswept",
+    "text": "no baked-in text",
+    "responsiveComposition": "party and tower inside the central 70 percent with quieter overlay space"
+  },
+  "styleLock": "Hand-inked Western fantasy adventure comic: expressive variable-weight black brush contours, simplified believable anatomy, bold silhouette design, flat opaque color shapes, two or three hard-edged shadow shapes, sparse dry-brush texture, selective hatching, and a mature handmade print-comic finish; no painterly blending and no glossy 3D.",
+  "colorLock": "Vivid but disciplined local color with strong warm/cool separation and chromatic shadows; selective jewel-toned teal, cobalt, jade, vermilion, amber, violet, and warm cream according to the scene; no neon, rainbow palette, muddy sepia, global desaturation, or destructive oversaturation.",
+  "references": {
+    "style": "../../../approved/inked-adventure-comic/style-anchor.png",
+    "vividColor": "../../../creature-style-candidates/inked-adventure-comic-vivid/oread.png"
+  },
+  "variants": [
+    {
+      "id": "A",
+      "title": "Drowned Causeway",
+      "file": "variant-a-drowned-causeway.png",
+      "contentBrief": "Four adventurers stand ankle-deep on a broken stone causeway across a flooded reed marsh in thin rain; drowned posts, mud, roots, and black water lead to a narrow leaning tower on a low island with one amber window beneath an indigo and vermilion-gold sunset.",
+      "headingSpace": "quieter upper-left storm sky",
+      "sha256": "e548c13b49c3e3d91642d1b4996faf2498e4414e5958e2c2ffd87c8266e26696"
+    },
+    {
+      "id": "B",
+      "title": "Cypress Fen",
+      "file": "variant-b-cypress-fen.png",
+      "contentBrief": "Four adventurers pause on a warped boardwalk through a flooded cypress fen; hanging moss, lily pads, carved boundary stones, and teal mist lead to a cracked tilted observatory with a broken copper dome and turquoise window in amber-violet rain.",
+      "headingSpace": "quieter upper-right mist and sky",
+      "sha256": "3f720f83d57b989752dec15b015c811e963e8cf9b827d0a29eb69176710cb70a"
+    },
+    {
+      "id": "C",
+      "title": "High Moor",
+      "file": "variant-c-high-moor.png",
+      "contentBrief": "Four adventurers stand on a windswept muddy ridge above a peat bog; standing stones, violet heather, reflective wagon ruts, and an S-curving path lead to a crooked tower on a basalt plug under torn indigo clouds and a fierce amber-vermilion sunset.",
+      "headingSpace": "calmer dark cloud shelf in the upper-left",
+      "sha256": "354abf2b773867365f0aa0eb2bc417ab908fccd30ab0ffcedd828f863631b443"
+    },
+    {
+      "id": "D",
+      "title": "Drowned Village",
+      "file": "variant-d-drowned-village.png",
+      "contentBrief": "Four adventurers stand under a broken chapel arch and look across a flooded ruined village; stepping stones, sunken cottages, wagon wheels, gargoyles, and muddy water lead to a severe square tower on a wooded knoll beneath a jade-teal, amber, and violet sunset.",
+      "headingSpace": "dark upper-left arch and quieter sky",
+      "sha256": "650d406ecb1aca2f79766918e36de1ddd6bf2b3c117ad6f7debc4dfb8f640bcc"
+    }
+  ]
+}

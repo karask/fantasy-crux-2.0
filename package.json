@@ -13,6 +13,8 @@
     "dev": "npm run clean && eleventy --serve",
     "build:site": "npm run clean && eleventy",
     "build": "npm run validate:content && npm run build:site && node scripts/assert-output.mjs",
+    "art:build": "node scripts/build-art-library.mjs",
+    "art:validate": "node scripts/validate-art-library.mjs",
     "preview": "node scripts/serve-site.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "lint:md": "markdownlint-cli2 \"src/content/**/*.md\" \"freeform-creatures/**/*.md\"",
@@ -23,7 +25,7 @@
     "test:unit": "vitest run tests/unit",
     "test:browser": "npm run build && npm run test:browser:built",
     "test:browser:built": "node scripts/run-browser-tests.mjs",
-    "check": "npm run format:check && npm run lint:md && npm run test:unit && npm run build && npm run lint:html && npm run lint:links && npm run test:browser:built"
+    "check": "npm run format:check && npm run lint:md && npm run art:validate && npm run test:unit && npm run build && npm run lint:html && npm run lint:links && npm run test:browser:built"
   },
   "devDependencies": {
     "@11ty/eleventy": "3.1.6",

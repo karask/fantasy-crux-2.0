@@ -49,8 +49,8 @@ skills:
   - 'Close Combat 40%'
   - 'Unarmed Combat 40%'
 attacks:
-  - 'Club — Close Combat 40%, `1D6 + DM`, Light'
-  - 'Claw — Unarmed Combat 40%, `1D6 + DM`, Heavy'
+  - 'Club — Close Combat 40%, `1D6 + 2D6`, Light'
+  - 'Claw — Unarmed Combat 40%, `1D6 + 2D6`, Heavy'
 talents: 'None'
 ---
 

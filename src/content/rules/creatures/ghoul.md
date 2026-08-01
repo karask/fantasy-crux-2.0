@@ -49,8 +49,8 @@ skills:
   - 'Deception 60%'
   - 'Perception 30%'
 attacks:
-  - 'Claw — Unarmed Combat 60%, `1D4 + DM`, Medium'
-  - 'Bite — Unarmed Combat 60%, `1D6 + DM`, Medium'
+  - 'Claw — Unarmed Combat 60%, `1D4 + 1D4`, Medium'
+  - 'Bite — Unarmed Combat 60%, `1D6 + 1D4`, Medium'
 attackNotes:
   - 'a damaging Bite exposes the target to Ghoul Venom'
 talents: 'None'

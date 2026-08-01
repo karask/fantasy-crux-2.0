@@ -51,8 +51,8 @@ skills:
   - 'Performance 40%'
   - 'Shaping 60%'
 attacks:
-  - 'Shortspear — Close Combat 40%, `1D6 + DM`, Medium'
-  - 'Javelin — Ranged Combat 40%, `1D6 + DM`, Medium, 28 m'
+  - 'Shortspear — Close Combat 40%, `1D6 + 0`, Medium'
+  - 'Javelin — Ranged Combat 40%, `1D6 + 0`, Medium, 28 m'
 talents: 'None'
 ---
 

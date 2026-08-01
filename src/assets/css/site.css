@@ -138,6 +138,18 @@ summary,
   transform: translateY(0);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  border: 0;
+  white-space: nowrap;
+}
+
 /* The header stays put so search is always one click away. */
 .site-header {
   position: sticky;
@@ -153,7 +165,8 @@ summary,
   width: min(100%, 1680px);
   min-height: 78px;
   align-items: center;
-  gap: 1rem;
+  row-gap: 1rem;
+  column-gap: 0;
   margin-inline: auto;
   padding: 0.85rem 0;
   grid-template-columns: 220px minmax(0, 1fr);
@@ -199,13 +212,13 @@ summary,
   text-transform: uppercase;
 }
 
-/* Offset by the chapter measure gutter so the field sits over the page surface. */
+/* Keep the search compact and aligned with the reading column. */
 .header-search {
   display: flex;
   width: min(100%, 620px);
   align-items: stretch;
   justify-self: center;
-  margin-left: calc(52px + clamp(0.75rem, 2vw, 1.8rem));
+  margin-left: 0;
   border: 1px solid var(--iron-light);
   background: var(--iron);
 }
@@ -484,6 +497,77 @@ summary,
   background: var(--oxide);
 }
 
+.chapter-art {
+  position: relative;
+  margin-block: 1.5rem 2rem;
+}
+
+.chapter-art img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.chapter-art--cloud-vignette,
+.chapter-art--cutout {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  shape-margin: 1.1rem;
+}
+
+.chapter-art--cloud-vignette {
+  width: min(42%, 23rem);
+}
+
+.chapter-art--cutout {
+  width: min(38%, 21rem);
+  shape-outside: url('/assets/images/chapter-art/female-warrior-cutout.webp');
+  shape-image-threshold: 0.08;
+}
+
+.chapter-art--cutout img {
+  filter: drop-shadow(0.35rem 0.65rem 0.35rem rgb(34 27 20 / 22%));
+}
+
+.chapter-art--left {
+  float: left;
+  margin-right: 1.5rem;
+  margin-left: -0.75rem;
+}
+
+.chapter-art--right {
+  float: right;
+  margin-right: -0.75rem;
+  margin-left: 1.5rem;
+}
+
+.chapter-art--mist-panorama,
+.chapter-art--storm-cloud,
+.chapter-art--action-panorama,
+.chapter-art--folio-panorama,
+.chapter-art--night-oval {
+  clear: both;
+  width: calc(100% + 3rem);
+  margin: 1.25rem -1.5rem 2rem;
+}
+
+.chapter-art--folio-panorama {
+  width: calc(100% + 1rem);
+  margin-inline: -0.5rem;
+}
+
+.rule-copy::after {
+  display: table;
+  clear: both;
+  content: '';
+}
+
+.rule-copy > h3,
+.rule-copy > h4,
+.rule-copy > .table-wrap {
+  clear: both;
+}
+
 .eyebrow {
   color: var(--oxide);
 }
@@ -517,10 +601,6 @@ summary,
 
 .home-surface .eyebrow {
   color: var(--oxide-light);
-}
-
-.home-surface .hero-copy .eyebrow {
-  color: var(--oxide);
 }
 
 h1,
@@ -1321,140 +1401,63 @@ tbody tr:last-child td {
 }
 
 .home-hero {
-  display: grid;
-  min-height: min(680px, calc(100vh - 3.6rem));
-  grid-template-columns: minmax(0, 1.65fr) minmax(270px, 0.75fr);
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1672 / 941;
+  border-bottom: 1px solid #3b4445;
+  background: #0a0e10;
+  isolation: isolate;
 }
 
-.hero-copy {
-  display: flex;
-  min-width: 0;
-  justify-content: center;
-  flex-direction: column;
-  padding: clamp(2rem, 7vw, 7rem);
-  color: var(--ink);
-  background: var(--bone);
+.home-hero::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgb(6 9 10 / 10%) 35%, rgb(6 9 10 / 82%) 100%),
+    linear-gradient(90deg, rgb(6 9 10 / 46%) 0%, transparent 52%);
+  content: '';
+  pointer-events: none;
 }
 
-.hero-copy h1 {
-  max-width: none;
-  margin: 0.65rem 0 1.2rem;
-  font-size: clamp(4.2rem, 11vw, 10.5rem);
-  line-height: 0.72;
-}
-
-.hero-copy h1 span,
-.hero-copy h1 em {
+.home-hero-picture,
+.home-hero-art {
   display: block;
+  width: 100%;
+  height: 100%;
 }
 
-.hero-copy h1 span {
-  color: var(--oxide);
-  font-size: 0.48em;
-  letter-spacing: 0.04em;
+.home-hero-art {
+  object-fit: cover;
+  object-position: center;
 }
 
-.hero-copy h1 em {
-  margin-left: 0.08em;
-  color: #5f6967;
-  font-size: 0.38em;
-  font-style: normal;
-  letter-spacing: 0.2em;
+.home-hero-caption {
+  position: absolute;
+  z-index: 2;
+  top: clamp(1.5rem, 3.5vw, 3.5rem);
+  left: clamp(1.2rem, 5vw, 5rem);
+  width: min(38rem, calc(100% - 2.4rem));
+  padding-left: clamp(0.9rem, 1.5vw, 1.4rem);
+  border-left: 4px solid var(--oxide-light);
+  text-shadow: 0 2px 18px rgb(0 0 0 / 88%);
 }
 
-.hero-deck {
-  max-width: 39ch;
-  margin: 0;
-  color: #3f4948;
-  font-size: clamp(1.05rem, 2vw, 1.3rem);
-}
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.65rem;
-  margin-top: 2rem;
-}
-
-.hero-actions .button:not(.button--primary) {
-  color: var(--ink);
-}
-
-.hero-principles {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: clamp(2rem, 5vw, 4.5rem);
-  border-left: 1px solid #3b4445;
-  background: var(--iron);
-}
-
-.stamp {
-  width: max-content;
-  margin: 0 0 2rem;
-  padding: 0.25rem 0.5rem;
-  border: 1px solid var(--oxide-light);
-  color: var(--oxide-light);
-  font-family: var(--mono);
-  font-size: 0.62rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  transform: rotate(-2deg);
-}
-
-.hero-principles dl,
-.hero-principles dd {
-  margin: 0;
-}
-
-.hero-principles dl > div {
-  padding: 1rem 0;
-  border-top: 1px solid #3b4445;
-}
-
-.hero-principles dt {
+.home-hero-caption .eyebrow {
   color: var(--brass);
-  font-family: var(--display);
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  font-weight: 700;
-  line-height: 0.9;
 }
 
-.hero-principles dd {
-  margin-top: 0.28rem;
-  color: var(--ash);
-  font-family: var(--mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.04em;
+.home-hero-caption h1 {
+  max-width: 22ch;
+  margin: 0.45rem 0 0;
+  color: var(--bone-light);
+  font-size: clamp(1.4875rem, 2.55vw, 2.55rem);
+  line-height: 1;
   text-transform: uppercase;
 }
 
-.home-start,
 .chapter-directory {
   padding: clamp(2rem, 7vw, 6rem);
-}
-
-.home-start {
-  display: grid;
-  align-items: start;
-  gap: 2rem 5rem;
-  border-top: 1px solid #3b4445;
-  border-bottom: 1px solid #3b4445;
-  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
-}
-
-.home-start h2 {
-  max-width: 18ch;
-  margin: 0.5rem 0 0;
-  font-size: clamp(2.5rem, 6vw, 5rem);
-  text-transform: uppercase;
-}
-
-.home-start > p {
-  max-width: 48ch;
-  margin: 1.1rem 0 0;
-  color: var(--ash);
-  font-size: 1.05rem;
 }
 
 .section-rule--dark {
@@ -1560,6 +1563,10 @@ tbody tr:last-child td {
     grid-template-columns: 180px minmax(0, 1fr);
   }
 
+  .header-search {
+    margin-left: 0;
+  }
+
   .chapter-nav {
     padding-inline: 0.75rem;
   }
@@ -1650,32 +1657,27 @@ tbody tr:last-child td {
     width: 9px;
   }
 
-  .home-hero {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-principles {
-    display: block;
-    border-top: 1px solid #3b4445;
-    border-left: 0;
-  }
-
-  .hero-principles dl {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero-principles dl > div:nth-child(even) {
-    padding-left: 1rem;
-    border-left: 1px solid #3b4445;
-  }
-
-  .home-start {
-    grid-template-columns: 1fr;
-  }
-
   .creature-profile--illustrated {
     grid-template-columns: 220px minmax(0, 1fr);
+  }
+
+  .chapter-art,
+  .chapter-art--cloud-vignette,
+  .chapter-art--cutout,
+  .chapter-art--mist-panorama,
+  .chapter-art--storm-cloud,
+  .chapter-art--action-panorama,
+  .chapter-art--folio-panorama,
+  .chapter-art--night-oval {
+    float: none;
+    width: 100%;
+    margin: 1.25rem 0 1.75rem;
+    shape-outside: none;
+  }
+
+  .chapter-art--cutout {
+    width: min(78%, 22rem);
+    margin-inline: auto;
   }
 }
 
@@ -1807,16 +1809,36 @@ tbody tr:last-child td {
     flex-direction: column;
   }
 
-  .hero-copy {
-    padding: 3.2rem 1.2rem;
+  .home-hero {
+    display: grid;
+    overflow: visible;
+    aspect-ratio: auto;
   }
 
-  .hero-copy h1 {
-    font-size: clamp(4rem, 25vw, 7rem);
+  .home-hero::after {
+    display: none;
   }
 
-  .hero-principles,
-  .home-start,
+  .home-hero-picture {
+    aspect-ratio: 1672 / 941;
+  }
+
+  .home-hero-caption {
+    position: static;
+    width: 100%;
+    max-width: none;
+    padding: 1.35rem 1.2rem 1.6rem;
+    border-top: 1px solid #3b4445;
+    border-left: 0;
+    background: var(--furnace);
+    text-shadow: none;
+  }
+
+  .home-hero-caption h1 {
+    max-width: 22ch;
+    font-size: clamp(1.4875rem, 7.225vw, 2.295rem);
+  }
+
   .chapter-directory {
     padding: 2.5rem 1.2rem;
   }
@@ -1864,24 +1886,6 @@ tbody tr:last-child td {
 }
 
 @media (max-width: 420px) {
-  .hero-actions {
-    align-items: stretch;
-    flex-direction: column;
-  }
-
-  .hero-actions .button {
-    width: 100%;
-  }
-
-  .hero-principles dl {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-principles dl > div:nth-child(even) {
-    padding-left: 0;
-    border-left: 0;
-  }
-
   /* The 4-column stat grid is too narrow here for a long formula like (10D6+30) to sit
      next to its average on one line; drop it to its own line instead of overflowing. */
   .stat-dice {
@@ -1935,5 +1939,27 @@ tbody tr:last-child td {
 
   a {
     color: #000 !important;
+  }
+
+  .chapter-art,
+  .chapter-art--cloud-vignette,
+  .chapter-art--cutout,
+  .chapter-art--mist-panorama,
+  .chapter-art--storm-cloud,
+  .chapter-art--action-panorama,
+  .chapter-art--folio-panorama,
+  .chapter-art--night-oval {
+    float: none;
+    width: auto;
+    max-width: 85%;
+    margin: 1rem auto;
+    break-inside: avoid;
+    -webkit-mask-image: none;
+    mask-image: none;
+    shape-outside: none;
+  }
+
+  .chapter-art--cutout img {
+    filter: none;
   }
 }

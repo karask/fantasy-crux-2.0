@@ -43,8 +43,8 @@ skills:
   - 'Persistence 100%'
   - 'Resilience 100%'
 attacks:
-  - 'Arming Sword — Close Combat 35%, `1D8 + DM`, Medium'
-  - 'Medium Shield — Close Combat 35%, `1D6 + DM`, Heavy'
+  - 'Arming Sword — Close Combat 35%, `1D8 + 0`, Medium'
+  - 'Medium Shield — Close Combat 35%, `1D6 + 0`, Heavy'
 talents: 'None'
 ---
 

@@ -50,7 +50,7 @@ skills:
   - 'Unarmed Combat 30%'
 skillNote: 'Free-willed Golems develop other skills normally'
 attacks:
-  - 'Fist — Unarmed Combat 30%, `1D8 + DM`, Light'
+  - 'Fist — Unarmed Combat 30%, `1D8 + 3D6`, Light'
 talents: 'None'
 ---
 

@@ -51,8 +51,8 @@ skills:
   - 'Performance 50%'
   - 'Shaping 70%'
 attacks:
-  - 'Stone Fist — Unarmed Combat 35%, `1D6 + DM`, Medium'
-  - 'Thrown Rock — Ranged Combat 40%, `1D4 + DM`, Light, 7 m'
+  - 'Stone Fist — Unarmed Combat 35%, `1D6 + 0`, Medium'
+  - 'Thrown Rock — Ranged Combat 40%, `1D4 + 0`, Light, 7 m'
 talents: 'None'
 ---
 

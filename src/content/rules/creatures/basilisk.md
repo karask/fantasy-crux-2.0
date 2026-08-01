@@ -45,7 +45,7 @@ skills:
   - 'Natural Lore 40%'
   - 'Unarmed Combat 35%'
 attacks:
-  - 'Bite — Unarmed Combat 35%, `1D6 + DM`, Light'
+  - 'Bite — Unarmed Combat 35%, `1D6 - 1D6`, Light'
 attackNotes:
   - 'a damaging hit injects Basilisk Venom'
 talents: 'None'

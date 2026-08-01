@@ -50,8 +50,8 @@ skills:
   - 'Close Combat 65%'
   - 'Ranged Combat 45%'
 attacks:
-  - 'War Hammer or Battleaxe — Close Combat 65%, `1D8 + DM`, Medium'
-  - 'Medium Shield — Close Combat 65%, `1D6 + DM`, Heavy'
+  - 'War Hammer or Battleaxe — Close Combat 65%, `1D8 + 0`, Medium'
+  - 'Medium Shield — Close Combat 65%, `1D6 + 0`, Heavy'
   - 'Light Crossbow — Ranged Combat 45%, `1D8`, 125 m'
 talents: 'None'
 ---

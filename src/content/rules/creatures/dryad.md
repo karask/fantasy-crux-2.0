@@ -9,7 +9,7 @@ category: nymph
 summary: 'A woodland spirit whose body grows from one tree and whose grove extends 44 m from it.'
 image: '/assets/images/creatures/dryad.webp'
 image320: '/assets/images/creatures/dryad-320.webp'
-imageAlt: 'A bark-skinned dryad holding a wooden staff beside her ancient tree.'
+imageAlt: 'A bark-skinned dryad touching her ancient tree while guiding ivy across the grove.'
 tags:
   - 'corporeal'
   - 'spirit'
@@ -50,7 +50,7 @@ skills:
   - 'Performance 50%'
   - 'Shaping 60%'
 attacks:
-  - 'Quarterstaff — Close Combat 40%, `1D8 + DM`, Medium'
+  - 'Quarterstaff — Close Combat 40%, `1D8 + 0`, Medium'
 talents: 'None'
 ---
 

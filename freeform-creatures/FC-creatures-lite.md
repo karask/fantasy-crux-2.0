@@ -67,7 +67,7 @@ A pony-sized colony predator protected by heavy chitin.
 
 **Skills:** Dodge 39%; Persistence 18%; Resilience 51%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D6 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 50%, `1D6 + 0`, Medium.
 
 **Talents:** None.
 
@@ -85,7 +85,7 @@ A massive, powerful omnivore with a thick hide.
 
 **Skills:** Dodge 33%; Persistence 33%; Resilience 39%; Unarmed Combat 60%.
 
-**Attacks:** Bite — Unarmed Combat 60%, `1D8 + DM`, Heavy; Claw — Unarmed Combat 60%, `1D6 + DM`, Heavy.
+**Attacks:** Bite — Unarmed Combat 60%, `1D8 + 2D6`, Heavy; Claw — Unarmed Combat 60%, `1D6 + 2D6`, Heavy.
 
 **Talents:** None.
 
@@ -103,7 +103,7 @@ A territorial herd animal capable of devastating charges.
 
 **Skills:** Dodge 21%; Persistence 21%; Resilience 45%; Unarmed Combat 40%.
 
-**Attacks:** Horns — Unarmed Combat 40%, `1D8 + DM`, Medium; Trample — Unarmed Combat 40%, `1D8 + DM`, Medium.
+**Attacks:** Horns — Unarmed Combat 40%, `1D8 + 1D6`, Medium; Trample — Unarmed Combat 40%, `1D8 + 1D6`, Medium.
 
 **Talents:** None.
 
@@ -121,7 +121,7 @@ A heavily armoured ambush predator equally dangerous in water and at the shore.
 
 **Skills:** Dodge 33%; Persistence 33%; Resilience 57%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D8 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 50%, `1D8 + 1D6`, Medium.
 
 **Talents:** None.
 
@@ -139,7 +139,7 @@ A domestic or feral canine that relies on speed and its bite.
 
 **Skills:** Dodge 39%; Persistence 27%; Resilience 33%; Unarmed Combat 40%.
 
-**Attacks:** Bite — Unarmed Combat 40%, `1D6 + DM`, Light.
+**Attacks:** Bite — Unarmed Combat 40%, `1D6 + 0`, Light.
 
 **Talents:** None.
 
@@ -157,7 +157,7 @@ An immense herd animal whose bulk makes its tusks and feet lethal.
 
 **Skills:** Dodge 33%; Persistence 39%; Resilience 72%; Unarmed Combat 45%.
 
-**Attacks:** Trample — Unarmed Combat 45%, `1D12 + DM`, Huge; Tusk — Unarmed Combat 45%, `1D10 + DM`, Huge.
+**Attacks:** Trample — Unarmed Combat 45%, `1D12 + 5D6`, Huge; Tusk — Unarmed Combat 45%, `1D10 + 5D6`, Huge.
 
 **Talents:** None.
 
@@ -175,7 +175,7 @@ A small, agile bird of prey.
 
 **Skills:** Dodge 81%; Persistence 21%; Resilience 12%; Unarmed Combat 50%.
 
-**Attacks:** Claw — Unarmed Combat 50%, `1D6 + DM`, Light; Bite — Unarmed Combat 50%, `1D4 + DM`, Light.
+**Attacks:** Claw — Unarmed Combat 50%, `1D6 - 1D6`, Light; Bite — Unarmed Combat 50%, `1D4 - 1D6`, Light.
 
 **Talents:** None.
 
@@ -193,7 +193,7 @@ A massive raptor capable of hunting prey as large as a horse.
 
 **Skills:** Dodge 54%; Persistence 33%; Resilience 99%; Unarmed Combat 80%.
 
-**Attacks:** Claw — Unarmed Combat 80%, `1D8 + DM`, Heavy; Bite — Unarmed Combat 80%, `1D6 + DM`, Heavy.
+**Attacks:** Claw — Unarmed Combat 80%, `1D8 + 4D6`, Heavy; Bite — Unarmed Combat 80%, `1D6 + 4D6`, Heavy.
 
 **Talents:** None.
 
@@ -211,7 +211,7 @@ A swift riding and draft animal whose kick can shatter bone.
 
 **Skills:** Dodge 30%; Persistence 33%; Resilience 51%; Unarmed Combat 40%.
 
-**Attacks:** Kick — Unarmed Combat 40%, `1D6 + DM`, Light.
+**Attacks:** Kick — Unarmed Combat 40%, `1D6 + 2D6`, Light.
 
 **Talents:** None.
 
@@ -229,7 +229,7 @@ A powerful feline predator armed with jaws and claws.
 
 **Skills:** Dodge 51%; Persistence 33%; Resilience 33%; Unarmed Combat 60%.
 
-**Attacks:** Bite — Unarmed Combat 60%, `1D8 + DM`, Medium; Claw — Unarmed Combat 60%, `1D6 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 60%, `1D8 + 1D6`, Medium; Claw — Unarmed Combat 60%, `1D6 + 1D6`, Medium.
 
 **Talents:** None.
 
@@ -247,7 +247,7 @@ A large reptilian predator with powerful jaws and a battering tail.
 
 **Skills:** Dodge 45%; Persistence 33%; Resilience 33%; Unarmed Combat 35%.
 
-**Attacks:** Bite — Unarmed Combat 35%, `1D6 + DM`, Medium; Tail — Unarmed Combat 35%, `1D8 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 35%, `1D6 + 1D6`, Medium; Tail — Unarmed Combat 35%, `1D8 + 1D6`, Medium.
 
 **Talents:** None.
 
@@ -265,7 +265,7 @@ An enormous marine hunter whose arms can overwhelm several enemies.
 
 **Skills:** Dodge 69%; Persistence 33%; Resilience 42%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D8 + DM`, Huge; Arm — Unarmed Combat 50%, `1D4 + DM`, Huge.
+**Attacks:** Bite — Unarmed Combat 50%, `1D8 + 4D6`, Huge; Arm — Unarmed Combat 50%, `1D4 + 4D6`, Huge.
 
 **Talents:** None.
 
@@ -283,7 +283,7 @@ A huge constricting snake capable of crushing prey within its coils.
 
 **Skills:** Dodge 39%; Persistence 33%; Resilience 33%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D4 + DM`, Medium; Constrict — Unarmed Combat 50%, `1D8 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 50%, `1D4 + 2D6`, Medium; Constrict — Unarmed Combat 50%, `1D8 + 2D6`, Medium.
 
 **Talents:** None.
 
@@ -301,7 +301,7 @@ A quick and observant scavenging bird.
 
 **Skills:** Dodge 63%; Persistence 21%; Resilience 12%; Unarmed Combat 35%.
 
-**Attacks:** Claw — Unarmed Combat 35%, `1D6 + DM`, Light; Bite — Unarmed Combat 35%, `1D4 + DM`, Light.
+**Attacks:** Claw — Unarmed Combat 35%, `1D6 - 1D6`, Light; Bite — Unarmed Combat 35%, `1D4 - 1D6`, Light.
 
 **Talents:** None.
 
@@ -319,7 +319,7 @@ A thick-skinned herbivore whose charge can tear through a battle line.
 
 **Skills:** Dodge 21%; Persistence 33%; Resilience 33%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D6 + DM`, Heavy; Gore — Unarmed Combat 50%, `1D8 + DM`, Heavy; Trample — Unarmed Combat 50%, `1D12 + DM`, Heavy.
+**Attacks:** Bite — Unarmed Combat 50%, `1D6 + 2D6`, Heavy; Gore — Unarmed Combat 50%, `1D8 + 2D6`, Heavy; Trample — Unarmed Combat 50%, `1D12 + 2D6`, Heavy.
 
 **Talents:** None.
 
@@ -337,7 +337,7 @@ A horse-sized ambush predator that traps prey in venomous webs.
 
 **Skills:** Dodge 48%; Persistence 33%; Resilience 51%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D6 + DM`, Heavy; Web — Unarmed Combat 50%, no damage, Heavy, 15 m.
+**Attacks:** Bite — Unarmed Combat 50%, `1D6 + 1D6`, Heavy; Web — Unarmed Combat 50%, no damage, Heavy, 15 m.
 
 **Talents:** None.
 
@@ -357,7 +357,7 @@ A fast venomous snake whose bite can bring down much larger prey.
 
 **Skills:** Dodge 81%; Persistence 39%; Resilience 18%; Unarmed Combat 60%.
 
-**Attacks:** Bite — Unarmed Combat 60%, `1D6 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 60%, `1D6 + 0`, Medium.
 
 **Talents:** None.
 
@@ -375,7 +375,7 @@ A swift pack predator armed with powerful jaws and claws.
 
 **Skills:** Dodge 39%; Persistence 33%; Resilience 42%; Unarmed Combat 50%.
 
-**Attacks:** Bite — Unarmed Combat 50%, `1D8 + DM`, Medium; Claw — Unarmed Combat 50%, `1D6 + DM`, Medium.
+**Attacks:** Bite — Unarmed Combat 50%, `1D8 + 0`, Medium; Claw — Unarmed Combat 50%, `1D6 + 0`, Medium.
 
 **Talents:** None.
 
@@ -395,7 +395,7 @@ A small, many-coloured reptile created by foul alchemy; its eyes and blood are d
 
 **Skills:** Dodge 40%; Persistence 50%; Resilience 70%; Athletics 65%; Deception 40%; Natural Lore 40%; Unarmed Combat 35%.
 
-**Attacks:** Bite — Unarmed Combat 35%, `1D6 + DM`, Light; a damaging hit injects Basilisk Venom.
+**Attacks:** Bite — Unarmed Combat 35%, `1D6 - 1D6`, Light; a damaging hit injects Basilisk Venom.
 
 **Talents:** None.
 
@@ -417,7 +417,7 @@ Animal-headed humanoids who fiercely resist settlement of their wild territories
 
 **Skills:** Dodge 40%; Persistence 30%; Resilience 30%; Deception 40%; Natural Lore 70%; Close Combat 50%; Unarmed Combat 60%.
 
-**Attacks:** Club — Close Combat 50%, `1D6 + DM`, Light; Shortspear — Close Combat 50%, `1D6 + DM`, Medium; Medium Shield — Close Combat 50%, `1D6 + DM`, Heavy; Head Butt — Unarmed Combat 60%, `1D6 + DM`, Medium.
+**Attacks:** Club — Close Combat 50%, `1D6 + 1D4`, Light; Shortspear — Close Combat 50%, `1D6 + 1D4`, Medium; Medium Shield — Close Combat 50%, `1D6 + 1D4`, Heavy; Head Butt — Unarmed Combat 60%, `1D6 + 1D4`, Medium.
 
 **Talents:** None.
 
@@ -435,7 +435,7 @@ An ancient, intelligent flying reptile whose magic and temperament vary widely.
 
 **Skills:** Dodge 30%; Persistence 100%; Resilience 100%; Athletics 100%; Influence 100%; Perception 100%; Culture (Local) 100%; Natural Lore 100%; Unarmed Combat 100%.
 
-**Attacks:** Bite — Unarmed Combat 100%, `1D10 + DM`, Huge; Claw — Unarmed Combat 100%, `1D8 + DM`, Huge; Tail — Unarmed Combat 100%, `1D20 + DM`, Huge.
+**Attacks:** Bite — Unarmed Combat 100%, `1D10 + 7D6`, Huge; Claw — Unarmed Combat 100%, `1D8 + 7D6`, Huge; Tail — Unarmed Combat 100%, `1D20 + 7D6`, Huge.
 
 **Talents:** Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I.
 
@@ -459,7 +459,7 @@ Stocky, long-lived underground folk renowned for craft, mining, and stonework.
 
 **Skills:** Dodge 20%; Persistence 40%; Resilience 55%; Athletics 50%; Engineering 35%; Mechanisms 40%; Trade 60%; Craft 70%; Close Combat 65%; Ranged Combat 45%.
 
-**Attacks:** War Hammer or Battleaxe — Close Combat 65%, `1D8 + DM`, Medium; Medium Shield — Close Combat 65%, `1D6 + DM`, Heavy; Light Crossbow — Ranged Combat 45%, `1D8`, 125 m.
+**Attacks:** War Hammer or Battleaxe — Close Combat 65%, `1D8 + 0`, Medium; Medium Shield — Close Combat 65%, `1D6 + 0`, Heavy; Light Crossbow — Ranged Combat 45%, `1D8`, 125 m.
 
 **Talents:** None.
 
@@ -520,7 +520,7 @@ Ageless forest folk bound to their woodland realms and fiercely protective of th
 
 **Skills:** Dodge 55%; Persistence 55%; Resilience 20%; Athletics 55%; Deception 55%; Healing 50%; Perception 30%; Natural Lore 80%; Close Combat 60%; Ranged Combat 80%.
 
-**Attacks:** Shortspear — Close Combat 60%, `1D6 + DM`, Medium; Longbow — Ranged Combat 80%, `1D10`, 150 m.
+**Attacks:** Shortspear — Close Combat 60%, `1D6 + 0`, Medium; Longbow — Ranged Combat 80%, `1D10`, 150 m.
 
 **Talents:** None.
 
@@ -542,7 +542,7 @@ A grey, winged humanoid predator often mistaken for a grotesque stone statue.
 
 **Skills:** Dodge 25%; Persistence 40%; Resilience 40%; Athletics 40%; Deception 30%; Perception 40%; Natural Lore 40%; Unarmed Combat 50%.
 
-**Attacks:** Claw — Unarmed Combat 50%, `1D6 + DM`, Medium.
+**Attacks:** Claw — Unarmed Combat 50%, `1D6 + 2D6`, Medium.
 
 **Talents:** None.
 
@@ -560,7 +560,7 @@ A six-metre humanoid who adopts nearby cultures or lives in an isolated mountain
 
 **Skills:** Dodge 10%; Persistence 25%; Resilience 80%; Athletics 50%; Deception 5%; Perception 40%; Natural Lore 20%; Close Combat 90%; Ranged Combat 35%; Unarmed Combat 75%.
 
-**Attacks:** Huge Club — Close Combat 90%, `2D6 + DM`, Huge; Thrown Boulder — Ranged Combat 35%, `2D6 + DM`, Huge, 49 m; Stomp — Unarmed Combat 75%, `1D6 + DM`, Huge.
+**Attacks:** Huge Club — Close Combat 90%, `2D6 + 5D6`, Huge; Thrown Boulder — Ranged Combat 35%, `2D6 + 5D6`, Huge, 49 m; Stomp — Unarmed Combat 75%, `1D6 + 5D6`, Huge.
 
 **Talents:** None.
 
@@ -578,7 +578,7 @@ A small, agile humanoid accustomed to surviving through cunning and numbers.
 
 **Skills:** Dodge 50%; Persistence 20%; Resilience 35%; Athletics 50%; Deception 75%; Mechanisms 50%; Perception 35%; Natural Lore 50%; Close Combat 40%; Ranged Combat 50%.
 
-**Attacks:** Shortspear — Close Combat 40%, `1D6 + DM`, Medium; Small Shield — Close Combat 40%, `1D4 + DM`, Medium; Sling — Ranged Combat 50%, `1D6`, 50 m.
+**Attacks:** Shortspear — Close Combat 40%, `1D6 + 0`, Medium; Small Shield — Close Combat 40%, `1D4 + 0`, Medium; Sling — Ranged Combat 50%, `1D6`, 50 m.
 
 **Talents:** None.
 
@@ -598,7 +598,7 @@ A clay construct animated to execute a sacred command with literal, tireless pre
 
 **Skills:** Dodge 0%; Persistence 90%; Resilience 100%; Lore (Allocated Task) 50%; one programmed skill 100%; Unarmed Combat 30%. Free-willed Golems develop other skills normally.
 
-**Attacks:** Fist — Unarmed Combat 30%, `1D8 + DM`, Light.
+**Attacks:** Fist — Unarmed Combat 30%, `1D8 + 3D6`, Light.
 
 **Talents:** None.
 
@@ -620,7 +620,7 @@ A proud mountain predator with a lion's body, an eagle's head, and immense wings
 
 **Skills:** Dodge 40%; Persistence 80%; Resilience 70%; Athletics 80%; Deception 28%; Perception 50%; Natural Lore 60%; Unarmed Combat 70%.
 
-**Attacks:** Bite — Unarmed Combat 70%, `1D8 + DM`, Heavy; Claw — Unarmed Combat 70%, `1D6 + DM`, Heavy.
+**Attacks:** Bite — Unarmed Combat 70%, `1D8 + 2D6`, Heavy; Claw — Unarmed Combat 70%, `1D6 + 2D6`, Heavy.
 
 **Talents:** None.
 
@@ -638,7 +638,7 @@ A filthy, winged scavenger whose claws and missiles spread disease.
 
 **Skills:** Dodge 50%; Persistence 25%; Resilience 60%; Athletics 60%; Deception 60%; Perception 75%; Natural Lore 60%; Ranged Combat 40%; Unarmed Combat 75%.
 
-**Attacks:** Claw — Unarmed Combat 75%, `1D6 + DM`, Medium; Dropped Stone — Ranged Combat 40%, `1D6` per full 3 m fallen, maximum `10D6`, Light, directly below; Dung — Ranged Combat 40%, no damage, Light, directly below.
+**Attacks:** Claw — Unarmed Combat 75%, `1D6 + 0`, Medium; Dropped Stone — Ranged Combat 40%, `1D6` per full 3 m fallen, maximum `10D6`, Light, directly below; Dung — Ranged Combat 40%, no damage, Light, directly below.
 
 **Talents:** None.
 
@@ -660,7 +660,7 @@ A territorial sea-dweller whose undersea society mirrors kingdoms above.
 
 **Skills:** Dodge 30%; Persistence 30%; Resilience 30%; Athletics 60%; Deception 30%; Perception 50%; Natural Lore 80%; Close Combat 35%.
 
-**Attacks:** Longspear — Close Combat 35%, `1D8+1 + DM`, Medium; Dagger — Close Combat 35%, `1D4+1 + DM`, Light.
+**Attacks:** Longspear — Close Combat 35%, `1D8+1 + 1D6`, Medium; Dagger — Close Combat 35%, `1D4+1 + 1D6`, Light.
 
 **Talents:** None.
 
@@ -678,7 +678,7 @@ An enormous aquatic serpent that drags prey to caverns beneath the sea.
 
 **Skills:** Dodge 40%; Persistence 40%; Resilience 80%; Athletics 60%; Deception 25%; Unarmed Combat 60%.
 
-**Attacks:** Bite — Unarmed Combat 60%, `1D6 + DM`, Heavy.
+**Attacks:** Bite — Unarmed Combat 60%, `1D6 + 5D6`, Heavy.
 
 **Talents:** None.
 
@@ -696,7 +696,7 @@ A deity's otherworldly mount, manifesting as a sacred eagle, kraken, iron horse,
 
 **Skills:** Dodge 100%; Persistence 100%; Resilience 100%; Unarmed Combat 80%.
 
-**Attacks:** Fist or Kick — Unarmed Combat 80%, `1D10 + DM`, Light.
+**Attacks:** Fist or Kick — Unarmed Combat 80%, `1D10 + 2D6`, Light.
 
 **Talents:** Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I.
 
@@ -732,7 +732,7 @@ A tool-using reptilian person adapted to deserts, swamps, and other hot regions.
 
 **Skills:** Dodge 45%; Persistence 25%; Resilience 30%; Athletics 45%; Deception 30%; Perception 35%; Natural Lore 45%; Close Combat 45%; Ranged Combat 35%; Unarmed Combat 25%.
 
-**Attacks:** Battleaxe — Close Combat 45%, `1D8 + DM`, Medium; Sling — Ranged Combat 35%, `1D6`, 50 m; Bite — Unarmed Combat 25%, `1D6 + DM`, Medium.
+**Attacks:** Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium; Sling — Ranged Combat 35%, `1D6`, 50 m; Bite — Unarmed Combat 25%, `1D6 + 1D4`, Medium.
 
 **Talents:** None.
 
@@ -750,7 +750,7 @@ A massive, warty humanoid who dominates weaker creatures through brute force.
 
 **Skills:** Dodge 35%; Persistence 45%; Resilience 35%; Athletics 35%; Deception 50%; Perception 50%; Natural Lore 35%; Close Combat 60%; Ranged Combat 40%; Unarmed Combat 60%.
 
-**Attacks:** Great Axe — Close Combat 60%, `2D8 + DM`, Heavy; Improvised Rock — Ranged Combat 40%, `1D4 + DM`, Light, 23 m; Fist — Unarmed Combat 60%, `1D6 + DM`, Light; Bite — Unarmed Combat 60%, `1D8 + DM`, Heavy.
+**Attacks:** Great Axe — Close Combat 60%, `2D8 + 2D6`, Heavy; Improvised Rock — Ranged Combat 40%, `1D4 + 2D6`, Light, 23 m; Fist — Unarmed Combat 60%, `1D6 + 2D6`, Light; Bite — Unarmed Combat 60%, `1D8 + 2D6`, Heavy.
 
 **Talents:** None.
 
@@ -768,7 +768,7 @@ A violent clan-based humanoid whose warband is ruled by strength and ambition.
 
 **Skills:** Dodge 35%; Persistence 35%; Resilience 35%; Athletics 35%; Deception 45%; Perception 45%; Craft 40%; Close Combat 40%; Ranged Combat 50%.
 
-**Attacks:** Scimitar — Close Combat 40%, `1D8 + DM`, Medium; Medium Shield — Close Combat 40%, `1D6 + DM`, Heavy; Shortbow — Ranged Combat 50%, `1D8`, 75 m.
+**Attacks:** Scimitar — Close Combat 40%, `1D8 + 0`, Medium; Medium Shield — Close Combat 40%, `1D6 + 0`, Heavy; Shortbow — Ranged Combat 50%, `1D8`, 75 m.
 
 **Talents:** None.
 
@@ -786,7 +786,7 @@ A tiny, winged forest person known for curiosity, mischief, and subtle magic.
 
 **Skills:** Dodge 60%; Persistence 60%; Resilience 20%; Athletics 60%; Deception 60%; Perception 60%; Natural Lore 80%; Close Combat 10%; Ranged Combat 25%.
 
-**Attacks:** Dagger — Close Combat 10%, `1D4+1 + DM`, Light; Sling — Ranged Combat 25%, `1D6`, 50 m.
+**Attacks:** Dagger — Close Combat 10%, `1D4+1 - 1D6`, Light; Sling — Ranged Combat 25%, `1D6`, 50 m.
 
 **Talents:** None.
 
@@ -804,7 +804,7 @@ A large, solitary predator whose body repairs wounds with terrifying speed.
 
 **Skills:** Dodge 25%; Persistence 25%; Resilience 60%; Athletics 20%; Deception 20%; Perception 20%; Natural Lore 40%; Close Combat 40%; Unarmed Combat 40%.
 
-**Attacks:** Club — Close Combat 40%, `1D6 + DM`, Light; Claw — Unarmed Combat 40%, `1D6 + DM`, Heavy.
+**Attacks:** Club — Close Combat 40%, `1D6 + 2D6`, Light; Claw — Unarmed Combat 40%, `1D6 + 2D6`, Heavy.
 
 **Talents:** None.
 
@@ -824,7 +824,7 @@ A person who can become a giant wolf willingly—or involuntarily beneath the fu
 
 **Skills:** Dodge 60%; Persistence 60%; Resilience 60%; Athletics 60%; Deception 60%; Perception 60%; Natural Lore 80%; human Close Combat 35%; human Ranged Combat 25%; wolf Unarmed Combat 60%.
 
-**Attacks:** Human Arming Sword — Close Combat 35%, `1D8 + DM`, Medium; Human Shortbow — Ranged Combat 25%, `1D8`, 75 m; Wolf Bite — Unarmed Combat 60%, `1D8 + DM`, Medium; Wolf Claw — Unarmed Combat 60%, `1D6 + DM`, Medium.
+**Attacks:** Human Arming Sword — Close Combat 35%, `1D8 + 0`, Medium; Human Shortbow — Ranged Combat 25%, `1D8`, 75 m; Wolf Bite — Unarmed Combat 60%, `1D8 + 1D6`, Medium; Wolf Claw — Unarmed Combat 60%, `1D6 + 1D6`, Medium.
 
 **Talents:** None.
 
@@ -846,7 +846,7 @@ A lean, two-legged draconic predator armed with jaws, claws, and a venomous tail
 
 **Skills:** Dodge 50%; Persistence 35%; Resilience 50%; Athletics 50%; Deception 10%; Perception 60%; Unarmed Combat 60%.
 
-**Attacks:** Bite — Unarmed Combat 60%, `1D10 + DM`, Heavy; Claw — Unarmed Combat 60%, `1D6 + DM`, Heavy; Sting — Unarmed Combat 60%, `1D6 + DM`, Heavy; a damaging Sting injects venom.
+**Attacks:** Bite — Unarmed Combat 60%, `1D10 + 2D6`, Heavy; Claw — Unarmed Combat 60%, `1D6 + 2D6`, Heavy; Sting — Unarmed Combat 60%, `1D6 + 2D6`, Heavy; a damaging Sting injects venom.
 
 **Talents:** None.
 
@@ -868,7 +868,7 @@ A woodland spirit whose body grows from one tree and whose grove extends 44 m fr
 
 **Skills:** Close Combat 40%; Dodge 50%; Persistence 60%; Resilience 40%; Natural Lore 60%; Deception 50%; Perception 50%; Performance 50%; Shaping 60%.
 
-**Attacks:** Quarterstaff — Close Combat 40%, `1D8 + DM`, Medium.
+**Attacks:** Quarterstaff — Close Combat 40%, `1D8 + 0`, Medium.
 
 **Talents:** None.
 
@@ -892,7 +892,7 @@ A cave or darkness spirit that hunts beyond its domain only between sunset and d
 
 **Skills:** Unarmed Combat 55%; Dodge 50%; Persistence 60%; Resilience 40%; Lore (Magic) 40%; Lore (Undead) 40%; Natural Lore 40%; Deception 100%; Perception 50%; Shaping 75%.
 
-**Attacks:** Claw — Unarmed Combat 55%, `1D6 + DM`, Medium.
+**Attacks:** Claw — Unarmed Combat 55%, `1D6 + 1D6`, Medium.
 
 **Talents:** Mastery (Deception) I.
 
@@ -914,7 +914,7 @@ A water spirit anchored to one stream, lake, swamp, or coastal reach.
 
 **Skills:** Close Combat 40%; Ranged Combat 40%; Dodge 80%; Persistence 70%; Resilience 60%; Natural Lore 40%; Deception 65%; Perception 40%; Performance 40%; Shaping 60%.
 
-**Attacks:** Shortspear — Close Combat 40%, `1D6 + DM`, Medium; Javelin — Ranged Combat 40%, `1D6 + DM`, Medium, 28 m.
+**Attacks:** Shortspear — Close Combat 40%, `1D6 + 0`, Medium; Javelin — Ranged Combat 40%, `1D6 + 0`, Medium, 28 m.
 
 **Talents:** None.
 
@@ -936,7 +936,7 @@ A stone spirit anchored to one hill, mountain, valley, or similar landform.
 
 **Skills:** Unarmed Combat 35%; Ranged Combat 40%; Dodge 40%; Persistence 30%; Resilience 50%; Natural Lore 40%; Deception 80%; Perception 50%; Performance 50%; Shaping 70%.
 
-**Attacks:** Stone Fist — Unarmed Combat 35%, `1D6 + DM`, Medium; Thrown Rock — Ranged Combat 40%, `1D4 + DM`, Light, 7 m.
+**Attacks:** Stone Fist — Unarmed Combat 35%, `1D6 + 0`, Medium; Thrown Rock — Ranged Combat 40%, `1D4 + 0`, Light, 7 m.
 
 **Talents:** None.
 
@@ -1102,7 +1102,7 @@ An intelligent corpse-eater driven by endless hunger.
 
 **Skills:** Unarmed Combat 60%; Dodge 40%; Persistence 30%; Resilience 40%; Lore (Undead) 75%; Athletics 40%; Deception 60%; Perception 30%.
 
-**Attacks:** Claw — Unarmed Combat 60%, `1D4 + DM`, Medium; Bite — Unarmed Combat 60%, `1D6 + DM`, Medium; a damaging Bite exposes the target to Ghoul Venom.
+**Attacks:** Claw — Unarmed Combat 60%, `1D4 + 1D4`, Medium; Bite — Unarmed Combat 60%, `1D6 + 1D4`, Medium; a damaging Bite exposes the target to Ghoul Venom.
 
 **Talents:** None.
 
@@ -1122,7 +1122,7 @@ An intelligent, ritually preserved ruler or guardian with no Shaping by default.
 
 **Skills:** Close Combat 80%; Unarmed Combat 60%; Dodge 30%; Persistence 80%; Resilience 50%; Lore (Undead) 65%; Athletics 10%; Deception 10%; Perception 40%.
 
-**Attacks:** Great Hammer — Close Combat 80%, `2D8 + DM`, Heavy; Fist — Unarmed Combat 60%, `1D6 + DM`, Light.
+**Attacks:** Great Hammer — Close Combat 80%, `2D8 + 1D6`, Heavy; Fist — Unarmed Combat 60%, `1D6 + 1D6`, Light.
 
 **Talents:** None.
 
@@ -1142,7 +1142,7 @@ Animated bones following simple commands.
 
 **Skills:** Close Combat 35%; Dodge 10%; Persistence 100%; Resilience 100%.
 
-**Attacks:** Arming Sword — Close Combat 35%, `1D8 + DM`, Medium; Medium Shield — Close Combat 35%, `1D6 + DM`, Heavy.
+**Attacks:** Arming Sword — Close Combat 35%, `1D8 + 0`, Medium; Medium Shield — Close Combat 35%, `1D6 + 0`, Heavy.
 
 **Talents:** None.
 
@@ -1160,7 +1160,7 @@ An intelligent undead predator sustained by stolen blood and life force.
 
 **Skills:** Close Combat 50%; Unarmed Combat 60%; Dodge 40%; Persistence 80%; Resilience 80%; Culture (Local) 80%; Athletics 50%; Deception 80%; Perception 80%.
 
-**Attacks:** Arming Sword — Close Combat 50%, `1D8 + DM`, Medium; Medium Shield — Close Combat 50%, `1D6 + DM`, Heavy; Bite — Unarmed Combat 60%, `1D6 + DM`, Medium.
+**Attacks:** Arming Sword — Close Combat 50%, `1D8 + 1D6`, Medium; Medium Shield — Close Combat 50%, `1D6 + 1D6`, Heavy; Bite — Unarmed Combat 60%, `1D6 + 1D6`, Medium.
 
 **Talents:** None.
 
@@ -1194,7 +1194,7 @@ A rotting corpse animated to obey simple commands or attack the living.
 
 **Skills:** Unarmed Combat 50%; Dodge 0%; Persistence 100%; Resilience 100%.
 
-**Attacks:** Fist — Unarmed Combat 50%, `1D3 + DM`, Light.
+**Attacks:** Fist — Unarmed Combat 50%, `1D3 + 1D6`, Light.
 
 **Talents:** None.
 

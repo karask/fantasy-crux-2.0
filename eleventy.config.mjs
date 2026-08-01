@@ -45,6 +45,7 @@ export default function configure(eleventyConfig) {
 
   eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addWatchTarget('src/assets/');
+  eleventyConfig.addWatchTarget('art/library/chapters/');
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
   eleventyConfig.addPassthroughCopy({
     'node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2':
@@ -132,6 +133,22 @@ export default function configure(eleventyConfig) {
       .replace(/\bid="([^"]+)"/g, (_match, id) => `id="${slug}--${id}"`)
       .replace(/\bhref="#([^"]+)"/g, (_match, id) => `href="#${slug}--${id}"`),
   );
+
+  // Chapter illustrations belong beside a specific piece of rules prose, not at the top of
+  // every chapter. Fail the build if an authored target moves so art cannot drift silently.
+  eleventyConfig.addFilter('placeAfterHeading', (html, targetId, markup) => {
+    const escapedId = String(targetId).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const heading = new RegExp(
+      `<h([2-6])\\b(?=[^>]*\\bid="${escapedId}")[^>]*>[\\s\\S]*?<\\/h\\1>`,
+    );
+    const content = String(html ?? '');
+
+    if (!heading.test(content)) {
+      throw new Error(`Chapter art target heading not found: ${targetId}`);
+    }
+
+    return content.replace(heading, (matched) => `${matched}\n${String(markup ?? '')}`);
+  });
 
   // Profile values keep their authored Markdown, so dice such as `1D6 + DM` stay code spans.
   eleventyConfig.addFilter('inlineMarkdown', (value) => markdown.renderInline(String(value ?? '')));

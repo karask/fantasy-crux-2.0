@@ -42,8 +42,8 @@ skills:
   - 'Resilience 45%'
   - 'Unarmed Combat 40%'
 attacks:
-  - 'Horns — Unarmed Combat 40%, `1D8 + DM`, Medium'
-  - 'Trample — Unarmed Combat 40%, `1D8 + DM`, Medium'
+  - 'Horns — Unarmed Combat 40%, `1D8 + 1D6`, Medium'
+  - 'Trample — Unarmed Combat 40%, `1D8 + 1D6`, Medium'
 talents: 'None'
 ---
 

@@ -1,0 +1,2051 @@
+{
+  "schemaVersion": 1,
+  "generatedOn": "2026-08-01",
+  "activeStyleId": "inked-adventure-comic-vivid",
+  "purpose": "Canonical index of reusable art masters, content sources, style references, and published website derivatives.",
+  "styles": [
+    {
+      "id": "inked-adventure-comic-vivid",
+      "active": true,
+      "brief": "art/library/styles/inked-adventure-comic-vivid/STYLE.md",
+      "anchor": "art/library/styles/inked-adventure-comic-vivid/anchor.png",
+      "anchorSha256": "10480e72ee8a9468d1fef3a6a7bdc8d53fc2272415d0cb5fdc3e7730d1de770a"
+    },
+    {
+      "id": "more-naturalistic",
+      "active": false,
+      "brief": "art/library/styles/more-naturalistic/STYLE.md",
+      "anchor": "art/library/styles/more-naturalistic/anchor.png",
+      "anchorSha256": "fa0302189b8a3405003b571a947698c08d4d550beffe7dee70510c2e5b4da61e"
+    },
+    {
+      "id": "watercolor-storybook",
+      "active": false,
+      "brief": "art/library/styles/watercolor-storybook/STYLE.md",
+      "anchor": "art/library/styles/watercolor-storybook/anchor.png",
+      "anchorSha256": "c848b537bef961902cf10efa8bd03a3fddebbb43886c1f285c1304375600b28c"
+    },
+    {
+      "id": "cinematic-graphic-novel",
+      "active": false,
+      "brief": "art/library/styles/cinematic-graphic-novel/STYLE.md",
+      "anchor": "art/library/styles/cinematic-graphic-novel/anchor.png",
+      "anchorSha256": "c94ada836e5a578c0f595e7d643a1fb62317d076d5b72195e50bf10500485520"
+    },
+    {
+      "id": "animated-fantasy-feature",
+      "active": false,
+      "brief": "art/library/styles/animated-fantasy-feature/STYLE.md",
+      "anchor": "art/library/styles/animated-fantasy-feature/anchor.png",
+      "anchorSha256": "6766bbe1d560ecd96d98f09cc69f359dd12da890d4f2ddf325bc96b291bcd280"
+    }
+  ],
+  "homepage": {
+    "id": "home-hero",
+    "title": "Drowned Causeway",
+    "content": "art/library/subjects/home-hero/subject.json",
+    "master": "art/library/subjects/home-hero/styles/inked-adventure-comic-vivid.png",
+    "masterSha256": "e548c13b49c3e3d91642d1b4996faf2498e4414e5958e2c2ffd87c8266e26696",
+    "width": 1672,
+    "height": 941,
+    "exports": [
+      {
+        "path": "src/assets/images/home/index-tower-hero.webp",
+        "sha256": "d8b40bd4a243f4835ea3f6598942324c807877ba66e45ea75a866dfa24af940f",
+        "width": 1672,
+        "height": 941
+      },
+      {
+        "path": "src/assets/images/home/index-tower-hero-960.webp",
+        "sha256": "f05d54637ff77363345ae5014d273463843bfdb1edf8ffe53345a2e2830bdf2f",
+        "width": 960,
+        "height": 540
+      }
+    ]
+  },
+  "chapters": [
+    {
+      "id": "medieval-village",
+      "chapter": "start-here",
+      "content": "art/library/subjects/medieval-village/CONTENT.md",
+      "master": "art/library/subjects/medieval-village/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "e6993e04e0213557951ef4e4fb581d80e78c285bc583519686d98beeb72ceb7a",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/medieval-village.webp",
+          "sha256": "78f41dbc1c47d8dad099d31c0bae95b902fc2e3413eb65f39ef7fa04351ad2f0",
+          "width": 720,
+          "height": 720
+        },
+        {
+          "path": "src/assets/images/chapter-art/medieval-village-480.webp",
+          "sha256": "128ddb770e6319a41085860a2ce6e73d49c492236d31620fdc8f4d96eaa8bf0f",
+          "width": 480,
+          "height": 480
+        }
+      ]
+    },
+    {
+      "id": "consequences-at-the-gate",
+      "chapter": "start-here",
+      "content": "art/library/subjects/consequences-at-the-gate/CONTENT.md",
+      "master": "art/library/subjects/consequences-at-the-gate/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "739303863252c5a0ae3c53259a8124edc09fce08858ac14b7c1b0b3fb35fc4bc",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/consequences-at-the-gate.webp",
+          "sha256": "8de726009878f36d3125b6da66e76da53a18cde0859c0d9018d5e0262276a19c",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/consequences-at-the-gate-480.webp",
+          "sha256": "e77f0b9833f377949d75fc6f88a14767e254d3f830313acf04371ec9e9c8881a",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "female-warrior",
+      "chapter": "characters",
+      "content": "art/library/subjects/female-warrior/CONTENT.md",
+      "master": "art/library/subjects/female-warrior/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "200fdb1f34aff9f672061b4e8dacf45607fd105a1573ee3dacb3991eeec2de23",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/female-warrior-cutout.webp",
+          "sha256": "0447683d35de3e5af8478ecd22262112399c271d387b7f9b0cf9f06f60cf85dc",
+          "width": 600,
+          "height": 900
+        },
+        {
+          "path": "src/assets/images/chapter-art/female-warrior-cutout-480.webp",
+          "sha256": "14e204a764a0d782238581060a01131613d70760e643a9c7281b43a7ec920794",
+          "width": 480,
+          "height": 720
+        }
+      ]
+    },
+    {
+      "id": "adventuring-company",
+      "chapter": "characters",
+      "content": "art/library/subjects/adventuring-company/CONTENT.md",
+      "master": "art/library/subjects/adventuring-company/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "ece999a61994790809ac85050bf5c35d8d8565f31fba7d2980c6f0f6abd0f4e0",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/adventuring-company.webp",
+          "sha256": "4f0bde83c87f2d2acb4d843acc6fe38ed6348c1ee7f5a2e946c660215e699905",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/adventuring-company-480.webp",
+          "sha256": "181a2413f98d46b19578656e6a913f4f98132c15b49211cf266748305418fb3e",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "athletics-chasm-leap",
+      "chapter": "skills",
+      "content": "art/library/subjects/athletics-chasm-leap/CONTENT.md",
+      "master": "art/library/subjects/athletics-chasm-leap/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "b3f7f9af2f6dbbd0196c32e43b8d6ccb2093cd2bf1e4397d62ff84aa6602d5b9",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/athletics-chasm-leap.webp",
+          "sha256": "7e88d266f9732ab3b1092c27e2759ba28172e3b3cb7b4bb05b59bde9430dbdea",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/athletics-chasm-leap-480.webp",
+          "sha256": "88e1327bed308b78600bb291929cd265ae69e382aeab11c0baf1c111d49c4816",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "mechanisms-trapwork",
+      "chapter": "skills",
+      "content": "art/library/subjects/mechanisms-trapwork/CONTENT.md",
+      "master": "art/library/subjects/mechanisms-trapwork/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "68a14f140b20decedee52dc6f6bfa5ce080ccb99ae8064948356a772e015b265",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/mechanisms-trapwork.webp",
+          "sha256": "c5c11e389f7ff4f54746f8b705cb48f1733eb8a880ddc7d9aa803eca42cb9f8b",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/mechanisms-trapwork-480.webp",
+          "sha256": "c929d3e3169727195d0a7fad7ae85fb59faedefe5851d76afe5184d67201c18c",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "armour-field-sketch",
+      "chapter": "equipment",
+      "content": "art/library/subjects/armour-field-sketch/CONTENT.md",
+      "master": "art/library/subjects/armour-field-sketch/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "4cba5bd37bac6e3c42b313124ce107652d739569594717f66ce0ae6bf079b833",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/armour-field-sketch.webp",
+          "sha256": "15222c712500ee2193e41e1f41bfb5c8bcaf2baf24e660a8b8192beac2284756",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/armour-field-sketch-480.webp",
+          "sha256": "0953fa3ba2867a5bdca344031a3fb07e75c94c2fd8f32530cbea54908b8e9bf0",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "weapons-field-sketch",
+      "chapter": "equipment",
+      "content": "art/library/subjects/weapons-field-sketch/CONTENT.md",
+      "master": "art/library/subjects/weapons-field-sketch/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "759472a76c1d4f83e4bb5c18500a9fa30ab72517c9d62dad2256d3b111fa35d0",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/weapons-field-sketch.webp",
+          "sha256": "dbd874b7ede9c9bff13ed6922a4d304a7c3b2889582a07e23938c468ee8eb54c",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/weapons-field-sketch-480.webp",
+          "sha256": "191a184201517323077b0a53ca817e34d34702c9274171b6edb2e18e89d48f1d",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "shield-reaction",
+      "chapter": "combat",
+      "content": "art/library/subjects/shield-reaction/CONTENT.md",
+      "master": "art/library/subjects/shield-reaction/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "981b7e025fe8d3b218502788eebc8de563114527a14ad006e5e275baab6a9ed2",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/shield-reaction.webp",
+          "sha256": "9dfbdb636808728c3a43dd2658a98733e233f390e175e43b4dc74c84b863af4b",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/shield-reaction-480.webp",
+          "sha256": "d540f3df875357188f2f01eb5cfb842aa5ddff19bec918ace4146466f7e2ffec",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "ranged-from-cover",
+      "chapter": "combat",
+      "content": "art/library/subjects/ranged-from-cover/CONTENT.md",
+      "master": "art/library/subjects/ranged-from-cover/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "2b85db24b2bda1da911325c4e53ca1dd3d6008ea11b5e6f1b5a78acb50c4add9",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/ranged-from-cover.webp",
+          "sha256": "af451e202cce6e0bda64d312063581f1e3fb349da989b4c5c01a7b425d44c44b",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/ranged-from-cover-480.webp",
+          "sha256": "ac630316508a18c909c1adf1b440f6fe8c1140c675ba87ad9118a83bdf7b6d4b",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "grapple-reversal",
+      "chapter": "combat",
+      "content": "art/library/subjects/grapple-reversal/CONTENT.md",
+      "master": "art/library/subjects/grapple-reversal/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "5e2fc9e8ae5d187c3296fa706c4e19fa220e0e8e0c661581d867cd9fb7fc3bd9",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/grapple-reversal.webp",
+          "sha256": "242c8ebb444dd2b019fe16a27169f299e7c6871269b3a3caccb3075cd3545269",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/grapple-reversal-480.webp",
+          "sha256": "4ce80a8f887a31e6d511836c898b7f1118020c8f1234664e17f397ef8c6366bd",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "ambusher-from-rafters",
+      "chapter": "talents",
+      "content": "art/library/subjects/ambusher-from-rafters/CONTENT.md",
+      "master": "art/library/subjects/ambusher-from-rafters/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "dcb5dfebae221331ea6f245eb6f8548c3cd7c39f6f313e68f32181f60a3da922",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/ambusher-from-rafters.webp",
+          "sha256": "65f39d3571c2a322e25936cd1a9683a2d624dc434588f96aed7b59f75944ff6d",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/ambusher-from-rafters-480.webp",
+          "sha256": "4a81ead515ae0402bd246e6d82acd21dccd4172ffef6aafc45df43ddb3e0deca",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "field-surgeon-under-fire",
+      "chapter": "talents",
+      "content": "art/library/subjects/field-surgeon-under-fire/CONTENT.md",
+      "master": "art/library/subjects/field-surgeon-under-fire/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "6e0467a34a905947c8c8a8655870222d36e5eaba1b54218a0b5ff286540763cd",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/field-surgeon-under-fire.webp",
+          "sha256": "88be3d92da5188bf23431157e0f99bbd937f39b388e0bf20fa16d7416e6c8097",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/field-surgeon-under-fire-480.webp",
+          "sha256": "e81e29eed73683b5927ef65530e4fb035d8d6c8a1166f6b617ce1c0f9c816ed3",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "rally-at-the-breach",
+      "chapter": "talents",
+      "content": "art/library/subjects/rally-at-the-breach/CONTENT.md",
+      "master": "art/library/subjects/rally-at-the-breach/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "3c6345114e4d0d85a9e1f660d80c01d84ad723025956de086b8b1a62c46b9801",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/rally-at-the-breach.webp",
+          "sha256": "9a9b03680e0740f03323203c763f067b1e43eb5a810db397c3690d3c13f47f5e",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/rally-at-the-breach-480.webp",
+          "sha256": "7771cdb72fd2ecab6a0722efd99a953e68e3e0ee9f822e4130b48382ccec5a48",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "fire-shaping",
+      "chapter": "magic",
+      "content": "art/library/subjects/fire-shaping/CONTENT.md",
+      "master": "art/library/subjects/fire-shaping/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "19bcd7012aeafa2eb8cfd7aab54236c021a5bfe9ca8380d7623d2261b21721fb",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/fire-shaping.webp",
+          "sha256": "5cd6546dc0d1739a521d252c53bd7c447f657261682cd17c8bda34eb4e84e6f9",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/fire-shaping-480.webp",
+          "sha256": "4f7026fe7a76e0da83bbb41bcfc5775b515bb06490afd96f730c35af8de09538",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "ward-against-flame",
+      "chapter": "magic",
+      "content": "art/library/subjects/ward-against-flame/CONTENT.md",
+      "master": "art/library/subjects/ward-against-flame/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "c70f28696c75d137f512752017dd8405a542f268e86c107f22ed8cc6263721ad",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/ward-against-flame.webp",
+          "sha256": "6ac41af3528c3973b3f25d9bb82ced814713b9ad8e57200ee3f3720e49b2d797",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/ward-against-flame-480.webp",
+          "sha256": "b3667284e17d294b2693c7bc0b541e1ad25abe4e48dcc90eeb514ca32bd3e15b",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "ritual-company",
+      "chapter": "magic",
+      "content": "art/library/subjects/ritual-company/CONTENT.md",
+      "master": "art/library/subjects/ritual-company/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "808638ceb95dd71d7220a8453105ca658c01fbb847b3c476fde1daade9e883ff",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/ritual-company.webp",
+          "sha256": "6d345cb534256959ddea8173297d7ef3583479ac20b0d89a52960a3514c66daa",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/ritual-company-480.webp",
+          "sha256": "9bd1b516cf6427549806d2faa0db23f39b3715d5f5671f147c9532522727c154",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "illusion-double",
+      "chapter": "magic",
+      "content": "art/library/subjects/illusion-double/CONTENT.md",
+      "master": "art/library/subjects/illusion-double/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "22adfdfc068fb14f381807c76b6a7b82823fc03e5d529046f8f71bbca6dee6ad",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/illusion-double.webp",
+          "sha256": "3ebc1fcddd2858916beef9e5744b3c8316af269fb53b552875c7ecd223571aef",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/illusion-double-480.webp",
+          "sha256": "05085c5621a9385ae960d8f22b6f20e70d5ca1564c83ed675192bc05d9e103f4",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "bridge-hill-fort",
+      "chapter": "adventuring",
+      "content": "art/library/subjects/bridge-hill-fort/CONTENT.md",
+      "master": "art/library/subjects/bridge-hill-fort/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "11acad2ac0f4dab1c6584f1f62db675453a6bcc9adc3320c24edff761991e676",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/bridge-hill-fort.webp",
+          "sha256": "aa8d76861c79b138eb26d7e70d82e24ac0d4f5a91bc9fd424662001724c28cb8",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/bridge-hill-fort-480.webp",
+          "sha256": "6ee9b34a1286fe52b3ccb3cb33855b540ca0daee1381b7169245897e49d0b950",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "rope-rescue-fall",
+      "chapter": "adventuring",
+      "content": "art/library/subjects/rope-rescue-fall/CONTENT.md",
+      "master": "art/library/subjects/rope-rescue-fall/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "76f1d823e0af779a3bd0978a778e9101c0ef90b1ebd1f11354163a7012b5072b",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/rope-rescue-fall.webp",
+          "sha256": "6527f2c42cb9947cc8493357cac17da11c498fe3f4fe4a94bf990d9842076c24",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/rope-rescue-fall-480.webp",
+          "sha256": "e7917b68d018c9d2299b39de0ec9973c4a0d65a102f53f990744acf7ed95b7cb",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "storm-sea-watchtower",
+      "chapter": "gm-tools",
+      "content": "art/library/subjects/storm-sea-watchtower/CONTENT.md",
+      "master": "art/library/subjects/storm-sea-watchtower/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "7404974dafc825936e77d4125afa39bdd4580c94e742f3a0435c7fd3d29b4fe3",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/storm-sea-watchtower.webp",
+          "sha256": "aad918e06f54600e59cd3ea70c434ab73432896b73624153f948669a8fdf7770",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/storm-sea-watchtower-480.webp",
+          "sha256": "934cc42c57c4c7f4f48113b1661606e293a84cc4226048a09d31e2163becc5bc",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "battle-command",
+      "chapter": "gm-tools",
+      "content": "art/library/subjects/battle-command/CONTENT.md",
+      "master": "art/library/subjects/battle-command/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "9b0793b8f4605e2a504654267d24f1201c08f96be4a3e57405faa95ba6bc7253",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/battle-command.webp",
+          "sha256": "f67282e2548fe2623638673670900919978c63d9a2b49994a654d59824d53576",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/battle-command-480.webp",
+          "sha256": "cc401f979cd697c0a6c1fc264f9d36c5148e72bc51d9bbba6ba17578b991303f",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "enchanted-sword-identification",
+      "chapter": "gm-tools",
+      "content": "art/library/subjects/enchanted-sword-identification/CONTENT.md",
+      "master": "art/library/subjects/enchanted-sword-identification/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "6fb9eb8fa3d5e12693e775a79705a2b97ccb813c6a28f5ec101edb2d8150f99f",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/enchanted-sword-identification.webp",
+          "sha256": "eccd555affa262ae8e72019d479097d9319138514a9f4954939d1e4e7bf711f2",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/enchanted-sword-identification-480.webp",
+          "sha256": "c8a62c6e973632e4f2f179b4a1826fe3c9650de1762f2e99586dacf68caea515",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "night-senses-stalking",
+      "chapter": "creatures",
+      "content": "art/library/subjects/night-senses-stalking/CONTENT.md",
+      "master": "art/library/subjects/night-senses-stalking/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "bd235ec688dd96311464ade9825eb65e3dc1010a8ede565cd86d94a123faeb1c",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/night-senses-stalking.webp",
+          "sha256": "511999d2c7c8ded79ecd5f10b5b4a9191e072d0c8825218807e7d0ada5bbec2a",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/night-senses-stalking-480.webp",
+          "sha256": "936556479a705add5b44b8e6dcfedc1546b05b497914357ec9347fe15d44abb3",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "spirit-possession",
+      "chapter": "creatures",
+      "content": "art/library/subjects/spirit-possession/CONTENT.md",
+      "master": "art/library/subjects/spirit-possession/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "fd1bc9cc2fb13930ea24278da9196f05805661ff1202030c70e9c8c9fd64ea2d",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/spirit-possession.webp",
+          "sha256": "707685c990b4d2be8baca789448544807114dbf1c8f44f34793a52799769071b",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/spirit-possession-480.webp",
+          "sha256": "e37f12d7ed517cd33bee2b84c0c6d46274c43b9b5706b776d559bca84dcc4700",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "encounter-scale",
+      "chapter": "creatures",
+      "content": "art/library/subjects/encounter-scale/CONTENT.md",
+      "master": "art/library/subjects/encounter-scale/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "44e708dd31e627bd9824f4edf6b1421325d4a9c70772acf43ed491f6fd9ccd03",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/encounter-scale.webp",
+          "sha256": "12f50f3ebb37de8fafb07067e7dbd9c434967a29ab2ee3601bf59068c345d8c0",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/encounter-scale-480.webp",
+          "sha256": "0f99f51ef398f0d0964fc21aba2dd03992c9eca4a6838db176f0c2a537de038e",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "shared-rules-codex",
+      "chapter": "license",
+      "content": "art/library/subjects/shared-rules-codex/CONTENT.md",
+      "master": "art/library/subjects/shared-rules-codex/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "9d86988c4568a776b5a74b870a142653d0856eb45f1e092996fb73cfb0bf397b",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/shared-rules-codex.webp",
+          "sha256": "5483752e1eada0044ea555b84958989197e88d2ec01b93164eb6c73a09100061",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/shared-rules-codex-480.webp",
+          "sha256": "8e7fff0797dca03cd7291c96399d725abfa0676d7e0d8abc1897ccaf2bf36ac1",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "id": "copyright-scriptorium",
+      "chapter": "license",
+      "content": "art/library/subjects/copyright-scriptorium/CONTENT.md",
+      "master": "art/library/subjects/copyright-scriptorium/styles/inked-adventure-comic-vivid.png",
+      "masterSha256": "2c8a30701293a88891757cffed4242223afe332243dac2909baf215219f0d3f5",
+      "width": 1536,
+      "height": 1024,
+      "exports": [
+        {
+          "path": "src/assets/images/chapter-art/copyright-scriptorium.webp",
+          "sha256": "b3563ca4609e0e46773c3db763f789106f06186e257ae901ccb876150a487b74",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/chapter-art/copyright-scriptorium-480.webp",
+          "sha256": "6c26818cae4e4fd47bd3b3a648920986df7a504fee52636ff200627888a89f40",
+          "width": 480,
+          "height": 320
+        }
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "slug": "ancestor-spirit",
+      "content": "src/content/rules/creatures/ancestor-spirit.md",
+      "poseBrief": "Kneeling beneath a cottage loom while demonstrating a treadle repair.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ancestor-spirit.png",
+      "masterSha256": "47f1ec9b05626ffdb4462c97e28f60082337c1852c20e0373530d4639f303e56",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/ancestor-spirit.webp",
+          "sha256": "6f6012096519a8ccd5babe6042e681ff031eda72f38a644609cfbaafa309f3c7",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/ancestor-spirit-320.webp",
+          "sha256": "09d7c905406afea0f3694b3b6aed95e991d3557810fce1c55fb76c6144266349",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "basilisk",
+      "content": "src/content/rules/creatures/basilisk.md",
+      "poseBrief": "Creeping sideways from beneath a cracked mortar in an abandoned apothecary.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/basilisk.png",
+      "masterSha256": "c7859a4bdeb29b74cdad76bea53de92fc4c7b85d587fff46620717584846e287",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/basilisk.webp",
+          "sha256": "422bf37ec86a9c2a22bb2951f620b21a963df105126d71f374c12579af8eb025",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/basilisk-320.webp",
+          "sha256": "d0db5c875b916e1e18332ef8ec39f857b60f22b38ca35e9e08a8c40f8212b0c9",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "bear",
+      "content": "src/content/rules/creatures/bear.md",
+      "poseBrief": "Twisting back from an overturned log beside a mountain stream.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/bear.png",
+      "masterSha256": "d5299687214f24d31a57d3d75e71305c8e436a8a041912eae0515d2a06a02a1c",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/bear.webp",
+          "sha256": "9d748f87cc7c673455d98c5b6e511eab45fc2d895cf556776a7530238da5780a",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/bear-320.webp",
+          "sha256": "a0ed5d29d65b3d3d601bae7216aa4be030d4731aa06faa284cebe7b79cfa4c9a",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "beastman",
+      "content": "src/content/rules/creatures/beastman.md",
+      "poseBrief": "Advancing downhill from a rocky pine woodland, medium round shield held correctly forward on the strapped left forearm and shortspear carried low in the right hand for a compact thrust; horned head lowered behind the guard.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/beastman.png",
+      "masterSha256": "e2650faa65cad649fd5558b1613cd2ea353c46e11521eeafc119e39de7291297",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/beastman.webp",
+          "sha256": "030317e1ee748730a6db05406b015c5045b8ee7a3f6fbc162b21b9b9f260e814",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/beastman-320.webp",
+          "sha256": "44463520438851025f605b59f58904206a51da75079383c95366be669fe2b87c",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "bull",
+      "content": "src/content/rules/creatures/bull.md",
+      "poseBrief": "Pivoting heavily in mud to line up a charge.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/bull.png",
+      "masterSha256": "e192a6fcbd75522ed5ed6f1689e05ff6eda1176100d13d2c7c284156a1bc4921",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/bull.webp",
+          "sha256": "149466b63ecd968db6abd9c87be0024a16b5c3eb937d974f8d37a9d695611522",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/bull-320.webp",
+          "sha256": "766d691e7ce03d1d2860eff1152b6235d8a45a4fd1e4f66f1dff555ca2cbb204",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "crocodile",
+      "content": "src/content/rules/creatures/crocodile.md",
+      "poseBrief": "Surging sideways from reeds onto a muddy bank.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/crocodile.png",
+      "masterSha256": "7c43ae15bbb4a81ec4fc40e8e6eb89f569ff94f0b7a4601b72bae86299f10949",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/crocodile.webp",
+          "sha256": "66ce3e7cc40d436737188303f36559614fea1e912e67863a0d6c6d29a261d032",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/crocodile-320.webp",
+          "sha256": "3197b20a535e44126e1ab4952780eb5bb63ce93f4537288ad0b0b6ac3aac8923",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "disease-spirit",
+      "content": "src/content/rules/creatures/disease-spirit.md",
+      "poseBrief": "Flattening and reforming beneath grain sacks while stalking warmth.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/disease-spirit.png",
+      "masterSha256": "7f34574a71aada1ca93c797addd0daf746e3f4eff264db3bb3b287c591da06d3",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/disease-spirit.webp",
+          "sha256": "4e324c03859a6ccef109bf99cca756781af901f510bd3861eb92564c8a23b6d3",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/disease-spirit-320.webp",
+          "sha256": "a4541fd5abae19245d9abcc2dfd6aec62d3e732a93f29599fc4346fa5cb9a646",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "dog",
+      "content": "src/content/rules/creatures/dog.md",
+      "poseBrief": "Digging under a tilted farm gate while looking back to listen.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dog.png",
+      "masterSha256": "323f7e3daec807386bb8c2f64be920e13e3f84917489ebc6d1b0240eafcbaaff",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/dog.webp",
+          "sha256": "73f127c2eaba617f88220fef08c2447a66f8dd828d06133a72efe2ab986b2fae",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/dog-320.webp",
+          "sha256": "0d7b97600dc0a9d7f1d48fa2a1d52f12e4f8999b15d89965edcf827ec14d9f04",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "dragon",
+      "content": "src/content/rules/creatures/dragon.md",
+      "poseBrief": "Descending carefully into a ruined courtyard while lighting one brazier.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dragon.png",
+      "masterSha256": "80ea050f97f43e8da3f15b594915d63772340a7c93616af6d2eb05c954458a96",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/dragon.webp",
+          "sha256": "4dcce43a42576babb9fd7af3000d1ab64b88e33ee6ef7baf50b6860720c64e90",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/dragon-320.webp",
+          "sha256": "2f0025f76ef5a229c60f506f9b7534f46f2981401a685a41cc753212c31f697c",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "dryad",
+      "content": "src/content/rules/creatures/dryad.md",
+      "poseBrief": "Standing in a stable three-quarter pose beside her intact anchor tree, one open hand resting flat against its trunk while the other guides two low ribbons of ivy apart across the forest floor; both feet remain distinct and naturally planted, and no limb, staff, or branch merges with the tree.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dryad.png",
+      "masterSha256": "86bff0bed603f2b02faa870276aa919317bb90dbf95d301504d3d5fd1765495a",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/dryad.webp",
+          "sha256": "ec66f5e363e6eb3bc82dbd80e4e0c600734d557e99b449a2380426dd59e2d3f4",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/dryad-320.webp",
+          "sha256": "3dbe59d95cc0a287d2f1c2d487cd7c8187a5c4cd43afd473cc13356303daa186",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "dwarf",
+      "content": "src/content/rules/creatures/dwarf.md",
+      "poseBrief": "Kneeling in a mine with one palm to stone, using Earth Sense.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dwarf.png",
+      "masterSha256": "112fe7a0e5863e05d25aff094ea35c32117fdf8d49b75ae7f854c27526b6d325",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/dwarf.webp",
+          "sha256": "15d7bf107f5fe1c9743f71c019099d1e81a3a29590cd3566ceb5a248b9d4e55f",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/dwarf-320.webp",
+          "sha256": "5d3790fec4fe3559bb8d24da197cae1717baac9d4a15dafbcd1bccefc5305e63",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "elemental",
+      "content": "src/content/rules/creatures/elemental.md",
+      "poseBrief": "Pulling free from a quarry face, body still half merged with rock.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elemental.png",
+      "masterSha256": "4dcd54d26e4409255132a1786e189df2b2aad0834675f9eec0e52c20d0586623",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/elemental.webp",
+          "sha256": "31f33bd1a5de02ca434b31d03fc4b116e56a668135683386f5323783c0fc7b99",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/elemental-320.webp",
+          "sha256": "32a9dbfca4e287f101b215e95b0afe274628445b1e25b734da60e0a4c6320cc8",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "elephant",
+      "content": "src/content/rules/creatures/elephant.md",
+      "poseBrief": "Stepping down a riverbank while spraying water across its shoulder.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elephant.png",
+      "masterSha256": "b2ff755d181fc55019de90a8b5cbe28bf5454f290405658ad79795c2254e8d99",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/elephant.webp",
+          "sha256": "8ae96108a9fd91cc38c28402ffeb17f64dac150f3585d4a64a754b9e462a9d44",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/elephant-320.webp",
+          "sha256": "049f0dca2eba0b04c06cef8460c3d4247d65d6b446d05644768ab6647d420bd2",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "elf",
+      "content": "src/content/rules/creatures/elf.md",
+      "poseBrief": "Crouched sideways on a fallen trunk, drawing a bow through leaves.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elf.png",
+      "masterSha256": "928eb29f03eef52d32da72ce0cd9b75979ba56e18a5cd10d27843e9c8f327347",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/elf.webp",
+          "sha256": "36bb7e6c3adc71507385ceae5af7dce29fbe72282be4ffdc16e46ba7463cff72",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/elf-320.webp",
+          "sha256": "bed9930f3577e6e4b2f7d266555ba6a8d027b4bb8a953550093dd16f2db58dae",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "gargoyle",
+      "content": "src/content/rules/creatures/gargoyle.md",
+      "poseBrief": "Crawling headfirst down a rain-dark cathedral buttress.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/gargoyle.png",
+      "masterSha256": "962f4c3a063bddb42c4733d18cdad7cd1bea02ff6226ae841c680f14c7033a3f",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/gargoyle.webp",
+          "sha256": "19b8b078107284a5ee92dac6a24300a6062ada0db38d74980d14b681f9e5fb24",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/gargoyle-320.webp",
+          "sha256": "c4a33ea5ea701e69c5179839d4f1de763f06e790f024269947e09013e93938a9",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "ghost",
+      "content": "src/content/rules/creatures/ghost.md",
+      "poseBrief": "Pulling an immaterial ferry rope that vanishes into dry sand.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghost.png",
+      "masterSha256": "fc88cfc4f7fe4183126076b09c1bb7526c8bc45d28dea0f011b5326137260b2e",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/ghost.webp",
+          "sha256": "65d7c640cf405b2ebe3b5e086c296d1a2f945820cdd7b4f94601c7f92e31d820",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/ghost-320.webp",
+          "sha256": "e0b5ed4c185c6fdca9b915f5cebfd84fb356866a4d542370ee8655fe0fd26077",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "ghoul",
+      "content": "src/content/rules/creatures/ghoul.md",
+      "poseBrief": "Moving beneath a smokehouse table while twisting into a warning howl.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghoul.png",
+      "masterSha256": "49fca7e1db18f09bf63ce339cba38b125bf42e1569a89180362342099e8e2083",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/ghoul.webp",
+          "sha256": "bd23eed58687c8de9c64ef67f412539216501e712007c88be4500d116bb41b88",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/ghoul-320.webp",
+          "sha256": "b904c51110abaa387a24fe405416ae9902d64146c65203b092913490b74fbba4",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant-ant",
+      "content": "src/content/rules/creatures/giant-ant.md",
+      "poseBrief": "Climbing a fallen log while shearing a thick root with its mandibles.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-ant.png",
+      "masterSha256": "901a432f825777fe9d12bacfd03c53f4f0c89f09c10def70021bebe2b9b00a73",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant-ant.webp",
+          "sha256": "215135d07b0d4ac556d7bcc00eb5e9234223693508ab3c224b4d7a31e2d2ad85",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-ant-320.webp",
+          "sha256": "f85855bc68b0095515e32bfbda1b8fdfa9f26e0a8cb01b4d99dc436832a8d98d",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant-hawk",
+      "content": "src/content/rules/creatures/giant-hawk.md",
+      "poseBrief": "Pulling out of a raking dive along a mountain shelf.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-hawk.png",
+      "masterSha256": "0732b06d63f38bdea5be1e40779301a5461e1893fad8830e0f1ce87bafc48418",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant-hawk.webp",
+          "sha256": "08cc27b9166b24d4bae666c70a35398fd1deaecafa1993ddb7fb23771b6c46f8",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-hawk-320.webp",
+          "sha256": "6c05dfcb18c7e38fc3de45ed85012d35ff6beab7fffc58a5503c1e04692124f8",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant-lizard",
+      "content": "src/content/rules/creatures/giant-lizard.md",
+      "poseBrief": "Whipping around a ravine boulder, head and tail moving oppositely.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-lizard.png",
+      "masterSha256": "94703d5a96bc3352a9ea66c46fd6e321955f547761ebfcae3503c9a27c1d4e57",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant-lizard.webp",
+          "sha256": "73709091aaa951575ac4a81aed144c5fbbb864b6aac7a1f22be2628bbf63bbae",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-lizard-320.webp",
+          "sha256": "f9e6c2131bd7f00f2086518564e87f7bfdea916db6d973dc3319a1527854897f",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant-octopus",
+      "content": "src/content/rules/creatures/giant-octopus.md",
+      "poseBrief": "Squeezing from a sea cave with eight countable bracing and reaching arms.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-octopus.png",
+      "masterSha256": "dba445d5b5d0084ad35d0a13072a73f9a5ad64dbfcb398b92d9939ea5b27e8ee",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant-octopus.webp",
+          "sha256": "38ac428a67ebf8770e58fda186f54a7991863736ef7d5750e7a44bd011396363",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-octopus-320.webp",
+          "sha256": "6d53c6c1d5b949bd5aeed2c4f6952b04c8a429dccfb06a35146ab6c5c1fd5111",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant-python",
+      "content": "src/content/rules/creatures/giant-python.md",
+      "poseBrief": "Coiling continuously around a cracked pillar for leverage.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-python.png",
+      "masterSha256": "5d59384ee5f316a97d064a0c8e11a00ee139898162383508239110ddf322d46c",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant-python.webp",
+          "sha256": "26491ed7137d6a1ebf1b44e967ef88970c8e7866ee48dc4a03499b302cc6aad8",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-python-320.webp",
+          "sha256": "539f617ce1ead196066f392f42e43f9bd98cf1cb714d2fe75d914bbd5389df41",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant-spider",
+      "content": "src/content/rules/creatures/giant-spider.md",
+      "poseBrief": "Hanging beneath a ruined roof beam on taut silk lines.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-spider.png",
+      "masterSha256": "2a8b827b46472d974d198461bd4fbe38ff9dfeccf32724560e2515d262c6c27e",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant-spider.webp",
+          "sha256": "5a61e7afe676ef1739c6425d8c568d2e6dadc1e7a01ab99b2d8df18305952ea7",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-spider-320.webp",
+          "sha256": "97e6ac11284b7206415445d8ad49234ba52239ea8c042c0ee4f63f7579b32804",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "giant",
+      "content": "src/content/rules/creatures/giant.md",
+      "poseBrief": "Crouching in a flooded field to lift a stranded wooden cart.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant.png",
+      "masterSha256": "30d1fa6ac6ddd58e2c973bc3498b7cf910f7c659a448ae120bdb6e7661679de0",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/giant.webp",
+          "sha256": "328d9b0ff92ee297f02f719c0698d5c218e5e764eca4320ec427385078e945c0",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/giant-320.webp",
+          "sha256": "eb33966cf7783836ef895cd41c405c7afc32745b60c396cd41e300f536b06f44",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "goblin",
+      "content": "src/content/rules/creatures/goblin.md",
+      "poseBrief": "Sliding feet-first beneath a tunnel beam with shield overhead.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/goblin.png",
+      "masterSha256": "0ffd8106aa009656c2e32f3d2cfc45cc1ae586c8319f4aadcd4a7cfe99d7438b",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/goblin.webp",
+          "sha256": "78ec239da206ce4043ea454d0f4d16be17ce4bfe657bb149469139b77abc6534",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/goblin-320.webp",
+          "sha256": "3a36c141f56d12efd455bfd0e05d3e8d77f6151581eaf6413f8b80a6b6b93638",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "golem",
+      "content": "src/content/rules/creatures/golem.md",
+      "poseBrief": "Lowering a collapsed roof beam while checking a boundary stone.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/golem.png",
+      "masterSha256": "a6293926e4ed592acf36056872152b33aca7d9c0dc68e2fc7de36b8269e845ed",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/golem.webp",
+          "sha256": "65830e3234d8a5716d03cab7d2a9443e12aa048bc3523a92874ba8cf5b60baa2",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/golem-320.webp",
+          "sha256": "da35a41582d87c39417475348c6af32ea3dd9198f5b31217c53086b2e017d80f",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "griffin",
+      "content": "src/content/rules/creatures/griffin.md",
+      "poseBrief": "Braking asymmetrically just after a raking-dive landing.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/griffin.png",
+      "masterSha256": "68478009f94ffbe6ca2f28f1fc4dbc8d758093963b4824da5eaac208a144291b",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/griffin.webp",
+          "sha256": "27a05b5cc98c1a8d073a86d8492ed7a944f0a8edc1697e6c3880889c59a44650",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/griffin-320.webp",
+          "sha256": "66736a04d177047bdf4e14285c7957ff7a9d7a0a1c366e81546e8ba3c977dcd2",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "guardian-spirit",
+      "content": "src/content/rules/creatures/guardian-spirit.md",
+      "poseBrief": "Coiling around a bronze burial mask and howling toward a breached roof.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/guardian-spirit.png",
+      "masterSha256": "0ffca979c2dd6488b7b4fa876f4fb1f534a32b436f4f767ed998a047f3005f63",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/guardian-spirit.webp",
+          "sha256": "a52cea656d33877e04ccc30d889e8c9e02ae9037f62037aae2f90f5661d80927",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/guardian-spirit-320.webp",
+          "sha256": "1499d2a6d1807f5d73ba70cb25ec6a9aca9e62432fa1f51c2c213f27f2f995c2",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "hag",
+      "content": "src/content/rules/creatures/hag.md",
+      "poseBrief": "Crawling crabwise through a cave fissure while shielding light-sensitive eyes.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hag.png",
+      "masterSha256": "5fe6325f775333f5fa8a061be822fa456344d1dbfa2c101a82beb159e68ff784",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/hag.webp",
+          "sha256": "5eb5af8740a11c3c511a2f48b19085695c73400594efe7a1ec0d1024ea638748",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/hag-320.webp",
+          "sha256": "a6e8f5889a708e14e356f7f2cbb43bd3ccc7973c3641ff8012f12bb051cfff8b",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "harpy",
+      "content": "src/content/rules/creatures/harpy.md",
+      "poseBrief": "Banking over a coastal cliff with a filthy dropped missile.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/harpy.png",
+      "masterSha256": "c941c1289f28eb416a0a639764b206719b4a3f6033ef7f9c2b394c7a59aa1477",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/harpy.webp",
+          "sha256": "abbca9f4502df523911453c771c35485e34bb4cd79ff31a82bc2875bcecbeb96",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/harpy-320.webp",
+          "sha256": "4f44d378919d62691d8b50deed84a5115c580521ae4e6be3f6ae6efa94ad6374",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "hawk",
+      "content": "src/content/rules/creatures/hawk.md",
+      "poseBrief": "Banking through tall meadow grass with talons opening.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hawk.png",
+      "masterSha256": "3c0e562447c1c7583b257082fa7949d4a24ecdc829b669b5af6e0fe69a51c784",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/hawk.webp",
+          "sha256": "3e0500acd0b21fae661431ac325bfa82fe9dc0c1c44644315179cd67bb0d9c21",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/hawk-320.webp",
+          "sha256": "ff17799316cea69a49ce5a018069946abebf21c6a0abc9e3ea211276062012ca",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "healing-spirit",
+      "content": "src/content/rules/creatures/healing-spirit.md",
+      "poseBrief": "Heron-like spirit spearing a patch of fever vapor in an herb garden.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/healing-spirit.png",
+      "masterSha256": "4923a278b118b54115645bb797e4e03534a026802c4250e79be63c596796993c",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/healing-spirit.webp",
+          "sha256": "88b2e13b49a3a4f91efb0c63c9727b18a1ef3592504b460b2bda6fd39937b388",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/healing-spirit-320.webp",
+          "sha256": "2846276bbb5f7280e96763b3958fd8ac0fcad7086271ab8b18cd858e62aa58fb",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "holy-steed",
+      "content": "src/content/rules/creatures/holy-steed.md",
+      "poseBrief": "Testing a broken stone bridge with deliberate, intelligent balance.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/holy-steed.png",
+      "masterSha256": "694ae7605bdb0ab49dc229bfcb9e190657a6f0b8c168b68ec94b65e3ca18d40a",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/holy-steed.webp",
+          "sha256": "c1d7160b28c383249265bee5a7e136681e9c69582c21f0cab6e9fe64cbfb8727",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/holy-steed-320.webp",
+          "sha256": "f791d43f69a7b269ef3ca157ab45ce08becc3fe734181b22e579ed79ce1a7632",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "holy-warrior",
+      "content": "src/content/rules/creatures/holy-warrior.md",
+      "poseBrief": "Striding down broken sanctuary steps in full silver-and-gold plate, round shield raised in a natural forward guard and longspear angled back; calm commanding face framed by a disciplined golden-white dawn halo and radiant aura, with cobalt tabard and vermilion cloak lifted by a sacred wind.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/holy-warrior.png",
+      "masterSha256": "cc4965b8422ee0b936130d381eac4419a291e884db2c0f9650856288e437f126",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/holy-warrior.webp",
+          "sha256": "32d5d1fe26363a78a2214f7dd4110676f457f9922580734caaa186460f3804cd",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/holy-warrior-320.webp",
+          "sha256": "1d2453a933c317fbf5835cb909497c4fb600acd2511a482f50844cc88ecd02dc",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "horse",
+      "content": "src/content/rules/creatures/horse.md",
+      "poseBrief": "Backing and turning on a rain-dark forest path.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/horse.png",
+      "masterSha256": "3f0114b55782444700e6f60b4c67e249e88a0160d2b197c188299485383de70f",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/horse.webp",
+          "sha256": "0724d1a43b3db57c0fe89c3e8397774c436f687316ba51acdd944c5c551c12bc",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/horse-320.webp",
+          "sha256": "692be98c2a0eb233b8e8d82ee01f75e2be2d05cce46f10b72d0fa8c76cb5970d",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "lion",
+      "content": "src/content/rules/creatures/lion.md",
+      "poseBrief": "Dropping from a ledge into tall grass in a descending arc.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lion.png",
+      "masterSha256": "cc5b8514c7a0902ae16c55d01348193aba436c5a0ca47bcfbb23c10f663446c7",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/lion.webp",
+          "sha256": "35a0de54076f500f87cce62c9c325483eadfbf0303169c1ba562cc788babb1bb",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/lion-320.webp",
+          "sha256": "06e44ad88dfeeff10da6a4c01820115fe889f50b277d11e51c5de2ace9379d43",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "lizardman",
+      "content": "src/content/rules/creatures/lizardman.md",
+      "poseBrief": "Lying across a drifting log while hooking a supply bundle with an axe.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardman.png",
+      "masterSha256": "65b3afb795c8c8453ee7fd6932105a6bbea573e5b4f97a6babfcf9af9c9e2752",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/lizardman.webp",
+          "sha256": "18a0e2a41163af803efbfc1afe46cfa18adc9e4f00e52e22ef45cdc330d4f853",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/lizardman-320.webp",
+          "sha256": "74fdc3a89930e7183c594d43d271ae19efa16745bab267d37fa3559502c396db",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "magic-spirit",
+      "content": "src/content/rules/creatures/magic-spirit.md",
+      "poseBrief": "Folding a constellation-like body through an overturned astrolabe.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/magic-spirit.png",
+      "masterSha256": "057bce12e973f394b335ab1db0ebd9c634fb150755feac171b4c665bb0ba5919",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/magic-spirit.webp",
+          "sha256": "71183614d4939f2d96866ee8e08ed6c06f26fe5e543af56f80660e3c133df4ff",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/magic-spirit-320.webp",
+          "sha256": "12f77b25d24495ef006d5a248dec71f2d505664ceba6a172d70f7fbd06bed02f",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "merfolk",
+      "content": "src/content/rules/creatures/merfolk.md",
+      "poseBrief": "Rolling under a fallen mast using spear and tail as a pivot.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/merfolk.png",
+      "masterSha256": "3f8b68cf6b41fb0603e7f2b4c1bed527766a9392c8345d2727f3bd4a43d9c11b",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/merfolk.webp",
+          "sha256": "f5bfbb1aa6c4076005916b62954b5d65e338df41b1d91e32a198cfcc2d4a8464",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/merfolk-320.webp",
+          "sha256": "2819a9547f5be434be363a8538eb4dd707534a0e6c18165febb2c3b2bd9fd267",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "mummy",
+      "content": "src/content/rules/creatures/mummy.md",
+      "poseBrief": "Descending a burial stair seated, one rigid step at a time.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/mummy.png",
+      "masterSha256": "86956aaa0c02766e8770bd1275d193e69908f3932ceed1595453af31dac1f3a0",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/mummy.webp",
+          "sha256": "607e5642e1e0902e4b94905aaf77550366ebba5c55e69609984e1536e9f0a306",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/mummy-320.webp",
+          "sha256": "86b2463370f4a7fbb58b3bcaaf41f4677d17515d763c11fa2a98a164efa0b63f",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "naiad",
+      "content": "src/content/rules/creatures/naiad.md",
+      "poseBrief": "Swinging horizontally around a planted spear through fast current.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/naiad.png",
+      "masterSha256": "9dadd02d8f9daafee438af7f451544cfb09f65e5c7bfefc26e261dfeea391bde",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/naiad.webp",
+          "sha256": "6b91bddeea2572f19f04db88bc45d9dcfba7fd7016e41cb02fa5db8078e4f2e6",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/naiad-320.webp",
+          "sha256": "ec217569d4c1904daeff4bef922b18adaeff140d228bc18568ff5c8b24aef064",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "ogre",
+      "content": "src/content/rules/creatures/ogre.md",
+      "poseBrief": "Hauling a great axe free from a shattered stump in a rocky ravine.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ogre.png",
+      "masterSha256": "73959fc2ff79d02939b394006d963dae0092dea6c658f5b880ed2a7ab4649e6d",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/ogre.webp",
+          "sha256": "e1630a180c16eb70281e0638f83b66babd990984c341b053fb5ea32df619e97c",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/ogre-320.webp",
+          "sha256": "ef1c6cc324adac35ddde5085bf05ab31be4e1118d71c51276246f890600a30e4",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "orc",
+      "content": "src/content/rules/creatures/orc.md",
+      "poseBrief": "Vaulting sideways through a ruined window with shield leading.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/orc.png",
+      "masterSha256": "96b49ce657c454f8359c6337585b7894f9b489ea37b11fc39948efd3772ff365",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/orc.webp",
+          "sha256": "c3f73717b83128919fa7f22dffa88f03ae0ef2b6d48e1178beeb7a86eebe0ff0",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/orc-320.webp",
+          "sha256": "8a815cc2ff72597b0e30f0c5fd84178faf614368f47e69a9cb995d98222330f8",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "oread",
+      "content": "src/content/rules/creatures/oread.md",
+      "poseBrief": "Skating down steep scree on a slab while catching a falling stone.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/oread.png",
+      "masterSha256": "82c5e97cf5a68afdcd333b841b9ed54c8fe7c4823cce82ff6080c84e58994ea3",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/oread.webp",
+          "sha256": "be5dbfb428f927afdc2c0c8c1f6af81c314f545fcf53b1ce51a7828519cc5fa1",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/oread-320.webp",
+          "sha256": "b62a4627bd3d3bb32235847dc6a3f0a443101358439e13eb8944059d604d2253",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "passion-spirit",
+      "content": "src/content/rules/creatures/passion-spirit.md",
+      "poseBrief": "Spiraling around a swinging watchtower door as embodied fear.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/passion-spirit.png",
+      "masterSha256": "56ba4911ae4e64c67ea590ae58a4300380c65a03f6a223257399b27f2f6b9846",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/passion-spirit.webp",
+          "sha256": "d35a5ed2e6368a9b85bea8820261b83e15b171c9c03bd3096cce134a75ef31cf",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/passion-spirit-320.webp",
+          "sha256": "46661837ba24a8009ac3627e18c8c36511d7380fff495f20f079c5621b4dcd93",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "pixie",
+      "content": "src/content/rules/creatures/pixie.md",
+      "poseBrief": "Standing upright after a light landing on a broad shelf mushroom, head, torso, hips, and feet aligned in one natural three-quarter direction; exactly four translucent wings attach symmetrically behind the shoulder blades with leading edges and tips extending outward, upward, and backward, while one open hand guides a subtle breeze around a luminous seed.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/pixie.png",
+      "masterSha256": "90342bc0b23e625a2f1fadb3388c9b4e4b43ddc5293ceac92212ae4255bd0b30",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/pixie.webp",
+          "sha256": "08f245aa49949d0e6ca1b5c095dd5f5f0c03acd5c5b59d81c7320c5f69d03008",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/pixie-320.webp",
+          "sha256": "f5de236f71df0019c4f1b4687afee034bf2ca84a3c2c287636dcf2419bac96d0",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "raven",
+      "content": "src/content/rules/creatures/raven.md",
+      "poseBrief": "Hopping sideways on a fence rail while snatching a beetle.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/raven.png",
+      "masterSha256": "a9e032c4279474522883502cbc5a622631b6e2deba1c830c1f4d68c760504a1a",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/raven.webp",
+          "sha256": "5d4f6362750dbda8e482c09061109814756ea249fc96a8fdb58e86d79665f377",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/raven-320.webp",
+          "sha256": "2a006189f088529fc1086422d96e1732d9ba0830261d5a3ddc1fbb6fd2d6f1b6",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "rhinoceros",
+      "content": "src/content/rules/creatures/rhinoceros.md",
+      "poseBrief": "Braking and swinging its mass after a missed charge.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/rhinoceros.png",
+      "masterSha256": "f7d78230096d3956bfd303f66f308bcbcf5b8df07b5d36d9f40f26894eb19176",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/rhinoceros.webp",
+          "sha256": "ead447b177c4277cd746d2c2d5e82169245b19f497d46e8c672a0c29c751c3dd",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/rhinoceros-320.webp",
+          "sha256": "1071fbfdc000b611240cc7b70368895d72b6f5285d55bd554bda87dab9ab7e2b",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "sea-serpent",
+      "content": "src/content/rules/creatures/sea-serpent.md",
+      "poseBrief": "Turning slowly around a sea stack, body split above and below water.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/sea-serpent.png",
+      "masterSha256": "6e930ec3d539c4f260bdae84f5fc2f2f66e191049c77fd6e2cbd1a44c69548de",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/sea-serpent.webp",
+          "sha256": "1c470f75f2529249d98fc15f559d61c780551cea560a23f95eb9f4e7c6997926",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/sea-serpent-320.webp",
+          "sha256": "bf81af845eebf18b752aa107acb5482667a8f08c8ccd931940ce1bf88259b4a6",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "skeleton",
+      "content": "src/content/rules/creatures/skeleton.md",
+      "poseBrief": "Descending a broken staircase backward on hands and feet.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/skeleton.png",
+      "masterSha256": "13cf27d6394cc7868ca625f98052131e69a770b9ef775cbe40063a44a237e02f",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/skeleton.webp",
+          "sha256": "e7d5a36604d2ab0555af4bc28d617238d1010560824380040be167bcbe0e8782",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/skeleton-320.webp",
+          "sha256": "3aac6abb25fd1a1a95bca2455fc633de1eaa1328741bdde73413991cbf51116e",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "troll",
+      "content": "src/content/rules/creatures/troll.md",
+      "poseBrief": "Crawling awkwardly beneath a fallen trunk while a wound closes.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/troll.png",
+      "masterSha256": "2d5517f779346ba5ee32c58332e79de5bd989aeaf46c5823c5954fbff16ce75f",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/troll.webp",
+          "sha256": "50d995ec706f42a522639d452952877711969ddab67ef8727b37804e00f6bdeb",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/troll-320.webp",
+          "sha256": "684b0d34a4b2f80d18fb1056f8f2127b61b7aac2fca0f393e4ce3871d5001e4b",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "vampire",
+      "content": "src/content/rules/creatures/vampire.md",
+      "poseBrief": "Turning its lower body to mist while levering a locked inn latch.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/vampire.png",
+      "masterSha256": "2b2434a3e18e276d19fc81cd2dd1a1dd37ce970244d00673266b36c8be3fa01b",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/vampire.webp",
+          "sha256": "dec45bb3558adbf32c944a4dd2784845fda948ad82ed69d839d987eae1562ae1",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/vampire-320.webp",
+          "sha256": "6f5ff9fa3e4f2454cc333c2f6618b4d03e69083309c3a49eea63748dca14d3d2",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "viper",
+      "content": "src/content/rules/creatures/viper.md",
+      "poseBrief": "Flowing through a grounded S-turn between sunlit stones.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/viper.png",
+      "masterSha256": "9ede4e4b52b170ce5f0b7a9c299969f6534a2837d86cd83c47b4570f48fbd67c",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/viper.webp",
+          "sha256": "75db97bc8047ca7f2bf4be35278d1ea3484196477397e01bf4a1ba0b7c2c612c",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/viper-320.webp",
+          "sha256": "3a14d10ef98642d98979b7fdb9d79674ec2a05af9fe718758f069c734d21dd2c",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "werewolf",
+      "content": "src/content/rules/creatures/werewolf.md",
+      "poseBrief": "Twisting low mid-transformation while pulling at an ankle chain.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/werewolf.png",
+      "masterSha256": "5050c7eb1fc46d1cc9b1999aa880c8004de19cba075a916bd137b71f42476d40",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/werewolf.webp",
+          "sha256": "0260a2f3a464700a832577df560c0a2070cc44bffafc1e2247810b15356ed820",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/werewolf-320.webp",
+          "sha256": "f028c7cda4ae2e0c79ee39cd05b247d765e3028766eaace8c26636c8ccbaa9ee",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "wolf",
+      "content": "src/content/rules/creatures/wolf.md",
+      "poseBrief": "Pausing mid-trot in snow to listen toward an off-frame pack.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wolf.png",
+      "masterSha256": "a2f62798411e9a335aaf4d970b8e8c9d7784c7e7bd46c265a68f0238ed77871f",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/wolf.webp",
+          "sha256": "57e985a63b3fe6340f26d562b915b73e09ec9757b93ecf389c709aad69848420",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/wolf-320.webp",
+          "sha256": "c5d7219fc3510db989170b176e369f14c555d7bc81c493c376b74d25eef760c6",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "wyvern",
+      "content": "src/content/rules/creatures/wyvern.md",
+      "poseBrief": "Climbing an escarpment with two hind legs and wing-wrists.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wyvern.png",
+      "masterSha256": "58100c53fd674f1dfdf802ff04d71477ff35c410ab5ba09903ce9ba5c3f21b7b",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/wyvern.webp",
+          "sha256": "2169f9972c34210284cf9c89bb5b406782f06693300185023418c03be785e87e",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/wyvern-320.webp",
+          "sha256": "785617eb56501ac83e2b8f137af0645951fa4f02e931f1f0f5e496896112a867",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    },
+    {
+      "slug": "zombie",
+      "content": "src/content/rules/creatures/zombie.md",
+      "poseBrief": "Crawling belly-down up a loose grain slope without coordination.",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/zombie.png",
+      "masterSha256": "79accf73eae25385945d809f7901d1277880761c6cbb2572b1fdbf09026ea022",
+      "width": 1254,
+      "height": 1254,
+      "exports": [
+        {
+          "path": "src/assets/images/creatures/zombie.webp",
+          "sha256": "8fba22bd19729887f68ae882bb6335e9cd99012ed8a2457b49b693a3f24c5e0c",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "path": "src/assets/images/creatures/zombie-320.webp",
+          "sha256": "549f3676adfed935260239b85fa1e8bc865d3c530453a75251d41e52a142a321",
+          "width": 320,
+          "height": 320
+        }
+      ]
+    }
+  ],
+  "cast": [
+    {
+      "id": "mara-warrior",
+      "profile": "art/library/cast/mara-warrior/PROFILE.md",
+      "anchor": "art/library/subjects/female-warrior/styles/inked-adventure-comic-vivid.png",
+      "anchorSha256": "200fdb1f34aff9f672061b4e8dacf45607fd105a1573ee3dacb3991eeec2de23"
+    },
+    {
+      "id": "corin-scout",
+      "profile": "art/library/cast/corin-scout/PROFILE.md",
+      "anchor": "art/library/cast/corin-scout/anchor.png",
+      "anchorSha256": "a9897b29276b43ec0d7b94adbd3bd10e95459f66b28d0f00b523aae2c91557e7"
+    },
+    {
+      "id": "ilyra-shaper",
+      "profile": "art/library/cast/ilyra-shaper/PROFILE.md",
+      "anchor": "art/library/cast/ilyra-shaper/anchor.png",
+      "anchorSha256": "a61ab5645630fdd5df8595702fef48970f1e86d04b1d4403ca6cecc2eb37ff61"
+    },
+    {
+      "id": "fen-healer",
+      "profile": "art/library/cast/fen-healer/PROFILE.md",
+      "anchor": "art/library/cast/fen-healer/anchor.png",
+      "anchorSha256": "96050f53df2f3834d537c503f9fd7cb1b348da893ebb09cc1b3f1fd52688dd39"
+    }
+  ]
+}

@@ -50,8 +50,8 @@ skills:
   - 'Close Combat 40%'
   - 'Ranged Combat 50%'
 attacks:
-  - 'Shortspear — Close Combat 40%, `1D6 + DM`, Medium'
-  - 'Small Shield — Close Combat 40%, `1D4 + DM`, Medium'
+  - 'Shortspear — Close Combat 40%, `1D6 + 0`, Medium'
+  - 'Small Shield — Close Combat 40%, `1D4 + 0`, Medium'
   - 'Sling — Ranged Combat 50%, `1D6`, 50 m'
 talents: 'None'
 ---

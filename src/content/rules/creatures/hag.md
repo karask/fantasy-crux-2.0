@@ -51,7 +51,7 @@ skills:
   - 'Perception 50%'
   - 'Shaping 75%'
 attacks:
-  - 'Claw — Unarmed Combat 55%, `1D6 + DM`, Medium'
+  - 'Claw — Unarmed Combat 55%, `1D6 + 1D6`, Medium'
 talents: 'Mastery (Deception) I'
 ---
 

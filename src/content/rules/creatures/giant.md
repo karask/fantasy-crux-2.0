@@ -50,9 +50,9 @@ skills:
   - 'Ranged Combat 35%'
   - 'Unarmed Combat 75%'
 attacks:
-  - 'Huge Club — Close Combat 90%, `2D6 + DM`, Huge'
-  - 'Thrown Boulder — Ranged Combat 35%, `2D6 + DM`, Huge, 49 m'
-  - 'Stomp — Unarmed Combat 75%, `1D6 + DM`, Huge'
+  - 'Huge Club — Close Combat 90%, `2D6 + 5D6`, Huge'
+  - 'Thrown Boulder — Ranged Combat 35%, `2D6 + 5D6`, Huge, 49 m'
+  - 'Stomp — Unarmed Combat 75%, `1D6 + 5D6`, Huge'
 talents: 'None'
 ---
 

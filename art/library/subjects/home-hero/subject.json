@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "home-hero",
+  "title": "Drowned Causeway",
+  "selectedVariant": "A",
+  "activeStyleId": "inked-adventure-comic-vivid",
+  "master": "art/library/subjects/home-hero/styles/inked-adventure-comic-vivid.png",
+  "exports": [
+    "src/assets/images/home/index-tower-hero.webp",
+    "src/assets/images/home/index-tower-hero-960.webp"
+  ],
+  "contentBrief": "Exactly four medieval adventurers, all seen from behind, stand ankle-deep on a broken stone causeway through a flooded reed marsh in thin rain. Drowned posts, exposed roots, mud, black water, and pale marsh flowers lead to one narrow leaning stone tower on a low island with one amber window. Heavy indigo storm clouds part over a vermilion-gold sunset; night is close.",
+  "poseBrief": "The party is grouped naturally in the central portion of the frame: a broad fighter with shield and sword, a lean jack-of-all-trades with bow, rope, satchel, tools, and map case, a tall scholarly mage with a crooked staff, and a shorter field mage with a shuttered arcane lantern. All four face the tower; quieter upper-left sky remains available for the live page heading.",
+  "alt": "Four adventurers cross a rain-soaked marsh toward a lonely candlelit tower at sunset while a creature lurks behind a dead tree.",
+  "constraints": "Exactly four adventurers and one tower; no front-facing figures, extra people, fire, lightning, logos, readable text, watermark, frame, border, or panel divisions."
+}

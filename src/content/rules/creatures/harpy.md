@@ -49,7 +49,7 @@ skills:
   - 'Ranged Combat 40%'
   - 'Unarmed Combat 75%'
 attacks:
-  - 'Claw — Unarmed Combat 75%, `1D6 + DM`, Medium'
+  - 'Claw — Unarmed Combat 75%, `1D6 + 0`, Medium'
   - 'Dropped Stone — Ranged Combat 40%, `1D6` per full 3 m fallen, maximum `10D6`, Light, directly below'
   - 'Dung — Ranged Combat 40%, no damage, Light, directly below'
 talents: 'None'

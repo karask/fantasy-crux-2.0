@@ -50,10 +50,10 @@ skills:
   - 'Ranged Combat 40%'
   - 'Unarmed Combat 60%'
 attacks:
-  - 'Great Axe — Close Combat 60%, `2D8 + DM`, Heavy'
-  - 'Improvised Rock — Ranged Combat 40%, `1D4 + DM`, Light, 23 m'
-  - 'Fist — Unarmed Combat 60%, `1D6 + DM`, Light'
-  - 'Bite — Unarmed Combat 60%, `1D8 + DM`, Heavy'
+  - 'Great Axe — Close Combat 60%, `2D8 + 2D6`, Heavy'
+  - 'Improvised Rock — Ranged Combat 40%, `1D4 + 2D6`, Light, 23 m'
+  - 'Fist — Unarmed Combat 60%, `1D6 + 2D6`, Light'
+  - 'Bite — Unarmed Combat 60%, `1D8 + 2D6`, Heavy'
 talents: 'None'
 ---
 

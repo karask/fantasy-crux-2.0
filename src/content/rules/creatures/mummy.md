@@ -48,8 +48,8 @@ skills:
   - 'Deception 10%'
   - 'Perception 40%'
 attacks:
-  - 'Great Hammer — Close Combat 80%, `2D8 + DM`, Heavy'
-  - 'Fist — Unarmed Combat 60%, `1D6 + DM`, Light'
+  - 'Great Hammer — Close Combat 80%, `2D8 + 1D6`, Heavy'
+  - 'Fist — Unarmed Combat 60%, `1D6 + 1D6`, Light'
 talents: 'None'
 ---
 

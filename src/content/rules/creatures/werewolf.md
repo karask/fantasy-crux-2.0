@@ -50,10 +50,10 @@ skills:
   - 'human Ranged Combat 25%'
   - 'wolf Unarmed Combat 60%'
 attacks:
-  - 'Human Arming Sword — Close Combat 35%, `1D8 + DM`, Medium'
+  - 'Human Arming Sword — Close Combat 35%, `1D8 + 0`, Medium'
   - 'Human Shortbow — Ranged Combat 25%, `1D8`, 75 m'
-  - 'Wolf Bite — Unarmed Combat 60%, `1D8 + DM`, Medium'
-  - 'Wolf Claw — Unarmed Combat 60%, `1D6 + DM`, Medium'
+  - 'Wolf Bite — Unarmed Combat 60%, `1D8 + 1D6`, Medium'
+  - 'Wolf Claw — Unarmed Combat 60%, `1D6 + 1D6`, Medium'
 talents: 'None'
 ---
 

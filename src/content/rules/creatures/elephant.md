@@ -42,7 +42,7 @@ skills:
   - 'Resilience 72%'
   - 'Unarmed Combat 45%'
 attacks:
-  - 'Trample — Unarmed Combat 45%, `1D12 + DM`, Huge'
-  - 'Tusk — Unarmed Combat 45%, `1D10 + DM`, Huge'
+  - 'Trample — Unarmed Combat 45%, `1D12 + 5D6`, Huge'
+  - 'Tusk — Unarmed Combat 45%, `1D10 + 5D6`, Huge'
 talents: 'None'
 ---

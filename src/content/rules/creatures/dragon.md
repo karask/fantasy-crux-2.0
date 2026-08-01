@@ -49,9 +49,9 @@ skills:
   - 'Natural Lore 100%'
   - 'Unarmed Combat 100%'
 attacks:
-  - 'Bite — Unarmed Combat 100%, `1D10 + DM`, Huge'
-  - 'Claw — Unarmed Combat 100%, `1D8 + DM`, Huge'
-  - 'Tail — Unarmed Combat 100%, `1D20 + DM`, Huge'
+  - 'Bite — Unarmed Combat 100%, `1D10 + 7D6`, Huge'
+  - 'Claw — Unarmed Combat 100%, `1D8 + 7D6`, Huge'
+  - 'Tail — Unarmed Combat 100%, `1D20 + 7D6`, Huge'
 talents: 'Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I'
 ---
 

@@ -50,9 +50,9 @@ skills:
   - 'Ranged Combat 35%'
   - 'Unarmed Combat 25%'
 attacks:
-  - 'Battleaxe — Close Combat 45%, `1D8 + DM`, Medium'
+  - 'Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium'
   - 'Sling — Ranged Combat 35%, `1D6`, 50 m'
-  - 'Bite — Unarmed Combat 25%, `1D6 + DM`, Medium'
+  - 'Bite — Unarmed Combat 25%, `1D6 + 1D4`, Medium'
 talents: 'None'
 ---
 

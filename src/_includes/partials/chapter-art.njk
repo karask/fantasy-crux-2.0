@@ -1,0 +1,12 @@
+<figure class="chapter-art chapter-art--{{ chapterArt.layout }}{% if chapterArt.side %} chapter-art--{{ chapterArt.side }}{% endif %}" data-pagefind-ignore>
+  <img
+    src="/assets/images/chapter-art/{{ chapterArt.asset }}.webp"
+    srcset="/assets/images/chapter-art/{{ chapterArt.asset }}-480.webp 480w, /assets/images/chapter-art/{{ chapterArt.asset }}.webp {{ chapterArt.width }}w"
+    sizes="{% if chapterArt.side %}(min-width: 901px) 22rem, calc(100vw - 2rem){% else %}(min-width: 901px) 60rem, calc(100vw - 2rem){% endif %}"
+    width="{{ chapterArt.width }}"
+    height="{{ chapterArt.height }}"
+    alt="{{ chapterArt.alt }}"
+    loading="lazy"
+    decoding="async"
+  >
+</figure>

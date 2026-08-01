@@ -1,8 +1,24 @@
+import { readFileSync } from 'node:fs';
+
+const illustrationProgram = JSON.parse(
+  readFileSync(
+    new URL('../../art/library/chapters/illustration-program.json', import.meta.url),
+    'utf8',
+  ),
+);
+const chapterArt = Object.fromEntries(
+  Object.keys(illustrationProgram.chapterCounts).map((chapter) => [
+    chapter,
+    illustrationProgram.subjects.filter((subject) => subject.chapter === chapter),
+  ]),
+);
+
 export default {
   title: 'Fantasy Crux 2.0',
   motto: 'Steel & Consequence',
   edition: 'Cold Iron Edition',
   description: 'Compact, gritty fantasy rules built for fast use at the table.',
+  chapterArt,
   primaryNav: [
     { number: 0, label: 'Start Here', href: '/rules/start-here/' },
     { number: 1, label: 'Characters', href: '/rules/characters/' },
