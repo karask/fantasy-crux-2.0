@@ -22,7 +22,7 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) th
 | Armour or reduction           | Ward grants AP of twice Intensity against one defined class of harm.                |
 | Barrier                       | AP = twice Intensity; total HP = `5 × Intensity`; Reach sets footprint.             |
 | Skill modifier                | `+1B`/`-1P` at Intensity 2; `+2B`/`-2P` at Intensity 4.                             |
-| Characteristic modifier       | ±1 per Intensity, within normal limits.                                             |
+| Characteristic modifier       | ±1 per Intensity, within normal limits and attributes do not change.                |
 | Brief hindrance               | Intensity 1 may halve Movement until the end of the affected subject's next turn.   |
 | Restraint or forced movement  | Intensity 2 restrains a human-sized subject or moves it up to 3 metres.             |
 | Flight                        | Intensity 3 moves a willing subject at normal Movement while actively controlled.   |
