@@ -79,14 +79,14 @@ Duration sustains a state, sense, or observation. It cannot repeat direct damage
 
 Use the highest rating required by count, area, or subject size.
 
-| Rating | Targets or area                 | Largest subject                     |
-| -----: | ------------------------------- | ----------------------------------- |
-|      0 | One                             | Person, door, or human-sized object |
-|      1 | Up to 3 or 3-metre radius       | Wagon or large tree                 |
-|      2 | Up to 10 or 10-metre radius     | Room-sized structure                |
-|      3 | Up to 100 or 50-metre radius    | Building or ship; ritual            |
-|      4 | Up to 1,000 or 500-metre radius | Settlement; ritual                  |
-|      5 | Army, city, or region           | Landscape-scale; mythic ritual      |
+| Rating | Targets or area               | Largest subject                     |
+| -----: | ----------------------------- | ----------------------------------- |
+|      0 | One                           | Person, door, or human-sized object |
+|      1 | Up to 2 or 3-metre radius     | Wagon or large tree                 |
+|      2 | Up to 5 or 10-metre radius    | Room-sized structure                |
+|      3 | Up to 20 or 50-metre radius   | Building or ship; ritual            |
+|      4 | Up to 100 or 500-metre radius | Settlement; ritual                  |
+|      5 | Army, city, or region         | Landscape-scale; mythic ritual      |
 
 Areas include allies. Excluding arbitrary subjects requires **Selective**. Reach cannot let low Intensity demolish or transform a subject beyond its benchmark.
 
@@ -94,7 +94,7 @@ Areas include allies. Excluding arbitrary subjects requires **Selective**. Reach
 
 Anything a Shaping does beyond its Intensity, Range, Duration, and Reach is an adjustment, and each adds Magnitude.
 
-One needs no training: an **additional outcome** allowed by the same cell adds its full Intensity. It must be mechanically distinct — the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version.
+One needs no training: an **additional outcome** allowed by the same cell adds its full Intensity. It must be mechanically distinct — the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version. Alter·Flesh may heal and add resilience to the same ally; it cannot buy healing twice.
 
 Every other is a learned technique bought as a Talent, each stating the Magnitude it adds: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
 
