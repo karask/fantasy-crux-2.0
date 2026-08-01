@@ -96,7 +96,6 @@ At 0 PP, living characters fall unconscious until regaining PP; nonliving charac
 ### Damage Modifier {#characters-damage-modifier}
 
 Add the Damage Modifier to close-combat, unarmed, and thrown-weapon damage.
-Bows, slings, and crossbows use only their listed damage unless a Talent says otherwise.
 
 |        `STR + SIZ` | Damage Modifier |
 | -----------------: | :-------------- |

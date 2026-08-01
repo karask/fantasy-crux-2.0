@@ -33,8 +33,6 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) th
 
 Physical magic follows normal [damage rules](/rules/combat/#damage-and-wounds); **Piercing** ignores mundane armour. Mind deals no HP. Unmake·Spirit deals `Intensity D6` PP to any souled target and ignores AP. At 0 PP, a living target falls unconscious; a Spirit is banished and possession ends. Soulless targets are invalid.
 
-A Shaping may damage a physical manifestation or exploit a genuine natural counter. Only Dispel directly ends an active Shaping.
-
 ## Healing and death {#magic-healing}
 
 Healing cannot exceed maximum HP and removes **Bleeding** and **Dying**. A living subject raised above 0 HP may act on their next turn in Combat Order. Wounded remains.

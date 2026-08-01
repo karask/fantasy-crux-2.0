@@ -69,7 +69,9 @@ Fate deals no HP damage, never works retroactively, and cannot grant rerolls, au
 
 ### Illusions {#magic-illusions}
 
-A witness may spend a Combat Action to oppose Perception with the stored Shaping. Success identifies falsehood but neither Dispels it nor reveals concealed matter; failure needs new evidence to retry. Illusions deal no harm.
+An illusion is Mind: Conjure a perception that is not there, or Alter one that is. Reach pays for each mind, and each resists with Persistence.
+
+A fooled witness may spend a Combat Action to oppose Perception with the stored Shaping. Success identifies falsehood but neither Dispels it nor reveals concealed matter; failure needs new evidence to retry. Illusions deal no harm.
 
 ## Cell examples {#magic-cell-grid}
 
