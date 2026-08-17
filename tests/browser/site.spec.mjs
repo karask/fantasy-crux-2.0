@@ -321,8 +321,8 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
 test('Shaping is a first-class rules chapter', async ({ page }) => {
   const sections = [
     'becoming-a-shaper',
-    'techniques-and-forms',
     'building-a-shaping',
+    'techniques-and-forms',
     'effects',
     'casting-and-defence',
     'ongoing-and-magical-actions',
@@ -361,6 +361,42 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
   await expect(page.locator('main')).toContainText('Intensity + Range + Duration + Reach');
   await expect(page.locator('.table-wrap')).not.toHaveCount(0);
   await expectNoHorizontalOverflow(page);
+
+  const cellGridHeading = page.locator('#techniques-and-forms--magic-cell-grid');
+  const cellGrid = cellGridHeading.locator('xpath=following::table[1]');
+  const cellGridWrap = cellGrid.locator('xpath=..');
+  await expect(cellGrid.locator('thead th')).toHaveText([
+    'Form',
+    'Conjure',
+    'Bend',
+    'Unmake',
+    'Alter',
+    'Ward',
+    'Scry',
+  ]);
+  await expect(cellGrid.locator('tbody tr')).toHaveCount(10);
+  const cellForms = [
+    'Fire',
+    'Water/Ice',
+    'Air/Storm',
+    'Earth/Stone',
+    'Flesh',
+    'Mind',
+    'Force/Motion',
+    'Spirit',
+    'Paths',
+    'Fate',
+  ];
+  const cellTechniques = ['Conjure', 'Bend', 'Unmake', 'Alter', 'Ward', 'Scry'];
+  for (const [rowIndex, form] of cellForms.entries()) {
+    await expect(cellGrid.locator('tbody tr').nth(rowIndex).locator('td')).toHaveText([
+      form,
+      ...cellTechniques.map((technique) => `${technique}·${form}`),
+    ]);
+  }
+  await expect(cellGridWrap).toHaveAttribute('tabindex', '0');
+  await cellGridWrap.focus();
+  await expect(cellGridWrap).toBeFocused();
 });
 
 test('the bestiary publishes every profile and filters by creature type', async ({ page }) => {

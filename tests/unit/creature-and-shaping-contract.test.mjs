@@ -113,22 +113,16 @@ describe('canonical Shaping and senses', () => {
       .map((name) => read(`src/content/rules/magic/${name}`))
       .join('\n');
 
-    const techniqueSection =
-      techniques.match(/## Techniques[^\r\n]*\r?\n([\s\S]*?)\r?\n## Forms/)?.[1] ?? '';
     const formsSection =
-      techniques.match(/## Forms[^\r\n]*\r?\n([\s\S]*?)\r?\n### Bodies/)?.[1] ?? '';
+      techniques.match(/## Forms[^\r\n]*\r?\n([\s\S]*?)\r?\n## Techniques/)?.[1] ?? '';
+    const techniqueSection =
+      techniques.match(/## Techniques[^\r\n]*\r?\n([\s\S]*?)\r?\n## Reading the grid/)?.[1] ?? '';
+    const cellSection = techniques.match(/## All sixty cells[^\r\n]*\r?\n([\s\S]*)/)?.[1] ?? '';
     const boldFirstColumn = (table) =>
       [...table.matchAll(/^\|\s+\*\*([^*]+)\*\*\s+\|/gm)].map((match) => match[1]);
 
-    expect(boldFirstColumn(techniqueSection)).toEqual([
-      'Conjure',
-      'Bend',
-      'Unmake',
-      'Alter',
-      'Ward',
-      'Scry',
-    ]);
-    expect(boldFirstColumn(formsSection)).toEqual([
+    const approvedTechniques = ['Conjure', 'Bend', 'Unmake', 'Alter', 'Ward', 'Scry'];
+    const approvedForms = [
       'Fire',
       'Water/Ice',
       'Air/Storm',
@@ -139,7 +133,29 @@ describe('canonical Shaping and senses', () => {
       'Spirit',
       'Paths',
       'Fate',
-    ]);
+    ];
+    expect(boldFirstColumn(techniqueSection)).toEqual(approvedTechniques);
+    expect(boldFirstColumn(formsSection)).toEqual(approvedForms);
+
+    const publishedGrid = cellSection
+      .split(/\r?\n/)
+      .filter((line) => /^\|\s+\*\*/.test(line))
+      .map((line) =>
+        line
+          .split('|')
+          .slice(1, -1)
+          .map((cell) => cell.trim()),
+      )
+      .map(([form, ...cells]) => ({
+        form: form.replaceAll('**', ''),
+        cells: cells.map((cell) => cell.replaceAll('`', '')),
+      }));
+    expect(publishedGrid).toEqual(
+      approvedForms.map((form) => ({
+        form,
+        cells: approvedTechniques.map((technique) => `${technique}·${form}`),
+      })),
+    );
     expect(allMagic).not.toMatch(/\b(?:Wield|Shift)\b/);
     expect(techniques).toContain('Soulless');
     expect(techniques).toContain('Mindless');

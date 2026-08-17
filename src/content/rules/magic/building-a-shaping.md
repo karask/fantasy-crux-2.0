@@ -4,7 +4,7 @@ id: magic.building-a-shaping
 chapter: magic
 title: Building a Shaping
 slug: building-a-shaping
-order: 30
+order: 20
 summary:
   - Choose a known Technique–Form cell and one clear outcome.
   - Intensity + Range + Duration + Reach + adjustments equals Magnitude.
@@ -14,15 +14,15 @@ aliases:
   - Shaping dials
 ---
 
-Choose a [known cell](/rules/magic/#becoming-a-shaper), describe one clear outcome, and price what it accomplishes.
+Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper), state one clear outcome, and price only that outcome.
 
-> **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets the effect. Magnitude sets required PP, base PP cost, difficulty, active limit, and Dispel strength; the casting result sets PP paid.
+> **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets the effect. Magnitude sets required PP, base cost, difficulty, active load, and Dispel strength; the casting result sets payment.
 
-Declare the Shaping before calculating it:
+Declare it in one sentence:
 
 > Using **[Technique]·[Form]**, I cause **[outcome]** at **[Range]**, affecting **[Reach]**, for **[Duration]**.
 
-The Gamemaster confirms the build before the roll. A useful Shaping requires Intensity 1+.
+The Gamemaster confirms the build; a useful Shaping requires Intensity 1+.
 
 ## Intensity and expertise {#magic-intensity}
 
@@ -47,7 +47,7 @@ Shaping expertise limits both maximum Intensity and Safe Magnitude.
 |  76–99% | Expert     |                 4 |              4 |
 |    100% | Master     |                 5 |              5 |
 
-No ritual or PP contribution bypasses maximum Intensity. A Magnitude-0 Trick is free and automatic when calm. Under pressure, failure does nothing and a fumble causes only an inconvenient Tell—never PP loss or Backlash. Other Tricks cast normally.
+Rituals and contributed PP cannot bypass maximum Intensity. While calm, a Magnitude-0 Trick is free and automatic. Under pressure, failure does nothing; a fumble causes only an inconvenient Tell, never PP loss or Backlash. Other Tricks cast normally.
 
 ## Range {#magic-range}
 
@@ -73,7 +73,7 @@ Range 1–3 needs an unobstructed route. **Indirect** crosses a barrier when the
 |      4 | Indefinite until dismissed or Dispelled; ritual              |
 |      5 | Permanent; mythic ritual                                     |
 
-Duration sustains a state, sense, or observation. It cannot repeat direct damage, healing, discrete answers, or another one-use outcome; [created hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) use their separate rule. Concentration is maintenance, and continuing beyond the next turn requires Duration 1+.
+Duration sustains a state, sense, or observation. It cannot repeat direct damage, healing, discrete answers, or another one-use outcome; [created hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) have a separate rule. Concentration is maintenance; continuing beyond the next turn requires Duration 1+.
 
 ## Reach {#magic-reach}
 
@@ -88,16 +88,16 @@ Use the highest rating required by count, area, or subject size.
 |      4 | Up to 100 or 500-metre radius | Settlement; ritual                  |
 |      5 | Army, city, or region         | Landscape-scale; mythic ritual      |
 
-Areas include allies. Excluding arbitrary subjects requires **Selective**. Reach cannot let low Intensity demolish or transform a subject beyond its benchmark.
+Areas include allies; excluding arbitrary subjects requires **Selective**. Reach cannot let low Intensity demolish or transform beyond its benchmark.
 
 ## Adjustments {#magic-adjustments}
 
-Anything a Shaping does beyond its Intensity, Range, Duration, and Reach is an adjustment, and each adds Magnitude.
+Anything beyond Intensity, Range, Duration, and Reach is an adjustment; each adds Magnitude.
 
-One needs no training: an **additional outcome** allowed by the same cell adds its full Intensity. It must be mechanically distinct — the same subject cannot receive repeated damage, healing, movement, restraint, control, or another cumulative outcome from one Shaping. Use higher Intensity for a stronger version. Alter·Flesh may heal and add resilience to the same ally; it cannot buy healing twice.
+An **additional outcome** needs no training and adds its full Intensity. It must be allowed by the cell and mechanically distinct; one Shaping cannot give the same subject repeated damage, healing, movement, restraint, control, or another cumulative outcome. Use higher Intensity for a stronger version. Alter·Flesh may heal and add resilience to one ally, but cannot buy healing twice.
 
-Every other is a learned technique bought as a Talent, each stating the Magnitude it adds: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
+All other adjustments are learned Talents that state their added Magnitude: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
 
-Shared Range, Duration, and Reach are counted once.
+Shared Range, Duration, and Reach count once.
 
 Natural consequences remain—a pushed foe may fall—but cannot hide free damage, modifiers, conditions, or resources.
