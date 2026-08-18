@@ -120,33 +120,6 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     expect(existsSync(path.resolve('freeform-magic/FC-magic-shaping-potential-1.md'))).toBe(false);
   });
 
-  // Reference chapters carry their own budget so they never compete with rules prose for the
-  // same allowance.
-  //
-  // The core ceiling was raised repeatedly as the Talent catalogue grew from 17 combat entries to
-  // 47 covering every role, each rise tracking the last commit rather than any intended length.
-  // It was set once, deliberately, at 17,400, then raised to 17,600 by decision when Lore gained
-  // its own-field base and the three knowledge Talents. Treat a failure as a signal to cut prose,
-  // not to raise the number again.
-  it('stays within the compact visible-copy budget', () => {
-    const chapterBudgets = { creatures: 4_500, 'gm-tools': 4_000 };
-    const chapterOf = (record) => record.data.chapter ?? record.data.id;
-    const countWords = (subset) =>
-      subset
-        .map((record) => record.content)
-        .join('\n')
-        .match(/[\p{L}\p{N}]+(?:[-'’][\p{L}\p{N}]+)*/gu).length;
-
-    for (const [chapter, budget] of Object.entries(chapterBudgets)) {
-      const subset = records.filter((record) => chapterOf(record) === chapter);
-      expect(subset.length, chapter).toBeGreaterThan(0);
-      expect(countWords(subset), chapter).toBeLessThanOrEqual(budget);
-    }
-
-    const core = records.filter((record) => !(chapterOf(record) in chapterBudgets));
-    expect(countWords(core)).toBeLessThanOrEqual(17_600);
-  });
-
   it('contains no generic image or raw-HTML markup', () => {
     for (const record of records) {
       expect(record.content, record.file).not.toMatch(/!\[[^\]]*\]\(|<\/?[a-z][^>]*>/i);

@@ -5,7 +5,7 @@ chapter: magic
 title: Casting and Defence
 slug: casting-and-defence
 order: 50
-summary: Spend one Combat Action, test Shaping, resolve Counter and one eligible defence, pay PP, and apply the effect.
+summary: Spend one Combat Action, test Shaping, resolve Counter and one opposed defence, pay PP, and apply the effect.
 aliases:
   - cast magic
   - resist magic
@@ -50,20 +50,20 @@ Stopped success still pays. Resolve Hero Point rerolls before PP loss or Backlas
 
 Declare delivery before Magnitude: Projected Harm and Direct Harm are mutually exclusive, whatever their description.
 
-| Delivery                              | Cost   | Defence                      | Protection                         |
+| Delivery                              | Cost   | Opposed defence              | Protection                         |
 | ------------------------------------- | ------ | ---------------------------- | ---------------------------------- |
 | **Projected Harm**                    | —      | Dodge or shield Active Guard | Cover and nonmagical AP            |
-| **Direct bodily or material Harm**    | `+1 M` | Resilience, opposed          | Magical Wards and named resistance |
-| **Direct mental or spiritual Harm**   | `+1 M` | Persistence, opposed         | Magical Wards and named resistance |
+| **Direct bodily or material Harm**    | `+1 M` | Resilience                   | Magical Wards and named resistance |
+| **Direct mental or spiritual Harm**   | `+1 M` | Persistence                  | Magical Wards and named resistance |
 | **Direct Harm to unattended objects** | `+1 M` | None                         | Magical protection only            |
 
 Projected crosses space; Direct arises within its target. A successful resistance that wins the opposed test negates the entire Direct outcome; it does not reduce damage. Direct Harm permits selected-target Reach, never a radius. Each Direct target needs a valid Range route; a complete barrier requires [Indirect](/rules/talents/#indirect). Other hostile outcomes use the Defence table without the Direct adjustment.
 
 ## Defence {#magic-defence}
 
-Each hostile outcome receives exactly one defensive Reaction or opposed resistance, using one Shaping roll.
+Each hostile outcome receives exactly one defence against the original Shaping result.
 
-| Other effect                                                  | Defence               |
+| Other effect                                                  | Opposed defence       |
 | ------------------------------------------------------------- | --------------------- |
 | Self, willing subject, unattended object, point               | None                  |
 | Individually targeted Projected Shaping                       | Dodge or shield guard |
@@ -71,13 +71,13 @@ Each hostile outcome receives exactly one defensive Reaction or opposed resistan
 | Bodily or material alteration, restraint, or physical control | Resilience            |
 | Thought, emotion, memory, identity, soul, or control          | Persistence           |
 
-Dodge and shield guard take `-1P`; Dodge spends only the base Reaction and remains once per round. Use the [combat matrix](/rules/combat/#critical-hits-and-fumbles); magical Criticals use normal effect dice and armour, not weapon-critical benefits.
+When Dodge, shield Active Guard, Resilience, or Persistence resists a Shaping, compare that defence roll with the Shaper's original Shaping result as an [opposed test](/rules/skills/#opposed-tests). The original Shaping result is the attacker's skill roll. The Shaper must succeed and win against Dodge, Resilience, or Persistence for that subject to be affected. If shield Active Guard wins, apply Parry Size; if Shaping wins, the guard has no effect.
 
-Shared defences share one roll; different defences resolve separately. Resilience and Persistence are [opposed](/rules/skills/#opposed-tests), spend no Reaction, and require the Shaper to succeed and win; two failures cause no effect.
+Dodge and shield guard take `-1P`; Dodge spends only the base Reaction and remains once per round. Resilience and Persistence spend no Reaction. Shared defences share one roll; different defences resolve separately. A magical Critical keeps its grade for the opposed test; if Shaping wins, use normal effect dice and armour, not weapon-critical benefits.
 
 The defender chooses one eligible Reaction: Counter, Dodge, or Active Guard. [Counter](/rules/talents/#counter) precedes target defence and opposes the Shaping. A character who Counters cannot then Dodge, Active Guard, or oppose with Resilience or Persistence. Another character's Counter does not consume the target's defence.
 
-A hostile Touch Shaping first needs a no-damage Unarmed Combat delivery attack—the sole defence exception. No Talent or off-hand attack applies. The target may React; contact succeeds unless the matrix stops the hit, and partial Parry does not. Failure spends the Combat Action without Shaping roll or PP loss. Contact then proceeds to casting and resistance; its Critical adds nothing.
+A hostile Touch Shaping first needs a no-damage Unarmed Combat delivery attack—the sole defence exception. No Talent or off-hand attack applies. The target may React; contact succeeds unless the [combat matrix](/rules/combat/#critical-hits-and-fumbles) stops the hit, and partial Parry does not. Failure spends the Combat Action without Shaping roll or PP loss. Contact then proceeds to casting and resistance; its Critical adds nothing.
 
 Areas share one Shaping roll; unwilling subjects defend separately. An aware subject may Dodge a projected area at `-1P`, gaining no movement or prone. Attended objects use their bearer's defence. In ongoing areas, defend when first affected and store the outcome: leaving suspends it; re-entry grants no new defence.
 
@@ -99,7 +99,7 @@ Projected Shapings use **Impact Size** based on Intensity.
 |         4 | `4D6`  | Huge        |
 |         5 | `5D6`  | Beyond Huge |
 
-Apply [Parry Size](/rules/combat/#attacks-and-reactions): same Size or larger blocks all damage and attached outcomes; if the Shaping deals no damage, it blocks its projected outcome. One Size smaller blocks half damage, but separately paid non-damage outcomes remain. Two or more Sizes smaller reduce no damage. A Critical shield Parry blocks everything regardless of Size. Against a Critical Shaping, ordinary Active Guard has no effect; roll normal magical damage, then armour. Shields suffer no item damage merely for guarding.
+After a winning shield guard, apply [Parry Size](/rules/combat/#attacks-and-reactions): same Size or larger blocks all damage and attached outcomes; if the Shaping deals no damage, it blocks its projected outcome. One Size smaller blocks half damage, but separately paid non-damage outcomes remain. Two or more Sizes smaller reduce no damage. A Critical shield Parry that wins blocks everything regardless of Size. If Shaping wins the opposed test, the guard has no effect; even a Critical Shaping rolls normal magical damage, then armour. Shields suffer no item damage merely for guarding.
 
 | Shield     | Size   | I1  | I2  | I3   | I4   | I5   |
 | ---------- | ------ | --- | --- | ---- | ---- | ---- |

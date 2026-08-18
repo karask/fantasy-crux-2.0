@@ -60,19 +60,19 @@ describe('Projected and Direct Harm', () => {
     expect(building).toMatch(/declare (?:its|the) delivery before calculating Magnitude/i);
 
     expect(tableWithHeader(casting, 'Delivery')).toEqual({
-      header: ['Delivery', 'Cost', 'Defence', 'Protection'],
+      header: ['Delivery', 'Cost', 'Opposed defence', 'Protection'],
       body: [
         ['Projected Harm', '—', 'Dodge or shield Active Guard', 'Cover and nonmagical AP'],
         [
           'Direct bodily or material Harm',
           '+1 M',
-          'Resilience, opposed',
+          'Resilience',
           'Magical Wards and named resistance',
         ],
         [
           'Direct mental or spiritual Harm',
           '+1 M',
-          'Persistence, opposed',
+          'Persistence',
           'Magical Wards and named resistance',
         ],
         ['Direct Harm to unattended objects', '+1 M', 'None', 'Magical protection only'],
@@ -80,7 +80,7 @@ describe('Projected and Direct Harm', () => {
     });
 
     expect(casting).toMatch(
-      /each hostile outcome receives exactly one defensive Reaction or opposed resistance/i,
+      /each hostile outcome receives exactly one defence against the original Shaping result/i,
     );
     expect(casting).toMatch(
       /successful resistance that wins[^.]*negates the entire Direct outcome/i,
@@ -100,6 +100,32 @@ describe('Projected and Direct Harm', () => {
       'Thought, emotion, memory, identity, soul, or control',
       'Persistence',
     ]);
+  });
+
+  it('opposes every magical defence with the original Shaping result', () => {
+    expect(casting).toMatch(
+      /Dodge, shield Active Guard, Resilience, (?:or|and) Persistence[^.]*original Shaping result[^.]*opposed test/i,
+    );
+    expect(casting).toMatch(/original Shaping result[^.]*attacker's skill roll/i);
+    expect(casting).toMatch(
+      /Shaper must succeed and win against Dodge, Resilience, or Persistence[^.]*subject[^.]*affected/i,
+    );
+    expect(casting).toMatch(/shield Active Guard wins[^.]*Parry Size/i);
+    expect(casting).toMatch(/Shaping wins[^.]*guard has no effect/i);
+    expect(casting).toMatch(/areas share one Shaping roll[^.]*defend separately/i);
+
+    expect(activeGuard).toMatch(/mundane[^.]*critical matrix/i);
+    expect(activeGuard).toMatch(
+      /Projected Shaping[^.]*oppose Close Combat[^.]*original Shaping result/i,
+    );
+    expect(casting).toMatch(/hostile Touch Shaping[^.]*sole defence exception/i);
+    expect(casting).toMatch(/hostile Touch Shaping[\s\S]{0,500}\[combat matrix\]\(/i);
+    expect(effects).toMatch(
+      /Full control[^.]*Persistence[^.]*stored Shaping result[^.]*Winning frees/i,
+    );
+    expect(effects).toMatch(
+      /denial[^.]*crossing[^.]*appropriate defence[^.]*stored Shaping result/i,
+    );
   });
 
   it('keeps Projected Harm physical and Direct Harm inside mundane armour', () => {
@@ -168,8 +194,10 @@ describe('Projected and Direct Harm', () => {
       /one Size smaller[^.]*half[^.]*separately paid non-damage outcomes remain/i,
     );
     expect(casting).toMatch(/two or more Sizes smaller[^.]*reduce no damage/i);
-    expect(casting).toMatch(/Critical shield Parry[^.]*blocks? everything regardless of Size/i);
-    expect(casting).toMatch(/Critical Shaping[^.]*ordinary Active Guard[^.]*has no effect/i);
+    expect(casting).toMatch(
+      /Critical shield Parry that wins[^.]*blocks? everything regardless of Size/i,
+    );
+    expect(casting).toMatch(/Shaping wins[^.]*guard has no effect/i);
     expect(casting).toMatch(/Shields suffer no item damage merely for guarding/i);
     expect(casting).toMatch(/separate mundane[^.]*attack[^.]*ordinary weapon Size/i);
     expect(casting).toMatch(/resolved as Shaping[^.]*Impact Size/i);

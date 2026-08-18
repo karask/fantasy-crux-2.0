@@ -67,13 +67,13 @@ Intensity 1 may colour emotion or plant a plausible suggestion. Intensity 2 may 
 
 A compelled combat act occurs on the subject's next turn, spending its Action and granting no extra one.
 
-A restrained subject may spend a Combat Action to retry its original defence against the stored result. Full control grants another Persistence test against serious self-harm, defining betrayal, or a central belief's violation; certain death always grants one. Success frees that subject.
+A restrained subject may spend a Combat Action to retry its original defence against the stored result. Full control grants another Persistence defence against the stored Shaping result before serious self-harm, defining betrayal, or a central belief's violation; winning frees that subject, and certain death always grants one.
 
 Directing active control spends the Shaper's Combat Action. The subject obeys on its own turn, spends the corresponding Action, and gains none. Without maintenance it regains control; magical movement stops where fiction permits.
 
 ## Wards and barriers {#magic-wards}
 
-A Ward grants one benefit: AP or reduction equal to twice Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint and resisted per crossing attempt.
+A Ward grants one benefit: AP or reduction equal to twice Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint, with each crossing opposing the appropriate defence against the stored Shaping result.
 
 Ward AP never adds to worn armour against one damage source: use the higher, or Ward AP alone when worn armour cannot protect. Same-kind magical protection never stacks.
 

@@ -38,7 +38,7 @@ npm run preview
 ## Project structure
 
 - `src/content/rules/` — canonical Markdown rules, Talent, and creature records
-- `src/license.md` — the Open Game License and its copyright notices; deliberately outside the rules tree so it is neither a chapter nor part of the visible-copy budget
+- `src/license.md` — the Open Game License and its copyright notices; deliberately outside the rules tree because it is legal text, not a rules chapter
 - `src/_includes/` — Nunjucks page layouts
 - `src/assets/` — the Cold Iron CSS, progressive-enhancement JavaScript, and brand mark
 - `src/lib/` — content schema and executable rules contracts
@@ -62,9 +62,9 @@ Creature profiles keep their stat block in frontmatter — category, tags, chara
 
 Creature Plunder Ratings were converted from the original LaTeX creature chapter, which the compendium never carried; the approved table is frozen in `tests/unit/creature-and-shaping-contract.test.mjs`. Most characteristics also carry `characteristicDice`, the die each average was generated from (`4D6` under `STR 14`), for rolling a specific individual or a varied group instead of reusing the average member; a characteristic with nothing to roll is simply omitted. Nine dice formulas in the original LaTeX do not arithmetically match their own stated average — see [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md) for the list — and ship as authored rather than silently corrected.
 
-Run `npm run check` before treating a change as complete. The content contract also protects the 49-Talent catalogue, the seven-section Shaping chapter, the 57 approved creature profiles and their traceability to `freeform-creatures/`, the approved plunder ratings and characteristic dice, the completeness of the Open Game License, the preserved Magic 2.0 alternative, the no-image phase boundary for rules prose, and the visible-copy ceilings: 17,600 words of rules, 4,500 of bestiary, and 4,000 of Gamemaster tools.
+Run `npm run check` before treating a change as complete. The content contract also protects the 49-Talent catalogue, the seven-section Shaping chapter, the 57 approved creature profiles and their traceability to `freeform-creatures/`, the approved plunder ratings and characteristic dice, the complete Open Game License, the preserved Magic 2.0 alternative, and the no-image phase boundary for rules prose. Keep rules concise and easy to scan, but prefer clarity and complete procedures over any numeric word or character limit; none is enforced.
 
-The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md); restoring characteristic dice ranges is recorded in [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md).
+The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md); restoring characteristic dice ranges is recorded in [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md); replacing numeric copy ceilings with editorial review is recorded in [ADR-008](docs/decisions/008-replace-copy-ceilings-with-editorial-review.md).
 
 ## Art direction
 

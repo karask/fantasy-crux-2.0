@@ -43,6 +43,11 @@ before Magnitude is calculated.
   Wards and named resistances remain effective against creatures; unattended
   objects retain magical protection only.
 
+Dodge, shield Active Guard, Resilience, and Persistence all oppose the
+Shaper's original Shaping result. That result is the attacker's skill roll; the
+Shaper must succeed and win against Dodge, Resilience, or Persistence for that
+subject to be affected. A winning shield guard instead applies Parry Size.
+
 Direct Harm uses selected targets, never a radius. Every target still needs a
 valid Range route, with Indirect required to cross a complete barrier.
 Subsequent hazards, summoned attacks, falling objects, and other mundane
@@ -55,10 +60,12 @@ not stack with terrain cover. Areas, Direct Harm, and Spirit Harm cannot be
 Active Guarded.
 
 Projected Shapings use Intensity as Impact Size: Intensity 1 is Light, 2 Medium,
-3 Heavy, 4 Huge, and 5 Beyond Huge. Ordinary Parry Size rules govern full, half,
-or ineffective blocks. A full block stops the projected outcome as well as its
-damage. Critical shield Parries block everything; ordinary guards do nothing
-against a Critical Shaping. Guarding alone never damages the shield.
+3 Heavy, 4 Huge, and 5 Beyond Huge. If shield Active Guard wins the opposed
+test, ordinary Parry Size rules govern full, half, or ineffective blocks. A full
+block stops the projected outcome as well as its damage. A winning Critical
+shield Parry blocks everything. If Shaping wins, the guard has no effect;
+magical Criticals still use normal effect dice and armour. Guarding alone never
+damages the shield.
 
 Unmake·Spirit damage is Direct-only, uses Persistence, costs the Direct `+1`
 Magnitude, and deals `Intensity D6` PP. It causes no HP damage, Major Wound, or
