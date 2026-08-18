@@ -33,8 +33,8 @@ jobs:
       - name: Install browser used by the release checks
         run: npx playwright install --with-deps chrome
 
-      - name: Run the complete quality gate and build the site
-        run: npm run check
+      - name: Run the deployment quality gate and build the site
+        run: npm run check:deploy
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
