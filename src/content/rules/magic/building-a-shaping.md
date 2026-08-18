@@ -14,15 +14,15 @@ aliases:
   - Shaping dials
 ---
 
-Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper), state one clear outcome, and price only that outcome.
+Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper) and one priced outcome. For immediate Unmake damage, declare its delivery before calculating Magnitude.
 
-> **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets the effect. Magnitude sets required PP, base cost, difficulty, active load, and Dispel strength; the casting result sets payment.
+> **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets effect; Magnitude sets PP, difficulty, active load, and Dispel strength. The casting result sets payment.
 
 Declare it in one sentence:
 
 > Using **[Technique]·[Form]**, I cause **[outcome]** at **[Range]**, affecting **[Reach]**, for **[Duration]**.
 
-The Gamemaster confirms the build; a useful Shaping requires Intensity 1+.
+The Gamemaster confirms; practical effects require Intensity 1+.
 
 ## Intensity and expertise {#magic-intensity}
 
@@ -47,7 +47,7 @@ Shaping expertise limits both maximum Intensity and Safe Magnitude.
 |  76–99% | Expert     |                 4 |              4 |
 |    100% | Master     |                 5 |              5 |
 
-Rituals and contributed PP cannot bypass maximum Intensity. While calm, a Magnitude-0 Trick is free and automatic. Under pressure, failure does nothing; a fumble causes only an inconvenient Tell, never PP loss or Backlash. Other Tricks cast normally.
+Rituals and contributed PP cannot exceed maximum Intensity. A calm Magnitude-0 Trick is free and automatic. Under pressure, its failure does nothing and its fumble causes only an inconvenient Tell—no PP loss or Backlash. Other Tricks cast normally.
 
 ## Range {#magic-range}
 
@@ -73,7 +73,7 @@ Range 1–3 needs an unobstructed route. **Indirect** crosses a barrier when the
 |      4 | Indefinite until dismissed or Dispelled; ritual              |
 |      5 | Permanent; mythic ritual                                     |
 
-Duration sustains a state, sense, or observation. It cannot repeat direct damage, healing, discrete answers, or another one-use outcome; [created hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) have a separate rule. Concentration is maintenance; continuing beyond the next turn requires Duration 1+.
+Duration sustains state, sense, or observation—not repeated damage/healing, discrete answers, or other one-use outcomes; [created hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) differ. Concentration beyond the next turn requires Duration 1+.
 
 ## Reach {#magic-reach}
 
@@ -94,9 +94,11 @@ Areas include allies; excluding arbitrary subjects requires **Selective**. Reach
 
 Anything beyond Intensity, Range, Duration, and Reach is an adjustment; each adds Magnitude.
 
-An **additional outcome** needs no training and adds its full Intensity. It must be allowed by the cell and mechanically distinct; one Shaping cannot give the same subject repeated damage, healing, movement, restraint, control, or another cumulative outcome. Use higher Intensity for a stronger version. Alter·Flesh may heal and add resilience to one ally, but cannot buy healing twice.
+An **additional outcome** needs no training and adds full Intensity. It must be distinct and cell-permitted; one Shaping cannot repeat damage, healing, movement, restraint, control, or another cumulative outcome on one subject. Use higher Intensity for strength. Alter·Flesh may heal and add resilience to one ally, but cannot buy healing twice.
 
-All other adjustments are learned Talents that state their added Magnitude: [Selective](/rules/talents/#selective), [Piercing](/rules/talents/#piercing), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
+**Direct Harm** adds `+1`; [Harm delivery](/rules/magic/#casting-and-defence--magic-harm-delivery) gives its defence, protection, route, and Reach.
+
+Learned adjustments state their added Magnitude: [Selective](/rules/talents/#selective), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
 
 Shared Range, Duration, and Reach count once.
 

@@ -30,11 +30,11 @@ Bonus dice cancelling the Penalty do not remove overreach. [Shaping expertise](/
 
 1. Declare the cell and outcome; set Intensity, Range, Duration, Reach, and adjustments.
 2. The Gamemaster confirms Magnitude, modifiers, defence, armour, and consequences.
-3. Confirm current PP can cover full Magnitude, or ritual pledges can cover its cost. An indefinite ritual instead requires the leader to cover full Magnitude in current and available maximum PP. Confirm the active limit remains legal.
+3. Confirm PP or ritual pledges cover Magnitude. For an indefinite ritual, the leader needs that much current and available maximum PP. Confirm the active limit.
 4. Spend one Combat Action and test Shaping; retain the Movement Action and eligible Reactions.
 5. Resolve Counter and defence, pay PP, then apply the effect.
 
-Practice, Tell, a valid target, and line of effect are required unless Scry, Indirect, or ritual Range says otherwise. Casting cannot begin while its Practice is prevented.
+Casting requires Practice, Tell, a valid target, and line of effect unless Scry, Indirect, or ritual Range says otherwise; prevented Practice prevents casting.
 
 | Casting result                    | Outcome                                                                                 |
 | --------------------------------- | --------------------------------------------------------------------------------------- |
@@ -44,50 +44,80 @@ Practice, Tell, a valid target, and line of effect are required unless Scry, Ind
 | **Failed overreach**              | No effect; lose half Magnitude and suffer Backlash.                                     |
 | **Fumble**                        | No intended effect; lose full Magnitude and suffer Backlash.                            |
 
-A stopped successful Shaping still pays. Resolve Hero Point rerolls before PP loss or Backlash. Effects begin before 0-PP unconsciousness; concentration then ends.
+Stopped success still pays. Resolve Hero Point rerolls before PP loss or Backlash. Effects precede 0-PP unconsciousness; concentration then ends.
+
+## Harm delivery {#magic-harm-delivery}
+
+Declare delivery before Magnitude: Projected Harm and Direct Harm are mutually exclusive, whatever their description.
+
+| Delivery                              | Cost   | Defence                      | Protection                         |
+| ------------------------------------- | ------ | ---------------------------- | ---------------------------------- |
+| **Projected Harm**                    | —      | Dodge or shield Active Guard | Cover and nonmagical AP            |
+| **Direct bodily or material Harm**    | `+1 M` | Resilience, opposed          | Magical Wards and named resistance |
+| **Direct mental or spiritual Harm**   | `+1 M` | Persistence, opposed         | Magical Wards and named resistance |
+| **Direct Harm to unattended objects** | `+1 M` | None                         | Magical protection only            |
+
+Projected crosses space; Direct arises within its target. A successful resistance that wins the opposed test negates the entire Direct outcome; it does not reduce damage. Direct Harm permits selected-target Reach, never a radius. Each Direct target needs a valid Range route; a complete barrier requires [Indirect](/rules/talents/#indirect). Other hostile outcomes use the Defence table without the Direct adjustment.
 
 ## Defence {#magic-defence}
 
-Use one defence per hostile outcome and one Shaping roll throughout.
+Each hostile outcome receives exactly one defensive Reaction or opposed resistance, using one Shaping roll.
 
-| Effect                                                         | Defence        |          Reaction? |
-| -------------------------------------------------------------- | -------------- | -----------------: |
-| Self, willing subject, unattended object, empty point          | None           |                 No |
-| Visible projectile, beam, wave, burst, or avoidable area       | Dodge at `-1P` | Base Reaction only |
-| Direct bodily alteration, restraint, or physical control       | Resilience     |                 No |
-| Thought, emotion, memory, identity, soul, or spiritual control | Persistence    |                 No |
+| Other effect                                                  | Defence               |
+| ------------------------------------------------------------- | --------------------- |
+| Self, willing subject, unattended object, point               | None                  |
+| Individually targeted Projected Shaping                       | Dodge or shield guard |
+| Projected or otherwise avoidable area                         | Dodge                 |
+| Bodily or material alteration, restraint, or physical control | Resilience            |
+| Thought, emotion, memory, identity, soul, or control          | Persistence           |
 
-Outcomes sharing a defence share its roll. One Dodge answers every dodgeable outcome in the Shaping; different defences resolve separately.
+Dodge and shield guard take `-1P`; Dodge spends only the base Reaction and remains once per round. Use the [combat matrix](/rules/combat/#critical-hits-and-fumbles); magical Criticals use normal effect dice and armour, not weapon-critical benefits.
 
-Resilience and Persistence are [opposed tests](/rules/skills/#opposed-tests): the Shaper must succeed and win. Neither spends a Reaction; two failures create no effect.
+Shared defences share one roll; different defences resolve separately. Resilience and Persistence are [opposed](/rules/skills/#opposed-tests), spend no Reaction, and require the Shaper to succeed and win; two failures cause no effect.
 
-Dodge uses the Shaping result and [combat matrix](/rules/combat/#critical-hits-and-fumbles). A magical Critical gives the normal effect, not maximum damage or ignored armour. Dodge remains once per round and uses the base Reaction.
+The defender chooses one eligible Reaction: Counter, Dodge, or Active Guard. [Counter](/rules/talents/#counter) precedes target defence and opposes the Shaping. A character who Counters cannot then Dodge, Active Guard, or oppose with Resilience or Persistence. Another character's Counter does not consume the target's defence.
 
-A hostile Touch Shaping first requires a no-damage Unarmed Combat delivery attack—the sole defence exception. It cannot use a Talent or trigger an off-hand attack. The target may React; contact succeeds unless the combat matrix stops the hit, and a partial Parry does not. Failed contact spends the Combat Action but causes no Shaping roll or PP loss; success proceeds to casting and resistance. Contact Criticals add nothing.
+A hostile Touch Shaping first needs a no-damage Unarmed Combat delivery attack—the sole defence exception. No Talent or off-hand attack applies. The target may React; contact succeeds unless the matrix stops the hit, and partial Parry does not. Failure spends the Combat Action without Shaping roll or PP loss. Contact then proceeds to casting and resistance; its Critical adds nothing.
 
-Roll Shaping once for an area; unwilling subjects defend separately. An aware subject may Dodge a visible area at `-1P` through the combat matrix, gaining neither movement nor prone. Attended objects use their bearer's defence.
-
-Each unwilling subject defends when an ongoing area first affects them. Store that outcome for the Shaping's Duration: leaving suspends an effect already suffered; re-entry grants no new defence.
+Areas share one Shaping roll; unwilling subjects defend separately. An aware subject may Dodge a projected area at `-1P`, gaining no movement or prone. Attended objects use their bearer's defence. In ongoing areas, defend when first affected and store the outcome: leaving suspends it; re-entry grants no new defence.
 
 ## Cover and shields {#magic-cover-shields}
 
-When terrain interrupts a projected Shaping, partial cover gives `-1P`, substantial cover `-2P`, and complete cover prevents casting unless another route or Indirect applies. Individually selected targets use the greatest cover penalty among them for the single roll. An area tests cover to its chosen point; occupants' shields do not alter the shared roll.
+Terrain interrupting a Projected Shaping gives partial cover `-1P`, substantial cover `-2P`, or prevents casting at complete cover without another route or Indirect. Selected targets use their greatest cover penalty for the one roll. Areas test cover to the chosen point; occupants' shields do not alter the area's shared roll.
 
-The [Shield Cover Talent](/rules/talents/#shield-cover) penalises plausibly obstructed projected Shapings; use the better shield or terrain penalty. Internal Flesh, Mind, and Spirit gain none.
+[Shield Cover](/rules/talents/#shield-cover) affects every individually targeted Projected Shaping, regardless of Form or whether solid or non-solid. Apply it before Active Guard and use only the better Shield Cover or terrain penalty.
 
-Tangible magical projectiles are Light for [Active Guard](/rules/combat/#active-guard)—existing objects retain Size—and count as thrown weapons for it only. A full-block Parry stops projectile and outcome; a lesser Parry reduces damage only. Flame, wind, lightning, pure Force, Flesh, Mind, and Spirit cannot be Parried.
+Any such projection may be [Active Guarded](/rules/combat/#active-guard) at `-1P` with a ready shield; weapons cannot Active Guard magical projections. Areas cannot be Active Guarded. Direct Harm and Spirit Harm cannot be Active Guarded. [Missile Guard](/rules/talents/#missile-guard) removes the penalty.
 
-[Counter](/rules/talents/#counter) resolves before target defence. A character cannot Counter, then Dodge or use Active Guard against the same Shaping; another character's Counter does not consume the target's Reaction. Each target gets at most one eligible defensive Reaction.
+Projected Shapings use **Impact Size** based on Intensity.
+
+| Intensity | Damage | Impact Size |
+| --------: | ------ | ----------- |
+|         1 | `1D6`  | Light       |
+|         2 | `2D6`  | Medium      |
+|         3 | `3D6`  | Heavy       |
+|         4 | `4D6`  | Huge        |
+|         5 | `5D6`  | Beyond Huge |
+
+Apply [Parry Size](/rules/combat/#attacks-and-reactions): same Size or larger blocks all damage and attached outcomes; if the Shaping deals no damage, it blocks its projected outcome. One Size smaller blocks half damage, but separately paid non-damage outcomes remain. Two or more Sizes smaller reduce no damage. A Critical shield Parry blocks everything regardless of Size. Against a Critical Shaping, ordinary Active Guard has no effect; roll normal magical damage, then armour. Shields suffer no item damage merely for guarding.
+
+| Shield     | Size   | I1  | I2  | I3   | I4   | I5   |
+| ---------- | ------ | --- | --- | ---- | ---- | ---- |
+| **Small**  | Medium | All | All | Half | None | None |
+| **Medium** | Heavy  | All | All | All  | Half | None |
+| **Large**  | Huge   | All | All | All  | All  | Half |
+
+A separate mundane object attack uses ordinary weapon Size; one resolved as Shaping uses Impact Size.
 
 ## Backlash {#magic-backlash}
 
 Roll `1D4` or let the Gamemaster choose:
 
-| `1D4` | Result                                                                                                                                                                                     |
-| ----: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|     1 | Take Magnitude damage ignoring armour; it can cause a Major Wound.                                                                                                                         |
-|     2 | Lose another Magnitude PP, to a minimum of 0.                                                                                                                                              |
-|     3 | An immediate Reach-0 related effect at one lower Intensity strikes the Shaper, nearest valid subject, or surroundings. It gains no beneficial adjustment; Intensity 0 is cosmetic trouble. |
-|     4 | Become Fatigued; if Fatigued, become Exhausted; if Exhausted, fall unconscious `3D6` minutes and awaken Fatigued.                                                                          |
+| `1D4` | Result                                                                                                                                                                 |
+| ----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     1 | Take Magnitude damage ignoring armour; it can cause a Major Wound.                                                                                                     |
+|     2 | Lose another Magnitude PP, to a minimum of 0.                                                                                                                          |
+|     3 | An immediate Reach-0 effect one Intensity lower strikes the Shaper, nearest valid subject, or surroundings; no beneficial adjustment. Intensity 0 is cosmetic trouble. |
+|     4 | Become Fatigued; if Fatigued, become Exhausted; if Exhausted, fall unconscious `3D6` minutes and awaken Fatigued.                                                      |
 
-Backlash follows the attempted Form and situation, not a rewritten character concept. Counter or Dispel spills use the target's Form at one lower Intensity; Intensity 0 is cosmetic trouble.
+Backlash follows the attempted Form and situation, not a rewritten concept. Counter or Dispel spills use the target's Form one Intensity lower; Intensity 0 is cosmetic trouble.

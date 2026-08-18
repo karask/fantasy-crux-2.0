@@ -12,22 +12,22 @@ aliases:
   - Shaping cells
 ---
 
-Choose a **Form**—what magic governs—then a **Technique**—what it may do. Their intersection is one [known cell](/rules/magic/#becoming-a-shaper); the [building rules](/rules/magic/#building-a-shaping) still limit and price its outcome.
+Choose a **Form**—what magic governs—then a **Technique**—what it does. Their intersection is a [known cell](/rules/magic/#becoming-a-shaper); the [building rules](/rules/magic/#building-a-shaping) limit and price its outcome.
 
 ## Forms {#magic-forms}
 
-| Form             | Scope and limits                                                                                              | Usual hostile defence                                         |
-| ---------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
-| **Fire**         | Flame, heat, and light; ignited mundane fire uses core rules.                                                 | Dodge if projected; otherwise Resilience                      |
-| **Water/Ice**    | Water, cold, and ice; dousing flame is natural, slowing is not free.                                          | Dodge if projected; otherwise Resilience                      |
-| **Air/Storm**    | Air, wind, sound, weather, and lightning; no free knockback or Piercing.                                      | Dodge if projected; otherwise Resilience                      |
-| **Earth/Stone**  | Soil, stone, and natural minerals, not all worked metal.                                                      | Dodge if projected; Resilience for restraint or change        |
-| **Flesh**        | Biological matter, living or dead: people, beasts, plants, bone, corpses, flesh constructs, corporeal undead. | Resilience                                                    |
-| **Mind**         | Thought, emotion, memory, perception, and choice in any non-Mindless mind, including a Soulless one.          | Persistence                                                   |
-| **Force/Motion** | Kinetic force, movement, weight, and mass.                                                                    | Dodge if projected; Resilience for bodily control             |
-| **Spirit**       | Souls, Spirits, possession, and spiritual bonds; a Soulless subject is invalid.                               | Persistence                                                   |
-| **Paths**        | Routes, thresholds, distance, destinations, and spatial links; never time travel.                             | Resilience; Dodge `-1P` for a visible moving aperture or area |
-| **Fate**         | Unresolved chance, omens, vows, and declared contingencies; never a resolved event or compelled choice.       | Persistence                                                   |
+| Form             | Scope and limits                                                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------------------------- |
+| **Fire**         | Flame, heat, and light; ignited mundane fire uses core rules.                                                 |
+| **Water/Ice**    | Water, cold, and ice; dousing flame is natural, slowing is not free.                                          |
+| **Air/Storm**    | Air, wind, sound, weather, and lightning; no free knockback.                                                  |
+| **Earth/Stone**  | Soil, stone, and natural minerals, not all worked metal.                                                      |
+| **Flesh**        | Biological matter, living or dead: people, beasts, plants, bone, corpses, flesh constructs, corporeal undead. |
+| **Mind**         | Thought, emotion, memory, perception, and choice in any non-Mindless mind, including a Soulless one.          |
+| **Force/Motion** | Kinetic force, movement, weight, and mass.                                                                    |
+| **Spirit**       | Souls, Spirits, possession, and spiritual bonds; a Soulless subject is invalid.                               |
+| **Paths**        | Routes, thresholds, distance, destinations, and spatial links; never time travel.                             |
+| **Fate**         | Unresolved chance, omens, vows, and declared contingencies; never a resolved event or compelled choice.       |
 
 ## Techniques {#magic-techniques}
 
@@ -44,40 +44,42 @@ Unmake may damage a manifestation or exploit a genuine natural counter. Only [Di
 
 ## Reading the grid {#magic-reading-grid}
 
-[Armour](/rules/equipment/#armour) applies to physical damage unless **Piercing**; its padding interrupts magical contact. **Internal Flesh**—withering an organ or rotting tissue in place—always needs Piercing. Environmental fire uses core rules; Spirit damage has its [own rule](/rules/magic/#effects--magic-damage).
+Forms grant permission, not free damage, protection bypass, or outcomes. Harm follows its declared [delivery](/rules/magic/#casting-and-defence--magic-harm-delivery); environmental fire and later mundane consequences use core rules. Spirit damage has its [own rule](/rules/magic/#effects--magic-damage).
 
 ### Bodies, minds, and souls {#magic-bodies-minds-souls}
 
-All **Undead** are Soulless. Mind affects intelligent undead, but not Mindless creatures. Flesh affects living creatures and corporeal undead; Unmake·Flesh harms their bodies. Limb loss is narrative with damage, or a separately priced condition or transformation. Spirit cannot affect Soulless creatures.
+All **Undead** are Soulless. Mind affects intelligent, non-Mindless undead; Flesh affects living creatures and corporeal undead. Unmake·Flesh harms the body. Limb loss is narrative with damage or a priced condition or transformation. Spirit cannot affect Soulless creatures.
 
-Bend·Flesh restrains or puppets a body through Resilience and active control, but supplies no beliefs, tactics, or loyalty. Alter·Flesh heals living tissue and repairs corporeal undead, but supplies no soul, identity, or memory.
+Bend·Flesh restrains or puppets through Resilience and active control, granting no beliefs, tactics, or loyalty. Alter·Flesh heals living tissue and repairs corporeal undead, granting no soul, identity, or memory.
 
-Force/Motion handles a body as mass—pushing, lifting, or pinning it. Flesh works its limbs, tissue, and actions.
+Force/Motion handles mass—pushing, lifting, pinning. Flesh works limbs, tissue, and actions.
 
 ### Paths {#magic-paths}
 
-- **Bend·Paths:** Intensity 2 moves a willing subject, or an unwilling one up to 3 metres. Intensity 3 moves an unwilling subject within purchased Range; use Intensity 4 if relocation alone would normally remove it from the encounter.
-- **Conjure·Paths:** a portal needs Intensity 3+. It is stationary and one-way; changing either adds an outcome. Crossing costs a Movement Action. Sight, attacks, and objects may cross. Measure attack range to the entrance plus exit to target; cover at either aperture applies.
-- Range must reach subject or entrance and destination. Reach covers the largest subject and total transported creatures or independent objects; worn gear travels with its bearer. Each passage uses this allowance; the portal closes when it is spent.
-- Arrival must be empty, stable, large enough, and free of unavoidable harm or confinement. An invalid destination moves nobody. Paths grants no free falling, collision, restraint, suffocation, or damage.
+- **Bend·Paths:** Intensity 2 moves a willing subject or an unwilling one up to 3 metres; Intensity 3 moves an unwilling subject within Range. Use Intensity 4 if relocation alone removes it from the encounter.
+- **Conjure·Paths:** an Intensity 3+ portal is stationary and one-way; changing either adds an outcome. Crossing costs a Movement Action. Sight, attacks, and objects cross. Attack Range equals entrance plus exit-to-target distance; cover at either aperture applies.
+- Range must reach subject or entrance and destination. Reach limits subject size and total creatures or independent objects; worn gear accompanies its bearer. Each passage spends allowance; the portal closes when spent.
+- Arrival must be empty, stable, large enough, and safe from unavoidable harm or confinement. An invalid destination moves nobody. Paths grants no free falling, collision, restraint, suffocation, or damage.
+
+Unwilling relocation uses Resilience; a visible moving aperture or area uses Dodge `-1P`.
 
 Other Paths cells may Bend distance, Unmake a route, Alter a destination, Ward a threshold, or Scry an exit.
 
 ### Fate {#magic-fate}
 
-Declare Fate before uncertainty resolves: **When [observable event] occurs before [expiry], [named subject] receives [exact paid effect] on [named test, narrow endeavour, or consequence].** Later events need **Trigger** and fire once; vows never force obedience.
+Before uncertainty resolves, declare: **When [observable event] occurs before [expiry], [named subject] receives [exact paid effect] on [named test, narrow endeavour, or consequence].** Later events need **Trigger** and fire once; vows never compel obedience.
 
-Intensity 1 gives a non-numerical omen or coincidence; Intensity 2 gives `+1B` or `-1P`, and Intensity 4 gives `+2B` or `-2P`. Apply only the strongest favourable and hostile magical modifiers, then cancel dice. Fate creates only its paid omen, opportunity, modifier, or condition—not another Form's effect.
+Intensity 1 grants a non-numerical omen or coincidence; Intensity 2 grants `+1B` or `-1P`, and Intensity 4 grants `+2B` or `-2P`. Apply the strongest favourable and hostile magical modifiers, then cancel dice. Fate creates only its paid omen, opportunity, modifier, or condition—not another Form's effect.
 
-Fate deals no HP damage and never works retroactively. It cannot grant rerolls, automatic success, extra Actions or Reactions, chosen die results, wider critical ranges, or changes to rolled damage. Scry·Fate reveals possibilities, not certainty.
+Fate deals no HP damage or retroactive effects. It grants no rerolls, automatic success, extra Actions/Reactions, chosen die results, wider critical ranges, or rolled-damage changes. Scry·Fate reveals possibilities, not certainty. Hostile Fate uses Persistence.
 
 Fate may Conjure a chance or vow, Bend odds, Unmake or Alter a mundane vow, Ward against doom, or Scry omens.
 
 ### Illusions {#magic-illusions}
 
-Illusions are Mind: Conjure an absent perception, or Alter one that exists. Reach pays for each mind; each resists with Persistence.
+Illusions are Mind: Conjure an absent perception or Alter one present. Reach pays for each mind; each resists with Persistence.
 
-A fooled witness may spend a Combat Action to oppose Perception with the stored Shaping. Success identifies falsehood but neither Dispels it nor reveals concealed matter; failure needs new evidence to retry. Illusions cause no harm.
+A fooled witness may spend a Combat Action to oppose Perception with stored Shaping. Success identifies falsehood but neither Dispels it nor reveals concealed matter; failure needs new evidence to retry. Illusions cause no harm.
 
 ## All sixty cells {#magic-cell-grid}
 

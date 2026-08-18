@@ -287,17 +287,17 @@ test('every rules chapter links to each of its sections below the chapter headin
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(50);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(49);
   await page.getByRole('button', { name: 'Shield' }).click();
   const visibleCards = page.locator('.talent-list [data-filter-item]:visible');
   await expect(visibleCards).not.toHaveCount(0);
   await expect(visibleCards.first()).toContainText(/shield/i);
-  await expect(page.locator('[data-filter-count]')).not.toHaveText('50');
+  await expect(page.locator('[data-filter-count]')).not.toHaveText('49');
   await expect(page.getByRole('status')).toContainText('Talents available');
 
-  // The magic tag covers Shaping and the two Talents that build on it.
+  // Piercing is retired; eight magic-tagged Talents remain.
   await page.getByRole('button', { name: 'Magic' }).click();
-  await expect(visibleCards).toHaveCount(9);
+  await expect(visibleCards).toHaveCount(8);
 
   // Talents reach past combat, so the non-combat tags filter too.
   await page.getByRole('button', { name: 'Social' }).click();
@@ -666,7 +666,7 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(50);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(49);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();

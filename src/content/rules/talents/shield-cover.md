@@ -5,7 +5,7 @@ chapter: talents
 title: Shield Cover
 slug: shield-cover
 order: 40
-summary: A ready medium or large shield imposes -1P on ranged attacks you can see coming.
+summary: A ready medium or large shield imposes -1P on ranged attacks and individually targeted Projected Shapings.
 aliases:
   - passive shield cover
   - shield missile protection
@@ -22,8 +22,4 @@ tags:
 
 ## Effect
 
-While you are aware of the attacker and hold a ready medium or large shield, ranged attacks against you suffer `-1P`. This spends no Reaction.
-
-Use only the best penalty from Shield Cover and terrain cover; they do not stack. You may still Dodge or use [Active Guard](/rules/combat/#active-guard) against a hit.
-
-Against [projected Shapings](/rules/magic/#casting-and-defence--magic-cover-shields), apply the same penalty only when the shield can plausibly obstruct the effect.
+While aware and holding a ready medium or large shield, impose `-1P` on ranged attacks and any individually targeted [Projected Shaping](/rules/magic/#casting-and-defence--magic-cover-shields). This spends no Reaction and applies before Active Guard. Use only the best Shield Cover or terrain penalty. Dodge and [Active Guard](/rules/combat/#active-guard) remain available; areas and Direct Harm gain no benefit.

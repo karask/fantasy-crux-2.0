@@ -13,11 +13,11 @@ aliases:
   - magic summons
 ---
 
-Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) that produces the declared outcome.
+Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) covering the outcome.
 
 | Outcome                       | Effect                                                                       |
 | ----------------------------- | ---------------------------------------------------------------------------- |
-| Direct damage                 | Unmake deals `Intensity D6`; never add Damage Modifier.                      |
+| Immediate damage              | Unmake deals `Intensity D6`; never add Damage Modifier.                      |
 | Healing                       | Alter·Flesh restores `1D4` HP per Intensity.                                 |
 | Armour or reduction           | Ward grants AP of twice Intensity against one defined class of harm.         |
 | Barrier                       | AP = twice Intensity; total HP = `5 × Intensity`; Reach sets footprint.      |
@@ -31,51 +31,53 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) th
 
 ## Damage, armour, and wounds {#magic-damage}
 
-Physical magic follows normal [damage rules](/rules/combat/#damage-and-wounds); **Piercing** ignores mundane armour. Mind deals no HP. Unmake·Spirit deals `Intensity D6` PP to a souled target, ignoring AP. At 0 PP, a living target falls unconscious; a Spirit is banished and possession ends. Soulless targets are invalid.
+Where its Form permits, Unmake deals `Intensity D6`. Projected Harm follows normal [damage rules](/rules/combat/#damage-and-wounds), including nonmagical AP. Direct Harm ignores nonmagical worn, natural, and object AP. Direct Harm against creatures retains Ward AP and named resistances; unattended objects retain magical protection only. Subsequent hazards, summons, falling objects, and mundane consequences use ordinary armour rules.
+
+Mind deals no HP. Unmake·Spirit damage is Direct-only: oppose Persistence and deal `Intensity D6` PP to a souled target; only magical Ward AP and named resistances apply. A visible spectral bolt is cosmetic Tell, not a projectile. It causes no HP loss, Major Wound, or Bleeding. At 0 PP, a living target falls unconscious, a Spirit is banished, and possession ends. Soulless targets are invalid. Use selected targets and the Direct Range route.
 
 ## Healing and death {#magic-healing}
 
-Healing cannot exceed maximum HP and removes **Bleeding** and **Dying**. A living subject restored above 0 HP may act on their next turn in Combat Order. Wounded remains.
+Healing stops at maximum HP and removes **Bleeding** and **Dying**. A living subject restored above 0 HP may act next turn; Wounded remains.
 
-At Intensity 3+, healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery): it unlocks natural recovery, and Wounded ends after treatment once HP exceeds MWL.
+Intensity 3+ healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery), unlocking recovery; after treatment, Wounded ends once HP exceeds MWL.
 
-Curing poison or disease needs a minimum Intensity of Potency divided by 25. Oppose Shaping with Potency; the Shaper must succeed and win. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change to retry.
+Curing poison or disease needs Intensity at least Potency divided by 25, and Shaping must win against Potency. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change to retry.
 
-Healing does not remove Fatigue, deprivation, age, or unrelated conditions without another paid outcome. Returning the dead requires Intensity 5, permanent Duration, a mythic ritual, a willing reachable soul, and a lasting price. The subject returns at 1 HP and Wounded; restoring a destroyed body is separate.
+Fatigue, deprivation, age, and unrelated conditions need separate outcomes. Returning the dead requires Intensity 5, permanent Duration, a mythic ritual, willing reachable soul, and lasting price. The subject returns at 1 HP and Wounded; restoring a destroyed body is separate.
 
 ### Corporeal undead {#magic-undead}
 
-Alter·Flesh repairs a corporeal undead body at normal healing Intensity, but restores no soul, identity, intelligence, memory, or loyalty. Unmake·Flesh damages living bodies and corporeal undead normally.
+Alter·Flesh repairs corporeal undead at normal healing Intensity, restoring no soul, identity, intelligence, memory, or loyalty. Unmake·Flesh damages living and corporeal undead bodies normally.
 
 Conjure·Flesh may animate remains as a temporary generic **Mindless, Soulless Undead** summon. Use the table below; remains collapse at 0 HP or Duration's end, while conjured matter vanishes. Lasting undead require a named profile, profile-based Intensity, Duration 5, mythic price, and vulnerable physical anchor. Intelligence grants no former identity, memories, or loyalty.
 
-Alter·Flesh at Intensity 5 and Duration 5 can turn a living subject into Undead through a mythic ritual and lasting price; its soul departs. Shaping-made or sustained undead are active magic, vulnerably anchored to body or remains. Existing undead are not Shapings merely for being undead.
+Alter·Flesh at Intensity 5 and Duration 5 can make a living subject Undead through mythic ritual and lasting price; its soul departs. Shaping-made or sustained undead are active magic anchored vulnerably to body or remains. Existing undead are not inherently Shapings.
 
 ## Modifiers and transformation {#magic-transformation}
 
-A modifier names one skill or narrow family; identical magical modifiers do not stack. Shaping never expands critical range or grants extra Combat Actions, Movement Actions, Reactions, Dodges, PP, IP, Hero Points, Talents, skills, or memories.
+A modifier names one skill or narrow family; identical magical modifiers do not stack. Shaping never widens critical range or grants extra Combat Actions, Movement Actions, Reactions, Dodges, PP, IP, Hero Points, Talents, skills, or memories.
 
-Temporary characteristic changes affect only direct tests and physical thresholds, never prerequisites or derived values: base skills, HP, MWL, PP, DM, Combat Order, or active capacity. Permanent changes recalculate; permanent POW loss lowers maximum PP and active capacity, forcing dismissals until legal.
+Temporary characteristic changes affect direct tests and physical thresholds, never prerequisites or derived values: base skills, HP, MWL, PP, DM, Combat Order, or active capacity. Permanent changes recalculate; permanent POW loss lowers maximum PP and active capacity, forcing dismissals until legal.
 
-A transformation changes appearance and form. Its AP, attacks, movement modes, senses, Size benefits, and other mechanics require additional outcomes guided by an existing profile. Concept grants permission, not free capabilities.
+A transformation changes appearance and form. AP, attacks, movement modes, senses, Size benefits, and other mechanics need additional outcomes guided by an existing profile. Concept grants permission, not capabilities.
 
 ## Restraint, influence, and control {#magic-control}
 
-Intensity 1 may colour emotion or plant a plausible suggestion. Intensity 2 may compel one limited, reasonable action, but cannot spend or deny a combat Action, create immediate tactical disadvantage, or oppose the subject's interests. Those effects require Intensity 3, which may also remove one Combat Action. Intensity 4 permits full control.
+Intensity 1 may colour emotion or plant a plausible suggestion. Intensity 2 may compel one limited, reasonable action, but cannot spend or deny a combat Action, cause immediate tactical disadvantage, or oppose the subject's interests. Those need Intensity 3, which may also remove one Combat Action. Intensity 4 permits full control.
 
-A compelled combat act occurs on the subject's next turn, spending the corresponding Action and never granting an extra one.
+A compelled combat act occurs on the subject's next turn, spending its Action and granting no extra one.
 
-A restrained subject may spend a Combat Action to retry its original defence against the stored result. Full control grants another Persistence test against serious self-harm, defining betrayal, or violation of a central belief; certain death always grants one. Success frees that subject from control.
+A restrained subject may spend a Combat Action to retry its original defence against the stored result. Full control grants another Persistence test against serious self-harm, defining betrayal, or a central belief's violation; certain death always grants one. Success frees that subject.
 
-Directing an actively controlled subject spends the Shaper's Combat Action. It obeys on its own turn in Combat Order, spends the corresponding Action, and gains no extra one. Without maintenance, a creature regains control; magical movement stops where the fiction permits.
+Directing active control spends the Shaper's Combat Action. The subject obeys on its own turn, spends the corresponding Action, and gains none. Without maintenance it regains control; magical movement stops where fiction permits.
 
 ## Wards and barriers {#magic-wards}
 
-A Ward grants one benefit: AP or reduction of twice Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint and resisted on each crossing attempt.
+A Ward grants one benefit: AP or reduction equal to twice Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint and resisted per crossing attempt.
 
-Ward AP never adds to worn armour against the same damage. Use the higher AP when both apply; if worn armour cannot protect against the source, use Ward AP alone. Same-kind magical protection never stacks.
+Ward AP never adds to worn armour against one damage source: use the higher, or Ward AP alone when worn armour cannot protect. Same-kind magical protection never stacks.
 
-A solid barrier blocks movement and line of effect until destroyed, and cannot appear through occupied space. Placement trapping an unwilling subject is hostile restraint; the defender chooses Dodge or Resilience. A Form unable to create a solid structure cannot use barrier statistics.
+A solid barrier blocks movement and line of effect until destroyed and cannot appear through occupied space. Trapping an unwilling subject is hostile restraint: the defender chooses Dodge or Resilience. Forms unable to make solid structures cannot use barrier statistics.
 
 ## Scry {#magic-scry}
 
@@ -86,13 +88,13 @@ A solid barrier blocks movement and line of effect until destroyed, and cannot a
 |         3 | Observe a distant scene, read surface thoughts, or reveal deeply hidden information. |
 |         4 | Reach guarded memory, obscured history, motives, or uncertain possible futures.      |
 
-Scry gives evidence, not omniscience or knowledge absent from every accessible mind, place, spirit, trace, or pattern. Possible futures change when acted upon. Live observation, communication, or thought-reading requires concentration; a static sense or fact does not.
+Scry gives evidence, not omniscience or knowledge absent from accessible minds, places, spirits, traces, or patterns. Possible futures change when acted upon. Live observation, communication, or thought-reading needs concentration; static senses and facts do not.
 
 ## Summons and named beings {#magic-summons}
 
-A Shaper may have only one combat-capable summon or actively controlled subject at a time; Reach does not bypass this limit.
+Only one combat-capable summon or actively controlled subject; Reach cannot bypass this.
 
-A generic combat summon acts immediately after its Shaper. It may move, communicate, and defend uncommanded. Consequential acts cost the Shaper's Combat Action and the summon's corresponding Action. It has Movement 15, one Movement Action, and one base Reaction.
+A generic combat summon acts immediately after its Shaper. It moves, communicates, and defends uncommanded; consequential acts cost the Shaper's Combat Action and the summon's corresponding Action. It has Movement 15, one Movement Action, and one base Reaction.
 
 | Intensity |  HP |  AP | Attack/defence | Damage |
 | --------: | --: | --: | -------------: | -----: |
@@ -101,10 +103,10 @@ A generic combat summon acts immediately after its Shaper. It may move, communic
 |         3 |  10 |   2 |            55% |  `1D8` |
 |         4 |  14 |   3 |            70% |  `2D6` |
 
-Listed defence covers Dodge, Resilience, Persistence, and any possible physical Parry; damage adds no DM. Summons ignore Major Wounds and vanish at 0 HP. Each useful capability beyond the profile—including flight, incorporeality, spellcasting, invisibility, extra natural armour, or special senses—raises minimum Intensity or adds an outcome.
+Listed defence covers Dodge, Resilience, Persistence, and possible physical Parry; damage adds no DM. Summons ignore Major Wounds and vanish at 0 HP. Capabilities beyond the profile—including flight, incorporeality, spellcasting, invisibility, extra natural armour, or special senses—raise minimum Intensity or add an outcome.
 
-Range sets a generic summon's arrival. Calling an existing named being must also reach its current location or realm; use the higher Range.
+Range sets generic arrival. Calling a named being must also reach its location or realm; use the higher Range.
 
-A named being uses its own profile; set Intensity by threat, reserving Intensity 5 for legendary beings. An unwilling being resists the call with Persistence. Calling grants no control: it remembers treatment and may demand terms. Binding or command is another outcome and allows Persistence. Duration and active limits apply until the Shaping ends; afterward it may stay willingly, without magical command, guaranteed service, protection, or dismissal.
+A named being uses its profile; set Intensity by threat, reserving 5 for legendary beings. An unwilling being resists calling with Persistence. Calling grants no control: it remembers treatment and may demand terms. Binding or command is another Persistence-resisted outcome. Duration and active limits apply until Shaping ends; afterward it may stay willingly, without magical command, guaranteed service, protection, or dismissal.
 
 Created, summoned, transformed, or compelled beings cannot summon, contribute PP, create magical resources, or pay ritual prices.

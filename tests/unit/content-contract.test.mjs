@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 50-Talent catalogue', () => {
+  it('ships exactly the approved 49-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -51,7 +51,6 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Missile Guard',
         'Off-Hand Mastery',
         'Physician',
-        'Piercing',
         'Point-Blank Shot',
         'Poisoner',
         'Practised Hands',
@@ -94,14 +93,26 @@ describe('canonical Fantasy Crux 2.0 content', () => {
 
     expect(magicChapter.content).toContain('Shaping');
     expect(magicChapter.content).not.toContain('Magic rules are in development.');
-    expect(magicRules.map((record) => [record.data.id, record.data.slug])).toEqual([
-      ['magic.becoming-a-shaper', 'becoming-a-shaper'],
-      ['magic.building-a-shaping', 'building-a-shaping'],
-      ['magic.techniques-and-forms', 'techniques-and-forms'],
-      ['magic.effects', 'effects'],
-      ['magic.casting-and-defence', 'casting-and-defence'],
-      ['magic.ongoing-and-magical-actions', 'ongoing-and-magical-actions'],
-      ['magic.rituals-and-examples', 'rituals-and-examples'],
+    expect(
+      magicRules.map((record) => [
+        record.data.id,
+        record.data.title,
+        record.data.slug,
+        record.data.order,
+      ]),
+    ).toEqual([
+      ['magic.becoming-a-shaper', 'Becoming a Shaper', 'becoming-a-shaper', 10],
+      ['magic.building-a-shaping', 'Building a Shaping', 'building-a-shaping', 20],
+      ['magic.techniques-and-forms', 'Forms and Techniques', 'techniques-and-forms', 30],
+      ['magic.effects', 'Effects', 'effects', 40],
+      ['magic.casting-and-defence', 'Casting and Defence', 'casting-and-defence', 50],
+      [
+        'magic.ongoing-and-magical-actions',
+        'Ongoing Shapings and Magical Actions',
+        'ongoing-and-magical-actions',
+        60,
+      ],
+      ['magic.rituals-and-examples', 'Rituals and Examples', 'rituals-and-examples', 70],
     ]);
     expect(shapingTalent.data.cost).toBe(20);
     expect(shapingTalent.content).toContain('/rules/magic/#becoming-a-shaper');

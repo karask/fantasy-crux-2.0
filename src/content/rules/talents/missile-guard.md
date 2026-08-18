@@ -5,7 +5,7 @@ chapter: talents
 title: Missile Guard
 slug: missile-guard
 order: 30
-summary: Remove the Active Guard penalty when parrying arrows, bolts, and sling projectiles with a shield.
+summary: Remove the Active Guard penalty against missiles and Projected Shapings when using a shield.
 aliases:
   - missile Parry mastery
   - shield against arrows
@@ -22,4 +22,4 @@ tags:
 
 ## Effect
 
-When using [Active Guard](/rules/combat/#active-guard) with a ready shield, ignore its `-1P` against bows, crossbows, and slings. You must still be aware of the attack, spend an eligible Reaction, and resolve the Parry normally.
+With a ready shield, ignore [Active Guard's](/rules/combat/#active-guard) `-1P` against bows, crossbows, slings, and Projected Shapings.
