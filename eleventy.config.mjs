@@ -46,6 +46,7 @@ export default function configure(eleventyConfig) {
   eleventyConfig.setLibrary('md', markdown);
   eleventyConfig.addWatchTarget('src/assets/');
   eleventyConfig.addWatchTarget('art/library/chapters/');
+  eleventyConfig.addPassthroughCopy('CNAME');
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
   eleventyConfig.addPassthroughCopy({
     'node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2':

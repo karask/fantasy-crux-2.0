@@ -2,6 +2,7 @@ import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 
 const required = [
+  'CNAME',
   'index.html',
   'rules/start-here/index.html',
   'rules/characters/index.html',
@@ -20,6 +21,13 @@ const required = [
 
 for (const relativePath of required) {
   await access(path.join('_site', relativePath));
+}
+
+const cname = (await readFile('_site/CNAME', 'utf8')).trim();
+if (cname !== 'fantasycrux.org') {
+  throw new Error(
+    `Expected the production CNAME to be fantasycrux.org, found ${cname || 'nothing'}.`,
+  );
 }
 
 async function htmlFiles(directory) {
