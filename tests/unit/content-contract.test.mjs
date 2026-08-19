@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 49-Talent catalogue', () => {
+  it('ships exactly the approved 51-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -37,6 +37,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Defensive Stance',
         'Disarm',
         'Enchanter',
+        'Favoured Weapon',
         'Field Surgeon',
         'Iron Fist',
         'Indirect',
@@ -62,6 +63,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Shaping',
         'Shield Cover',
         'Shield Rush',
+        'Signature Weapon',
         'Silent Step',
         'Silver Tongue',
         'Steady Aim',
@@ -78,6 +80,61 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Wrestler',
       ].sort(),
     );
+  });
+
+  it('publishes the two-tier exact-weapon damage progression', () => {
+    const favouredWeapon = records.find((record) => record.data.id === 'talent.favoured-weapon');
+    const signatureWeapon = records.find((record) => record.data.id === 'talent.signature-weapon');
+
+    expect(favouredWeapon.data).toMatchObject({
+      title: 'Favoured Weapon',
+      slug: 'favoured-weapon',
+      order: 55,
+      cost: 3,
+      activation: 'passive',
+      tags: ['close', 'offence', 'ranged'],
+    });
+    expect(favouredWeapon.data.prerequisites).toContain('51%');
+    expect(favouredWeapon.content).toContain('Choose one named weapon');
+    expect(favouredWeapon.content).toContain('Unarmed or Improvised rock');
+    expect(favouredWeapon.content).toContain('Shields qualify');
+    expect(favouredWeapon.content).toContain('adds 1 damage before Parry and armour');
+    expect(favouredWeapon.content).toContain('applies to every matching hit');
+    expect(favouredWeapon.content).toContain('both Close and Ranged profiles');
+    expect(favouredWeapon.content).toContain('A primitive version of the chosen weapon qualifies');
+    expect(favouredWeapon.content).toContain('any weapon as an improvised club does not');
+    expect(favouredWeapon.content).toContain(
+      'including Disarm, Trip, Shield Rush, Subdue, or an unopposed Critical',
+    );
+    expect(favouredWeapon.content).toContain('A Critical opposed by an ordinary Reaction');
+    expect(favouredWeapon.content).toContain('never more than once for the same weapon');
+    expect(favouredWeapon.content).toContain(
+      'does not apply to unarmed attacks, natural weapons, or Shaping',
+    );
+
+    expect(signatureWeapon.data).toMatchObject({
+      title: 'Signature Weapon',
+      slug: 'signature-weapon',
+      order: 57,
+      cost: 4,
+      activation: 'passive',
+      tags: ['close', 'offence', 'ranged'],
+    });
+    expect(signatureWeapon.data.prerequisites).toContain('76%');
+    expect(signatureWeapon.data.prerequisites).toContain('Favoured Weapon');
+    expect(signatureWeapon.content).toContain('from 1 to 2 damage');
+    expect(signatureWeapon.content).toContain('does not add to it for +3');
+    expect(signatureWeapon.content).toContain('All Favoured Weapon limits still apply');
+    expect(signatureWeapon.content).toContain('never more than once for the same weapon');
+
+    const offHandMastery = records.find((record) => record.data.id === 'talent.off-hand-mastery');
+    const wrestler = records.find((record) => record.data.id === 'talent.wrestler');
+    expect([
+      offHandMastery.data.order,
+      favouredWeapon.data.order,
+      signatureWeapon.data.order,
+      wrestler.data.order,
+    ]).toEqual([50, 55, 57, 60]);
   });
 
   it('publishes Shaping as the canonical Magic chapter and preserves Magic 2.0', () => {

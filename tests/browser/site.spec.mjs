@@ -287,12 +287,32 @@ test('every rules chapter links to each of its sections below the chapter headin
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(49);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(51);
+
+  const favouredWeapon = page
+    .locator('.talent-list [data-filter-item]')
+    .filter({ has: page.locator('#favoured-weapon') });
+  const signatureWeapon = page
+    .locator('.talent-list [data-filter-item]')
+    .filter({ has: page.locator('#signature-weapon') });
+  await expect(favouredWeapon).toContainText('3 Improvement Points');
+  await expect(favouredWeapon).toContainText('adds 1 damage before Parry and armour');
+  await expect(signatureWeapon).toContainText('4 Improvement Points');
+  await expect(signatureWeapon).toContainText('from 1 to 2 damage');
+
+  await page.getByRole('button', { name: 'Offence' }).click();
+  await expect(favouredWeapon).toBeVisible();
+  await expect(signatureWeapon).toBeVisible();
+
+  await page.getByRole('button', { name: 'Ranged' }).click();
+  await expect(favouredWeapon).toBeVisible();
+  await expect(signatureWeapon).toBeVisible();
+
   await page.getByRole('button', { name: 'Shield' }).click();
   const visibleCards = page.locator('.talent-list [data-filter-item]:visible');
   await expect(visibleCards).not.toHaveCount(0);
   await expect(visibleCards.first()).toContainText(/shield/i);
-  await expect(page.locator('[data-filter-count]')).not.toHaveText('49');
+  await expect(page.locator('[data-filter-count]')).not.toHaveText('51');
   await expect(page.getByRole('status')).toContainText('Talents available');
 
   // Piercing is retired; eight magic-tagged Talents remain.
@@ -666,10 +686,12 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(49);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(51);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();
+  await expect(page.locator('#favoured-weapon')).toBeVisible();
+  await expect(page.locator('#signature-weapon')).toBeVisible();
   await expectNoHorizontalOverflow(page);
   await context.close();
 });
