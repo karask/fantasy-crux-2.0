@@ -4,6 +4,11 @@ const immutableId = z.string().regex(/^[a-z0-9]+(?:[.-][a-z0-9]+)*$/, 'Use a sta
 const slug = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Use a lowercase URL slug.');
 const summary = z.union([z.string().trim().min(1), z.array(z.string().trim().min(1)).min(1)]);
 const aliases = z.array(z.string().trim().min(1)).min(1).optional();
+const legacySlugs = z
+  .array(slug)
+  .min(1)
+  .refine((values) => new Set(values).size === values.length, 'Legacy slugs must be unique.')
+  .optional();
 const order = z.number().int().nonnegative();
 
 export const chapterIds = [
@@ -60,6 +65,7 @@ const chapterSchema = z
     title: z.string().trim().min(1),
     order,
     summary,
+    legacySlugs,
   })
   .strict();
 
@@ -71,14 +77,21 @@ const sharedRuleFields = {
   order,
   summary,
   aliases,
+  legacySlugs,
 };
+
+const excludesCanonicalSlug = (record) => !record.legacySlugs?.includes(record.slug);
 
 const ruleSchema = z
   .object({
     type: z.literal('rule'),
     ...sharedRuleFields,
   })
-  .strict();
+  .strict()
+  .refine(excludesCanonicalSlug, {
+    message: 'A canonical slug cannot also be a legacy slug.',
+    path: ['legacySlugs'],
+  });
 
 const talentSchema = z
   .object({
@@ -90,7 +103,11 @@ const talentSchema = z
     activation: z.string().trim().min(1),
     tags: z.array(z.enum(talentTags)).min(1),
   })
-  .strict();
+  .strict()
+  .refine(excludesCanonicalSlug, {
+    message: 'A canonical slug cannot also be a legacy slug.',
+    path: ['legacySlugs'],
+  });
 
 // A stat entry is a number where the compendium gives one, and prose where it qualifies the
 // value ('4 or 7 free-willed') or withholds it entirely ('—').
@@ -162,7 +179,11 @@ const creatureSchema = z
       message: 'Creature artwork requires image, image320, and imageAlt together.',
       path: ['image'],
     },
-  );
+  )
+  .refine(excludesCanonicalSlug, {
+    message: 'A canonical slug cannot also be a legacy slug.',
+    path: ['legacySlugs'],
+  });
 
 export const contentRecordSchema = z.discriminatedUnion('type', [
   chapterSchema,
@@ -183,4 +204,14 @@ export function permalinkFor(record) {
   }
 
   return `/rules/${value.chapter}/#${value.slug}`;
+}
+
+export function urlsFor(record) {
+  const value = validateRecord(record);
+  const canonical = permalinkFor(value);
+  const chapter = value.type === 'chapter' ? value.id : value.chapter;
+  return [
+    canonical,
+    ...(value.legacySlugs ?? []).map((legacySlug) => `/rules/${chapter}/#${legacySlug}`),
+  ];
 }

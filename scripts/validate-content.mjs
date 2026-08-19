@@ -1,7 +1,7 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import matter from 'gray-matter';
-import { permalinkFor, validateRecord } from '../src/lib/content-schema.mjs';
+import { urlsFor, validateRecord } from '../src/lib/content-schema.mjs';
 
 const contentRoot = path.resolve('src/content/rules');
 
@@ -30,16 +30,20 @@ for (const file of files) {
     const source = await readFile(file, 'utf8');
     const parsed = matter(source);
     const record = validateRecord(parsed.data);
-    const url = permalinkFor(record);
+    const urls = urlsFor(record);
 
     if (seenIds.has(record.id)) {
       throw new Error(`duplicate id also used by ${seenIds.get(record.id)}`);
     }
-    if (seenUrls.has(url)) {
-      throw new Error(`duplicate URL also used by ${seenUrls.get(url)}`);
+    for (const url of urls) {
+      if (seenUrls.has(url)) {
+        throw new Error(`duplicate URL also used by ${seenUrls.get(url)}`);
+      }
     }
     seenIds.set(record.id, path.relative(contentRoot, file));
-    seenUrls.set(url, path.relative(contentRoot, file));
+    for (const url of urls) {
+      seenUrls.set(url, path.relative(contentRoot, file));
+    }
   } catch (error) {
     const details = error.issues
       ? error.issues.map((issue) => `${issue.path.join('.')}: ${issue.message}`).join('; ')

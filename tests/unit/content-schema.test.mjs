@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { permalinkFor, validateRecord } from '../../src/lib/content-schema.mjs';
+import { permalinkFor, urlsFor, validateRecord } from '../../src/lib/content-schema.mjs';
 
 describe('content schema', () => {
   it('accepts a portable rule record and computes its stable URL', () => {
@@ -30,6 +30,61 @@ describe('content schema', () => {
     });
 
     expect(permalinkFor(rule)).toBe('/rules/magic/#building-a-shaping');
+  });
+
+  it('keeps canonical URLs while reserving legacy fragments', () => {
+    const talent = validateRecord({
+      type: 'talent',
+      id: 'talent.mastery',
+      chapter: 'talents',
+      title: 'Weapon Expertise',
+      slug: 'weapon-expertise',
+      legacySlugs: ['mastery'],
+      order: 260,
+      summary: 'Master one named weapon.',
+      cost: 4,
+      prerequisites: 'Close Combat 76% or Ranged Combat 76%',
+      activation: 'passive',
+      tags: ['training'],
+    });
+
+    expect(permalinkFor(talent)).toBe('/rules/talents/#weapon-expertise');
+    expect(urlsFor(talent)).toEqual([
+      '/rules/talents/#weapon-expertise',
+      '/rules/talents/#mastery',
+    ]);
+  });
+
+  it('lets a chapter reserve fragments retired from its catalogue', () => {
+    const chapter = validateRecord({
+      type: 'chapter',
+      id: 'talents',
+      title: 'Talents',
+      order: 5,
+      summary: 'Optional abilities.',
+      legacySlugs: ['sure-hand'],
+    });
+
+    expect(urlsFor(chapter)).toEqual(['/rules/talents/', '/rules/talents/#sure-hand']);
+  });
+
+  it('rejects duplicate and canonical legacy fragments', () => {
+    const baseTalent = {
+      type: 'talent',
+      id: 'talent.mastery',
+      chapter: 'talents',
+      title: 'Weapon Expertise',
+      slug: 'weapon-expertise',
+      order: 260,
+      summary: 'Master one named weapon.',
+      cost: 4,
+      prerequisites: 'Close Combat 76% or Ranged Combat 76%',
+      activation: 'passive',
+      tags: ['training'],
+    };
+
+    expect(() => validateRecord({ ...baseTalent, legacySlugs: ['mastery', 'mastery'] })).toThrow();
+    expect(() => validateRecord({ ...baseTalent, legacySlugs: ['weapon-expertise'] })).toThrow();
   });
 
   it('rejects unknown metadata and malformed immutable IDs', () => {
