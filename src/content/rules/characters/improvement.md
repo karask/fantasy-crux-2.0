@@ -28,6 +28,7 @@ Use its score before the increase to determine the gain.
 |        51–99% |           +3% |                             +3% |
 
 A skill at 100% cannot be improved, and no skill can exceed 100%.
+A gain cannot pass 100%: a skill at 98% improves to 100%, losing the excess.
 
 ## Improve a characteristic {#characters-improve-characteristics}
 
