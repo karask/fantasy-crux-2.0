@@ -52,10 +52,10 @@ attacks:
   - 'Bite — Unarmed Combat 100%, `1D10 + 7D6`, Huge'
   - 'Claw — Unarmed Combat 100%, `1D8 + 7D6`, Huge'
   - 'Tail — Unarmed Combat 100%, `1D20 + 7D6`, Huge'
-talents: 'Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I'
+talents: 'Exceptional Skill (Persistence) III; Exceptional Skill (Influence) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I; Exceptional Skill (Perception) I; Exceptional Skill (Unarmed Combat) I'
 ---
 
-**Double Claw 2 (Multiattack):** Make two Claw attacks. Mastery (Unarmed Combat) I normally removes the second attack's `-1P`.
+**Double Claw 2 (Multiattack):** Make two Claw attacks. Exceptional Skill (Unarmed Combat) I normally removes the second attack's `-1P`.
 
 **Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.
 

@@ -37,7 +37,7 @@ skills:
   - 'Unarmed Combat 80%'
 attacks:
   - 'Fist or Kick — Unarmed Combat 80%, `1D10 + 2D6`, Light'
-talents: 'Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I'
+talents: 'Exceptional Skill (Dodge) I; Exceptional Skill (Persistence) I; Exceptional Skill (Resilience) I'
 ---
 
 **Divine Form:** Choose land, swim, or flight as its 20 m movement mode when creating it.

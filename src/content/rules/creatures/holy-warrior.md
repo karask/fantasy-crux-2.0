@@ -39,7 +39,7 @@ skills:
 attackNotes:
   - 'Choose a current weapon or natural attack'
   - 'use its base damage and Size, adding DM only when that attack normally does'
-talents: 'Mastery (Dodge) II; Mastery (chosen combat skill) II; Mastery (Resilience) I; Mastery (Athletics) I'
+talents: 'Exceptional Skill (Dodge) II; Exceptional Skill (chosen combat skill) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I'
 ---
 
 Appearance, weapon, and optional Shaping cells express its patron without changing these values.

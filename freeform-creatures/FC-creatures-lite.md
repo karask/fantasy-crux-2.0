@@ -31,7 +31,7 @@ Nymphs are Corporeal Spirits with Anchors. Destruction of a nymph's body returns
 
 ## Creature Talents
 
-**Mastery (skill) I–III** preserves exceptional creature competence without a skill over 100%. Rating 101–125 becomes Mastery I, 126–150 becomes II, and 151+ becomes III. After ordinary Bonus/Penalty cancellation, but before the final dice cap, remove up to the rank in remaining Penalty dice from that skill's test. Mastery never creates Bonus dice, raises the skill above 100%, or expands its critical range.
+**Exceptional Skill (skill) I–III** preserves exceptional creature competence without a skill over 100%. Rating 101–125 becomes rank I, 126–150 becomes II, and 151+ becomes III. After ordinary Bonus/Penalty cancellation, but before the final dice cap, remove up to the rank in remaining Penalty dice from that skill's test. Exceptional Skill never creates Bonus dice, raises the skill above 100%, or expands its critical range.
 
 ## Multiattack
 
@@ -437,9 +437,9 @@ An ancient, intelligent flying reptile whose magic and temperament vary widely.
 
 **Attacks:** Bite — Unarmed Combat 100%, `1D10 + 7D6`, Huge; Claw — Unarmed Combat 100%, `1D8 + 7D6`, Huge; Tail — Unarmed Combat 100%, `1D20 + 7D6`, Huge.
 
-**Talents:** Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I.
+**Talents:** Exceptional Skill (Persistence) III; Exceptional Skill (Influence) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I; Exceptional Skill (Perception) I; Exceptional Skill (Unarmed Combat) I.
 
-**Abilities:** **Double Claw 2 (Multiattack):** Make two Claw attacks. Mastery (Unarmed Combat) I normally removes the second attack's `-1P`.
+**Abilities:** **Double Claw 2 (Multiattack):** Make two Claw attacks. Exceptional Skill (Unarmed Combat) I normally removes the second attack's `-1P`.
 
 **Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.
 
@@ -490,7 +490,7 @@ Raw elemental substance embodied as water, darkness, flame, stone, or storm.
 
 **Attacks:** Engulf — Attack by rank, rank damage, every other creature within the listed radius; subtype sets resistance and damage kind.
 
-**Talents:** Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Persistence) I. Medium: none.
+**Talents:** Small: Exceptional Skill (Dodge) I. Large: Exceptional Skill (Attack) I. Huge: Exceptional Skill (Persistence) I. Medium: none.
 
 **Abilities:** **Engulf:** Spend one Combat Action, centred on the Elemental; complete barriers block it. Roll damage once. Small through Large roll Attack once, which must succeed and win against each target's listed resistance separately.
 
@@ -698,7 +698,7 @@ A deity's otherworldly mount, manifesting as a sacred eagle, kraken, iron horse,
 
 **Attacks:** Fist or Kick — Unarmed Combat 80%, `1D10 + 2D6`, Light.
 
-**Talents:** Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I.
+**Talents:** Exceptional Skill (Dodge) I; Exceptional Skill (Persistence) I; Exceptional Skill (Resilience) I.
 
 **Abilities:** **Divine Form:** Choose land, swim, or flight as its 20 m movement mode when creating it.
 
@@ -716,7 +716,7 @@ An otherworldly champion whose form and weapon reflect its deity.
 
 **Attacks:** Choose a current weapon or natural attack; use its base damage and Size, adding DM only when that attack normally does.
 
-**Talents:** Mastery (Dodge) II; Mastery (chosen combat skill) II; Mastery (Resilience) I; Mastery (Athletics) I.
+**Talents:** Exceptional Skill (Dodge) II; Exceptional Skill (chosen combat skill) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I.
 
 **Abilities:** Appearance, weapon, and optional Shaping cells express its patron without changing these values.
 
@@ -894,7 +894,7 @@ A cave or darkness spirit that hunts beyond its domain only between sunset and d
 
 **Attacks:** Claw — Unarmed Combat 55%, `1D6 + 1D6`, Medium.
 
-**Talents:** Mastery (Deception) I.
+**Talents:** Exceptional Skill (Deception) I.
 
 **Abilities:** **Shaping cells:** Bend·Mind, Alter·Mind, Unmake·Fire, Unmake·Flesh.
 

@@ -52,7 +52,7 @@ skills:
   - 'Shaping 75%'
 attacks:
   - 'Claw — Unarmed Combat 55%, `1D6 + 1D6`, Medium'
-talents: 'Mastery (Deception) I'
+talents: 'Exceptional Skill (Deception) I'
 ---
 
 **Shaping cells:** Bend·Mind, Alter·Mind, Unmake·Fire, Unmake·Flesh.

@@ -621,7 +621,7 @@ describe('published creature compendium', () => {
     }
   });
 
-  it('caps skills at 100% and preserves exceptional competence through Mastery', () => {
+  it('caps skills at 100% and preserves exceptional competence as a creature feature', () => {
     const published = publishedCreatures
       .map(({ data, content }) => `${data.skills.join('; ')} ${data.talents} ${content}`)
       .join('\n');
@@ -631,23 +631,33 @@ describe('published creature compendium', () => {
 
     expect(
       publishedCreatures
-        .filter(({ data, content }) => `${data.talents}${content}`.includes('Mastery ('))
+        .filter(({ data, content }) => `${data.talents}${content}`.includes('Exceptional Skill ('))
         .map(({ data }) => data.title),
     ).toEqual(['Dragon', 'Elemental', 'Holy Steed', 'Holy Warrior', 'Hag']);
 
     expect(talentsOf('Dragon')).toBe(
-      'Mastery (Persistence) III; Mastery (Influence) II; Mastery (Resilience) I; Mastery (Athletics) I; Mastery (Perception) I; Mastery (Unarmed Combat) I',
+      'Exceptional Skill (Persistence) III; Exceptional Skill (Influence) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I; Exceptional Skill (Perception) I; Exceptional Skill (Unarmed Combat) I',
     );
     expect(talentsOf('Elemental')).toBe(
-      'Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Persistence) I. Medium: none',
+      'Small: Exceptional Skill (Dodge) I. Large: Exceptional Skill (Attack) I. Huge: Exceptional Skill (Persistence) I. Medium: none',
     );
     expect(talentsOf('Holy Steed')).toBe(
-      'Mastery (Dodge) I; Mastery (Persistence) I; Mastery (Resilience) I',
+      'Exceptional Skill (Dodge) I; Exceptional Skill (Persistence) I; Exceptional Skill (Resilience) I',
     );
     expect(talentsOf('Holy Warrior')).toBe(
-      'Mastery (Dodge) II; Mastery (chosen combat skill) II; Mastery (Resilience) I; Mastery (Athletics) I',
+      'Exceptional Skill (Dodge) II; Exceptional Skill (chosen combat skill) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I',
     );
-    expect(talentsOf('Hag')).toBe('Mastery (Deception) I');
+    expect(talentsOf('Hag')).toBe('Exceptional Skill (Deception) I');
+    expect(published).not.toContain('Mastery (');
+
+    const creatureTalents = publishedRecords.find(
+      ({ data }) => data.id === 'creatures.creature-talents',
+    );
+    expect(creatureTalents.content).toMatch(/Exceptional Skill \(skill\) I–III/i);
+    expect(creatureTalents.content).toMatch(/101–125[^.]*I[^.]*126–150[^.]*II[^.]*151\+[^.]*III/i);
+    expect(creatureTalents.content).toMatch(/after[^.]*Bonus[^.]*Penalty[^.]*cancellation/i);
+    expect(creatureTalents.content).toMatch(/before[^.]*final[^.]*cap/i);
+    expect(creatureTalents.content).toMatch(/Multiattack/i);
   });
 
   it('uses the standard HP, MWL, PP, DM, and Combat Order formulas for fixed profiles', () => {

@@ -33,7 +33,7 @@ attacks:
   - 'Engulf — Attack by rank, rank damage, every other creature within the listed radius'
 attackNotes:
   - 'subtype sets resistance and damage kind'
-talents: 'Small: Mastery (Dodge) I. Large: Mastery (Attack) I. Huge: Mastery (Persistence) I. Medium: none'
+talents: 'Small: Exceptional Skill (Dodge) I. Large: Exceptional Skill (Attack) I. Huge: Exceptional Skill (Persistence) I. Medium: none'
 ---
 
 | Rank   | SIZ |  HP | MWL |  PP | Move |  CO |  AP | DM  | Damage | Area | Attack | Dodge | Persistence | Resilience |
