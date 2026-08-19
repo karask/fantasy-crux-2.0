@@ -14,6 +14,7 @@ aliases:
 
 The Gamemaster awards Improvement Points for achievements and completed adventures.
 Unspent IP carry forward.
+A practical award is **3–5 IP per adventure**: 3 for modest progress, 4 for a completed adventure, or 5 for a major achievement.
 
 ## Improve a skill {#characters-improve-skills}
 
@@ -24,9 +25,9 @@ Use its score before the increase to determine the gain.
 | Current skill | Gain for 1 IP | Maximum gain between adventures |
 | ------------: | ------------: | ------------------------------: |
 |         0–50% |           +5% |                             +5% |
-|       51–100% |           +3% |                             +3% |
+|        51–99% |           +3% |                             +3% |
 
-No skill can exceed 100%.
+A skill at 100% cannot be improved, and no skill can exceed 100%.
 
 ## Improve a characteristic {#characters-improve-characteristics}
 

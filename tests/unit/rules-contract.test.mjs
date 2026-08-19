@@ -102,6 +102,8 @@ describe('locked Fantasy Crux 2.0 rules', () => {
   });
 
   it('recovers one-quarter PP per two hours and all PP after eight hours', () => {
+    expect(powerPointsRecovered({ pow: 3, hours: 2 })).toBe(1);
+    expect(powerPointsRecovered({ pow: 3, hours: 6 })).toBe(3);
     expect(powerPointsRecovered({ pow: 9, hours: 2 })).toBe(2);
     expect(powerPointsRecovered({ pow: 9, hours: 6 })).toBe(6);
     expect(powerPointsRecovered({ pow: 9, hours: 8 })).toBe(9);

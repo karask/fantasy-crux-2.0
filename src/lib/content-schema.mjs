@@ -2,10 +2,16 @@ import { z } from 'zod';
 
 const immutableId = z.string().regex(/^[a-z0-9]+(?:[.-][a-z0-9]+)*$/, 'Use a stable lowercase ID.');
 const slug = z.string().regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, 'Use a lowercase URL slug.');
+const legacyFragment = z
+  .string()
+  .regex(
+    /^[a-z0-9]+(?:-[a-z0-9]+)*(?:--[a-z0-9]+(?:-[a-z0-9]+)*)*$/,
+    'Use a lowercase URL fragment.',
+  );
 const summary = z.union([z.string().trim().min(1), z.array(z.string().trim().min(1)).min(1)]);
 const aliases = z.array(z.string().trim().min(1)).min(1).optional();
 const legacySlugs = z
-  .array(slug)
+  .array(legacyFragment)
   .min(1)
   .refine((values) => new Set(values).size === values.length, 'Legacy slugs must be unique.')
   .optional();
@@ -80,7 +86,10 @@ const sharedRuleFields = {
   legacySlugs,
 };
 
-const excludesCanonicalSlug = (record) => !record.legacySlugs?.includes(record.slug);
+const excludesCanonicalFragments = (record) =>
+  !record.legacySlugs?.some(
+    (legacySlug) => legacySlug === record.slug || legacySlug.startsWith(`${record.slug}--`),
+  );
 
 const ruleSchema = z
   .object({
@@ -88,8 +97,8 @@ const ruleSchema = z
     ...sharedRuleFields,
   })
   .strict()
-  .refine(excludesCanonicalSlug, {
-    message: 'A canonical slug cannot also be a legacy slug.',
+  .refine(excludesCanonicalFragments, {
+    message: 'A canonical slug or its descendants cannot also be a legacy slug.',
     path: ['legacySlugs'],
   });
 
@@ -104,8 +113,8 @@ const talentSchema = z
     tags: z.array(z.enum(talentTags)).min(1),
   })
   .strict()
-  .refine(excludesCanonicalSlug, {
-    message: 'A canonical slug cannot also be a legacy slug.',
+  .refine(excludesCanonicalFragments, {
+    message: 'A canonical slug or its descendants cannot also be a legacy slug.',
     path: ['legacySlugs'],
   });
 
@@ -180,8 +189,8 @@ const creatureSchema = z
       path: ['image'],
     },
   )
-  .refine(excludesCanonicalSlug, {
-    message: 'A canonical slug cannot also be a legacy slug.',
+  .refine(excludesCanonicalFragments, {
+    message: 'A canonical slug or its descendants cannot also be a legacy slug.',
     path: ['legacySlugs'],
   });
 

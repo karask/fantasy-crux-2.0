@@ -18,6 +18,6 @@ tags:
 
 ## Effect
 
-Ignore the Penalty die from being Wounded or grappled on Shaping tests.
+Before ordinary Bonus and Penalty dice cancellation, ignore one total Penalty die caused by being Wounded or grappled on Shaping tests. If both conditions apply, only one Penalty die is ignored.
 
 Every other Penalty die applies normally, and the Practice remains interruptible.

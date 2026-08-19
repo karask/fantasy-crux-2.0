@@ -28,6 +28,8 @@ Each five-second round grants:
 
 Combat and Movement Actions happen in Combat Order. A Reaction interrupts that order only long enough to resolve its trigger. Unspent actions do not carry into the next round.
 
+A character cannot choose an option that forfeits or restricts an Action or Reaction they have already used in a way incompatible with that option.
+
 ## Common Combat Actions
 
 - Make one standard Close Combat, Unarmed Combat, or Ranged Combat attack.

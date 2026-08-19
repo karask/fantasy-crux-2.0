@@ -14,7 +14,7 @@ aliases:
 
 ## Rituals {#magic-rituals}
 
-Rituals are required above Safe + 2 and for Intensity 5, Range 4+, Reach 3+, or Duration 3+. Each takes one hour per Magnitude, needs a prepared place, full Practice, and fitting focus or offering, grants `+1B`, and permits `Safe Magnitude + 2` or `2 × Safe Magnitude`, whichever is greater. Beyond that requires a unique campaign event, exceptional preparation, Gamemaster approval, and a serious lasting price.
+Rituals are required above Safe + 2 and for any outcome at Intensity 5, Range 4+, Reach 3+, or Duration 3+. Each takes one hour per Magnitude, needs a prepared place, full Practice, and fitting focus or offering, grants `+1B`, and permits `Safe Magnitude + 2` or `2 × Safe Magnitude`, whichever is greater. Beyond that requires a unique campaign event, exceptional preparation, Gamemaster approval, and a serious lasting price.
 
 | Magnitude compared with Safe | Base modifier |
 | ---------------------------- | ------------: |
@@ -30,7 +30,7 @@ For an indefinite ritual, the leader personally commits full Magnitude; nobody c
 
 ## Permanent and Mythic Shapings {#magic-mythic}
 
-Permanent mundane creation requires equivalent material. It and completed permanent transformations become real and inactive; reversal needs a new Shaping. Supernatural properties remain active enchantments, each with a vulnerable physical or spiritual anchor through which it is Dispellable. A lasting price may remove one from the creator's active total, but not its anchor or Dispel vulnerability. See [Enchanted Items](/rules/gm-tools/#enchanted-items).
+Permanent mundane creation requires equivalent material. It and completed permanent transformations become real and inactive; reversal needs a new Shaping. Supernatural properties remain active enchantments, each with a vulnerable physical or spiritual anchor through which it is Dispellable. Without Enchanter, a lasting price may remove one from the creator's active total, but not its anchor or Dispel vulnerability. With [Enchanter](/rules/talents/#enchanter), its full Magnitude counts against Enchantment Capacity, not the active total, whether it uses Duration 4 or Duration 5. See [Enchanted Items](/rules/gm-tools/#enchanted-items).
 
 Any dial at 5 makes a ritual **Mythic** and requires a declared lasting price: permanent POW, unique treasure, binding oath, supernatural debt, permanent change, or consequential quest. Consume materials when it begins; permanent POW, oaths, debts, quests, and other changes attach after success resolves. A fumble exacts them only if announced beforehand. PP alone cannot restore the dead or rewrite the setting; rituals cannot create their own costs.
 

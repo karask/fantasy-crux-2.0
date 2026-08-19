@@ -122,7 +122,12 @@ export default function configure(eleventyConfig) {
       collection
         .getAll()
         .filter((item) => ['rule', 'talent', 'creature'].includes(item.data.type))
-        .map((item) => [`/rules/${item.data.chapter}/#${item.data.slug}`, item.data.title]),
+        .flatMap((item) =>
+          [item.data.slug, ...(item.data.legacySlugs ?? [])].map((slug) => [
+            `/rules/${item.data.chapter}/#${slug}`,
+            item.data.title,
+          ]),
+        ),
     ),
   );
 

@@ -1,5 +1,7 @@
 # Fantasy Crux Lite Magic 2.0 — Traditions and Authorities
 
+> **Unpublished alternative.** This document preserves a rejected design path. Its 8 IP access package, Authorities, and universal Counter are not canonical Shaping rules; shared D100, Improvement, and Power Point procedures below follow the current core rules.
+
 ## Magic Without Spells
 
 Magic is not a list of named spells. A practitioner describes an effect, the Gamemaster prices its outcome, and the character attempts to make it happen. The same rules can represent a scholar rewriting natural laws, a priest channeling a god, a singer shaping emotion, a witch bargaining with spirits, or a mystic imposing disciplined will on the world.
@@ -28,11 +30,11 @@ Access costs **8 IP** and grants:
 - one **Authority**; and
 - **Sense Magic, Counter,** and **Dispel**.
 
-At character creation, declare and reserve the purchase before allocating skill points, then pay it during the starting-IP step. Magic Casting counts as Knowledge, follows the 30-point creation limit, and caps at 100%. Improving it costs 1 IP and uses the normal skill gains: +5% at 0–50%, +3% at 51–75%, and +1% at 76–99%, at most once between adventures.
+At character creation, declare and reserve the purchase before allocating skill points, then pay it during the starting-IP step. Magic Casting counts as Knowledge, follows the 30-point creation limit, and caps at 100%. Improving it costs 1 IP and uses the normal skill gains: +5% at 0–50% and +3% at 51–99%, at most once between adventures.
 
 Magic Casting has a base of `POW + one Tradition-defining Characteristic`. Choose that Characteristic with the Gamemaster when creating the Tradition. INT suits study, calculation, and runes; CHA suits prayer, command, and performance; CON suits bodily, ecstatic, or blood practices. Another choice needs a compelling concept. The choice describes how the Tradition works and cannot change merely to use a better score.
 
-Magic uses normal PP: maximum PP equals POW; rest restores `ceil(maximum PP / 4)` after each complete two hours and all PP after eight hours. At 0 PP, the practitioner falls unconscious and cannot wake until they have at least 1 PP.
+Magic uses normal PP: maximum PP equals POW; after each complete two hours of rest, recover one quarter of maximum PP using normal rounding, and recover all PP after eight hours. At 0 PP, the practitioner falls unconscious and cannot wake until they have at least 1 PP.
 
 ### Define a Tradition
 

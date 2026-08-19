@@ -6,17 +6,17 @@ title: Building a Shaping
 slug: building-a-shaping
 order: 20
 summary:
-  - Choose a known Technique–Form cell and one clear outcome.
-  - Intensity + Range + Duration + Reach + adjustments equals Magnitude.
+  - Choose a known Technique–Form cell and price each clear outcome.
+  - The sum of outcome Intensities + Range + Duration + Reach + adjustments equals Magnitude.
 aliases:
   - Magnitude
   - magic formula
   - Shaping dials
 ---
 
-Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper) and one priced outcome. For immediate Unmake damage, declare its delivery before calculating Magnitude.
+Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper) and price each outcome. For immediate Unmake damage, declare its delivery before calculating Magnitude.
 
-> **Core formula:** `Intensity + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets effect; Magnitude sets PP, difficulty, active load, and Dispel strength. The casting result sets payment.
+> **Core formula:** `sum of outcome Intensities + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets each effect; Magnitude sets PP, difficulty, active load, and Dispel strength. The casting result sets payment.
 
 Declare it in one sentence:
 
@@ -26,7 +26,7 @@ The Gamemaster confirms; practical effects require Intensity 1+.
 
 ## Intensity and expertise {#magic-intensity}
 
-Choose the lowest row that covers the outcome.
+For each outcome, choose the lowest row that covers it.
 
 | Intensity | Degree  | Benchmark                                                                                                   |
 | --------: | ------- | ----------------------------------------------------------------------------------------------------------- |
@@ -37,7 +37,7 @@ Choose the lowest row that covers the outcome.
 |         4 | Greater | Encounter-changing: control, `+2B`/`-2P`, impossible transformation, or major threat.                       |
 |         5 | Mythic  | Break a fundamental boundary; ritual and lasting price required.                                            |
 
-Shaping expertise limits both maximum Intensity and Safe Magnitude.
+Shaping expertise limits both maximum Intensity and Safe Magnitude. No individual outcome can exceed maximum Intensity.
 
 | Shaping | Expertise  | Maximum Intensity | Safe Magnitude |
 | ------: | ---------- | ----------------: | -------------: |
@@ -47,7 +47,7 @@ Shaping expertise limits both maximum Intensity and Safe Magnitude.
 |  76–99% | Expert     |                 4 |              4 |
 |    100% | Master     |                 5 |              5 |
 
-Rituals and contributed PP cannot exceed maximum Intensity. A calm Magnitude-0 Trick is free and automatic. Under pressure, its failure does nothing and its fumble causes only an inconvenient Tell—no PP loss or Backlash. Other Tricks cast normally.
+Rituals and contributed PP cannot raise maximum Intensity. A calm Magnitude-0 Trick is free and automatic. Under pressure, its failure does nothing and its fumble causes only an inconvenient Tell—no PP loss or Backlash. Other Tricks cast normally.
 
 ## Range {#magic-range}
 
@@ -94,7 +94,9 @@ Areas include allies; excluding arbitrary subjects requires **Selective**. Reach
 
 Anything beyond Intensity, Range, Duration, and Reach is an adjustment; each adds Magnitude.
 
-An **additional outcome** needs no training and adds full Intensity. It must be distinct and cell-permitted; one Shaping cannot repeat damage, healing, movement, restraint, control, or another cumulative outcome on one subject. Use higher Intensity for strength. Alter·Flesh may heal and add resilience to one ally, but cannot buy healing twice.
+An **additional outcome** needs no training. Price each outcome at its own lowest applicable Intensity, then sum each outcome's Intensity. Outcomes must be distinct and cell-permitted; one Shaping cannot repeat damage, healing, movement, restraint, control, or another cumulative outcome on one subject. Use higher Intensity for strength.
+
+For example, healing at I3 plus a Resilience bonus at I2, at touch with no other dials, is M5. Alter·Flesh can combine those outcomes, but cannot buy healing twice.
 
 **Direct Harm** adds `+1`; [Harm delivery](/rules/magic/#casting-and-defence--magic-harm-delivery) gives its defence, protection, route, and Reach.
 

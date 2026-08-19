@@ -314,7 +314,7 @@ Common traditions include:
 
 These are preferences, not bonus lists or exclusive schools. Every Shaper defines
 their own observable, interruptible Practice and unavoidable Tell. Learning
-Shaping still costs 8 IP, grants a specialty and two exact cells containing it,
+Shaping costs 20 IP, grants a specialty and two exact cells containing it,
 and requires initiation or discovery. Institutions control teaching because
 instruction is scarce and politically useful, not because the rules demand a
 license.
@@ -476,8 +476,8 @@ The metaphysics remain unresolved, but the observable process is consistent.
 2. The Practice makes the intended relationship coherent and interruptible. Its
    words, diagrams, tools, gestures, prayers, or trance differ by tradition.
 3. The Shaper's Power Points pay for imposing that relationship. The formula
-   `Intensity + Range + Duration + Reach + adjustments = Magnitude` measures the
-   burden of the complete outcome, not how ornate its description sounds.
+   `sum of outcome Intensities + Range + Duration + Reach + adjustments = Magnitude`
+   measures the burden of the complete Shaping, not how ornate its description sounds.
 4. The Tell is reality's unavoidable local response around Shaper and ranged
    target or area. Concealing it requires Veiled and raises Magnitude.
 5. Safe Magnitude reflects expertise. Overreach can fail with PP loss and

@@ -2,7 +2,7 @@
 
 ## Status
 
-Accepted
+Accepted; the shared player/creature Mastery choice is superseded by [ADR-011](011-rebalance-talents-and-advancement.md).
 
 ## Date
 

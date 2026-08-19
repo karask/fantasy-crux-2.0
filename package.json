@@ -15,6 +15,7 @@
     "build": "npm run validate:content && npm run build:site && node scripts/assert-output.mjs",
     "art:build": "node scripts/build-art-library.mjs",
     "art:validate": "node scripts/validate-art-library.mjs",
+    "audit:talents": "node scripts/analyze-talent-balance.mjs --check",
     "preview": "node scripts/serve-site.mjs",
     "validate:content": "node scripts/validate-content.mjs",
     "lint:md": "markdownlint-cli2 \"src/content/**/*.md\" \"freeform-creatures/**/*.md\"",

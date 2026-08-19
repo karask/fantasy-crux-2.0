@@ -9,10 +9,8 @@ summary: Forfeit all Reactions to make two attacks at -1P each.
 aliases:
   - rapid fire
   - two ranged attacks
-cost: 3
+cost: 4
 prerequisites: Ranged Combat 76%
-  - Ranged Combat 76%
-  - Bow or sling
 activation: action
 tags:
   - offence

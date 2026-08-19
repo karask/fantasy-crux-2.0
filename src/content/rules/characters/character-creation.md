@@ -90,6 +90,7 @@ Power Points fuel [Shaping](/rules/magic/) and other abilities that state a PP c
 They cannot exceed maximum PP.
 
 Recover a quarter of maximum PP after each complete two hours of rest, up to the maximum.
+Round the amount recovered in each two-hour period normally: a character with POW 3 recovers 1 PP per period, while POW 9 recovers 2 PP per period.
 Eight hours of rest restores all PP.
 At 0 PP, living characters fall unconscious until regaining PP; nonliving characters stay active unless stated otherwise.
 
@@ -176,6 +177,10 @@ Skills with a parenthetical subject, such as `Craft (type)`, are separate skills
 Add the relevant pool to skills in that category.
 You may add no more than 30 points to a single skill during creation, and no skill can exceed 100%.
 
+A character beginning as a Shaper declares the choice and reserves 20 IP before allocating skill points.
+They may then add up to 30 Knowledge points to Shaping, whose base is `INT + POW`.
+This changes only the order of creation: the character must still assemble and spend the full 20 IP.
+
 You may also remove up to 20 points from each of the Resistance, Combat, and Practical pools to gain starting Improvement Points.
 For every 5 points removed, gain 1 IP, to a maximum of 4 IP per category and 12 IP in total.
 These bonus IP may raise characteristics or buy Talents, but may not raise skills.
@@ -209,6 +214,10 @@ Roll `2D6 + 16` for a random starting age.
 Player Characters begin with 2 Hero Points.
 Spend a Hero Point when its effect is declared; spent points are gone.
 The Gamemaster awards Hero Points for major achievements and genuinely heroic play.
+
+Each test allows at most one reroll, regardless of its source.
+Declare a reroll after seeing the result but before applying consequences, costs, or Backlash; the new result stands.
+A Fumble counts as a failed test when an effect says that it applies to a failed test.
 
 ### Major Wounds {#characters-major-wounds}
 

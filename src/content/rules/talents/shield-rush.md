@@ -11,8 +11,6 @@ aliases:
   - knock-back attack
 cost: 3
 prerequisites: Close Combat 51%
-  - Close Combat 51%
-  - Ready shield
 activation: action
 tags:
   - close

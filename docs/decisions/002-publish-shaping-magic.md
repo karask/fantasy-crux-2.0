@@ -2,7 +2,7 @@
 
 ## Status
 
-Accepted
+Accepted; the 8 IP reservation clause is superseded by [ADR-011](011-rebalance-talents-and-advancement.md).
 
 ## Date
 

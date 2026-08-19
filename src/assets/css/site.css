@@ -577,6 +577,11 @@ summary,
   padding-top: clamp(3rem, 6vw, 5rem);
 }
 
+.legacy-anchor {
+  display: block;
+  scroll-margin-top: 1.5rem;
+}
+
 .rule-section + .rule-section {
   border-top: 3px double var(--paper-line);
 }

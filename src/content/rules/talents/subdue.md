@@ -11,8 +11,6 @@ aliases:
   - nonlethal attack
 cost: 3
 prerequisites: Close Combat 51% or Unarmed Combat 51%
-  - Close Combat 51% or Unarmed Combat 51%
-  - Blunt attack
 activation: action
 tags:
   - close
@@ -22,4 +20,6 @@ tags:
 
 ## Effect
 
-Make one blunt Close Combat or Unarmed Combat attack. If the hit is not stopped, roll damage and subtract armour. If the result reaches the target's Major Wound Level, the target becomes unconscious but stable and loses no HP. They wake when the scene ends; any damage wakes them immediately, and a successful Healing test used as a Combat Action wakes them early. Otherwise, the target remains conscious and loses only the weapon's minimum listed damage, reduced by any partial Parry and armour.
+Make one blunt Close Combat or Unarmed Combat attack. If the hit is not stopped, roll its listed weapon or unarmed damage plus Damage Modifier, then apply any partial Parry and armour. If the result reaches the target's Major Wound Level, the target becomes unconscious but stable and loses no HP. They wake when the scene ends; any damage wakes them immediately, and a successful Healing test used as a Combat Action wakes them early.
+
+Otherwise, the target remains conscious and loses only the weapon's minimum listed damage, reduced by any partial Parry and armour. Talent damage bonuses do not modify the threshold or fallback damage.

@@ -11,8 +11,6 @@ aliases:
   - dual-wield mastery
 cost: 5
 prerequisites: Close Combat 76% or Unarmed Combat 76%
-  - Close Combat 76%
-  - Two ready one-handed items
 activation: passive
 tags:
   - close

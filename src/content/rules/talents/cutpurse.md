@@ -18,6 +18,6 @@ tags:
 
 ## Effect
 
-Pick a pocket, cut a purse, or plant a small object on a person as one Action rather than an extended attempt. Resolve it with Deception opposed by the target's Perception.
+Pick a pocket, cut a purse, or plant a small object on a person as one Combat Action instead of the usual one minute of sustained access. Resolve it with Deception opposed by the target's Perception.
 
 A failure passes unnoticed unless you fumble, or the Gamemaster rules the missing item too large to overlook.

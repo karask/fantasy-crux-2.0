@@ -23,7 +23,9 @@ Shaping is the [Shaping Talent](/rules/talents/#shaping). It costs **20 IP**, re
 - two known cells containing that specialty; and
 - [Sense Magic and Dispel](/rules/magic/#ongoing-and-magical-actions--magic-universal-actions).
 
-Buy it during [character creation](/rules/characters/#character-creation--characters-starting-ip) or later. At creation, Shaping begins at base value; paying 20 IP therefore usually means trading skill points for Improvement Points.
+Buy it during [character creation](/rules/characters/#character-creation--characters-starting-ip) or later.
+At creation, declare the Talent and reserve its 20 IP before skill point allocation. Shaping has its normal base of `INT + POW`, and the character may spend up to 30 Knowledge points on Shaping.
+This remains a real sacrifice, not a discount: the character must still assemble and spend the full 20 IP, usually by trading other skill points for Improvement Points.
 
 Shaping caps at 100% and improves normally at most once between adventures. Later learning requires suitable experience.
 

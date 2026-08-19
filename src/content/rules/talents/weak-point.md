@@ -5,7 +5,7 @@ chapter: talents
 title: Weak Point
 slug: weak-point
 order: 324
-summary: Study a structure to find the join that carries it, then attack it ignoring its Armour Points.
+summary: Examine a structure, pass Engineering, and direct attacks against an exposed load-bearing join that ignores object AP.
 aliases:
   - sabotage
   - bring down a structure
@@ -18,6 +18,6 @@ tags:
 
 ## Effect
 
-Study a structure or large work for as long as the work takes, then direct attacks against the join that carries it. Those attacks ignore the [object's](/rules/adventuring/#objects) AP.
+Spend 10 minutes examining a structure or large work with access and quiet, then make an Engineering test. A successful Engineering test lets you direct allies to an accessible load-bearing join. Attacks against it use the [object rules](/rules/adventuring/#objects) but ignore the object's AP until the work is repaired or materially changed.
 
-The study needs access and quiet, and reveals nothing about a structure you cannot examine.
+On a Failure, gain no benefit. No retry is allowed until material circumstances change.

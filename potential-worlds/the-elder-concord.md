@@ -354,7 +354,7 @@ cells. Veteran Shapers are uncommon, Experts are matters of regional politics,
 and a Master is a figure of legend or alarm. The same limits apply to every
 tradition:
 
-- `Intensity + Range + Duration + Reach + adjustments = Magnitude`.
+- `sum of outcome Intensities + Range + Duration + Reach + adjustments = Magnitude`.
 - Magnitude determines the PP requirement and base cost, difficulty, active
   capacity, and resistance to Dispel.
 - Expertise sets maximum Intensity and Safe Magnitude. Normal casting reaches
@@ -365,8 +365,8 @@ tradition:
 - Any dial at 5 makes a Shaping Mythic and demands a declared lasting price.
 - Permanent supernatural enchantments remain active and Dispellable through
   vulnerable physical or spiritual anchors.
-- Sense Magic, Counter, and Dispel are universal actions for Shapers and require
-  no known cell.
+- Sense Magic and Dispel are universal actions for Shapers and require no known
+  cell. Counter requires its Talent.
 
 These facts keep magic consequential. `Alter·Flesh` can save a wounded person,
 but treating a Major Wound requires Intensity 3+ and counts as Surgery.
@@ -441,7 +441,7 @@ possession, or grave desecration.
 **The Chalk House** is an Open Hand Circle. Its teachers test potential
 initiates through service, supervised Sense Magic, and exposure to a tradition
 willing to teach. It is a route to the normal supernatural initiation required
-for Shaping access, not a way around the 8 IP cost or the need to learn exact
+for Shaping access, not a way around the 20 IP cost or the need to learn exact
 cells.
 
 #### Neighboring settlements

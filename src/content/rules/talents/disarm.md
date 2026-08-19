@@ -20,3 +20,5 @@ tags:
 ## Effect
 
 Declare Disarm before a Close Combat attack. If the hit is not stopped by a Reaction, deal no damage; one chosen item held by the target lands `1D6` metres away.
+
+The item cannot be fused, fixed, securely fastened, or anatomically impossible to release.

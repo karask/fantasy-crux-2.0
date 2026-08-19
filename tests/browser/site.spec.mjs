@@ -287,7 +287,7 @@ test('every rules chapter links to each of its sections below the chapter headin
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(51);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(50);
 
   const favouredWeapon = page
     .locator('.talent-list [data-filter-item]')
@@ -312,7 +312,7 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
   const visibleCards = page.locator('.talent-list [data-filter-item]:visible');
   await expect(visibleCards).not.toHaveCount(0);
   await expect(visibleCards.first()).toContainText(/shield/i);
-  await expect(page.locator('[data-filter-count]')).not.toHaveText('51');
+  await expect(page.locator('[data-filter-count]')).not.toHaveText('50');
   await expect(page.getByRole('status')).toContainText('Talents available');
 
   // Piercing is retired; eight magic-tagged Talents remain.
@@ -331,11 +331,33 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
   await page.getByRole('button', { name: 'Healing' }).click();
   await expect(visibleCards).toHaveCount(3);
 
-  // General gathers the Talents that suit every role, so Mastery has a filter of its own.
+  // General gathers the Talents that suit every role, including Weapon Expertise.
   await page.getByRole('button', { name: 'General', exact: true }).click();
   await expect(visibleCards).toHaveCount(6);
-  await expect(visibleCards.filter({ hasText: 'Mastery' }).first()).toBeVisible();
+  await expect(visibleCards.filter({ hasText: 'Weapon Expertise' }).first()).toBeVisible();
   await expectNoHorizontalOverflow(page);
+});
+
+test('renamed and retired Talent fragments remain valid', async ({ page }) => {
+  await page.goto('/rules/talents/');
+  await page.getByRole('button', { name: 'Social' }).click();
+  await page.evaluate(() => {
+    window.location.hash = 'mastery';
+  });
+
+  const expertiseAlias = page.locator('#mastery');
+  await expect(expertiseAlias).toHaveCount(1);
+  await expect(expertiseAlias.locator('xpath=ancestor::article[1]')).toContainText(
+    'Weapon Expertise',
+  );
+  await expect(expertiseAlias.locator('xpath=ancestor::article[1]')).toBeVisible();
+  await expect(page.locator('#weapon-expertise')).toHaveCount(1);
+  await expect(page.locator('#mastery--effect')).toHaveCount(1);
+
+  await page.goto('/rules/talents/#sure-hand--effect');
+  await expect(page.locator('#sure-hand')).toHaveCount(1);
+  await expect(page.locator('#sure-hand--effect')).toHaveCount(1);
+  await expect(page.locator('main')).not.toContainText('Sure Hand');
 });
 
 test('Shaping is a first-class rules chapter', async ({ page }) => {
@@ -378,7 +400,9 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
 
   await page.goto('/rules/magic/#building-a-shaping');
   await expect(page.locator('#building-a-shaping')).toHaveText(/Building a Shaping/);
-  await expect(page.locator('main')).toContainText('Intensity + Range + Duration + Reach');
+  await expect(page.locator('main')).toContainText(
+    'sum of outcome Intensities + Range + Duration + Reach',
+  );
   await expect(page.locator('.table-wrap')).not.toHaveCount(0);
   await expectNoHorizontalOverflow(page);
 
@@ -710,12 +734,15 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(51);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(50);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();
   await expect(page.locator('#favoured-weapon')).toBeVisible();
   await expect(page.locator('#signature-weapon')).toBeVisible();
+  await expect(page.locator('#weapon-expertise')).toBeVisible();
+  await expect(page.locator('#mastery')).toHaveCount(1);
+  await expect(page.locator('#sure-hand')).toHaveCount(1);
   await expectNoHorizontalOverflow(page);
   await context.close();
 });

@@ -4,6 +4,9 @@ id: talents
 title: Talents
 order: 5
 summary: Optional techniques and abilities purchased with Improvement Points after meeting their prerequisites.
+legacySlugs:
+  - sure-hand
+  - sure-hand--effect
 ---
 
 Talents hold the specialised options omitted from the core rules, from combat techniques to Shaping itself. Pay the listed Improvement Point cost once and record the Talent. Skill and Characteristic prerequisites must be met when it is bought; listed equipment is a use requirement, not something that must be held during purchase.

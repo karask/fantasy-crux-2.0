@@ -71,7 +71,15 @@ const chapterSections = {
     'off-hand-options',
     'rounds-and-actions--intimidate',
   ],
-  'rules/talents/index.html': ['off-hand-mastery', 'shield-cover'],
+  'rules/talents/index.html': [
+    'off-hand-mastery',
+    'shield-cover',
+    'weapon-expertise',
+    'mastery',
+    'mastery--effect',
+    'sure-hand',
+    'sure-hand--effect',
+  ],
   'rules/creatures/index.html': [
     'using-creatures',
     'creature-tags',

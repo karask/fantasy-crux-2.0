@@ -11,8 +11,6 @@ aliases:
   - shield stance
 cost: 2
 prerequisites: Close Combat 51%
-  - Close Combat 51%
-  - Ready shield
 activation: action
 tags:
   - close

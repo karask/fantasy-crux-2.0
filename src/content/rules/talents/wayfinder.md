@@ -5,7 +5,7 @@ chapter: talents
 title: Wayfinder
 slug: wayfinder
 order: 340
-summary: Your group does not become lost while you can see the sky or read the ground.
+summary: While you can see the sky or read the ground, downgrade a navigation Fumble and keep the group from becoming lost.
 aliases:
   - never lost
   - guide
@@ -18,6 +18,6 @@ tags:
 
 ## Effect
 
-Your group does not become lost while you can see the sky or read the ground.
+While you can see the sky or read the ground, downgrade a navigation Fumble to an ordinary Failure. This prevents the group from becoming lost through that test.
 
-Travel still calls for tests against weather, hazards, pace, and finding food, water, or shelter.
+Wayfinder does not prevent other travel hazards. Weather, pace, and finding food, water, or shelter still use their ordinary rules.

@@ -24,11 +24,11 @@ Normal casting reaches at most Safe Magnitude + 2.
 | 2 higher                     |            `-2P` |
 | 3+ higher                    |  Ritual required |
 
-Bonus dice cancelling the Penalty do not remove overreach. [Shaping expertise](/rules/magic/#building-a-shaping--magic-intensity) also caps Intensity.
+Bonus dice cancelling the Penalty do not remove overreach. [Shaping expertise](/rules/magic/#building-a-shaping--magic-intensity) also caps every outcome's Intensity.
 
 ## Cast {#magic-cast}
 
-1. Declare the cell and outcome; set Intensity, Range, Duration, Reach, and adjustments.
+1. Declare the cell and outcomes; set each outcome's Intensity, then shared Range, Duration, Reach, and adjustments.
 2. The Gamemaster confirms Magnitude, modifiers, defence, armour, and consequences.
 3. Confirm PP or ritual pledges cover Magnitude. For an indefinite ritual, the leader needs that much current and available maximum PP. Confirm the active limit.
 4. Spend one Combat Action and test Shaping; retain the Movement Action and eligible Reactions.
@@ -89,7 +89,7 @@ Terrain interrupting a Projected Shaping gives partial cover `-1P`, substantial 
 
 Any such projection may be [Active Guarded](/rules/combat/#active-guard) at `-1P` with a ready shield; weapons cannot Active Guard magical projections. Areas cannot be Active Guarded. Direct Harm and Spirit Harm cannot be Active Guarded. [Missile Guard](/rules/talents/#missile-guard) removes the penalty.
 
-Projected Shapings use **Impact Size** based on Intensity.
+Each Projected outcome uses its own Intensity to determine **Impact Size**. When several outcomes share one winning shield guard roll, apply Parry Size to each outcome separately.
 
 | Intensity | Damage | Impact Size |
 | --------: | ------ | ----------- |
@@ -99,7 +99,7 @@ Projected Shapings use **Impact Size** based on Intensity.
 |         4 | `4D6`  | Huge        |
 |         5 | `5D6`  | Beyond Huge |
 
-After a winning shield guard, apply [Parry Size](/rules/combat/#attacks-and-reactions): same Size or larger blocks all damage and attached outcomes; if the Shaping deals no damage, it blocks its projected outcome. One Size smaller blocks half damage, but separately paid non-damage outcomes remain. Two or more Sizes smaller reduce no damage. A Critical shield Parry that wins blocks everything regardless of Size. If Shaping wins the opposed test, the guard has no effect; even a Critical Shaping rolls normal magical damage, then armour. Shields suffer no item damage merely for guarding.
+After a winning shield guard, apply [Parry Size](/rules/combat/#attacks-and-reactions) to each outcome. The same Size or larger blocks that outcome's damage and attached effects; if it deals no damage, it blocks the outcome. One Size smaller blocks half that outcome's damage; a separately paid non-damage outcome remains unless its own Size comparison blocks it. Two or more Sizes smaller reduce no damage. A Critical shield Parry that wins blocks everything regardless of Size. If Shaping wins the opposed test, the guard has no effect; even a Critical Shaping rolls normal magical damage, then armour. Shields suffer no item damage merely for guarding.
 
 | Shield     | Size   | I1  | I2  | I3   | I4   | I5   |
 | ---------- | ------ | --- | --- | ---- | ---- | ---- |
@@ -111,6 +111,8 @@ A separate mundane object attack uses ordinary weapon Size; one resolved as Shap
 
 ## Backlash {#magic-backlash}
 
+For Backlash, use the attempted Shaping's highest outcome Intensity. If several outcomes tie, the Gamemaster chooses the one that best fits its Form and situation.
+
 Roll `1D4` or let the Gamemaster choose:
 
 | `1D4` | Result                                                                                                                                                                 |
@@ -120,4 +122,4 @@ Roll `1D4` or let the Gamemaster choose:
 |     3 | An immediate Reach-0 effect one Intensity lower strikes the Shaper, nearest valid subject, or surroundings; no beneficial adjustment. Intensity 0 is cosmetic trouble. |
 |     4 | Become Fatigued; if Fatigued, become Exhausted; if Exhausted, fall unconscious `3D6` minutes and awaken Fatigued.                                                      |
 
-Backlash follows the attempted Form and situation, not a rewritten concept. Counter or Dispel spills use the target's Form one Intensity lower; Intensity 0 is cosmetic trouble.
+Backlash follows the attempted Form and situation, not a rewritten concept. Counter or Dispel spills use the target's Form and highest outcome Intensity, reduced by one; Intensity 0 is cosmetic trouble.

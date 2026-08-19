@@ -34,4 +34,10 @@ Multiply the chosen rate by the worst terrain crossed for a substantial part of 
 | Rolling hills  |  70% |
 | Heavy woodland |  50% |
 
+## Navigation
+
+Once per uncertain travel day, make a Natural Lore navigation test. Make another test after a material route change.
+
+On a Success, make full progress. On a Failure, lose one quarter of that day's progress. On a Fumble, make no progress and become lost.
+
 Weather, steep slopes, navigation errors, forced stops, and exceptional mounts may alter the final distance at the GM's discretion.

@@ -39,7 +39,7 @@ describe('content schema', () => {
       chapter: 'talents',
       title: 'Weapon Expertise',
       slug: 'weapon-expertise',
-      legacySlugs: ['mastery'],
+      legacySlugs: ['mastery', 'mastery--effect'],
       order: 260,
       summary: 'Master one named weapon.',
       cost: 4,
@@ -52,6 +52,7 @@ describe('content schema', () => {
     expect(urlsFor(talent)).toEqual([
       '/rules/talents/#weapon-expertise',
       '/rules/talents/#mastery',
+      '/rules/talents/#mastery--effect',
     ]);
   });
 
@@ -62,10 +63,14 @@ describe('content schema', () => {
       title: 'Talents',
       order: 5,
       summary: 'Optional abilities.',
-      legacySlugs: ['sure-hand'],
+      legacySlugs: ['sure-hand', 'sure-hand--effect'],
     });
 
-    expect(urlsFor(chapter)).toEqual(['/rules/talents/', '/rules/talents/#sure-hand']);
+    expect(urlsFor(chapter)).toEqual([
+      '/rules/talents/',
+      '/rules/talents/#sure-hand',
+      '/rules/talents/#sure-hand--effect',
+    ]);
   });
 
   it('rejects duplicate and canonical legacy fragments', () => {
@@ -85,6 +90,9 @@ describe('content schema', () => {
 
     expect(() => validateRecord({ ...baseTalent, legacySlugs: ['mastery', 'mastery'] })).toThrow();
     expect(() => validateRecord({ ...baseTalent, legacySlugs: ['weapon-expertise'] })).toThrow();
+    expect(() =>
+      validateRecord({ ...baseTalent, legacySlugs: ['weapon-expertise--effect'] }),
+    ).toThrow();
   });
 
   it('rejects unknown metadata and malformed immutable IDs', () => {

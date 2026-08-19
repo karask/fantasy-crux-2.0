@@ -19,8 +19,10 @@ An **enchantment** is a Shaping bound to a vulnerable anchor, either a physical 
 
 Build the Shaping normally, then bind it to the anchor during the ritual. There are two routes:
 
-- **Everyday work** uses [Duration 4](/rules/magic/#building-a-shaping--magic-duration): an ordinary ritual and no mythic price. Its Magnitude commits the maker's maximum Power Points for as long as the enchantment lasts, unless they have the [Enchanter](/rules/talents/#enchanter) Talent and the anchor carries it instead.
-- **Legendary work** uses Duration 5: a [mythic ritual](/rules/magic/#rituals-and-examples--magic-mythic) and its declared lasting price. That price may itself free the working from the maker's active total.
+- **Everyday work** uses [Duration 4](/rules/magic/#building-a-shaping--magic-duration): an ordinary ritual and no mythic price. Without Enchanter, its Magnitude commits the maker's maximum Power Points and counts toward their active total for as long as it lasts.
+- **Legendary work** uses Duration 5: a [mythic ritual](/rules/magic/#rituals-and-examples--magic-mythic) and its declared lasting price. Without Enchanter, that price may itself free the working from the maker's active total.
+
+With the [Enchanter](/rules/talents/#enchanter) Talent, either route instead counts against the original creator's Enchantment Capacity and occupies neither their PP commitment nor active total.
 
 Shaping expertise caps what a maker can attempt, through the ordinary ritual maximum: Magnitude 6 for a Veteran, 8 for an Expert, 10 for a Master.
 

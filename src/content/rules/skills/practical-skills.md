@@ -56,6 +56,7 @@ As a rough guide, work takes one day per 50 SP of finished value and consumes ma
 
 Deception covers disguise, hiding objects, picking pockets, stealth, and misdirection.
 Attempts to avoid notice are usually opposed by Perception.
+Pickpocketing or planting a small item normally requires at least one minute of sustained access.
 
 ## Driving {#skills-driving}
 

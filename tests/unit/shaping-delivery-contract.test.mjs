@@ -188,10 +188,10 @@ describe('Projected and Direct Harm', () => {
       ],
     });
 
-    expect(casting).toMatch(/same Size or larger[^.]*damage and attached outcomes/i);
-    expect(casting).toMatch(/Shaping deals no damage[^.]*blocks its projected outcome/i);
+    expect(casting).toMatch(/same Size or larger[^.]*outcome's damage and attached effects/i);
+    expect(casting).toMatch(/if it deals no damage[^.]*blocks the outcome/i);
     expect(casting).toMatch(
-      /one Size smaller[^.]*half[^.]*separately paid non-damage outcomes remain/i,
+      /one Size smaller[^.]*half[^.]*separately paid non-damage outcome remains/i,
     );
     expect(casting).toMatch(/two or more Sizes smaller[^.]*reduce no damage/i);
     expect(casting).toMatch(

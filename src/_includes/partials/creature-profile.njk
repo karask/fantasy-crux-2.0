@@ -18,6 +18,9 @@
   </div>
 
   <div class="creature-detail">
+    {% for legacySlug in profile.legacySlugs or [] %}
+      <span id="{{ legacySlug }}" class="legacy-anchor" aria-hidden="true" data-pagefind-ignore></span>
+    {% endfor %}
     <header class="creature-heading">
       <p class="eyebrow">{{ profile.category }}</p>
       <h2 id="{{ profile.slug }}" data-pagefind-meta="title">

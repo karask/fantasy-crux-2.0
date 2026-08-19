@@ -5,11 +5,11 @@ chapter: talents
 title: Point-Blank Shot
 slug: point-blank-shot
 order: 175
-summary: Ignore the Penalty die from the first enemy engaging you at Close range.
+summary: Ignore the engagement penalty from one enemy when making a ranged attack at Close range.
 aliases:
   - shoot in melee
   - close range shot
-cost: 2
+cost: 3
 prerequisites: Ranged Combat 51%
 activation: passive
 tags:
@@ -19,6 +19,6 @@ tags:
 
 ## Effect
 
-Ignore the Penalty die from the first enemy engaging you at Close range. Each further enemy still applies `-1P`.
+At the time of each attack, let N be the number of enemies engaging you. Before ordinary cancellation and the final cap, those N enemies impose `-2P × max(0, N − 1)`: ignore one enemy's entire `-2P`, while every additional enemy still applies `-2P`.
 
 Nothing else changes: cover, movement, and every other situational Penalty die apply normally.

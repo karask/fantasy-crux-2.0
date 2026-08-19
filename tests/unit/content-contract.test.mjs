@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 51-Talent catalogue', () => {
+  it('ships exactly the approved 50-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -45,7 +45,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Lockbreaker',
         'Master Assassin',
         'Master Craftsman',
-        'Mastery',
+        'Weapon Expertise',
         "Merchant's Eye",
         'Master Brawler',
         'Mighty Shot',
@@ -70,7 +70,6 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Steady Casting',
         'Subdue',
         'Tactician',
-        'Sure Hand',
         'Tracker',
         'Trigger',
         'Trip',
@@ -79,6 +78,25 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Weak Point',
         'Wrestler',
       ].sort(),
+    );
+
+    const expertise = records.find((record) => record.data.id === 'talent.mastery');
+    const talents = records.find((record) => record.data.id === 'talents');
+    expect(expertise.data).toMatchObject({
+      title: 'Weapon Expertise',
+      slug: 'weapon-expertise',
+      legacySlugs: ['mastery', 'mastery--effect'],
+    });
+    expect(talents.data.legacySlugs).toEqual(['sure-hand', 'sure-hand--effect']);
+  });
+
+  it('keeps creature compatibility anchors inside the profile detail grid cell', () => {
+    const template = readFileSync(
+      path.resolve('src/_includes/partials/creature-profile.njk'),
+      'utf8',
+    );
+    expect(template).toMatch(
+      /<div class="creature-detail">\s*{% for legacySlug in profile\.legacySlugs or \[\] %}/,
     );
   });
 

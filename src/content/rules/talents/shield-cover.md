@@ -11,8 +11,6 @@ aliases:
   - shield missile protection
 cost: 3
 prerequisites: Close Combat 51%
-  - Close Combat 51%
-  - Medium or large shield
 activation: passive
 tags:
   - defence

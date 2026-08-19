@@ -8,6 +8,9 @@ layout: layouts/base.njk
 {# Talents live in one filterable section, so the chapter has nothing to tab between. #}
 {% set sectionTabCount = 1 if isTalents else chapterItems | length + (1 if isCreatures else 0) %}
 <div class="page-surface chapter-page">
+  {% for legacySlug in legacySlugs or [] %}
+    <span id="{{ legacySlug }}" class="legacy-anchor" aria-hidden="true" data-pagefind-ignore></span>
+  {% endfor %}
   <header class="chapter-heading">
     <p class="eyebrow">Chapter {{ order | padChapter }}</p>
     <h1>{{ title }}</h1>
@@ -67,6 +70,9 @@ layout: layouts/base.njk
           {# "General" is a filter bucket, not a tag: it gathers the Talents that serve every role rather than one style of play. #}
           {% set isGeneral = 'training' in talent.tags or 'awareness' in talent.tags or 'mobility' in talent.tags %}
           <article class="talent-profile" data-filter-item data-filter-tags="{{ talent.tags | join(' ') }}{{ ' general' if isGeneral }}" data-pagefind-body data-pagefind-meta="chapter:talents">
+            {% for legacySlug in talent.legacySlugs or [] %}
+              <span id="{{ legacySlug }}" class="legacy-anchor" aria-hidden="true" data-pagefind-ignore></span>
+            {% endfor %}
             <header class="rule-section-heading talent-profile-heading">
               <div class="talent-cost talent-cost--large"><strong>{{ talent.cost }}</strong><span>IP</span></div>
               <div>
@@ -114,6 +120,9 @@ layout: layouts/base.njk
     {% for item in chapterItems if not isTalents %}
       {% set rule = item.data %}
       <section class="rule-section" data-pagefind-body data-pagefind-meta="chapter:{{ id }}">
+        {% for legacySlug in rule.legacySlugs or [] %}
+          <span id="{{ legacySlug }}" class="legacy-anchor" aria-hidden="true" data-pagefind-ignore></span>
+        {% endfor %}
         <header class="rule-section-heading">
           <div>
             <h2 id="{{ rule.slug }}" data-pagefind-meta="title">
