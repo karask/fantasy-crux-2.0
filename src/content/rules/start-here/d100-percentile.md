@@ -21,7 +21,7 @@ aliases:
 
 For `D100`, roll two ten-sided dice: one gives tens and one gives units. Read `00` and `0` as 100; otherwise a zero on the tens die is a single-digit result. A tens die of `5` and units die of `9` is 59.
 
-`+1B` means one Bonus die; `-1P` means one Penalty die. These replace the tens die of a D100 test, not the skill value. See [Bonus and Penalty Dice](/rules/skills/#bonus-and-penalty-dice) for the full procedure.
+`+1B` means one Bonus die; `-1P` means one Penalty die. These replace the tens die of a D100 test, not the skill value. Bonus dice always keep the better result; Penalty dice always keep the worse. See [Bonus and Penalty Dice](/rules/skills/#bonus-and-penalty-dice) for the full procedure.
 
 ## Make a test
 

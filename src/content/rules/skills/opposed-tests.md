@@ -14,6 +14,7 @@ aliases:
 
 Use an opposed test when two characters directly compete or one actively resists another.
 Each participant rolls the relevant skill with their own Bonus or Penalty dice.
+Resolve each participant's Bonus or Penalty dice before comparing their final results.
 
 ## Compare results {#skills-compare-opposed-results}
 
@@ -24,5 +25,8 @@ Each participant rolls the relevant skill with their own Bonus or Penalty dice.
 4. If the rolls are exactly equal, the higher unmodified base skill wins.
 5. If both roll and base skill tie, the defender wins.
    When there is no clear defender, the status quo remains.
+
+The base-skill and defender or status-quo tiebreakers compare participants only.
+They never choose between one participant's candidate results from Bonus or Penalty dice.
 
 > **Example.** Two ordinary Successes of 42 and 31 favour 42. Two Failures of 72 and 85 favour 72. A Critical always defeats an ordinary Success, regardless of the numbers rolled.

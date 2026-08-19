@@ -137,6 +137,29 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     ]).toEqual([50, 55, 57, 60]);
   });
 
+  it('makes Bonus and Penalty dice choose the better or worse outcome', () => {
+    const modifiers = records.find((record) => record.data.id === 'skills.bonus-penalty-dice');
+    const opposed = records.find((record) => record.data.id === 'skills.opposed-tests');
+    const quickStart = records.find((record) => record.data.id === 'start-here.d100-percentile');
+
+    expect(modifiers.content).toContain(
+      'With Bonus dice, always keep the result that is better for the roller',
+    );
+    expect(modifiers.content).toContain(
+      'With Penalty dice, always keep the result that is worse for the roller',
+    );
+    expect(modifiers.content).toContain('Critical > Success > Failure > Fumble');
+    expect(modifiers.content).toContain('Within Critical or Success, the higher roll is better');
+    expect(modifiers.content).toContain('Within Failure or Fumble, the lower roll is better');
+    expect(modifiers.content).not.toMatch(/use the lowest complete|use the highest/i);
+    expect(opposed.content).toContain(
+      "Resolve each participant's Bonus or Penalty dice before comparing their final results",
+    );
+    expect(quickStart.content).toContain(
+      'Bonus dice always keep the better result; Penalty dice always keep the worse',
+    );
+  });
+
   it('publishes Shaping as the canonical Magic chapter and preserves Magic 2.0', () => {
     const magicChapter = records.find((record) => record.data.id === 'magic');
     const magicRules = records

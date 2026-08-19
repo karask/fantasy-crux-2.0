@@ -20,10 +20,19 @@ Write them as `+1B`, `+2B`, `-1P`, and so on.
 2. Cancel them one for one.
 3. Cap the remaining modifier at `+3B` or `-3P`.
 4. Roll one units die and one tens die, plus one extra tens die for each remaining Bonus or Penalty die.
-5. With Bonus dice, use the lowest complete `D100` result.
-   With Penalty dice, use the highest.
+5. Pair the shared units die with every tens die to form the candidate `D100` results. Read `00` as 100.
+6. With Bonus dice, always keep the result that is better for the roller.
+   With Penalty dice, always keep the result that is worse for the roller.
 
-`00` is 100 when comparing the complete results.
+Grade every candidate before choosing: **Critical > Success > Failure > Fumble**.
+Within Critical or Success, the higher roll is better.
+Within Failure or Fumble, the lower roll is better.
+Use this order even when the test is not opposed.
+
+> **Examples.** At 70%, results of 25 and 65 are both Successes. A Bonus die keeps 65; a Penalty die keeps 25. At 60%, 25 is a Success and 65 is a Failure, so a Bonus die keeps 25 and a Penalty die keeps 65.
+
+Choose the result before comparing participants in an [opposed test](/rules/skills/#opposed-tests).
+Base skill and defender or status-quo tiebreakers never choose between one roller's candidates.
 Bonus and Penalty dice change the roll, not the skill or its critical range.
 
 ## When to apply them {#skills-apply-bonus-penalty}
