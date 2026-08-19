@@ -62,8 +62,8 @@ describe('locked Fantasy Crux 2.0 rules', () => {
     [50, 5],
     [51, 3],
     [75, 3],
-    [76, 1],
-    [99, 1],
+    [76, 3],
+    [99, 3],
     [100, 0],
   ])('uses tiered one-IP improvement at %i%%', (skill, gain) => {
     expect(improvementFor(skill)).toBe(gain);
@@ -102,8 +102,8 @@ describe('locked Fantasy Crux 2.0 rules', () => {
   });
 
   it('recovers one-quarter PP per two hours and all PP after eight hours', () => {
-    expect(powerPointsRecovered({ pow: 9, hours: 2 })).toBe(3);
-    expect(powerPointsRecovered({ pow: 9, hours: 6 })).toBe(9);
+    expect(powerPointsRecovered({ pow: 9, hours: 2 })).toBe(2);
+    expect(powerPointsRecovered({ pow: 9, hours: 6 })).toBe(6);
     expect(powerPointsRecovered({ pow: 9, hours: 8 })).toBe(9);
   });
 });

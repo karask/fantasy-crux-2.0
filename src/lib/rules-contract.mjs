@@ -73,8 +73,7 @@ export function improvementFor(skill) {
   assertPercentage(skill);
 
   if (skill <= 50) return 5;
-  if (skill <= 75) return 3;
-  if (skill <= 99) return 1;
+  if (skill <= 99) return 3;
   return 0;
 }
 
@@ -106,5 +105,5 @@ export function powerPointsRecovered({ pow, hours }) {
   if (hours >= 8) return pow;
 
   const recoverySteps = Math.floor(hours / 2);
-  return Math.min(pow, recoverySteps * Math.ceil(pow / 4));
+  return Math.min(pow, recoverySteps * Math.round(pow / 4));
 }
