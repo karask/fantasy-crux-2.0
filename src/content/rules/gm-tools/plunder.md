@@ -21,7 +21,7 @@ Every creature profile lists a **Plunder Rating**. For creatures that gather in 
 | Rating | Treasure found                                                                                                                                                                           |
 | -----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |      0 | Not a hoarder. No treasure whatsoever.                                                                                                                                                   |
-|      1 | Chance hoarder. Loose change, `1D6` CP. A remote 05% chance of one enchantment, used by accident or carried in complete ignorance.                                                       |
+|      1 | Chance hoarder. Loose change, `1D6` CP. A remote 5% chance of one enchantment, used by accident or carried in complete ignorance.                                                        |
 |      2 | Enough for a rainy day. `5D20` SP and `1D10` GP. If the creature has supernatural abilities, a `POW`% chance of `1D4` minor enchantments suited to its nature.                           |
 |      3 | Hoards for a better future, and knows what its treasure is worth. `5D100` SP and `3D20` GP. If the creature has supernatural abilities, a `POW × 2`% chance of `1D4` minor enchantments. |
 |      4 | Significant hoard, gathered for hoarding's sake. `10D100` SP and `1D100` GP. A `POW × 3`% chance of `1D6` minor enchantments and a `POW`% chance of `1D4` major ones.                    |

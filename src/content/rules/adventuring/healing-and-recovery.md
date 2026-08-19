@@ -42,6 +42,6 @@ A Wounded character cannot recover HP naturally until successful Surgery or equi
 - requires safe working conditions;
 - restores 1 HP on a success.
 
-After treatment, a character performing no more than light activity recovers a quarter of CON in HP per 24 hours, up to maximum HP. Wounded ends once current HP is greater than Major Wound Level.
+A character performing no more than light activity recovers a quarter of CON in HP per 24 hours, up to maximum HP; a Wounded character begins this recovery only after treatment. Wounded ends once current HP is greater than Major Wound Level.
 
 [Alter·Flesh healing](/rules/magic/#effects--magic-healing) at Intensity 3+ counts as equivalent treatment.

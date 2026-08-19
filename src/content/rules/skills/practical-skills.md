@@ -79,6 +79,8 @@ Healing requires a Healing Kit; without one, the test suffers `-2P`.
 - **Poison or disease:** successful treatment grants `+1B` to the patient's next Resilience test against the affliction.
 - **Unconsciousness:** a successful test can revive someone whose condition allows them to wake; it cannot wake a patient at 0 HP.
 
+[Healing and Recovery](/rules/adventuring/#healing-and-recovery) gives the full wound and recovery procedure.
+
 ## Influence {#skills-influence}
 
 Influence persuades, bargains, commands, or intimidates through words and conduct.

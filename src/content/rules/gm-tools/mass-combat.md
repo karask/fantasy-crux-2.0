@@ -16,7 +16,7 @@ Use these rules for a one-roll solution to a battle. The commanders' skills deci
 
 ## Resolving the battle {#gm-battle-resolution}
 
-The two commanders make an opposed **Lore (Military Tactics)** test. A successful test inflicts casualties equal to half the winner's own numbers on the enemy. Half of those casualties are deaths and half are injuries. A Critical doubles them.
+The two commanders make an opposed **Lore (Military Tactics)** test. Each army whose commander succeeds inflicts casualties on the enemy equal to half its own numbers; a Critical doubles them. Half of any casualties are deaths and half are injuries. The commander who wins the opposed test carries the day; if both fail, the armies disengage after indecisive skirmishing.
 
 Modify the test for the situation:
 
@@ -31,6 +31,6 @@ Modify the test for the situation:
 
 ## Rout {#gm-battle-rout}
 
-The commander of the losing side must then make an **Influence** or **Performance** test to prevent a rout. Routing troops flee in panic, or surrender when they cannot flee, and a further 10% of the army is lost. A Critical is needed for a beaten force to keep fighting rather than withdraw in good order. A force with nowhere to retreat to fights on regardless.
+The commander of the losing side must then make an **Influence** or **Performance** test. On a failure the army routs: troops flee in panic, or surrender when they cannot flee, and a further 10% of the army is lost. On a success the force withdraws in good order. Only on a Critical does a beaten force keep fighting. A force with nowhere to retreat to fights on regardless.
 
 Larger forces may split into several armies, each with its own commander. Resolve each the same way; every army must choose an opposing force to attack.

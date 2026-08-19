@@ -13,7 +13,7 @@ aliases:
   - thirst
 ---
 
-After strenuous activity such as a long fight, sprint, hard climb, or strong-current swim, the GM may call for a **Fatigue test**: a Resilience test. Test after the activity unless exhaustion could prevent its completion.
+After strenuous activity such as a long fight, sprint, hard climb, or strong-current swim, the Gamemaster may call for a **Fatigue test**: a Resilience test. Test after the activity unless exhaustion could prevent its completion.
 
 | State     | Skill tests |       Movement | Combat Order |
 | --------- | ----------: | -------------: | -----------: |

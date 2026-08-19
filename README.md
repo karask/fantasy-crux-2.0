@@ -1,6 +1,6 @@
 # Fantasy Crux 2.0
 
-Fantasy Crux 2.0 is a fantasy RPG rules set. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, 51 optional Talents, freeform Shaping magic, Gamemaster tools, and a 57-profile bestiary.
+Fantasy Crux 2.0 is a fantasy RPG rules set. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, 50 optional Talents, freeform Shaping magic, Gamemaster tools, and a 57-profile bestiary.
 
 A more compact "Lite" edition is planned separately; this repository is the full 2.0 ruleset.
 

@@ -16,7 +16,7 @@ aliases:
 
 An attack against a stationary object usually hits automatically. Roll only when pressure, movement, poor access, or precise placement makes failure meaningful.
 
-Subtract the object's Armour Points (AP) from damage, then reduce its Hit Points (HP). At 0 HP it is broken, breached, or useless. Ordinary weapons may be damaged by repeated blows against stone, iron, or similarly hard material; the GM warns the player before this risk applies.
+Subtract the object's Armour Points (AP) from damage, then reduce its Hit Points (HP). At 0 HP it is broken, breached, or useless. Ordinary weapons may be damaged by repeated blows against stone, iron, or similarly hard material; the Gamemaster warns the player before this risk applies.
 
 [Magically created barriers](/rules/magic/#effects--magic-wards) use their Shaping AP and HP, then follow these rules.
 

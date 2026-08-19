@@ -32,5 +32,5 @@ Armour Points (AP) reduce incoming damage after any Parry. Armour ENC counts tow
 
 - Armour made for SIZ 1–5 has half the listed cost and ENC.
 - Armour made for SIZ 21 or more has double the listed cost and ENC.
-- Ill-fitting plate may be worn at double ENC. Other armour must fit well enough for the GM to allow it.
+- Ill-fitting plate may be worn at double ENC. Other armour must fit well enough for the Gamemaster to allow it.
 - Armour cannot be layered to combine AP.

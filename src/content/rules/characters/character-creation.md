@@ -234,10 +234,7 @@ Do not make a Resilience test or roll on an injury table.
 
 ### Treatment {#characters-wound-treatment}
 
-A character can spend a full Combat Round and pass a Healing test to remove Bleeding and Dying from a patient.
-This restores no HP; a patient at 0 HP remains unconscious.
-
-A Major Wound cannot recover until successful Surgery or an equivalent treatment. Successful Surgery restores 1 HP and unlocks normal recovery. Wounded ends after that treatment once the character's current HP is greater than MWL.
+A helper can spend a full Combat Round and pass a Healing test to remove Bleeding and Dying; this restores no HP, so a patient at 0 HP remains unconscious. A Major Wound cannot recover until successful Surgery, which restores 1 HP and unlocks normal recovery; Wounded then ends once current HP is greater than MWL. [Healing and Recovery](/rules/adventuring/#healing-and-recovery) gives the full procedure.
 
 ### Spending Hero Points {#characters-spending-hero-points}
 

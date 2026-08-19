@@ -23,9 +23,11 @@ Use a modifier only when the situation clearly warrants it. Combine different ca
 | Attacker or defender is prone                     |              `-1P` |
 | Unstable ground                                   |              `-1P` |
 | Underwater                                        |              `-2P` |
-| Dim light                                         |              `-1P` |
+| Partial darkness                                  |              `-1P` |
 | Darkness                                          |              `-2P` |
-| Blinded or pitch darkness                         |              `-3P` |
+| Blinded or in pitch black                         |              `-3P` |
+
+The darkness rows use the illumination bands defined in [Light and Darkness](/rules/adventuring/#light-and-darkness).
 
 An unaware defender cannot React. Being behind or beside a target does not itself create surprise; the fiction determines awareness. [Battle Awareness](/rules/talents/#battle-awareness) can negate the flanking or rear-attack bonus without negating genuine surprise.
 

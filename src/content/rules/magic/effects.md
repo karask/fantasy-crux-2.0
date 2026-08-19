@@ -33,7 +33,7 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) co
 
 Where its Form permits, Unmake deals `Intensity D6`. Projected Harm follows normal [damage rules](/rules/combat/#damage-and-wounds), including nonmagical AP. Direct Harm ignores nonmagical worn, natural, and object AP. Direct Harm against creatures retains Ward AP and named resistances; unattended objects retain magical protection only. Subsequent hazards, summons, falling objects, and mundane consequences use ordinary armour rules.
 
-Mind deals no HP. Unmake·Spirit damage is Direct-only: oppose Persistence and deal `Intensity D6` PP to a souled target; only magical Ward AP and named resistances apply. A visible spectral bolt is cosmetic Tell, not a projectile. It causes no HP loss, Major Wound, or Bleeding. At 0 PP, a living target falls unconscious, a Spirit is banished, and possession ends. Soulless targets are invalid. Use selected targets and the Direct Range route.
+Mind deals no HP damage. Unmake·Spirit damage is Direct-only: oppose Persistence and deal `Intensity D6` PP to a souled target; only magical Ward AP and named resistances apply. A visible spectral bolt is cosmetic Tell, not a projectile. It causes no HP loss, Major Wound, or Bleeding. At 0 PP, a living target falls unconscious, a Spirit is banished, and possession ends. Soulless targets are invalid. Use selected targets and the Direct Range route.
 
 ## Healing and death {#magic-healing}
 

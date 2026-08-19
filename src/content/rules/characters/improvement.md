@@ -35,6 +35,9 @@ Spend 5 IP to raise one characteristic by 1.
 `SIZ` cannot be improved this way.
 A human characteristic cannot exceed 21 after play begins, or 18 during character creation.
 
+After the increase, recalculate derived attributes such as HP, MWL, maximum PP, Damage Modifier, and Combat Order.
+Skills keep their current scores: bases seed skills only at creation.
+
 ## Buy Talents {#characters-buy-talents}
 
 Talents provide trained exceptions and advanced manoeuvres.

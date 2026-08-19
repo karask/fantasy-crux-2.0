@@ -16,7 +16,7 @@ aliases:
 
 Active Magnitude cannot exceed permanent, unmodified POW. Count concentration, modifiers, Wards, barriers, summons, control, Triggers, and tied anchors, except enchantments moved into Enchantment Capacity; ignore instant effects and completed permanent transformations. Dismiss on the Shaper's turn without an Action.
 
-Check Range and route when set Duration begins, then only during control. Concentration and active control cost the Combat Action each round; maintain only one. The subject stays within Range and a valid route unless Range 4+, Indirect, or the Form creates another link. Summon commands instead work within 15 metres and line of effect. Damage or serious distraction to the Shaper requires Persistence or ends maintenance. Record Magnitude and casting result.
+Check Range and route when set Duration begins, then only during control. Concentration and active control cost the Combat Action each round; maintain only one. The subject stays within Range and a valid route unless Range 4+, Indirect, or the Form creates another link. Summon commands instead work within 15 metres and line of effect. Damage or serious distraction to the Shaper forces a Persistence test; failure ends maintenance. Record Magnitude and casting result.
 
 Use only the strongest same-kind magical modifier, armour, or protection. Mundane circumstances combine under the `+3B`/`-3P` cap.
 

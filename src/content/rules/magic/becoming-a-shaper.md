@@ -29,11 +29,11 @@ This remains a real sacrifice, not a discount: the character must still assemble
 
 Shaping caps at 100% and improves normally at most once between adventures. Later learning requires suitable experience.
 
-| Advancement                                         |                       IP |
-| --------------------------------------------------- | -----------------------: |
-| New cell containing the specialty                   |                        2 |
-| Any other cell, plus a significant ordeal or master |                        4 |
-| Improve Shaping                                     | 1; use normal skill gain |
+| Advancement                                            |                       IP |
+| ------------------------------------------------------ | -----------------------: |
+| New cell containing the specialty                      |                        2 |
+| Any other cell; needs a significant ordeal or a master |                        4 |
+| Improve Shaping                                        | 1; use normal skill gain |
 
 ## Practice and Tell {#magic-practice-tell}
 

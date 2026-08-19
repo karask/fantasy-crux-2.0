@@ -70,7 +70,7 @@ Spend the Combat and Movement Actions and forfeit all Reactions. Move at least 5
 
 Spend the Combat Action to demand surrender or drive an enemy off. Declare a single target or the whole group, then oppose the character's Influence against the target's Persistence. A group rolls once on its leader's Persistence, or on the leader's Influence when that is higher.
 
-Apply the one modifier that best describes the enemy. They are not cumulative.
+Apply the one modifier that best describes the enemy to their resisting roll; the modifiers are not cumulative.
 
 | Enemy's condition                                                  | Modifier |
 | ------------------------------------------------------------------ | -------: |

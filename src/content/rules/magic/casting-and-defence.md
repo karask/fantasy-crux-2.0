@@ -44,7 +44,7 @@ Casting requires Practice, Tell, a valid target, and line of effect unless Scry,
 | **Failed overreach**              | No effect; lose half Magnitude and suffer Backlash.                                     |
 | **Fumble**                        | No intended effect; lose full Magnitude and suffer Backlash.                            |
 
-Stopped success still pays. Resolve Hero Point rerolls before PP loss or Backlash. Effects precede 0-PP unconsciousness; concentration then ends.
+A successful casting that a defence stops still pays its full cost. Resolve any Hero Point reroll before applying PP loss or Backlash. A casting that drops the Shaper to 0 PP resolves its effect before unconsciousness; any concentration then ends.
 
 ## Harm delivery {#magic-harm-delivery}
 
