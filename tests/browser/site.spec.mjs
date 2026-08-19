@@ -479,13 +479,36 @@ test('the bestiary publishes every profile and filters by creature type', async 
   await expect(everyCreatureProfile).toHaveCount(57);
   await expect(page.locator('.creature-profile--illustrated')).toHaveCount(57);
 
-  for (const profile of await everyCreatureProfile.all()) {
-    const artwork = profile.locator('.creature-portrait img');
-    await expect(artwork).toBeVisible();
-    await expect(artwork).toHaveAttribute('alt', /\S+/);
-    await expect(artwork).toHaveAttribute('src', /\/assets\/images\/creatures\/.+\.webp/);
-    await expect(artwork).toHaveAttribute('srcset', /-320\.webp 320w/);
-    await expect(artwork).toHaveAttribute('srcset', /\.webp 640w/);
+  // Read all 57 portraits in one round trip. Asserting through a locator per profile costs
+  // minutes, and downloading every portrait re-proves what the unit art contract already
+  // checks: tests/unit/website-art-contract.test.mjs hashes both variants of each file on disk.
+  const portraits = await page
+    .locator('.creature-profile .creature-portrait img')
+    .evaluateAll((images) =>
+      images.map((image) => ({
+        alt: image.getAttribute('alt'),
+        src: image.getAttribute('src'),
+        srcset: image.getAttribute('srcset'),
+        laidOut: image.getBoundingClientRect().width > 0,
+      })),
+    );
+
+  expect(portraits).toHaveLength(57);
+  for (const portrait of portraits) {
+    const where = portrait.src ?? '(no src)';
+    expect(portrait.laidOut, `${where}: laid out`).toBe(true);
+    expect(portrait.alt ?? '', `${where}: alt text`).toMatch(/\S+/);
+    expect(portrait.src ?? '', `${where}: src`).toMatch(/\/assets\/images\/creatures\/.+\.webp/);
+    expect(portrait.srcset ?? '', `${where}: 320w variant`).toMatch(/-320\.webp 320w/);
+    expect(portrait.srcset ?? '', `${where}: 640w variant`).toMatch(/\.webp 640w/);
+  }
+
+  // A sample still proves the webp variants really serve and decode in a browser.
+  for (const slug of ['bear', 'dragon', 'zombie']) {
+    const artwork = page
+      .locator(`#${slug}`)
+      .locator('xpath=ancestor::article[1]')
+      .locator('.creature-portrait img');
     await artwork.scrollIntoViewIfNeeded();
     await expect
       .poll(() => artwork.evaluate((image) => image.complete && image.naturalWidth > 0))
@@ -660,27 +683,28 @@ test('table-heavy rules remain within the target width', async ({ page }) => {
   }
 });
 
-test('core pages have no automatically detectable accessibility violations', async ({ page }) => {
-  // Scanning the single-page chapters, the 57-profile bestiary included, takes a while.
-  test.slow();
-
-  for (const route of [
-    '/',
-    '/rules/combat/',
-    '/rules/talents/',
-    '/rules/magic/',
-    '/rules/gm-tools/',
-    '/rules/creatures/',
-    '/license/',
-    '/search/',
-  ]) {
+// One test per route rather than one loop over all of them, so the scans run in parallel.
+// Scanning the long single-page chapters, the 57-profile bestiary above all, takes a while,
+// and a narrow viewport makes it slower still by giving colour contrast a taller page to walk.
+for (const route of [
+  '/',
+  '/rules/combat/',
+  '/rules/talents/',
+  '/rules/magic/',
+  '/rules/gm-tools/',
+  '/rules/creatures/',
+  '/license/',
+  '/search/',
+]) {
+  test(`${route} has no automatically detectable accessibility violations`, async ({ page }) => {
+    test.slow();
     await page.goto(route);
     const results = await new AxeBuilder({ page })
       .withTags(['wcag2a', 'wcag2aa', 'wcag21aa'])
       .analyze();
     expect(results.violations, `${route}: ${JSON.stringify(results.violations)}`).toEqual([]);
-  }
-});
+  });
+}
 
 test('the rules remain readable without JavaScript', async ({ browser, viewport }) => {
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });

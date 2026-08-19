@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
@@ -30,11 +31,11 @@ jobs:
       - name: Install locked dependencies
         run: npm ci
 
-      - name: Install browser used by the release checks
-        run: npx playwright install --with-deps chrome
-
+      # The real-browser suite runs in the .githooks/pre-push hook, not here: it needs a
+      # Chrome install and about twenty minutes of runner time, which it spent standing
+      # between a push and the published site.
       - name: Run the deployment quality gate and build the site
-        run: npm run check:deploy
+        run: npm run check:ci
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -47,6 +48,7 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
