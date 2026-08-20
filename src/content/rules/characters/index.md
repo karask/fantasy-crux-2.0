@@ -7,7 +7,7 @@ summary: Build a capable adventurer from seven characteristics, derived attribut
 ---
 
 A character is both a person in the shared world and a set of rules that describe what they can do.
-Start with a clear concept, then follow the steps below.
+Start with an idea, then follow the steps below.
 
 1. Choose a [concept](/rules/characters/#character-creation--characters-concept).
 2. Generate the seven [characteristics](/rules/characters/#character-creation--characters-characteristics).

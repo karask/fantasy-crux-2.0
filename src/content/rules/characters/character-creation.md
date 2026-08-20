@@ -177,13 +177,13 @@ Skills with a parenthetical subject, such as `Craft (type)`, are separate skills
 Add the relevant pool to skills in that category.
 You may add no more than 30 points to a single skill during creation, and no skill can exceed 100%.
 
-A character beginning as a Shaper declares the choice and reserves 20 IP before allocating skill points.
-They may then add up to 30 Knowledge points to Shaping, whose base is `INT + POW`.
-This changes only the order of creation: the character must still assemble and spend the full 20 IP.
-
 You may also remove up to 20 points from each of the Resistance, Combat, and Practical pools to gain starting Improvement Points.
 For every 5 points removed, gain 1 IP, to a maximum of 4 IP per category and 12 IP in total.
 These bonus IP may raise characteristics or buy Talents, but may not raise skills.
+
+A character beginning as a Shaper declares the choice and reserves 20 IP before allocating skill points.
+They may then add up to 30 Knowledge points to Shaping, whose base is `INT + POW`.
+This changes only the order of creation: the character must still assemble and spend the full 20 IP.
 
 ## Starting Improvement Points {#characters-starting-ip}
 
@@ -217,7 +217,7 @@ The Gamemaster awards Hero Points for major achievements and genuinely heroic pl
 
 Each test allows at most one reroll, regardless of its source.
 Declare a reroll after seeing the result but before applying consequences, costs, or Backlash; the new result stands.
-A Fumble counts as a failed test when an effect says that it applies to a failed test.
+A Fumble also counts as a failed test, so effects such as rerolls that apply to failed tests apply to it.
 
 ### Major Wounds {#characters-major-wounds}
 

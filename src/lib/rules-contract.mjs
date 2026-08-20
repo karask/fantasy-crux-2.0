@@ -30,7 +30,8 @@ function compareResultQuality(first, second) {
 
 export function criticalCeiling(skill) {
   assertPercentage(skill);
-  return Math.floor(skill / 10);
+  if (skill === 0) return 0;
+  return Math.max(1, Math.floor(skill / 10));
 }
 
 export function fumbleFloor(skill) {

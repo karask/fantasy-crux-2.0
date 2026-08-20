@@ -7,7 +7,7 @@ slug: basic-tests
 order: 10
 summary:
   - Roll D100 at or below the skill to succeed; 00 counts as 100.
-  - The critical range is 01 through the skill's integer tens digit; fumbles are 99–00 below 100%, and 00 at 100%.
+  - The critical range is 01 through the skill's integer tens digit, minimum 01 at any skill above 0%; fumbles are 99–00 below 100%, and 00 at 100%.
 aliases:
   - roll under
   - critical success
@@ -26,28 +26,29 @@ Roll when pressure, danger, limited time, or meaningful uncertainty makes both s
 
 Check fumbles first; a fumble overrides success.
 
-| Grade    | Result                                                   |
-| -------- | -------------------------------------------------------- |
-| Critical | Roll from 01 through the skill's tens digit.             |
-| Success  | Roll at or below the skill without a Critical or Fumble. |
-| Failure  | Roll above the skill without a Fumble.                   |
-| Fumble   | Roll 99 or 00 with a skill below 100%; at 100%, only 00. |
+| Grade    | Result                                                                                    |
+| -------- | ----------------------------------------------------------------------------------------- |
+| Critical | Roll from 01 through the skill's tens digit; 01 is always critical at any skill above 0%. |
+| Success  | Roll at or below the skill without a Critical or Fumble.                                  |
+| Failure  | Roll above the skill without a Fumble.                                                    |
+| Fumble   | Roll 99 or 00 with a skill below 100%; at 100%, only 00.                                  |
 
 Skills cannot exceed 100%.
 At 100%, rolls 01–10 are Critical, 11–99 are Success, and 00 is a Fumble.
 
 ## Exact critical ranges {#skills-critical-ranges}
 
-Use the integer tens digit, not rounding.
+Use the integer tens digit, not rounding. Any skill above 0% has a critical range of at least 01.
 
-|  Skill | Critical range |
-| -----: | -------------: |
-|   0–9% |           none |
-| 10–19% |             01 |
-|    59% |          01–05 |
-|    60% |          01–06 |
-|    99% |          01–09 |
-|   100% |          01–10 |
+| Skill | Critical range |
+| ----: | -------------: |
+|    0% |           none |
+| 1–19% |             01 |
+|   20% |          01–02 |
+|   59% |          01–05 |
+|   60% |          01–06 |
+|   99% |          01–09 |
+|  100% |          01–10 |
 
 ## Interpreting exceptional results {#skills-exceptional-results}
 

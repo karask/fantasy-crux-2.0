@@ -15,11 +15,11 @@ const distributionCache = new Map();
 const assessments = Object.freeze({
   'talent.alchemist': ['Change', 'Specify range, attack skill, defence, damage, and a spent miss.'],
   'talent.ambusher': ['Change', 'Limit the converted Critical to mundane combat attacks.'],
-  'talent.battle-awareness': ['Keep', 'A bounded positional defence fits the 3-IP standard tier.'],
-  'talent.committed-strike': [
-    'Keep',
-    'One improved attack fairly trades every Reaction at Expert.',
+  'talent.athletics-expertise': [
+    'Add',
+    'A chosen-application penalty remover priced to the Tracker precedent.',
   ],
+  'talent.battle-awareness': ['Keep', 'A bounded positional defence fits the 3-IP standard tier.'],
   'talent.counter': [
     'Keep',
     'Strong magical denial still costs a Reaction and full Magnitude in PP.',
@@ -28,7 +28,10 @@ const assessments = Object.freeze({
     'Keep',
     'One Action replaces the explicit one-minute baseline, fitting 2 IP.',
   ],
-  'talent.deadeye': ['Keep', 'The action and Reaction commitment prices its reliable single shot.'],
+  'talent.deception-expertise': [
+    'Add',
+    'A chosen-application penalty remover priced to the Tracker precedent.',
+  ],
   'talent.defensive-stance': ['Keep', 'A shield-only defensive trade fits the narrow tier.'],
   'talent.disarm': ['Change', 'Keep 2 IP, but explicitly bar fixed or impossible targets.'],
   'talent.enchanter': [
@@ -107,6 +110,10 @@ const assessments = Object.freeze({
   'talent.steady-casting': ['Change', 'Remove only one total named penalty before cancellation.'],
   'talent.subdue': ['Change', 'Exclude Talent damage from its knockout threshold and fallback.'],
   'talent.tactician': ['Keep', 'A campaign-scale command permission fits the broad 4-IP tier.'],
+  'talent.terrain-expertise': [
+    'Add',
+    'A chosen-terrain penalty remover priced to the Tracker precedent.',
+  ],
   'talent.tracker': [
     'Keep',
     'Remove one residual trail-finding penalty, never create a Bonus die.',
@@ -141,6 +148,20 @@ const retiredAssessments = Object.freeze([
     decision: 'Retire',
     finding:
       'Routine unhurried work already avoids a roll, so the Talent had no stable priced benefit.',
+  },
+  {
+    title: 'Committed Strike',
+    cost: 3,
+    decision: 'Retire',
+    finding:
+      'The +1B nearly doubles armour-ignoring Criticals for a forfeit that swings a round too hard; withdrawn pending a rework.',
+  },
+  {
+    title: 'Deadeye',
+    cost: 4,
+    decision: 'Retire',
+    finding:
+      'A backline shooter often pays nothing real for the Reaction forfeit; withdrawn with Committed Strike pending a rework.',
   },
 ]);
 
@@ -185,8 +206,8 @@ function readTalents() {
     })
     .sort((left, right) => left.title.localeCompare(right.title, 'en'));
 
-  if (talents.length !== 50) {
-    throw new Error(`Expected 50 published Talents; found ${talents.length}.`);
+  if (talents.length !== 51) {
+    throw new Error(`Expected 51 published Talents; found ${talents.length}.`);
   }
 
   const publishedIds = new Set(talents.map(({ id }) => id));
@@ -304,7 +325,8 @@ function d100(tens, units) {
 function grade(skill, roll) {
   const fumbleFloor = skill === 100 ? 100 : 99;
   if (roll >= fumbleFloor) return 'fumble';
-  if (roll <= Math.floor(skill / 10)) return 'critical';
+  const criticalCeiling = skill === 0 ? 0 : Math.max(1, Math.floor(skill / 10));
+  if (roll <= criticalCeiling) return 'critical';
   if (roll <= skill) return 'success';
   return 'failure';
 }
@@ -674,10 +696,11 @@ function buildReport() {
 
 # Talent balance audit
 
-This is a deterministic audit of the 50 published player Talents. It records the approved
+This is a deterministic audit of the 51 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
-now represented in the working rules, not an outstanding edit. Sure Hand is shown as a legacy
-**Retire** decision outside the current 50.
+now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
+introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
+**Retire** decisions outside the current 51.
 
 ## Method and assumptions
 
@@ -797,7 +820,7 @@ additional outcomes.
 
 ## Talent-by-Talent decision record
 
-All 50 published Talents appear once below. Sure Hand is the one additional legacy retirement.
+All 51 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 ${markdownTable(['Talent', 'IP', 'Tier', 'Decision', 'Audit finding'], talentRows)}
 

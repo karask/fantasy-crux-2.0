@@ -41,7 +41,7 @@ Do not roll for routine actions, impossible actions, or actions whose failure ha
 | Above the skill                             | Failure  |
 | `99–00` below 100% skill; only `00` at 100% | Fumble   |
 
-The critical ceiling is the integer tens digit only: 59% critically succeeds on `01–05`, while 60% critically succeeds on `01–06`.
+The critical ceiling is the integer tens digit, minimum `01` for any skill above 0%: a 5% skill critically succeeds only on `01`, 59% on `01–05`, and 60% on `01–06`.
 
 ## Let the fiction lead
 

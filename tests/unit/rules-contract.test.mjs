@@ -10,17 +10,24 @@ import {
 
 describe('locked Fantasy Crux 2.0 rules', () => {
   it.each([
-    [9, 0],
+    [0, 0],
+    [1, 1],
+    [9, 1],
     [10, 1],
     [59, 5],
     [60, 6],
     [99, 9],
     [100, 10],
-  ])('uses only the integer tens digit for criticals at %i%%', (skill, ceiling) => {
-    expect(criticalCeiling(skill)).toBe(ceiling);
-  });
+  ])(
+    'uses the integer tens digit, minimum 01 above 0%%, for criticals at %i%%',
+    (skill, ceiling) => {
+      expect(criticalCeiling(skill)).toBe(ceiling);
+    },
+  );
 
   it.each([
+    [5, 1, 'critical'],
+    [5, 2, 'success'],
     [59, 5, 'critical'],
     [59, 6, 'success'],
     [59, 59, 'success'],

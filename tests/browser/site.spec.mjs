@@ -287,7 +287,7 @@ test('every rules chapter links to each of its sections below the chapter headin
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(50);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(51);
 
   const favouredWeapon = page
     .locator('.talent-list [data-filter-item]')
@@ -325,16 +325,16 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
   await expect(visibleCards.first()).toContainText('Silver Tongue');
 
   await page.getByRole('button', { name: 'Survival' }).click();
-  await expect(visibleCards).toHaveCount(2);
+  await expect(visibleCards).toHaveCount(3);
 
   // Medicine has its own tag, so Field Surgeon no longer sits under Survival.
   await page.getByRole('button', { name: 'Healing' }).click();
   await expect(visibleCards).toHaveCount(3);
 
-  // General gathers the Talents that suit every role, including Weapon Expertise.
+  // General gathers the Talents that suit every role; Weapon Expertise now files under Offence and Defence.
   await page.getByRole('button', { name: 'General', exact: true }).click();
   await expect(visibleCards).toHaveCount(6);
-  await expect(visibleCards.filter({ hasText: 'Weapon Expertise' }).first()).toBeVisible();
+  await expect(visibleCards.filter({ hasText: 'Athletics Expertise' }).first()).toBeVisible();
   await expectNoHorizontalOverflow(page);
 });
 
@@ -734,7 +734,7 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(50);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(51);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();

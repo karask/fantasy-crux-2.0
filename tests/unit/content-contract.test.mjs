@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 50-Talent catalogue', () => {
+  it('ships exactly the approved 51-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -29,11 +29,11 @@ describe('canonical Fantasy Crux 2.0 content', () => {
       [
         'Alchemist',
         'Ambusher',
+        'Athletics Expertise',
         'Battle Awareness',
-        'Committed Strike',
         'Counter',
         'Cutpurse',
-        'Deadeye',
+        'Deception Expertise',
         'Defensive Stance',
         'Disarm',
         'Enchanter',
@@ -70,6 +70,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Steady Casting',
         'Subdue',
         'Tactician',
+        'Terrain Expertise',
         'Tracker',
         'Trigger',
         'Trip',
@@ -87,7 +88,14 @@ describe('canonical Fantasy Crux 2.0 content', () => {
       slug: 'weapon-expertise',
       legacySlugs: ['mastery', 'mastery--effect'],
     });
-    expect(talents.data.legacySlugs).toEqual(['sure-hand', 'sure-hand--effect']);
+    expect(talents.data.legacySlugs).toEqual([
+      'sure-hand',
+      'sure-hand--effect',
+      'committed-strike',
+      'committed-strike--effect',
+      'deadeye',
+      'deadeye--effect',
+    ]);
   });
 
   it('keeps creature compatibility anchors inside the profile detail grid cell', () => {

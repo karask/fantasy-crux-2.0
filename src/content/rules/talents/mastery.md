@@ -18,8 +18,9 @@ prerequisites: Close Combat or Ranged Combat at 76%, as used by the chosen weapo
 activation: passive
 tags:
   - close
+  - defence
+  - offence
   - ranged
-  - training
 ---
 
 ## Effect
