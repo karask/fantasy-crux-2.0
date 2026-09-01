@@ -14,7 +14,7 @@ const chapterArt = Object.fromEntries(
 );
 
 export default {
-  title: 'Fantasy Crux 2.0',
+  title: 'Fantasy Crux 2.0 Beta',
   motto: 'Steel & Consequence',
   edition: 'Cold Iron Edition',
   description: 'Compact, gritty fantasy rules built for fast use at the table.',

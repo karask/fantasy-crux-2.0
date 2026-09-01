@@ -2,7 +2,7 @@
 
 ## Status
 
-Accepted
+Superseded by [ADR-014](014-adopt-vivid-ink-production-art.md)
 
 ## Date
 

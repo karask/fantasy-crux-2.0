@@ -1,10 +1,12 @@
-# Fantasy Crux Lite Creatures
+# Creature Compendium Conversion Source
 
-This unpublished reference converts the original creature chapter to the current Lite rules. It is not part of the website yet.
+This unpublished reference is the preserved drafting source from which the 57 structured profiles in `src/content/rules/creatures/` were published. The structured records are the canonical Fantasy Crux 2.0 Beta rules and the only version rendered on the website.
+
+The contract suite compares published creature values with this document to preserve conversion traceability. Keep matching profile text synchronized when a derived published value changes intentionally; fields restored from other sources, such as Plunder Ratings and characteristic dice, do not belong here.
 
 ## Reading a profile
 
-Characteristics and attributes are fixed ready-to-play values. HP is `(SIZ + CON) / 2`, MWL is `HP / 2`, PP normally equals POW, and Combat Order is `(DEX + INT) / 2` minus worn-armour ENC. Unlisted skills use their normal Lite base values.
+Characteristics and attributes are fixed ready-to-play values. HP is `(SIZ + CON) / 2`, MWL is `HP / 2`, PP normally equals POW, and Combat Order is `(DEX + INT) / 2` minus worn-armour ENC. Unlisted skills use their normal published base values.
 
 An attack lists its skill, base damage, and Size. Add DM once to close, unarmed, and thrown damage; bows, slings, and crossbows never add it. Natural weapons are Light at SIZ 1–5, Medium at 6–20, Heavy at 21–40, and Huge at 41+; ordinary fists and kicks remain Light.
 

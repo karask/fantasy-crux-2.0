@@ -1,8 +1,8 @@
-# Fantasy Crux 2.0
+# Fantasy Crux 2.0 Beta
 
-Fantasy Crux 2.0 is a fantasy RPG rules set. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current rules cover character creation, skills, equipment, combat, adventuring, 51 optional Talents, freeform Shaping magic, Gamemaster tools, and a 57-profile bestiary.
+Fantasy Crux 2.0 Beta is a fantasy RPG rules set. Its canonical source is portable Markdown, rendered as the responsive **Cold Iron** static website. The current playtest rules cover character creation, skills, equipment, combat, adventuring, 51 optional Talents, freeform Shaping magic, Gamemaster tools, and a 57-profile bestiary.
 
-A more compact "Lite" edition is planned separately; this repository is the full 2.0 ruleset.
+A more compact "Lite" edition is planned separately; this repository is the full 2.0 Beta ruleset.
 
 Shaping is the canonical Magic system and is published as seven searchable sections of the single-page Magic chapter. The alternative Magic 2.0 system remains preserved in `freeform-magic/FC-magic-potential-2.md` as an unpublished design document.
 
@@ -46,11 +46,12 @@ npm run preview
 - `src/assets/` — the Cold Iron CSS, progressive-enhancement JavaScript, and brand mark
 - `src/lib/` — content schema and executable rules contracts
 - `tests/` — unit/content contracts and real-browser checks
-- `art/art-direction/` — canonical Grounded Painterly Fantasy references, production guidance, and alternative-style log
-- `art/style-studies/` — preserved visual studies used to select the illustration direction
-- `tex/` — the LaTeX chapters not yet converted to Fantasy Crux 2.0: Disciplines, Battle, and the Folk, Arcane, Divine, and Shamanism magic systems. Everything already published was removed; recover it with `git show 040db44:tex/<file>` if a conversion ever needs checking against the original
+- `art/library/` — canonical artwork, Vivid Ink production guidance, source manifests, and the illustration programme
+- `art/archive/` — historical art prompts and provenance retained for reference, not used by the website build
+- `art/review/` — temporary workspace for candidates awaiting an explicit approval decision
+- `tex/` — retained reference material for Disciplines, Battle, and the Folk, Arcane, Divine, and Shamanism magic systems. These chapters are not part of the 2.0 Beta conversion backlog, but may be consulted later. Everything already published was removed; recover it with `git show 040db44:tex/<file>` if a comparison with the original is ever needed
 - `freeform-magic/` — preserved Magic 2.0 alternative; not published
-- `freeform-creatures/` — preserved drafting source for the published bestiary
+- `freeform-creatures/` — preserved conversion source used to verify the published bestiary's traceability
 - `potential-worlds/` — unpublished, noncanonical setting candidates; compare them in the [candidate-world index](potential-worlds/README.md)
 
 Each chapter is one page: its rules, Talents, Shaping, and creature sections are inlined and addressed by anchor, such as `/rules/combat/#active-guard` or `/rules/creatures/#vampire`. Individual rule sections are still the search units: each result links to the best-matching heading inside its rule, names that heading, and cites the rule it belongs to. Because Pagefind scores whole chapter pages, results are reordered by each rule's own strongest match. Chapter introductions and Search are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, the Talent and creature filters, and collapsible examples are enhancements.
@@ -69,17 +70,15 @@ Run `npm run check` before treating a change as complete. A `pre-push` hook in `
 
 Run `npm run audit:talents` to verify that the generated probability and pricing audit still matches the published Talent catalogue and creature armour profiles.
 
-The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md); restoring characteristic dice ranges is recorded in [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md); replacing numeric copy ceilings with editorial review is recorded in [ADR-008](docs/decisions/008-replace-copy-ceilings-with-editorial-review.md); moving the real-browser checks off the deploy path is recorded in [ADR-009](docs/decisions/009-run-browser-checks-before-push.md); choosing Bonus and Penalty dice by outcome is recorded in [ADR-010](docs/decisions/010-choose-modifier-dice-by-outcome.md); the probability-based Talent rebalance is recorded in [ADR-011](docs/decisions/011-rebalance-talents-and-advancement.md); retiring Committed Strike and Deadeye in favour of the skill Expertise Talents is recorded in [ADR-012](docs/decisions/012-retire-committed-strike-and-deadeye.md); and the minimum `01` critical range is recorded in [ADR-013](docs/decisions/013-minimum-critical-range.md).
+The rationale for the Markdown-first static architecture is recorded in [ADR-001](docs/decisions/001-markdown-first-static-rules.md); the selection and publication of Shaping is recorded in [ADR-002](docs/decisions/002-publish-shaping-magic.md); publishing the bestiary is recorded in [ADR-003](docs/decisions/003-publish-creature-compendium.md); the Gamemaster tools and licence are recorded in [ADR-004](docs/decisions/004-publish-gamemaster-tools-and-license.md); restoring characteristic dice ranges is recorded in [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md); replacing the original Grounded Painterly study with the published Vivid Ink illustration system is recorded in [ADR-014](docs/decisions/014-adopt-vivid-ink-production-art.md); replacing numeric copy ceilings with editorial review is recorded in [ADR-008](docs/decisions/008-replace-copy-ceilings-with-editorial-review.md); moving the real-browser checks off the deploy path is recorded in [ADR-009](docs/decisions/009-run-browser-checks-before-push.md); choosing Bonus and Penalty dice by outcome is recorded in [ADR-010](docs/decisions/010-choose-modifier-dice-by-outcome.md); the probability-based Talent rebalance is recorded in [ADR-011](docs/decisions/011-rebalance-talents-and-advancement.md); retiring Committed Strike and Deadeye in favour of the skill Expertise Talents is recorded in [ADR-012](docs/decisions/012-retire-committed-strike-and-deadeye.md); and the minimum `01` critical range is recorded in [ADR-013](docs/decisions/013-minimum-critical-range.md).
 
 ## Art direction
 
-**Grounded Painterly Fantasy** is the accepted illustration style. Use the [art-direction guide](art/art-direction/README.md) and its canonical scenery and character references for future artwork. The other explored directions remain indexed in the [alternative style log](art/art-direction/alternatives.md).
+**Vivid Inked Adventure Comic** is the active and website-published illustration style. The [canonical art library](art/library/README.md) contains its production guide, visual anchor, subject briefs, recurring cast references, and approved masters. Four inactive rendering systems retain a detailed guide and one visual anchor each so they can be recreated without being mistaken for production sources.
 
-The website's Cold Iron palette does not constrain illustration colors. Artwork should match the canonical study-7 woman and scenery references: grounded proportions, matte traditional paint, broad forms, selective detail, muted color, restrained light, and a mature fantasy tone. The decision is recorded in [ADR-006](docs/decisions/006-adopt-grounded-painterly-fantasy-art-direction.md).
+The published programme comprises one homepage scene, 28 chapter illustrations, and portraits for all 57 creature profiles. Source masters live in `art/library/`; optimized files under `src/assets/images/` are generated website derivatives. The production decision is recorded in [ADR-014](docs/decisions/014-adopt-vivid-ink-production-art.md), which supersedes the earlier Grounded Painterly study decision in [ADR-006](docs/decisions/006-adopt-grounded-painterly-fantasy-art-direction.md).
 
-## Later phases
+## Ongoing work
 
-1. Refine Shaping through playtesting while preserving its stable rule IDs and URLs.
-2. Apply the accepted Grounded Painterly Fantasy direction to rules artwork, validate it across characters, creatures, environments, equipment, and magic, then fill the creature portrait frames.
-
-Rules artwork beyond creature thumbnails remains outside the current build.
+- Refine Shaping through playtesting while preserving its stable rule IDs and URLs.
+- Evaluate the unpublished setting candidates separately from the canonical rules.
