@@ -717,6 +717,22 @@ h3:hover .heading-anchor,
   font-weight: 700;
 }
 
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gazetteer-map {
+  margin: 1.5rem 0 2rem;
+  border: 1px solid #a59b88;
+  box-shadow: 0 0.6rem 1.4rem rgb(34 27 20 / 18%);
+}
+
+.gazetteer-map-frame {
+  margin: 0;
+}
+
 .prose code,
 .talent-facts code,
 .creature-profile code {

@@ -36,8 +36,13 @@ layout: layouts/base.njk
     </nav>
   {% endif %}
 
-  <article class="prose chapter-intro" data-pagefind-ignore>
-    {{ content | safe }}
+  <article class="prose chapter-intro"{% if id == 'gazetteer' %} data-pagefind-body data-pagefind-meta="chapter:gazetteer,title:Gazetteer"{% else %} data-pagefind-ignore{% endif %}>
+    {% set chapterIntro = content %}
+    {% if id == 'gazetteer' %}
+      {% set gazetteerMap %}{% include "partials/gazetteer-map.njk" %}{% endset %}
+      {% set chapterIntro = chapterIntro | placeAfterHeading('the-shape-of-the-realms', gazetteerMap) %}
+    {% endif %}
+    {{ chapterIntro | safe }}
   </article>
 
   {% if isTalents %}

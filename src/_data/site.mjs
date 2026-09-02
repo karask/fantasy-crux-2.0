@@ -30,6 +30,7 @@ export default {
     { number: 7, label: 'Adventuring', href: '/rules/adventuring/' },
     { number: 8, label: 'GM Tools', href: '/rules/gm-tools/' },
     { number: 9, label: 'Creatures', href: '/rules/creatures/' },
+    { number: 10, label: 'Gazetteer', href: '/rules/gazetteer/' },
     { number: '§', label: 'License', href: '/license/' },
   ],
 };

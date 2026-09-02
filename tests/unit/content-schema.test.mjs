@@ -17,6 +17,18 @@ describe('content schema', () => {
     expect(permalinkFor(rule)).toBe('/rules/combat/#active-guard');
   });
 
+  it('accepts the Gazetteer as chapter 10', () => {
+    const gazetteer = validateRecord({
+      type: 'chapter',
+      id: 'gazetteer',
+      title: 'Gazetteer',
+      order: 10,
+      summary: 'A player-facing introduction to the Crownless Realms.',
+    });
+
+    expect(permalinkFor(gazetteer)).toBe('/rules/gazetteer/');
+  });
+
   it('accepts Magic rules with computed anchors', () => {
     const rule = validateRecord({
       type: 'rule',

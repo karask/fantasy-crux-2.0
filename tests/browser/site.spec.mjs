@@ -20,14 +20,15 @@ test('home and primary rules navigation work at the target width', async ({ page
   await expect(heroArtwork).toHaveAttribute('alt', /four adventurers.+tower.+sunset/i);
   await expect(page.locator('.home-hero + .chapter-directory')).toBeVisible();
   await expect(page.locator('.hero-copy, .hero-principles, .home-start')).toHaveCount(0);
-  await expect(page.locator('.chapter-directory li')).toHaveCount(10);
+  await expect(page.locator('.chapter-directory li')).toHaveCount(11);
   await expect(page.locator('.chapter-nav a').nth(0)).toContainText('00');
   await expect(page.locator('.chapter-nav a').nth(4)).toContainText('04');
   await expect(page.locator('.chapter-nav a').nth(7)).toContainText('07');
   await expect(page.locator('.chapter-nav a').nth(7)).toContainText('Adventuring');
   await expect(page.locator('.chapter-nav a').nth(8)).toContainText('GM Tools');
   await expect(page.locator('.chapter-nav a').nth(9)).toContainText('Creatures');
-  await expect(page.locator('.chapter-nav a').nth(10)).toContainText('License');
+  await expect(page.locator('.chapter-nav a').nth(10)).toContainText('Gazetteer');
+  await expect(page.locator('.chapter-nav a').nth(11)).toContainText('License');
   await expectNoHorizontalOverflow(page);
 
   await page.goto('/rules/combat/#off-hand-options');
@@ -242,6 +243,7 @@ test('every rules chapter links to each of its sections below the chapter headin
     'adventuring',
     'gm-tools',
     'creatures',
+    'gazetteer',
   ];
 
   for (const chapterId of chapterIds) {
@@ -251,7 +253,7 @@ test('every rules chapter links to each of its sections below the chapter headin
 
     // Single-section chapters skip the tabs menu — there is nothing to navigate between. Start
     // Here holds one rule; every Talent lives in one filterable section.
-    if (chapterId === 'start-here' || chapterId === 'talents') {
+    if (chapterId === 'start-here' || chapterId === 'talents' || chapterId === 'gazetteer') {
       await expect(sectionTabs).toHaveCount(0);
       await expectNoHorizontalOverflow(page);
       continue;
@@ -283,6 +285,39 @@ test('every rules chapter links to each of its sections below the chapter headin
   await expect(
     page.locator('.chapter-tabs').getByRole('link', { name: 'Creature Profiles' }),
   ).toHaveAttribute('href', '#creature-list-title');
+});
+
+test('Gazetteer introduces the Crownless Realms without restricted campaign material', async ({
+  page,
+}) => {
+  await page.goto('/rules/gazetteer/');
+  await expect(page.locator('h1')).toHaveText('Gazetteer');
+  await expect(page.locator('.chapter-nav a[aria-current="page"]')).toContainText('10Gazetteer');
+  await expect(page.locator('.gazetteer-map')).toBeVisible();
+  await expect(page.locator('.gazetteer-map')).toHaveAttribute(
+    'src',
+    '/assets/images/gazetteer/crownless-realms-map.png',
+  );
+  const map = page.locator('.gazetteer-map');
+  await expect(map).toHaveAttribute('alt', /light, hand-inked map/i);
+  await map.scrollIntoViewIfNeeded();
+  await expect
+    .poll(() =>
+      map.evaluate((image) => image.complete && image.naturalWidth > 0 && image.naturalHeight > 0),
+    )
+    .toBe(true);
+  await expect(map).toHaveAttribute('width', '3072');
+  await expect(map).toHaveAttribute('height', '2048');
+  await expect(map.locator('xpath=parent::a')).toHaveAttribute(
+    'href',
+    '/assets/images/gazetteer/crownless-realms-map.png',
+  );
+  await expect(page.locator('main')).toContainText('Four satellite settlements');
+  await expect(page.locator('main')).not.toContainText('Ready character premises');
+  await expect(page.locator('main')).not.toContainText('Powers you can approach');
+  await expect(page.locator('main')).not.toContainText('Gamemaster Gazetteer');
+  await expect(page.locator('main')).not.toContainText(/\b\d+\s*(?:km|kilometres?|miles?)\b/i);
+  await expectNoHorizontalOverflow(page);
 });
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
@@ -658,6 +693,10 @@ test('Pagefind returns indexed rules and Talents', async ({ page }) => {
   await page.getByRole('button', { name: 'Search', exact: true }).click();
   await expect(page.locator('[data-search-results]')).toContainText('Ships and Sailing');
 
+  await page.getByLabel('Rule, term, or Talent').fill('White Span');
+  await page.getByRole('button', { name: 'Search', exact: true }).click();
+  await expect(page.locator('[data-search-results]')).toContainText('Gazetteer');
+
   await page.getByLabel('Rule, term, or Talent').fill('"rules are in development"');
   await page.getByRole('button', { name: 'Search', exact: true }).click();
   await expect(status).toContainText('0 results');
@@ -717,6 +756,7 @@ for (const route of [
   '/rules/magic/',
   '/rules/gm-tools/',
   '/rules/creatures/',
+  '/rules/gazetteer/',
   '/license/',
   '/search/',
 ]) {

@@ -14,6 +14,7 @@ const required = [
   'rules/magic/index.html',
   'rules/gm-tools/index.html',
   'rules/creatures/index.html',
+  'rules/gazetteer/index.html',
   'license/index.html',
   'search/index.html',
   'pagefind/pagefind.js',
@@ -125,6 +126,18 @@ if (publishedProfiles !== 57) {
 for (const marker of ['data-filter="animal"', 'data-filter="undead"', 'creature-portrait']) {
   if (!creatures.includes(marker)) {
     throw new Error(`The bestiary is missing ${marker} in the production output.`);
+  }
+}
+
+const gazetteer = await readFile('_site/rules/gazetteer/index.html', 'utf8');
+for (const marker of ['When the bells rang backward', 'Four satellite settlements']) {
+  if (!gazetteer.includes(marker)) {
+    throw new Error(`The published Gazetteer is missing: ${marker}.`);
+  }
+}
+for (const restricted of ['Ready character premises', 'Powers you can approach', 'Pale Cabinet']) {
+  if (gazetteer.includes(restricted)) {
+    throw new Error(`Restricted campaign material leaked into the Gazetteer: ${restricted}.`);
   }
 }
 

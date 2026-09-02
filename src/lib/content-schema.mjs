@@ -28,6 +28,7 @@ export const chapterIds = [
   'magic',
   'gm-tools',
   'creatures',
+  'gazetteer',
 ];
 
 const chapterId = z.enum(chapterIds);
