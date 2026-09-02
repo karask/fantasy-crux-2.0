@@ -36,7 +36,10 @@ layout: layouts/base.njk
     </nav>
   {% endif %}
 
-  <article class="prose chapter-intro"{% if id == 'gazetteer' %} data-pagefind-body data-pagefind-meta="chapter:gazetteer,title:Gazetteer"{% else %} data-pagefind-ignore{% endif %}>
+  <article class="prose chapter-intro"{% if id == 'gazetteer' %} data-pagefind-body data-pagefind-meta="chapter:gazetteer"{% else %} data-pagefind-ignore{% endif %}>
+    {% if id == 'gazetteer' %}
+      <p class="search-index-context" aria-hidden="true" data-pagefind-meta="title">{{ title }}</p>
+    {% endif %}
     {% set chapterIntro = content %}
     {% if id == 'gazetteer' %}
       {% set gazetteerMap %}{% include "partials/gazetteer-map.njk" %}{% endset %}

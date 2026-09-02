@@ -695,7 +695,9 @@ test('Pagefind returns indexed rules and Talents', async ({ page }) => {
 
   await page.getByLabel('Rule, term, or Talent').fill('White Span');
   await page.getByRole('button', { name: 'Search', exact: true }).click();
-  await expect(page.locator('[data-search-results]')).toContainText('Gazetteer');
+  const gazetteer = page.locator('[data-search-results] li').first();
+  await expect(gazetteer.getByRole('link')).toHaveText('Gazetteer');
+  await expect(gazetteer.locator('.search-result-meta')).toHaveText('gazetteer');
 
   await page.getByLabel('Rule, term, or Talent').fill('"rules are in development"');
   await page.getByRole('button', { name: 'Search', exact: true }).click();
