@@ -6,7 +6,7 @@
 
 ## Current candidates
 
-- [The Crownless Realms](the-crownless-realms.md) — rival crowns, chartered companies,
+- [The Crownless Realms](the-crownless-realms/the-crownless-realms.md) — rival crowns, chartered companies,
   failing imperial enchantments, free cities, and organized temples.
 - [The Elder Concord](the-elder-concord.md) — traveling courts, clan obligations,
   ancestor claims, local spirits, and territorial covenants whose renewal has failed.

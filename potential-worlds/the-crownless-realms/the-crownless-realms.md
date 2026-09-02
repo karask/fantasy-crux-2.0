@@ -101,8 +101,8 @@ can turn any estimate into a hope.
 | Crownseat to Banner Ford, Emberplain | 240 km; mostly road and open trail   | about 8 days Marching; 5 days Riding                 |
 | Banner Ford to the Saffron Gate      | 180 km; 70% rolling dryland          | about 9 days Marching; 6 days Riding                 |
 | Vellbridge to Gull's Rest            | 42 km of maintained road             | 1½ days Marching; less than a day Riding             |
-| Gull's Rest to the Shard Isles       | 280 miles by sea                     | about 2½ days in a 6-knot sloop, 3½ in a 4-knot ship |
-| Wester Capes to the Pearl Compact    | 420 miles by sea                     | about 3½ days in a 6-knot sloop, 5¼ in a 4-knot ship |
+| Gull's Rest to the Shard Isles       | 180 miles by sea                     | about 1½ days in a 6-knot sloop, 2¼ in a 4-knot ship |
+| Wester Capes to the Pearl Compact    | 120 miles by sea                     | about 1 day in a 6-knot sloop, 1½ in a 4-knot ship   |
 
 These are clean-route figures, useful for planning rather than promises. A
 detour around a silent ward-stone, a day bargaining at a border, or one storm can
@@ -144,6 +144,15 @@ the goblin commonwealth called the Nine Warrens. Their tunnels overlap like two
 legal arguments. Dwarves hold the monumental roads, ventilation towers, and
 deep bridges; goblin leagues hold side galleries, hot springs, mushroom caverns,
 and most of the trade that actually keeps miners fed.
+
+Kar-Morun is the Compact's principal southern gate-hold, built into the stepped
+cliffs where the road from Crownseat enters the Ironspines and joins the Deep
+Causeway. Its daylight terraces hold caravan yards, embassies, lift houses, and
+metal markets; its deeper wards contain clan vaults, foundries, and the elected
+engineering council. Dwarves govern the hold, but goblin factors and surface
+merchants are essential to its trade. Visitors see a fortress cut into a
+mountain; Moruni say it is a treaty with the mountain that must be renewed every
+day.
 
 The Compact and the Warrens have been allies, rivals, and besiegers within living
 memory. Both now face subsidence along the old imperial Deep Causeway. Surface
@@ -200,11 +209,14 @@ where a Crownroad crosses the river and runs to Gull's Rest. Farther east,
 Synod estates surround the Lantern Aqueduct; farther west, goblin salt factors
 and elven shipwrights share flood-prone wards.
 
-The Tide Lock Crownwork once moderated the worst storm surges. It now sounds at
-low tide and sometimes closes when the water is high. Coastal campaigns combine
-court business with muddy boots: missing cargo, compromised levees, customs
-murders, wreck salvage, and villages that have one night to prepare for a sea
-serpent.
+The Tide Lock Crownwork surrounds Gull's Rest's tidal basin with sea gates,
+spillways, and anchor chambers. In ordinary weather it guides currents through
+the harbor and keeps its channels navigable. When a storm surge approaches, its
+gates and water Shapings should divert the sea into marsh channels and deny it
+the harbor mouth. The Lock now sounds its warning at low tide and sometimes
+closes when the water is already high. Coastal campaigns combine court business
+with muddy boots: missing cargo, compromised levees, customs murders, wreck
+salvage, and villages that have one night to prepare for a sea serpent.
 
 #### Pearlwater and the Shard Isles
 
@@ -549,6 +561,33 @@ The shared crisis is coordination, not a single magical infection. The Crownwork
 have distinct, often legitimate weaknesses. The Pale Cabinet, a compartment
 inside the Office of Continuance, worsens them so age looks like the only cause
 and emergency rule like the only cure.
+
+#### How the Tide Lock fails
+
+The Lock combines mundane bronze gates and spillways with permanent
+`Scry·Water/Ice`, `Bend·Water/Ice`, and `Ward·Paths` workings. The first reads
+tide and pressure, the second guides water toward safe channels, and the third
+denies a dangerous surge passage through the harbor mouth. Crews can operate the
+mundane spillways during a failure, but they cannot reproduce the Crownwork's
+speed or force.
+
+The treaty pearl is neither a power source nor a simple key. It anchors the
+Pearl Compact's continuing consent to the Lock's use of merfolk waters. The
+imperial ritual treats that permission as one of its operating conditions, just
+as real as water level or gate position. The Pearl Compact has lawfully withdrawn
+its consent, but the pearl remains physically seated. The anchor therefore presents
+the Crownwork with two incompatible facts: the installed token says the treaty
+still authorizes the Lock, while the living parties to that treaty say it does
+not.
+
+The contradiction makes the Lock choose the wrong thresholds. It may sound its
+warning when there is no danger, close the seaward gates after a surge has
+entered, or keep landward spillways shut and trap water against the districts it
+was built to protect. Simply reseating the pearl changes nothing, while removing
+it without the rejected legal procedure could unravel the protections attached
+to it. A lasting repair requires a renewed treaty, a consensual removal and new
+anchor, or a costly redesign by capable Shapers. This is why diplomacy is part
+of the engineering problem rather than merely an obstacle to reaching it.
 
 ### Faction dossiers
 
