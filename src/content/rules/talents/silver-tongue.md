@@ -5,12 +5,13 @@ chapter: talents
 title: Silver Tongue
 slug: silver-tongue
 order: 310
-summary: Reroll one failed Influence test per scene when you have time to talk rather than press.
+summary: Remove one remaining Penalty die from Influence tests to persuade or bargain.
 aliases:
-  - reroll influence
   - persuasion
-cost: 3
-prerequisites: Influence 76%
+  - bargaining
+  - smooth talk
+cost: 2
+prerequisites: Influence 51%
 activation: passive
 tags:
   - social
@@ -18,6 +19,6 @@ tags:
 
 ## Effect
 
-Once per scene, reroll a failed Influence test and use the new result.
+After ordinary Bonus and Penalty cancellation, but before the final dice cap, remove up to 1 remaining Penalty die from Influence tests to persuade or bargain.
 
-You must have time to talk rather than press, and the audience must still be willing to listen. This never applies to Influence used as a threat.
+You must have time to talk rather than press, and the audience must still be willing to listen. This never creates Bonus dice, and never applies to Influence used as a threat.

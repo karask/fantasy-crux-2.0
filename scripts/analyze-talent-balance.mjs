@@ -20,6 +20,10 @@ const assessments = Object.freeze({
     'A chosen-application penalty remover priced to the Tracker precedent.',
   ],
   'talent.battle-awareness': ['Keep', 'A bounded positional defence fits the 3-IP standard tier.'],
+  'talent.commanding-presence': [
+    'Add',
+    'The press half of Influence, priced to the Tracker precedent alongside Silver Tongue.',
+  ],
   'talent.counter': [
     'Keep',
     'Strong magical denial still costs a Reaction and full Magnitude in PP.',
@@ -105,7 +109,10 @@ const assessments = Object.freeze({
   'talent.shield-rush': ['Keep', 'A no-damage push plus resisted prone effect fits 3 IP.'],
   'talent.signature-weapon': ['Keep', 'The second +1 costs 4 IP and retains all Favoured limits.'],
   'talent.silent-step': ['Keep', 'Half-speed opposed concealment pressure fits 3 IP.'],
-  'talent.silver-tongue': ['Keep', 'One bounded failed-test reroll per scene fits 3 IP.'],
+  'talent.silver-tongue': [
+    'Change',
+    'Gate at Influence 51% and remove one residual persuade-or-bargain penalty.',
+  ],
   'talent.steady-aim': ['Keep', 'Preserving Aim through a Reaction is a narrow 2-IP benefit.'],
   'talent.steady-casting': ['Change', 'Remove only one total named penalty before cancellation.'],
   'talent.subdue': ['Change', 'Exclude Talent damage from its knockout threshold and fallback.'],
@@ -206,8 +213,8 @@ function readTalents() {
     })
     .sort((left, right) => left.title.localeCompare(right.title, 'en'));
 
-  if (talents.length !== 51) {
-    throw new Error(`Expected 51 published Talents; found ${talents.length}.`);
+  if (talents.length !== 52) {
+    throw new Error(`Expected 52 published Talents; found ${talents.length}.`);
   }
 
   const publishedIds = new Set(talents.map(({ id }) => id));
@@ -696,7 +703,7 @@ function buildReport() {
 
 # Talent balance audit
 
-This is a deterministic audit of the 51 published player Talents. It records the approved
+This is a deterministic audit of the 52 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
@@ -820,7 +827,7 @@ additional outcomes.
 
 ## Talent-by-Talent decision record
 
-All 51 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All 52 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 ${markdownTable(['Talent', 'IP', 'Tier', 'Decision', 'Audit finding'], talentRows)}
 

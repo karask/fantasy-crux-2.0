@@ -2,7 +2,7 @@
 
 # Talent balance audit
 
-This is a deterministic audit of the 51 published player Talents. It records the approved
+This is a deterministic audit of the 52 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
@@ -36,8 +36,8 @@ introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown 
 | S1 subsystem | 10 IP | A bounded supernatural production subsystem                                                         |
 | S2 access    | 20 IP | Entry to a full supernatural rules engine                                                           |
 
-Published costs are 2 IP × 13; 3 IP × 19; 4 IP × 14; 5 IP × 3; 10 IP × 1; 20 IP × 1. The 48 Talents below 10 IP average 3.14 IP.
-Shaping therefore costs about 6.36 ordinary Talents, consumes 20 of the maximum 22 starting IP,
+Published costs are 2 IP × 15; 3 IP × 18; 4 IP × 14; 5 IP × 3; 10 IP × 1; 20 IP × 1. The 48 Talents below 10 IP average 3.1 IP.
+Shaping therefore costs about 6.45 ordinary Talents, consumes 20 of the maximum 22 starting IP,
 and requires converting at least 50 of the 225 starting pool points when bought at creation.
 Keeping its 20-IP price preserves dedication; letting a declared starting Shaper allocate up to
 30 Knowledge points to the new skill makes that sacrifice visible and playable rather than
@@ -152,7 +152,7 @@ additional outcomes.
 
 ## Talent-by-Talent decision record
 
-All 51 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All 52 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 | Talent              | IP  | Tier         | Decision | Audit finding                                                                                                            |
 | ------------------- | --- | ------------ | -------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -160,6 +160,7 @@ All 51 published Talents appear once below. Sure Hand, Committed Strike, and Dea
 | Ambusher            | 4   | T3 broad     | Change   | Limit the converted Critical to mundane combat attacks.                                                                  |
 | Athletics Expertise | 2   | T1 narrow    | Add      | A chosen-application penalty remover priced to the Tracker precedent.                                                    |
 | Battle Awareness    | 3   | T2 standard  | Keep     | A bounded positional defence fits the 3-IP standard tier.                                                                |
+| Commanding Presence | 2   | T1 narrow    | Add      | The press half of Influence, priced to the Tracker precedent alongside Silver Tongue.                                    |
 | Counter             | 4   | T3 broad     | Keep     | Strong magical denial still costs a Reaction and full Magnitude in PP.                                                   |
 | Cutpurse            | 2   | T1 narrow    | Keep     | One Action replaces the explicit one-minute baseline, fitting 2 IP.                                                      |
 | Deception Expertise | 2   | T1 narrow    | Add      | A chosen-application penalty remover priced to the Tracker precedent.                                                    |
@@ -193,7 +194,7 @@ All 51 published Talents appear once below. Sure Hand, Committed Strike, and Dea
 | Shield Rush         | 3   | T2 standard  | Keep     | A no-damage push plus resisted prone effect fits 3 IP.                                                                   |
 | Signature Weapon    | 4   | T3 broad     | Keep     | The second +1 costs 4 IP and retains all Favoured limits.                                                                |
 | Silent Step         | 3   | T2 standard  | Keep     | Half-speed opposed concealment pressure fits 3 IP.                                                                       |
-| Silver Tongue       | 3   | T2 standard  | Keep     | One bounded failed-test reroll per scene fits 3 IP.                                                                      |
+| Silver Tongue       | 2   | T1 narrow    | Change   | Gate at Influence 51% and remove one residual persuade-or-bargain penalty.                                               |
 | Steady Aim          | 2   | T1 narrow    | Keep     | Preserving Aim through a Reaction is a narrow 2-IP benefit.                                                              |
 | Steady Casting      | 3   | T2 standard  | Change   | Remove only one total named penalty before cancellation.                                                                 |
 | Subdue              | 3   | T2 standard  | Change   | Exclude Talent damage from its knockout threshold and fallback.                                                          |
