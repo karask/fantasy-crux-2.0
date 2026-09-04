@@ -62,7 +62,7 @@ South of Crown Vale, broad estuaries and tidal marsh hold cities older than the 
 
 ### Pearlwater and the Shard Isles
 
-The Pearlwater is governed as much below the surface as above it. The merfolk Pearl Compact controls the reef passages, the tidal anchorages, the surface platforms, and the air-filled halls built into sea caves. Merfolk breathe air and can hold their breath underwater for some eleven minutes, so their settlements are engineered around breathing wells, sheltered chambers, and easy reach of the surface. The Shard Isles beyond hold independent barons, temple refuges, pirate republics, and the shattered observatories of the imperial storm fleet. A fair wind carries a ship swiftly between the coasts; a storm can break it apart before a sword clears its scabbard.
+The Pearlwater is governed as much below the surface as above it. The merfolk Pearl Compact controls the reef passages, the tidal anchorages, the surface platforms, and the air-filled halls built into sea caves. Merfolk breathe air but can remain submerged for long stretches, so their settlements are engineered around breathing wells, sheltered chambers, and easy access to the surface. The Shard Isles beyond hold independent barons, temple refuges, pirate republics, and the shattered observatories of the imperial storm fleet. A fair wind carries a ship swiftly between the coasts; a storm can break it apart before a sword clears its scabbard.
 
 ## Peoples, cultures, and languages {#peoples-cultures-and-languages}
 

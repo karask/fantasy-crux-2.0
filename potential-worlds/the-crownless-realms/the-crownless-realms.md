@@ -232,9 +232,9 @@ salvage, and villages that have one night to prepare for a sea serpent.
 
 The Pearlwater is governed as much below the surface as above it. The merfolk
 Pearl Compact controls reef passages, tidal anchorages, surface platforms, and
-air-filled halls built into sea caves. Merfolk breathe air and hold their breath
-underwater for 11 minutes; their settlements are engineered
-around breathing wells, sheltered chambers, and frequent access to the surface.
+air-filled halls built into sea caves. Merfolk breathe air but can remain
+submerged for long stretches, so their settlements are engineered around
+breathing wells, sheltered chambers, and easy access to the surface.
 
 The Shard Isles contain independent barons, temple refuges, pirate republics,
 and the shattered observatories of the imperial storm fleet. Sea travel can be
@@ -812,6 +812,12 @@ that tradition rather than a free effect.
   avoidable displacement and a border dispute.
 
 #### Pearl Compact
+
+The great structure marked Pearl Compact on the map is the merfolk state's
+principal reef-city and assembly seat: a tiered complex of surfaced towers,
+air-filled sea caves, flooded passages, breathing wells, and tidal platforms.
+The symbol marks the Compact's political center, not the full extent of its
+territory.
 
 - **Public purpose:** Mark reefs, provide pilots, rescue wrecks, and enforce
   agreements between surface ports and merfolk houses.
