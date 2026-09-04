@@ -58,7 +58,7 @@ Cliff towns, fog islands, and wind-cut pasture run west of the Greenward. The Le
 
 ### The Salt Coast
 
-South of Crown Vale, broad estuaries and tidal marsh hold cities older than the empire. The Whitewater March—an established hub for chartered adventuring companies—sits where a Crownroad crosses the Whitewater, with Gull's Rest and the open sea downstream. West of it, goblin salt factors and elven shipwrights share flood-prone wards. The Tide Lock, another Crownwork, guides currents along the entire Salt Coast and should divert the worst storm surges into the marshes before they reach its ports and lowland settlements. Lately it sounds its alarm at low tide and sometimes closes when the water is already high. Life here mixes court business with wet boots: missing cargo, failed levees, a murder at the customs house, wreck salvage, and a village with one night to make ready for a sea serpent.
+South of Crown Vale, broad estuaries and tidal marsh hold cities older than the empire. The Whitewater March—an established hub for chartered adventuring companies—occupies the lower river. Vellbridge stands inland, while the Crownroad runs south across the White Span to Gull's Rest and the open sea. West of it, goblin salt factors and elven shipwrights share flood-prone wards. The Tide Lock, another Crownwork, guides currents along the entire Salt Coast and should divert the worst storm surges into the marshes before they reach its ports and lowland settlements. Lately it sounds its alarm at low tide and sometimes closes when the water is already high. Life here mixes court business with wet boots: missing cargo, failed levees, a murder at the customs house, wreck salvage, and a village with one night to make ready for a sea serpent.
 
 ### Pearlwater and the Shard Isles
 
@@ -86,7 +86,7 @@ Enter a Synod temple and you will usually find seven niches. Hearth keeps. Gate 
 
 No god steps into the public square to settle the argument. No scripture accepted across the realms has a line that cannot be read three ways. Still, Synod hospitals work, and an oath at a Gate altar carries real social force. Some priests Shape through prayer with startling skill. Sceptics credit disciplined ritual; believers say discipline is how a mortal makes themselves heard.
 
-A temple miracle obeys the limits of other Shaping. The priest needs a learned art, a Practice, and strength to spend. The working leaves a Tell, can be countered, and punishes overreach. The Synod's greater achievement is practical: it trains healers, stocks their supplies, records who can treat grave wounds, and stations them along the roads that matter. Its worship shares the realms with ancestor rites, elven land-consultations, dwarven memorial guilds, Banner oath-fires, Saffron solar courts, and Pearlwater tide-vigils.
+Temple miracles are not effortless gifts. Priests must learn their sacred arts, draw upon their own strength, and accept that every working leaves signs others may recognize. Miracles can be opposed, and reaching beyond one's abilities carries a price. The Synod's greater achievement is practical: it trains healers, stocks their supplies, records who can treat grave wounds, and stations them along the roads that matter. Its worship shares the realms with ancestor rites, elven land-consultations, dwarven memorial guilds, Banner oath-fires, Saffron solar courts, and Pearlwater tide-vigils.
 
 ## Shaping in daily life
 
@@ -94,9 +94,9 @@ Shaping is usually encountered as a sign before it is understood as an art. Surv
 
 Most settled districts can name one Shaper. Their magic is small or narrowly specialised, and their strength runs out quickly. The practised are hired by name. The genuinely powerful attract courts. Masters belong to legend, to terrible old things, and to stories where a lasting price can redraw history.
 
-Each tradition gives its art a different sound, movement, and Tell.
+Every tradition teaches recognizable rituals, though individual Shapers develop their own variations. Common examples include:
 
-| Tradition           | Practice and Tell                                                                                    |
+| Tradition           | What its magic often looks like                                                                      |
 | ------------------- | ---------------------------------------------------------------------------------------------------- |
 | Crown Survey        | A measured course recited aloud while brass tools are aligned; nearby straight edges seem to double. |
 | Synod service       | A spoken litany with lamp, cord, or washing; the worker throws seven faint shadows.                  |
@@ -105,19 +105,19 @@ Each tradition gives its art a different sound, movement, and Tell.
 | Banner oathwork     | Witness and consequence declared over iron; every voice nearby picks up a second beat.               |
 | Ninefold wayfinding | Knotted thread, quick notation, and counted corners; the corners of a room seem briefly nearer.      |
 
-A Shaper must perform an observable, interruptible Practice and cannot hide the resulting Tell. Institutions guard instruction because it is scarce and politically useful.
+Whatever the tradition, Shaping cannot be performed invisibly: its rituals can be interrupted, and its effects leave recognizable signs. Institutions guard their teaching because it is scarce and politically useful.
 
 The Crownworks make the realms seem more magical than their living Shapers could sustain. Each permanent enchantment is tied to a physical or spiritual anchor that can be found and, through it, undone. Their makers paid prices that no surviving archive records cleanly. To mend one takes more than a workshop and glowing tools. It calls for an expedition, ritual, hard bargaining, and perhaps another lasting price.
 
 ## The Whitewater March
 
-Many new companies begin in the Whitewater March. By Crownless standards it is prosperous: grain barges run on schedule, the road watch is usually paid, and the three powers claiming the March disagree without, for now, laying siege to it. Vellbridge can provide trouble before the wax on a charter cools, whether the business is a guild feud, a burglary, a court day, or another failure at the Crownwork.
+Many new companies begin in the Whitewater March. By Crownless standards it is prosperous: grain barges run on schedule, the road watch is usually paid, and the three powers claiming the March disagree without, for now, laying siege to it. Vellbridge can provide trouble before the wax on a charter cools, whether the business is a guild feud, a burglary, a court day, or another failure on the nearby White Span.
 
 ### Vellbridge
 
-Vellbridge stands on both banks of the Whitewater where the imperial Crownroad crosses the White Span, one of the seven Crownworks. The Span is broad pale stone, and travellers walking it from gate to gate count fewer steps than its length should allow. It once stayed dry, lit, and sound in any weather; now its lamps dim in sequence, the distance lurches by a few paces, and one parapet weeps salt water at noon.
+Vellbridge stands beside the Whitewater where the imperial Crownroad enters the March. South of the city, the road crosses the White Span, one of the seven Crownworks, before continuing to Gull's Rest. The Span is a monumental bridge-causeway of broad pale stone, and travellers walking it from gate to gate count fewer steps than its surveyed length should require. It once stayed dry, lit, and structurally sound in any weather; now its lamps dim in sequence, the distance lurches by a few paces, and one parapet weeps salt water at noon.
 
-Thirty thousand people live among tiled counting houses, crowded river wards, old barracks, shrines, mills, and the claimant manors up on Measure Hill. The elected March Council runs the markets and the drains. House Veyran appoints the road warden. The League of Open Cities holds the river customs contract. The Synod claims the bridge chapel. None of them can move without the others calling it the first step of an annexation.
+Thirty thousand people live among tiled counting houses, crowded river wards, old barracks, shrines, mills, and the claimant manors up on Measure Hill. The elected March Council runs the markets and the drains. House Veyran appoints the road warden. The League of Open Cities holds the river customs contract. The Synod claims the chapel at the White Span's north gate. None of them can move without the others calling it the first step of an annexation.
 
 A few places worth knowing:
 
@@ -132,8 +132,8 @@ A few places worth knowing:
 
 **Rillmarket**, northwest of Vellbridge, gathers grain, horses, and news behind a timber palisade that also encloses three inns and a weekly claimant court. A dry culvert beneath the market runs toward an imperial storehouse that no map admits exists.
 
-**Blackglass**, east of the city, grew around a dark-stone quarry. Dwarven engineers inspect its dangerous faces and goblin crews work its best machinery. Cutting into the rock exposed an imperial acoustic conduit tied to the White Span's anchor casing back in Vellbridge, and all work is officially stopped.
+**Blackglass**, east of the city, grew around a dark-stone quarry. Dwarven engineers inspect its dangerous faces and goblin crews work its best machinery. Cutting into the rock exposed an imperial acoustic conduit tied to the White Span's anchor casing beneath the crossing, and all work is officially stopped.
 
 **Hollow Ward**, north of Vellbridge, is a half-inhabited imperial fort. The March Watch holds the gate and Banner traders hold the caravan yard, and on moonless nights something opens the sealed infirmary from the inside.
 
-**Gull's Rest**, south of the city at the river mouth, is the March's seaport. Its tidal basin takes fishing boats, river barges, one-masted couriers, and the larger League ships. Pearl Compact pilots keep an air-filled treaty hall cut into the breakwater: a merfolk visitor can reach every room by flooded ramp and surface often, while landfolk come in through the upper door.
+**Gull's Rest**, beyond the White Span at the river mouth, is the March's seaport. Its tidal basin takes fishing boats, river barges, one-masted couriers, and the larger League ships. Pearl Compact pilots keep an air-filled treaty hall cut into the breakwater: a merfolk visitor can reach every room by flooded ramp and surface often, while landfolk come in through the upper door.

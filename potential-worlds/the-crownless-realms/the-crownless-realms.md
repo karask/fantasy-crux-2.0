@@ -93,20 +93,29 @@ tests. Sea estimates use the ship rules: in normal conditions a vessel covers 20
 miles per day per knot of Speed. Storms, calms, checkpoints, and damaged roads
 can turn any estimate into a hope.
 
-| Major route                          | Distance and terrain                 | Expected passage                                     |
-| ------------------------------------ | ------------------------------------ | ---------------------------------------------------- |
-| Vellbridge to Crownseat              | 150 km of Crownroad                  | 5 days Marching; 3 days Riding                       |
-| Vellbridge to Leth Arain, Greenward  | 175 km; road, then 70% light woods   | about 7 days Marching; 4–5 days Riding               |
-| Crownseat to Dor-Morak, Ironspines   | 150 km of maintained Crownroad       | 5 days Marching; 3 days Riding                       |
-| Crownseat to Banner Ford, Emberplain | 240 km; mostly road and open trail   | about 8 days Marching; 5 days Riding                 |
-| Banner Ford to the Saffron Gate      | 180 km; 70% rolling dryland          | about 9 days Marching; 6 days Riding                 |
-| Vellbridge to Gull's Rest            | 42 km of maintained road             | 1½ days Marching; less than a day Riding             |
-| Gull's Rest to the Shard Isles       | 180 miles by sea                     | about 1½ days in a 6-knot sloop, 2¼ in a 4-knot ship |
-| Wester Capes to the Pearl Compact    | 120 miles by sea                     | about 1 day in a 6-knot sloop, 1½ in a 4-knot ship   |
+| Major route                                  | Distance and terrain                            | Expected passage                                     |
+| -------------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- |
+| Vellbridge to Crownseat                      | 150 km of Crownroad                             | 5 days Marching; 3 days Riding                       |
+| Vellbridge to Leth Arain, Greenward          | 175 km; road, then 70% light woods              | about 7 days Marching; 4–5 days Riding               |
+| Crownseat to Leth Arain                      | 180 km by road                                  | 6 days Marching; about 4 days Riding                 |
+| Leth Arain to the Verdant Court              | 50 km by woodland path                          | about 2 days Marching; 1 day Riding                  |
+| Crownseat to Dor-Morak, Ironspines           | 250 km by road; roughly 150 km direct           | about 8½ days Marching; 5 days Riding                |
+| Dor-Morak to the Nine Warrens                | 70 km; half road, half mountainous ground       | about 3½ days Marching; 2 days Riding                |
+| Nine Warrens to Kar-Morun                    | 90 km; half road, half mountainous ground       | about 4½ days Marching; 3 days Riding                |
+| Nine Warrens to Banner Ford                  | 130 km; 15 km of mountainous ground             | about 5 days Marching; 3 days Riding                 |
+| Crownseat to Banner Ford, Emberplain         | 125 km; mostly road and open trail              | about 4 days Marching; 2½ days Riding                |
+| Banner Ford to the Saffron Scale Throne      | 180 km; 70% rolling dryland                     | about 9 days Marching; 6 days Riding                 |
+| Banner Ford to the Lantern Aqueduct          | 180 km by road                                  | 6 days Marching; about 4 days Riding                 |
+| Vellbridge to Gull's Rest                    | 42 km of maintained road                        | 1½ days Marching; less than a day Riding             |
+| Gull's Rest to the Shard Isles               | 80 miles by sea                                 | about ⅔ day in a 6-knot sloop, 1 day in a 4-knot ship |
+| League of Open Cities to the Pearl Compact   | 50 miles by sea                                 | about ½ day in a 6-knot sloop, ⅔ day in a 4-knot ship |
+| League of Open Cities to Gull's Rest         | 170 miles by sea                                | about 1½ days in a 6-knot sloop, 2¼ in a 4-knot ship |
+| Pearl Compact to Gull's Rest                 | 150 miles by sea                                | about 1¼ days in a 6-knot sloop, 2 days in a 4-knot ship |
 
-These are clean-route figures, useful for planning rather than promises. A
-detour around a silent ward-stone, a day bargaining at a border, or one storm can
-matter more than mount quality.
+These are clean-route figures, useful for planning rather than promises. The
+Ironspine estimates treat steep off-road mountain ground as half speed. A detour
+around a silent ward-stone, a day bargaining at a border, or one storm can matter
+more than mount quality.
 
 ### Eight broad regions
 
@@ -217,9 +226,9 @@ for generations as open water.
 
 South of Crown Vale, broad estuaries and tidal marshes hold mixed cities older
 than the empire. The Whitewater March—an established hub for chartered
-adventuring companies—sits where a Crownroad crosses the Whitewater, with Gull's
-Rest and the open sea downstream. Farther west, goblin salt factors and elven
-shipwrights share flood-prone wards.
+adventuring companies—occupies the lower river. Vellbridge stands inland, while
+the Crownroad runs south across the White Span to Gull's Rest and the open sea.
+Farther west, goblin salt factors and elven shipwrights share flood-prone wards.
 
 The Tide Lock Crownwork guides currents along the entire Salt Coast and should
 divert the worst storm surges into the marshes before they reach its ports and
@@ -297,11 +306,12 @@ hospitals work, oaths sworn at Gate altars carry social force, and some priests
 Shape through prayer with astonishing skill. Skeptics say disciplined ritual is
 sufficient. Believers answer that discipline is how mortals become audible.
 
-Temple miracles use ordinary Shaping. A priest still needs known cells, a
-Practice, PP, and a successful test. Their Tell is observable, their work can be
-Countered or Dispelled, and overreach can cause Backlash. The Synod's achievement
-is institutional: it trains healers, maintains supplies, records who can treat a
-Major Wound, and stations them along important roads.
+Temple miracles are not effortless gifts. Priests must learn their sacred arts,
+draw upon their own strength, and accept that every working leaves signs others
+may recognize. Miracles can be opposed, and reaching beyond one's abilities
+carries a price. The Synod's achievement is institutional: it trains healers,
+maintains supplies, records who can treat a Major Wound, and stations them along
+important roads.
 
 Ancestor observances, elven land consultations, dwarven memorial guilds, Banner
 oath fires, Saffron solar courts, and Pearlwater tide vigils coexist with Synod
@@ -323,23 +333,21 @@ magic is minor or specialist in scale and bounded by PP. Veterans are recruited
 by name, and Experts draw the attention of courts. Masters belong to legend,
 terrifying old beings, or campaigns in which a lasting price can redraw history.
 
-Common traditions include:
+Every tradition teaches recognizable rituals, though individual Shapers develop
+their own variations. Common examples include:
 
-| Tradition           | Typical Practice and Tell                                                                    | Favored cells                                              |
+| Tradition           | What its magic often looks like                                                              | Favored cells                                              |
 | ------------------- | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| Crown Survey        | Recite a measured route while aligning brass tools; nearby straight edges double in the Tell | `Scry·Paths`, `Ward·Paths`, `Alter·Earth/Stone`            |
-| Synod service       | Spoken litany with lamp, cord, or washing; the Tell casts seven faint shadows                | `Alter·Flesh`, `Ward·Spirit`, `Scry·Spirit`                |
+| Crown Survey        | Recite a measured route while aligning brass tools; nearby straight edges seem to double     | `Scry·Paths`, `Ward·Paths`, `Alter·Earth/Stone`            |
+| Synod service       | Spoken litany with lamp, cord, or washing; the worker throws seven faint shadows              | `Alter·Flesh`, `Ward·Spirit`, `Scry·Spirit`                |
 | Moruni stonecraft   | Hammer rhythm and traced load lines; dust rises in geometric ridges                          | `Scry·Earth/Stone`, `Bend·Earth/Stone`, `Ward·Earth/Stone` |
 | Araini husbandry    | Breath, sung names, and living focus; leaves turn their pale sides outward                   | `Alter·Flesh`, `Scry·Flesh`, `Ward·Flesh`                  |
 | Banner oathwork     | Declare witness and consequence over iron; every voice nearby carries a second beat          | `Bend·Fate`, `Ward·Mind`, `Unmake·Force/Motion`            |
 | Ninefold wayfinding | Knotted thread, rapid notation, and counted corners; nearby corners seem briefly nearer      | `Scry·Paths`, `Scry·Fate`, `Conjure·Mind`                  |
 
-These are preferences, not bonus lists or exclusive schools. Every Shaper defines
-their own observable, interruptible Practice and unavoidable Tell. Learning
-Shaping costs 20 IP, grants a specialty and two exact cells containing it,
-and requires initiation or discovery. Institutions control teaching because
-instruction is scarce and politically useful, not because the rules demand a
-license.
+Whatever the tradition, Shaping cannot be performed invisibly: its rituals can
+be interrupted, and its effects leave recognizable signs. Institutions guard
+their teaching because it is scarce and politically useful.
 
 The Crownworks make the world feel more magical than its living population could
 support. Each is a permanent supernatural enchantment with vulnerable physical
@@ -356,28 +364,30 @@ ownership without currently besieging it. It gives a new company three useful
 scales of play.
 
 - **The city ring:** Vellbridge offers same-day investigations, guild feuds,
-  temple politics, burglaries, court hearings, and trouble around the Crownwork.
-- **The frontier ring:** four satellite settlements lie within one or two days,
-  close enough for urgent travel and far enough for weather, Wounds, and pursuit
-  to matter.
+  temple politics, burglaries, and court hearings.
+- **The frontier ring:** the White Span and four satellite settlements lie within
+  one or two days, close enough for urgent travel and far enough for weather,
+  Wounds, and pursuit to matter.
 - **The expedition ring:** Crownseat, the Greenward, Ironspines, and Shard Isles
   require multi-day planning, supply, border terms, and a safe way home.
 
 #### Vellbridge
 
-Vellbridge stands on both banks of the Whitewater where the imperial Crownroad
-crosses the **White Span**, one of the seven Crownworks. The Span is pale stone,
-800 metres from gate to gate, though travelers walking it count fewer steps than
-its survey length should require. It once remained dry, lit, and structurally
-sound in any weather. Now its lamps dim in sequence, distances lurch by a few
-paces, and one parapet weeps salt water at noon.
+Vellbridge stands beside the Whitewater where the imperial Crownroad enters the
+March. About 500 metres south of the city, the road crosses the **White Span**,
+one of the seven Crownworks, before continuing roughly 12 km to Gull's Rest. The
+Span is a monumental bridge-causeway of pale stone, 30 km from gate to gate,
+though travelers walking it count fewer steps than its survey length should
+require. It once remained dry, lit, and structurally sound in any weather. Now
+its lamps dim in sequence, distances lurch by a few paces, and one parapet weeps
+salt water at noon.
 
 Thirty thousand residents live among tiled counting houses, crowded river wards,
 old barracks, shrines, mills, and the claimant manors on Measure Hill. The elected
 March Council governs markets and drains. House Veyran appoints the road warden.
 The League of Open Cities holds the river customs contract. The Synod claims the
-bridge chapel. None can act without the others accusing it of preparing an
-annexation.
+chapel at the White Span's north gate. None can act without the others accusing
+it of preparing an annexation.
 
 Useful places include:
 
@@ -416,17 +426,18 @@ beneath the market leads toward an imperial storehouse no map admits exists.
 **Blackglass**, 24 km east through light brush, grew around a dark-stone quarry.
 Dwarven engineers inspect its dangerous faces; goblin crews work its best
 mechanisms. The quarry exposed an imperial acoustic conduit linked to the White
-Span's anchor casing in Vellbridge, and all work is officially paused.
+Span's anchor casing beneath the crossing, and all work is officially paused.
 
-**Hollow Ward**, 36 km north on the Crownroad, is a half-inhabited imperial fort.
+**Hollow Ward**, 30 km north on the Crownroad, is a half-inhabited imperial fort.
 The March Watch holds its gate, Banner traders hold its caravan yard, and
 something opens the sealed infirmary from inside on moonless nights.
 
-**Gull's Rest**, 42 km south on maintained road and river, is the March's seaport.
-Its tidal basin supports fishing boats, river barges, one-masted couriers, and
-larger League ships. Pearl Compact pilots operate an air-filled treaty hall cut
-into the breakwater. A merfolk visitor can reach every chamber by flooded ramp
-and surface frequently; landfolk enter through the upper door.
+**Gull's Rest**, 42 km south by maintained road or river, is the March's seaport.
+The road reaches it across the White Span. Its tidal basin supports fishing
+boats, river barges, one-masted couriers, and larger League ships. Pearl Compact
+pilots operate an air-filled treaty hall cut into the breakwater. A merfolk
+visitor can reach every chamber by flooded ramp and surface frequently; landfolk
+enter through the upper door.
 
 #### Ready character premises
 
@@ -559,7 +570,7 @@ possibly a lasting price. Nothing here grants a new spell or item.
 
 | Crownwork                | Public function and present failure                                                                                            | Concealed anchor problem                                                                                |
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| **The White Span**       | Shortens and protects the Vellbridge crossing through Paths and structural effects; distances now lurch and salt water appears | One of nine brass route-rods was replaced with a convincing mundane copy                                |
+| **The White Span**       | Shortens and protects the lower Whitewater crossing between Vellbridge and Gull's Rest; distances now lurch and salt water appears | One of nine brass route-rods was replaced with a convincing mundane copy                                |
 | **The Deep Causeway**    | Stabilizes the most important Ironspine road with Earth/Stone workings; collapses advance from below                           | Its foundation anchor is intact but being deliberately moved a handspan at a time                       |
 | **The Tide Lock**        | Directs coastal currents and denies the worst surges across the Salt Coast; linked gates now close at dangerous tides          | Its treaty pearl remains seated, but the Pearl Compact has legally withdrawn the consent it represented |
 | **The Lantern Aqueduct** | Carries and protects clean water into southern Crown Vale; sickness now follows particular channels                            | Its fixed Reach ends at the old boundary; three expanded districts draw through unprotected connectors  |
@@ -894,8 +905,8 @@ that implicate House Veyran in wartime experiments.
 #### 3. Blackglass undercut
 
 The quarry's new face reveals a dark-glass acoustic conduit carrying vibration
-to the White Span's anchor casing 24 km away. Quarrying altered that physical
-resonance path, and workers stopped before a dangerous oscillation. League,
+to the White Span's anchor casing. Quarrying altered that physical resonance
+path, and workers stopped before a dangerous oscillation. League,
 Compact, and Ninefold crews occupy rival camps above. A giant spider in a warm
 side shaft is announced by drained carcasses and webbed tools. On the deepest
 brace, a stabilizing screw-jack has been mounted backward to widen the conduit
@@ -1092,7 +1103,7 @@ becomes an attempted incident the characters can expose.
 | Step | Development                                                                                                                                                                                                                                                                                                                        |
 | ---: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |    1 | Forged Survey warnings spread. Thistledown slows priority post while it authenticates messages; every faction begins using private couriers.                                                                                                                                                                                       |
-|    2 | The White Span lurches during market traffic. No one must die, but trade halts and a claimant offers troops “temporarily.”                                                                                                                                                                                                         |
+|    2 | The White Span lurches during port and caravan traffic. No one must die, but trade halts and a claimant offers troops “temporarily.”                                                                                                                                                                                               |
 |    3 | The Tide Lock mishandles a surge while the Storm Needle sends a false all-clear. Coastal factions mobilize and blame one another.                                                                                                                                                                                                  |
 |    4 | Station Black Measure collapses unless previously secured. Compact secrecy and Ninefold publication turn engineering loss into civil unrest.                                                                                                                                                                                       |
 |    5 | Gate of Names registers disappear in bulk. Imperial dead emerge in Crownseat carrying forged orders that recognize the Office of Continuance as temporary custodian.                                                                                                                                                               |
