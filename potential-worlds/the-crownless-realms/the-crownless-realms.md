@@ -268,7 +268,7 @@ origins.
 | Ninefold commonwealth | Mostly goblin                               | Culture (Nine Warrens); Language (Kesh)          | Couriers, mechanism-workers, hot-spring farmers, negotiators |
 | Banner clans          | Mostly orc; many human                      | Culture (Iron Banner); Language (Varkesh)        | Riders, oath-keepers, veterans, mobile judges                |
 | Saffron courts        | Mostly lizardfolk; human and orc minorities | Culture (Saffron Scale); Language (Tessarak)     | Canal keepers, calendar lawyers, caravan guards, astronomers |
-| Pearl houses          | Mostly merfolk; mixed surface clients       | Culture (Pearl Compact); Language (Pelagic)      | Pilots, reef wardens, divers, treaty brokers                 |
+| Pearl houses          | Mostly merfolk; mixed surface clients       | Culture (Pearl Compact); Language (Pelagic)      | Navigators, reef wardens, divers, treaty brokers             |
 | Thistledown relays    | Mostly pixie                                | Culture (Thistledown Post); Language (Briarlilt) | Fliers, weather readers, cipher clerks, neutral messengers   |
 
 Humans are numerous but politically divided. Their advantage is not a single
@@ -280,9 +280,9 @@ commonwealth because surviving between larger powers required reliable rules.
 Orcs of the Banner prize strength, but define it as the ability to carry an
 obligation when conditions turn hostile. Lizardfolk organize public life around
 water, heat, and seasonal authority. Merfolk make maritime sovereignty possible
-through pilots, reefs, and air-linked coastal architecture. Pixies are physically
-small, politically protected, and very difficult to prevent from delivering bad
-news.
+through navigators, reefs, and air-linked coastal architecture. Pixies are
+physically small, politically protected, and very difficult to prevent from
+delivering bad news.
 
 Use the existing fantasy-race guidance and creature profiles when a player
 chooses a nonhuman character. Dwarf and elf player packages are already
@@ -403,10 +403,10 @@ Useful places include:
   Shaping initiation after a candidate assists a real survey, demonstrates
   restraint around an unstable anchor, and accepts continuing obligations. It is
   not initiation on demand.
-- **The Bent Copper** is a respectable bathhouse above an unrespectable archive.
-  Its goblin manager, “Aunt” Neris Skell, is the best underworld contact in the
-  March for smuggling, forged travel seals, stolen correspondence, and rumors.
-  She sells introductions, not loyalty.
+- **The Bent Copper** is a respectable bathhouse with a reputation for knowing
+  more about missing papers and private business than its attendants admit. Its
+  goblin manager, “Aunt” Neris Skell, can arrange discreet introductions, but she
+  sells neither secrets nor loyalty cheaply.
 - **Thistledown Station Seven** occupies the old western bell tower. Pixie relays
   fly sealed message tubes between weather shelters. Normal service is physical,
   tiring, and delayed by storms or predators. A few trained couriers know
@@ -419,9 +419,10 @@ Useful places include:
 
 #### Four satellite settlements
 
-**Rillmarket**, 28 km northwest on good road, collects grain, horses, and news.
-Its timber palisade encloses three inns and a weekly claimant court. A dry culvert
-beneath the market leads toward an imperial storehouse no map admits exists.
+**Rillmarket**, 28 km west on good road, collects grain, horses, and news. Its
+timber palisade encloses three inns and a weekly claimant court. Locals whisper
+that a disused drainage tunnel beneath the market leads toward an imperial
+storehouse omitted from every surviving official map.
 
 **Blackglass**, 24 km east through light brush, grew around a dark-stone quarry.
 Dwarven engineers inspect its dangerous faces; goblin crews work its best
@@ -435,7 +436,7 @@ something opens the sealed infirmary from inside on moonless nights.
 **Gull's Rest**, 42 km south by maintained road or river, is the March's seaport.
 The road reaches it across the White Span. Its tidal basin supports fishing
 boats, river barges, one-masted couriers, and larger League ships. Pearl Compact
-pilots operate an air-filled treaty hall cut into the breakwater. A merfolk
+navigators operate an air-filled treaty hall cut into the breakwater. A merfolk
 visitor can reach every chamber by flooded ramp and surface frequently; landfolk
 enter through the upper door.
 
@@ -467,7 +468,7 @@ enter through the upper door.
 | Nine Warrens League   | Goblin communes and factors move food, mechanisms, credit, and information underground.                    |
 | Iron Banner March     | Orc-led clans and towns guard the east under a web of witnessed oaths.                                     |
 | Saffron Scale Throne  | Lizardfolk seasonal courts govern canals, caravans, and the southeastern approaches.                       |
-| Pearl Compact         | Merfolk houses pilot ships, mark reefs, and enforce maritime treaties.                                     |
+| Pearl Compact         | Merfolk houses provide navigators, mark reefs, and enforce maritime treaties.                              |
 | Thistledown Post      | Pixie relays carry authenticated messages while claiming strict political neutrality.                      |
 
 No power is wholly benevolent or secretly monstrous. Each can be employer, ally,
@@ -499,6 +500,23 @@ position, and allies—not an unwieldy crowd.
 The principal campaign question is not “Who deserves the crown?” It is “What
 should people preserve when the system that built their world cannot be trusted?”
 Claimants, republics, old peoples, and new institutions answer differently.
+
+### Vellbridge behind the public story
+
+**The road ward.** House Veyran kept the road watch paid after imperial wages
+failed. Under the armistice that ended the last siege, Veyran nominates the road
+warden, but the March Council must confirm the choice. Ordel and Castaine reject
+Veyran's claim to a hereditary privilege but tolerate the arrangement rather
+than risk breaking the truce.
+
+**The Bent Copper.** The rumors are true. Beneath the bathhouse, Neris maintains
+an illicit archive of stolen correspondence, forged travel seals, smuggling
+accounts, and political debts. She is the March's best underworld broker, but
+sells introductions rather than personal loyalty.
+
+**The Rillmarket culvert.** The rumor is true. A dry imperial culvert begins
+beneath Rillmarket and runs toward the sealed storehouse, though part of the
+route has collapsed and no surviving official map records either structure.
 
 ### What Shaping reliably does
 
@@ -830,15 +848,15 @@ air-filled sea caves, flooded passages, breathing wells, and tidal platforms.
 The symbol marks the Compact's political center, not the full extent of its
 territory.
 
-- **Public purpose:** Mark reefs, provide pilots, rescue wrecks, and enforce
+- **Public purpose:** Mark reefs, provide navigators, rescue wrecks, and enforce
   agreements between surface ports and merfolk houses.
 - **Concealed objective:** Force renegotiation of the Tide Lock treaty by
   withdrawing the anchor pearl that once signified merfolk consent.
 - **Internal fracture:** Reef wardens want the Lock disabled; rescue houses fear
   the deaths and reprisals that failure will cause.
-- **Resources and relations:** Pilots, reef knowledge, surface stations, salvage
-  claims, and fast swimmers within their breathing limits. The Compact needs the
-  League's shipyards but contests its toll policy.
+- **Resources and relations:** Navigators, reef knowledge, surface stations,
+  salvage claims, and fast swimmers within their breathing limits. The Compact
+  needs the League's shipyards but contests its toll policy.
 - **Leader shorthand:** Tide-Speaker Oloa Sar, gracious merfolk diplomat,
   uncompromising about consent and privately terrified of storms.
 - **Shaping:** `Scry·Water/Ice`, `Bend·Water/Ice`, and `Ward·Paths`; salt crystals
@@ -984,7 +1002,7 @@ the structural anchor.
 | **Fault troll:** troll                                      | Blood trails that return uphill and crude food caches. It wants food and a defensible warm den. Fire suppresses Regeneration, but redirection or relocation is safer. Compact secrecy worsens encounters.                                                                                                  |
 | **Emberplain wyverns:** wyvern                              | Dropped bones, shadows over mesas, and silent herd animals. They protect nests and hunt isolated mounts. Detour, lure them away, or bargain with Banner nest-watchers for routes.                                                                                                                          |
 | **Cave hag:** hag                                           | Repeated rumors in different voices, missing lamps, and bargains offered after sunset. It manipulates desire and returns to its anchor when destroyed. Learn the domain, survive until daylight, or bargain at a price the party can actually pay.                                                         |
-| **Reef hunter:** giant octopus or sea serpent               | Empty fishing grounds, sucker marks, or a wake against the wind. An octopus may guard eggs; a serpent wants prey and a sea cavern. Pearl pilots know avoidance routes. Fighting in water or from a damaged deck should feel desperate.                                                                     |
+| **Reef hunter:** giant octopus or sea serpent               | Empty fishing grounds, sucker marks, or a wake against the wind. An octopus may guard eggs; a serpent wants prey and a sea cavern. Pearl navigators know avoidance routes. Fighting in water or from a damaged deck should feel desperate.                                                                 |
 | **The Ash Chancellor:** vampire                             | Exsanguinated officials, invitations delivered at dusk, and records only the dead should recall. It seeks influence and Blood Reserve, not random slaughter. Daylight, exposure, and denial of isolated victims create leverage. The Pale Cabinet trades information with it.                              |
 | **Varkesh-of-Cinders:** dragon                              | Scorched boundary stones, frightened griffins, and formal messages burned into fields. The dragon considers itself an imperial creditor and wants recognition of an ancient debt. Conversation is the expected first encounter; direct battle is a warning that the campaign has reached legendary stakes. |
 
@@ -1010,7 +1028,7 @@ successful manoeuvre.
 
 | `1D6` | Maritime complication                                                                                                                                                  |
 | ----: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     1 | A Pearl pilot signals an uncharted reef and demands the captain stop. The chart is current; the League customs seal authorizing passage is not.                        |
+|     1 | A Pearl navigator signals an uncharted reef and demands the captain stop. The chart is current; the League customs seal authorizing passage is not.                    |
 |     2 | A strong favorable wind could double progress, but carries smoke from an island settlement. Keeping speed means passing people who may need rescue.                    |
 |     3 | The sea becomes glass-calm. A distant sloop still moves, suggesting oars, Shaping, or a current absent beneath the party's hull.                                       |
 |     4 | A storm warning arrives from Thistledown and a contradictory all-clear from the Storm Needle. Sailing around costs a day; choosing wrong risks `2D6` Structure damage. |

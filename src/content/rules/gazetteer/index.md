@@ -77,7 +77,7 @@ Upbringing, not blood, shapes culture and language. An elf fostered in Vellbridg
 | Ninefold commonwealth | Mostly goblin                               | Nine Warrens · Kesh          | Couriers, machinists, hot-spring farmers, negotiators        |
 | Banner clans          | Mostly orc; many human                      | Iron Banner · Varkesh        | Riders, oath-keepers, veterans, travelling judges            |
 | Saffron courts        | Mostly lizardfolk; human and orc minorities | Saffron Scale · Tessarak     | Canal keepers, calendar lawyers, caravan guards, astronomers |
-| Pearl houses          | Mostly merfolk; mixed surface clients       | Pearl Compact · Pelagic      | Pilots, reef wardens, divers, treaty brokers                 |
+| Pearl houses          | Mostly merfolk; mixed surface clients       | Pearl Compact · Pelagic      | Navigators, reef wardens, divers, treaty brokers             |
 | Thistledown relays    | Mostly pixie                                | Thistledown Post · Briarlilt | Fliers, weather readers, cipher clerks, neutral messengers   |
 
 ## Religion under the Seven Lamps
@@ -124,16 +124,16 @@ A few places worth knowing:
 - **The Brazen Mule**, an outfitter near South Gate, sells weapons, armour, camp gear, trail supplies, and the hire of draft animals, and rarely wants for stock. Its proprietor, Hesta Coil, refuses to call credit charity but extends it to companies who bring their wounded hirelings home.
 - **The House of the Rose Lamp** keeps clean beds, medical stores, trained healers, and a surgeon's table. Its senior surgeon, Doctor Samel Ancor, is not a Shaper and treats the fact as a point of professional pride; Sister Irra Vale can provide surgical care through Shaping when she is on hand and has the strength to spend.
 - **Third Measure Hall** is a shrunken Crown Survey office. It can open a path to Shaping, but only for a candidate who has worked a real survey, kept their head near an unstable anchor, and taken on the obligations that come with the training. It is not initiation for the asking.
-- **The Bent Copper** is a respectable bathhouse above a disreputable archive. Its goblin manager, "Aunt" Neris Skell, is the best underworld contact in the March for smuggling, forged travel seals, stolen correspondence, and rumour. She sells introductions, not loyalty.
+- **The Bent Copper** is a respectable bathhouse with a reputation for knowing more about missing papers and private business than its attendants admit. Its goblin manager, "Aunt" Neris Skell, can arrange discreet introductions, but she sells neither secrets nor loyalty cheaply.
 - **Thistledown Station Seven** holds the old western bell tower, where pixie relays fly sealed message tubes between weather shelters. The service is physical, tiring, and delayed by storms and predators; a few trained couriers can relocate across a short distance by Shaping, but there is no instant long-range post. Postmaster Pella Underleaf treats neutrality as sacred and unpaid postage as a personal insult.
 - **The Charter House** registers small companies. A charter grants no immunity, but it names your legal partners, sets how salvage is shared, and lets an authority hire you without having to recognise a rival state's soldiers.
 
 ### Four satellite settlements
 
-**Rillmarket**, northwest of Vellbridge, gathers grain, horses, and news behind a timber palisade that also encloses three inns and a weekly claimant court. A dry culvert beneath the market runs toward an imperial storehouse that no map admits exists.
+**Rillmarket**, west of Vellbridge, gathers grain, horses, and news behind a timber palisade that also encloses three inns and a weekly claimant court. Locals whisper that a disused drainage tunnel beneath the market leads toward an imperial storehouse omitted from every surviving official map.
 
 **Blackglass**, east of the city, grew around a dark-stone quarry. Dwarven engineers inspect its dangerous faces and goblin crews work its best machinery. Cutting into the rock exposed an imperial acoustic conduit tied to the White Span's anchor casing beneath the crossing, and all work is officially stopped.
 
 **Hollow Ward**, north of Vellbridge, is a half-inhabited imperial fort. The March Watch holds the gate and Banner traders hold the caravan yard, and on moonless nights something opens the sealed infirmary from the inside.
 
-**Gull's Rest**, beyond the White Span at the river mouth, is the March's seaport. Its tidal basin takes fishing boats, river barges, one-masted couriers, and the larger League ships. Pearl Compact pilots keep an air-filled treaty hall cut into the breakwater: a merfolk visitor can reach every room by flooded ramp and surface often, while landfolk come in through the upper door.
+**Gull's Rest**, beyond the White Span at the river mouth, is the March's seaport. Its tidal basin takes fishing boats, river barges, one-masted couriers, and the larger League ships. Pearl Compact navigators keep an air-filled treaty hall cut into the breakwater: a merfolk visitor can reach every room by flooded ramp and surface often, while landfolk come in through the upper door.
