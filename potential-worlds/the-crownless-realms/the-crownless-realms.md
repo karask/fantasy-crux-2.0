@@ -169,9 +169,10 @@ the humility to retreat before a sound becomes a creature.
 #### The Emberplain March
 
 Eastward plains belong to the Iron Banner March, an orc-led confederation of
-clans, farm towns, veteran colonies, and mobile herding courts. The empire once
-paid the Banner to guard its frontier, then described the same people as raiders
-whenever payment failed. Modern orcs keep copies of both contracts.
+clans, farm towns, veteran colonies, and mobile herding courts. The empire
+contracted the Banner to guard its frontier, then branded the same warriors as
+raiders whenever it failed to pay them. Banner courts still preserve the old
+service contracts alongside the warrants that contradicted them.
 
 Banner law is blunt, literate, and obsessed with witnessed obligation. A guest
 may be safer under an orc roof than in a claimant palace, but an oath-breaker can
@@ -184,10 +185,14 @@ evidence.
 
 Beyond the eastern escarpment lies hot savanna, irrigated lowland, and salt
 desert governed by the Saffron Scale Throne. Its lizardfolk calendar-judges
-divide authority by season: flood magistrates rule canals, dry magistrates rule
-roads, and neither may lawfully command the other outside their months. Human
-and orc communities hold seats in the same courts, while caravan guilds exploit
-every transition.
+divide authority by season. Flood magistrates govern canals during the wet
+months, while dry magistrates govern roads during the dry months; neither office
+may command the other during the other's season. Human and orc communities hold
+seats in the same courts, while caravan guilds exploit each seasonal transfer of
+authority to seek favorable routes, tolls, and permits.
+
+On the Reach's western edge, Synod estates surround the Lantern Aqueduct, which
+carries protected water toward southern Crown Vale.
 
 Imperial maps label the Reach a conquered province. No surviving Scale record
 agrees. The region's buried reservoirs, crocodile waterways, giant-lizard
@@ -203,23 +208,22 @@ League's merchant councils protect free passage, private contracts, and their
 own monopolies with equal conviction.
 
 This is a place of smuggling coves, signal towers, shipyards, and old sea forts.
-Harpy nests and griffin aeries overlook shipping lanes. League captains know the
-Pearl Compact's pilots are worth more than another mast, but many resent paying
-merfolk tolls for reefs their grandfathers ignored.
+Harpy nests and griffin aeries overlook shipping lanes. League captains know a
+Pearl Compact navigator is worth more than another mast, but many resent the
+Compact's new tolls and its claim of authority over routes their families sailed
+for generations as open water.
 
 #### The Salt Coast
 
 South of Crown Vale, broad estuaries and tidal marshes hold mixed cities older
-than the empire. The Whitewater March, the recommended starting region, sits
-where a Crownroad crosses the river and runs to Gull's Rest. Farther east,
-Synod estates surround the Lantern Aqueduct; farther west, goblin salt factors
-and elven shipwrights share flood-prone wards.
+than the empire. The Whitewater March—an established hub for chartered
+adventuring companies—sits where a Crownroad crosses the Whitewater, with Gull's
+Rest and the open sea downstream. Farther west, goblin salt factors and elven
+shipwrights share flood-prone wards.
 
-The Tide Lock Crownwork surrounds Gull's Rest's tidal basin with sea gates,
-spillways, and anchor chambers. In ordinary weather it guides currents through
-the harbor and keeps its channels navigable. When a storm surge approaches, its
-gates and water Shapings should divert the sea into marsh channels and deny it
-the harbor mouth. The Lock now sounds its warning at low tide and sometimes
+The Tide Lock Crownwork guides currents along the entire Salt Coast and should
+divert the worst storm surges into the marshes before they reach its ports and
+lowland settlements. The Lock now sounds its warning at low tide and sometimes
 closes when the water is already high. Coastal campaigns combine court business
 with muddy boots: missing cargo, compromised levees, customs murders, wreck
 salvage, and villages that have one night to prepare for a sea serpent.
@@ -557,7 +561,7 @@ possibly a lasting price. Nothing here grants a new spell or item.
 | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
 | **The White Span**       | Shortens and protects the Vellbridge crossing through Paths and structural effects; distances now lurch and salt water appears | One of nine brass route-rods was replaced with a convincing mundane copy                                |
 | **The Deep Causeway**    | Stabilizes the most important Ironspine road with Earth/Stone workings; collapses advance from below                           | Its foundation anchor is intact but being deliberately moved a handspan at a time                       |
-| **The Tide Lock**        | Directs harbor water and denies the worst surges; it now closes at dangerous tides                                             | Its treaty pearl remains seated, but the Pearl Compact has legally withdrawn the consent it represented |
+| **The Tide Lock**        | Directs coastal currents and denies the worst surges across the Salt Coast; linked gates now close at dangerous tides          | Its treaty pearl remains seated, but the Pearl Compact has legally withdrawn the consent it represented |
 | **The Lantern Aqueduct** | Carries and protects clean water into southern Crown Vale; sickness now follows particular channels                            | Its fixed Reach ends at the old boundary; three expanded districts draw through unprotected connectors  |
 | **The Orchard Bell**     | Protects a belt of orchards through layered works; outer sections fail each winter                                             | Blight kills outer root anchors, producing discrete failures                                            |
 | **The Storm Needle**     | Scries approaching weather and once signaled the Wester Capes; it now gives precise false warnings                             | Someone sustains a Veiled indefinite Shaping that biases its mundane selector gears                     |
@@ -570,12 +574,15 @@ and emergency rule like the only cure.
 
 #### How the Tide Lock fails
 
-The Lock combines mundane bronze gates and spillways with permanent
-`Scry·Water/Ice`, `Bend·Water/Ice`, and `Ward·Paths` workings. The first reads
-tide and pressure, the second guides water toward safe channels, and the third
-denies a dangerous surge passage through the harbor mouth. Crews can operate the
-mundane spillways during a failure, but they cannot reproduce the Crownwork's
-speed or force.
+The great seaward structure marked on the map is the Lock's primary control
+station and houses the treaty-pearl anchor. The Tide Lock is not a single
+barrier: mundane bronze gates, spillways, and secondary anchor chambers extend
+through the Salt Coast's estuaries and marshes. Permanent `Scry·Water/Ice`,
+`Bend·Water/Ice`, and `Ward·Paths` workings link the network. The first reads
+tide and pressure across the coast, the second guides water toward safe channels,
+and the third denies a dangerous surge passage into protected harbors and river
+mouths. Crews can operate local spillways during a failure, but they cannot
+coordinate the network or reproduce the Crownwork's speed and force.
 
 The treaty pearl is neither a power source nor a simple key. It anchors the
 Pearl Compact's continuing consent to the Lock's use of merfolk waters. The
@@ -1028,9 +1035,9 @@ A storm warning reaches Vellbridge while riders report the Tide Lock closed at
 high water. A fast ride can reach the port before the surge but risks Fatigue for
 rider and mount; a slower force arrives too late. At Gull's Rest, Pearl envoys and
 League officials are seconds from violence. The party can open mundane spillways,
-carry terms into the treaty hall, or reach the Lock's accessible anchor. The
-crisis tests movement, negotiation, and whether anyone spends scarce PP before
-the true storm arrives.
+carry terms into the treaty hall, or reach one of the Lock's accessible secondary
+anchors. The crisis tests movement, negotiation, and whether anyone spends scarce
+PP before the true storm arrives.
 
 #### The patients of Hollow Ward
 
