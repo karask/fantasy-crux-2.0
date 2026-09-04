@@ -97,7 +97,7 @@ can turn any estimate into a hope.
 | ------------------------------------ | ------------------------------------ | ---------------------------------------------------- |
 | Vellbridge to Crownseat              | 150 km of Crownroad                  | 5 days Marching; 3 days Riding                       |
 | Vellbridge to Leth Arain, Greenward  | 175 km; road, then 70% light woods   | about 7 days Marching; 4–5 days Riding               |
-| Crownseat to Kar-Morun, Ironspines   | 210 km; road, then 70% rolling hills | about 8 days Marching; 5 days Riding                 |
+| Crownseat to Dor-Morak, Ironspines   | 150 km of maintained Crownroad       | 5 days Marching; 3 days Riding                       |
 | Crownseat to Banner Ford, Emberplain | 240 km; mostly road and open trail   | about 8 days Marching; 5 days Riding                 |
 | Banner Ford to the Saffron Gate      | 180 km; 70% rolling dryland          | about 9 days Marching; 6 days Riding                 |
 | Vellbridge to Gull's Rest            | 42 km of maintained road             | 1½ days Marching; less than a day Riding             |
@@ -117,7 +117,7 @@ temple holdings, and villages that still call themselves imperial because no one
 has told the tax rolls otherwise. Wheat fields and vineyards surround abandoned
 signal towers. Crownseat, the old capital, remains the largest city in the west:
 three governments occupy different districts, each issuing permits for the
-whole. The empty Hall of Measures is sealed behind six competing guard posts.
+whole. The empty Hall of Measures is sealed behind three competing guard posts.
 
 This is the realm of succession intrigue, forged writs, urban expeditions, and
 ruins under inhabited streets. Its danger wears livery. A company may be hired to
@@ -129,9 +129,10 @@ different trial.
 West of Crown Vale, forests swallow the old provincial boundary. The Verdant
 Court is an elven federation of grove-cities, human woodland cantons, dryad
 domains, and road abbeys. Its law distinguishes between land that may be owned,
-land that may only be tended, and land old enough to be consulted. Outsiders call
-this mysticism until a bridge is condemned by unanimous vote of engineers,
-villagers, and the naiad beneath it.
+land that may only be tended, and land old enough to be consulted. Outsiders
+dismiss this as mysticism, but change their minds when they see a dangerous
+bridge officially closed by the unanimous vote of its engineers, its villagers,
+and the naiad beneath it.
 
 The Greenward is neither timeless nor united. Younger elves want roads reopened;
 old houses remember imperial logging levies; human charcoal towns fear elven
@@ -145,7 +146,7 @@ legal arguments. Dwarves hold the monumental roads, ventilation towers, and
 deep bridges; goblin leagues hold side galleries, hot springs, mushroom caverns,
 and most of the trade that actually keeps miners fed.
 
-Kar-Morun is the Compact's principal southern gate-hold, built into the stepped
+Dor-Morak is the Compact's principal southern gate-hold, built into the stepped
 cliffs where the road from Crownseat enters the Ironspines and joins the Deep
 Causeway. Its daylight terraces hold caravan yards, embassies, lift houses, and
 metal markets; its deeper wards contain clan vaults, foundries, and the elected
@@ -153,6 +154,11 @@ engineering council. Dwarves govern the hold, but goblin factors and surface
 merchants are essential to its trade. Visitors see a fortress cut into a
 mountain; Moruni say it is a treaty with the mountain that must be renewed every
 day.
+
+Farther east, Kar-Morun is the Compact's great forge-hold and arms market, where
+deep iron becomes Moruni steel. Banner clans, claimant agents, and Ninefold
+factors all buy there, leaving its council to decide not what it can make, but
+whom it can afford to arm.
 
 The Compact and the Warrens have been allies, rivals, and besiegers within living
 memory. Both now face subsidence along the old imperial Deep Causeway. Surface
