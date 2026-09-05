@@ -161,6 +161,14 @@ describe('content schema', () => {
       expect(record.characteristicDice).toEqual({ str: '3D6', con: '3D6+3', int: '2D6+6/1D6+3' });
     });
 
+    it('accepts the human-style drop-lowest characteristic roll', () => {
+      const record = validateRecord({
+        ...baseCreature,
+        characteristicDice: { dex: '4D6 drop lowest' },
+      });
+      expect(record.characteristicDice).toEqual({ dex: '4D6 drop lowest' });
+    });
+
     it('rejects a malformed dice formula', () => {
       expect(() =>
         validateRecord({ ...baseCreature, characteristicDice: { str: '3d' } }),

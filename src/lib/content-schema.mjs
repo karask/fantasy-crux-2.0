@@ -132,13 +132,14 @@ const statBlock = (keys) =>
 
 // The dice a creature's characteristics were generated from, e.g. '4D6' or '10D6+30'. A dual
 // form such as '3D6/6D6' covers a creature with two states (Golem's programmed/free-willed,
-// Werewolf's human/wolf); only characteristics that actually vary carry an entry here — a fixed
-// value (a summoned being, or an undead's 0 POW) has nothing to roll and is simply omitted.
+// Werewolf's human/wolf). '4D6 drop lowest' is the human-style roll. Only characteristics that
+// actually vary carry an entry here — a fixed value (a summoned being, or an undead's 0 POW) has
+// nothing to roll and is simply omitted.
 const diceFormula = z
   .string()
   .regex(
-    /^\d+D\d+(?:[+-]\d+)?(?:\/\d+D\d+(?:[+-]\d+)?)?$/i,
-    'Use a dice formula like 4D6, 10D6+30, or 3D6/6D6.',
+    /^\d+D\d+(?:[+-]\d+)?(?: drop lowest|\/\d+D\d+(?:[+-]\d+)?)?$/i,
+    'Use a dice formula like 4D6, 4D6 drop lowest, 10D6+30, or 3D6/6D6.',
   );
 const characteristicDice = z
   .object({

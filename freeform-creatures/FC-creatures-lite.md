@@ -4,6 +4,8 @@ This unpublished reference is the preserved drafting source from which the 57 st
 
 The contract suite compares published creature values with this document to preserve conversion traceability. Keep matching profile text synchronized when a derived published value changes intentionally; fields restored from other sources, such as Plunder Ratings and characteristic dice, do not belong here.
 
+An intelligent creature profile describes one ready-to-use individual, often equipped for danger. It does not assign morality, culture, or allegiance to every member of that people.
+
 ## Reading a profile
 
 Characteristics and attributes are fixed ready-to-play values. HP is `(SIZ + CON) / 2`, MWL is `HP / 2`, PP normally equals POW, and Combat Order is `(DEX + INT) / 2` minus worn-armour ENC. Unlisted skills use their normal published base values.
@@ -41,7 +43,7 @@ A listed **Multiattack** spends one Combat Action. Make the first attack normall
 
 ## Senses
 
-**Night Vision** treats natural surface night as Illuminated; it does not help underground, in sealed or supernatural darkness, or against obscurity. **Night Sight** treats Partial Darkness as Illuminated and Darkness as Partial Darkness; Pitch Black is unchanged. **Blind Sight (sense)** ignores illumination only for targets that the named sense accurately perceives; it grants no colour, writing, fine visual detail, or eye contact, and its stated barriers still block it. Use only the best sense; senses do not stack.
+**Night Vision** treats natural surface night as Illuminated; it does not help underground, in sealed or supernatural darkness, or against obscurity. **Low-Light Sight** treats Partial Darkness as Illuminated and Darkness as Partial Darkness; Pitch Black is unchanged. **Blind Sight (sense)** ignores illumination only for targets that the named sense accurately perceives; it grants no colour, writing, fine visual detail, or eye contact, and its stated barriers still block it. Use only the best sense; senses do not stack.
 
 An Incorporeal Spirit is invisible unless it manifests. Manifesting or fading spends its Combat Action and changes only visibility. Every Spirit has **Spirit Sense**, detecting other Spirits within POW metres regardless of manifestation; physical and magical barriers may block it when appropriate.
 
@@ -453,11 +455,11 @@ Ancient dragons may know potent cells such as Conjure·Fire, Bend·Fire, Ward·F
 
 **Tags:** Living, Corporeal.
 
-Stocky, long-lived underground folk renowned for craft, mining, and stonework.
+Stocky, long-lived people adapted to darkness and life around stone, with a remarkable sense for heat, depth, and unstable ground.
 
-**Characteristics:** STR 14; CON 19; DEX 11; SIZ 7; INT 13; POW 11; CHA 11.
+**Characteristics:** STR 14; CON 19; DEX 11; SIZ 10; INT 13; POW 11; CHA 11.
 
-**Derived:** HP 13; MWL 7; PP 11; Movement 12 m; Combat Order 5; AP 5 chainmail; DM +0.
+**Derived:** HP 15; MWL 8; PP 11; Movement 12 m; Combat Order 5; AP 5 chainmail; DM +0.
 
 **Skills:** Dodge 20%; Persistence 40%; Resilience 55%; Athletics 50%; Engineering 35%; Mechanisms 40%; Trade 60%; Craft 70%; Close Combat 65%; Ranged Combat 45%.
 
@@ -465,7 +467,7 @@ Stocky, long-lived underground folk renowned for craft, mining, and stonework.
 
 **Talents:** None.
 
-**Abilities:** **Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.
+**Abilities:** **Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.
 
 **Earth Sense:** While touching connected earth or stone, the dwarf knows approximate depth and whether the surrounding chamber is structurally unstable.
 
@@ -514,7 +516,7 @@ Raw elemental substance embodied as water, darkness, flame, stone, or storm.
 
 **Tags:** Living, Corporeal.
 
-Ageless forest folk bound to their woodland realms and fiercely protective of them.
+Long-lived, keen-sighted people with a strong affinity for forests and living landscapes, known for quick grace, enduring memories, and traditions shaped by the places they call home.
 
 **Characteristics:** STR 10; CON 11; DEX 17; SIZ 10; INT 17; POW 13; CHA 11.
 
@@ -524,11 +526,9 @@ Ageless forest folk bound to their woodland realms and fiercely protective of th
 
 **Attacks:** Shortspear — Close Combat 60%, `1D6 + 0`, Medium; Longbow — Ranged Combat 80%, `1D10`, 150 m.
 
-**Talents:** None.
+**Talents:** Terrain Expertise (Forest).
 
-**Abilities:** **Exceptional Archer:** Gain `+1B` with bows. The longbow's minimum STR gives this elf `-1P`, so the dice normally cancel.
-
-**Night Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.
+**Abilities:** **Low-Light Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.
 
 Elf Shapers often favour Alter·Flesh, Scry·Flesh, Bend·Earth/Stone, and protective nature cells.
 
@@ -572,9 +572,9 @@ A six-metre humanoid who adopts nearby cultures or lives in an isolated mountain
 
 **Tags:** Living, Corporeal.
 
-A small, agile humanoid accustomed to surviving through cunning and numbers.
+Small, agile people with heat-sensitive perception and a knack for navigating cramped, difficult, or overlooked places.
 
-**Characteristics:** STR 10; CON 10; DEX 17; SIZ 7; INT 11; POW 10; CHA 7.
+**Characteristics:** STR 10; CON 10; DEX 17; SIZ 7; INT 11; POW 10; CHA 11.
 
 **Derived:** HP 9; MWL 5; PP 10; Movement 15 m; Combat Order 11; AP 2 leather; DM +0.
 
@@ -584,7 +584,7 @@ A small, agile humanoid accustomed to surviving through cunning and numbers.
 
 **Talents:** None.
 
-**Abilities:** **Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.
+**Abilities:** **Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.
 
 Leaders and shamans may know combat, trickery, or survival-themed Shaping cells.
 
@@ -654,7 +654,7 @@ A filthy, winged scavenger whose claws and missiles spread disease.
 
 **Tags:** Living, Corporeal.
 
-A territorial sea-dweller whose undersea society mirrors kingdoms above.
+Air-breathing sea people adapted to long dives, whose settlements combine flooded passages with sheltered breathing chambers.
 
 **Characteristics:** STR 14; CON 11; DEX 13; SIZ 17; INT 11; POW 11; CHA 11.
 
@@ -722,23 +722,27 @@ An otherworldly champion whose form and weapon reflect its deity.
 
 **Abilities:** Appearance, weapon, and optional Shaping cells express its patron without changing these values.
 
-### Lizardman
+### Lizardfolk
 
 **Tags:** Living, Corporeal.
 
-A tool-using reptilian person adapted to deserts, swamps, and other hot regions.
+Reptilian people adapted to hot climates, especially deserts, wetlands, and river valleys.
 
-**Characteristics:** STR 17; CON 11; DEX 10; SIZ 11; INT 13; POW 11; CHA 7.
+**Characteristics:** STR 17; CON 11; DEX 10; SIZ 11; INT 13; POW 11; CHA 11.
 
-**Derived:** HP 11; MWL 6; PP 11; Movement 15 m; Combat Order 12; AP 2 scales; DM +1D4.
+**Derived:** HP 11; MWL 6; PP 11; Movement 15 m; Combat Order 12; AP 1 scales; DM +1D4.
 
 **Skills:** Dodge 45%; Persistence 25%; Resilience 30%; Athletics 45%; Deception 30%; Perception 35%; Natural Lore 45%; Close Combat 45%; Ranged Combat 35%; Unarmed Combat 25%.
 
-**Attacks:** Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium; Sling — Ranged Combat 35%, `1D6`, 50 m; Bite — Unarmed Combat 25%, `1D6 + 1D4`, Medium.
+**Attacks:** Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium; Sling — Ranged Combat 35%, `1D6`, 50 m.
 
 **Talents:** None.
 
-**Abilities:** Lizardman cultures may teach any appropriate Shaping cells.
+**Abilities:** **Scaled Hide:** The Lizardfolk has 1 natural AP with no ENC. It stacks with worn armour, although worn armour still cannot be layered. Ward AP does not stack with this combined physical protection; use the Ward or the total physical AP, whichever is higher.
+
+**Counterbalancing Tail:** Tests made primarily to knock the Lizardfolk prone, throw them, or force them to move suffer `-1P`.
+
+Individual Lizardfolk may learn any appropriate Shaping cells.
 
 ### Ogre
 
@@ -762,25 +766,27 @@ A massive, warty humanoid who dominates weaker creatures through brute force.
 
 **Tags:** Living, Corporeal.
 
-A violent clan-based humanoid whose warband is ruled by strength and ambition.
+Tall, powerfully built people found in settled communities and travelling clans alike; their loyalties, ambitions, and temperaments vary as widely as those of humans.
 
-**Characteristics:** STR 14; CON 11; DEX 14; SIZ 10; INT 11; POW 10; CHA 7.
+**Characteristics:** STR 14; CON 11; DEX 12; SIZ 14; INT 10; POW 10; CHA 11.
 
-**Derived:** HP 11; MWL 6; PP 10; Movement 15 m; Combat Order 10; AP 2 leather; DM +0.
+**Derived:** HP 13; MWL 7; PP 10; Movement 15 m; Combat Order 8; AP 2 leather; DM +1D4.
 
 **Skills:** Dodge 35%; Persistence 35%; Resilience 35%; Athletics 35%; Deception 45%; Perception 45%; Craft 40%; Close Combat 40%; Ranged Combat 50%.
 
-**Attacks:** Scimitar — Close Combat 40%, `1D8 + 0`, Medium; Medium Shield — Close Combat 40%, `1D6 + 0`, Heavy; Shortbow — Ranged Combat 50%, `1D8`, 75 m.
+**Attacks:** Scimitar — Close Combat 40%, `1D8 + 1D4`, Medium; Medium Shield — Close Combat 40%, `1D6 + 1D4`, Heavy; Shortbow — Ranged Combat 50%, `1D8`, 75 m.
 
 **Talents:** None.
 
-**Abilities:** War leaders and shamans may know aggressive or protective Shaping cells.
+**Abilities:** **Adrenaline Surge:** Once per combat, immediately after becoming Wounded or Fatigued, the Orc ignores the test, Movement, and Combat Order penalties caused by Wounded and Fatigued until the end of their next turn. They also ignore the first 1 HP they would lose from Bleeding during that time. Bleeding is not removed and continues normally afterwards. Exhausted, unconscious, and Dying are unaffected.
+
+Individual Orcs may learn any appropriate Shaping cells.
 
 ### Pixie
 
 **Tags:** Living, Corporeal.
 
-A tiny, winged forest person known for curiosity, mischief, and subtle magic.
+Tiny winged people whose speed, flight, and affinity for subtle magic let them flourish in places larger folk overlook.
 
 **Characteristics:** STR 4; CON 11; DEX 14; SIZ 4; INT 11; POW 13; CHA 11.
 
@@ -812,7 +818,7 @@ A large, solitary predator whose body repairs wounds with terrifying speed.
 
 **Abilities:** **Regeneration:** At the start of its turn, even at 0 HP, recover `1D6` HP unless it has taken fire damage since the start of its previous turn. This bypasses Wounded's recovery lock and removes Bleeding and Dying; Wounded remains. If HP rises above 0, the Troll wakes and may act that turn.
 
-**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.
+**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.
 
 ### Werewolf
 
@@ -1166,7 +1172,9 @@ An intelligent undead predator sustained by stolen blood and life force.
 
 **Talents:** None.
 
-**Abilities:** **Senses:** Night Vision; Blind Sight (living beings), blocked by walls and complete solid cover.
+**Abilities:** **Night Vision:** Natural surface night counts as Illuminated. It does not overcome sealed, underground, or supernatural darkness or obscurity.
+
+**Blind Sight (life):** Detects living beings regardless of illumination. Walls and complete solid cover block it; it grants no colour, writing, fine visual detail, or eye contact.
 
 **Blood Reserve:** Maximum 18, current 0. Use current Reserve as PP and maximum Reserve instead of POW for the active Shaping limit. It pays costs, Counter, rituals, and commitments, but never recovers naturally; 0 does not incapacitate the Vampire. It also recovers no HP naturally.
 

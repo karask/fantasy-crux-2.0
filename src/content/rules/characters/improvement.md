@@ -34,7 +34,7 @@ A gain cannot pass 100%: a skill at 98% improves to 100%, losing the excess.
 
 Spend 5 IP to raise one characteristic by 1.
 `SIZ` cannot be improved this way.
-A human characteristic cannot exceed 21 after play begins, or 18 during character creation.
+A characteristic cannot exceed the character's racial maximum. Humans have a racial maximum of 21; recommended nonhuman maxima appear under [Fantasy Races](/rules/gm-tools/#fantasy-races).
 
 After the increase, recalculate derived attributes such as HP, MWL, maximum PP, Damage Modifier, and Combat Order.
 Skills keep their current scores: bases seed skills only at creation.

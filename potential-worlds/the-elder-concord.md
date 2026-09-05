@@ -281,7 +281,7 @@ many guests its warmth, food, and air can sustain. Lizardfolk pauses are acts of
 accounting, not indifference: a generous ruling that exhausts a refuge can kill
 everyone inside. The houses have no king and cannot command one another to open.
 
-Use the existing Lizardman profile with **Culture (Embercoil)** and **Language
+Use the existing Lizardfolk profile with **Culture (Embercoil)** and **Language
 (Warmstone)**.
 
 #### Five-Reed merfolk
@@ -712,7 +712,7 @@ abilities rather than increasing crowd size.
 - **Fracture:** Open-Coil houses treat refuge as absolute duty; Banked-Coil
   houses put current residents first.
 - **Leader and reach:** Serrak Warm-Coil is a lizardfolk refuge keeper, blunt,
-  methodical, and ashamed of the concealment. Use the Lizardman profile with
+  methodical, and ashamed of the concealment. Use the Lizardfolk profile with
   Engineering, Lore, and Shaping. The houses control shelter, guides, food
   caches, and mountain routes.
 - **Shaping:** `Bend·Earth/Stone`, `Alter·Earth/Stone`, `Ward·Earth/Stone`, and

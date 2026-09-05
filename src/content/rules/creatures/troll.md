@@ -56,4 +56,4 @@ talents: 'None'
 
 **Regeneration:** At the start of its turn, even at 0 HP, recover `1D6` HP unless it has taken fire damage since the start of its previous turn. This bypasses Wounded's recovery lock and removes Bleeding and Dying; Wounded remains. If HP rises above 0, the Troll wakes and may act that turn.
 
-**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.
+**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.

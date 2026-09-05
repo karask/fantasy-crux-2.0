@@ -54,7 +54,7 @@ const expectedCreatures = [
   'Sea Serpent',
   'Holy Steed',
   'Holy Warrior',
-  'Lizardman',
+  'Lizardfolk',
   'Ogre',
   'Orc',
   'Pixie',
@@ -190,7 +190,7 @@ describe('canonical Shaping and senses', () => {
 
     expect(light).toContain('Mist, fog, foliage, and smoke are obscurity');
     expect(light).toMatch(/Night Vision:[\s\S]{0,220}surface night/i);
-    expect(light).toMatch(/Night Sight:[\s\S]{0,220}Pitch black/i);
+    expect(light).toMatch(/Low-Light Sight:[\s\S]{0,220}Pitch black/i);
     expect(light).toMatch(/Blind Sight \(sense\):[\s\S]{0,300}eye contact/i);
     expect(light).toMatch(/observed target[\s\S]{0,100}mover/i);
     expect(ranged).not.toMatch(/mist, smoke, or dim light/i);
@@ -306,7 +306,7 @@ describe('published creature compendium', () => {
       'Sea Serpent': 3,
       'Holy Steed': 0,
       'Holy Warrior': 0,
-      Lizardman: 3,
+      Lizardfolk: 3,
       Ogre: 1,
       Orc: 2,
       Pixie: 0,
@@ -378,7 +378,7 @@ describe('published creature compendium', () => {
         str: '4D6',
         con: '2D6+12',
         dex: '3D6',
-        siz: '1D6+3',
+        siz: '2D6+3',
         int: '2D6+6',
         pow: '3D6',
         cha: '3D6',
@@ -430,11 +430,11 @@ describe('published creature compendium', () => {
       Goblin: {
         str: '2D6+3',
         con: '2D6+3',
-        dex: '5D6',
+        dex: '3D6+6',
         siz: '2D6',
         int: '3D6',
         pow: '2D6+3',
-        cha: '2D6',
+        cha: '3D6',
       },
       Golem: {
         str: '6D6+18',
@@ -461,14 +461,14 @@ describe('published creature compendium', () => {
       'Healing Spirit': { int: '2D6', pow: '4D6', cha: '3D6' },
       Horse: { str: '2D6+18', con: '3D6+6', dex: '2D6+3', siz: '2D6+18', pow: '3D6' },
       Lion: { str: '3D6+12', con: '3D6', dex: '3D6+6', siz: '2D6+12', pow: '3D6' },
-      Lizardman: {
+      Lizardfolk: {
         str: '3D6+6',
         con: '3D6',
         dex: '2D6+3',
         siz: '3D6',
         int: '2D6+6',
         pow: '3D6',
-        cha: '2D6',
+        cha: '3D6',
       },
       'Magic Spirit': { int: '3D6', pow: '4D6', cha: '1D6' },
       Merfolk: {
@@ -502,11 +502,11 @@ describe('published creature compendium', () => {
       Orc: {
         str: '4D6',
         con: '3D6',
-        dex: '4D6',
-        siz: '2D6+3',
-        int: '3D6',
+        dex: '4D6 drop lowest',
+        siz: '3D6+3',
+        int: '2D6+3',
         pow: '2D6+3',
-        cha: '2D6',
+        cha: '3D6',
       },
       Oread: {
         str: '2D6',
@@ -576,8 +576,11 @@ describe('published creature compendium', () => {
     const gmTools = read('src/content/rules/gm-tools/fantasy-races.md');
     const maximaSection = gmTools.split('## Racial maxima')[1];
     const racialTop = (formula) => {
-      const [, count, sides, modifier] = formula.match(/^(\d+)D(\d+)([+-]\d+)?$/i);
-      return Number(count) * Number(sides) + Number(modifier ?? 0) + 3;
+      const [, count, sides, modifier, dropLowest] = formula.match(
+        /^(\d+)D(\d+)([+-]\d+)?( drop lowest)?$/i,
+      );
+      const keptDice = Number(count) - (dropLowest ? 1 : 0);
+      return keptDice * Number(sides) + Number(modifier ?? 0) + 3;
     };
     const tableRow = (name) => {
       const row = maximaSection.match(new RegExp(`^\\| ${name}\\s*\\|(.+)\\|\\s*$`, 'm'));
@@ -588,7 +591,7 @@ describe('published creature compendium', () => {
         .map(Number);
     };
 
-    for (const name of ['Elf', 'Dwarf']) {
+    for (const name of ['Elf', 'Dwarf', 'Orc', 'Goblin', 'Lizardfolk']) {
       const dice = creatureRecord(name).data.characteristicDice;
       const computed = ['str', 'con', 'dex', 'siz', 'int', 'pow', 'cha'].map((key) =>
         racialTop(dice[key]),
@@ -768,7 +771,7 @@ describe('published creature compendium', () => {
       expect(glossary, tag).toMatch(new RegExp(`\\*\\*${tag}\\*\\*`));
     }
     expect(publishedText).toContain('Blind Sight (heat)');
-    expect(publishedText).toContain('Blind Sight (living beings)');
+    expect(publishedText).toContain('Blind Sight (life)');
     expect(publishedText).not.toContain('Dark Vision');
     expect(senses).toContain('Spirit Sense');
     expect(spirits).toContain('Spirit Combat');

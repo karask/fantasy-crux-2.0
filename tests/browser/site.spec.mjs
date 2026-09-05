@@ -322,7 +322,7 @@ test('Gazetteer introduces the Crownless Realms without restricted campaign mate
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(52);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(53);
 
   const favouredWeapon = page
     .locator('.talent-list [data-filter-item]')
@@ -368,8 +368,9 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
 
   // General gathers the Talents that suit every role; Weapon Expertise now files under Offence and Defence.
   await page.getByRole('button', { name: 'General', exact: true }).click();
-  await expect(visibleCards).toHaveCount(6);
+  await expect(visibleCards).toHaveCount(7);
   await expect(visibleCards.filter({ hasText: 'Athletics Expertise' }).first()).toBeVisible();
+  await expect(visibleCards.filter({ hasText: 'Close-Quarters Knack' }).first()).toBeVisible();
   await expectNoHorizontalOverflow(page);
 });
 
@@ -487,7 +488,7 @@ test('the bestiary publishes every profile and filters by creature type', async 
   await expect(page.locator('#multiattack')).toBeVisible();
 
   const usage = page.locator('#using-creatures').locator('xpath=ancestor::section[1]');
-  await expect(usage).toContainText('Dwarf, Elf, Goblin, Orc, and Lizardman');
+  await expect(usage).toContainText('Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk');
   await expect(usage).toContainText('roughly as many creatures as player characters');
   await usage.getByRole('link', { name: 'Fantasy Races' }).click();
   await expect(page.locator('#fantasy-races')).toBeVisible();
@@ -776,7 +777,7 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(52);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(53);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();

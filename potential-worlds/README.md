@@ -80,9 +80,9 @@ Apply every item to both gazetteers before selection.
 - [ ] Merfolk breathe air and can hold their breath underwater for 11 minutes. Their domains
       provide reefs, tidal or surface settlements, reliable air access, or air-filled halls
       rather than assuming unlimited underwater breathing.
-- [ ] “Lizardfolk” is the setting's cultural term for characters and communities represented
-      by the canonical Lizardman profile. Elves and dwarves remain supported player options,
-      and no new racial rules are implied.
+- [ ] Human, elf, dwarf, orc, goblin, and lizardfolk player characters use the canonical
+      Fantasy Races packages. A setting may add cultures, but does not change those racial
+      abilities without saying so explicitly.
 
 ### Danger, recovery, and movement
 

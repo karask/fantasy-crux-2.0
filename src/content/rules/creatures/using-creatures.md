@@ -16,13 +16,15 @@ Creatures here are as detailed as the characters who meet them. They have skills
 
 Each profile is the bare bones of its kind. Use one as written for an average, unremarkable member of that species, and treat the lot of them as examples for the creatures a particular campaign needs.
 
+An intelligent creature profile describes one ready-to-use individual, often equipped for danger. It does not assign morality, culture, or allegiance to every member of that people.
+
 ## Building on a profile {#creatures-building-on-a-profile}
 
 Monsters are people too. To make one that deserves a name, take the profile as a base, decide on a concept, and add the skills, characteristics, and abilities that concept implies. For a truly significant opponent, build the creature the way a player builds a character; the result stands at comparable experience to the party and fights like it.
 
 ## Creatures as player characters {#creatures-as-player-characters}
 
-Many profiles can in theory serve as a player character. In practice Dwarf, Elf, Goblin, Orc, and Lizardman need the least work, because their capabilities sit near a human's. [Fantasy Races](/rules/gm-tools/#fantasy-races) turns a profile into a starting spread, a set of racial maxima, and a price in Improvement Points.
+Many profiles can in theory serve as a player character. Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk are the recommended player races because their capabilities work readily in a typical adventuring company. Other creatures, including Merfolk and Pixies, are available at the Gamemaster's discretion when the campaign can accommodate their movement, scale, or other unusual needs. [Fantasy Races](/rules/gm-tools/#fantasy-races) gives the recommended nonhuman races complete starting spreads, racial maxima, and Improvement Point costs.
 
 ## Scaling an encounter {#creatures-scaling-encounters}
 

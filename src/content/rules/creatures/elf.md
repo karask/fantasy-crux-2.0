@@ -6,7 +6,7 @@ title: 'Elf'
 slug: elf
 order: 240
 category: monster
-summary: 'Ageless forest folk bound to their woodland realms and fiercely protective of them.'
+summary: 'Long-lived, keen-sighted people with a strong affinity for forests and living landscapes, known for quick grace, enduring memories, and traditions shaped by the places they call home.'
 image: '/assets/images/creatures/elf.webp'
 image320: '/assets/images/creatures/elf-320.webp'
 imageAlt: 'A forest elf carrying a longbow and shortspear beside an old tree.'
@@ -52,11 +52,9 @@ skills:
 attacks:
   - 'Shortspear — Close Combat 60%, `1D6 + 0`, Medium'
   - 'Longbow — Ranged Combat 80%, `1D10`, 150 m'
-talents: 'None'
+talents: 'Terrain Expertise (Forest)'
 ---
 
-**Exceptional Archer:** Gain `+1B` with bows. The longbow's minimum STR gives this elf `-1P`, so the dice normally cancel.
-
-**Night Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.
+**Low-Light Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.
 
 Elf Shapers often favour Alter·Flesh, Scry·Flesh, Bend·Earth/Stone, and protective nature cells.

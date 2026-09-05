@@ -372,13 +372,13 @@
       "website320Sha256": "06e44ad88dfeeff10da6a4c01820115fe889f50b277d11e51c5de2ace9379d43"
     },
     {
-      "slug": "lizardman",
-      "title": "Lizardman",
-      "source": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardman.png",
+      "slug": "lizardfolk",
+      "title": "Lizardfolk",
+      "source": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardfolk.png",
       "sourceSha256": "65b3afb795c8c8453ee7fd6932105a6bbea573e5b4f97a6babfcf9af9c9e2752",
-      "website": "src/assets/images/creatures/lizardman.webp",
+      "website": "src/assets/images/creatures/lizardfolk.webp",
       "websiteSha256": "18a0e2a41163af803efbfc1afe46cfa18adc9e4f00e52e22ef45cdc330d4f853",
-      "website320": "src/assets/images/creatures/lizardman-320.webp",
+      "website320": "src/assets/images/creatures/lizardfolk-320.webp",
       "website320Sha256": "74fdc3a89930e7183c594d43d271ae19efa16745bab267d37fa3559502c396db"
     },
     {

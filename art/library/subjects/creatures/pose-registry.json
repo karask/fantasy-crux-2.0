@@ -330,11 +330,11 @@
       "qa": "accepted"
     },
     {
-      "slug": "lizardman",
-      "title": "Lizardman",
-      "sourceProfile": "src/content/rules/creatures/lizardman.md",
+      "slug": "lizardfolk",
+      "title": "Lizardfolk",
+      "sourceProfile": "src/content/rules/creatures/lizardfolk.md",
       "poseBrief": "Lying across a drifting log while hooking a supply bundle with an axe.",
-      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardman.png",
+      "master": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardfolk.png",
       "masterSha256": "65b3afb795c8c8453ee7fd6932105a6bbea573e5b4f97a6babfcf9af9c9e2752",
       "qa": "accepted"
     },

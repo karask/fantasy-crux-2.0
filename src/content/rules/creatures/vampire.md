@@ -57,7 +57,9 @@ attacks:
 talents: 'None'
 ---
 
-**Senses:** Night Vision; Blind Sight (living beings), blocked by walls and complete solid cover.
+**Night Vision:** Natural surface night counts as Illuminated. It does not overcome sealed, underground, or supernatural darkness or obscurity.
+
+**Blind Sight (life):** Detects living beings regardless of illumination. Walls and complete solid cover block it; it grants no colour, writing, fine visual detail, or eye contact.
 
 **Blood Reserve:** Maximum 18, current 0. Use current Reserve as PP and maximum Reserve instead of POW for the active Shaping limit. It pays costs, Counter, rituals, and commitments, but never recovers naturally; 0 does not incapacitate the Vampire. It also recovers no HP naturally.
 

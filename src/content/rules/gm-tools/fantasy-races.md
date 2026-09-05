@@ -5,52 +5,92 @@ chapter: gm-tools
 title: Fantasy Races
 slug: fantasy-races
 order: 50
-summary: Any creature profile can seed a player character; Elves and Dwarves show how to turn one into a starting spread, a racial maximum, and a price in Improvement Points.
+summary: Build Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk player characters from equal characteristic budgets, racial maxima, and priced abilities.
 aliases:
   - playable races
   - elf character
   - dwarf character
+  - orc character
+  - goblin character
+  - lizardfolk character
 ---
 
-Most fantasy campaigns offer exotic races as player options, and what those races are depends entirely on the setting: the Elves of one world share little but a name with the Elves of another.
+Most fantasy campaigns offer nonhuman player races, and what those peoples are depends entirely on the setting: the Elves of one world may share little but a name with the Elves of another.
 
-Any [creature profile](/rules/creatures/) can serve as the base for a player character, but not all of them are balanced against a human adventurer. Dwarf, Elf, Goblin, Orc, and Lizardman need the least adjustment. The Gamemaster decides which races a campaign allows.
+Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk are the recommended player races. Other [creature profiles](/rules/creatures/) can seed player characters at the Gamemaster's discretion, but unusual movement, scale, anatomy, or supernatural powers may require a campaign built to accommodate them. Merfolk and Pixies are obvious examples.
 
-A playable race is three things: a starting spread of characteristics, a set of racial maxima, and any special abilities, which the character buys with starting Improvement Points so that humans are not left behind.
+A playable race has a starting spread of characteristics, a set of racial maxima, and any innate abilities. Innate abilities spend some of the character's 10 starting Improvement Points; the remainder is available normally. A race's culture, morality, profession, and allegiance belong to the character and setting, not to these rules.
 
 ## Starting characteristics {#gm-race-characteristics}
 
-A human begins with every characteristic at 8 — 56 points in total — and then distributes 30 more. A race simply redistributes those same 56 points before the player spends theirs.
+A human begins with every characteristic at 8 — 56 points in total — and then distributes 30 more. Every recommended race redistributes the same 56 starting points before the player distributes the usual 30.
 
-|       | STR | CON | DEX | SIZ | INT | POW | CHA |
-| ----- | --: | --: | --: | --: | --: | --: | --: |
-| Elf   |   6 |   8 |  10 |   6 |  10 |   8 |   8 |
-| Dwarf |  10 |  12 |   6 |   4 |   8 |   8 |   8 |
+| Race       | STR | CON | DEX | SIZ | INT | POW | CHA |
+| ---------- | --: | --: | --: | --: | --: | --: | --: |
+| Human      |   8 |   8 |   8 |   8 |   8 |   8 |   8 |
+| Elf        |   6 |   8 |  10 |   6 |  10 |   8 |   8 |
+| Dwarf      |  10 |  12 |   6 |   4 |   8 |   8 |   8 |
+| Orc        |  10 |   8 |   8 |  10 |   6 |   6 |   8 |
+| Goblin     |   6 |   7 |  12 |   4 |   9 |   8 |  10 |
+| Lizardfolk |  11 |   8 |   6 |   8 |   9 |   7 |   7 |
 
-Distribute the usual 30 points on top, observing the creation maximum of 18 and the normal minimums.
+Distribute 30 points on top. `INT` and `SIZ` must finish at 7 or more and every other characteristic at 3 or more. During point-based creation, no characteristic may exceed 18 or its racial maximum, whichever is lower.
 
 ## Random characteristics {#gm-race-random-characteristics}
 
-As an alternative to the point method, roll the race's own [characteristic dice](/rules/creatures/#reading-a-profile) straight from its creature profile instead of the human `4D6`-drop-lowest method. An Elf rolls `DEX` as `3D6+6` and `STR` as `2D6+3`; a Dwarf rolls `SIZ` as `1D6+3` and `STR` as `4D6`. After all seven rolls, swap one pair if desired, as with [human random characters](/rules/characters/#character-creation--characters-random-characteristics).
+As an alternative to the point method, roll the race's [characteristic dice](/rules/creatures/#reading-a-profile). Human-style `4D6 drop lowest` means rolling four dice and discarding the lowest one. After all seven rolls, swap one pair if desired.
+
+| Race       | STR             | CON             | DEX             | SIZ                | INT                | POW             | CHA             |
+| ---------- | --------------- | --------------- | --------------- | ------------------ | ------------------ | --------------- | --------------- |
+| Human      | 4D6 drop lowest | 4D6 drop lowest | 4D6 drop lowest | 3D6 drop lowest +6 | 3D6 drop lowest +6 | 4D6 drop lowest | 4D6 drop lowest |
+| Elf        | 2D6+3           | 3D6             | 3D6+6           | 2D6+3              | 3D6+6              | 2D6+6           | 3D6             |
+| Dwarf      | 4D6             | 2D6+12          | 3D6             | 2D6+3              | 2D6+6              | 3D6             | 3D6             |
+| Orc        | 4D6             | 3D6             | 4D6 drop lowest | 3D6+3              | 2D6+3              | 2D6+3           | 3D6             |
+| Goblin     | 2D6+3           | 2D6+3           | 3D6+6           | 2D6                | 3D6                | 2D6+3           | 3D6             |
+| Lizardfolk | 3D6+6           | 3D6             | 2D6+3           | 3D6                | 2D6+6              | 3D6             | 3D6             |
+
+Random results stand as rolled, even when they exceed the point method's creation cap of 18. Random generation therefore produces less predictable starting characters and is not as tightly balanced as the point method.
 
 ## Racial maxima {#gm-race-maxima}
 
-A race's top for any characteristic is the highest result its [generating die](/rules/creatures/#reading-a-profile) can roll, plus 3. Read the die straight off the creature profile.
+A race's top for a characteristic is the highest result its generating dice can roll, plus 3. Human-style `4D6 drop lowest` has a highest result of 18. These maxima are not capped to make the races alike.
 
-|       | STR | CON | DEX | SIZ | INT | POW | CHA |
-| ----- | --: | --: | --: | --: | --: | --: | --: |
-| Elf   |  18 |  21 |  27 |  18 |  27 |  21 |  21 |
-| Dwarf |  27 |  27 |  21 |  12 |  21 |  21 |  21 |
+| Race       | STR | CON | DEX | SIZ | INT | POW | CHA |
+| ---------- | --: | --: | --: | --: | --: | --: | --: |
+| Human      |  21 |  21 |  21 |  21 |  21 |  21 |  21 |
+| Elf        |  18 |  21 |  27 |  18 |  27 |  21 |  21 |
+| Dwarf      |  27 |  27 |  21 |  18 |  21 |  21 |  21 |
+| Orc        |  27 |  21 |  21 |  24 |  18 |  18 |  21 |
+| Goblin     |  18 |  18 |  27 |  15 |  21 |  18 |  21 |
+| Lizardfolk |  27 |  21 |  18 |  21 |  21 |  21 |  21 |
 
-An Elf tops out at DEX 27 and INT 27 but STR and SIZ 18, same as a human. A Dwarf reaches STR and CON 27 but SIZ only 12 — dwarves stay short no matter how they train. Work out any other race's maxima the same way: take its die per characteristic, roll the highest number it allows, add 3.
+An Elf can eventually reach DEX 27 and INT 27, while a Dwarf can reach STR 27 and CON 27. An Orc with SIZ 19 or more can eventually cross the `STR + SIZ` threshold for a `+2D6` Damage Modifier.
 
-The creation cap of 18 still applies to every race regardless of its maxima. Racial maxima only matter once play begins and the character starts [improving characteristics](/rules/characters/#improvement--characters-improve-characteristics).
+Racial maxima matter once play begins and the character starts [improving characteristics](/rules/characters/#improvement--characters-improve-characteristics). `SIZ` cannot normally be improved, so a character's rolled or assigned SIZ remains fixed even when the racial maximum is higher.
 
 ## Racial abilities {#gm-race-abilities}
 
-Abilities from the creature profile are paid for out of the character's 10 starting Improvement Points, priced by how much they are worth in play.
+Each nonhuman character must buy the listed innate abilities from their 10 starting Improvement Points. These costs deliberately need not leave every race with the same number of unspent points.
 
-- **Elf** — Night Sight and Exceptional Archer, 3 IP each.
-- **Dwarf** — Blind Sight (heat), 4 IP, because it works in any light; and Earth Sense, 2 IP, because it is situational.
+- **Human** — No innate abilities; all 10 IP remain available.
+- **Elf** — Low-Light Sight, 3 IP; and Terrain Expertise (Forest), 2 IP. The racial purchase of Terrain Expertise waives its Natural Lore prerequisite. Quick Reflexes remains an optional Talent and stacks normally with the Elf's high Combat Order.
+- **Dwarf** — Blind Sight (heat), 5 IP; and Earth Sense, 2 IP.
+- **Orc** — Adrenaline Surge, 4 IP.
+- **Goblin** — Blind Sight (heat), 5 IP. A Goblin who meets the prerequisites may also buy [Close-Quarters Knack](/rules/talents/#close-quarters-knack) normally.
+- **Lizardfolk** — Scaled Hide, 4 IP; and Counterbalancing Tail, 2 IP.
 
-Six of the ten starting points are gone either way, which is the intended cost of playing something other than human. Price any other race's abilities the same way, and remember that a race whose profile carries Shaping cells must buy the [Shaping Talent](/rules/talents/#shaping) as well.
+### Innate ability rules
+
+**Low-Light Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.
+
+**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.
+
+**Earth Sense:** While touching connected earth or stone, the character knows approximate depth and whether the surrounding chamber is structurally unstable.
+
+**Adrenaline Surge:** Once per combat, immediately after becoming Wounded or Fatigued, ignore the test, Movement, and Combat Order penalties caused by Wounded and Fatigued until the end of your next turn. Also ignore the first 1 HP you would lose from Bleeding during that time. Bleeding is not removed and continues normally afterwards. Exhausted, unconscious, and Dying are unaffected.
+
+**Scaled Hide:** Gain 1 natural AP with no ENC. It stacks with worn armour, although worn armour still cannot be layered. Ward AP does not stack with this combined physical protection; use the Ward or the total physical AP, whichever is higher.
+
+**Counterbalancing Tail:** Tests made primarily to knock you prone, throw you, or force you to move suffer `-1P`.
+
+A race whose creature profile carries Shaping cells must still buy the [Shaping Talent](/rules/talents/#shaping) to begin play as a Shaper.

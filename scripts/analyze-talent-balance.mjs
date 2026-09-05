@@ -20,6 +20,10 @@ const assessments = Object.freeze({
     'A chosen-application penalty remover priced to the Tracker precedent.',
   ],
   'talent.battle-awareness': ['Keep', 'A bounded positional defence fits the 3-IP standard tier.'],
+  'talent.close-quarters-knack': [
+    'Add',
+    'A two-skill penalty remover bounded by character size and confined surroundings.',
+  ],
   'talent.commanding-presence': [
     'Add',
     'The press half of Influence, priced to the Tracker precedent alongside Silver Tongue.',
@@ -213,8 +217,8 @@ function readTalents() {
     })
     .sort((left, right) => left.title.localeCompare(right.title, 'en'));
 
-  if (talents.length !== 52) {
-    throw new Error(`Expected 52 published Talents; found ${talents.length}.`);
+  if (talents.length !== 53) {
+    throw new Error(`Expected 53 published Talents; found ${talents.length}.`);
   }
 
   const publishedIds = new Set(talents.map(({ id }) => id));
@@ -703,7 +707,7 @@ function buildReport() {
 
 # Talent balance audit
 
-This is a deterministic audit of the 52 published player Talents. It records the approved
+This is a deterministic audit of the 53 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
@@ -827,7 +831,7 @@ additional outcomes.
 
 ## Talent-by-Talent decision record
 
-All 52 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All 53 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 ${markdownTable(['Talent', 'IP', 'Tier', 'Decision', 'Audit finding'], talentRows)}
 

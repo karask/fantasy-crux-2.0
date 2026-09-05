@@ -99,7 +99,7 @@
         "talents": "None",
         "plunder": 5
       },
-      "rulesAndAbilitiesMarkdown": "**Death Gaze:** Once per turn, freely choose a creature within 16 m that can see the basilisk's eyes. It may avert its gaze, preventing the Gaze; without suitable Blind Sight it then cannot attack or React against the basilisk until its next turn. If it does not avert, oppose the basilisk's Persistence with Resilience. Defeat reduces it to 0 HP and makes it Dying, subject to its type rules; victory grants immunity for this combat. Eye contact must be mutual and Blind Sight never triggers the Gaze. The basilisk may still Bite.\r\n\r\n**Basilisk Venom:** **Type:** Injected or contact. **Delay:** Immediate. **Potency:** 65. **Effect:** `-6 CON` for the Duration and `1D4` HP at each minute's end; CON 0 causes death. **Duration:** `6D10` minutes.\r\n\r\n**Corrosive Blood:** A mundane weapon that deals HP damage to the basilisk is destroyed after `1D4` rounds. Before the end of the wielder's next turn, a Combat Action with abundant water or a suitable neutraliser prevents this.",
+      "rulesAndAbilitiesMarkdown": "**Death Gaze:** Once per turn, freely choose a creature within 16 m that can see the basilisk's eyes. It may avert its gaze, preventing the Gaze; without suitable Blind Sight it then cannot attack or React against the basilisk until its next turn. If it does not avert, oppose the basilisk's Persistence with Resilience. Defeat reduces it to 0 HP and makes it Dying, subject to its type rules; victory grants immunity for this combat. Eye contact must be mutual and Blind Sight never triggers the Gaze. The basilisk may still Bite.\n\n**Basilisk Venom:** **Type:** Injected or contact. **Delay:** Immediate. **Potency:** 65. **Effect:** `-6 CON` for the Duration and `1D4` HP at each minute's end; CON 0 causes death. **Duration:** `6D10` minutes.\n\n**Corrosive Blood:** A mundane weapon that deals HP damage to the basilisk is destroyed after `1D4` rounds. Before the end of the wielder's next turn, a Combat Action with abundant water or a suitable neutraliser prevents this.",
       "sourceProfile": "src/content/rules/creatures/basilisk.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/basilisk.png"
@@ -459,7 +459,7 @@
         "talents": "Exceptional Skill (Persistence) III; Exceptional Skill (Influence) II; Exceptional Skill (Resilience) I; Exceptional Skill (Athletics) I; Exceptional Skill (Perception) I; Exceptional Skill (Unarmed Combat) I",
         "plunder": 5
       },
-      "rulesAndAbilitiesMarkdown": "**Double Claw 2 (Multiattack):** Make two Claw attacks. Exceptional Skill (Unarmed Combat) I normally removes the second attack's `-1P`.\n\r\n**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.\r\n\r\n**Fire Resistance:** Reduce fire damage by 12 after other reductions.\r\n\r\nAncient dragons may know potent cells such as Conjure·Fire, Bend·Fire, Ward·Fire, or Scry·Fate.",
+      "rulesAndAbilitiesMarkdown": "**Double Claw 2 (Multiattack):** Make two Claw attacks. Exceptional Skill (Unarmed Combat) I normally removes the second attack's `-1P`.\n\n**Breathe Flame:** Spend a Combat Action. A 26 m cone, 26 m wide at its end, deals `4D6` fire damage; roll once. An aware target may use its base Reaction to Dodge at `-1P`: success halves damage; failure takes full damage. AP applies. Afterward, another use within one hour requires Resilience, at cumulative `-1P` for each attempt that hour.\n\n**Fire Resistance:** Reduce fire damage by 12 after other reductions.\n\nAncient dragons may know potent cells such as Conjure·Fire, Bend·Fire, Ward·Fire, or Scry·Fate.",
       "sourceProfile": "src/content/rules/creatures/dragon.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dragon.png"
@@ -517,7 +517,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Mind, Alter·Mind, Conjure·Fire, Bend·Paths.\r\n\r\n**Grove Anchor:** The Dryad cannot leave its grove; doing so dissolves its body and returns its Spirit to the tree. If the tree is destroyed, it cannot reform.\r\n\r\n**Tree Passage:** While touching its tree, spend a Movement Action to dissolve the body or emerge beside the tree.\r\n\r\n**One with the Grove:** As a Combat Action, choose one 3 m-radius patch of vegetation in the grove. Until this ability is used again, movement through it costs double, or existing vegetation opens to permit normal movement. The Dryad may instead cause harmless growth, flowers, or fruit. Damage and restraint require Shaping.",
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Mind, Alter·Mind, Conjure·Fire, Bend·Paths.\n\n**Grove Anchor:** The Dryad cannot leave its grove; doing so dissolves its body and returns its Spirit to the tree. If the tree is destroyed, it cannot reform.\n\n**Tree Passage:** While touching its tree, spend a Movement Action to dissolve the body or emerge beside the tree.\n\n**One with the Grove:** As a Combat Action, choose one 3 m-radius patch of vegetation in the grove. Until this ability is used again, movement through it costs double, or existing vegetation opens to permit normal movement. The Dryad may instead cause harmless growth, flowers, or fruit. Damage and restraint require Shaping.",
       "sourceProfile": "src/content/rules/creatures/dryad.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dryad.png"
@@ -528,7 +528,7 @@
       "slug": "dwarf",
       "title": "Dwarf",
       "category": "monster",
-      "summary": "Stocky, long-lived underground folk renowned for craft, mining, and stonework.",
+      "summary": "Stocky, long-lived people adapted to darkness and life around stone, with a remarkable sense for heat, depth, and unstable ground.",
       "imageAlt": "A broad dwarf warrior carrying a hammer and round shield.",
       "poseBrief": "Kneeling in a mine with one palm to stone, using Earth Sense.",
       "tags": ["living", "corporeal"],
@@ -537,7 +537,7 @@
           "str": 14,
           "con": 19,
           "dex": 11,
-          "siz": 7,
+          "siz": 10,
           "int": 13,
           "pow": 11,
           "cha": 11
@@ -546,14 +546,14 @@
           "str": "4D6",
           "con": "2D6+12",
           "dex": "3D6",
-          "siz": "1D6+3",
+          "siz": "2D6+3",
           "int": "2D6+6",
           "pow": "3D6",
           "cha": "3D6"
         },
         "derived": {
-          "hp": 13,
-          "mwl": 7,
+          "hp": 15,
+          "mwl": 8,
           "pp": 11,
           "movement": "12 m",
           "combatOrder": 5,
@@ -580,7 +580,7 @@
         "talents": "None",
         "plunder": 3
       },
-      "rulesAndAbilitiesMarkdown": "**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.\r\n\r\n**Earth Sense:** While touching connected earth or stone, the dwarf knows approximate depth and whether the surrounding chamber is structurally unstable.\r\n\r\nDwarven Shapers commonly favour Bend, Alter, Ward, or Scry·Earth/Stone cells.",
+      "rulesAndAbilitiesMarkdown": "**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.\n\n**Earth Sense:** While touching connected earth or stone, the dwarf knows approximate depth and whether the surrounding chamber is structurally unstable.\n\nDwarven Shapers commonly favour Bend, Alter, Ward, or Scry·Earth/Stone cells.",
       "sourceProfile": "src/content/rules/creatures/dwarf.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/dwarf.png"
@@ -618,7 +618,7 @@
         "talents": "Small: Exceptional Skill (Dodge) I. Large: Exceptional Skill (Attack) I. Huge: Exceptional Skill (Persistence) I. Medium: none",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "| Rank   | SIZ |  HP | MWL |  PP | Move |  CO |  AP | DM  | Damage | Area | Attack | Dodge | Persistence | Resilience |\r\n| ------ | --: | --: | --: | --: | ---: | --: | --: | :-: | -----: | ---: | -----: | ----: | ----------: | ---------: |\r\n| Small  |   3 |   3 |   2 |   0 | 15 m |  10 |   0 |  —  |  `1D6` |  1 m |    15% |  100% |         30% |       100% |\r\n| Medium |   9 |   9 |   5 |   0 | 23 m |  10 |   0 |  —  |  `2D6` |  3 m |    45% |   90% |         60% |       100% |\r\n| Large  |  21 |  21 |  11 |   0 | 30 m |  10 |   0 |  —  |  `3D6` |  7 m |   100% |   60% |         90% |       100% |\r\n| Huge   |  50 |  50 |  25 |   0 | 45 m |  10 |   0 |  —  |  `4D6` | 16 m |      — |   30% |        100% |       100% |\r\n\r\n**Engulf:** Spend one Combat Action, centred on the Elemental; complete barriers block it. Roll damage once. Small through Large roll Attack once, which must succeed and win against each target's listed resistance separately.\r\n\r\n**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half, and Failure or Fumble takes full damage.\r\n\r\n- **Undine — Drown:** Resilience; HP damage; ignores AP.\r\n- **Shade — Fear:** Persistence; PP damage; ignores AP; normal 0-PP unconsciousness applies.\r\n- **Salamander — Burn:** Resilience; HP damage; AP applies.\r\n- **Gnome — Crush:** Resilience; HP damage; AP applies.\r\n- **Sylph — Buffet:** Resilience; HP damage; AP applies.\r\n\r\n**Elemental Nature:** Immune to poison, disease, and its own element.\r\n\r\n**Elemental Sense:** Perception 80% detects invisible, Spirit, and magical targets regardless of light or invisibility; a solid barrier blocks it. Ordinary darkness still affects ordinary, nonmagical targets. Oppose concealment with Deception.\r\n\r\n**Camouflage:** Deception 80% while merged with matching water, fire, stone, darkness, or cloud.",
+      "rulesAndAbilitiesMarkdown": "| Rank   | SIZ |  HP | MWL |  PP | Move |  CO |  AP | DM  | Damage | Area | Attack | Dodge | Persistence | Resilience |\n| ------ | --: | --: | --: | --: | ---: | --: | --: | :-: | -----: | ---: | -----: | ----: | ----------: | ---------: |\n| Small  |   3 |   3 |   2 |   0 | 15 m |  10 |   0 |  —  |  `1D6` |  1 m |    15% |  100% |         30% |       100% |\n| Medium |   9 |   9 |   5 |   0 | 23 m |  10 |   0 |  —  |  `2D6` |  3 m |    45% |   90% |         60% |       100% |\n| Large  |  21 |  21 |  11 |   0 | 30 m |  10 |   0 |  —  |  `3D6` |  7 m |   100% |   60% |         90% |       100% |\n| Huge   |  50 |  50 |  25 |   0 | 45 m |  10 |   0 |  —  |  `4D6` | 16 m |      — |   30% |        100% |       100% |\n\n**Engulf:** Spend one Combat Action, centred on the Elemental; complete barriers block it. Roll damage once. Small through Large roll Attack once, which must succeed and win against each target's listed resistance separately.\n\n**Overwhelming Engulf:** Huge rolls no Attack. Critical resistance negates damage, Success takes half, and Failure or Fumble takes full damage.\n\n- **Undine — Drown:** Resilience; HP damage; ignores AP.\n- **Shade — Fear:** Persistence; PP damage; ignores AP; normal 0-PP unconsciousness applies.\n- **Salamander — Burn:** Resilience; HP damage; AP applies.\n- **Gnome — Crush:** Resilience; HP damage; AP applies.\n- **Sylph — Buffet:** Resilience; HP damage; AP applies.\n\n**Elemental Nature:** Immune to poison, disease, and its own element.\n\n**Elemental Sense:** Perception 80% detects invisible, Spirit, and magical targets regardless of light or invisibility; a solid barrier blocks it. Ordinary darkness still affects ordinary, nonmagical targets. Oppose concealment with Deception.\n\n**Camouflage:** Deception 80% while merged with matching water, fire, stone, darkness, or cloud.",
       "sourceProfile": "src/content/rules/creatures/elemental.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elemental.png"
@@ -678,7 +678,7 @@
       "slug": "elf",
       "title": "Elf",
       "category": "monster",
-      "summary": "Ageless forest folk bound to their woodland realms and fiercely protective of them.",
+      "summary": "Long-lived, keen-sighted people with a strong affinity for forests and living landscapes, known for quick grace, enduring memories, and traditions shaped by the places they call home.",
       "imageAlt": "A forest elf carrying a longbow and shortspear beside an old tree.",
       "poseBrief": "Crouched sideways on a fallen trunk, drawing a bow through leaves.",
       "tags": ["living", "corporeal"],
@@ -726,10 +726,10 @@
           "Shortspear — Close Combat 60%, `1D6 + 0`, Medium",
           "Longbow — Ranged Combat 80%, `1D10`, 150 m"
         ],
-        "talents": "None",
+        "talents": "Terrain Expertise (Forest)",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Exceptional Archer:** Gain `+1B` with bows. The longbow's minimum STR gives this elf `-1P`, so the dice normally cancel.\r\n\r\n**Night Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.\r\n\r\nElf Shapers often favour Alter·Flesh, Scry·Flesh, Bend·Earth/Stone, and protective nature cells.",
+      "rulesAndAbilitiesMarkdown": "**Low-Light Sight:** Partial Darkness counts as Illuminated and Darkness as Partial Darkness. Pitch Black and obscurity are unchanged.\n\nElf Shapers often favour Alter·Flesh, Scry·Flesh, Bend·Earth/Stone, and protective nature cells.",
       "sourceProfile": "src/content/rules/creatures/elf.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/elf.png"
@@ -833,7 +833,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Dominant Possession:** The Ghost normally chooses shared actions. At each turn's start, the host opposes Persistence with the Ghost's Persistence. A host win lets it choose that turn; a Critical win by the host also ends possession.\r\n\r\n**Echoes of Life:** A particular Ghost may retain appropriate mundane skills or Shaping cells known while alive.",
+      "rulesAndAbilitiesMarkdown": "**Dominant Possession:** The Ghost normally chooses shared actions. At each turn's start, the host opposes Persistence with the Ghost's Persistence. A host win lets it choose that turn; a Critical win by the host also ends possession.\n\n**Echoes of Life:** A particular Ghost may retain appropriate mundane skills or Shaping cells known while alive.",
       "sourceProfile": "src/content/rules/creatures/ghost.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghost.png"
@@ -893,7 +893,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Ghoul Howl:** Freely at the start of its turn, affect every Living listener within 11 m. A howl remains audible until the Ghoul's next turn. Oppose the highest-Persistence audible Ghoul with each listener's Persistence. Defeat gives `-1P` on attacks and Reactions while any howl is audible; victory grants immunity for this combat. A listener tests once per round and multiple howls do not stack. The Ghoul retains its normal actions.\r\n\r\n**Ghoul Venom:** **Type:** Injected, ingested, or smeared. **Delay:** `1D3` rounds. **Potency:** 22. **Effect:** Paralysed. **Duration:** `1D10` hours or until healing restores at least 1 HP.",
+      "rulesAndAbilitiesMarkdown": "**Ghoul Howl:** Freely at the start of its turn, affect every Living listener within 11 m. A howl remains audible until the Ghoul's next turn. Oppose the highest-Persistence audible Ghoul with each listener's Persistence. Defeat gives `-1P` on attacks and Reactions while any howl is audible; victory grants immunity for this combat. A listener tests once per round and multiple howls do not stack. The Ghoul retains its normal actions.\n\n**Ghoul Venom:** **Type:** Injected, ingested, or smeared. **Delay:** `1D3` rounds. **Potency:** 22. **Effect:** Paralysed. **Duration:** `1D10` hours or until healing restores at least 1 HP.",
       "sourceProfile": "src/content/rules/creatures/ghoul.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/ghoul.png"
@@ -1184,7 +1184,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Web:** Spend a Combat Action and oppose Unarmed Combat against the Athletics of one target within 15 m. If the spider wins, the target cannot take Movement Actions and suffers `-1P` on physical tests until the web is destroyed. Each web has 22 HP and 0 AP.\r\n\r\n**Giant Spider Venom:** A Bite dealing HP damage exposes the target. **Type:** Injected. **Delay:** `1D3` rounds. **Potency:** 51. **Effect:** `-6 DEX` for the Duration and `1D3` HP at each minute's end; DEX 0 causes paralysis. **Duration:** `6D10` minutes.",
+      "rulesAndAbilitiesMarkdown": "**Web:** Spend a Combat Action and oppose Unarmed Combat against the Athletics of one target within 15 m. If the spider wins, the target cannot take Movement Actions and suffers `-1P` on physical tests until the web is destroyed. Each web has 22 HP and 0 AP.\n\n**Giant Spider Venom:** A Bite dealing HP damage exposes the target. **Type:** Injected. **Delay:** `1D3` rounds. **Potency:** 51. **Effect:** `-6 DEX` for the Duration and `1D3` HP at each minute's end; DEX 0 causes paralysis. **Duration:** `6D10` minutes.",
       "sourceProfile": "src/content/rules/creatures/giant-spider.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/giant-spider.png"
@@ -1258,7 +1258,7 @@
       "slug": "goblin",
       "title": "Goblin",
       "category": "monster",
-      "summary": "A small, agile humanoid accustomed to surviving through cunning and numbers.",
+      "summary": "Small, agile people with heat-sensitive perception and a knack for navigating cramped, difficult, or overlooked places.",
       "imageAlt": "A small goblin carrying a shortspear and round shield in a hill camp.",
       "poseBrief": "Sliding feet-first beneath a tunnel beam with shield overhead.",
       "tags": ["living", "corporeal"],
@@ -1270,16 +1270,16 @@
           "siz": 7,
           "int": 11,
           "pow": 10,
-          "cha": 7
+          "cha": 11
         },
         "characteristicDice": {
           "str": "2D6+3",
           "con": "2D6+3",
-          "dex": "5D6",
+          "dex": "3D6+6",
           "siz": "2D6",
           "int": "3D6",
           "pow": "2D6+3",
-          "cha": "2D6"
+          "cha": "3D6"
         },
         "derived": {
           "hp": 9,
@@ -1310,7 +1310,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.\r\n\r\nLeaders and shamans may know combat, trickery, or survival-themed Shaping cells.",
+      "rulesAndAbilitiesMarkdown": "**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.\n\nLeaders and shamans may know combat, trickery, or survival-themed Shaping cells.",
       "sourceProfile": "src/content/rules/creatures/goblin.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/goblin.png"
@@ -1365,7 +1365,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Programmed Task:** A programmed Golem pursues only its stated task and obeys literally. A free-willed Golem is not bound by this rule.\r\n\r\n**Construct Body:** It does not breathe, eat, sleep, bleed, or suffer poison or disease. At 0 HP it is disabled or destroyed; 0 PP does not incapacitate it.\r\n\r\n**Slow:** It cannot Sprint. Free-willed Golems may learn Shaping.",
+      "rulesAndAbilitiesMarkdown": "**Programmed Task:** A programmed Golem pursues only its stated task and obeys literally. A free-willed Golem is not bound by this rule.\n\n**Construct Body:** It does not breathe, eat, sleep, bleed, or suffer poison or disease. At 0 HP it is disabled or destroyed; 0 PP does not incapacitate it.\n\n**Slow:** It cannot Sprint. Free-willed Golems may learn Shaping.",
       "sourceProfile": "src/content/rules/creatures/golem.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/golem.png"
@@ -1463,7 +1463,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Binding:** Define the anchor and conduct that triggers the Guardian. It cannot move more than 17 m from the anchor.\r\n\r\n**Alarm:** When its condition is broken, it howls audibly to 170 m and identifies the intruders. On its next turn it spends its Combat Action to manifest, then acts according to its binding.",
+      "rulesAndAbilitiesMarkdown": "**Binding:** Define the anchor and conduct that triggers the Guardian. It cannot move more than 17 m from the anchor.\n\n**Alarm:** When its condition is broken, it howls audibly to 170 m and identifies the intruders. On its next turn it spends its Combat Action to manifest, then acts according to its binding.",
       "sourceProfile": "src/content/rules/creatures/guardian-spirit.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/guardian-spirit.png"
@@ -1522,7 +1522,7 @@
         "talents": "Exceptional Skill (Deception) I",
         "plunder": 3
       },
-      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Mind, Alter·Mind, Unmake·Fire, Unmake·Flesh.\r\n\r\n**Nightbound:** The Hag may leave its domain only at night. Dawn outside the domain or direct natural sunlight destroys its body and returns its Spirit home.\r\n\r\n**Create Shade:** In Darkness within its domain, spend a Combat Action and 3 PP to create one Small Shade using the Elemental profile. Give it one simple standing order; it follows literally and otherwise protects the Hag. Changing the order costs the Hag a Combat Action. It acts immediately after the Hag and remains within the domain until destroyed or dismissed. Only one may exist at a time.",
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Mind, Alter·Mind, Unmake·Fire, Unmake·Flesh.\n\n**Nightbound:** The Hag may leave its domain only at night. Dawn outside the domain or direct natural sunlight destroys its body and returns its Spirit home.\n\n**Create Shade:** In Darkness within its domain, spend a Combat Action and 3 PP to create one Small Shade using the Elemental profile. Give it one simple standing order; it follows literally and otherwise protects the Hag. Changing the order costs the Hag a Combat Action. It acts immediately after the Hag and remains within the domain until destroyed or dismissed. Only one may exist at a time.",
       "sourceProfile": "src/content/rules/creatures/hag.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/hag.png"
@@ -1584,7 +1584,7 @@
         "talents": "None",
         "plunder": 3
       },
-      "rulesAndAbilitiesMarkdown": "**Dropped Missile:** Choose a target directly below the Harpy, no more than 30 m down. Dropping a stone or dung is a Ranged Combat attack; an aware target may React normally.\r\n\r\n**Filth:** A damaging Claw, dung hit, or dung-coated stone exposes the victim to the Shakes. **Type:** Touch. **Delay:** `1D2` days. **Potency:** 50. **Effect:** DEX remains halved while active; lose `1D6` HP after each Delay. **Duration:** Until the victim wins a repeated Resilience-versus-Potency test.\r\n\r\n**Stench:** A dung hit gives `-1P` to Influence and Deception until the victim and equipment are washed for one hour. Harpies are immune to disease. Some know Bend·Force/Motion or Alter·Flesh.",
+      "rulesAndAbilitiesMarkdown": "**Dropped Missile:** Choose a target directly below the Harpy, no more than 30 m down. Dropping a stone or dung is a Ranged Combat attack; an aware target may React normally.\n\n**Filth:** A damaging Claw, dung hit, or dung-coated stone exposes the victim to the Shakes. **Type:** Touch. **Delay:** `1D2` days. **Potency:** 50. **Effect:** DEX remains halved while active; lose `1D6` HP after each Delay. **Duration:** Until the victim wins a repeated Resilience-versus-Potency test.\n\n**Stench:** A dung hit gives `-1P` to Influence and Deception until the victim and equipment are washed for one hour. Harpies are immune to disease. Some know Bend·Force/Motion or Alter·Flesh.",
       "sourceProfile": "src/content/rules/creatures/harpy.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/harpy.png"
@@ -1680,7 +1680,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Alter·Flesh, Scry·Flesh.\r\n\r\n**Disease Hunter:** It may initiate Spirit Combat with a Disease Spirit possessing a creature it touches. The host suffers no PP damage from that combat. Banishment ends the disease possession. A Healing Spirit cannot possess.",
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Alter·Flesh, Scry·Flesh.\n\n**Disease Hunter:** It may initiate Spirit Combat with a Disease Spirit possessing a creature it touches. The host suffers no PP damage from that combat. Banishment ends the disease possession. A Healing Spirit cannot possess.",
       "sourceProfile": "src/content/rules/creatures/healing-spirit.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/healing-spirit.png"
@@ -1869,10 +1869,10 @@
     },
     {
       "id": "creatures.lizardman",
-      "slug": "lizardman",
-      "title": "Lizardman",
+      "slug": "lizardfolk",
+      "title": "Lizardfolk",
       "category": "monster",
-      "summary": "A tool-using reptilian person adapted to deserts, swamps, and other hot regions.",
+      "summary": "Reptilian people adapted to hot climates, especially deserts, wetlands, and river valleys.",
       "imageAlt": "A reptilian warrior carrying a battleaxe on a marsh bank.",
       "poseBrief": "Lying across a drifting log while hooking a supply bundle with an axe.",
       "tags": ["living", "corporeal"],
@@ -1884,7 +1884,7 @@
           "siz": 11,
           "int": 13,
           "pow": 11,
-          "cha": 7
+          "cha": 11
         },
         "characteristicDice": {
           "str": "3D6+6",
@@ -1893,7 +1893,7 @@
           "siz": "3D6",
           "int": "2D6+6",
           "pow": "3D6",
-          "cha": "2D6"
+          "cha": "3D6"
         },
         "derived": {
           "hp": 11,
@@ -1901,7 +1901,7 @@
           "pp": 11,
           "movement": "15 m",
           "combatOrder": 12,
-          "ap": "2 scales",
+          "ap": "1 scales",
           "dm": "+1D4"
         },
         "skills": [
@@ -1918,16 +1918,15 @@
         ],
         "attacks": [
           "Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium",
-          "Sling — Ranged Combat 35%, `1D6`, 50 m",
-          "Bite — Unarmed Combat 25%, `1D6 + 1D4`, Medium"
+          "Sling — Ranged Combat 35%, `1D6`, 50 m"
         ],
         "talents": "None",
         "plunder": 3
       },
-      "rulesAndAbilitiesMarkdown": "Lizardman cultures may teach any appropriate Shaping cells.",
-      "sourceProfile": "src/content/rules/creatures/lizardman.md",
+      "rulesAndAbilitiesMarkdown": "**Scaled Hide:** The Lizardfolk has 1 natural AP with no ENC. It stacks with worn armour, although worn armour still cannot be layered. Ward AP does not stack with this combined physical protection; use the Ward or the total physical AP, whichever is higher.\n\n**Counterbalancing Tail:** Tests made primarily to knock the Lizardfolk prone, throw them, or force them to move suffer `-1P`.\n\nIndividual Lizardfolk may learn any appropriate Shaping cells.",
+      "sourceProfile": "src/content/rules/creatures/lizardfolk.md",
       "styleImages": {
-        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardman.png"
+        "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/lizardfolk.png"
       }
     },
     {
@@ -1970,7 +1969,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `POW × 5`%, capped at 100%. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.\r\n\r\n**Defensive Spirit:** It cannot initiate Spirit Combat but may defend when another creature initiates it.",
+      "rulesAndAbilitiesMarkdown": "**Shaping Cells:** Choose `1D6` cells sharing one Form or coherent theme. Shaping is `POW × 5`%, capped at 100%. The Spirit casts and spends its own PP; it cannot lend PP, active capacity, or cells.\n\n**Defensive Spirit:** It cannot initiate Spirit Combat but may defend when another creature initiates it.",
       "sourceProfile": "src/content/rules/creatures/magic-spirit.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/magic-spirit.png"
@@ -1981,7 +1980,7 @@
       "slug": "merfolk",
       "title": "Merfolk",
       "category": "monster",
-      "summary": "A territorial sea-dweller whose undersea society mirrors kingdoms above.",
+      "summary": "Air-breathing sea people adapted to long dives, whose settlements combine flooded passages with sheltered breathing chambers.",
       "imageAlt": "A merfolk guard carrying a longspear above an undersea terrace.",
       "poseBrief": "Rolling under a fallen mast using spear and tail as a pivot.",
       "tags": ["living", "corporeal"],
@@ -2089,7 +2088,7 @@
         "talents": "None",
         "plunder": 4
       },
-      "rulesAndAbilitiesMarkdown": "**Flammable:** Fire that deals HP damage ignites the Mummy. At each round's end it suffers that damage again without reapplying AP. Extinguishing costs its Combat Action, Movement Action, and all Reactions while it rolls, smothers the flames, or enters water.\r\n\r\n**Preserved Flesh:** Alter·Flesh repairs it at normal Intensity. Mind affects it normally; Soulless protects only against Spirit.",
+      "rulesAndAbilitiesMarkdown": "**Flammable:** Fire that deals HP damage ignites the Mummy. At each round's end it suffers that damage again without reapplying AP. Extinguishing costs its Combat Action, Movement Action, and all Reactions while it rolls, smothers the flames, or enters water.\n\n**Preserved Flesh:** Alter·Flesh repairs it at normal Intensity. Mind affects it normally; Soulless protects only against Spirit.",
       "sourceProfile": "src/content/rules/creatures/mummy.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/mummy.png"
@@ -2151,7 +2150,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Water/Ice, Alter·Water/Ice, Ward·Water/Ice, Alter·Flesh, Bend·Mind.\r\n\r\n**Water Anchor:** Each complete 10 m band travelled away from its water costs 1 PP; returning restores none. The Naiad recovers PP only while submerged. At 0 PP, its body collapses into water and its Spirit returns home.\r\n\r\n**Undine Transformation:** Spend a Combat Action and 9 PP to adopt a Medium Undine shell under the shared rule. A Combat Action restores normal form.",
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Water/Ice, Alter·Water/Ice, Ward·Water/Ice, Alter·Flesh, Bend·Mind.\n\n**Water Anchor:** Each complete 10 m band travelled away from its water costs 1 PP; returning restores none. The Naiad recovers PP only while submerged. At 0 PP, its body collapses into water and its Spirit returns home.\n\n**Undine Transformation:** Spend a Combat Action and 9 PP to adopt a Medium Undine shell under the shared rule. A Combat Action restores normal form.",
       "sourceProfile": "src/content/rules/creatures/naiad.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/naiad.png"
@@ -2226,7 +2225,7 @@
       "slug": "orc",
       "title": "Orc",
       "category": "monster",
-      "summary": "A violent clan-based humanoid whose warband is ruled by strength and ambition.",
+      "summary": "Tall, powerfully built people found in settled communities and travelling clans alike; their loyalties, ambitions, and temperaments vary as widely as those of humans.",
       "imageAlt": "An orc fighter advancing through ruined streets behind a round shield.",
       "poseBrief": "Vaulting sideways through a ruined window with shield leading.",
       "tags": ["living", "corporeal"],
@@ -2234,29 +2233,29 @@
         "characteristics": {
           "str": 14,
           "con": 11,
-          "dex": 14,
-          "siz": 10,
-          "int": 11,
+          "dex": 12,
+          "siz": 14,
+          "int": 10,
           "pow": 10,
-          "cha": 7
+          "cha": 11
         },
         "characteristicDice": {
           "str": "4D6",
           "con": "3D6",
-          "dex": "4D6",
-          "siz": "2D6+3",
-          "int": "3D6",
+          "dex": "4D6 drop lowest",
+          "siz": "3D6+3",
+          "int": "2D6+3",
           "pow": "2D6+3",
-          "cha": "2D6"
+          "cha": "3D6"
         },
         "derived": {
-          "hp": 11,
-          "mwl": 6,
+          "hp": 13,
+          "mwl": 7,
           "pp": 10,
           "movement": "15 m",
-          "combatOrder": 10,
+          "combatOrder": 8,
           "ap": "2 leather",
-          "dm": "+0"
+          "dm": "+1D4"
         },
         "skills": [
           "Dodge 35%",
@@ -2270,14 +2269,14 @@
           "Ranged Combat 50%"
         ],
         "attacks": [
-          "Scimitar — Close Combat 40%, `1D8 + 0`, Medium",
-          "Medium Shield — Close Combat 40%, `1D6 + 0`, Heavy",
+          "Scimitar — Close Combat 40%, `1D8 + 1D4`, Medium",
+          "Medium Shield — Close Combat 40%, `1D6 + 1D4`, Heavy",
           "Shortbow — Ranged Combat 50%, `1D8`, 75 m"
         ],
         "talents": "None",
         "plunder": 2
       },
-      "rulesAndAbilitiesMarkdown": "War leaders and shamans may know aggressive or protective Shaping cells.",
+      "rulesAndAbilitiesMarkdown": "**Adrenaline Surge:** Once per combat, immediately after becoming Wounded or Fatigued, the Orc ignores the test, Movement, and Combat Order penalties caused by Wounded and Fatigued until the end of their next turn. They also ignore the first 1 HP they would lose from Bleeding during that time. Bleeding is not removed and continues normally afterwards. Exhausted, unconscious, and Dying are unaffected.\n\nIndividual Orcs may learn any appropriate Shaping cells.",
       "sourceProfile": "src/content/rules/creatures/orc.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/orc.png"
@@ -2339,7 +2338,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Earth/Stone, Alter·Earth/Stone, Ward·Earth/Stone, Unmake·Earth/Stone, Scry·Earth/Stone.\r\n\r\n**Earth Anchor:** Each complete 10 m band travelled away from its domain costs 1 PP; returning restores none. The Oread recovers PP only within its domain. At 0 PP, its body petrifies and its Spirit returns home.\r\n\r\n**Gnome Transformation:** Spend a Combat Action and 9 PP to adopt a Medium Gnome shell under the shared rule. A Combat Action restores normal form.",
+      "rulesAndAbilitiesMarkdown": "**Shaping cells:** Bend·Earth/Stone, Alter·Earth/Stone, Ward·Earth/Stone, Unmake·Earth/Stone, Scry·Earth/Stone.\n\n**Earth Anchor:** Each complete 10 m band travelled away from its domain costs 1 PP; returning restores none. The Oread recovers PP only within its domain. At 0 PP, its body petrifies and its Spirit returns home.\n\n**Gnome Transformation:** Spend a Combat Action and 9 PP to adopt a Medium Gnome shell under the shared rule. A Combat Action restores normal form.",
       "sourceProfile": "src/content/rules/creatures/oread.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/oread.png"
@@ -2379,7 +2378,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "The host chooses shared actions except when Madness incapacitates it.\r\n\r\n**Fear Possession:** The host suffers `-1P` on attacks and Reactions.\r\n\r\n**Pain Possession:** The host suffers `-1P` on every skill test.\r\n\r\n**Madness Possession:** At each stressful scene's start, oppose the Spirit's Persistence with the host's Resilience. If the Spirit wins, the host is Incapacitated—no Actions or Reactions—for `1D6 × 10` minutes. A host win prevents another fit that scene.",
+      "rulesAndAbilitiesMarkdown": "The host chooses shared actions except when Madness incapacitates it.\n\n**Fear Possession:** The host suffers `-1P` on attacks and Reactions.\n\n**Pain Possession:** The host suffers `-1P` on every skill test.\n\n**Madness Possession:** At each stressful scene's start, oppose the Spirit's Persistence with the host's Resilience. If the Spirit wins, the host is Incapacitated—no Actions or Reactions—for `1D6 × 10` minutes. A host win prevents another fit that scene.",
       "sourceProfile": "src/content/rules/creatures/passion-spirit.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/passion-spirit.png"
@@ -2390,7 +2389,7 @@
       "slug": "pixie",
       "title": "Pixie",
       "category": "monster",
-      "summary": "A tiny, winged forest person known for curiosity, mischief, and subtle magic.",
+      "summary": "Tiny winged people whose speed, flight, and affinity for subtle magic let them flourish in places larger folk overlook.",
       "imageAlt": "A tiny winged pixie standing on a broad shelf mushroom.",
       "poseBrief": "Standing upright after a light landing on a broad shelf mushroom, head, torso, hips, and feet aligned in one natural three-quarter direction; exactly four translucent wings attach symmetrically behind the shoulder blades with leading edges and tips extending outward, upward, and backward, while one open hand guides a subtle breeze around a luminous seed.",
       "tags": ["living", "corporeal"],
@@ -2696,7 +2695,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Regeneration:** At the start of its turn, even at 0 HP, recover `1D6` HP unless it has taken fire damage since the start of its previous turn. This bypasses Wounded's recovery lock and removes Bleeding and Dying; Wounded remains. If HP rises above 0, the Troll wakes and may act that turn.\r\n\r\n**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it.",
+      "rulesAndAbilitiesMarkdown": "**Regeneration:** At the start of its turn, even at 0 HP, recover `1D6` HP unless it has taken fire damage since the start of its previous turn. This bypasses Wounded's recovery lock and removes Bleeding and Dying; Wounded remains. If HP rises above 0, the Troll wakes and may act that turn.\n\n**Blind Sight (heat):** Thermoception perceives heat-contrasting targets regardless of illumination. Solid barriers, heavy insulation, and ambient-temperature targets defeat it. It grants no colour, writing, fine visual detail, or eye contact.",
       "sourceProfile": "src/content/rules/creatures/troll.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/troll.png"
@@ -2757,7 +2756,7 @@
         "talents": "None",
         "plunder": 4
       },
-      "rulesAndAbilitiesMarkdown": "**Senses:** Night Vision; Blind Sight (living beings), blocked by walls and complete solid cover.\r\n\r\n**Blood Reserve:** Maximum 18, current 0. Use current Reserve as PP and maximum Reserve instead of POW for the active Shaping limit. It pays costs, Counter, rituals, and commitments, but never recovers naturally; 0 does not incapacitate the Vampire. It also recovers no HP naturally.\r\n\r\n**Clinging Bite:** If Bite deals HP damage, establish a grapple with that target without another Action or test.\r\n\r\n**Drain:** While grappling a Living target, spend a Combat Action and roll `1D6`. If the target began above 0 PP, drain actual PP up to its current PP; only if it began at 0 PP, drain HP instead. Drain ignores AP and never spills from PP to HP. Allocate the actual amount between Vampire HP and Blood Reserve within their maxima; excess is lost.\r\n\r\n**Mist Form:** Spend a Combat Action to become mist with carried nonliving equipment. It is immune to mundane physical attacks and can only use its Movement Action or a Combat Action to reform. Magic and sunlight work normally.\r\n\r\n**Death Mist:** At 0 HP, the Vampire is disabled until the start of its next turn, then enters Mist Form at 1 HP. Before then, an adjacent creature can spend a full round to stake and decapitate it, destroying it permanently.\r\n\r\n**Sunlight:** Direct natural sunlight deals 2 HP at each round's end, ignoring AP; complete opaque covering prevents exposure.\r\n\r\n**Holy Aversion:** Choose a sacred symbol. Presenting it within sight spends a Combat Action and opposes the bearer's Persistence with the Vampire's Resilience. If the bearer wins, the Vampire loses `1D4` HP ignoring AP and cannot attack the bearer until the bearer's next turn while the symbol remains visible.\r\n\r\nIndividual Vampires may learn Shaping cells and pay for them from Blood Reserve.",
+      "rulesAndAbilitiesMarkdown": "**Night Vision:** Natural surface night counts as Illuminated. It does not overcome sealed, underground, or supernatural darkness or obscurity.\n\n**Blind Sight (life):** Detects living beings regardless of illumination. Walls and complete solid cover block it; it grants no colour, writing, fine visual detail, or eye contact.\n\n**Blood Reserve:** Maximum 18, current 0. Use current Reserve as PP and maximum Reserve instead of POW for the active Shaping limit. It pays costs, Counter, rituals, and commitments, but never recovers naturally; 0 does not incapacitate the Vampire. It also recovers no HP naturally.\n\n**Clinging Bite:** If Bite deals HP damage, establish a grapple with that target without another Action or test.\n\n**Drain:** While grappling a Living target, spend a Combat Action and roll `1D6`. If the target began above 0 PP, drain actual PP up to its current PP; only if it began at 0 PP, drain HP instead. Drain ignores AP and never spills from PP to HP. Allocate the actual amount between Vampire HP and Blood Reserve within their maxima; excess is lost.\n\n**Mist Form:** Spend a Combat Action to become mist with carried nonliving equipment. It is immune to mundane physical attacks and can only use its Movement Action or a Combat Action to reform. Magic and sunlight work normally.\n\n**Death Mist:** At 0 HP, the Vampire is disabled until the start of its next turn, then enters Mist Form at 1 HP. Before then, an adjacent creature can spend a full round to stake and decapitate it, destroying it permanently.\n\n**Sunlight:** Direct natural sunlight deals 2 HP at each round's end, ignoring AP; complete opaque covering prevents exposure.\n\n**Holy Aversion:** Choose a sacred symbol. Presenting it within sight spends a Combat Action and opposes the bearer's Persistence with the Vampire's Resilience. If the bearer wins, the Vampire loses `1D4` HP ignoring AP and cannot attack the bearer until the bearer's next turn while the symbol remains visible.\n\nIndividual Vampires may learn Shaping cells and pay for them from Blood Reserve.",
       "sourceProfile": "src/content/rules/creatures/vampire.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/vampire.png"
@@ -2867,7 +2866,7 @@
         "talents": "None",
         "plunder": 0
       },
-      "rulesAndAbilitiesMarkdown": "**Shapeshift:** Spend a Combat Action on two consecutive turns; transformation completes after the second. A full moon forces wolf form.\r\n\r\n**Night Vision:** In either form, natural surface night counts as Illuminated. It does not overcome sealed, underground, or supernatural darkness or obscurity.\r\n\r\n**Wolf Immunity:** In wolf form, mundane attacks deal no damage unless silver, fire, or magical; a qualifying source deals normal damage. Poison, suffocation, and drowning still work. Mystics favour Alter·Flesh, Scry·Flesh, or Earth/Stone cells.",
+      "rulesAndAbilitiesMarkdown": "**Shapeshift:** Spend a Combat Action on two consecutive turns; transformation completes after the second. A full moon forces wolf form.\n\n**Night Vision:** In either form, natural surface night counts as Illuminated. It does not overcome sealed, underground, or supernatural darkness or obscurity.\n\n**Wolf Immunity:** In wolf form, mundane attacks deal no damage unless silver, fire, or magical; a qualifying source deals normal damage. Poison, suffocation, and drowning still work. Mystics favour Alter·Flesh, Scry·Flesh, or Earth/Stone cells.",
       "sourceProfile": "src/content/rules/creatures/werewolf.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/werewolf.png"
@@ -2974,7 +2973,7 @@
         "talents": "None",
         "plunder": 1
       },
-      "rulesAndAbilitiesMarkdown": "**Bite/Claw/Sting 3 (Multiattack):** Make all three attacks; Bite is normal, while Claw and Sting each suffer `-1P` under Multiattack.\r\n\r\n**Wyvern Venom:** **Type:** Injected. **Delay:** `1D2` rounds. **Potency:** 60. **Effect:** `1D6` HP and `-4 CON`. **Duration:** `6D10` minutes.",
+      "rulesAndAbilitiesMarkdown": "**Bite/Claw/Sting 3 (Multiattack):** Make all three attacks; Bite is normal, while Claw and Sting each suffer `-1P` under Multiattack.\n\n**Wyvern Venom:** **Type:** Injected. **Delay:** `1D2` rounds. **Potency:** 60. **Effect:** `1D6` HP and `-4 CON`. **Duration:** `6D10` minutes.",
       "sourceProfile": "src/content/rules/creatures/wyvern.md",
       "styleImages": {
         "inked-adventure-comic-vivid": "art/library/subjects/creatures/styles/inked-adventure-comic-vivid/wyvern.png"

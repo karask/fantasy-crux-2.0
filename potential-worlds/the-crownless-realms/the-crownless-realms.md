@@ -285,12 +285,10 @@ physically small, politically protected, and very difficult to prevent from
 delivering bad news.
 
 Use the existing fantasy-race guidance and creature profiles when a player
-chooses a nonhuman character. Dwarf and elf player packages are already
-specified. Goblin, orc, and lizardfolk require the same profile-to-player
-procedure and Gamemaster approval; use the existing Lizardman profile for
-lizardfolk. Merfolk and pixies can create pronounced movement, Size, and access
-differences; include them only when the campaign can support those differences
-rather than quietly ignoring them.
+chooses a nonhuman character. Human, elf, dwarf, orc, goblin, and lizardfolk
+have complete player packages. Merfolk and pixies can create pronounced
+movement, Size, and access differences; include them only when the campaign can
+support those differences rather than quietly ignoring them.
 
 ### Religion under the Seven Lamps
 

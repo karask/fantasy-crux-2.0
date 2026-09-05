@@ -2,13 +2,15 @@
 type: creature
 id: creatures.lizardman
 chapter: creatures
-title: 'Lizardman'
-slug: lizardman
+title: 'Lizardfolk'
+slug: lizardfolk
 order: 350
 category: monster
-summary: 'A tool-using reptilian person adapted to deserts, swamps, and other hot regions.'
-image: '/assets/images/creatures/lizardman.webp'
-image320: '/assets/images/creatures/lizardman-320.webp'
+summary: 'Reptilian people adapted to hot climates, especially deserts, wetlands, and river valleys.'
+legacySlugs:
+  - lizardman
+image: '/assets/images/creatures/lizardfolk.webp'
+image320: '/assets/images/creatures/lizardfolk-320.webp'
 imageAlt: 'A reptilian warrior carrying a battleaxe on a marsh bank.'
 tags:
   - 'living'
@@ -21,7 +23,7 @@ characteristics:
   siz: 11
   int: 13
   pow: 11
-  cha: 7
+  cha: 11
 characteristicDice:
   str: 3D6+6
   con: 3D6
@@ -29,14 +31,14 @@ characteristicDice:
   siz: 3D6
   int: 2D6+6
   pow: 3D6
-  cha: 2D6
+  cha: 3D6
 derived:
   hp: 11
   mwl: 6
   pp: 11
   movement: '15 m'
   combatOrder: 12
-  ap: '2 scales'
+  ap: '1 scales'
   dm: '+1D4'
 skills:
   - 'Dodge 45%'
@@ -52,8 +54,11 @@ skills:
 attacks:
   - 'Battleaxe — Close Combat 45%, `1D8 + 1D4`, Medium'
   - 'Sling — Ranged Combat 35%, `1D6`, 50 m'
-  - 'Bite — Unarmed Combat 25%, `1D6 + 1D4`, Medium'
 talents: 'None'
 ---
 
-Lizardman cultures may teach any appropriate Shaping cells.
+**Scaled Hide:** The Lizardfolk has 1 natural AP with no ENC. It stacks with worn armour, although worn armour still cannot be layered. Ward AP does not stack with this combined physical protection; use the Ward or the total physical AP, whichever is higher.
+
+**Counterbalancing Tail:** Tests made primarily to knock the Lizardfolk prone, throw them, or force them to move suffer `-1P`.
+
+Individual Lizardfolk may learn any appropriate Shaping cells.

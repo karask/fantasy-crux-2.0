@@ -27,12 +27,13 @@ const talentById = (id) => {
 };
 
 describe('approved Talent rebalance', () => {
-  it('publishes a 52-Talent catalogue without Sure Hand or player Mastery', () => {
+  it('publishes a 53-Talent catalogue without Sure Hand or player Mastery', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title);
 
-    expect(titles).toHaveLength(52);
+    expect(titles).toHaveLength(53);
+    expect(titles).toContain('Close-Quarters Knack');
     expect(titles).toContain('Weapon Expertise');
     expect(titles).not.toContain('Mastery');
     expect(titles).not.toContain('Sure Hand');
@@ -70,6 +71,20 @@ describe('approved Talent rebalance', () => {
     expect(text).toMatch(/different weapon types/i);
     expect(text).toMatch(/one test[^.]*once/i);
     expect(text).toMatch(/dual-profile[^.]*relevant[^.]*skill/i);
+  });
+
+  it('limits Close-Quarters Knack to small, dexterous characters and confined tasks', () => {
+    const knack = talentById('talent.close-quarters-knack');
+
+    expect(knack.data).toMatchObject({
+      cost: 2,
+      prerequisites: 'DEX 13 and SIZ 9 or lower',
+      activation: 'passive',
+    });
+    expect(knack.content).toMatch(/Athletics or Mechanisms/i);
+    expect(knack.content).toMatch(/cramped or confined surroundings/i);
+    expect(knack.content).toMatch(/remove up to 1 remaining Penalty die/i);
+    expect(knack.content).toMatch(/never creates a Bonus die/i);
   });
 
   it('prices action multipliers and defines Point-Blank Shot and Rally exactly', () => {
