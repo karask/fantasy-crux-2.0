@@ -28,6 +28,10 @@ const assessments = Object.freeze({
     'Add',
     'The press half of Influence, priced to the Tracker precedent alongside Silver Tongue.',
   ],
+  'talent.confluence': [
+    'Add',
+    'An Expert exception combines exactly two known cells while full outcome Intensities and a +1 Magnitude surcharge price each casting.',
+  ],
   'talent.counter': [
     'Keep',
     'Strong magical denial still costs a Reaction and full Magnitude in PP.',
@@ -217,8 +221,8 @@ function readTalents() {
     })
     .sort((left, right) => left.title.localeCompare(right.title, 'en'));
 
-  if (talents.length !== 53) {
-    throw new Error(`Expected 53 published Talents; found ${talents.length}.`);
+  if (talents.length !== 54) {
+    throw new Error(`Expected 54 published Talents; found ${talents.length}.`);
   }
 
   const publishedIds = new Set(talents.map(({ id }) => id));
@@ -707,11 +711,11 @@ function buildReport() {
 
 # Talent balance audit
 
-This is a deterministic audit of the 53 published player Talents. It records the approved
+This is a deterministic audit of the 54 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
-**Retire** decisions outside the current 51.
+**Retire** decisions outside the current catalogue.
 
 ## Method and assumptions
 
@@ -815,23 +819,24 @@ ${markdownTable(['Skill', 'AP', 'No weapon Talent', 'Favoured (+1)', 'Signature 
 
 ## Additional Shaping outcomes versus Talent adjustments
 
-Additional outcomes should remain a Magnitude cost, not gain a Talent gate. Each outcome already
-pays its own lowest applicable Intensity, distinct outcomes cannot repeat a cumulative effect, and
-the summed Magnitude raises PP cost, overreach, commitment, and Dispel strength. For example,
-Alter·Flesh healing at I3 plus Resilience at I2 is M5 before Range, Duration, Reach, or adjustments.
-At Shaping 51%, that is Safe +2: only ${additionalOutcomeSuccess} raw success and ${additionalOutcomeBacklash}
-Backlash on failure. Requiring a Talent as well would double-charge a generic composition rule.
+Additional outcomes within one known cell should remain a Magnitude cost, not gain a Talent gate.
+Each outcome already pays its own lowest applicable Intensity, distinct outcomes cannot repeat a
+cumulative effect, and the summed Magnitude raises PP cost, overreach, commitment, and Dispel
+strength. For example, Alter·Flesh healing at I3 plus Resilience at I2 is M5 before Range,
+Duration, Reach, or adjustments. At Shaping 51%, that is Safe +2: only ${additionalOutcomeSuccess}
+raw success and ${additionalOutcomeBacklash} Backlash on failure. Requiring a Talent as well would
+double-charge a generic composition rule.
 
 Keep Talents for learned rule exceptions: Selective breaks the default that areas include allies;
-Indirect crosses a barrier; Trigger changes when an effect fires; Veiled conceals the mandatory
-Tell. Their IP buys access while Magnitude prices each use. Direct Harm likewise remains +1
-Magnitude because it is a delivery route, not training. If play reveals excessive double taxation,
-the first lever should be removing Selective's or Trigger's flat +1 Magnitude—not Talent-gating
-additional outcomes.
+Indirect crosses a barrier; Trigger changes when an effect fires; Confluence combines exactly two
+known cells; Veiled conceals the mandatory Tell. Their IP buys access while Magnitude prices each
+use. Direct Harm likewise remains +1 Magnitude because it is a delivery route, not training. If
+play reveals excessive double taxation, the first lever should be removing Selective's, Trigger's,
+or Confluence's flat +1 Magnitude—not Talent-gating same-cell additional outcomes.
 
 ## Talent-by-Talent decision record
 
-All 53 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All 54 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 ${markdownTable(['Talent', 'IP', 'Tier', 'Decision', 'Audit finding'], talentRows)}
 

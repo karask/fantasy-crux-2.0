@@ -73,7 +73,7 @@ Each hostile outcome receives exactly one defence against the original Shaping r
 
 When Dodge, shield Active Guard, Resilience, or Persistence resists a Shaping, compare that defence roll with the Shaper's original Shaping result as an [opposed test](/rules/skills/#opposed-tests). The original Shaping result is the attacker's skill roll. The Shaper must succeed and win against Dodge, Resilience, or Persistence for that subject to be affected. If shield Active Guard wins, apply Parry Size; if Shaping wins, the guard has no effect.
 
-Dodge and shield guard take `-1P`; Dodge spends only the base Reaction and remains once per round. Resilience and Persistence spend no Reaction. Shared defences share one roll; different defences resolve separately. A magical Critical keeps its grade for the opposed test; if Shaping wins, use normal effect dice and armour, not weapon-critical benefits.
+Dodge and shield guard take `-1P`; Dodge spends only the base Reaction and remains once per round. Resilience and Persistence spend no Reaction. Resolve defence rolls per subject: against one subject, outcomes using the same defence share one defence roll; outcomes using different defences resolve separately. Different subjects always defend separately. A magical Critical keeps its grade for the opposed test; if Shaping wins, use normal effect dice and armour, not weapon-critical benefits.
 
 The defender chooses one eligible Reaction: Counter, Dodge, or Active Guard. [Counter](/rules/talents/#counter) precedes target defence and opposes the Shaping. A character who Counters cannot then Dodge, Active Guard, or oppose with Resilience or Persistence. Another character's Counter does not consume the target's defence.
 

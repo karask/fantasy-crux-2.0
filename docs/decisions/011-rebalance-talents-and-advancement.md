@@ -53,7 +53,7 @@ Shaping remains a 20 IP subsystem. A starting Shaper declares and reserves the p
 
 Additional outcomes remain a Magnitude cost, not another Talent. Price every outcome at its own lowest applicable Intensity, sum those Intensities, and count shared Range, Duration, and Reach once. Each Projected outcome uses its own Intensity for Impact Size; Backlash uses the Shaping's highest outcome Intensity. Direct Harm and the existing Selective, Indirect, Trigger, and Veiled adjustments remain unchanged.
 
-Enchanter remains 10 IP but gains Enchantment Capacity equal to permanent, unmodified POW. Bound Magnitude moves out of both PP commitment and active total. Every extant bound Shaping and unused charge or consumable counts its full final Magnitude against its original creator. Transfers and helpers do not reset attribution; every creation, restoration, or increase must fit. Capacity returns only when the enchantment permanently ends or a charge is used.
+Enchanter remains 10 IP but gains Enchantment Capacity equal to permanent, unmodified POW. Bound Magnitude moves out of both PP commitment and active total. Each Continuous or Activated effect and every unused stored charge counts its full final Magnitude against its original creator. Transfers and helpers do not reset attribution; every creation, restoration, or increase must fit. Capacity returns only when the enchantment permanently ends or a charge is used.
 
 ### Complete the procedures that Talents modify
 

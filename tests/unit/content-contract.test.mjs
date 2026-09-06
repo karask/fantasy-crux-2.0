@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 53-Talent catalogue', () => {
+  it('ships exactly the approved 54-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -33,6 +33,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Battle Awareness',
         'Close-Quarters Knack',
         'Commanding Presence',
+        'Confluence',
         'Counter',
         'Cutpurse',
         'Deception Expertise',

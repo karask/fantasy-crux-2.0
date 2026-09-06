@@ -27,12 +27,13 @@ const talentById = (id) => {
 };
 
 describe('approved Talent rebalance', () => {
-  it('publishes a 53-Talent catalogue without Sure Hand or player Mastery', () => {
+  it('publishes a 54-Talent catalogue without Sure Hand or player Mastery', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title);
 
-    expect(titles).toHaveLength(53);
+    expect(titles).toHaveLength(54);
+    expect(titles).toContain('Confluence');
     expect(titles).toContain('Close-Quarters Knack');
     expect(titles).toContain('Weapon Expertise');
     expect(titles).not.toContain('Mastery');

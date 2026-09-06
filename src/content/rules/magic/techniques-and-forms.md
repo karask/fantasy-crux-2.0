@@ -10,9 +10,10 @@ aliases:
   - Conjure Bend Unmake Alter Ward Scry
   - Fire Water Air Earth Flesh Mind Force Spirit Paths Fate
   - Shaping cells
+  - illusions
 ---
 
-Choose a **Form**—what magic governs—then a **Technique**—what it does. Their intersection is a [known cell](/rules/magic/#becoming-a-shaper); the [building rules](/rules/magic/#building-a-shaping) limit and price its outcome.
+Choose a **Form**—what magic governs—then a **Technique**—what it does. Their intersection is a [known cell](/rules/magic/#becoming-a-shaper); the [building rules](/rules/magic/#building-a-shaping) limit and price its outcomes. A Shaping normally uses one known cell; [Confluence](/rules/talents/#confluence) permits exactly two.
 
 ## Forms {#magic-forms}
 
@@ -54,6 +55,12 @@ Bend·Flesh restrains or puppets through Resilience and active control, granting
 
 Force/Motion handles mass—pushing, lifting, pinning. Flesh works limbs, tissue, and actions.
 
+### Movement, senses, and adaptation {#magic-methods-for-capabilities}
+
+The [movement, sense, and adaptation benchmarks](/rules/magic/#effects--magic-movement-senses-adaptation) price what a subject can do; they do not choose a cell. The Technique·Form must supply the method. `Alter·Flesh` can change anatomy, `Bend·Force/Motion` can support or propel a subject, and `Scry` can grant information or a sense without changing the subject. A cell that changes terrain, creates breathable air, or opens a route affects that environment instead. Similar practical results do not make those methods interchangeable.
+
+The same rule applies to [conditions and their removal](/rules/magic/#effects--magic-conditions-restoration). A condition's mechanics set its Intensity, but its name does not choose a cell: inability to see caused by changed eyes, altered perception, extinguished light, or intervening smoke uses different cells, targets, and procedures. Only Dispel ends an active Shaping.
+
 ### Paths {#magic-paths}
 
 - **Bend·Paths:** Intensity 2 moves a willing subject or an unwilling one up to 3 metres; Intensity 3 moves an unwilling subject within Range. Use Intensity 4 if relocation alone removes it from the encounter.
@@ -77,9 +84,15 @@ Fate may Conjure a chance or vow, Bend odds, Unmake or Alter a mundane vow, Ward
 
 ### Illusions {#magic-illusions}
 
-Illusions are Mind: Conjure an absent perception or Alter one present. Reach pays for each mind; each resists with Persistence.
+Illusions are Mind. Use `Conjure·Mind` to create a perception of something absent, or `Alter·Mind` to change or omit a perception of something present. A phantom guard is Conjure; making a real guard appear different or imperceptible is Alter. When either conceals a subject, use the [sensory-concealment benchmark](/rules/magic/#effects--magic-sensory-concealment).
+
+Mind illusions affect perceptions, not the physical world. Reach pays for each affected mind rather than the concealed or depicted subject, and each mind resists with Persistence. Untargeted observers, including those arriving later, perceive normally; Mindless creatures and devices are unaffected.
+
+A fixed illusion or sensory omission sustains a state without concentration. Actively directing its behaviour after casting is active control and costs the Shaper's Combat Action each round.
 
 A fooled witness may spend a Combat Action to oppose Perception with stored Shaping. Success identifies falsehood but neither Dispels it nor reveals concealed matter; failure needs new evidence to retry. Illusions cause no harm.
+
+Physical Shaping may reach the same sensory benchmark where its cell permits: `Bend·Fire` can redirect light, `Bend·Air/Storm` can redirect sound, and `Alter·Flesh` can change natural appearance. These change a subject or the environment rather than a mind, so use their actual targets, Reach, and defence instead of the illusion procedure. Created fog, smoke, and similar intervening matter use ordinary obscurity rather than making a subject imperceptible.
 
 ## All sixty cells {#magic-cell-grid}
 

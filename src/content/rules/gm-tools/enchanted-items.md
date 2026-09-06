@@ -5,7 +5,7 @@ chapter: gm-tools
 title: 'Enchanted Items'
 slug: enchanted-items
 order: 15
-summary: 'A Shaping bound to an anchor becomes an item anyone can use; the bearer pays its Power Points, and Sense Magic and Scry reveal what it does.'
+summary: 'An anchored Shaping becomes a Continuous, Activated, or Charged item; Trigger may delay an Activated or Charged use.'
 aliases:
   - magic items
   - enchanting
@@ -19,8 +19,10 @@ An **enchantment** is a Shaping bound to a vulnerable anchor, either a physical 
 
 Build the Shaping normally, then bind it to the anchor during the ritual. There are two routes:
 
-- **Everyday work** uses [Duration 4](/rules/magic/#building-a-shaping--magic-duration): an ordinary ritual and no mythic price. Without Enchanter, its Magnitude commits the maker's maximum Power Points and counts toward their active total for as long as it lasts.
-- **Legendary work** uses Duration 5: a [mythic ritual](/rules/magic/#rituals-and-examples--magic-mythic) and its declared lasting price. Without Enchanter, that price may itself free the working from the maker's active total.
+- **Everyday work** uses [Duration 4](/rules/magic/#building-a-shaping--magic-duration): an ordinary ritual and no mythic price.
+- **Legendary work** uses Duration 5: a [mythic ritual](/rules/magic/#rituals-and-examples--magic-mythic) and its declared lasting price.
+
+Without Enchanter, either route commits the maker's maximum Power Points equal to Magnitude and counts toward their active total for as long as the enchantment lasts. A mythic lasting price never reduces either commitment; it is the additional cost of making legendary work.
 
 With the [Enchanter](/rules/talents/#enchanter) Talent, either route instead counts against the original creator's Enchantment Capacity and occupies neither their PP commitment nor active total.
 
@@ -32,13 +34,21 @@ A **minor** enchantment is Magnitude 1–4 and one modest effect. A **major** on
 
 Anyone may use an enchantment. Neither the Shaping skill nor a known cell is required, and the item shows its maker's Tell whenever it works, so using one is conspicuous.
 
-| Kind           | How it runs                                 | Power Points                                                                      |
-| -------------- | ------------------------------------------- | --------------------------------------------------------------------------------- |
-| **Continuous** | Active while worn or held                   | Commits the bearer's maximum PP equal to Magnitude; removing the item restores it |
-| **Triggered**  | Fires on the condition set at its making    | The bearer pays PP equal to Magnitude each time it fires                          |
-| **Consumable** | Potions, scrolls, and charges; spent on use | Paid by the maker, so the bearer pays nothing                                     |
+| Kind           | How it runs                                          | Power Points                                                                      |
+| -------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Continuous** | Active while worn or held                            | Commits the bearer's maximum PP equal to Magnitude; removing the item restores it |
+| **Activated**  | Reusable; resolves each time the bearer activates it | The bearer pays PP equal to Magnitude for each use                                |
+| **Charged**    | Expends one stored charge each time it is activated  | Prepaid by the maker, so the bearer pays nothing                                  |
 
-Activating an item costs a Combat Action unless its trigger says otherwise. A bearer without the available Power Points cannot use it at all.
+A potion or scroll is a one-charge Charged item and is spent when used. A multi-charge item remains until its last charge is used, then becomes ordinary or is destroyed as its maker declared.
+
+Activating an Activated or Charged effect costs a Combat Action. A bearer without the required available Power Points cannot activate an Activated effect. An item resolves hostile effects against its maker's stored Shaping result.
+
+An Activated or Charged effect normally resolves immediately. If it includes [Trigger](/rules/talents/#trigger), activation instead arms one use. The observable event is fixed when the item is made; fix the target and any permitted use-specific choices when the use is armed. It fires once when that event occurs, without another Action. Arming spends the PP or charge even if the event never occurs before the Trigger's wait expires. Continuous effects cannot include Trigger.
+
+No enchantment retaliates with damage or adds magical damage to repeated weapon hits. A damaging Trigger remains one already targeted outcome that fires once; the bearer must activate and pay for or expend a new use normally.
+
+A depletable outcome such as a [vitality reserve](/rules/magic/#effects--magic-vitality-reserves) cannot be Continuous. It must be Activated, with the bearer paying for each fresh reserve, or Charged, with one stored charge spent for each reserve.
 
 ## Identifying one {#gm-identify-enchantments}
 

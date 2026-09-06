@@ -21,9 +21,9 @@ Skills close to the description sit at the specialty level, and everything else 
 
 This guard is good at his job: 50% Close Combat and 50% Perception, 40% Dodge, Resilience, and Ranged Combat, 30% Persistence, less in anything else. He carries a shortsword and wears leather armour for 2 AP.
 
-> Elven Scholar 70 (Dagger `1D4+1`, 2 GP, Amulet of Protection 2)
+> Elven Scholar 70 (Dagger `1D4+1`, 2 GP, Warding Amulet [Ward·Force/Motion; I1, D4, M5; continuous; 2 AP vs weapon and natural attacks])
 
-The scholar has 70% in a couple of Lore skills or languages, perhaps 60% Persistence or Healing, but only 40% Close Combat. Her amulet carries a permanent Ward enchantment worth 2 AP.
+The scholar has 70% in a couple of Lore skills or languages, perhaps 60% Persistence or Healing, but only 40% Close Combat. Her amulet carries `Ward·Force/Motion` at Intensity 1 and Duration 4: a Magnitude 5 continuous enchantment granting 2 Ward AP against weapon and natural-attack damage while worn. The bearer commits 5 maximum PP while using it. Its Ward AP does not add to worn armour against the same attack; use whichever is higher. The amulet is the enchantment's vulnerable anchor.
 
 Extraordinary abilities follow the same compression. Note Talents by name, and Shaping as the cells the NPC can actually cast.
 

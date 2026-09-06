@@ -14,7 +14,7 @@ aliases:
   - Shaping dials
 ---
 
-Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper) and price each outcome. For immediate Unmake damage, declare its delivery before calculating Magnitude.
+Before rolling, choose a [known cell](/rules/magic/#becoming-a-shaper) and price each outcome. Every outcome must use that cell unless you apply [Confluence](/rules/talents/#confluence) to combine exactly two known cells. For immediate Unmake damage, declare its delivery before calculating Magnitude.
 
 > **Core formula:** `sum of outcome Intensities + Range + Duration + Reach + adjustments = Magnitude.` Intensity sets each effect; Magnitude sets PP, difficulty, active load, and Dispel strength. The casting result sets payment.
 
@@ -73,7 +73,7 @@ Range 1–3 needs an unobstructed route. **Indirect** crosses a barrier when the
 |      4 | Indefinite until dismissed or Dispelled; ritual              |
 |      5 | Permanent; mythic ritual                                     |
 
-Duration sustains state, sense, or observation—not repeated damage/healing, discrete answers, or other one-use outcomes; [created hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) differ. Concentration beyond the next turn requires Duration 1+.
+Duration sustains state, sense, or observation—not repeated damage, healing, lost Actions, discrete answers, or other one-use outcomes. Concentration beyond the next turn requires Duration 1+.
 
 ## Reach {#magic-reach}
 
@@ -94,13 +94,15 @@ Areas include allies; excluding arbitrary subjects requires **Selective**. Reach
 
 Anything beyond Intensity, Range, Duration, and Reach is an adjustment; each adds Magnitude.
 
-An **additional outcome** needs no training. Price each outcome at its own lowest applicable Intensity, then sum each outcome's Intensity. Outcomes must be distinct and cell-permitted; one Shaping cannot repeat damage, healing, movement, restraint, control, or another cumulative outcome on one subject. Use higher Intensity for strength.
+An **additional outcome** within the same known cell needs no training. Price each outcome at its own lowest applicable Intensity, then sum each outcome's Intensity. Outcomes must be distinct and cell-permitted; one Shaping cannot repeat damage, healing, movement, restraint, control, or another cumulative outcome on one subject. Use higher Intensity for strength. [Confluence](/rules/talents/#confluence) permits outcomes from exactly two known cells.
 
 For example, healing at I3 plus a Resilience bonus at I2, at touch with no other dials, is M5. Alter·Flesh can combine those outcomes, but cannot buy healing twice.
 
 **Direct Harm** adds `+1`; [Harm delivery](/rules/magic/#casting-and-defence--magic-harm-delivery) gives its defence, protection, route, and Reach.
 
-Learned adjustments state their added Magnitude: [Selective](/rules/talents/#selective), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), and [Veiled](/rules/talents/#veiled).
+Learned adjustments state their added Magnitude: [Selective](/rules/talents/#selective), [Indirect](/rules/talents/#indirect), [Trigger](/rules/talents/#trigger), [Confluence](/rules/talents/#confluence), and [Veiled](/rules/talents/#veiled).
+
+A Trigger fixes its target, cell, outcomes, Range, Reach, and all other dials when armed; an ordinary casting is armed when cast, while an enchanted item is armed when activated. It cannot defer those choices until firing. A successful weapon hit against an already selected target may be the observable event, but the hit is only the Trigger: resolve the weapon and Shaping separately, with the Shaping's normal defence and protection. A damaging Trigger cannot retaliate for an attack against or harm suffered by the caster, bearer, or another protected subject.
 
 Shared Range, Duration, and Reach count once.
 

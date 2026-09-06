@@ -15,6 +15,8 @@ aliases:
 
 On a hit, roll weapon damage, add Damage Modifier when applicable, then add any extra dice or fixed damage from the declared action or Talent. Resolve any successful Parry, subtract Armour Points, and reduce current HP by the remaining damage, to a minimum of 0 damage. Current HP cannot fall below 0. [Critical hits](/rules/combat/#critical-hits-and-fumbles) change this procedure as stated in their result matrix.
 
+If the target has a [vitality reserve](/rules/magic/#effects--magic-vitality-reserves), apply it after every other applicable reduction but before actual HP. Only damage that passes the reserve and reaches actual HP counts toward a Major Wound.
+
 Damage Modifier applies to Close Combat, Unarmed Combat, and thrown attacks. Bows, crossbows, and slings use only listed damage unless a Talent says otherwise.
 
 ## Major Wounds

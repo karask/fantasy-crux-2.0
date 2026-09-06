@@ -47,6 +47,7 @@ describe('advancement and Shaping investment', () => {
 describe('Enchanter capacity and attribution', () => {
   const enchanter = read('src/content/rules/talents/enchanter.md');
   const enchantedItems = read('src/content/rules/gm-tools/enchanted-items.md');
+  const minorNpcs = read('src/content/rules/gm-tools/minor-npcs.md');
   const ongoing = read('src/content/rules/magic/ongoing-and-magical-actions.md');
   const rituals = read('src/content/rules/magic/rituals-and-examples.md');
 
@@ -60,18 +61,45 @@ describe('Enchanter capacity and attribution', () => {
     expect(enchanter).toMatch(
       /Duration 4[^.]*Mythic Duration 5[^.]*(?:neither|leaves?)[^.]*PP commitment[^.]*active total/i,
     );
-    expect(ongoing).toMatch(/tied anchors?[^.]*except[^.]*Enchantment Capacity/i);
+    expect(ongoing).toMatch(/tied anchors[\s\S]{0,100}Enchantment Capacity[^.]*only exception/i);
     expect(enchantedItems).toMatch(
       /With[^.]*Enchanter[^.]*either route[^.]*Enchantment Capacity[^.]*(?:neither|leaves?)[^.]*PP commitment[^.]*active total/i,
     );
     expect(rituals).toMatch(/With[^.]*Enchanter[^.]*Capacity[^.]*not[^.]*active total/i);
   });
 
-  it('charges every extant effect to its original creator', () => {
-    expect(enchanter).toMatch(
-      /(?:each|every)[^.]*bound Shaping[^.]*unused (?:consumable|charge)[^.]*full final Magnitude/i,
+  it('keeps a mythic price separate from creator commitments', () => {
+    expect(enchantedItems).toMatch(
+      /Without Enchanter[^.]*either route[^.]*maximum Power Points[^.]*Magnitude[^.]*active total/i,
     );
-    expect(enchanter).toMatch(/counts?[^.]*original (?:creator|maker)/i);
+    expect(enchantedItems).toMatch(/mythic lasting price[^.]*(?:never|does not)[^.]*commitment/i);
+    expect(enchanter).toMatch(
+      /both Duration 4[^.]*Duration 5[^.]*commit maximum PP[^.]*Magnitude[^.]*active total/i,
+    );
+    expect(ongoing).toMatch(
+      /permanent anchored enchantment[^.]*without Enchanter[^.]*commits full Magnitude/i,
+    );
+    expect(rituals).toMatch(
+      /price[^.]*never reduces[^.]*Magnitude[^.]*PP commitment[^.]*active total[^.]*Enchantment Capacity[^.]*Dispel strength/i,
+    );
+  });
+
+  it('expresses the minor-NPC enchanted item in complete Shaping notation', () => {
+    expect(minorNpcs).toMatch(
+      /Warding Amulet[^\n]*Ward·Force\/Motion[^\n]*I1[^\n]*D4[^\n]*M5[^\n]*continuous[^\n]*2 AP/i,
+    );
+    expect(minorNpcs).toMatch(/Magnitude 5 continuous enchantment/i);
+    expect(minorNpcs).toMatch(/bearer commits 5 maximum PP/i);
+    expect(minorNpcs).toMatch(/does not add to worn armour[^.]*whichever is higher/i);
+    expect(minorNpcs).toMatch(/amulet[^.]*vulnerable anchor/i);
+  });
+
+  it('charges every extant effect to its original creator', () => {
+    expect(enchanter).toMatch(/Continuous or Activated effect[^.]*full final Magnitude once/i);
+    expect(enchanter).toMatch(
+      /Every unused charge[^.]*Charged effect[^.]*full final Magnitude separately/i,
+    );
+    expect(enchanter).toMatch(/attributed[^.]*original (?:creator|maker)/i);
     expect(enchanter).toMatch(/sale,? theft,? (?:or )?gift|sold,? stolen,? (?:or )?given/i);
     expect(enchanter).toMatch(/(?:each|every)[^.]*Shaping[^.]*layer[^.]*separately/i);
     expect(enchanter).toMatch(/multiple Enchanters|more than one Enchanter|multi-enchanter/i);
@@ -92,12 +120,56 @@ describe('Enchanter capacity and attribution', () => {
     );
     expect(enchanter).toMatch(/Dispelled/i);
     expect(enchanter).toMatch(/anchor[^.]*destroyed/i);
-    expect(enchanter).toMatch(/(?:consumable|charge)[^.]*used/i);
+    expect(enchanter).toMatch(/stored charge[^.]*used/i);
+    expect(enchanter).toMatch(/Using a charge frees that charge's capacity/i);
+    expect(enchanter).toMatch(/Activated use does not end[^.]*reusable enchantment/i);
     expect(enchanter).toMatch(
       /temporary suppression[^.]*continues? to count|suppressed[^.]*still counts/i,
     );
     expect(enchanter).toMatch(
       /permanent POW loss[\s\S]{0,500}over[^.]*capacity[\s\S]{0,500}persist[\s\S]{0,500}no new[\s\S]{0,500}restor(?:e|ation)[\s\S]{0,500}increase/i,
+    );
+  });
+});
+
+describe('enchanted-item operation and Trigger timing', () => {
+  const items = read('src/content/rules/gm-tools/enchanted-items.md');
+  const trigger = read('src/content/rules/talents/trigger.md');
+
+  it('separates Continuous, Activated, and Charged resource models', () => {
+    expect(items).toMatch(/\| \*\*Continuous\*\*[^\n]*commits the bearer's maximum PP/i);
+    expect(items).toMatch(/\| \*\*Activated\*\*[^\n]*bearer pays PP equal to Magnitude/i);
+    expect(items).toMatch(/\| \*\*Charged\*\*[^\n]*Prepaid by the maker/i);
+    expect(items).not.toMatch(/\| \*\*Triggered\*\*/i);
+    expect(items).not.toMatch(/\| \*\*Consumable\*\*/i);
+    expect(items).toMatch(/potion or scroll[^.]*one-charge Charged item/i);
+    expect(items).toMatch(/multi-charge item[^.]*last charge/i);
+  });
+
+  it('uses Trigger as paid timing for an Activated or Charged use', () => {
+    expect(items).toMatch(/Activated or Charged effect normally resolves immediately/i);
+    expect(items).toMatch(/includes \[Trigger\][^.]*activation instead arms one use/i);
+    expect(items).toMatch(/observable event is fixed when the item is made/i);
+    expect(items).toMatch(/target[^.]*use-specific choices[^.]*when the use is armed/i);
+    expect(items).toMatch(/fires once[^.]*without another Action/i);
+    expect(items).toMatch(/Arming spends the PP or charge[^.]*never occurs[^.]*wait expires/i);
+    expect(items).toMatch(/Continuous effects cannot include Trigger/i);
+    expect(trigger).toMatch(/Activated or Charged effect arms one use/i);
+    expect(trigger).toMatch(/Trigger expires without firing/i);
+  });
+});
+
+describe('Active Magnitude coverage', () => {
+  const ongoing = read('src/content/rules/magic/ongoing-and-magical-actions.md');
+
+  it('counts every ongoing Shaping and names the newer ongoing outcomes', () => {
+    expect(ongoing).toMatch(/Every ongoing Shaping counts its full Magnitude/i);
+    expect(ongoing).toMatch(
+      /movement modes[^.]*senses[^.]*concealment[^.]*conditions[^.]*vitality reserves[^.]*waiting Triggers/i,
+    );
+    expect(ongoing).toMatch(/Enchantment Capacity[^.]*only exception/i);
+    expect(ongoing).toMatch(
+      /instant effects[^.]*completed permanent transformations[^.]*no longer ongoing/i,
     );
   });
 });

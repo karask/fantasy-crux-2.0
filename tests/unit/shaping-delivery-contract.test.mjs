@@ -119,6 +119,10 @@ describe('Projected and Direct Harm', () => {
       /Projected Shaping[^.]*oppose Close Combat[^.]*original Shaping result/i,
     );
     expect(casting).toMatch(/hostile Touch Shaping[^.]*sole defence exception/i);
+    expect(casting).toMatch(/defence rolls per subject/i);
+    expect(casting).toMatch(/one subject[^.]*same defence share one defence roll/i);
+    expect(casting).toMatch(/one subject[^.]*different defences resolve separately/i);
+    expect(casting).toMatch(/Different subjects always defend separately/i);
     expect(casting).toMatch(/hostile Touch Shaping[\s\S]{0,500}\[combat matrix\]\(/i);
     expect(effects).toMatch(
       /Full control[^.]*Persistence[^.]*stored Shaping result[^.]*Winning frees/i,
@@ -240,5 +244,39 @@ describe('Projected and Direct Harm', () => {
     expect(magic).not.toMatch(/Internal Flesh|padding (?:interrupts|interference)/i);
     expect(canonicalRules).not.toMatch(/\bPiercing\b/);
     expect(existsSync(path.resolve('src/content/rules/talents/piercing.md'))).toBe(false);
+  });
+});
+
+describe('sensory concealment and illusions', () => {
+  const effects = read('src/content/rules/magic/effects.md');
+  const techniques = read('src/content/rules/magic/techniques-and-forms.md');
+  const examples = read('src/content/rules/magic/rituals-and-examples.md');
+
+  it('prices sensory concealment without expanding the chosen Form', () => {
+    expect(effects).toMatch(/Intensity 2[^.]*Perception[^.]*one named sense[^.]*`-1P`/i);
+    expect(effects).toMatch(/Intensity 3[^.]*imperceptible[^.]*one named sense/i);
+    expect(effects).toMatch(/Intensity 4[^.]*imperceptible[^.]*every sense[^.]*cell can govern/i);
+    expect(effects).toMatch(/Intensity never widens a Form's scope/i);
+    expect(effects).toMatch(/footprints, opened doors, displaced matter/i);
+    expect(effects).toMatch(/Pitch black[^.]*only against the concealed subject/i);
+  });
+
+  it('distinguishes mental illusions from physical concealment', () => {
+    expect(techniques).toMatch(/Conjure·Mind[^.]*perception[^.]*absent/i);
+    expect(techniques).toMatch(/Alter·Mind[^.]*change or omit[^.]*present/i);
+    expect(techniques).toMatch(/Reach pays for each affected mind[^.]*Persistence/i);
+    expect(techniques).toMatch(/Untargeted observers[^.]*arriving later[^.]*normally/i);
+    expect(techniques).toMatch(/fixed illusion[^.]*without concentration/i);
+    expect(techniques).toMatch(/actively directing[^.]*active control[^.]*Combat Action/i);
+    expect(techniques).toMatch(/Bend·Fire[^.]*redirect light/i);
+    expect(techniques).toMatch(/Bend·Air\/Storm[^.]*redirect sound/i);
+    expect(techniques).toMatch(/Alter·Flesh[^.]*natural appearance/i);
+  });
+
+  it('provides physical and mental invisibility examples', () => {
+    expect(examples).toMatch(/Optically hide[^\n]*Bend·Fire; I3, D1[^\n]*4/i);
+    expect(examples).toMatch(
+      /Hide one subject from five minds[^\n]*Alter·Mind; I3, R1, D1, Reach2[^\n]*7/i,
+    );
   });
 });

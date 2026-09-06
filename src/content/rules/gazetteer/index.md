@@ -105,7 +105,7 @@ Every tradition teaches recognizable rituals, though individual Shapers develop 
 | Banner oathwork     | Witness and consequence declared over iron; every voice nearby picks up a second beat.               |
 | Ninefold wayfinding | Knotted thread, quick notation, and counted corners; the corners of a room seem briefly nearer.      |
 
-Whatever the tradition, Shaping cannot be performed invisibly: its rituals can be interrupted, and its effects leave recognizable signs. Institutions guard their teaching because it is scarce and politically useful.
+Whatever the tradition, Shaping is never automatically covert: its Practice can be interrupted, and its Tell leaves recognizable signs even when the intended effect conceals something. Institutions guard their teaching because it is scarce and politically useful.
 
 The Crownworks make the realms seem more magical than their living Shapers could sustain. Each permanent enchantment is tied to a physical or spiritual anchor that can be found and, through it, undone. Their makers paid prices that no surviving archive records cleanly. To mend one takes more than a workshop and glowing tools. It calls for an expedition, ritual, hard bargaining, and perhaps another lasting price.
 
