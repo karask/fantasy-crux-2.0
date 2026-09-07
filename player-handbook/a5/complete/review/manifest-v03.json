@@ -1,0 +1,371 @@
+{
+  "pages": [
+    {
+      "folio": 1,
+      "title": "Player Handbook",
+      "file": "player-handbook/a5/complete/content/01-cover.md",
+      "modules": [],
+      "sources": [],
+      "wordCount": 39,
+      "art": "female-warrior"
+    },
+    {
+      "folio": 2,
+      "title": "Read Your Character",
+      "file": "player-handbook/a5/complete/content/02-character.md",
+      "modules": [1],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/equipment/armour.md"
+      ],
+      "wordCount": 209,
+      "art": "female-warrior"
+    },
+    {
+      "folio": 3,
+      "title": "Roll & Read the Dice",
+      "file": "player-handbook/a5/complete/content/03-roll.md",
+      "modules": [2],
+      "sources": [
+        "src/content/rules/start-here/d100-percentile.md",
+        "src/content/rules/skills/basic-tests.md"
+      ],
+      "wordCount": 207,
+      "art": null
+    },
+    {
+      "folio": 4,
+      "title": "Better Rolls, Shared Tests",
+      "file": "player-handbook/a5/complete/content/04-modifiers.md",
+      "modules": [3, 4],
+      "sources": [
+        "src/content/rules/skills/bonus-and-penalty-dice.md",
+        "src/content/rules/skills/opposed-tests.md",
+        "src/content/rules/skills/assistance.md"
+      ],
+      "wordCount": 173,
+      "art": null
+    },
+    {
+      "folio": 5,
+      "title": "Skills at a Glance",
+      "file": "player-handbook/a5/complete/content/05-skills.md",
+      "modules": [5],
+      "sources": [
+        "src/content/rules/skills/resistance-and-combat-skills.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/skills/practical-skills.md"
+      ],
+      "wordCount": 257,
+      "art": null
+    },
+    {
+      "folio": 6,
+      "title": "Your Combat Round",
+      "file": "player-handbook/a5/complete/content/06-round.md",
+      "modules": [6],
+      "sources": ["src/content/rules/combat/rounds-and-actions.md"],
+      "wordCount": 235,
+      "art": null
+    },
+    {
+      "folio": 7,
+      "title": "Attack, Dodge & Parry",
+      "file": "player-handbook/a5/complete/content/07-defence.md",
+      "modules": [7],
+      "sources": [
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md"
+      ],
+      "wordCount": 215,
+      "art": null
+    },
+    {
+      "folio": 8,
+      "title": "Damage & Critical Hits",
+      "file": "player-handbook/a5/complete/content/08-damage.md",
+      "modules": [8],
+      "sources": [
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/start-here/d100-percentile.md"
+      ],
+      "wordCount": 218,
+      "art": null
+    },
+    {
+      "folio": 9,
+      "title": "Your Other Hand",
+      "file": "player-handbook/a5/complete/content/09-off-hand.md",
+      "modules": [12],
+      "sources": [
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 197,
+      "art": "new-offhand"
+    },
+    {
+      "folio": 10,
+      "title": "Move, Charge & Set",
+      "file": "player-handbook/a5/complete/content/10-movement.md",
+      "modules": [18],
+      "sources": ["src/content/rules/combat/rounds-and-actions.md"],
+      "wordCount": 151,
+      "art": "new-charge"
+    },
+    {
+      "folio": 11,
+      "title": "Seize & Escape",
+      "file": "player-handbook/a5/complete/content/11-grapple.md",
+      "modules": [13],
+      "sources": [
+        "src/content/rules/combat/grappling.md",
+        "src/content/rules/skills/assistance.md"
+      ],
+      "wordCount": 196,
+      "art": "grapple-reversal"
+    },
+    {
+      "folio": 12,
+      "title": "Take the Shot",
+      "file": "player-handbook/a5/content/ranged-attacks.md",
+      "modules": [14, 16],
+      "sources": [
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/active-guard.md",
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/skills/resistance-and-combat-skills.md"
+      ],
+      "wordCount": 191,
+      "art": "legacy-cover"
+    },
+    {
+      "folio": 13,
+      "title": "Cover & Defence",
+      "file": "player-handbook/a5/content/cover-and-defence.md",
+      "modules": [15, 16],
+      "sources": [
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/combat/active-guard.md",
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/skills/resistance-and-combat-skills.md"
+      ],
+      "wordCount": 179,
+      "art": "legacy-guard"
+    },
+    {
+      "folio": 14,
+      "title": "Position & Difficult Shots",
+      "file": "player-handbook/a5/complete/content/14-position.md",
+      "modules": [17, 20],
+      "sources": [
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/skills/bonus-and-penalty-dice.md",
+        "src/content/rules/combat/position-and-mounted-combat.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 200,
+      "art": "ambusher-from-rafters"
+    },
+    {
+      "folio": 15,
+      "title": "Demand Surrender",
+      "file": "player-handbook/a5/complete/content/15-intimidate.md",
+      "modules": [19],
+      "sources": [
+        "src/content/rules/combat/rounds-and-actions.md",
+        "src/content/rules/skills/opposed-tests.md"
+      ],
+      "wordCount": 82,
+      "art": "battle-command"
+    },
+    {
+      "folio": 16,
+      "title": "Wounds & Saving a Life",
+      "file": "player-handbook/a5/complete/content/16-wounds.md",
+      "modules": [9, 10],
+      "sources": [
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/adventuring/healing-and-recovery.md",
+        "src/content/rules/skills/practical-skills.md"
+      ],
+      "wordCount": 194,
+      "art": "field-surgeon-under-fire"
+    },
+    {
+      "folio": 17,
+      "title": "Recover & Change Your Fate",
+      "file": "player-handbook/a5/complete/content/17-recovery.md",
+      "modules": [10, 11],
+      "sources": [
+        "src/content/rules/adventuring/healing-and-recovery.md",
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/skills/practical-skills.md",
+        "src/content/rules/characters/character-creation.md"
+      ],
+      "wordCount": 281,
+      "art": null
+    },
+    {
+      "folio": 18,
+      "title": "Close Weapons / A-L",
+      "file": "player-handbook/a5/complete/content/18-close-a.md",
+      "modules": [21],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 347,
+      "art": null
+    },
+    {
+      "folio": 19,
+      "title": "Close Weapons / M-Z",
+      "file": "player-handbook/a5/complete/content/19-close-b.md",
+      "modules": [21],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 355,
+      "art": null
+    },
+    {
+      "folio": 20,
+      "title": "Bows, Crossbows & Slings",
+      "file": "player-handbook/a5/complete/content/20-launchers.md",
+      "modules": [22],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/ranged-combat.md"
+      ],
+      "wordCount": 282,
+      "art": null
+    },
+    {
+      "folio": 21,
+      "title": "Thrown Weapons & Whip",
+      "file": "player-handbook/a5/complete/content/21-thrown.md",
+      "modules": [22],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/ranged-combat.md"
+      ],
+      "wordCount": 315,
+      "art": "weapons-field-sketch"
+    },
+    {
+      "folio": 22,
+      "title": "Armour & Protection",
+      "file": "player-handbook/a5/complete/content/22-armour.md",
+      "modules": [23],
+      "sources": [
+        "src/content/rules/equipment/armour.md",
+        "src/content/rules/combat/damage-and-wounds.md"
+      ],
+      "wordCount": 216,
+      "art": "armour-field-sketch"
+    }
+  ],
+  "assets": [
+    {
+      "key": "new-offhand",
+      "path": "player-handbook/a5/complete/art/off-hand-v01.png",
+      "sha256": "a16986d17de0d6ed6fe4ccd4af58b8bf71e9e69bd948c7e59cf1de1f0629e23e"
+    },
+    {
+      "key": "new-charge",
+      "path": "player-handbook/a5/complete/art/charge-v01.png",
+      "sha256": "088d2c7649cf0228bbcfb398ded90041268db92285586857495d1d9d75768085"
+    },
+    {
+      "key": "legacy-cover",
+      "path": "player-handbook/art/15-terrain-cover/illustration-v01.png",
+      "sha256": "5f8f78a1abb6afacc827bfcc432fcf7c39ad4adaca0fedc41e8c209552e78d8a"
+    },
+    {
+      "key": "legacy-guard",
+      "path": "player-handbook/a5/art/guard-v01.png",
+      "sha256": "9265377ac1bbec83525424d651cc34daa6bdd8198bdbcd5971e8c458342e23ff"
+    },
+    {
+      "key": "female-warrior",
+      "path": "art/library/subjects/female-warrior/styles/inked-adventure-comic-vivid.png",
+      "sha256": "200fdb1f34aff9f672061b4e8dacf45607fd105a1573ee3dacb3991eeec2de23"
+    },
+    {
+      "key": "mechanisms-trapwork",
+      "path": "art/library/subjects/mechanisms-trapwork/styles/inked-adventure-comic-vivid.png",
+      "sha256": "68a14f140b20decedee52dc6f6bfa5ce080ccb99ae8064948356a772e015b265"
+    },
+    {
+      "key": "battle-command",
+      "path": "art/library/subjects/battle-command/styles/inked-adventure-comic-vivid.png",
+      "sha256": "9b0793b8f4605e2a504654267d24f1201c08f96be4a3e57405faa95ba6bc7253"
+    },
+    {
+      "key": "ambusher-from-rafters",
+      "path": "art/library/subjects/ambusher-from-rafters/styles/inked-adventure-comic-vivid.png",
+      "sha256": "dcb5dfebae221331ea6f245eb6f8548c3cd7c39f6f313e68f32181f60a3da922"
+    },
+    {
+      "key": "shield-reaction",
+      "path": "art/library/subjects/shield-reaction/styles/inked-adventure-comic-vivid.png",
+      "sha256": "981b7e025fe8d3b218502788eebc8de563114527a14ad006e5e275baab6a9ed2"
+    },
+    {
+      "key": "grapple-reversal",
+      "path": "art/library/subjects/grapple-reversal/styles/inked-adventure-comic-vivid.png",
+      "sha256": "5e2fc9e8ae5d187c3296fa706c4e19fa220e0e8e0c661581d867cd9fb7fc3bd9"
+    },
+    {
+      "key": "field-surgeon-under-fire",
+      "path": "art/library/subjects/field-surgeon-under-fire/styles/inked-adventure-comic-vivid.png",
+      "sha256": "6e0467a34a905947c8c8a8655870222d36e5eaba1b54218a0b5ff286540763cd"
+    },
+    {
+      "key": "weapons-field-sketch",
+      "path": "art/library/subjects/weapons-field-sketch/styles/inked-adventure-comic-vivid.png",
+      "sha256": "759472a76c1d4f83e4bb5c18500a9fa30ab72517c9d62dad2256d3b111fa35d0"
+    },
+    {
+      "key": "armour-field-sketch",
+      "path": "art/library/subjects/armour-field-sketch/styles/inked-adventure-comic-vivid.png",
+      "sha256": "4cba5bd37bac6e3c42b313124ce107652d739569594717f66ce0ae6bf079b833"
+    }
+  ],
+  "sources": {
+    "src/content/rules/characters/character-creation.md": "078434e129c8163408a69913292905c94d3c5d73a491747b0688e50af1bc4a15",
+    "src/content/rules/equipment/armour.md": "b6a95f09ce18095dff9c47cbc33169930913ca646421fe49ba836507f6935e35",
+    "src/content/rules/start-here/d100-percentile.md": "919ea2b45da7ff5e3eef812dd81e972f8c173879d21b9b3c465f7cf2ee468fb4",
+    "src/content/rules/skills/basic-tests.md": "850ad34223b289997997d41579b76125ae6b074564187281442ae279cf89d137",
+    "src/content/rules/skills/bonus-and-penalty-dice.md": "0e70c808f150f272af4c2f4a648612b1af927c97e175fc0c52725fdf47cb1b44",
+    "src/content/rules/skills/opposed-tests.md": "f5f071929228f86c5c7f78d21ff608b8047c9a0e9a5ef8ab00f116f143659642",
+    "src/content/rules/skills/assistance.md": "cf7ea97a8ea582cf9010d04333c8474ca700cb1c569c00676c85c6ac316d359b",
+    "src/content/rules/skills/resistance-and-combat-skills.md": "a953ef743e15467d2c00e39e32181fc5c2a2816a76594eba29dc7b4e7c44f303",
+    "src/content/rules/skills/knowledge-skills.md": "5c3ed3a73135d00dfbfb1e26e15120a28a44edbed661ef09dc38a2de6837153c",
+    "src/content/rules/skills/practical-skills.md": "b7c6fcbf62a1b5ff93b9713af189fc90419e4945c8f02a0ca5824d9b299086c2",
+    "src/content/rules/combat/rounds-and-actions.md": "267e4391ff3b5a65edcd788b7d05f1a5f7d8be3ec7d2535b3472126c885fcedf",
+    "src/content/rules/combat/attacks-and-reactions.md": "6e72a740a03bf1756945a2c79da482c6332a65e87632bb96ed40ba95a1642a67",
+    "src/content/rules/combat/critical-hits-and-fumbles.md": "0e7058c3ca2e2a04c37bcb3f7ae0f2475298a39b05254f0d36f8f2dcd21144ae",
+    "src/content/rules/combat/damage-and-wounds.md": "98edc9f18c273702a10992c49dacf0e6b918539bdc70c0c60348d5fee8b98ef8",
+    "src/content/rules/combat/off-hand-options.md": "b130f4e62a7bb4225716fc872eaca10fb94f36681327cd9479a2af22805c354c",
+    "src/content/rules/combat/grappling.md": "9d14d8249ca661ec83330e581e554fb9bf8af09ed0eb9a6640608a0f8bd3e297",
+    "src/content/rules/combat/ranged-combat.md": "55517750c925e74354a0cf871ef1a7e1639ad492ec612f5933e01dd7f9d1b453",
+    "src/content/rules/equipment/weapons.md": "2a8b2b4691212274085c9d890aa156cc86811442c4ddb6b2b876483c1f49d780",
+    "src/content/rules/combat/active-guard.md": "a228dec117dd38e06e7bcb5e8226b93786e7a0baa28c9587dc86e69fff95f3ea",
+    "src/content/rules/combat/position-and-mounted-combat.md": "611e0096c1f91a92e7ee71d32ca5226df27550276aa47eef4fa2996bc0a38bec",
+    "src/content/rules/adventuring/healing-and-recovery.md": "eab2fbfefc0510a0da7388e8cec9d147f1a316232fa18ca4f0e3082c374eab8b"
+  },
+  "equipmentRows": {
+    "close": 24,
+    "ranged": 12,
+    "armour": 5
+  }
+}

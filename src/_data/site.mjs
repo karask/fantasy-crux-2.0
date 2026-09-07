@@ -31,6 +31,7 @@ export default {
     { number: 8, label: 'GM Tools', href: '/rules/gm-tools/' },
     { number: 9, label: 'Creatures', href: '/rules/creatures/' },
     { number: 10, label: 'Gazetteer', href: '/rules/gazetteer/' },
+    { number: 'DL', label: 'Downloads', href: '/downloads/' },
     { number: '§', label: 'License', href: '/license/' },
   ],
 };

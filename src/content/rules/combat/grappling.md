@@ -5,7 +5,7 @@ chapter: combat
 title: Grappling
 slug: grappling
 order: 50
-summary: Establish one controller and one held participant with an opposed Unarmed Combat test; escape with another, or use Wrestler for advanced holds.
+summary: Seize with Unarmed Combat; the target spends a Reaction to oppose with Dodge or Parry. Escape an established hold with opposed Unarmed Combat.
 aliases:
   - grapple
   - break free
@@ -15,11 +15,18 @@ aliases:
 
 ## Establish and escape {#establish-and-escape}
 
-Only one controller can hold a target at a time. To seize an adjacent target, spend a Combat Action. The attacker needs at least one free, usable grasping limb. Before the establishment test, they commit one limb and may commit a second, then test Unarmed Combat against the target's choice of Dodge or Parry. Parry uses Close Combat with a ready weapon or shield, or Unarmed Combat with nothing in hand. This opposed test is the whole attack: it spends no Reaction, is not limited by the once-per-round Dodge limit, and calls for no separate Reaction roll.
+Only one controller can hold a target at a time. To seize an adjacent target, spend a Combat Action. The attacker needs at least one free, usable grasping limb. Before the establishment test, they commit one limb and may commit a second.
+
+An aware target may spend **one eligible Reaction** to oppose the attacker's Unarmed Combat with **Dodge or Parry**. Declare and spend the Reaction before rolling the opposed test; that defence roll is the Reaction, not an additional roll after the contest.
+
+- **Dodge:** spends the base Reaction and counts toward the once-per-round Dodge limit.
+- **Parry:** spends an eligible Reaction and uses Close Combat with a ready weapon or shield, or Unarmed Combat with nothing in hand. An extra off-hand Parry follows its normal item restrictions and `-1P`.
+
+If the target is unaware, cannot spend an eligible Reaction, or chooses not to defend, the attacker makes an unopposed Unarmed Combat test. A success establishes the hold; a failure or Fumble does not. No Reaction does not mean an automatic hold.
 
 If the target wins the contest with a successful weapon Parry, the hold fails and the weapon deals the attacker 1 HP ignoring AP. This applies only while trying to establish a hold. A failed weapon Parry that still wins the opposed contest deals no damage; neither does a shield or unarmed Parry.
 
-A failed attempt to establish the hold leaves the attacker's limbs free. If the attacker wins, they are the **controller** and the target is the **held participant**. While the grapple lasts, both participants:
+A failed attempt to establish the hold leaves the attacker's limbs free. If the attacker wins the opposed test or succeeds unopposed, they are the **controller** and the target is the **held participant**. While the grapple lasts, both participants:
 
 - cannot take a Movement Action;
 - suffer `-1P` on every test; and
@@ -35,7 +42,7 @@ The controller cannot release their last committed limb without ending the grapp
 
 ## Escape, release, and assistance {#escape-release-assistance}
 
-Only the controller may release the grapple freely on their own turn. The held participant must escape: spend a Combat Action and win an opposed Unarmed Combat test against the controller. A successful escape, separation, the controller's incapacitation, or loss of their last committed limb ends the grapple. The participants remain adjacent after an ordinary release or escape.
+Only the controller may release the grapple freely on their own turn. The held participant must escape: spend a Combat Action and win an opposed Unarmed Combat test against the controller. Opposing an escape or a Wrestler test within an established hold spends no Reaction; the Reaction cost above applies only to Dodge or Parry against the initial seizure. A successful escape, separation, the controller's incapacitation, or loss of their last committed limb ends the grapple. The participants remain adjacent after an ordinary release or escape.
 
 A target already held by one controller cannot be independently grappled. Adjacent helpers may instead provide ordinary combined Assistance for one grapple test, following the normal [Assistance rules](/rules/skills/#assistance). Each helper commits one usable limb for that test, but a helper never becomes the controller.
 

@@ -1,0 +1,240 @@
+:root {
+  --ink: #171c1d;
+  --bone: #f4efe5;
+  --panel: #e7e0d2;
+  --oxide: #a73e29;
+  --teal: #24595c;
+  --line: #bfb5a4;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: var(--ink);
+  background: var(--bone);
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.spread {
+  display: flex;
+  width: 297mm;
+}
+.sheet {
+  position: relative;
+  width: 148.5mm;
+  height: 210mm;
+  padding: 9mm 12mm 12mm 10mm;
+  background: var(--bone);
+  flex: none;
+}
+.sheet:nth-child(2) {
+  padding-right: 10mm;
+  padding-left: 12mm;
+  box-shadow: inset 0.3mm 0 var(--line);
+}
+.identity {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 0.45mm solid var(--ink);
+  padding-bottom: 1.8mm;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12pt;
+  font-weight: 700;
+  letter-spacing: 0.035em;
+}
+.identity small,
+.section,
+.eyebrow,
+footer {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+}
+.identity small {
+  font-size: 7pt;
+  margin-left: 1mm;
+}
+.section {
+  font-size: 7pt;
+  letter-spacing: 0;
+}
+.eyebrow {
+  margin: 2mm 0 0.5mm;
+  color: var(--oxide);
+  font-size: 8pt;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 2mm 0 1.5mm;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28pt;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+p {
+  margin: 0;
+}
+.player-text {
+  font-size: 11pt;
+  line-height: 1.17;
+}
+.player-text p + p {
+  margin-top: 1.3mm;
+}
+.intro {
+  margin-bottom: 2.4mm;
+  min-height: 25.74pt;
+}
+.scene {
+  margin: 0 0 2.4mm;
+  border-top: 0.5mm solid var(--ink);
+}
+.art-window {
+  position: relative;
+  height: 40mm;
+  overflow: hidden;
+  background: var(--panel);
+}
+.scene img {
+  display: block;
+  width: 100%;
+}
+.ranged-attacks .scene img {
+  position: absolute;
+  top: -0.7mm;
+  left: 0;
+  height: auto;
+}
+.cover-and-defence .scene img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+figcaption {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  background: var(--oxide);
+  color: var(--bone);
+  padding: 1mm 2mm;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12pt;
+  font-weight: 700;
+  letter-spacing: 0.015em;
+}
+.cover-and-defence figcaption {
+  background: var(--teal);
+}
+figcaption strong {
+  font-size: 14pt;
+  line-height: 1;
+}
+.rules {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3mm;
+}
+h2 {
+  margin: 0 0 0.6mm;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 14pt;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+}
+.rule-block {
+  break-inside: avoid;
+}
+.rule-block ul {
+  margin: 0;
+  padding-left: 4mm;
+}
+.rule-block li + li {
+  margin-top: 1mm;
+}
+.worked-shot {
+  padding: 1.4mm;
+  background: var(--panel);
+  border-left: 0.8mm solid var(--oxide);
+}
+.worked-shot h2 {
+  color: var(--oxide);
+}
+.terrain-cover {
+  padding: 1.4mm;
+  background: var(--panel);
+  border-left: 0.8mm solid var(--oxide);
+}
+.terrain-cover h2 {
+  color: var(--oxide);
+}
+.cover-and-defence .dodge h2,
+.cover-and-defence .extra-guard h2,
+.cover-and-defence .dodge .player-text,
+.cover-and-defence .extra-guard .player-text,
+.cover-and-defence .dodge p,
+.cover-and-defence .extra-guard p {
+  display: inline;
+}
+.cover-and-defence .dodge h2::after,
+.cover-and-defence .extra-guard h2::after {
+  content: '. ';
+}
+footer {
+  position: absolute;
+  bottom: 6.5mm;
+  left: 10mm;
+  right: 12mm;
+  border-top: 0.3mm solid var(--ink);
+  padding-top: 1.4mm;
+  display: flex;
+  justify-content: space-between;
+  font-size: 6.7pt;
+}
+.sheet:nth-child(2) footer {
+  left: 12mm;
+  right: 10mm;
+}
+.aim-label {
+  position: absolute;
+  top: 1mm;
+  left: 1.5mm;
+  padding: 0.6mm 1.3mm;
+  color: var(--bone);
+  background: var(--teal);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 12pt;
+  font-weight: 700;
+  line-height: 1;
+}
+@page {
+  size: 148.5mm 210mm;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    width: 148.5mm;
+  }
+  .spread {
+    display: block;
+    width: 148.5mm;
+  }
+  .sheet {
+    break-after: page;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .sheet:last-child {
+    break-after: auto;
+  }
+  .sheet:nth-child(2) {
+    box-shadow: none;
+  }
+}

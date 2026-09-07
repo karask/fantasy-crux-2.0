@@ -17,6 +17,8 @@ Roll `D100` against **Close Combat** for a held weapon, **Unarmed Combat** for a
 
 After a hit, an aware defender may spend an eligible Reaction before damage is resolved. A failed Reaction changes nothing. Only one Reaction may answer a single attack or trigger, even when a character has more than one available. Compare critical results using the [combat result matrix](/rules/combat/#critical-hits-and-fumbles).
 
+[Grappling](/rules/combat/#grappling) instead uses one opposed test. Dodge or Parry against the initial seizure still spends one eligible Reaction and follows the normal Dodge limit; the defence roll is part of the contest, not a second defence roll afterward.
+
 ## Reactions
 
 - **Dodge:** roll Dodge. An ordinary success avoids an ordinary hit. Ranged attacks impose `-1P`. A character may Dodge no more than once per round, and only with their base Reaction.

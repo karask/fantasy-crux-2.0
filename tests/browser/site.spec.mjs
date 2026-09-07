@@ -28,7 +28,8 @@ test('home and primary rules navigation work at the target width', async ({ page
   await expect(page.locator('.chapter-nav a').nth(8)).toContainText('GM Tools');
   await expect(page.locator('.chapter-nav a').nth(9)).toContainText('Creatures');
   await expect(page.locator('.chapter-nav a').nth(10)).toContainText('Gazetteer');
-  await expect(page.locator('.chapter-nav a').nth(11)).toContainText('License');
+  await expect(page.locator('.chapter-nav a').nth(11)).toContainText('Downloads');
+  await expect(page.locator('.chapter-nav a').nth(12)).toContainText('License');
   await expectNoHorizontalOverflow(page);
 
   await page.goto('/rules/combat/#off-hand-options');

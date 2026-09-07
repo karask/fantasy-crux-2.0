@@ -116,6 +116,28 @@ describe('approved Talent rebalance', () => {
 });
 
 describe('base Grapple state machine', () => {
+  it('charges the initial defence Reaction and defines an undefended attempt', () => {
+    const text = recordById('combat.grappling').content;
+    const initial = text.split('## Limbs and Leverage')[0];
+
+    expect(initial).toMatch(/aware target[^.]*spend \*\*one eligible Reaction\*\*/i);
+    expect(initial).toMatch(/spend the Reaction before rolling the opposed test/i);
+    expect(initial).toMatch(/Dodge:\*\* spends the base Reaction[^.]*once-per-round Dodge limit/i);
+    expect(initial).toMatch(/Parry:\*\* spends an eligible Reaction/i);
+    expect(initial).toMatch(/off-hand Parry[^.]*normal item restrictions[^.]*-1P/i);
+    expect(initial).toMatch(
+      /unaware[^.]*cannot spend[^.]*chooses not[^.]*unopposed Unarmed Combat/i,
+    );
+    expect(initial).toMatch(/success establishes the hold[^.]*failure or Fumble does not/i);
+    expect(initial).not.toMatch(/spends? no Reaction|not limited by the once-per-round Dodge/i);
+    expect(text).toMatch(/Opposing an escape or a Wrestler test[^.]*spends no Reaction/i);
+
+    const reactions = recordById('combat.attacks-and-reactions').content;
+    expect(reactions).toMatch(
+      /initial seizure[^.]*spends one eligible Reaction[^.]*normal Dodge limit/i,
+    );
+  });
+
   it('distinguishes one controller from the held participant and accounts for limbs', () => {
     const grapple = recordById('combat.grappling');
     expect(grapple).toBeDefined();

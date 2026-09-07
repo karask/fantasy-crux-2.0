@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="An illustrated Fantasy Crux player reference for partial, substantial, and complete terrain cover." />
+    <title>{{ title }} — Fantasy Crux Player Handbook</title>
+    <style>{{ fonts | safe }}{{ css | safe }}</style>
+  </head>
+  <body>
+    <main class="handbook-page" aria-labelledby="page-title">
+      <header class="page-header">
+        <div class="identity-line">
+          <span class="identity"><img src="{{ brand }}" alt="" />FANTASY CRUX <span class="edition">2.0</span></span>
+          <span class="section-name">PLAYER HANDBOOK <span aria-hidden="true">/</span> {{ section | upper }}</span>
+        </div>
+        <div class="title-line">
+          <h1 id="page-title">{{ title }}</h1>
+          <span class="chapter-number" aria-label="Page {{ page }}">{{ page }}</span>
+        </div>
+        <p class="takeaway">{{ introduction }}</p>
+      </header>
+
+      <section class="hero-example" aria-labelledby="partial-title">
+        <div class="art-frame hero-art">
+          <img class="art-master" src="{{ artwork }}" alt="Corin aims his shortbow from open ground at a soldier whose lower body is protected by a low stone wall. The soldier's head and upper torso remain exposed." />
+          <div class="shot-badge" data-check-bounds>
+            <span>{{ partial.action }}</span><strong>{{ partial.modifier }}</strong>
+          </div>
+          <div class="cover-label" data-check-bounds>{{ partial.title | upper }}</div>
+          <svg class="annotations" viewBox="0 0 1096 546" fill="none" aria-hidden="true">
+            <path class="leader" d="M68 72 L68 110 L96 159" />
+            <circle class="leader-dot" cx="96" cy="159" r="4" />
+            <path class="leader" d="M923 441 L923 391 L894 364" />
+            <circle class="leader-dot" cx="894" cy="364" r="4" />
+          </svg>
+        </div>
+        <div class="hero-caption">
+          <div class="example-title"><span class="example-index">01</span><h2 id="partial-title">{{ partial.title }}</h2></div>
+          <p>{{ partial.caption }}</p>
+        </div>
+      </section>
+
+      <div class="comparison-pair">
+        <section class="small-example" aria-labelledby="substantial-title">
+          <div class="art-frame small-art substantial-art">
+            <img class="art-master" src="{{ artwork }}" alt="The same archer faces high stone battlements. Only the soldier's helmeted head and a small shoulder area remain exposed between the merlons." />
+            <div class="small-shot-badge" data-check-bounds><span>{{ substantial.action }}</span><strong>{{ substantial.modifier }}</strong></div>
+          </div>
+          <div class="small-caption">
+            <div class="example-title"><span class="example-index">02</span><h2 id="substantial-title">{{ substantial.title }}</h2></div>
+            <p>{{ substantial.caption }}</p>
+          </div>
+        </section>
+        <section class="small-example" aria-labelledby="complete-title">
+          <div class="art-frame small-art complete-art">
+            <img class="art-master" src="{{ artwork }}" alt="The archer's view is blocked by a tall, solid masonry wall. The target is fully hidden behind the wall." />
+            <div class="no-attack-badge" data-check-bounds><span class="blocked-mark" aria-hidden="true">×</span>{{ complete.label }}</div>
+          </div>
+          <div class="small-caption">
+            <div class="example-title"><span class="example-index">03</span><h2 id="complete-title">{{ complete.title }}</h2></div>
+            <p>{{ complete.caption }}</p>
+          </div>
+        </section>
+      </div>
+
+      <aside class="remember" aria-label="Remember">
+        <span class="remember-label">REMEMBER</span>
+        <p>{{ reminder }}</p>
+      </aside>
+      <footer class="page-footer">
+        <span>CORE MUNDANE RULES <span aria-hidden="true">·</span> 2.0 BETA</span>
+        <span class="review-label">REVIEW 01</span>
+        <span class="folio">{{ page }}</span>
+      </footer>
+    </main>
+  </body>
+</html>

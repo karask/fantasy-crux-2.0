@@ -1,0 +1,195 @@
+:root {
+  --ink: #171c1d;
+  --bone: #f4efe5;
+  --panel: #e7e0d2;
+  --oxide: #a73e29;
+  --teal: #24595c;
+  --line: #bfb5a4;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #d7d0c4;
+  color: var(--ink);
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8mm;
+  padding: 8mm;
+}
+.card {
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  overflow: hidden;
+  background: var(--bone);
+  padding: 12mm 12mm 11mm;
+  box-shadow: 0 2mm 7mm #0003;
+}
+.identity {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  border-bottom: 0.5mm solid var(--ink);
+  padding-bottom: 2mm;
+  font:
+    700 17pt 'Barlow Condensed',
+    sans-serif;
+  letter-spacing: 0.02em;
+}
+.identity small,
+footer {
+  font:
+    500 7.5pt 'IBM Plex Mono',
+    monospace;
+}
+.identity .side {
+  font-size: 10pt;
+}
+h1 {
+  margin: 4mm 0 0;
+  font:
+    700 34pt/1 'Barlow Condensed',
+    sans-serif;
+  text-transform: uppercase;
+}
+.subtitle {
+  margin: 1mm 0 4mm;
+  font-size: 13pt;
+  font-weight: 700;
+}
+.rules {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 2.5mm;
+}
+.rule-column {
+  min-width: 0;
+}
+.rule {
+  display: block;
+  width: 100%;
+  break-inside: avoid;
+  background: #fff8;
+  border-top: 0.8mm solid var(--teal);
+  padding: 2mm 2.4mm 2.2mm;
+  margin-bottom: 2.5mm;
+}
+.rule h2 {
+  margin: 0 0 1mm;
+  font:
+    700 16pt/1 'Barlow Condensed',
+    sans-serif;
+  text-transform: uppercase;
+}
+.rule:last-child {
+  margin-bottom: 0;
+}
+.rule p,
+.rule li {
+  font-size: 10pt;
+  line-height: 1.14;
+}
+.rule p {
+  margin: 0 0 1.2mm;
+}
+.rule p:last-child {
+  margin-bottom: 0;
+}
+.rule ul,
+.rule ol {
+  margin: 0;
+  padding-left: 5mm;
+}
+.rule li + li {
+  margin-top: 0.5mm;
+}
+.rule strong {
+  font-weight: 700;
+}
+.rule code {
+  font: inherit;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.8mm 0 1.2mm;
+  table-layout: fixed;
+}
+th,
+td {
+  border-bottom: 0.25mm solid var(--line);
+  padding: 1mm 1.2mm;
+  vertical-align: top;
+  font-size: 9.5pt;
+  line-height: 1.12;
+}
+th {
+  background: var(--ink);
+  color: var(--bone);
+  text-align: left;
+  font-weight: 700;
+}
+th:first-child,
+td:first-child {
+  width: 30%;
+}
+.start-here,
+.start-combat,
+.attack-and-defend {
+  border-color: var(--oxide);
+}
+.spend-a-hero-point,
+.wounds-and-hp {
+  background: var(--panel);
+  border-color: var(--oxide);
+}
+.position-yourself th:first-child,
+.position-yourself td:first-child {
+  width: 69%;
+}
+.parry-and-ordinary-damage th:first-child,
+.parry-and-ordinary-damage td:first-child {
+  width: 63%;
+}
+footer {
+  position: absolute;
+  left: 12mm;
+  right: 12mm;
+  bottom: 6mm;
+  border-top: 0.3mm solid var(--ink);
+  padding-top: 1.5mm;
+  display: flex;
+  justify-content: space-between;
+}
+@page {
+  size: A4 portrait;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    width: 210mm;
+    background: var(--bone);
+  }
+  .book {
+    display: block;
+    padding: 0;
+  }
+  .card {
+    box-shadow: none;
+    break-after: page;
+  }
+  .card:last-child {
+    break-after: auto;
+  }
+}

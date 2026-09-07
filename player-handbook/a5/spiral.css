@@ -1,0 +1,19 @@
+/* Native A5 spiral layout. These are working clearances, not a hole template. */
+.spiral .sheet {
+  padding-right: 15mm;
+}
+.spiral .sheet:nth-child(2) {
+  padding-right: 10mm;
+  padding-left: 15mm;
+  box-shadow: none;
+}
+.spiral .sheet footer {
+  right: 15mm;
+}
+.spiral .sheet:nth-child(2) footer {
+  left: 15mm;
+  right: 10mm;
+}
+.spiral .art-window {
+  height: 37mm;
+}

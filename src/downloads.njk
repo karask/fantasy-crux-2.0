@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+title: Downloads
+summary: Printable Fantasy Crux reference cards and resources for your table.
+bodyClass: downloads-page
+order: DL
+permalink: /downloads/index.html
+eleventyExcludeFromCollections: true
+---
+<div class="page-surface page-surface--wide">
+  <h1>Downloads</h1>
+  <div class="download-list">
+    {% for download in downloads %}
+      <section class="download-card" aria-labelledby="{{ download.id }}">
+        <div>
+          <p class="download-format">{{ download.format }} · {{ download.pages }}</p>
+          <h2 id="{{ download.id }}">{{ download.title }}</h2>
+          <p>{{ download.description }}</p>
+          <p>{{ download.print }}</p>
+        </div>
+        <a class="button button--primary" href="/downloads/{{ download.filename }}" download="{{ download.filename }}" type="application/pdf" aria-label="Download {{ download.title }} PDF">Download PDF</a>
+      </section>
+    {% endfor %}
+  </div>
+</div>

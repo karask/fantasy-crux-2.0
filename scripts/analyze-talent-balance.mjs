@@ -761,8 +761,12 @@ ${markdownTable(['Equal skill', 'Attacker -1P', 'Attacker none', 'Attacker +1B']
 
 ## Grapple and action-economy context
 
-An equal-skill initial grapple uses the middle opposed column above. Once held, both participants
-suffer -1P. With equal limb commitment, the escaping attacker therefore faces -1P versus -1P.
+An equal-skill initial grapple uses the middle opposed column above when the target spends an
+eligible Reaction to defend. Dodge uses the base Reaction and its once-per-round limit; Parry
+uses an eligible Reaction. With no defence Reaction, use the attacker's unopposed success chance
+instead. Opposing escape or Wrestler tests within an established hold costs no Reaction.
+Once held, both participants suffer -1P. With equal limb commitment, the escaping attacker
+therefore faces -1P versus -1P.
 A second committed limb cancels its owner's grapple penalty: if only the held participant commits
 it, use none versus -1P; if only the controller commits it, use -1P versus none.
 

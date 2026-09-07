@@ -16,6 +16,8 @@ const required = [
   'rules/creatures/index.html',
   'rules/gazetteer/index.html',
   'license/index.html',
+  'downloads/index.html',
+  'downloads/fantasy-crux-player-reference-cards.pdf',
   'search/index.html',
   'pagefind/pagefind.js',
 ];

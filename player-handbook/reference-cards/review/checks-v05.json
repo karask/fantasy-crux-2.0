@@ -1,0 +1,161 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "footerGapMm": 8.350911458333334,
+      "columns": [
+        {
+          "footerGapMm": 8.350911458333334,
+          "blocks": [
+            {
+              "title": "Start here",
+              "heightMm": 37.227701822916664
+            },
+            {
+              "title": "Read a D100 roll",
+              "heightMm": 62.181217447916666
+            },
+            {
+              "title": "Bonus and Penalty dice",
+              "heightMm": 40.95667317708333
+            },
+            {
+              "title": "Opposed tests",
+              "heightMm": 37.930501302083336
+            },
+            {
+              "title": "Help and prepare",
+              "heightMm": 40.95667317708333
+            }
+          ]
+        },
+        {
+          "footerGapMm": 21.799186197916665,
+          "blocks": [
+            {
+              "title": "Resist and fight",
+              "heightMm": 38.219889322916664
+            },
+            {
+              "title": "Know",
+              "heightMm": 29.190983072916662
+            },
+            {
+              "title": "Act",
+              "heightMm": 74.33551432291667
+            },
+            {
+              "title": "Spend a Hero Point",
+              "heightMm": 66.55511067708332
+            }
+          ]
+        }
+      ],
+      "minPt": 9.500025,
+      "problems": []
+    },
+    {
+      "page": 2,
+      "footerGapMm": 6.519498697916666,
+      "columns": [
+        {
+          "footerGapMm": 6.519498697916666,
+          "blocks": [
+            {
+              "title": "Start combat",
+              "heightMm": 40.95667317708333
+            },
+            {
+              "title": "On your turn",
+              "heightMm": 69.68876953125
+            },
+            {
+              "title": "Movement choices",
+              "heightMm": 89.25139973958332
+            },
+            {
+              "title": "Intimidate",
+              "heightMm": 23.684342447916666
+            }
+          ]
+        },
+        {
+          "footerGapMm": 7.87548828125,
+          "blocks": [
+            {
+              "title": "Position yourself",
+              "heightMm": 69.95335286458332
+            },
+            {
+              "title": "Ranged choices",
+              "heightMm": 50.192285156249994
+            },
+            {
+              "title": "Ready and reload",
+              "heightMm": 47.86891276041666
+            },
+            {
+              "title": "Grapple",
+              "heightMm": 54.21064453125
+            }
+          ]
+        }
+      ],
+      "minPt": 9.500025,
+      "problems": []
+    },
+    {
+      "page": 3,
+      "footerGapMm": 7.052799479166666,
+      "columns": [
+        {
+          "footerGapMm": 7.052799479166666,
+          "blocks": [
+            {
+              "title": "Attack and defend",
+              "heightMm": 86.69651692708332
+            },
+            {
+              "title": "Parry and ordinary damage",
+              "heightMm": 71.41682942708333
+            },
+            {
+              "title": "Critical attacks",
+              "heightMm": 67.43154296875
+            }
+          ]
+        },
+        {
+          "footerGapMm": 18.68206380208333,
+          "blocks": [
+            {
+              "title": "Your other hand",
+              "heightMm": 61.544563802083324
+            },
+            {
+              "title": "Wounds and 0 HP",
+              "heightMm": 54.70673828125
+            },
+            {
+              "title": "Stabilise someone",
+              "heightMm": 36.938313802083336
+            },
+            {
+              "title": "Treat injuries and rest",
+              "heightMm": 58.22900390625
+            }
+          ]
+        }
+      ],
+      "minPt": 9.500025,
+      "problems": []
+    }
+  ],
+  "prohibitedSections": [
+    "equipment tables",
+    "licence",
+    "character creation",
+    "advancement",
+    "GM procedures"
+  ]
+}

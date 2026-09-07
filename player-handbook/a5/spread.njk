@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fantasy Crux - A5 ranged-combat spread</title>
+    <style>{{ fonts | safe }}{{ css | safe }}</style>
+  </head>
+  <body class="{{ binding }}">
+    <main class="spread" aria-label="Two-page A5 handbook review spread">
+      {% for item in pages %}
+      <article class="sheet {{ item.id }}" data-binding-edge="{{ item.bindingEdge }}" aria-labelledby="{{ item.id }}-title">
+        <header>
+          <div class="identity"><span>FANTASY CRUX <small>2.0</small></span><span class="section">RANGED / {{ item.role }}</span></div>
+          <h1 id="{{ item.id }}-title">{{ item.title }}</h1>
+          <div class="intro player-text">{{ item.intro | safe }}</div>
+        </header>
+        <figure class="scene">
+          <div class="art-window"><img src="{{ item.art }}" alt="{{ item.alt }}" />{% if item.aimLabel %}<span class="aim-label">{{ item.aimLabel }}</span>{% endif %}</div>
+          <figcaption><span>{{ item.artLabel }}</span><strong>{{ item.artModifier }}</strong></figcaption>
+        </figure>
+        <div class="rules">
+          {% for section in item.sections %}
+          <section class="rule-block {{ section.className }}" aria-labelledby="{{ item.id }}-{{ loop.index }}">
+            <h2 id="{{ item.id }}-{{ loop.index }}">{{ section.title }}</h2>
+            <div class="player-text">{{ section.html | safe }}</div>
+          </section>
+          {% endfor %}
+        </div>
+        <footer><span>PLAYER HANDBOOK / 2.0 BETA</span><span>{{ proofLabel }} {{ item.proofFolio }}</span></footer>
+      </article>
+      {% endfor %}
+    </main>
+  </body>
+</html>

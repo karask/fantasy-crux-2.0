@@ -5,6 +5,7 @@ import markdownItAttrs from 'markdown-it-attrs';
 import markdownItDeflist from 'markdown-it-deflist';
 import markdownItFootnote from 'markdown-it-footnote';
 import * as pagefind from 'pagefind';
+import downloads from './src/_data/downloads.mjs';
 
 const byOrder = (left, right) =>
   (left.data.order ?? 999) - (right.data.order ?? 999) ||
@@ -48,6 +49,12 @@ export default function configure(eleventyConfig) {
   eleventyConfig.addWatchTarget('art/library/chapters/');
   eleventyConfig.addPassthroughCopy('CNAME');
   eleventyConfig.addPassthroughCopy({ 'src/assets': 'assets' });
+  for (const download of downloads) {
+    eleventyConfig.addPassthroughCopy({
+      [download.source]: `downloads/${download.filename}`,
+    });
+    eleventyConfig.addWatchTarget(download.source);
+  }
   eleventyConfig.addPassthroughCopy({
     'node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-600-normal.woff2':
       'assets/fonts/barlow-condensed-600.woff2',

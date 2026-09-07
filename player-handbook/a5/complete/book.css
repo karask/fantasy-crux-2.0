@@ -1,0 +1,647 @@
+:root {
+  --ink: #171c1d;
+  --bone: #f4efe5;
+  --panel: #e7e0d2;
+  --oxide: #a73e29;
+  --teal: #24595c;
+  --line: #bfb5a4;
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: var(--ink);
+  background: #bbb5aa;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+.book {
+  display: grid;
+  grid-template-columns: repeat(2, 148.5mm);
+  gap: 6mm;
+  padding: 6mm;
+  width: max-content;
+}
+.sheet {
+  position: relative;
+  width: 148.5mm;
+  height: 210mm;
+  padding: 9mm 10mm 13mm 15mm;
+  background: var(--bone);
+}
+.sheet.even {
+  padding-left: 10mm;
+  padding-right: 15mm;
+}
+.identity {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 0.45mm solid var(--ink);
+  padding-bottom: 1.8mm;
+  font:
+    700 12pt 'Barlow Condensed',
+    sans-serif;
+  letter-spacing: 0.035em;
+}
+.identity small,
+.section,
+footer {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 7pt;
+  letter-spacing: 0;
+}
+.identity small {
+  margin-left: 1mm;
+}
+h1,
+h2,
+.diagram-card strong,
+figcaption,
+.diagram-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+}
+h1 {
+  margin: 2mm 0 1.5mm;
+  font-size: 28pt;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+h2 {
+  margin: 0 0 0.7mm;
+  font-size: 14pt;
+  line-height: 1;
+  text-transform: uppercase;
+  break-after: avoid;
+}
+p {
+  margin: 0;
+}
+.player-text,
+.rules {
+  font-size: 11pt;
+  line-height: 1.17;
+}
+.lead {
+  margin-bottom: 2.4mm;
+}
+.rules {
+  display: flex;
+  flex-direction: column;
+  gap: 1.7mm;
+}
+.rule-block {
+  break-inside: avoid;
+}
+.rule-block p + p {
+  margin-top: 1.3mm;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 4mm;
+}
+li + li {
+  margin-top: 1mm;
+}
+code {
+  font: inherit;
+}
+.scene {
+  margin: 0 0 2.4mm;
+  border-top: 0.45mm solid var(--ink);
+}
+.art-window {
+  height: 30mm;
+  overflow: hidden;
+  background: var(--panel);
+  position: relative;
+}
+.scene img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+}
+figcaption {
+  background: var(--oxide);
+  color: var(--bone);
+  padding: 1mm 1.6mm;
+  font-size: 11pt;
+  line-height: 1.1;
+  display: flex;
+  gap: 3mm;
+  justify-content: space-between;
+}
+figcaption span {
+  flex: 1;
+}
+figcaption span + span {
+  background: var(--teal);
+  margin: -1mm -1.6mm -1mm 0;
+  padding: 1mm 1.6mm;
+}
+.diagram {
+  padding: 2mm;
+  background: var(--panel);
+  margin: 0 0 2.4mm;
+  border-top: 0.65mm solid var(--teal);
+  break-inside: avoid;
+}
+.diagram-row {
+  display: flex;
+  align-items: stretch;
+  gap: 1.7mm;
+}
+.diagram-row + .diagram-row {
+  margin-top: 2mm;
+}
+.diagram-card {
+  flex: 1;
+  padding: 1.3mm;
+  border-left: 0.6mm solid var(--line);
+  min-width: 0;
+}
+.diagram-card span {
+  display: block;
+  font:
+    700 10pt 'Barlow Condensed',
+    sans-serif;
+  line-height: 1.05;
+}
+.diagram-card strong {
+  display: block;
+  font-size: 16pt;
+  line-height: 1.03;
+  margin-top: 0.7mm;
+}
+.diagram-card.good {
+  border-color: var(--teal);
+}
+.diagram-card.bad {
+  border-color: var(--oxide);
+}
+.diagram-card.good strong {
+  color: var(--teal);
+}
+.diagram-card.bad strong {
+  color: var(--oxide);
+}
+.diagram-title {
+  font-size: 11pt;
+  line-height: 1.1;
+  margin-bottom: 1.7mm;
+}
+.diagram-note {
+  font-size: 11pt;
+  line-height: 1.13;
+  margin-top: 1.5mm;
+}
+.die {
+  text-align: center;
+  flex: 1;
+}
+.die span {
+  display: block;
+  font:
+    700 11pt 'Barlow Condensed',
+    sans-serif;
+}
+.die b {
+  display: block;
+  width: 15mm;
+  margin: 1mm auto;
+  padding: 1mm;
+  border: 1mm solid var(--ink);
+  font:
+    500 22pt 'IBM Plex Mono',
+    monospace;
+}
+.dice-example .diagram-row:first-child {
+  align-items: center;
+}
+.dice-example .diagram-row:first-child .diagram-card strong {
+  font-size: 38pt;
+}
+.dice .diagram {
+  padding: 3mm;
+  margin-bottom: 3mm;
+}
+.or {
+  align-self: center;
+  color: var(--oxide);
+  font:
+    700 16pt 'Barlow Condensed',
+    sans-serif;
+}
+.position-diagram svg {
+  display: block;
+  width: 100%;
+  height: 17mm;
+}
+footer {
+  position: absolute;
+  bottom: 6.5mm;
+  left: 15mm;
+  right: 10mm;
+  border-top: 0.3mm solid var(--ink);
+  padding-top: 1.4mm;
+  display: flex;
+  justify-content: space-between;
+  font-size: 6.7pt;
+}
+.even footer {
+  left: 10mm;
+  right: 15mm;
+}
+.character .scene {
+  float: right;
+  width: 38mm;
+  margin: 0 0 2mm 4mm;
+}
+.character .art-window {
+  height: 48mm;
+}
+.character .scene img {
+  object-position: center 10%;
+}
+.character .scene figcaption {
+  font-size: 10pt;
+}
+.character .rules {
+  display: block;
+}
+.character .rule-block {
+  margin-bottom: 2mm;
+}
+.character .rule-block:nth-child(2) {
+  clear: both;
+}
+.character .rule-block:last-child {
+  background: var(--panel);
+  padding: 2mm;
+  border-left: 0.7mm solid var(--teal);
+}
+.skills .art-window {
+  height: 17mm;
+}
+.skills .scene img {
+  object-position: center 65%;
+}
+.skills .rules {
+  display: block;
+  columns: 2;
+  column-gap: 5mm;
+}
+.skills .rule-block {
+  break-inside: auto;
+  margin-bottom: 2mm;
+}
+.skills li {
+  break-inside: avoid;
+  margin-top: 0.8mm;
+}
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+.sequence .art-window,
+.defence .art-window,
+.intimidate .art-window {
+  height: 23mm;
+}
+.sequence .scene img,
+.intimidate .scene img {
+  object-position: center 32%;
+}
+.defence .art-window {
+  height: 26mm;
+}
+.defence .diagram-card strong {
+  font-size: 14pt;
+}
+.offhand .art-window,
+.movement .art-window {
+  height: 45mm;
+  background: var(--bone);
+}
+.offhand .scene img,
+.movement .scene img {
+  object-fit: contain;
+}
+.offhand figcaption,
+.movement figcaption {
+  font-size: 10pt;
+}
+.grapple .art-window {
+  height: 28mm;
+}
+.grapple .scene img {
+  object-position: center 35%;
+}
+.grapple .rules,
+.recovery .rules,
+.compact .rules {
+  gap: 1.4mm;
+}
+.wounds .art-window {
+  height: 27mm;
+}
+.wounds .scene img {
+  object-position: center 47%;
+}
+.wounds .diagram-card strong {
+  font-size: 14pt;
+}
+.outcomes .diagram {
+  padding: 2mm;
+  margin: 2mm 0;
+}
+.outcomes .diagram-card strong {
+  font-size: 24pt;
+}
+.outcomes .rule-block:nth-child(2),
+.outcomes .rule-block:nth-child(3) {
+  padding: 1.4mm;
+  background: var(--panel);
+  border-left: 0.9mm solid var(--teal);
+}
+.outcomes .rule-block:nth-child(3) {
+  border-color: var(--oxide);
+}
+.ranged-attacks .art-window,
+.cover-and-defence .art-window {
+  height: 37mm;
+}
+.ranged-attacks .scene img {
+  position: absolute;
+  top: -0.7mm;
+  height: auto;
+}
+.cover-and-defence .scene img {
+  object-position: center 20%;
+}
+.cover-and-defence figcaption {
+  background: var(--teal);
+}
+.aim-label {
+  position: absolute;
+  top: 1mm;
+  left: 1.5mm;
+  background: var(--teal);
+  color: var(--bone);
+  padding: 0.6mm 1.3mm;
+  font:
+    700 12pt 'Barlow Condensed',
+    sans-serif;
+}
+.worked-shot,
+.terrain-cover {
+  padding: 1.4mm;
+  background: var(--panel);
+  border-left: 0.8mm solid var(--oxide);
+}
+.worked-shot h2,
+.terrain-cover h2 {
+  color: var(--oxide);
+}
+.cover-and-defence .dodge h2,
+.cover-and-defence .extra-guard h2,
+.cover-and-defence .dodge p,
+.cover-and-defence .extra-guard p {
+  display: inline;
+}
+.cover-and-defence .dodge h2::after,
+.cover-and-defence .extra-guard h2::after {
+  content: '. ';
+}
+.ranged-attacks .rules,
+.cover-and-defence .rules {
+  gap: 1.3mm;
+}
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+  font-size: 10pt;
+  line-height: 1.08;
+  margin: 0 0 2.4mm;
+}
+th {
+  background: var(--ink);
+  color: var(--bone);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 700;
+  text-align: left;
+}
+td,
+th {
+  padding: 1.1mm 0.65mm;
+  border-bottom: 0.2mm solid var(--line);
+  vertical-align: middle;
+  overflow-wrap: normal;
+}
+tbody tr:nth-child(even) {
+  background: var(--panel);
+}
+tbody td:first-child {
+  font-weight: 700;
+}
+.table-close col:nth-child(1) {
+  width: 24%;
+}
+.table-close col:nth-child(2) {
+  width: 16%;
+}
+.table-close col:nth-child(3) {
+  width: 12%;
+}
+.table-close col:nth-child(4) {
+  width: 13%;
+}
+.table-close col:nth-child(5) {
+  width: 7%;
+}
+.table-close col:nth-child(6) {
+  width: 13%;
+}
+.table-close col:nth-child(7) {
+  width: 15%;
+}
+.table-ranged col:nth-child(1) {
+  width: 21%;
+}
+.table-ranged col:nth-child(2) {
+  width: 14%;
+}
+.table-ranged col:nth-child(3) {
+  width: 11%;
+}
+.table-ranged col:nth-child(4) {
+  width: 14%;
+}
+.table-ranged col:nth-child(5) {
+  width: 11%;
+}
+.table-ranged col:nth-child(6) {
+  width: 6%;
+}
+.table-ranged col:nth-child(7) {
+  width: 12%;
+}
+.table-ranged col:nth-child(8) {
+  width: 11%;
+}
+.table-armour col:first-child {
+  width: 40%;
+}
+.equipment .art-window {
+  height: 18mm;
+}
+.launchers .art-window,
+.thrown .art-window {
+  height: 26mm;
+}
+.armour .art-window {
+  height: 37mm;
+}
+.equipment .scene img,
+.launchers .scene img,
+.thrown .scene img {
+  object-position: center 63%;
+}
+.armour .scene img {
+  object-position: center 32%;
+}
+.armour figcaption {
+  font-size: 10pt;
+}
+.cover .identity {
+  border-color: var(--bone);
+}
+.cover {
+  color: var(--bone);
+  background: var(--ink);
+}
+.cover h1 {
+  font-size: 40pt;
+  margin-top: 4mm;
+}
+.cover .cover-subtitle {
+  font:
+    700 19pt 'Barlow Condensed',
+    sans-serif;
+  margin-bottom: 2mm;
+}
+.cover .cover-edition {
+  font:
+    500 8pt 'IBM Plex Mono',
+    monospace;
+  margin-bottom: 3mm;
+}
+.cover .cover-art {
+  width: 100%;
+  height: 113mm;
+  object-fit: cover;
+  object-position: center 25%;
+  border-top: 1mm solid var(--oxide);
+}
+.cover .cover-copy {
+  margin-top: 3mm;
+  font-size: 11pt;
+  line-height: 1.2;
+}
+.cover footer {
+  border-color: var(--bone);
+}
+.movement .art-window {
+  height: 38mm;
+}
+.intimidate .art-window {
+  height: 55mm;
+}
+.intimidate .scene img {
+  object-position: center 13%;
+}
+.thrown .art-window {
+  height: 18mm;
+}
+.armour .art-window {
+  height: 22mm;
+}
+.positions .art-window {
+  height: 22mm;
+}
+.positions .scene img {
+  object-position: center 37%;
+}
+.recovery .rule-block:last-child {
+  border-left: 0.8mm solid var(--teal);
+  padding-left: 2mm;
+}
+.character .art-window {
+  height: 35mm;
+}
+.dice .diagram {
+  padding: 2mm;
+}
+.dice .rules {
+  gap: 1mm;
+}
+.dice-example .diagram-row:first-child .diagram-card strong {
+  font-size: 30pt;
+}
+.movement .art-window {
+  height: 33mm;
+}
+.movement .rules {
+  gap: 1.2mm;
+}
+.movement .rule-block p + p {
+  margin-top: 0.5mm;
+}
+.positions .rules {
+  gap: 1.2mm;
+}
+.wounds .art-window {
+  height: 25mm;
+}
+.offhand .art-window {
+  height: 49mm;
+}
+.offhand .scene img {
+  object-fit: cover;
+  object-position: center 45%;
+}
+@page {
+  size: 148.5mm 210mm;
+  margin: 0;
+}
+@media print {
+  html,
+  body {
+    width: 148.5mm;
+    background: var(--bone);
+  }
+  .book {
+    display: block;
+    padding: 0;
+    width: 148.5mm;
+  }
+  .sheet {
+    break-after: page;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  .sheet:last-child {
+    break-after: auto;
+  }
+}

@@ -1324,6 +1324,43 @@ tbody tr:last-child td {
   background: #7f2c1d;
 }
 
+.download-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.download-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: clamp(1.2rem, 3vw, 2rem);
+  border-top: 4px solid var(--oxide);
+  background: var(--bone-light);
+}
+
+.download-card > div {
+  flex: 1 1 24rem;
+  min-width: 0;
+}
+
+.download-card h2 {
+  margin-top: 0.5rem;
+}
+
+.download-card .download-format {
+  margin: 0;
+  color: var(--oxide);
+  font-family: var(--mono);
+  font-size: 0.875rem;
+}
+
+.download-card .button {
+  font-size: 0.875rem;
+}
+
 .search-status {
   margin-top: 1.2rem;
   color: #586360;

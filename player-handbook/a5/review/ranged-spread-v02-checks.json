@@ -1,0 +1,77 @@
+{
+  "pages": [
+    {
+      "id": "sheet ranged-attacks",
+      "widthMm": 148.49739583333334,
+      "heightMm": 209.996484375,
+      "minBodyPt": 11.000025,
+      "bindingEdge": "right",
+      "bindingClearanceMm": 14.998567708333331,
+      "footerGapMm": 6.2383789062499995,
+      "problems": [],
+      "copyFragments": [
+        "Take the Shot",
+        "Spend a Combat Action and test Ranged Combat. Cover modifies this roll; the defender reacts only after a hit.",
+        "AIM +1B",
+        "LOW WALL: ATTACK",
+        "-1P",
+        "Range",
+        "Up to listed Range (R): normal. Beyond R through 2R: -2P. Beyond 2R: no shot. Shortbow: R = 75 m; 2R = 150 m.",
+        "Aim",
+        "Spend a Combat Action aiming at one visible target: +1B to your next ranged attack against it. Lose Aim on any Reaction, loss of sight, or failure to shoot with your next Combat Action.",
+        "Damage and close use",
+        "Thrown weapons add DM and keep their listed Size. Bows, crossbows, and slings add no DM; their projectiles are Light. Within 2 m, a Close-tagged ranged weapon can use Close Combat and its listed damage. Without that tag, it is an improvised Light club: 1D6 + DM, attacking at -1P.",
+        "Shooting into a crowd",
+        "Apply cover normally. An ordinary failure misses. Only a Fumble may hit a fairly or randomly selected nearby target: normal rolled damage, then armour.",
+        "Worked shot",
+        "Aim +1B and a low wall -1P cancel. Roll normally. If the attack hits, resolve the defender's Reaction separately.",
+        "PLAYER HANDBOOK / 2.0 BETA",
+        "SPIRAL PROOF 02"
+      ],
+      "fullText": "FANTASY CRUX 2.0\nRANGED / ATTACKER\nTAKE THE SHOT\n\nSpend a Combat Action and test Ranged Combat. Cover modifies this roll; the defender reacts only after a hit.\n\nAIM +1B\nLOW WALL: ATTACK\n-1P\nRANGE\n\nUp to listed Range (R): normal. Beyond R through 2R: -2P. Beyond 2R: no shot. Shortbow: R = 75 m; 2R = 150 m.\n\nAIM\n\nSpend a Combat Action aiming at one visible target: +1B to your next ranged attack against it. Lose Aim on any Reaction, loss of sight, or failure to shoot with your next Combat Action.\n\nDAMAGE AND CLOSE USE\n\nThrown weapons add DM and keep their listed Size. Bows, crossbows, and slings add no DM; their projectiles are Light.\n\nWithin 2 m, a Close-tagged ranged weapon can use Close Combat and its listed damage. Without that tag, it is an improvised Light club: 1D6 + DM, attacking at -1P.\n\nSHOOTING INTO A CROWD\n\nApply cover normally. An ordinary failure misses. Only a Fumble may hit a fairly or randomly selected nearby target: normal rolled damage, then armour.\n\nWORKED SHOT\n\nAim +1B and a low wall -1P cancel. Roll normally. If the attack hits, resolve the defender's Reaction separately.\n\nPLAYER HANDBOOK / 2.0 BETA\nSPIRAL PROOF 02"
+    },
+    {
+      "id": "sheet cover-and-defence",
+      "widthMm": 148.49739583333334,
+      "heightMm": 209.996484375,
+      "minBodyPt": 11.000025,
+      "bindingEdge": "left",
+      "bindingClearanceMm": 14.998567708333331,
+      "footerGapMm": 3.7041666666666666,
+      "problems": [],
+      "copyFragments": [
+        "Cover & Defence",
+        "Cover changes the attack. An aware defender may React only after a hit.",
+        "AFTER A HIT: SHIELD PARRY",
+        "-1P",
+        "Terrain cover",
+        "Partial (low wall): attack -1P. Substantial (battlements): attack -2P. Complete: blocked attack line, no attack. Cover absorbs no damage.",
+        "Dodge",
+        "Dodge -1P: once per round, base Reaction only. Perceive the danger and be able to move away.",
+        "Active Guard",
+        "Test Close Combat with an eligible ready item: Thrown weapon: ready weapon -1P; ready shield no guard penalty. Arrow, bolt, or sling projectile: shield only, -1P. Carrying a shield adds no attack penalty. A shield unavailable during two-handed use cannot guard.",
+        "Resolve the defence",
+        "Ordinary hit: successful Dodge avoids it; successful Parry blocks by Size. Any ready shield fully blocks a Light projectile on success. Critical hit: ordinary defence success means normal rolled damage after armour, with no avoidance or Parry reduction. Critical defence stops it, regardless of Size.",
+        "Extra guard",
+        "Extra off-hand Reaction: add -1P (shield vs arrow: -2P before other modifiers); cannot Dodge. One Reaction per attack.",
+        "PLAYER HANDBOOK / 2.0 BETA",
+        "SPIRAL PROOF 03"
+      ],
+      "fullText": "FANTASY CRUX 2.0\nRANGED / DEFENDER\nCOVER & DEFENCE\n\nCover changes the attack. An aware defender may React only after a hit.\n\nAFTER A HIT: SHIELD PARRY\n-1P\nTERRAIN COVER\n\nPartial (low wall): attack -1P. Substantial (battlements): attack -2P. Complete: blocked attack line, no attack. Cover absorbs no damage.\n\nDODGE\n\nDodge -1P: once per round, base Reaction only. Perceive the danger and be able to move away.\n\nACTIVE GUARD\n\nTest Close Combat with an eligible ready item:\n\nThrown weapon: ready weapon -1P; ready shield no guard penalty.\nArrow, bolt, or sling projectile: shield only, -1P.\n\nCarrying a shield adds no attack penalty. A shield unavailable during two-handed use cannot guard.\n\nRESOLVE THE DEFENCE\n\nOrdinary hit: successful Dodge avoids it; successful Parry blocks by Size. Any ready shield fully blocks a Light projectile on success.\n\nCritical hit: ordinary defence success means normal rolled damage after armour, with no avoidance or Parry reduction. Critical defence stops it, regardless of Size.\n\nEXTRA GUARD\n\nExtra off-hand Reaction: add -1P (shield vs arrow: -2P before other modifiers); cannot Dodge. One Reaction per attack.\n\nPLAYER HANDBOOK / 2.0 BETA\nSPIRAL PROOF 03"
+    }
+  ],
+  "brokenImages": 0,
+  "fontsLoaded": true,
+  "accessibilityViolations": [],
+  "wordCounts": [
+    {
+      "id": "ranged-attacks",
+      "wordCount": 191
+    },
+    {
+      "id": "cover-and-defence",
+      "wordCount": 174
+    }
+  ],
+  "binding": "spiral"
+}
