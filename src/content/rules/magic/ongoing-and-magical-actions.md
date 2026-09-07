@@ -5,7 +5,7 @@ chapter: magic
 title: Ongoing Shapings and Magical Actions
 slug: ongoing-and-magical-actions
 order: 60
-summary: Active Magnitude cannot exceed POW; Sense Magic and Dispel require no known cell.
+summary: Active Magnitude cannot exceed INT; Sense Magic and Dispel require no known cell.
 aliases:
   - active magic
   - Sense Magic
@@ -14,7 +14,7 @@ aliases:
 
 ## Ongoing Shapings {#magic-ongoing}
 
-Active Magnitude cannot exceed permanent, unmodified POW. Every ongoing Shaping counts its full Magnitude. This includes concentration, modifiers, Wards, barriers, summons, control, movement modes, senses, concealment, conditions, vitality reserves, waiting Triggers, and tied anchors. Enchantments moved into Enchantment Capacity are the only exception; instant effects and completed permanent transformations are no longer ongoing. Dismiss an ongoing Shaping on the Shaper's turn without an Action.
+Active Magnitude cannot exceed permanent, unmodified INT. INT represents the complexity a Shaper can keep organised, while POW supplies the PP that fuel and commit magic. A temporary change to INT does not affect this limit; a permanent change recalculates it. Every ongoing Shaping counts its full Magnitude. This includes concentration, modifiers, Wards, barriers, summons, control, movement modes, senses, concealment, conditions, vitality reserves, waiting Triggers, and tied anchors. Enchantments moved into Enchantment Capacity are the only exception; instant effects and completed permanent transformations are no longer ongoing. Dismiss an ongoing Shaping on the Shaper's turn without an Action.
 
 Check Range and route when set Duration begins, then only during concentration or active control. Concentration and active control cost the Combat Action each round; maintain only one. A passive ongoing benefit—including a subject-directed movement mode or fixed sense—needs Duration but no maintenance Action. During concentration or active control, the subject stays within Range and a valid route unless Range 4+, Indirect, or the Form creates another link. Summon commands instead work within 15 metres and line of effect. Damage or serious distraction to the Shaper forces a Persistence test; failure ends maintenance. Record Magnitude and casting result.
 

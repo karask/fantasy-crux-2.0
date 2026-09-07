@@ -36,7 +36,7 @@ Spend 5 IP to raise one characteristic by 1.
 `SIZ` cannot be improved this way.
 A characteristic cannot exceed the character's racial maximum. Humans have a racial maximum of 21; recommended nonhuman maxima appear under [Fantasy Races](/rules/gm-tools/#fantasy-races).
 
-After the increase, recalculate derived attributes such as HP, MWL, maximum PP, Damage Modifier, and Combat Order.
+After the increase, recalculate derived attributes such as HP, MWL, maximum PP, Damage Modifier, Combat Order, and a Shaper's Active Magnitude limit.
 Skills keep their current scores: bases seed skills only at creation.
 
 ## Buy Talents {#characters-buy-talents}

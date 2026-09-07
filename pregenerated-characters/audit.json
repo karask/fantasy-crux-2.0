@@ -1,0 +1,5294 @@
+[
+  {
+    "name": "Mara Holt",
+    "race": "Human",
+    "characteristics": {
+      "STR": 15,
+      "CON": 13,
+      "DEX": 13,
+      "SIZ": 14,
+      "INT": 11,
+      "POW": 10,
+      "CHA": 10
+    },
+    "hp": 14,
+    "mwl": 7,
+    "pp": 10,
+    "activeMagnitudeLimit": 11,
+    "dm": "+1D4",
+    "order": 9,
+    "move": 15,
+    "capacity": 29,
+    "listedENC": 18,
+    "smallItems": 24,
+    "costCP": 660,
+    "cashCP": 740,
+    "innateCost": 0,
+    "talentCost": 10,
+    "skillIP": 0,
+    "bonusIP": 0,
+    "totalIP": 10,
+    "skillCount": 62,
+    "pools": [
+      ["Resistances", 50, 0, 0, 50, 0],
+      ["Combat", 50, 0, 0, 50, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 0, 0, 75, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 23,
+        "pool": 30,
+        "ip": 0,
+        "score": 53,
+        "critical": "01–05"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 20,
+        "pool": 10,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 23,
+        "pool": 10,
+        "ip": 0,
+        "score": 33,
+        "critical": "01–03"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 28,
+        "pool": 30,
+        "ip": 0,
+        "score": 58,
+        "critical": "01–05"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 24,
+        "pool": 15,
+        "ip": 0,
+        "score": 39,
+        "critical": "01–03"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 28,
+        "pool": 5,
+        "ip": 0,
+        "score": 33,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 21,
+        "pool": 10,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 61,
+        "pool": 0,
+        "ip": 0,
+        "score": 61,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 21,
+        "pool": 30,
+        "ip": 0,
+        "score": 51,
+        "critical": "01–05"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 11,
+        "pool": 0,
+        "ip": 0,
+        "score": 11,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 21,
+        "pool": 10,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 28,
+        "pool": 30,
+        "ip": 0,
+        "score": 58,
+        "critical": "01–05"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 21,
+        "pool": 10,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 20,
+        "pool": 15,
+        "ip": 0,
+        "score": 35,
+        "critical": "01–03"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 21,
+        "pool": 20,
+        "ip": 0,
+        "score": 41,
+        "critical": "01–04"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      }
+    ]
+  },
+  {
+    "name": "Pebb Dallow",
+    "race": "Goblin",
+    "characteristics": {
+      "STR": 8,
+      "CON": 10,
+      "DEX": 16,
+      "SIZ": 8,
+      "INT": 15,
+      "POW": 12,
+      "CHA": 17
+    },
+    "hp": 9,
+    "mwl": 5,
+    "pp": 12,
+    "activeMagnitudeLimit": 15,
+    "dm": "+0",
+    "order": 13,
+    "move": 15,
+    "capacity": 16,
+    "listedENC": 13,
+    "smallItems": 34,
+    "costCP": 1325,
+    "cashCP": 75,
+    "innateCost": 5,
+    "talentCost": 4,
+    "skillIP": 1,
+    "bonusIP": 0,
+    "totalIP": 10,
+    "skillCount": 62,
+    "pools": [
+      ["Resistances", 50, 0, 0, 50, 0],
+      ["Combat", 50, 0, 0, 50, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 0, 0, 75, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 26,
+        "pool": 25,
+        "ip": 0,
+        "score": 51,
+        "critical": "01–05"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 22,
+        "pool": 15,
+        "ip": 0,
+        "score": 37,
+        "critical": "01–03"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 22,
+        "pool": 10,
+        "ip": 0,
+        "score": 32,
+        "critical": "01–03"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 24,
+        "pool": 20,
+        "ip": 0,
+        "score": 44,
+        "critical": "01–04"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 31,
+        "pool": 30,
+        "ip": 0,
+        "score": 61,
+        "critical": "01–06"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 25,
+        "pool": 20,
+        "ip": 0,
+        "score": 45,
+        "critical": "01–04"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 65,
+        "pool": 0,
+        "ip": 0,
+        "score": 65,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 25,
+        "pool": 30,
+        "ip": 0,
+        "score": 55,
+        "critical": "01–05"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 15,
+        "pool": 0,
+        "ip": 0,
+        "score": 15,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 31,
+        "pool": 30,
+        "ip": 0,
+        "score": 61,
+        "critical": "01–06"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 31,
+        "pool": 0,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 27,
+        "pool": 25,
+        "ip": 0,
+        "score": 52,
+        "critical": "01–05"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 31,
+        "pool": 0,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 27,
+        "pool": 5,
+        "ip": 0,
+        "score": 32,
+        "critical": "01–03"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 27,
+        "pool": 0,
+        "ip": 0,
+        "score": 27,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 31,
+        "pool": 0,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 29,
+        "pool": 15,
+        "ip": 5,
+        "score": 49,
+        "critical": "01–04"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 25,
+        "pool": 0,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      }
+    ]
+  },
+  {
+    "name": "Dori Ashlar",
+    "race": "Dwarf",
+    "characteristics": {
+      "STR": 13,
+      "CON": 14,
+      "DEX": 13,
+      "SIZ": 9,
+      "INT": 16,
+      "POW": 11,
+      "CHA": 10
+    },
+    "hp": 12,
+    "mwl": 6,
+    "pp": 11,
+    "activeMagnitudeLimit": 16,
+    "dm": "+0",
+    "order": 12,
+    "move": 12,
+    "capacity": 22,
+    "listedENC": 20,
+    "smallItems": 23,
+    "costCP": 1330,
+    "cashCP": 70,
+    "innateCost": 7,
+    "talentCost": 2,
+    "skillIP": 1,
+    "bonusIP": 0,
+    "totalIP": 10,
+    "skillCount": 62,
+    "pools": [
+      ["Resistances", 50, 0, 0, 50, 0],
+      ["Combat", 50, 0, 0, 50, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 0, 0, 75, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 23,
+        "pool": 25,
+        "ip": 0,
+        "score": 48,
+        "critical": "01–04"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 21,
+        "pool": 10,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 25,
+        "pool": 15,
+        "ip": 0,
+        "score": 40,
+        "critical": "01–04"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 26,
+        "pool": 30,
+        "ip": 0,
+        "score": 56,
+        "critical": "01–05"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 29,
+        "pool": 15,
+        "ip": 0,
+        "score": 44,
+        "critical": "01–04"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 26,
+        "pool": 5,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 20,
+        "ip": 0,
+        "score": 36,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 66,
+        "pool": 0,
+        "ip": 0,
+        "score": 66,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 26,
+        "pool": 30,
+        "ip": 0,
+        "score": 56,
+        "critical": "01–05"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 26,
+        "pool": 10,
+        "ip": 0,
+        "score": 36,
+        "critical": "01–03"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 29,
+        "pool": 0,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 29,
+        "pool": 0,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 26,
+        "pool": 30,
+        "ip": 0,
+        "score": 56,
+        "critical": "01–05"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 29,
+        "pool": 20,
+        "ip": 5,
+        "score": 54,
+        "critical": "01–05"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 27,
+        "pool": 15,
+        "ip": 0,
+        "score": 42,
+        "critical": "01–04"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 29,
+        "pool": 0,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      }
+    ]
+  },
+  {
+    "name": "Tamsin Reed",
+    "race": "Human",
+    "characteristics": {
+      "STR": 9,
+      "CON": 11,
+      "DEX": 12,
+      "SIZ": 10,
+      "INT": 16,
+      "POW": 16,
+      "CHA": 12
+    },
+    "hp": 11,
+    "mwl": 6,
+    "pp": 16,
+    "activeMagnitudeLimit": 16,
+    "dm": "+0",
+    "order": 11,
+    "move": 15,
+    "capacity": 19,
+    "listedENC": 16,
+    "smallItems": 27,
+    "costCP": 1135,
+    "cashCP": 265,
+    "innateCost": 0,
+    "talentCost": 20,
+    "skillIP": 0,
+    "bonusIP": 10,
+    "totalIP": 20,
+    "skillCount": 63,
+    "pools": [
+      ["Resistances", 50, 15, 3, 35, 0],
+      ["Combat", 50, 15, 3, 35, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 20, 4, 55, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 22,
+        "pool": 10,
+        "ip": 0,
+        "score": 32,
+        "critical": "01–03"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 26,
+        "pool": 15,
+        "ip": 0,
+        "score": 41,
+        "critical": "01–04"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 27,
+        "pool": 10,
+        "ip": 0,
+        "score": 37,
+        "critical": "01–03"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 21,
+        "pool": 30,
+        "ip": 0,
+        "score": 51,
+        "critical": "01–05"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 28,
+        "pool": 5,
+        "ip": 0,
+        "score": 33,
+        "critical": "01–03"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 66,
+        "pool": 0,
+        "ip": 0,
+        "score": 66,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 26,
+        "pool": 20,
+        "ip": 0,
+        "score": 46,
+        "critical": "01–04"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 16,
+        "pool": 0,
+        "ip": 0,
+        "score": 16,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Shaping",
+        "category": "Knowledge",
+        "template": "Shaping",
+        "base": 32,
+        "pool": 30,
+        "ip": 0,
+        "score": 62,
+        "critical": "01–06"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 21,
+        "pool": 5,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 26,
+        "pool": 30,
+        "ip": 0,
+        "score": 56,
+        "critical": "01–05"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 22,
+        "pool": 10,
+        "ip": 0,
+        "score": 32,
+        "critical": "01–03"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 32,
+        "pool": 10,
+        "ip": 0,
+        "score": 42,
+        "critical": "01–04"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 22,
+        "pool": 0,
+        "ip": 0,
+        "score": 22,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 26,
+        "pool": 0,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      }
+    ]
+  },
+  {
+    "name": "Ilen Sedge",
+    "race": "Human",
+    "characteristics": {
+      "STR": 13,
+      "CON": 11,
+      "DEX": 16,
+      "SIZ": 10,
+      "INT": 13,
+      "POW": 12,
+      "CHA": 11
+    },
+    "hp": 11,
+    "mwl": 6,
+    "pp": 12,
+    "activeMagnitudeLimit": 13,
+    "dm": "+0",
+    "order": 14,
+    "move": 15,
+    "capacity": 23,
+    "listedENC": 16,
+    "smallItems": 37,
+    "costCP": 1150,
+    "cashCP": 250,
+    "innateCost": 0,
+    "talentCost": 10,
+    "skillIP": 0,
+    "bonusIP": 0,
+    "totalIP": 10,
+    "skillCount": 62,
+    "pools": [
+      ["Resistances", 50, 0, 0, 50, 0],
+      ["Combat", 50, 0, 0, 50, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 0, 0, 75, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 26,
+        "pool": 25,
+        "ip": 0,
+        "score": 51,
+        "critical": "01–05"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 22,
+        "pool": 10,
+        "ip": 0,
+        "score": 32,
+        "critical": "01–03"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 23,
+        "pool": 15,
+        "ip": 0,
+        "score": 38,
+        "critical": "01–03"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 29,
+        "pool": 15,
+        "ip": 0,
+        "score": 44,
+        "critical": "01–04"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 29,
+        "pool": 30,
+        "ip": 0,
+        "score": 59,
+        "critical": "01–05"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 29,
+        "pool": 5,
+        "ip": 0,
+        "score": 34,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 23,
+        "pool": 20,
+        "ip": 0,
+        "score": 43,
+        "critical": "01–04"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 63,
+        "pool": 0,
+        "ip": 0,
+        "score": 63,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 23,
+        "pool": 20,
+        "ip": 0,
+        "score": 43,
+        "critical": "01–04"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 13,
+        "pool": 0,
+        "ip": 0,
+        "score": 13,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 23,
+        "pool": 10,
+        "ip": 0,
+        "score": 33,
+        "critical": "01–03"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 29,
+        "pool": 25,
+        "ip": 0,
+        "score": 54,
+        "critical": "01–05"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 29,
+        "pool": 15,
+        "ip": 0,
+        "score": 44,
+        "critical": "01–04"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 29,
+        "pool": 0,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 21,
+        "pool": 5,
+        "ip": 0,
+        "score": 26,
+        "critical": "01–02"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 29,
+        "pool": 0,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 25,
+        "pool": 30,
+        "ip": 0,
+        "score": 55,
+        "critical": "01–05"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 29,
+        "pool": 0,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 23,
+        "pool": 0,
+        "ip": 0,
+        "score": 23,
+        "critical": "01–02"
+      }
+    ]
+  },
+  {
+    "name": "Orren Pike",
+    "race": "Orc",
+    "characteristics": {
+      "STR": 17,
+      "CON": 13,
+      "DEX": 12,
+      "SIZ": 15,
+      "INT": 9,
+      "POW": 10,
+      "CHA": 10
+    },
+    "hp": 14,
+    "mwl": 7,
+    "pp": 10,
+    "activeMagnitudeLimit": 9,
+    "dm": "+1D6",
+    "order": 8,
+    "move": 15,
+    "capacity": 32,
+    "listedENC": 19,
+    "smallItems": 3,
+    "costCP": 1220,
+    "cashCP": 180,
+    "innateCost": 4,
+    "talentCost": 5,
+    "skillIP": 1,
+    "bonusIP": 0,
+    "totalIP": 10,
+    "skillCount": 62,
+    "pools": [
+      ["Resistances", 50, 0, 0, 50, 0],
+      ["Combat", 50, 0, 0, 50, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 0, 0, 75, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 22,
+        "pool": 15,
+        "ip": 0,
+        "score": 37,
+        "critical": "01–03"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 20,
+        "pool": 10,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 23,
+        "pool": 25,
+        "ip": 0,
+        "score": 48,
+        "critical": "01–04"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 29,
+        "pool": 25,
+        "ip": 0,
+        "score": 54,
+        "critical": "01–05"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 29,
+        "pool": 25,
+        "ip": 0,
+        "score": 54,
+        "critical": "01–05"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 19,
+        "pool": 10,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 59,
+        "pool": 0,
+        "ip": 0,
+        "score": 59,
+        "critical": "01–05"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 19,
+        "pool": 30,
+        "ip": 0,
+        "score": 49,
+        "critical": "01–04"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 9,
+        "pool": 0,
+        "ip": 0,
+        "score": 9,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 19,
+        "pool": 10,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 29,
+        "pool": 30,
+        "ip": 0,
+        "score": 59,
+        "critical": "01–05"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 10,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 21,
+        "pool": 0,
+        "ip": 0,
+        "score": 21,
+        "critical": "01–02"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 19,
+        "pool": 10,
+        "ip": 0,
+        "score": 29,
+        "critical": "01–02"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 22,
+        "pool": 0,
+        "ip": 0,
+        "score": 22,
+        "critical": "01–02"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 21,
+        "pool": 25,
+        "ip": 5,
+        "score": 51,
+        "critical": "01–05"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 19,
+        "pool": 0,
+        "ip": 0,
+        "score": 19,
+        "critical": "01"
+      }
+    ]
+  },
+  {
+    "name": "Seris Vale",
+    "race": "Elf",
+    "characteristics": {
+      "STR": 13,
+      "CON": 10,
+      "DEX": 16,
+      "SIZ": 9,
+      "INT": 14,
+      "POW": 14,
+      "CHA": 10
+    },
+    "hp": 10,
+    "mwl": 5,
+    "pp": 14,
+    "activeMagnitudeLimit": 14,
+    "dm": "+0",
+    "order": 12,
+    "move": 15,
+    "capacity": 22,
+    "listedENC": 16,
+    "smallItems": 36,
+    "costCP": 1120,
+    "cashCP": 280,
+    "innateCost": 5,
+    "talentCost": 4,
+    "skillIP": 1,
+    "bonusIP": 0,
+    "totalIP": 10,
+    "skillCount": 62,
+    "pools": [
+      ["Resistances", 50, 0, 0, 50, 0],
+      ["Combat", 50, 0, 0, 50, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 0, 0, 75, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 26,
+        "pool": 25,
+        "ip": 0,
+        "score": 51,
+        "critical": "01–05"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 24,
+        "pool": 15,
+        "ip": 0,
+        "score": 39,
+        "critical": "01–03"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 24,
+        "pool": 10,
+        "ip": 0,
+        "score": 34,
+        "critical": "01–03"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 29,
+        "pool": 15,
+        "ip": 0,
+        "score": 44,
+        "critical": "01–04"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 30,
+        "pool": 30,
+        "ip": 0,
+        "score": 60,
+        "critical": "01–06"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 29,
+        "pool": 5,
+        "ip": 0,
+        "score": 34,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 24,
+        "pool": 10,
+        "ip": 0,
+        "score": 34,
+        "critical": "01–03"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 64,
+        "pool": 0,
+        "ip": 0,
+        "score": 64,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 24,
+        "pool": 10,
+        "ip": 0,
+        "score": 34,
+        "critical": "01–03"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 14,
+        "pool": 0,
+        "ip": 0,
+        "score": 14,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 24,
+        "pool": 30,
+        "ip": 0,
+        "score": 54,
+        "critical": "01–05"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 29,
+        "pool": 15,
+        "ip": 0,
+        "score": 44,
+        "critical": "01–04"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 30,
+        "pool": 25,
+        "ip": 3,
+        "score": 58,
+        "critical": "01–05"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 30,
+        "pool": 0,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 24,
+        "pool": 10,
+        "ip": 0,
+        "score": 34,
+        "critical": "01–03"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 30,
+        "pool": 0,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 28,
+        "pool": 25,
+        "ip": 0,
+        "score": 53,
+        "critical": "01–05"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 30,
+        "pool": 0,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 30,
+        "pool": 0,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 24,
+        "pool": 0,
+        "ip": 0,
+        "score": 24,
+        "critical": "01–02"
+      }
+    ]
+  },
+  {
+    "name": "Nera Quill",
+    "race": "Human",
+    "characteristics": {
+      "STR": 9,
+      "CON": 10,
+      "DEX": 13,
+      "SIZ": 9,
+      "INT": 18,
+      "POW": 17,
+      "CHA": 10
+    },
+    "hp": 10,
+    "mwl": 5,
+    "pp": 17,
+    "activeMagnitudeLimit": 18,
+    "dm": "+0",
+    "order": 13,
+    "move": 15,
+    "capacity": 18,
+    "listedENC": 16,
+    "smallItems": 29,
+    "costCP": 1135,
+    "cashCP": 265,
+    "innateCost": 0,
+    "talentCost": 20,
+    "skillIP": 0,
+    "bonusIP": 10,
+    "totalIP": 20,
+    "skillCount": 63,
+    "pools": [
+      ["Resistances", 50, 15, 3, 35, 0],
+      ["Combat", 50, 15, 3, 35, 0],
+      ["Knowledge", 50, 0, 0, 50, 0],
+      ["Practical", 75, 20, 4, 55, 0]
+    ],
+    "skills": [
+      {
+        "name": "Dodge",
+        "category": "Resistances",
+        "template": "Dodge",
+        "base": 23,
+        "pool": 15,
+        "ip": 0,
+        "score": 38,
+        "critical": "01–03"
+      },
+      {
+        "name": "Persistence",
+        "category": "Resistances",
+        "template": "Persistence",
+        "base": 27,
+        "pool": 20,
+        "ip": 0,
+        "score": 47,
+        "critical": "01–04"
+      },
+      {
+        "name": "Resilience",
+        "category": "Resistances",
+        "template": "Resilience",
+        "base": 27,
+        "pool": 0,
+        "ip": 0,
+        "score": 27,
+        "critical": "01–02"
+      },
+      {
+        "name": "Close Combat",
+        "category": "Combat",
+        "template": "Close Combat",
+        "base": 22,
+        "pool": 25,
+        "ip": 0,
+        "score": 47,
+        "critical": "01–04"
+      },
+      {
+        "name": "Ranged Combat",
+        "category": "Combat",
+        "template": "Ranged Combat",
+        "base": 31,
+        "pool": 10,
+        "ip": 0,
+        "score": 41,
+        "critical": "01–04"
+      },
+      {
+        "name": "Unarmed Combat",
+        "category": "Combat",
+        "template": "Unarmed Combat",
+        "base": 22,
+        "pool": 0,
+        "ip": 0,
+        "score": 22,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Crown Vale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Whitewater)",
+        "category": "Knowledge",
+        "template": "Culture (own)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Culture (Verdant Court)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Deep-Road Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Nine Warrens)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Iron Banner)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Saffron Scale)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Pearl Compact)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (Thistledown Post)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Culture (another named culture)",
+        "category": "Knowledge",
+        "template": "Culture (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Crown Speech)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (River Crown)",
+        "category": "Knowledge",
+        "template": "Language (own)",
+        "base": 68,
+        "pool": 0,
+        "ip": 0,
+        "score": 68,
+        "critical": "01–06"
+      },
+      {
+        "name": "Language (Ilyr)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Karic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Kesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Varkesh)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Tessarak)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Pelagic)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (Briarlilt)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Language (another named language)",
+        "category": "Knowledge",
+        "template": "Language (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Alchemy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Magic)",
+        "category": "Knowledge",
+        "template": "Lore (own field)",
+        "base": 28,
+        "pool": 20,
+        "ip": 0,
+        "score": 48,
+        "critical": "01–04"
+      },
+      {
+        "name": "Lore (Military Tactics)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Spirit World)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Undead)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Law and Heraldry)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Astronomy)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Bridgeworks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Medicine)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Courier Networks)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Salvage)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (Woodcraft)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Lore (another named field)",
+        "category": "Knowledge",
+        "template": "Lore (other)",
+        "base": 18,
+        "pool": 0,
+        "ip": 0,
+        "score": 18,
+        "critical": "01"
+      },
+      {
+        "name": "Natural Lore",
+        "category": "Knowledge",
+        "template": "Natural Lore",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Shaping",
+        "category": "Knowledge",
+        "template": "Shaping",
+        "base": 35,
+        "pool": 30,
+        "ip": 0,
+        "score": 65,
+        "critical": "01–06"
+      },
+      {
+        "name": "Athletics",
+        "category": "Practical",
+        "template": "Athletics",
+        "base": 22,
+        "pool": 5,
+        "ip": 0,
+        "score": 27,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Blacksmith)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Bowyer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Brewer)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Carpenter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Mason)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Potter)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Tailor)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (Calligraphy)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Craft (another named trade)",
+        "category": "Practical",
+        "template": "Craft (type)",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Deception",
+        "category": "Practical",
+        "template": "Deception",
+        "base": 31,
+        "pool": 0,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Driving",
+        "category": "Practical",
+        "template": "Driving",
+        "base": 31,
+        "pool": 0,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Engineering",
+        "category": "Practical",
+        "template": "Engineering",
+        "base": 28,
+        "pool": 15,
+        "ip": 0,
+        "score": 43,
+        "critical": "01–04"
+      },
+      {
+        "name": "Healing",
+        "category": "Practical",
+        "template": "Healing",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      },
+      {
+        "name": "Influence",
+        "category": "Practical",
+        "template": "Influence",
+        "base": 20,
+        "pool": 5,
+        "ip": 0,
+        "score": 25,
+        "critical": "01–02"
+      },
+      {
+        "name": "Mechanisms",
+        "category": "Practical",
+        "template": "Mechanisms",
+        "base": 31,
+        "pool": 15,
+        "ip": 0,
+        "score": 46,
+        "critical": "01–04"
+      },
+      {
+        "name": "Perception",
+        "category": "Practical",
+        "template": "Perception",
+        "base": 35,
+        "pool": 15,
+        "ip": 0,
+        "score": 50,
+        "critical": "01–05"
+      },
+      {
+        "name": "Performance",
+        "category": "Practical",
+        "template": "Performance",
+        "base": 20,
+        "pool": 0,
+        "ip": 0,
+        "score": 20,
+        "critical": "01–02"
+      },
+      {
+        "name": "Riding",
+        "category": "Practical",
+        "template": "Riding",
+        "base": 30,
+        "pool": 0,
+        "ip": 0,
+        "score": 30,
+        "critical": "01–03"
+      },
+      {
+        "name": "Sailing",
+        "category": "Practical",
+        "template": "Sailing",
+        "base": 31,
+        "pool": 0,
+        "ip": 0,
+        "score": 31,
+        "critical": "01–03"
+      },
+      {
+        "name": "Streetwise",
+        "category": "Practical",
+        "template": "Streetwise",
+        "base": 27,
+        "pool": 0,
+        "ip": 0,
+        "score": 27,
+        "critical": "01–02"
+      },
+      {
+        "name": "Trade",
+        "category": "Practical",
+        "template": "Trade",
+        "base": 28,
+        "pool": 0,
+        "ip": 0,
+        "score": 28,
+        "critical": "01–02"
+      }
+    ]
+  }
+]

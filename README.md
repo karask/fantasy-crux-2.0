@@ -53,6 +53,7 @@ npm run preview
 - `freeform-magic/` — preserved Magic 2.0 alternative; not published
 - `freeform-creatures/` — preserved conversion source used to verify the published bestiary's traceability
 - `potential-worlds/` — unpublished, noncanonical setting candidates; compare them in the [candidate-world index](potential-worlds/README.md)
+- `pregenerated-characters/` — [eight complete Last Wagon Company PCs](pregenerated-characters/README.md), with concepts, every skill, equipment, abilities, and auditable point-allocation ledgers
 
 Each chapter is one page: its rules, Talents, Shaping, and creature sections are inlined and addressed by anchor, such as `/rules/combat/#active-guard` or `/rules/creatures/#vampire`. Individual rule sections are still the search units: each result links to the best-matching heading inside its rule, names that heading, and cites the rule it belongs to. Because Pagefind scores whole chapter pages, results are reordered by each rule's own strongest match. Chapter introductions and Search are excluded from the Pagefind index. Core reading and navigation work without JavaScript; search, the Talent and creature filters, and collapsible examples are enhancements.
 

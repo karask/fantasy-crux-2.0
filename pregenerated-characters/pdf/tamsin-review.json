@@ -1,0 +1,34 @@
+{
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified_in_rendered_pdf": 24,
+  "named_skill_policy": "Only chosen or character-relevant Craft, Knowledge, Culture, and Language skills are displayed.",
+  "named_skills": [
+    "Craft (Tailor)",
+    "Lore (Medicine)",
+    "Shaping",
+    "Culture (Whitewater)",
+    "Language (River Crown)"
+  ],
+  "talents_section": "Shaping, Flesh specialty, Alter-Flesh and Scry-Flesh",
+  "portrait_page": 1,
+  "skills_layout": "Balanced across two columns",
+  "spells": 6,
+  "spell_names": [
+    "Close the wound",
+    "Wall-crawler",
+    "River lungs",
+    "Borrowed face",
+    "Follow the blood",
+    "Silent autopsy"
+  ],
+  "license_attachment": "exact match",
+  "removed_rules_and_creation_text": "verified absent",
+  "text_within_page": true,
+  "visual_review": "Both final rendered pages inspected; no clipping, overlap or missing glyphs.",
+  "body_font_pt": 9.8,
+  "minimum_table_font_pt": 8.9,
+  "portrait": "pregenerated-characters/pdf/assets/tamsin-reed-portrait.png",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/tamsin-reed-a4.pdf",
+  "sha256": "a44459946f0353fc9f9106bb448fb1b4e0a8800e310a2635808f5fd9007b8647"
+}

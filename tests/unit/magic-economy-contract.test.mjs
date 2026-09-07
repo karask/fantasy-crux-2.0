@@ -161,6 +161,19 @@ describe('enchanted-item operation and Trigger timing', () => {
 
 describe('Active Magnitude coverage', () => {
   const ongoing = read('src/content/rules/magic/ongoing-and-magical-actions.md');
+  const becoming = read('src/content/rules/magic/becoming-a-shaper.md');
+  const improvement = read('src/content/rules/characters/improvement.md');
+
+  it('uses INT for sustained complexity and retains POW for magical fuel', () => {
+    expect(ongoing).toMatch(/Active Magnitude cannot exceed permanent, unmodified INT/i);
+    expect(ongoing).not.toMatch(/Active Magnitude cannot exceed permanent, unmodified POW/i);
+    expect(ongoing).toMatch(/INT represents the complexity[^.]*POW supplies the PP/i);
+    expect(ongoing).toMatch(/temporary change to INT[^.]*does not affect[^.]*limit/i);
+    expect(ongoing).toMatch(/permanent change[^.]*recalculates/i);
+    expect(becoming).toMatch(/INT and POW both establish the Shaping skill/i);
+    expect(becoming).toMatch(/INT limits total[^.]*Active Magnitude[^.]*POW sets maximum PP/i);
+    expect(improvement).toMatch(/recalculate derived attributes[^.]*Active Magnitude limit/i);
+  });
 
   it('counts every ongoing Shaping and names the newer ongoing outcomes', () => {
     expect(ongoing).toMatch(/Every ongoing Shaping counts its full Magnitude/i);

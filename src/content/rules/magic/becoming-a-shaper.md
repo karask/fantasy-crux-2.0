@@ -27,6 +27,8 @@ Buy it during [character creation](/rules/characters/#character-creation--charac
 At creation, declare the Talent and reserve its 20 IP before skill point allocation. Shaping has its normal base of `INT + POW`, and the character may spend up to 30 Knowledge points on Shaping.
 This remains a real sacrifice, not a discount: the character must still assemble and spend the full 20 IP, usually by trading other skill points for Improvement Points.
 
+INT and POW both establish the Shaping skill. Thereafter, permanent unmodified INT limits total [Active Magnitude](/rules/magic/#ongoing-and-magical-actions--magic-ongoing), while POW sets maximum PP.
+
 Shaping caps at 100% and improves normally at most once between adventures. Later learning requires suitable experience.
 
 | Advancement                                            |                       IP |

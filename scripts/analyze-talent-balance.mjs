@@ -743,7 +743,9 @@ Shaping therefore costs about ${shapingEquivalent} ordinary Talents, consumes 20
 and requires converting at least 50 of the 225 starting pool points when bought at creation.
 Keeping its 20-IP price preserves dedication; letting a declared starting Shaper allocate up to
 30 Knowledge points to the new skill makes that sacrifice visible and playable rather than
-leaving the character at only INT + POW.
+leaving the character at only INT + POW. INT and POW both seed the skill; permanent unmodified
+INT then limits Active Magnitude, while POW supplies PP. This makes equal INT + POW totals differ
+meaningfully between sustained complexity and casting endurance without increasing either limit.
 
 ## Exact test probabilities
 
