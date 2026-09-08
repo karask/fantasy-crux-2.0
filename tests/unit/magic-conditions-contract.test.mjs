@@ -36,12 +36,21 @@ describe('magical conditions and restoration', () => {
 
   it('provides retries and bounded sleep without making every incapacity helpless', () => {
     expect(effects).toMatch(/spend a Combat Action to retry its original defence/i);
-    expect(effects).toMatch(/prevents Combat Actions[^.]*retry freely at the end of each turn/i);
+    expect(effects).toMatch(
+      /prevents Combat Actions[^.]*retry freely at the end of the affected subject's own turn/i,
+    );
+    expect(effects).toMatch(/Resolve that turn's restrictions before rolling/i);
+    expect(effects).toMatch(
+      /Winning frees that subject but does not restore any Actions it missed/i,
+    );
     expect(effects).toMatch(/Winning frees that subject/i);
     expect(effects).toMatch(/magical sleep[^.]*unconscious and helpless[^.]*damage/i);
     expect(effects).toMatch(/Incapacitation alone[^.]*not automatic[^.]*helplessness/i);
     expect(examples).toMatch(/magical sleep[^\n]*Alter·Mind; I4, D1[^\n]*5/i);
     expect(examples).toMatch(/Paralyse[^\n]*Alter·Flesh; I4, D1[^\n]*5/i);
+    expect(examples).toMatch(
+      /Paralyse[^\n]*end of the subject's own turn[^\n]*missed Actions are not restored/i,
+    );
   });
 
   it('removes conditions according to their source without bypassing Dispel', () => {

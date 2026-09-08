@@ -1,5 +1,6 @@
 import { access, readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
+import downloads from '../src/_data/downloads.mjs';
 
 const required = [
   'CNAME',
@@ -17,13 +18,23 @@ const required = [
   'rules/gazetteer/index.html',
   'license/index.html',
   'downloads/index.html',
-  'downloads/fantasy-crux-player-reference-cards.pdf',
+  ...downloads.map(({ filename }) => `downloads/${filename}`),
   'search/index.html',
   'pagefind/pagefind.js',
 ];
 
 for (const relativePath of required) {
   await access(path.join('_site', relativePath));
+}
+
+for (const { source, filename } of downloads) {
+  const [approved, published] = await Promise.all([
+    readFile(source),
+    readFile(path.join('_site', 'downloads', filename)),
+  ]);
+  if (!approved.equals(published)) {
+    throw new Error(`Published download ${filename} differs from its approved source.`);
+  }
 }
 
 const cname = (await readFile('_site/CNAME', 'utf8')).trim();

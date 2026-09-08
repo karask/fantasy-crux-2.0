@@ -12,4 +12,17 @@ export default [
       'player-handbook/reference-cards/output/pdf/fantasy-crux-player-reference-cards-v05.pdf',
     filename: 'fantasy-crux-player-reference-cards.pdf',
   },
+  {
+    id: 'shaping-reference-cards',
+    title: 'Shaping Reference Cards',
+    description:
+      'Quick reminders for building effects, choosing defences, casting, Power Points and keeping magic active.',
+    format: 'PDF',
+    pages: '3 A4 pages',
+    print:
+      'Print at actual size as three separate cards, or duplex on the long edge with the final reverse blank.',
+    source:
+      'player-handbook/shaping-reference-cards/output/pdf/fantasy-crux-shaping-reference-cards-v03.pdf',
+    filename: 'fantasy-crux-shaping-reference-cards.pdf',
+  },
 ];

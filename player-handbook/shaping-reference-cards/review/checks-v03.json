@@ -1,0 +1,183 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "footerGapMm": 6.680729166666666,
+      "columns": [
+        {
+          "footerGapMm": 54.31813151041667,
+          "blocks": [
+            {
+              "title": "Start with your known cells",
+              "heightMm": 36.938313802083336
+            },
+            {
+              "title": "Practice and Tell",
+              "heightMm": 23.684342447916666
+            },
+            {
+              "title": "Build the effect",
+              "heightMm": 54.21064453125
+            },
+            {
+              "title": "Your Shaping limits",
+              "heightMm": 60.949251302083326
+            }
+          ]
+        },
+        {
+          "footerGapMm": 36.880436197916666,
+          "blocks": [
+            {
+              "title": "Range",
+              "heightMm": 50.91988932291667
+            },
+            {
+              "title": "Duration",
+              "heightMm": 60.453157552083326
+            },
+            {
+              "title": "Reach",
+              "heightMm": 58.16285807291667
+            },
+            {
+              "title": "Bigger magic",
+              "heightMm": 23.684342447916666
+            }
+          ]
+        }
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX 2.0\nPLAYER REFERENCE\nBUILD A SHAPING\n\nChoose an effect. Set its scale. Check the cost.\n\nSTART WITH YOUR KNOWN CELLS\n\nSay what you want to achieve using one known Technique·Form cell on your sheet. The Form says what you affect; the Technique says what you do.\n\nConjure: create. Bend: move or direct. Unmake: harm or destroy. Alter: heal or change. Ward: protect. Scry: learn or sense.\n\nPRACTICE AND TELL\n\nYou must perform your Practice; if prevented, you cannot cast. Your Tell makes the magic noticeable around you and any ranged target or area.\n\nBUILD THE EFFECT\n\nIntensity (I) measures the strength of each outcome. For example, Alter·Flesh healing at I2 restores 2D4 HP; at I3, 3D4 HP. Choose from the Common outcomes table on card 2, then set Range, Duration and Reach.\n\nMagnitude (M) = all outcome Intensities + Range + Duration + Reach + adjustments.\n\nEach distinct outcome costs its own I; shared dials count once. The GM confirms the build and defence. I0 is cosmetic; a calm M0 Trick is free and automatic.\n\nYOUR SHAPING LIMITS\nShaping skill\tMaximum I / Safe M\n0-25%\t1 / 1\n26-50%\t2 / 2\n51-75%\t3 / 3\n76-99%\t4 / 4\n100%\t5 / 5\n\nEvery outcome stays within maximum I. Ordinary casting can reach Safe M + 2, with risk (card 3). More PP cannot raise maximum I. Common effects: card 2.\n\nRANGE\nRating\tDistance\n0\tSelf or touch.\n1\tWithin 15 m.\n2\tWithin 50 m.\n3\tAny visible point.\n\nRange 1-3 needs an unobstructed route. Seeing a target through a barrier does not make the route clear.\n\nDURATION\nRating\tHow long it lasts\n0\tInstant, or through the affected subject's next turn.\n1\tOne scene or 10 minutes.\n2\tUntil the target next fully rests, at most 8 hours.\n\nDuration sustains an effect; it never repeats damage, healing or a lost Action. An ongoing benefit needs no maintenance Action unless it uses concentration or active control (card 3).\n\nREACH\n\nChoose the highest rating needed by count, area or subject size.\n\nRating\tTargets / area; largest subject\n0\tOne; person, door or human-sized object.\n1\tUp to 2 or 3 m radius; wagon / large tree.\n2\tUp to 5 or 10 m radius; room-sized structure.\n\nAreas include allies. Direct Harm uses selected targets, never a radius. Reach increases scale, not the strength of an outcome.\n\nBIGGER MAGIC\n\nRitual required: I5, Range 4+, Duration 3+, Reach 3+, or M above Safe + 2. Consult the ritual rules. Learned adjustments add their listed M.\n\nTWO READY EXAMPLES\n\nFirebolt at 15 m: Unmake·Fire, I2 + Range 1 + Duration 0 + Reach 0 = M3. Deal 2D6 Projected Harm once. At Shaping 60%, this is within Safe M3; ordinary success costs 3 PP.\n\nWard two allies at 15 m for a scene: Ward·Earth/Stone, I2 + Range 1 + Duration 1 + Reach 1 = M5. Grant 4 AP against physical blows. At Shaping 60%, this is Safe + 2: -2P; ordinary success costs 5 PP.\n\nSHAPING\nCARD 1 / 3",
+      "orderedListMarkers": []
+    },
+    {
+      "page": 2,
+      "footerGapMm": 16.193326822916667,
+      "columns": [
+        {
+          "footerGapMm": 19.790006510416667,
+          "blocks": [
+            {
+              "title": "Common outcomes",
+              "heightMm": 187.60198567708332
+            },
+            {
+              "title": "Magical healing",
+              "heightMm": 27.702701822916662
+            }
+          ]
+        },
+        {
+          "footerGapMm": 16.193326822916667,
+          "blocks": [
+            {
+              "title": "Defend against magic",
+              "heightMm": 111.97249348958333
+            },
+            {
+              "title": "Harm, cover and shields",
+              "heightMm": 106.92887369791666
+            }
+          ]
+        }
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX 2.0\nPLAYER REFERENCE\nEFFECTS & DEFENCES\n\nPrice the outcome, then use the defence that matches its method.\n\nCOMMON OUTCOMES\n\nUse the lowest Intensity (I) that covers the effect. Your known cell must permit its method; it does not grant every option here.\n\nWant to...\tBenchmark\nDeal damage\tUnmake: I D6, no Damage Modifier. Choose delivery (right).\nHeal\tAlter·Flesh: I D4 HP, up to maximum. See below.\nProtect\tWard: 2 × I AP against one defined class of harm. Use it or worn AP, whichever applies best.\nMake a barrier\t2 × I AP; 5 × I HP total. Reach sets footprint; no occupied space.\nGain a reserve\t3 × I points absorb qualifying HP damage after other protection. No refill; keep only the larger remaining reserve.\nModify a skill\tI2: +1B / -1P. I4: +2B / -2P. Name the skill or narrow family.\nHinder or move\tI1: prone or briefly halve Movement. I2: restrain a person or push up to 3 m.\nTravel differently\tI2: climb/swim or traverse one named surface. I3: fly. Use normal Movement and your Movement Action.\nHide / impair a sense\tI2: -1P through one sense. I3: hide from or suppress that sense. Scope follows the cell.\nLearn something\tScry I1: immediate clue. I2: locate/diagnose. I3: distant observation/surface thoughts.\nRemove an action\tI3: lose one Combat Action once; immune until the target completes a later Combat Action.\nIncapacitate\tI4: no Actions or Reactions, with a retry or stated break condition. Escape: card 3.\n\nPrice distinct benefits separately; never repeat one cumulative outcome on one subject. Magic grants no extra Actions, Reactions or resources.\n\nMAGICAL HEALING\n\nHealing also ends Bleeding and Dying. Above 0 HP, act next turn. I3+ counts as Surgery; Wounded ends after Surgery once HP exceeds MWL. Duration cannot repeat healing or create regeneration.\n\nDEFEND AGAINST MAGIC\n\nDefence is opposed to the original Shaping roll. Shaping must succeed and win to affect you; a winning shield guard instead uses Size (below).\n\nIncoming effect\tDefence\nIndividual projection\tDodge -1P or ready shield guard -1P; spend an eligible Reaction.\nAvoidable area\tDodge -1P; no shield guard.\nBody / material change\tResilience; no Reaction cost.\nMind / soul effect\tPersistence; no Reaction cost.\nSelf / willing / unattended\tNo defence.\n\nDodge uses the base Reaction, once per round. Each subject defends separately; outcomes using the same defence against one subject share a roll.\n\nA Critical Shaping keeps its opposed grade. It does not maximise effect dice or bypass armour.\n\nCounter replaces your own defence. If it does not stop the Shaping, you get no Dodge, shield guard, Persistence or Resilience roll against it. An ally's failed Counter still leaves your defence available.\n\nHARM, COVER AND SHIELDS\n\nChoose delivery before calculating M.\n\nProjected Harm: no added M; crosses space. Normal armour applies. Partial cover gives the caster -1P; substantial cover -2P. A complete barrier blocks the route. Shields cannot guard areas.\n\nDirect Harm: +1 M. Arises inside selected targets; still needs a valid route. Bodily/material harm faces Resilience, soul harm Persistence. It ignores nonmagical AP; magical Wards and named resistances still apply. No Dodge or guard.\n\nSpirit harm is Direct-only: I D6 PP, not HP; Soulless targets are invalid. Mind causes no HP damage.\n\nImpact Size for each Projected outcome:\n\nI1\tI2\tI3\tI4\tI5\nLight\tMedium\tHeavy\tHuge\tBeyond Huge\n\nIf shield guard wins: same Size or larger blocks the outcome; one smaller halves damage; two or more smaller blocks none. A winning Critical guard blocks all. Only shields can guard magical projections; use each outcome's own I.\n\nSHAPING\nCARD 2 / 3",
+      "orderedListMarkers": []
+    },
+    {
+      "page": 3,
+      "footerGapMm": 6.420279947916666,
+      "columns": [
+        {
+          "footerGapMm": 14.440462239583331,
+          "blocks": [
+            {
+              "title": "Cast on your turn",
+              "heightMm": 61.33785807291667
+            },
+            {
+              "title": "Ordinary casting risk",
+              "heightMm": 44.90888671875
+            },
+            {
+              "title": "Pay Power Points",
+              "heightMm": 72.47516276041667
+            },
+            {
+              "title": "Recover PP",
+              "heightMm": 36.938313802083336
+            }
+          ]
+        },
+        {
+          "footerGapMm": 6.420279947916666,
+          "blocks": [
+            {
+              "title": "Keep magic active",
+              "heightMm": 75.50133463541667
+            },
+            {
+              "title": "Escape a hostile condition",
+              "heightMm": 62.247363281249996
+            },
+            {
+              "title": "Sense Magic and Dispel",
+              "heightMm": 50.192285156249994
+            },
+            {
+              "title": "Direct a subject or summon",
+              "heightMm": 35.739420572916664
+            }
+          ]
+        }
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX 2.0\nPLAYER REFERENCE\nCAST & SUSTAIN\n\nPay Power Points, track ongoing effects and recover your strength.\n\nCAST ON YOUR TURN\nAgree the cell, effects, M, modifiers and defence.\nHave PP to cover full M, even if you might roll a Critical. Check active load.\nSpend one Combat Action and roll Shaping. Keep Movement and eligible Reactions.\nResolve any Counter, then defence (card 2). Pay PP, then apply the effect.\n\nHostile touch: first make a no-damage Unarmed Combat delivery attack in that action; the target may React normally. A failed delivery uses the action but no PP. Contact then needs the Shaping roll and its normal resistance.\n\nORDINARY CASTING RISK\nYour M\tModifier\nUp to Safe M\tNone from Magnitude.\nSafe + 1\t-1P; overreach.\nSafe + 2\t-2P; overreach.\n\nBonus dice may cancel the penalty, but overreach still risks Backlash.\n\nPAY POWER POINTS\nShaping result\tCost and consequence\nCritical\tPay half M; still resolve defence.\nSuccess\tPay full M.\nFailure, within Safe\tNo effect; lose 1 PP.\nFailed overreach\tNo effect; lose half M and suffer Backlash.\nFumble\tNo intended effect; lose full M and suffer Backlash.\n\nRound halves up. A stopped casting still costs PP. Resolve a Hero Point reroll before costs. Backlash: the GM resolves harm, extra PP loss, a stray effect or Fatigue.\n\nRECOVER PP\n\nRecover 1/4 maximum PP per complete 2 hours of rest, rounded normally; 8 hours restores all. Never exceed maximum.\n\nAt 0 PP, living characters fall unconscious until PP returns. A casting resolves first, then unconsciousness ends concentration.\n\nKEEP MAGIC ACTIVE\n\nTotal ongoing M cannot exceed permanent, unmodified INT. Record each effect's M, Duration and casting result. Dismiss on your turn without an Action.\n\nINT 10 example: an M4 Ward + M4 flight = 8 active M. Another M3 ongoing effect would total 11, so dismiss one first. A Critical still adds full M. An instant M3 firebolt costs PP but adds no ongoing M once resolved.\n\nPassive benefit: no maintenance Action. Concentration / active control: your Combat Action each round, only one; keep subject within Range and a valid route. Damage or serious distraction requires Persistence or maintenance ends.\n\nUse only the strongest same-kind magical bonus or protection. Temporary creations vanish when their Duration ends.\n\nESCAPE A HOSTILE CONDITION\n\nUsually spend a Combat Action to retry the original defence against the stored Shaping result; win to escape.\n\nIf the condition prevents Combat Actions, retry freely at the end of your own turn. Apply that turn's restrictions first. Winning ends the condition but does not restore missed Actions. A stated break condition or specific control rule may replace the retry.\n\nExample: a force bind held you with an ordinary Shaping success of 42. Spend a Combat Action and roll your Resilience 60%. A 55 succeeds and beats 42: you escape. The caster does not reroll.\n\nSENSE MAGIC AND DISPEL\n\nBoth use Practice and Tell; no known cell needed.\n\nSense Magic: Combat Action + 1 PP; test Shaping. Success locates active magic within 15 m and reveals Form. Critical adds Technique, M and its state.\n\nDispel: Combat Action; M = target's full M + Range, Reach 0. Cast and pay normally; you must succeed and win against the original caster's current unmodified Shaping. Use Dispel to end active magic; completed permanent changes need a new Shaping.\n\nDIRECT A SUBJECT OR SUMMON\n\nOnly one combat-capable summon or actively controlled subject. Giving it a consequential action uses your Combat Action and its corresponding Action; it gains no extra action. A generic summon acts immediately after you and can move and defend without a command. Commands need 15 m and line of effect.\n\nSHAPING\nCARD 3 / 3",
+      "orderedListMarkers": [
+        "1.",
+        "2.",
+        "3.",
+        "4."
+      ]
+    }
+  ],
+  "sourceMap": [
+    {
+      "file": "01-build-a-shaping.md",
+      "title": "Build a Shaping",
+      "sources": [
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/magic/becoming-a-shaper.md",
+        "src/content/rules/magic/techniques-and-forms.md",
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/magic/rituals-and-examples.md"
+      ]
+    },
+    {
+      "file": "02-effects-and-defences.md",
+      "title": "Effects & Defences",
+      "sources": [
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/magic/casting-and-defence.md",
+        "src/content/rules/magic/techniques-and-forms.md"
+      ]
+    },
+    {
+      "file": "03-cast-and-sustain.md",
+      "title": "Cast & Sustain",
+      "sources": [
+        "src/content/rules/magic/casting-and-defence.md",
+        "src/content/rules/magic/ongoing-and-magical-actions.md",
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/start-here/d100-percentile.md"
+      ]
+    }
+  ]
+}
