@@ -13,7 +13,7 @@ All eight builds pass the checks in [build.mjs](build.mjs), using [characters.js
 | Ilen Sedge  | 86                   | 11 / 6   | 12  | 13       | +0   | 14    | 15 m | 23 / 16               | 115 SP / 25 SP           |
 | Orren Pike  | 86                   | 14 / 7   | 10  | 9        | +1D6 | 8     | 15 m | 32 / 19               | 122 SP / 18 SP           |
 | Seris Vale  | 86                   | 10 / 5   | 14  | 14       | +0   | 12    | 15 m | 22 / 16               | 112 SP / 28 SP           |
-| Nera Quill  | 86                   | 10 / 5   | 17  | 18       | +0   | 13    | 15 m | 18 / 16               | 113 SP 5 CP / 26 SP 5 CP |
+| Nerin Quill  | 86                   | 10 / 5   | 17  | 18       | +0   | 13    | 15 m | 18 / 16               | 113 SP 5 CP / 26 SP 5 CP |
 
 ## IP totals
 
@@ -26,7 +26,7 @@ All eight builds pass the checks in [build.mjs](build.mjs), using [characters.js
 | Ilen Sedge  | 10       | 0         | 0                 | 10      | 0        | 0       |
 | Orren Pike  | 10       | 0         | 4                 | 5       | 1        | 0       |
 | Seris Vale  | 10       | 0         | 5                 | 4       | 1        | 0       |
-| Nera Quill  | 10       | 10        | 0                 | 20      | 0        | 0       |
+| Nerin Quill  | 10       | 10        | 0                 | 20      | 0        | 0       |
 
 Both Shapers reserve 20 IP before Knowledge allocation. Each converts 15 Resistance, 15 Combat, and 20 Practical points into 3 + 3 + 4 IP, then spends the ordinary 10 IP as well. Knowledge remains 50; 30 goes to Shaping and 20 to own Lore. Neither has spare IP or an unbought magical Talent. Nonhumans pay mandatory ancestry costs from the ordinary 10 IP. All skill improvements use ordinary IP; no converted IP raises a skill. No characteristic is improved with IP.
 

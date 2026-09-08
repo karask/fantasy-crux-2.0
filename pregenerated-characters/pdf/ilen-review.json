@@ -1,0 +1,11 @@
+{
+  "character": "Ilen Sedge",
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified": 24,
+  "talent_explanations": 4,
+  "visual_review": "Both rendered pages inspected; no clipping, overlap or missing glyphs.",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/ilen-sedge-a4.pdf",
+  "sha256": "4fab8f892255e0445134eb6a67bf543b11240a72b4d5636794f42a5318fdc80f",
+  "portrait": "pregenerated-characters/pdf/assets/ilen-sedge-portrait.png"
+}

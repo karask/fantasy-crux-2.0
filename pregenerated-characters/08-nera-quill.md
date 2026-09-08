@@ -1,26 +1,26 @@
-# Nera Quill
+# Nerin Quill
 
 [Choose another PC](README.md) · [All eight concepts](01-concepts.md) · [Shared play reference](02-play-reference.md)
 
 ## Character
 
-**Human, 23, she/her. Former survey instrument assistant; Force/Motion Shaper.**
+**Human, 23. Former survey instrument assistant; Force/Motion Shaper.**
 
-**Concept:** An inquisitive survey assistant who moves bodies and projects force through exact Shaping, determined to finish useful work without hiding her mistakes.
+**Concept:** An inquisitive survey assistant who moves bodies and projects force through exact Shaping, determined to finish useful work without hiding his mistakes.
 
-**Appearance:** Slight, with deep brown skin, close-set hazel eyes, and tightly curled hair escaping a cloth tie. Her left sleeve is perpetually tucked higher than the right. She checks a distance with her eyes and fingertips before speaking a measure aloud.
+**Appearance:** Slight, with deep brown skin, close-set hazel eyes, and tightly curled hair escaping a cloth tie. His left sleeve is perpetually tucked higher than the right. He checks a distance with his eyes and fingertips before speaking a measure aloud.
 
-**Background:** Nera kept records and carried instruments for a minor survey crew. During a damaged gate's sudden collapse, she felt its weight hang on the cadence she was shouting. A Shaper later taught her to repeat that discovery safely as **Bend·Force/Motion** and **Unmake·Force/Motion**. Her former employers wanted quiet paperwork about the accident; she wanted an honest account. At the flood she relayed Dori's lifting counts and helped move the injured.
+**Background:** Nerin kept records and carried instruments for a minor survey crew. During a damaged gate's sudden collapse, he felt its weight hang on the cadence he was shouting. A Shaper later taught him to repeat that discovery safely as **Bend·Force/Motion** and **Unmake·Force/Motion**. His former employers wanted quiet paperwork about the accident; he wanted an honest account. At the flood he relayed Dori's lifting counts and helped move the injured.
 
-**Personality:** Earnest, curious, and quick to explain a useful observation. She can laugh at her own mistakes. Her flaw is wanting a field test before all the practical risks have been discussed. She accepts a companion's stop signal and does not experiment on unwilling allies.
+**Personality:** Earnest, curious, and quick to explain a useful observation. He can laugh at his own mistakes. His flaw is wanting a field test before all the practical risks have been discussed. He accepts a companion's stop signal and does not experiment on unwilling allies.
 
-**Loyalties and goal:** Accurate records and the company come before institutional prestige. She wants to bring back observations other people can verify, along with everyone who helped obtain them.
+**Loyalties and goal:** Accurate records and the company come before institutional prestige. He wants to bring back observations other people can verify, along with everyone who helped obtain them.
 
-**Bond:** Dori admitted that an early estimate was wrong, corrected it, and carried on. Nera trusts that kind of competence more than a claim never to make mistakes.
+**Bond:** Dori admitted that an early estimate was wrong, corrected it, and carried on. Nerin trusts that kind of competence more than a claim never to make mistakes.
 
-**Magic's character:** Her Practice requires speaking a measured count while tracing two intersecting lines with a free hand. Her Tell doubles straight edges around her and the affected subject for an instant. It is noticeable even when she speaks quietly.
+**Magic's character:** His Practice requires speaking a measured count while tracing two intersecting lines with a free hand. His Tell doubles straight edges around him and the affected subject for an instant. It is noticeable even when he speaks quietly.
 
-**Play her:** Say what you know, what you intend to move, and where it can safely go. “Three paces. Nothing else moves.”
+**Play him:** Say what you know, what you intend to move, and where it can safely go. “Three paces. Nothing else moves.”
 
 ## Characteristics and condition
 
@@ -166,7 +166,7 @@ No ancestry abilities or nonmagical Talents.
 
 **Practice:** Speak a measured count while tracing two intersecting lines with a free hand. Preventing speech or the gesture prevents casting.
 
-**Tell:** Straight edges double around Nera and the affected subject or area. Anyone watching the Practice notices it; automatic notice extends 10 × Magnitude metres from the Shaper and ranged target/area, minimum 3 m.
+**Tell:** Straight edges double around Nerin and the affected subject or area. Anyone watching the Practice notices it; automatic notice extends 10 × Magnitude metres from the Shaper and ranged target/area, minimum 3 m.
 
 ### Ready workings
 

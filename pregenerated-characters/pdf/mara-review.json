@@ -1,0 +1,14 @@
+{
+  "character": "Mara Holt",
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified": 24,
+  "talents": 4,
+  "pronoun_label": "omitted",
+  "visual_review": "Both final pages inspected. Four talent explanation cards follow all 24 skills; optional character cards omitted to keep two A4 pages.",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/mara-holt-a4.pdf",
+  "sha256": "a5477a93cb2585b7e4599fb6d0a7df3bb0cc45ff6b1b28d9e4fed813d1335e6c",
+  "portrait": "pregenerated-characters/pdf/assets/mara-holt-portrait.png",
+  "license_attachment": "exact match",
+  "talent_explanations": 4
+}

@@ -1,0 +1,38 @@
+{
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified_in_rendered_pdf": 24,
+  "named_skill_policy": "Only chosen or character-relevant Craft, Knowledge, Culture, and Language skills are displayed.",
+  "named_skills": [
+    "Craft (Calligraphy)",
+    "Lore (Magic)",
+    "Shaping",
+    "Culture (Whitewater)",
+    "Language (River Crown)"
+  ],
+  "talents_section": "Shaping, Force/Motion specialty, Bend-Force/Motion and Unmake-Force/Motion",
+  "portrait_page": 1,
+  "skills_layout": "Balanced across two columns",
+  "spells": 8,
+  "spell_names": [
+    "Measured shove",
+    "Pin to the mark",
+    "Hold to the wall",
+    "Surveyor's stride",
+    "Plumb-line hold",
+    "Feather the load",
+    "Force bolt",
+    "Break momentum"
+  ],
+  "license_attachment": "exact match",
+  "removed_rules_and_creation_text": "verified absent",
+  "text_within_page": true,
+  "visual_review": "Both final Nerin pages inspected; no clipping, overlap or missing glyphs. Page 2 text identical to approved version apart from character name.",
+  "body_font_pt": 9.8,
+  "minimum_table_font_pt": 8.9,
+  "portrait": "pregenerated-characters/pdf/assets/nerin-quill-portrait.png",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/nerin-quill-a4.pdf",
+  "sha256": "6e84ae4b960cb2748027ba48dbc56b7cec44ac9b0690f84e5294fa93c99e0465",
+  "pronoun_label": "omitted",
+  "character": "Nerin Quill"
+}

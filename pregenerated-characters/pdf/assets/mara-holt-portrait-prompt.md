@@ -1,0 +1,5 @@
+# Mara Holt portrait
+
+Mode: built-in image generation.
+
+Use case: illustration-story. Create a waist-up portrait for an A4 fantasy RPG character sheet. Mara Holt, a 27-year-old human woman, broad shoulders, square face, close-cropped brown hair, slightly crooked healed broken nose, steady thoughtful eyes and a restrained friendly expression. Practical brown leather armour with repeated visible repair stitching on the right shoulder, modest travel clothes, plain large wooden shield held at her side, carefully maintained arming sword sheathed at belt. A pale rope scar crosses her left palm where visible. Mature hand-inked Western adventure comic illustration with confident dark linework, natural anatomy, restrained warm colours, subtle paper texture. Warm ivory background with a muted teal graphic shape, no scenery, portrait composition with entire head and shoulders within frame. Experienced working escort, grounded and approachable, no glamour pose, no ornate armour, no text, no labels or watermark.

@@ -19,7 +19,7 @@ The session has a definite ending: the missing people are accounted for, the imm
 | [05-table-reference.md](05-table-reference.md)                      | Compact running order, clue routes, failure consequences, and rules reminders. GM only.                                                               |
 | [06-setting-and-design-notes.md](06-setting-and-design-notes.md)    | Gazetteer connections, adopted GM secrets, local additions, and adaptation decisions. GM only.                                                        |
 | [07-supporting-npcs.md](07-supporting-npcs.md)                      | Usable profiles for Jory, Hesta, Ancor, Pella, Neris, Irra, and Cale Rusk. GM only.                                                                   |
-| [Eight complete PC sheets](../../pregenerated-characters/README.md) | The five established company members plus Orren, Seris, and Nera; descriptions, every skill, equipment, abilities, and creation ledgers. Player-safe. |
+| [Eight complete PC sheets](../../pregenerated-characters/README.md) | The five established company members plus Orren, Seris, and Nerin; descriptions, every skill, equipment, abilities, and creation ledgers. Player-safe. |
 
 ## Preparation
 

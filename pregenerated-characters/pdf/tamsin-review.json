@@ -13,9 +13,11 @@
   "talents_section": "Shaping, Flesh specialty, Alter-Flesh and Scry-Flesh",
   "portrait_page": 1,
   "skills_layout": "Balanced across two columns",
-  "spells": 6,
+  "spells": 8,
   "spell_names": [
     "Close the wound",
+    "Reach the casualty",
+    "Mend the major wound",
     "Wall-crawler",
     "River lungs",
     "Borrowed face",
@@ -30,5 +32,6 @@
   "minimum_table_font_pt": 8.9,
   "portrait": "pregenerated-characters/pdf/assets/tamsin-reed-portrait.png",
   "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/tamsin-reed-a4.pdf",
-  "sha256": "a44459946f0353fc9f9106bb448fb1b4e0a8800e310a2635808f5fd9007b8647"
+  "sha256": "d01647f6734fb63206d11b41586b7addca584859c3653086e4a8bc1fa2822a94",
+  "pronoun_label": "omitted"
 }

@@ -62,7 +62,7 @@ On an ordinary successful Parry, compare the parrying item's Size with the incom
 | Two or more Sizes smaller | None                      |
 | Critical Parry            | All, irrespective of Size |
 
-Mundane arrows, bolts, and sling projectiles are Light. Nera's listed I2 force bolts are Medium Impact Size. Against Projected Shaping, the shield must first win its opposed test against the original casting result; apply magical Impact Size only if it wins.
+Mundane arrows, bolts, and sling projectiles are Light. Nerin's listed I2 force bolts are Medium Impact Size. Against Projected Shaping, the shield must first win its opposed test against the original casting result; apply magical Impact Size only if it wins.
 
 Sources: [Active Guard](../src/content/rules/combat/active-guard.md), [Off-hand options](../src/content/rules/combat/off-hand-options.md), [Casting and Defence](../src/content/rules/magic/casting-and-defence.md).
 

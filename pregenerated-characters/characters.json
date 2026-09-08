@@ -409,7 +409,7 @@
     },
     {
       "id": "nera-quill",
-      "name": "Nera Quill",
+      "name": "Nerin Quill",
       "race": "Human",
       "age": 23,
       "characteristics": {
@@ -443,7 +443,7 @@
         "specialty": "Force/Motion",
         "cells": ["Bend·Force/Motion", "Unmake·Force/Motion"],
         "practice": "Speak a measured count while tracing two intersecting lines with a free hand. Preventing speech or the gesture prevents casting.",
-        "tell": "Straight edges double around Nera and the affected subject or area. Anyone watching the Practice notices it; automatic notice extends 10 × Magnitude metres from the Shaper and ranged target/area, minimum 3 m.",
+        "tell": "Straight edges double around Nerin and the affected subject or area. Anyone watching the Practice notices it; automatic notice extends 10 × Magnitude metres from the Shaper and ranged target/area, minimum 3 m.",
         "examples": [
           {
             "name": "Measured shove",

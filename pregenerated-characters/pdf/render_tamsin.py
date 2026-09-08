@@ -146,7 +146,7 @@ def skill_group(label, group, x, y, width):
 # PAGE 1 - portrait, personal story, final attributes and possessions.
 text("THE LAST WAGON COMPANY  /  THE PRACTICAL LAMP", M, H-35, 9.2, "Bold", ROSE)
 text("Tamsin Reed", M, H-68, 30, "Display")
-text("Human  /  24  /  she/her  /  Synod-trained healer & Flesh Shaper", M, H-85, 10, "Body", MUTED)
+text("Human  /  24  /  Synod-trained healer & Flesh Shaper", M, H-85, 10, "Body", MUTED)
 
 hero_top = H-103
 portrait_w, portrait_h = 186, 248
@@ -234,23 +234,25 @@ for i, gs in enumerate(groups):
 y = heading("Spells", M, min(ends)-13, WIDTH)
 spells = [
     ("Close the wound", "Alter·Flesh  /  Touch  /  1 PP", "Restore **1D4 HP** to one willing living subject. End Bleeding and Dying."),
+    ("Reach the casualty", "Alter·Flesh  /  15 m  /  3 PP", "Restore **2D4 HP** to one willing living subject. End Bleeding and Dying."),
+    ("Mend the major wound", "Alter·Flesh  /  Touch  /  3 PP", "Restore **3D4 HP** to one willing living subject. End Bleeding and Dying. Counts as **Surgery**."),
     ("Wall-crawler", "Alter·Flesh  /  Touch  /  Scene  /  3 PP", "Grow adhesive pads on a willing subject. They climb at normal Movement."),
     ("River lungs", "Alter·Flesh  /  Touch  /  Scene  /  3 PP", "Grow gills on a willing subject so they can breathe water. Swimming speed is unchanged."),
     ("Borrowed face", "Alter·Flesh  /  Touch  /  Scene  /  3 PP", "Give a willing subject a different natural appearance. This grants no borrowed skills or abilities."),
     ("Follow the blood", "Scry·Flesh  /  15 m  /  3 PP", "Using a bodily trace, locate its living source within 15 m through ordinary concealment."),
     ("Silent autopsy", "Scry·Flesh  /  Touch  /  2 PP", "Learn one physical fact from a body: cause of death, age of a wound, or presence of poison or disease."),
 ]
-card_h = 83
+card_h = 72
 for i, (name, details, effect) in enumerate(spells):
     x = M + (i%2)*(COL+GAP)
-    top = y - (i//2)*(card_h+9)
+    top = y - (i//2)*(card_h+7)
     c.setFillColor(PALE)
     c.roundRect(x, top-card_h, COL, card_h, 4, stroke=0, fill=1)
-    z = para(f"**{name}**", x+10, top-9, COL-20, size=10.7, leading=12.8, after=3)
-    z = para(details, x+10, z, COL-20, size=9.0, leading=11.2, color=TEAL, after=4)
-    z = para(effect, x+10, z, COL-20, size=9.4, leading=11.7, after=0)
+    z = para(f"**{name}**", x+10, top-8, COL-20, size=10.2, leading=12.0, after=2)
+    z = para(details, x+10, z, COL-20, size=8.5, leading=10.2, color=TEAL, after=3)
+    z = para(effect, x+10, z, COL-20, size=8.9, leading=10.8, after=0)
     assert z >= top-card_h+6, f"Spell card overflow: {name}"
-spell_end = y-3*card_h-18
+spell_end = y-4*card_h-21
 layout_log.append({"page":2, "kind":"page_end", "bottom":spell_end, "skills_bottom":min(ends)})
 footer(2)
 c.save()

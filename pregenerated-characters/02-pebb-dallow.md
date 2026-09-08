@@ -4,21 +4,21 @@
 
 ## Character
 
-**Goblin, 22, they/them. Former copying-house apprentice; negotiator and deceiver.**
+**Goblin, 22. Former copying-house apprentice; negotiator and deceiver.**
 
 **Concept:** A nimble former document forger who solves disputes with observation and credible explanations, eager to make the company respectable through honest work.
 
-**Appearance:** Small and fine-boned, with olive skin, wide amber eyes, and one ear pierced by an old ink-stained pin. Their russet waistcoat has carefully matched patches. They straighten an already straight cuff whenever a conversation becomes important.
+**Appearance:** Small and fine-boned, with olive skin, wide amber eyes, and one ear pierced by an old ink-stained pin. His russet waistcoat has carefully matched patches. He straightens an already straight cuff whenever a conversation becomes important.
 
-**Background:** Pebb learned accurate copying and fraudulent amendments from the same employer. Leaving that trade did not erase its useful lessons about procedure, vanity, and how people read a document. The flood gave them friends whose respect was worth keeping.
+**Background:** Pebb learned accurate copying and fraudulent amendments from the same employer. Leaving that trade did not erase its useful lessons about procedure, vanity, and how people read a document. The flood gave him friends whose respect was worth keeping.
 
-**Personality:** Cheerful, observant, and offended by sloppy paperwork. Pebb likes a clever bluff but prefers a bargain that everyone can live with. Their weakness is explaining one sentence too much when silence would serve better. They will admit a failed bluff to companions rather than trap the company in it.
+**Personality:** Cheerful, observant, and offended by sloppy paperwork. Pebb likes a clever bluff but prefers a bargain that everyone can live with. His weakness is explaining one sentence too much when silence would serve better. He will admit a failed bluff to companions rather than trap the company in it.
 
-**Loyalties and goal:** They protect the company's good name and the people who gave them a fresh start. Their immediate aim is to finish a public job without anyone needing a false signature.
+**Loyalties and goal:** He protects the company's good name and the people who gave him a fresh start. His immediate aim is to finish a public job without anyone needing a false signature.
 
 **Bond:** Dori crawled beneath the flooded wagon when Pebb was trapped there. Pebb accepts Dori's structural warnings without demanding a demonstration.
 
-**Play them:** Ask what each side actually needs, notice the official's favourite phrase, and offer a specific agreement. “We can put that in writing. Properly, this time.”
+**Play him:** Ask what each side actually needs, notice the official's favourite phrase, and offer a specific agreement. “We can put that in writing. Properly, this time.”
 
 ## Characteristics and condition
 

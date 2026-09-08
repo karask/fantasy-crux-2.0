@@ -4,21 +4,21 @@
 
 ## Character
 
-**Human, 21, they/them. Independent courier; alert runner and archer.**
+**Human, 21. Independent courier; alert runner and archer.**
 
-**Concept:** A quick, attentive courier who spots danger and carries news through difficult streets, determined to deserve the confidence people place in them.
+**Concept:** A quick, attentive courier who spots danger and carries news through difficult streets, determined to deserve the confidence people place in him.
 
-**Appearance:** Long-legged and lightly built, with brown skin, a spray of freckles, and a short braid tucked into their collar. Their boots are worn thin at the outside heels. They look at doorways before choosing a seat.
+**Appearance:** Long-legged and lightly built, with brown skin, a spray of freckles, and a short braid tucked into his collar. His boots are worn thin at the outside heels. He looks at doorways before choosing a seat.
 
-**Background:** Ilen rode as a passenger on the flooded caravan and helped carry its injured travellers. Their work since then has taught them which alleys connect, which gates close early, and how long a journey really takes. They run messages; they own no mount and do not teleport.
+**Background:** Ilen rode as a passenger on the flooded caravan and helped carry its injured travellers. His work since then has taught him which alleys connect, which gates close early, and how long a journey really takes. He runs messages; he owns no mount.
 
-**Personality:** Curious, punctual, and careful with confidences. They remember small promises and dislike leaving a message unanswered. Their flaw is moving before everyone has agreed on the destination. They have learned to announce a route before taking it.
+**Personality:** Curious, punctual, and careful with confidences. He remembers small promises and dislikes leaving a message unanswered. His flaw is moving before everyone has agreed on the destination. He has learned to announce a route before taking it.
 
-**Loyalties and goal:** An entrusted message stays closed, and an entrusted person gets an escort. They want a company reputation worth defending and a first substantial job delivered as promised.
+**Loyalties and goal:** An entrusted message stays closed, and an entrusted person gets an escort. He wants a company reputation worth defending and a first substantial job delivered as promised.
 
 **Bond:** Pebb has returned misplaced sealed messages unopened. Ilen repays that discretion with trust, even when Pebb's explanation sounds improbable.
 
-**Play them:** Notice an exit, report what you see, and find a clear line for a shot. “I can get there. Tell me exactly what they need to hear.”
+**Play him:** Notice an exit, report what you see, and find a clear line for a shot. “I can get there. Tell me exactly what they need to hear.”
 
 ## Characteristics and condition
 

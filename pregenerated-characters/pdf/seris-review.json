@@ -1,0 +1,11 @@
+{
+  "character": "Seris Vale",
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified": 24,
+  "talent_and_ancestry_explanations": 4,
+  "visual_review": "Both rendered pages inspected; no clipping, overlap or missing glyphs.",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/seris-vale-a4.pdf",
+  "sha256": "5f8f308e2153245a20f8172296a845cc95b7fd071f60d55c7c4153dc2989d925",
+  "portrait": "pregenerated-characters/pdf/assets/seris-vale-portrait.png"
+}

@@ -1,0 +1,11 @@
+{
+  "character": "Orren Pike",
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified": 24,
+  "talent_and_ancestry_explanations": 3,
+  "visual_review": "Both pages rendered and inspected; no clipping, overlap or missing glyphs.",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/orren-pike-a4.pdf",
+  "sha256": "a41acc2de51a55cdcdc0969b4c71c73a45b5c6cc645615fd0749d7aefbcfc576",
+  "portrait": "pregenerated-characters/pdf/assets/orren-pike-portrait.png"
+}

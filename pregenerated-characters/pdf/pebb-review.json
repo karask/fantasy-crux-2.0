@@ -1,0 +1,11 @@
+{
+  "character": "Pebb Dallow",
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified": 24,
+  "talent_and_ancestry_explanations": 3,
+  "visual_review": "Both pages rendered and inspected; no clipping, overlap or missing glyphs.",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/pebb-dallow-a4.pdf",
+  "sha256": "f12db8d40217bbcb8e2f87ee714847058593f98fe2fcdd63f29e72beb8574773",
+  "portrait": "pregenerated-characters/pdf/assets/pebb-dallow-portrait.png"
+}

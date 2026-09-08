@@ -4,6 +4,8 @@ Eight starting members of the **Last Wagon Company** for **Fantasy Crux 2.0 Beta
 
 All characteristics and ages were chosen without rolling dice. Each PC uses the normal creation budgets and the **user-approved fixed starting allowance of 140 SP**. Every sheet displays every general skill, including low and untrained values, with named subjects, critical ranges, and a visible point ledger.
 
+**Roster:** five male PCs (Pebb, Dori, Ilen, Orren, Nerin) and three female PCs (Mara, Tamsin, Seris).
+
 ## Choose a character
 
 | Complete sheet                   | Ancestry and role                           | Personality                                                                                 | Some strengths                                                                                   |
@@ -15,11 +17,25 @@ All characteristics and ages were chosen without rolling dice. Each PC uses the 
 | [Ilen Sedge](05-ilen-sedge.md)   | Human courier; runner and archer            | Curious, punctual, discreet; sometimes starts moving before the plan is settled.            | Perception 55%, Athletics 54%, Ranged Combat 59%; Quick Reflexes and Battle Awareness.           |
 | [Orren Pike](06-orren-pike.md)   | Orc dockworker; rescuer and wrestler        | Courteous, literal, fond of terrible verse; takes on too much heavy work.                   | Athletics 59%, Sailing 51%, Close and Unarmed Combat 54%; Wrestler and Subdue.                   |
 | [Seris Vale](07-seris-vale.md)   | Elf woodland guide; tracker                 | Watchful and wry; explains evidence plainly; distrusts convenient shortcuts.                | Natural Lore 54%, Deception 58%, Ranged Combat 60%; Tracker, Wayfinder, and Low-Light Sight.     |
-| [Nera Quill](08-nera-quill.md)   | Human survey assistant; Force/Motion Shaper | Earnest and inquisitive; owns her mistakes; too eager to test a new idea.                   | Shaping 65%, Perception 50%, Mechanisms 46%; forced movement, climbing support, and force bolts. |
+| [Nerin Quill](08-nera-quill.md)   | Human survey assistant; Force/Motion Shaper | Earnest and inquisitive; owns his mistakes; too eager to test a new idea.                   | Shaping 65%, Perception 50%, Mechanisms 46%; forced movement, climbing support, and force bolts. |
 
 ## What each sheet contains
 
+**Courier and archer:** [Ilen Sedge - complete A4 PDF](../output/pdf/ilen-sedge-a4.pdf), two pages with his portrait, 24 skills, equipment, and four talent explanations. All eight PCs now have illustrated PDFs.
+
+**Woodland guide:** [Seris Vale - complete A4 PDF](../output/pdf/seris-vale-a4.pdf), two pages with her portrait, 24 skills, equipment, and four talent and ancestry explanations.
+
+**Rescuer and wrestler:** [Orren Pike - complete A4 PDF](../output/pdf/orren-pike-a4.pdf), two pages with his portrait, 24 skills, equipment, and explanations for Adrenaline Surge, Wrestler, and Subdue.
+
+**Goblin negotiator:** [Pebb Dallow - complete A4 PDF](../output/pdf/pebb-dallow-a4.pdf), two pages with his portrait, 24 skills, equipment, and talent and ancestry explanations.
+
 **Printable example:** [Tamsin Reed - complete A4 PDF](../output/pdf/tamsin-reed-a4.pdf), two pages with her portrait, description, personality, acquired skills at their final values, Talent, spells, and equipment. Named Craft, Knowledge, Culture, and Language placeholders are omitted. Rules explanations and creation accounting are kept in the reference material. The licence is embedded as an attachment.
+
+**Second printable example:** [Nerin Quill - complete A4 PDF](../output/pdf/nerin-quill-a4.pdf), using the same approved two-page presentation for a Force/Motion Shaper.
+
+**Shield protector:** [Mara Holt - complete A4 PDF](../output/pdf/mara-holt-a4.pdf), two pages with her portrait, four Talents, complete general skills, selected named skills, equipment, and character notes.
+
+**Engineer:** [Dori Ashlar - complete A4 PDF](../output/pdf/dori-ashlar-a4.pdf), two pages with his portrait, 25 skills, equipment, and talent and ancestry explanations after the skills.
 
 - Appearance, age, background, personality, loyalty, immediate goal, trusting bond, and a short roleplaying cue.
 - All seven characteristics, HP, MWL, PP, Hero Points, damage modifier, Combat Order, Movement, armour, recovery, conditions, and cash.

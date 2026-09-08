@@ -1,6 +1,6 @@
 # The Last Wagon Company
 
-**Player-safe company brief.** [Complete point-built sheets for eight members](../../pregenerated-characters/README.md) are now available, with [full descriptions and personalities](../../pregenerated-characters/01-concepts.md). Choose four characters, adding Ilen for a fifth player; Orren, Seris, and Nera provide further choices. Everyone speaks **River Crown** and begins rested, at full HP and PP, with **2 Hero Points** and no lingering wounds.
+**Player-safe company brief.** [Complete point-built sheets for eight members](../../pregenerated-characters/README.md) are now available, with [full descriptions and personalities](../../pregenerated-characters/01-concepts.md). Choose four characters, adding Ilen for a fifth player; Orren, Seris, and Nerin provide further choices. Everyone speaks **River Crown** and begins rested, at full HP and PP, with **2 Hero Points** and no lingering wounds.
 
 ## Read aloud: who you are
 

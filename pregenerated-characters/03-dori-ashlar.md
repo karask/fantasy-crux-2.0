@@ -4,21 +4,21 @@
 
 ## Character
 
-**Dwarf, 28, they/them. Bridge-crew survey assistant; engineer and mechanism specialist.**
+**Dwarf, 28. Bridge-crew survey assistant; engineer and mechanism specialist.**
 
 **Concept:** A careful bridge-worker who reads loads and machinery, determined to make public works safe for the people who maintain them.
 
-**Appearance:** Short and heavily built, with warm brown skin, a dense black beard tied clear of their hands, and a nick missing from the right eyebrow. Their fingertips carry ground-in stone dust. They crouch to look along a surface before placing weight on it.
+**Appearance:** Short and heavily built, with warm brown skin, a dense black beard tied clear of his hands, and a nick missing from the right eyebrow. His fingertips carry ground-in stone dust. He crouches to look along a surface before placing weight on it.
 
-**Background:** Raised in Whitewater by Moruni bridge-workers, Dori learned River Crown at home and on March crews. Family customs gave them a respect for careful construction, not automatic fluency in Karic. During the flood they found a sound place to brace the wagon while others pulled.
+**Background:** Raised in Whitewater by Moruni bridge-workers, Dori learned River Crown at home and on March crews. Family customs gave him a respect for careful construction, not automatic fluency in Karic. During the flood he found a sound place to brace the wagon while others pulled.
 
-**Personality:** Deliberate, curious, and generous with explanations. They name tools affectionately and sketch while listening. Their flaw is trying to obtain one more measurement after the group already has enough to act. A clear deadline helps them choose.
+**Personality:** Deliberate, curious, and generous with explanations. He names tools affectionately and sketches while listening. His flaw is trying to obtain one more measurement after the group already has enough to act. A clear deadline helps him choose.
 
-**Loyalties and goal:** Dori takes workers' observations seriously, whatever their rank. They want to bring the missing surveyors home and eventually supervise a crew that listens before someone gets hurt.
+**Loyalties and goal:** Dori takes workers' observations seriously, whatever their rank. He wants to bring the missing surveyors home and eventually supervise a crew that listens before someone gets hurt.
 
 **Bond:** Tamsin talked Dori through the lifting rhythm when panic threatened. Dori trusts Tamsin to recognise the difference between courage and exhaustion.
 
-**Play them:** Ask what bears the load, what moves, and what has changed. “It can be done. Let me show you where to stand.”
+**Play him:** Ask what bears the load, what moves, and what has changed. “It can be done. Let me show you where to stand.”
 
 ## Characteristics and condition
 

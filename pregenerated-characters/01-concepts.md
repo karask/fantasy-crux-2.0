@@ -24,39 +24,39 @@ The shared promise is simple: **nobody gets left behind**. Everyone signed the s
 
 ## 2. Pebb Dallow — the convincing explanation
 
-**Goblin, 22, they/them. Former copying-house apprentice; negotiator and deceiver.**
+**Goblin, 22. Former copying-house apprentice; negotiator and deceiver.**
 
 **Concept:** A nimble former document forger who solves disputes with observation and credible explanations, eager to make the company respectable through honest work.
 
-**Appearance:** Small and fine-boned, with olive skin, wide amber eyes, and one ear pierced by an old ink-stained pin. Their russet waistcoat has carefully matched patches. They straighten an already straight cuff whenever a conversation becomes important.
+**Appearance:** Small and fine-boned, with olive skin, wide amber eyes, and one ear pierced by an old ink-stained pin. His russet waistcoat has carefully matched patches. He straightens an already straight cuff whenever a conversation becomes important.
 
-**Background:** Pebb learned accurate copying and fraudulent amendments from the same employer. Leaving that trade did not erase its useful lessons about procedure, vanity, and how people read a document. The flood gave them friends whose respect was worth keeping.
+**Background:** Pebb learned accurate copying and fraudulent amendments from the same employer. Leaving that trade did not erase its useful lessons about procedure, vanity, and how people read a document. The flood gave him friends whose respect was worth keeping.
 
-**Personality:** Cheerful, observant, and offended by sloppy paperwork. Pebb likes a clever bluff but prefers a bargain that everyone can live with. Their weakness is explaining one sentence too much when silence would serve better. They will admit a failed bluff to companions rather than trap the company in it.
+**Personality:** Cheerful, observant, and offended by sloppy paperwork. Pebb likes a clever bluff but prefers a bargain that everyone can live with. His weakness is explaining one sentence too much when silence would serve better. He will admit a failed bluff to companions rather than trap the company in it.
 
-**Loyalties and goal:** They protect the company's good name and the people who gave them a fresh start. Their immediate aim is to finish a public job without anyone needing a false signature.
+**Loyalties and goal:** He protects the company's good name and the people who gave him a fresh start. His immediate aim is to finish a public job without anyone needing a false signature.
 
 **Bond:** Dori crawled beneath the flooded wagon when Pebb was trapped there. Pebb accepts Dori's structural warnings without demanding a demonstration.
 
-**Play them:** Ask what each side actually needs, notice the official's favourite phrase, and offer a specific agreement. “We can put that in writing. Properly, this time.”
+**Play him:** Ask what each side actually needs, notice the official's favourite phrase, and offer a specific agreement. “We can put that in writing. Properly, this time.”
 
 ## 3. Dori Ashlar — the patient problem-solver
 
-**Dwarf, 28, they/them. Bridge-crew survey assistant; engineer and mechanism specialist.**
+**Dwarf, 28. Bridge-crew survey assistant; engineer and mechanism specialist.**
 
 **Concept:** A careful bridge-worker who reads loads and machinery, determined to make public works safe for the people who maintain them.
 
-**Appearance:** Short and heavily built, with warm brown skin, a dense black beard tied clear of their hands, and a nick missing from the right eyebrow. Their fingertips carry ground-in stone dust. They crouch to look along a surface before placing weight on it.
+**Appearance:** Short and heavily built, with warm brown skin, a dense black beard tied clear of his hands, and a nick missing from the right eyebrow. His fingertips carry ground-in stone dust. He crouches to look along a surface before placing weight on it.
 
-**Background:** Raised in Whitewater by Moruni bridge-workers, Dori learned River Crown at home and on March crews. Family customs gave them a respect for careful construction, not automatic fluency in Karic. During the flood they found a sound place to brace the wagon while others pulled.
+**Background:** Raised in Whitewater by Moruni bridge-workers, Dori learned River Crown at home and on March crews. Family customs gave him a respect for careful construction, not automatic fluency in Karic. During the flood he found a sound place to brace the wagon while others pulled.
 
-**Personality:** Deliberate, curious, and generous with explanations. They name tools affectionately and sketch while listening. Their flaw is trying to obtain one more measurement after the group already has enough to act. A clear deadline helps them choose.
+**Personality:** Deliberate, curious, and generous with explanations. He names tools affectionately and sketches while listening. His flaw is trying to obtain one more measurement after the group already has enough to act. A clear deadline helps him choose.
 
-**Loyalties and goal:** Dori takes workers' observations seriously, whatever their rank. They want to bring the missing surveyors home and eventually supervise a crew that listens before someone gets hurt.
+**Loyalties and goal:** Dori takes workers' observations seriously, whatever their rank. He wants to bring the missing surveyors home and eventually supervise a crew that listens before someone gets hurt.
 
 **Bond:** Tamsin talked Dori through the lifting rhythm when panic threatened. Dori trusts Tamsin to recognise the difference between courage and exhaustion.
 
-**Play them:** Ask what bears the load, what moves, and what has changed. “It can be done. Let me show you where to stand.”
+**Play him:** Ask what bears the load, what moves, and what has changed. “It can be done. Let me show you where to stand.”
 
 ## 4. Tamsin Reed — the practical lamp
 
@@ -80,21 +80,21 @@ The shared promise is simple: **nobody gets left behind**. Everyone signed the s
 
 ## 5. Ilen Sedge — the returning messenger
 
-**Human, 21, they/them. Independent courier; alert runner and archer.**
+**Human, 21. Independent courier; alert runner and archer.**
 
-**Concept:** A quick, attentive courier who spots danger and carries news through difficult streets, determined to deserve the confidence people place in them.
+**Concept:** A quick, attentive courier who spots danger and carries news through difficult streets, determined to deserve the confidence people place in him.
 
-**Appearance:** Long-legged and lightly built, with brown skin, a spray of freckles, and a short braid tucked into their collar. Their boots are worn thin at the outside heels. They look at doorways before choosing a seat.
+**Appearance:** Long-legged and lightly built, with brown skin, a spray of freckles, and a short braid tucked into his collar. His boots are worn thin at the outside heels. He looks at doorways before choosing a seat.
 
-**Background:** Ilen rode as a passenger on the flooded caravan and helped carry its injured travellers. Their work since then has taught them which alleys connect, which gates close early, and how long a journey really takes. They run messages; they own no mount and do not teleport.
+**Background:** Ilen rode as a passenger on the flooded caravan and helped carry its injured travellers. His work since then has taught him which alleys connect, which gates close early, and how long a journey really takes. He runs messages; he owns no mount.
 
-**Personality:** Curious, punctual, and careful with confidences. They remember small promises and dislike leaving a message unanswered. Their flaw is moving before everyone has agreed on the destination. They have learned to announce a route before taking it.
+**Personality:** Curious, punctual, and careful with confidences. He remembers small promises and dislikes leaving a message unanswered. His flaw is moving before everyone has agreed on the destination. He has learned to announce a route before taking it.
 
-**Loyalties and goal:** An entrusted message stays closed, and an entrusted person gets an escort. They want a company reputation worth defending and a first substantial job delivered as promised.
+**Loyalties and goal:** An entrusted message stays closed, and an entrusted person gets an escort. He wants a company reputation worth defending and a first substantial job delivered as promised.
 
 **Bond:** Pebb has returned misplaced sealed messages unopened. Ilen repays that discretion with trust, even when Pebb's explanation sounds improbable.
 
-**Play them:** Notice an exit, report what you see, and find a clear line for a shot. “I can get there. Tell me exactly what they need to hear.”
+**Play him:** Notice an exit, report what you see, and find a clear line for a shot. “I can get there. Tell me exactly what they need to hear.”
 
 ## 6. Orren Pike — the extra pair of hands
 
@@ -132,25 +132,25 @@ The shared promise is simple: **nobody gets left behind**. Everyone signed the s
 
 **Play her:** Find the evidence, check tomorrow's weather, and tell everyone what an animal or a footprint actually suggests. “Something passed here. Let's work out how recently.”
 
-## 8. Nera Quill — the measured risk
+## 8. Nerin Quill — the measured risk
 
-**Human, 23, she/her. Former survey instrument assistant; Force/Motion Shaper.**
+**Human, 23. Former survey instrument assistant; Force/Motion Shaper.**
 
-**Concept:** An inquisitive survey assistant who moves bodies and projects force through exact Shaping, determined to finish useful work without hiding her mistakes.
+**Concept:** An inquisitive survey assistant who moves bodies and projects force through exact Shaping, determined to finish useful work without hiding his mistakes.
 
-**Appearance:** Slight, with deep brown skin, close-set hazel eyes, and tightly curled hair escaping a cloth tie. Her left sleeve is perpetually tucked higher than the right. She checks a distance with her eyes and fingertips before speaking a measure aloud.
+**Appearance:** Slight, with deep brown skin, close-set hazel eyes, and tightly curled hair escaping a cloth tie. His left sleeve is perpetually tucked higher than the right. He checks a distance with his eyes and fingertips before speaking a measure aloud.
 
-**Background:** Nera kept records and carried instruments for a minor survey crew. During a damaged gate's sudden collapse, she felt its weight hang on the cadence she was shouting. A Shaper later taught her to repeat that discovery safely as **Bend·Force/Motion** and **Unmake·Force/Motion**. Her former employers wanted quiet paperwork about the accident; she wanted an honest account. At the flood she relayed Dori's lifting counts and helped move the injured.
+**Background:** Nerin kept records and carried instruments for a minor survey crew. During a damaged gate's sudden collapse, he felt its weight hang on the cadence he was shouting. A Shaper later taught him to repeat that discovery safely as **Bend·Force/Motion** and **Unmake·Force/Motion**. His former employers wanted quiet paperwork about the accident; he wanted an honest account. At the flood he relayed Dori's lifting counts and helped move the injured.
 
-**Personality:** Earnest, curious, and quick to explain a useful observation. She can laugh at her own mistakes. Her flaw is wanting a field test before all the practical risks have been discussed. She accepts a companion's stop signal and does not experiment on unwilling allies.
+**Personality:** Earnest, curious, and quick to explain a useful observation. He can laugh at his own mistakes. His flaw is wanting a field test before all the practical risks have been discussed. He accepts a companion's stop signal and does not experiment on unwilling allies.
 
-**Loyalties and goal:** Accurate records and the company come before institutional prestige. She wants to bring back observations other people can verify, along with everyone who helped obtain them.
+**Loyalties and goal:** Accurate records and the company come before institutional prestige. He wants to bring back observations other people can verify, along with everyone who helped obtain them.
 
-**Bond:** Dori admitted that an early estimate was wrong, corrected it, and carried on. Nera trusts that kind of competence more than a claim never to make mistakes.
+**Bond:** Dori admitted that an early estimate was wrong, corrected it, and carried on. Nerin trusts that kind of competence more than a claim never to make mistakes.
 
-**Magic's character:** Her Practice requires speaking a measured count while tracing two intersecting lines with a free hand. Her Tell doubles straight edges around her and the affected subject for an instant. It is noticeable even when she speaks quietly.
+**Magic's character:** His Practice requires speaking a measured count while tracing two intersecting lines with a free hand. His Tell doubles straight edges around him and the affected subject for an instant. It is noticeable even when he speaks quietly.
 
-**Play her:** Say what you know, what you intend to move, and where it can safely go. “Three paces. Nothing else moves.”
+**Play him:** Say what you know, what you intend to move, and where it can safely go. “Three paces. Nothing else moves.”
 
 ## Choosing a company for a session
 
@@ -158,8 +158,8 @@ The shared promise is simple: **nobody gets left behind**. Everyone signed the s
 - **Add alertness and speed:** Ilen.
 - **Add strength, boats, and capture options:** Orren.
 - **Add wilderness travel and tracking:** Seris.
-- **Add force-based magical problem-solving and ranged harm:** Nera.
+- **Add force-based magical problem-solving and ranged harm:** Nerin.
 
-These are starting adventurers with genuine weak skills. Ilen's urban alertness differs from Seris's wilderness knowledge; Dori's ordinary engineering differs from Nera's two exact magical cells. Tamsin remains the strongest ordinary healer. A group without her should explicitly share its Healing Kits and plan for its lower treatment chances.
+These are starting adventurers with genuine weak skills. Ilen's urban alertness differs from Seris's wilderness knowledge; Dori's ordinary engineering differs from Nerin's two exact magical cells. Tamsin remains the strongest ordinary healer. A group without her should explicitly share its Healing Kits and plan for its lower treatment chances.
 
 The adventure's encounter guidance covers three to five players. Selecting from eight sheets does not change that guidance or establish balance for eight simultaneous PCs.

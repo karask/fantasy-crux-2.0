@@ -1,0 +1,12 @@
+{
+  "character": "Dori Ashlar",
+  "pages": 2,
+  "paper": "A4 portrait",
+  "skills_verified": 25,
+  "talent_and_ancestry_explanations": 3,
+  "pronoun_label": "omitted",
+  "visual_review": "Both rendered pages inspected; no clipping, overlap, or missing glyphs.",
+  "pdf": "/home/kos/Documents/fantasy-crux-2.0/output/pdf/dori-ashlar-a4.pdf",
+  "sha256": "a2ea27f31cc430b1922a23a666481c2074022d0218dee8b20ea376fdfcdff1dd",
+  "portrait": "pregenerated-characters/pdf/assets/dori-ashlar-portrait.png"
+}
