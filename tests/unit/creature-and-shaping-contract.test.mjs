@@ -572,15 +572,16 @@ describe('published creature compendium', () => {
     }
   });
 
-  it("derives the published Fantasy Races maxima from each creature's own dice", () => {
+  it('balances player racial maxima including SIZ with the Goblin exception', () => {
     const gmTools = read('src/content/rules/gm-tools/fantasy-races.md');
     const maximaSection = gmTools.split('## Racial maxima')[1];
-    const racialTop = (formula) => {
-      const [, count, sides, modifier, dropLowest] = formula.match(
-        /^(\d+)D(\d+)([+-]\d+)?( drop lowest)?$/i,
-      );
-      const keptDice = Number(count) - (dropLowest ? 1 : 0);
-      return keptDice * Number(sides) + Number(modifier ?? 0) + 3;
+    const approved = {
+      Human: [21, 21, 21, 21, 21, 21, 21],
+      Elf: [18, 21, 24, 18, 24, 21, 21],
+      Dwarf: [24, 24, 18, 18, 21, 21, 21],
+      Orc: [24, 24, 21, 24, 18, 18, 18],
+      Goblin: [18, 21, 24, 15, 24, 21, 21],
+      Lizardfolk: [24, 24, 18, 21, 21, 21, 18],
     };
     const tableRow = (name) => {
       const row = maximaSection.match(new RegExp(`^\\| ${name}\\s*\\|(.+)\\|\\s*$`, 'm'));
@@ -591,13 +592,16 @@ describe('published creature compendium', () => {
         .map(Number);
     };
 
-    for (const name of ['Elf', 'Dwarf', 'Orc', 'Goblin', 'Lizardfolk']) {
-      const dice = creatureRecord(name).data.characteristicDice;
-      const computed = ['str', 'con', 'dex', 'siz', 'int', 'pow', 'cha'].map((key) =>
-        racialTop(dice[key]),
-      );
-      expect(tableRow(name), name).toEqual(computed);
+    for (const [name, values] of Object.entries(approved)) {
+      expect(tableRow(name), name).toEqual(values);
+      expect(
+        tableRow(name).reduce((sum, value) => sum + value, 0),
+        name,
+      ).toBe(name === 'Goblin' ? 144 : 147);
     }
+    expect(gmTools).toContain(
+      'After the optional swap, reduce any result above its racial maximum',
+    );
   });
 
   it('keeps every published value traceable to the compendium', () => {

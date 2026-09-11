@@ -20,4 +20,4 @@ tags:
 
 Before ordinary Bonus and Penalty dice cancellation, ignore one total Penalty die caused by being Wounded or grappled on Shaping tests. If both conditions apply, only one Penalty die is ignored.
 
-Every other Penalty die applies normally, and the Practice remains interruptible.
+Every other Penalty die applies normally, and the Practice remains interruptible. If you also have [Shaping Expertise](/rules/talents/#shaping-expertise), apply Steady Casting first; Shaping Expertise can then remove one remaining Penalty die after ordinary cancellation.

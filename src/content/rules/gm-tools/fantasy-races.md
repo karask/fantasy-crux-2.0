@@ -49,22 +49,24 @@ As an alternative to the point method, roll the race's [characteristic dice](/ru
 | Goblin     | 2D6+3           | 2D6+3           | 3D6+6           | 2D6                | 3D6                | 2D6+3           | 3D6             |
 | Lizardfolk | 3D6+6           | 3D6             | 2D6+3           | 3D6                | 2D6+6              | 3D6             | 3D6             |
 
-Random results stand as rolled, even when they exceed the point method's creation cap of 18. Random generation therefore produces less predictable starting characters and is not as tightly balanced as the point method.
+After the optional swap, reduce any result above its racial maximum to that maximum; excess points are not redistributed. Random results may exceed the point method's creation cap of 18, but never the player racial maxima below. Random generation therefore produces less predictable starting characters and is not as tightly balanced as the point method.
 
 ## Racial maxima {#gm-race-maxima}
 
-A race's top for a characteristic is the highest result its generating dice can roll, plus 3. Human-style `4D6 drop lowest` has a highest result of 18. These maxima are not capped to make the races alike.
+Use the following maxima for player characters, independently of creature-generation dice. Each race has a total of 147 across all seven maxima, except Goblins at 144. SIZ counts toward this total because it contributes to HP, Major Wound Level, and Damage Modifier, even though it cannot normally be improved. These are ceilings, not points granted at creation.
 
 | Race       | STR | CON | DEX | SIZ | INT | POW | CHA |
 | ---------- | --: | --: | --: | --: | --: | --: | --: |
 | Human      |  21 |  21 |  21 |  21 |  21 |  21 |  21 |
-| Elf        |  18 |  21 |  27 |  18 |  27 |  21 |  21 |
-| Dwarf      |  27 |  27 |  21 |  18 |  21 |  21 |  21 |
-| Orc        |  27 |  21 |  21 |  24 |  18 |  18 |  21 |
-| Goblin     |  18 |  18 |  27 |  15 |  21 |  18 |  21 |
-| Lizardfolk |  27 |  21 |  18 |  21 |  21 |  21 |  21 |
+| Elf        |  18 |  21 |  24 |  18 |  24 |  21 |  21 |
+| Dwarf      |  24 |  24 |  18 |  18 |  21 |  21 |  21 |
+| Orc        |  24 |  24 |  21 |  24 |  18 |  18 |  18 |
+| Goblin     |  18 |  21 |  24 |  15 |  24 |  21 |  21 |
+| Lizardfolk |  24 |  24 |  18 |  21 |  21 |  21 |  18 |
 
-An Elf can eventually reach DEX 27 and INT 27, while a Dwarf can reach STR 27 and CON 27. An Orc with SIZ 19 or more can eventually cross the `STR + SIZ` threshold for a `+2D6` Damage Modifier.
+An Elf can eventually reach DEX 24 and INT 24, while a Dwarf can reach STR 24 and CON 24. An Orc needs SIZ 22 or more alongside STR 24 to reach the `STR + SIZ` threshold of 46 for a `+2D6` Damage Modifier. Point allocation caps SIZ at 18 and the Orc's own SIZ roll tops out at 21; reaching SIZ 22–24 at creation requires a sufficiently high STR roll moved to SIZ with the optional swap.
+
+Goblins retain CHA 21 rather than gaining exceptional charisma solely to equalise the totals. Their 144-point maximum total does not reduce their starting characteristic budget.
 
 Racial maxima matter once play begins and the character starts [improving characteristics](/rules/characters/#improvement--characters-improve-characteristics). `SIZ` cannot normally be improved, so a character's rolled or assigned SIZ remains fixed even when the racial maximum is higher.
 

@@ -24,7 +24,7 @@ Normal casting reaches at most Safe Magnitude + 2.
 | 2 higher                     |            `-2P` |
 | 3+ higher                    |  Ritual required |
 
-Bonus dice cancelling the Penalty do not remove overreach. [Shaping expertise](/rules/magic/#building-a-shaping--magic-intensity) also caps every outcome's Intensity.
+Cancelling or removing the Penalty does not remove overreach. [Shaping Expertise](/rules/talents/#shaping-expertise) can remove one remaining Penalty die from a casting test once per round, but failed overreach still causes its normal PP loss and Backlash. The [skill expertise table](/rules/magic/#building-a-shaping--magic-intensity) also caps every outcome's Intensity.
 
 ## Cast {#magic-cast}
 

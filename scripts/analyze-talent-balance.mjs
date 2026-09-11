@@ -123,6 +123,10 @@ const assessments = Object.freeze({
   ],
   'talent.steady-aim': ['Keep', 'Preserving Aim through a Reaction is a narrow 2-IP benefit.'],
   'talent.steady-casting': ['Change', 'Remove only one total named penalty before cancellation.'],
+  'talent.shaping-expertise': [
+    'Add',
+    'At Shaping 76%, remove one remaining casting Penalty once per round; overreach risks and limits remain. Excludes universal actions and Counter.',
+  ],
   'talent.subdue': ['Change', 'Exclude Talent damage from its knockout threshold and fallback.'],
   'talent.tactician': ['Keep', 'A campaign-scale command permission fits the broad 4-IP tier.'],
   'talent.terrain-expertise': [
@@ -221,8 +225,8 @@ function readTalents() {
     })
     .sort((left, right) => left.title.localeCompare(right.title, 'en'));
 
-  if (talents.length !== 54) {
-    throw new Error(`Expected 54 published Talents; found ${talents.length}.`);
+  if (talents.length !== 55) {
+    throw new Error(`Expected 55 published Talents; found ${talents.length}.`);
   }
 
   const publishedIds = new Set(talents.map(({ id }) => id));
@@ -711,7 +715,7 @@ function buildReport() {
 
 # Talent balance audit
 
-This is a deterministic audit of the 54 published player Talents. It records the approved
+This is a deterministic audit of the 55 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
@@ -842,7 +846,7 @@ or Confluence's flat +1 Magnitude—not Talent-gating same-cell additional outco
 
 ## Talent-by-Talent decision record
 
-All 54 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All 55 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 ${markdownTable(['Talent', 'IP', 'Tier', 'Decision', 'Audit finding'], talentRows)}
 

@@ -37,7 +37,7 @@ For each outcome, choose the lowest row that covers it.
 |         4 | Greater | Encounter-changing: control, `+2B`/`-2P`, impossible transformation, or major threat.                       |
 |         5 | Mythic  | Break a fundamental boundary; ritual and lasting price required.                                            |
 
-Shaping expertise limits both maximum Intensity and Safe Magnitude. No individual outcome can exceed maximum Intensity.
+The skill's expertise tier limits both maximum Intensity and Safe Magnitude. No individual outcome can exceed maximum Intensity. The [Shaping Expertise Talent](/rules/talents/#shaping-expertise) removes a casting Penalty die but does not raise either limit.
 
 | Shaping | Expertise  | Maximum Intensity | Safe Magnitude |
 | ------: | ---------- | ----------------: | -------------: |

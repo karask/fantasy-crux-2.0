@@ -17,7 +17,7 @@ All characteristics and ages were chosen without rolling dice. Each PC uses the 
 | [Ilen Sedge](05-ilen-sedge.md)   | Human courier; runner and archer            | Curious, punctual, discreet; sometimes starts moving before the plan is settled.            | Perception 55%, Athletics 54%, Ranged Combat 59%; Quick Reflexes and Battle Awareness.           |
 | [Orren Pike](06-orren-pike.md)   | Orc dockworker; rescuer and wrestler        | Courteous, literal, fond of terrible verse; takes on too much heavy work.                   | Athletics 59%, Sailing 51%, Close and Unarmed Combat 54%; Wrestler and Subdue.                   |
 | [Seris Vale](07-seris-vale.md)   | Elf woodland guide; tracker                 | Watchful and wry; explains evidence plainly; distrusts convenient shortcuts.                | Natural Lore 54%, Deception 58%, Ranged Combat 60%; Tracker, Wayfinder, and Low-Light Sight.     |
-| [Nerin Quill](08-nera-quill.md)   | Human survey assistant; Force/Motion Shaper | Earnest and inquisitive; owns his mistakes; too eager to test a new idea.                   | Shaping 65%, Perception 50%, Mechanisms 46%; forced movement, climbing support, and force bolts. |
+| [Nerin Quill](08-nera-quill.md)  | Human survey assistant; Force/Motion Shaper | Earnest and inquisitive; owns his mistakes; too eager to test a new idea.                   | Shaping 65%, Perception 50%, Mechanisms 46%; forced movement, climbing support, and force bolts. |
 
 ## What each sheet contains
 
