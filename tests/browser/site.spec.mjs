@@ -351,9 +351,9 @@ test('Talent filters progressively enhance the complete catalogue', async ({ pag
   await expect(page.locator('[data-filter-count]')).not.toHaveText('50');
   await expect(page.getByRole('status')).toContainText('Talents available');
 
-  // Piercing is retired; Confluence brings the magic-tagged catalogue to nine.
+  // Piercing is retired; Confluence and Shaping Expertise bring the magic-tagged catalogue to ten.
   await page.getByRole('button', { name: 'Magic' }).click();
-  await expect(visibleCards).toHaveCount(9);
+  await expect(visibleCards).toHaveCount(10);
 
   // Talents reach past combat, so the non-combat tags filter too.
   await page.getByRole('button', { name: 'Social' }).click();
