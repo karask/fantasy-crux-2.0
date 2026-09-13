@@ -9,7 +9,7 @@ column_break: Your other hand
 ## Attack and defend
 
 Test **Close, Unarmed or Ranged Combat**. After a hit, an aware defender may
-spend **one Reaction**. Ordinary attacks are not opposed tests; grapples are.
+spend **one Reaction**. Oppose defence against the original attack (card 1).
 
 | Incoming hit             | Ordinary defence                                             |
 | ------------------------ | ------------------------------------------------------------ |
@@ -17,7 +17,7 @@ spend **one Reaction**. Ordinary attacks are not opposed tests; grapples are.
 | **Thrown weapon**        | Dodge -1P; guard with a ready weapon -1P or shield normally. |
 | **Arrow / bolt / sling** | Dodge -1P; guard with a ready shield -1P.                    |
 
-**Dodge:** base Reaction only, once per round; success avoids an ordinary hit.
+**Dodge:** base Reaction only, once per round; a winning Dodge avoids the hit.
 **Parry/guard:** Close Combat, or Unarmed Combat against an unarmed attack.
 
 **Opportunity Attack:** spend an eligible Reaction on one Close Combat attack
@@ -25,7 +25,7 @@ when an adjacent enemy disengages or creates a clear opening.
 
 ## Parry and ordinary damage
 
-| Your parrying item's Size | Damage blocked |
+| Winning Parry's Size      | Damage blocked |
 | ------------------------- | -------------- |
 | Same Size or larger       | **All**        |
 | One Size smaller          | **Half**       |
@@ -42,11 +42,11 @@ their listed damage.
 
 ## Critical attacks
 
-| Defender's Reaction     | Result                                                                                                     |
-| ----------------------- | ---------------------------------------------------------------------------------------------------------- |
-| None, failure or Fumble | **Maximum weapon damage + maximum positive DM** when applicable; **ignore armour**. No other bonus damage. |
-| Ordinary success        | Roll normal damage and apply armour. The defence does **not** stop or reduce the hit.                      |
-| Critical success        | **No damage**, regardless of Parry Size.                                                                   |
+| Defender's Reaction     | Result                                                                                                |
+| ----------------------- | ----------------------------------------------------------------------------------------------------- |
+| None, failure or Fumble | **Max weapon damage + max applicable positive DM. Ignore armour** and other bonuses.                  |
+| Ordinary success        | Ordinary hit: roll damage with eligible bonuses, then armour. Defence does **not** stop or reduce it. |
+| Critical success        | Oppose rolls: winning defence blocks all; otherwise full Critical damage.                             |
 
 A Critical defence also stops an ordinary hit. A Fumble brings a consequence
 chosen by the GM.

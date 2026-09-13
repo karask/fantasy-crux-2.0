@@ -19,14 +19,14 @@ Damage Modifier (DM) applies to melee, unarmed, and thrown attacks. Bows, slings
 
 ## Weapon size {#equipment-weapon-size}
 
-Weapons use four sizes: **Light, Medium, Heavy,** and **Huge**. Size determines how much damage a Parry blocks:
+Weapons use four sizes: **Light, Medium, Heavy,** and **Huge**. After a Parry wins its opposed defence, Size determines how much damage it blocks:
 
 | Parrying item compared with the attack |          Damage blocked |
 | -------------------------------------- | ----------------------: |
 | Same size or larger                    |                     All |
 | One size smaller                       |                    Half |
 | Two or more sizes smaller              |                    None |
-| Critical Parry                         | All, regardless of size |
+| Winning critical Parry                 | All, regardless of size |
 
 Unarmed attacks such as punches and kicks are Light. A natural weapon uses the Size in its creature profile, or Medium when none is listed. A thrown weapon uses the Size in the ranged table when Parried.
 

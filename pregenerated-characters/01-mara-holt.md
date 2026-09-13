@@ -180,7 +180,9 @@ Choose one named weapon from the Close Combat or Ranged weapons table, other tha
 
 Every damaging Close Combat or Ranged Combat attack made with the chosen weapon adds 1 damage before Parry and armour. The bonus applies to every matching hit. If the weapon has both Close and Ranged profiles, the Talent applies to both. A primitive version of the chosen weapon qualifies. An attack that uses any weapon as an improvised club does not.
 
-The Talent adds nothing when another rule replaces normal weapon damage, including Disarm, Trip, Shield Rush, Subdue, or an unopposed Critical. A Critical opposed by an ordinary Reaction still rolls normal damage, so the bonus applies.
+The Talent adds nothing when another rule replaces normal weapon damage, including Disarm, Trip, Shield Rush, Subdue, or a hit that remains critical.
+
+If an ordinary successful Dodge or Parry demotes the critical to an ordinary hit, this bonus applies normally.
 
 Buy this Talent again to choose a different weapon, but never more than once for the same weapon. It does not apply to unarmed attacks, natural weapons, or Shaping.
 

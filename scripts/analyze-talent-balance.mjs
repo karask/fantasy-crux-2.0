@@ -3,6 +3,7 @@
 import { mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { weaponDefenceOutcome } from '../src/lib/rules-contract.mjs';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const talentRoot = path.join(repoRoot, 'src', 'content', 'rules', 'talents');
@@ -13,6 +14,10 @@ const gradeRank = Object.freeze({ fumble: 0, failure: 1, success: 2, critical: 3
 const distributionCache = new Map();
 
 const assessments = Object.freeze({
+  'talent.deadly-precision': [
+    'Add',
+    'A 5-IP capstone after 11 IP of weapon prerequisites: double one damaging attack critical range per round across all purchases; no defensive benefit.',
+  ],
   'talent.alchemist': ['Change', 'Specify range, attack skill, defence, damage, and a spent miss.'],
   'talent.ambusher': ['Change', 'Limit the converted Critical to mundane combat attacks.'],
   'talent.athletics-expertise': [
@@ -225,8 +230,8 @@ function readTalents() {
     })
     .sort((left, right) => left.title.localeCompare(right.title, 'en'));
 
-  if (talents.length !== 55) {
-    throw new Error(`Expected 55 published Talents; found ${talents.length}.`);
+  if (talents.length !== 56) {
+    throw new Error(`Expected 56 published Talents; found ${talents.length}.`);
   }
 
   const publishedIds = new Set(talents.map(({ id }) => id));
@@ -532,6 +537,22 @@ function buildReport() {
   for (const talent of talents) costCounts.set(talent.cost, (costCounts.get(talent.cost) ?? 0) + 1);
   const ordinary = talents.filter(({ cost }) => cost < 10);
   const ordinaryMean = ordinary.reduce((sum, { cost }) => sum + cost, 0) / ordinary.length;
+  const weaponRows = [51, 76, 90].map((skill) => {
+    const counts = { blocked: 0, ordinary: 0, critical: 0, miss: 0 };
+    for (let a = 1; a <= 100; a++)
+      for (let d = 1; d <= 100; d++) {
+        counts[
+          weaponDefenceOutcome(
+            { skill, roll: a, grade: grade(skill, a) },
+            { skill, roll: d, grade: grade(skill, d) },
+          )
+        ]++;
+      }
+    return [
+      skill + '%',
+      ...['miss', 'blocked', 'ordinary', 'critical'].map((key) => percent(counts[key], 10000, 2)),
+    ];
+  });
 
   const unopposedRows = [25, 51, 76, 90].map((skill) => [
     `${skill}%`,
@@ -715,7 +736,7 @@ function buildReport() {
 
 # Talent balance audit
 
-This is a deterministic audit of the 55 published player Talents. It records the approved
+This is a deterministic audit of the ${talents.length} published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
@@ -742,7 +763,7 @@ introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown 
 
 ${markdownTable(['Tier', 'Price', 'Calibration'], tierRows, ['left', 'right', 'left'])}
 
-Published costs are ${costSummary}. The 48 Talents below 10 IP average ${ordinaryMeanLabel} IP.
+Published costs are ${costSummary}. The ${ordinary.length} Talents below 10 IP average ${ordinaryMeanLabel} IP.
 Shaping therefore costs about ${shapingEquivalent} ordinary Talents, consumes 20 of the maximum 22 starting IP,
 and requires converting at least 50 of the 225 starting pool points when bought at creation.
 Keeping its 20-IP price preserves dedication; letting a declared starting Shaper allocate up to
@@ -764,6 +785,50 @@ The corrected outcome-aware chooser produces the intended roughly 33/49.5/66 pro
 the small skill-dependent differences are exact.
 
 ${markdownTable(['Equal skill', 'Attacker -1P', 'Attacker none', 'Attacker +1B'], opposedRows)}
+
+## Opposed weapon defence
+
+Weapon Dodge, Parry, and Active Guard oppose the original attack roll. Successful
+same-grade results compare roll, then base skill, then favour the defender.
+An ordinary successful defence still demotes a critical without blocking damage.
+A critical defence must win to stop a critical attack. Winning ordinary Parries
+use Size; losing Parries provide no reduction. Grappling and Shaping retain their
+own opposed procedures without this weapon-critical demotion exception.
+
+The following exact counts enumerate 10,000 equally likely roll pairs for equal
+attack and Dodge skills, no modifiers, no Deadly Precision, and an available
+Dodge. Misses do not actually require or spend a defence roll; enumeration merely
+repeats each miss across all possible defence results. Ordinary hits include
+demoted criticals. This measures hit outcomes, not damage after armour.
+
+${markdownTable(['Equal skill', 'Attack misses', 'Dodge blocks', 'Ordinary hit', 'Critical hit'], weaponRows)}
+
+The earlier opposed table includes wins between failed results for general
+contests; those do not create weapon hits. Unopposed damage and Rapid Shot
+calculations remain unchanged because they assume no defence.
+
+## Deadly Precision capstone
+
+Deadly Precision costs 5 IP after Favoured Weapon (3), Signature Weapon (4), and
+Weapon Expertise (4), for a 16-IP weapon-specialisation chain. It requires the
+actual attack skill to be at least 76% and doubles the critical range for one
+declared damaging attack per round across all purchases. Without modifier dice,
+critical chances rise from 7% to 14% at skill 76, 9% to 18% at 90, and 10% to 20%
+at 100. Total success chances do not increase; some ordinary successes become
+criticals. With modifier dice, grade every candidate using the expanded range.
+
+The benefit can affect an Opportunity Attack or one extra attack, but cannot
+improve every attack in a multiple-attack sequence. Weapon Expertise can share
+the attack only when its own restrictions permit: Rapid Shot and off-hand tests
+remain ineligible for Weapon Expertise. Parry and Active Guard retain their normal
+critical ranges. Existing critical damage rules apply, including replacement of
+Favoured/Signature damage bonuses when the critical has no successful Reaction.
+An ordinary successful Dodge or Parry demotes the critical to an ordinary hit:
+eligible Favoured/Signature and Killing Angle/Master Assassin bonuses then apply,
+along with normal Damage Modifier and armour. Do not resolve defence again.
+
+The combat calculations below are baseline comparisons without Deadly Precision.
+The 5-IP price is an initial design judgment, not a claim of completed playtesting.
 
 ## Grapple and action-economy context
 
@@ -846,7 +911,7 @@ or Confluence's flat +1 Magnitude—not Talent-gating same-cell additional outco
 
 ## Talent-by-Talent decision record
 
-All 55 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All ${talents.length} published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
 ${markdownTable(['Talent', 'IP', 'Tier', 'Decision', 'Audit finding'], talentRows)}
 

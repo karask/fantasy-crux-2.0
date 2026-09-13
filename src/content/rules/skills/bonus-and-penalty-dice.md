@@ -24,7 +24,7 @@ Write them as `+1B`, `+2B`, `-1P`, and so on.
 6. With Bonus dice, always keep the result that is better for the roller.
    With Penalty dice, always keep the result that is worse for the roller.
 
-Grade every candidate before choosing: **Critical > Success > Failure > Fumble**.
+Grade every candidate before choosing: **Critical > Success > Failure > Fumble**. If [Deadly Precision](/rules/talents/#deadly-precision) applies to this attack, grade all candidates using its doubled critical range.
 Within Critical or Success, the higher roll is better.
 Within Failure or Fumble, the lower roll is better.
 Use this order even when the test is not opposed.

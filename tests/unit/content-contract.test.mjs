@@ -19,7 +19,7 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
-  it('ships exactly the approved 55-Talent catalogue', () => {
+  it('ships exactly the approved 56-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')
       .map((record) => record.data.title)
@@ -36,6 +36,7 @@ describe('canonical Fantasy Crux 2.0 content', () => {
         'Confluence',
         'Counter',
         'Cutpurse',
+        'Deadly Precision',
         'Deception Expertise',
         'Defensive Stance',
         'Disarm',
@@ -134,9 +135,9 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     expect(favouredWeapon.content).toContain('A primitive version of the chosen weapon qualifies');
     expect(favouredWeapon.content).toContain('any weapon as an improvised club does not');
     expect(favouredWeapon.content).toContain(
-      'including Disarm, Trip, Shield Rush, Subdue, or an unopposed Critical',
+      'including Disarm, Trip, Shield Rush, Subdue, or a hit that remains critical',
     );
-    expect(favouredWeapon.content).toContain('A Critical opposed by an ordinary Reaction');
+    expect(favouredWeapon.content).toContain('demotes the critical to an ordinary hit');
     expect(favouredWeapon.content).toContain('never more than once for the same weapon');
     expect(favouredWeapon.content).toContain(
       'does not apply to unarmed attacks, natural weapons, or Shaping',

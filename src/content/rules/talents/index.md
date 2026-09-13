@@ -19,4 +19,4 @@ Talents hold the specialised options omitted from the core rules, from combat te
 
 When a Talent forfeits **all Reactions**, that includes the base Reaction and every extra Reaction. A declared Talent replaces normal attack damage or critical effects wherever its text says so.
 
-When a Talent works only if its hit is **not stopped**, use the combat result matrix. On an ordinary hit, a successful Dodge or a Parry that would block all damage stops the Talent; a partial or ineffective Parry does not. A critical Talent hit is stopped only by a critical Reaction. If the Talent deals damage, apply any partial Parry before armour.
+When a Talent works only if its hit is **not stopped**, use the combat result matrix. On an ordinary hit, a winning Dodge or a winning Parry that would block all damage stops the Talent; a partial or ineffective Parry does not. A critical Talent hit is stopped only by a winning critical Reaction. A losing ordinary successful defence demotes its damage but does not stop the Talent. If the Talent deals damage, apply any partial Parry before armour.

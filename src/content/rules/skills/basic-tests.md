@@ -50,6 +50,8 @@ Use the integer tens digit, not rounding. Any skill above 0% has a critical rang
 |   99% |          01–09 |
 |  100% |          01–10 |
 
+[Deadly Precision](/rules/talents/#deadly-precision) is a specific exception for one eligible weapon attack: double the normal range above. Other tests retain their normal critical range.
+
 ## Interpreting exceptional results {#skills-exceptional-results}
 
 A Critical achieves the stated intent especially quickly, thoroughly, or effectively and may reveal an extra benefit or useful information.

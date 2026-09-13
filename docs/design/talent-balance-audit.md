@@ -2,7 +2,7 @@
 
 # Talent balance audit
 
-This is a deterministic audit of the 55 published player Talents. It records the approved
+This is a deterministic audit of the 56 published player Talents. It records the approved
 keep/change decisions against the pre-rebalance rules; **Change** means the corrective design
 now represented in the working rules, not an outstanding edit, and **Add** marks a Talent
 introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown as legacy
@@ -36,8 +36,8 @@ introduced after that audit. Sure Hand, Committed Strike, and Deadeye are shown 
 | S1 subsystem | 10 IP | A bounded supernatural production subsystem                                                         |
 | S2 access    | 20 IP | Entry to a full supernatural rules engine                                                           |
 
-Published costs are 2 IP × 16; 3 IP × 18; 4 IP × 14; 5 IP × 5; 10 IP × 1; 20 IP × 1. The 48 Talents below 10 IP average 3.15 IP.
-Shaping therefore costs about 6.35 ordinary Talents, consumes 20 of the maximum 22 starting IP,
+Published costs are 2 IP × 16; 3 IP × 18; 4 IP × 14; 5 IP × 6; 10 IP × 1; 20 IP × 1. The 54 Talents below 10 IP average 3.19 IP.
+Shaping therefore costs about 6.28 ordinary Talents, consumes 20 of the maximum 22 starting IP,
 and requires converting at least 50 of the 225 starting pool points when bought at creation.
 Keeping its 20-IP price preserves dedication; letting a declared starting Shaper allocate up to
 30 Knowledge points to the new skill makes that sacrifice visible and playable rather than
@@ -67,6 +67,54 @@ the small skill-dependent differences are exact.
 | 51%         | 33.05%       | 49.5%         | 65.95%       |
 | 76%         | 33.25%       | 49.5%         | 65.75%       |
 | 90%         | 33%          | 49.5%         | 66%          |
+
+## Opposed weapon defence
+
+Weapon Dodge, Parry, and Active Guard oppose the original attack roll. Successful
+same-grade results compare roll, then base skill, then favour the defender.
+An ordinary successful defence still demotes a critical without blocking damage.
+A critical defence must win to stop a critical attack. Winning ordinary Parries
+use Size; losing Parries provide no reduction. Grappling and Shaping retain their
+own opposed procedures without this weapon-critical demotion exception.
+
+The following exact counts enumerate 10,000 equally likely roll pairs for equal
+attack and Dodge skills, no modifiers, no Deadly Precision, and an available
+Dodge. Misses do not actually require or spend a defence roll; enumeration merely
+repeats each miss across all possible defence results. Ordinary hits include
+demoted criticals. This measures hit outcomes, not damage after armour.
+
+| Equal skill | Attack misses | Dodge blocks | Ordinary hit | Critical hit |
+| ----------- | ------------- | ------------ | ------------ | ------------ |
+| 51%         | 49%           | 13.26%       | 35.19%       | 2.55%        |
+| 76%         | 24%           | 29.26%       | 44.85%       | 1.89%        |
+| 90%         | 10%           | 40.95%       | 47.79%       | 1.26%        |
+
+The earlier opposed table includes wins between failed results for general
+contests; those do not create weapon hits. Unopposed damage and Rapid Shot
+calculations remain unchanged because they assume no defence.
+
+## Deadly Precision capstone
+
+Deadly Precision costs 5 IP after Favoured Weapon (3), Signature Weapon (4), and
+Weapon Expertise (4), for a 16-IP weapon-specialisation chain. It requires the
+actual attack skill to be at least 76% and doubles the critical range for one
+declared damaging attack per round across all purchases. Without modifier dice,
+critical chances rise from 7% to 14% at skill 76, 9% to 18% at 90, and 10% to 20%
+at 100. Total success chances do not increase; some ordinary successes become
+criticals. With modifier dice, grade every candidate using the expanded range.
+
+The benefit can affect an Opportunity Attack or one extra attack, but cannot
+improve every attack in a multiple-attack sequence. Weapon Expertise can share
+the attack only when its own restrictions permit: Rapid Shot and off-hand tests
+remain ineligible for Weapon Expertise. Parry and Active Guard retain their normal
+critical ranges. Existing critical damage rules apply, including replacement of
+Favoured/Signature damage bonuses when the critical has no successful Reaction.
+An ordinary successful Dodge or Parry demotes the critical to an ordinary hit:
+eligible Favoured/Signature and Killing Angle/Master Assassin bonuses then apply,
+along with normal Damage Modifier and armour. Do not resolve defence again.
+
+The combat calculations below are baseline comparisons without Deadly Precision.
+The 5-IP price is an initial design judgment, not a claim of completed playtesting.
 
 ## Grapple and action-economy context
 
@@ -159,68 +207,69 @@ or Confluence's flat +1 Magnitude—not Talent-gating same-cell additional outco
 
 ## Talent-by-Talent decision record
 
-All 55 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
+All 56 published Talents appear once below. Sure Hand, Committed Strike, and Deadeye are the legacy retirements.
 
-| Talent               | IP  | Tier         | Decision | Audit finding                                                                                                                                   |
-| -------------------- | --- | ------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Alchemist            | 4   | T3 broad     | Change   | Specify range, attack skill, defence, damage, and a spent miss.                                                                                 |
-| Ambusher             | 4   | T3 broad     | Change   | Limit the converted Critical to mundane combat attacks.                                                                                         |
-| Athletics Expertise  | 2   | T1 narrow    | Add      | A chosen-application penalty remover priced to the Tracker precedent.                                                                           |
-| Battle Awareness     | 3   | T2 standard  | Keep     | A bounded positional defence fits the 3-IP standard tier.                                                                                       |
-| Close-Quarters Knack | 2   | T1 narrow    | Add      | A two-skill penalty remover bounded by character size and confined surroundings.                                                                |
-| Commanding Presence  | 2   | T1 narrow    | Add      | The press half of Influence, priced to the Tracker precedent alongside Silver Tongue.                                                           |
-| Confluence           | 5   | T4 capstone  | Add      | An Expert exception combines exactly two known cells while full outcome Intensities and a +1 Magnitude surcharge price each casting.            |
-| Counter              | 4   | T3 broad     | Keep     | Strong magical denial still costs a Reaction and full Magnitude in PP.                                                                          |
-| Cutpurse             | 2   | T1 narrow    | Keep     | One Action replaces the explicit one-minute baseline, fitting 2 IP.                                                                             |
-| Deception Expertise  | 2   | T1 narrow    | Add      | A chosen-application penalty remover priced to the Tracker precedent.                                                                           |
-| Defensive Stance     | 2   | T1 narrow    | Keep     | A shield-only defensive trade fits the narrow tier.                                                                                             |
-| Disarm               | 2   | T1 narrow    | Change   | Keep 2 IP, but explicitly bar fixed or impossible targets.                                                                                      |
-| Enchanter            | 10  | S1 subsystem | Change   | Cap extant enchantments by permanent unmodified POW and creator.                                                                                |
-| Favoured Weapon      | 3   | T2 standard  | Keep     | The +1 applies only to ordinary damage and costs 3 IP per weapon.                                                                               |
-| Field Surgeon        | 3   | T2 standard  | Keep     | Expert portable Surgery is a bounded 3-IP permission.                                                                                           |
-| Indirect             | 3   | T2 standard  | Keep     | Training grants the route; each crossed barrier still adds Magnitude.                                                                           |
-| Iron Fist            | 3   | T2 standard  | Change   | Exclude listed natural weapons and retain the 3-IP damage/Size step.                                                                            |
-| Killing Angle        | 4   | T3 broad     | Keep     | Once-per-round conditional 1D4 damage fits the 4-IP tier.                                                                                       |
-| Lockbreaker          | 2   | T1 narrow    | Keep     | A narrow extended-task shortcut fits the 2-IP permission tier.                                                                                  |
-| Master Assassin      | 5   | T4 capstone  | Keep     | A 5-IP Expert capstone adds damage only through Killing Angle.                                                                                  |
-| Master Brawler       | 4   | T3 broad     | Change   | Exclude listed natural weapons; the 7-IP chain buys damage and Size.                                                                            |
-| Master Craftsman     | 4   | T3 broad     | Keep     | A broad Expert campaign/economy benefit warrants 4 IP.                                                                                          |
-| Merchant's Eye       | 3   | T2 standard  | Keep     | Reliable appraisal plus bounded availability fits 3 IP.                                                                                         |
-| Mighty Shot          | 5   | T4 capstone  | Keep     | A 5-IP Expert damage capstone is limited to one shot each round.                                                                                |
-| Missile Guard        | 2   | T1 narrow    | Keep     | Removing one named Active Guard penalty fits 2 IP.                                                                                              |
-| Off-Hand Mastery     | 5   | T4 capstone  | Keep     | A 5-IP capstone removes the penalty from one core extra option.                                                                                 |
-| Physician            | 3   | T2 standard  | Keep     | The resistance boost and poison retry are specialised Expert support.                                                                           |
-| Point-Blank Shot     | 3   | T2 standard  | Change   | Price at 3 IP and remove exactly one enemy's -2P engagement tax.                                                                                |
-| Poisoner             | 4   | T3 broad     | Change   | Define application, expiry, spending, and repeated exposure.                                                                                    |
-| Practised Hands      | 4   | T3 broad     | Keep     | More healing plus one bounded retry warrants 4 IP.                                                                                              |
-| Protector            | 2   | T1 narrow    | Keep     | Redirecting the base Reaction to an ally fits 2 IP.                                                                                             |
-| Quick Reflexes       | 3   | T2 standard  | Keep     | A flat initiative edge with dual prerequisites fits 3 IP.                                                                                       |
-| Rally                | 4   | T3 broad     | Change   | At 4 IP and one Action, affect two allies with non-stacking expiry.                                                                             |
-| Rapid Shot           | 4   | T3 broad     | Change   | Raise 3 to 4 IP; -1P, all Reactions, and weapon limits bound the multiplier.                                                                    |
-| Selective            | 3   | T2 standard  | Keep     | Training breaks area inclusion; +1 Magnitude prices each use.                                                                                   |
-| Shaping              | 20  | S2 access    | Change   | Keep 20 IP, but permit declared starting investment into the new skill.                                                                         |
-| Shaping Expertise    | 5   | T4 capstone  | Add      | At Shaping 76%, remove one remaining casting Penalty once per round; overreach risks and limits remain. Excludes universal actions and Counter. |
-| Shield Cover         | 3   | T2 standard  | Keep     | Passive -1P is shield-bound, non-stacking, and bypassed by areas/direct harm.                                                                   |
-| Shield Rush          | 3   | T2 standard  | Keep     | A no-damage push plus resisted prone effect fits 3 IP.                                                                                          |
-| Signature Weapon     | 4   | T3 broad     | Keep     | The second +1 costs 4 IP and retains all Favoured limits.                                                                                       |
-| Silent Step          | 3   | T2 standard  | Keep     | Half-speed opposed concealment pressure fits 3 IP.                                                                                              |
-| Silver Tongue        | 2   | T1 narrow    | Change   | Gate at Influence 51% and remove one residual persuade-or-bargain penalty.                                                                      |
-| Steady Aim           | 2   | T1 narrow    | Keep     | Preserving Aim through a Reaction is a narrow 2-IP benefit.                                                                                     |
-| Steady Casting       | 3   | T2 standard  | Change   | Remove only one total named penalty before cancellation.                                                                                        |
-| Subdue               | 3   | T2 standard  | Change   | Exclude Talent damage from its knockout threshold and fallback.                                                                                 |
-| Tactician            | 4   | T3 broad     | Keep     | A campaign-scale command permission fits the broad 4-IP tier.                                                                                   |
-| Terrain Expertise    | 2   | T1 narrow    | Add      | A chosen-terrain penalty remover priced to the Tracker precedent.                                                                               |
-| Tracker              | 2   | T1 narrow    | Keep     | Remove one residual trail-finding penalty, never create a Bonus die.                                                                            |
-| Trigger              | 4   | T3 broad     | Keep     | Training unlocks delayed timing while wait/effect Duration still costs Magnitude.                                                               |
-| Trip                 | 3   | T2 standard  | Keep     | Trading all damage for prone is a standard 3-IP maneuver.                                                                                       |
-| Veiled               | 3   | T2 standard  | Keep     | Training unlocks concealment while +1 Magnitude and -1P preserve cost.                                                                          |
-| Wayfinder            | 2   | T1 narrow    | Change   | Bound the safeguard to navigation Fumbles and ordinary travel procedure.                                                                        |
-| Weak Point           | 3   | T2 standard  | Change   | Require time, access, Engineering, duration, and a retry condition.                                                                             |
-| Weapon Expertise     | 4   | T3 broad     | Change   | Replace generic Mastery with once-per-round exact-weapon Expertise.                                                                             |
-| Wrestler             | 2   | T1 narrow    | Keep     | Advanced effects require an established hold and another opposed Action.                                                                        |
-| Sure Hand            | 4   | T3 broad     | Retire   | Routine unhurried work already avoids a roll, so the Talent had no stable priced benefit.                                                       |
-| Committed Strike     | 3   | T2 standard  | Retire   | The +1B nearly doubles armour-ignoring Criticals for a forfeit that swings a round too hard; withdrawn pending a rework.                        |
-| Deadeye              | 4   | T3 broad     | Retire   | A backline shooter often pays nothing real for the Reaction forfeit; withdrawn with Committed Strike pending a rework.                          |
+| Talent               | IP  | Tier         | Decision | Audit finding                                                                                                                                        |
+| -------------------- | --- | ------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Alchemist            | 4   | T3 broad     | Change   | Specify range, attack skill, defence, damage, and a spent miss.                                                                                      |
+| Ambusher             | 4   | T3 broad     | Change   | Limit the converted Critical to mundane combat attacks.                                                                                              |
+| Athletics Expertise  | 2   | T1 narrow    | Add      | A chosen-application penalty remover priced to the Tracker precedent.                                                                                |
+| Battle Awareness     | 3   | T2 standard  | Keep     | A bounded positional defence fits the 3-IP standard tier.                                                                                            |
+| Close-Quarters Knack | 2   | T1 narrow    | Add      | A two-skill penalty remover bounded by character size and confined surroundings.                                                                     |
+| Commanding Presence  | 2   | T1 narrow    | Add      | The press half of Influence, priced to the Tracker precedent alongside Silver Tongue.                                                                |
+| Confluence           | 5   | T4 capstone  | Add      | An Expert exception combines exactly two known cells while full outcome Intensities and a +1 Magnitude surcharge price each casting.                 |
+| Counter              | 4   | T3 broad     | Keep     | Strong magical denial still costs a Reaction and full Magnitude in PP.                                                                               |
+| Cutpurse             | 2   | T1 narrow    | Keep     | One Action replaces the explicit one-minute baseline, fitting 2 IP.                                                                                  |
+| Deadly Precision     | 5   | T4 capstone  | Add      | A 5-IP capstone after 11 IP of weapon prerequisites: double one damaging attack critical range per round across all purchases; no defensive benefit. |
+| Deception Expertise  | 2   | T1 narrow    | Add      | A chosen-application penalty remover priced to the Tracker precedent.                                                                                |
+| Defensive Stance     | 2   | T1 narrow    | Keep     | A shield-only defensive trade fits the narrow tier.                                                                                                  |
+| Disarm               | 2   | T1 narrow    | Change   | Keep 2 IP, but explicitly bar fixed or impossible targets.                                                                                           |
+| Enchanter            | 10  | S1 subsystem | Change   | Cap extant enchantments by permanent unmodified POW and creator.                                                                                     |
+| Favoured Weapon      | 3   | T2 standard  | Keep     | The +1 applies only to ordinary damage and costs 3 IP per weapon.                                                                                    |
+| Field Surgeon        | 3   | T2 standard  | Keep     | Expert portable Surgery is a bounded 3-IP permission.                                                                                                |
+| Indirect             | 3   | T2 standard  | Keep     | Training grants the route; each crossed barrier still adds Magnitude.                                                                                |
+| Iron Fist            | 3   | T2 standard  | Change   | Exclude listed natural weapons and retain the 3-IP damage/Size step.                                                                                 |
+| Killing Angle        | 4   | T3 broad     | Keep     | Once-per-round conditional 1D4 damage fits the 4-IP tier.                                                                                            |
+| Lockbreaker          | 2   | T1 narrow    | Keep     | A narrow extended-task shortcut fits the 2-IP permission tier.                                                                                       |
+| Master Assassin      | 5   | T4 capstone  | Keep     | A 5-IP Expert capstone adds damage only through Killing Angle.                                                                                       |
+| Master Brawler       | 4   | T3 broad     | Change   | Exclude listed natural weapons; the 7-IP chain buys damage and Size.                                                                                 |
+| Master Craftsman     | 4   | T3 broad     | Keep     | A broad Expert campaign/economy benefit warrants 4 IP.                                                                                               |
+| Merchant's Eye       | 3   | T2 standard  | Keep     | Reliable appraisal plus bounded availability fits 3 IP.                                                                                              |
+| Mighty Shot          | 5   | T4 capstone  | Keep     | A 5-IP Expert damage capstone is limited to one shot each round.                                                                                     |
+| Missile Guard        | 2   | T1 narrow    | Keep     | Removing one named Active Guard penalty fits 2 IP.                                                                                                   |
+| Off-Hand Mastery     | 5   | T4 capstone  | Keep     | A 5-IP capstone removes the penalty from one core extra option.                                                                                      |
+| Physician            | 3   | T2 standard  | Keep     | The resistance boost and poison retry are specialised Expert support.                                                                                |
+| Point-Blank Shot     | 3   | T2 standard  | Change   | Price at 3 IP and remove exactly one enemy's -2P engagement tax.                                                                                     |
+| Poisoner             | 4   | T3 broad     | Change   | Define application, expiry, spending, and repeated exposure.                                                                                         |
+| Practised Hands      | 4   | T3 broad     | Keep     | More healing plus one bounded retry warrants 4 IP.                                                                                                   |
+| Protector            | 2   | T1 narrow    | Keep     | Redirecting the base Reaction to an ally fits 2 IP.                                                                                                  |
+| Quick Reflexes       | 3   | T2 standard  | Keep     | A flat initiative edge with dual prerequisites fits 3 IP.                                                                                            |
+| Rally                | 4   | T3 broad     | Change   | At 4 IP and one Action, affect two allies with non-stacking expiry.                                                                                  |
+| Rapid Shot           | 4   | T3 broad     | Change   | Raise 3 to 4 IP; -1P, all Reactions, and weapon limits bound the multiplier.                                                                         |
+| Selective            | 3   | T2 standard  | Keep     | Training breaks area inclusion; +1 Magnitude prices each use.                                                                                        |
+| Shaping              | 20  | S2 access    | Change   | Keep 20 IP, but permit declared starting investment into the new skill.                                                                              |
+| Shaping Expertise    | 5   | T4 capstone  | Add      | At Shaping 76%, remove one remaining casting Penalty once per round; overreach risks and limits remain. Excludes universal actions and Counter.      |
+| Shield Cover         | 3   | T2 standard  | Keep     | Passive -1P is shield-bound, non-stacking, and bypassed by areas/direct harm.                                                                        |
+| Shield Rush          | 3   | T2 standard  | Keep     | A no-damage push plus resisted prone effect fits 3 IP.                                                                                               |
+| Signature Weapon     | 4   | T3 broad     | Keep     | The second +1 costs 4 IP and retains all Favoured limits.                                                                                            |
+| Silent Step          | 3   | T2 standard  | Keep     | Half-speed opposed concealment pressure fits 3 IP.                                                                                                   |
+| Silver Tongue        | 2   | T1 narrow    | Change   | Gate at Influence 51% and remove one residual persuade-or-bargain penalty.                                                                           |
+| Steady Aim           | 2   | T1 narrow    | Keep     | Preserving Aim through a Reaction is a narrow 2-IP benefit.                                                                                          |
+| Steady Casting       | 3   | T2 standard  | Change   | Remove only one total named penalty before cancellation.                                                                                             |
+| Subdue               | 3   | T2 standard  | Change   | Exclude Talent damage from its knockout threshold and fallback.                                                                                      |
+| Tactician            | 4   | T3 broad     | Keep     | A campaign-scale command permission fits the broad 4-IP tier.                                                                                        |
+| Terrain Expertise    | 2   | T1 narrow    | Add      | A chosen-terrain penalty remover priced to the Tracker precedent.                                                                                    |
+| Tracker              | 2   | T1 narrow    | Keep     | Remove one residual trail-finding penalty, never create a Bonus die.                                                                                 |
+| Trigger              | 4   | T3 broad     | Keep     | Training unlocks delayed timing while wait/effect Duration still costs Magnitude.                                                                    |
+| Trip                 | 3   | T2 standard  | Keep     | Trading all damage for prone is a standard 3-IP maneuver.                                                                                            |
+| Veiled               | 3   | T2 standard  | Keep     | Training unlocks concealment while +1 Magnitude and -1P preserve cost.                                                                               |
+| Wayfinder            | 2   | T1 narrow    | Change   | Bound the safeguard to navigation Fumbles and ordinary travel procedure.                                                                             |
+| Weak Point           | 3   | T2 standard  | Change   | Require time, access, Engineering, duration, and a retry condition.                                                                                  |
+| Weapon Expertise     | 4   | T3 broad     | Change   | Replace generic Mastery with once-per-round exact-weapon Expertise.                                                                                  |
+| Wrestler             | 2   | T1 narrow    | Keep     | Advanced effects require an established hold and another opposed Action.                                                                             |
+| Sure Hand            | 4   | T3 broad     | Retire   | Routine unhurried work already avoids a roll, so the Talent had no stable priced benefit.                                                            |
+| Committed Strike     | 3   | T2 standard  | Retire   | The +1B nearly doubles armour-ignoring Criticals for a forfeit that swings a round too hard; withdrawn pending a rework.                             |
+| Deadeye              | 4   | T3 broad     | Retire   | A backline shooter often pays nothing real for the Reaction forfeit; withdrawn with Committed Strike pending a rework.                               |
 
 ## Reproduction
 

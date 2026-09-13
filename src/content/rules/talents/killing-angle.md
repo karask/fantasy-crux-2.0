@@ -21,4 +21,4 @@ tags:
 
 Add `1D4` damage to one Close Combat or Unarmed Combat attack each round against a target you flank, strike from behind, or that is unaware of you.
 
-A Critical replaces normal damage, so this adds nothing to a critical hit, including one made with [Ambusher](/rules/talents/#ambusher).
+This bonus does not apply to a hit that remains critical, including one produced by [Ambusher](/rules/talents/#ambusher). If the critical is demoted to an ordinary hit, the bonus applies provided the attack meets Killing Angle's normal conditions and once-per-round limit.

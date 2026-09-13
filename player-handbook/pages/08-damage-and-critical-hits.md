@@ -28,9 +28,9 @@ Parry blocks **6**. Leather armour removes **2** more: lose **4 HP**.
 
 ## An ordinary attack hits
 
-- **No Reaction, failed Reaction, or fumbled Reaction:** roll damage, then armour.
-- **Successful Dodge:** no damage.
-- **Ordinary Parry:** reduce damage by Size, then armour.
+- **No Reaction, failed Reaction, or losing ordinary Reaction:** roll damage, then armour.
+- **Winning Dodge:** no damage.
+- **Winning ordinary Parry:** reduce damage by Size, then armour.
 - **Critical Dodge or Parry:** no damage.
 
 ## A Critical attack hits
@@ -38,9 +38,10 @@ Parry blocks **6**. Leather armour removes **2** more: lose **4 HP**.
 - **No Reaction, failed Reaction, or fumbled Reaction:** maximum weapon damage
   plus maximum positive DM when normally added; ignore armour. Ignore negative
   DM and any other bonus damage, including a Charge's extra die.
-- **Ordinary successful Dodge or Parry:** roll normal damage and apply armour.
+- **Ordinary successful Dodge or Parry:** demote to an ordinary hit; roll normal
+  damage, including eligible Action and Talent bonuses, and apply armour.
   This Reaction neither stops nor reduces the hit.
-- **Critical Dodge or Parry:** no damage; Critical Parry ignores Size.
+- **Both rolls Critical:** compare rolls, then base skills; exact ties favour the defender. Winning defence stops all damage; a losing defence leaves full Critical damage.
 
 A Critical grants no free attack or manoeuvre. A Fumble brings a consequence
 appropriate to the risk, such as dropping a weapon or losing your footing.

@@ -21,4 +21,4 @@ tags:
 
 Add a further `1D4` damage whenever [Killing Angle](/rules/talents/#killing-angle) applies, for `2D4` in total.
 
-Its limits still hold: one attack each round, and nothing is added to a Critical.
+Killing Angle's conditions and once-per-round limit still apply. Neither bonus applies to a hit that remains critical; both apply when the critical is demoted to an eligible ordinary hit.

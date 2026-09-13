@@ -21,8 +21,8 @@ Bows, crossbows and slings use their listed damage.
 
 ## An ordinary attack hits
 
-**None, failed or fumbled Reaction:** roll damage, then armour. **Successful
-Dodge:** no damage. **Ordinary Parry:** reduce by Size, then armour (page 7).
+**None, failed or losing ordinary Reaction:** roll damage, then armour. **Winning
+Dodge:** no damage. **Winning ordinary Parry:** reduce by Size, then armour (page 7).
 **Critical Dodge or Parry:** no damage.
 
 ## A Critical attack hits
@@ -30,9 +30,10 @@ Dodge:** no damage. **Ordinary Parry:** reduce by Size, then armour (page 7).
 - **No Reaction, failed or fumbled Reaction:** maximum weapon damage plus
   maximum positive DM when normally added; **ignore armour**. Ignore negative
   DM and all other bonus damage, including the extra Charge die.
-- **Ordinary successful Dodge or Parry:** roll normal damage and apply armour.
+- **Ordinary successful Dodge or Parry:** demote to an ordinary hit; roll normal
+  damage, including eligible Action and Talent bonuses, and apply armour.
   The Reaction **neither stops nor reduces** the hit.
-- **Critical Dodge or Parry:** no damage; Critical Parry ignores Size.
+- **Both rolls Critical:** compare rolls, then base skills; exact ties favour the defender. Winning defence stops all damage; a losing defence leaves full Critical damage.
 
 ## Check the consequences
 

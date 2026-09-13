@@ -53,14 +53,14 @@ With two ready one-handed items, choose **one** of these per round:
 
 An empty hand counts; two bare hands qualify. A two-handed weapon does not. The extra Reaction cannot Dodge or activate Protector. Using either option prevents the other that round. Nobody in this roster has Off-Hand Mastery.
 
-On an ordinary successful Parry, compare the parrying item's Size with the incoming weapon:
+On a winning ordinary Parry, compare the parrying item's Size with the incoming weapon:
 
 | Parrying item             | Damage blocked            |
 | ------------------------- | ------------------------- |
 | Same Size or larger       | All                       |
 | One Size smaller          | Half                      |
 | Two or more Sizes smaller | None                      |
-| Critical Parry            | All, irrespective of Size |
+| Winning critical Parry    | All, irrespective of Size |
 
 Mundane arrows, bolts, and sling projectiles are Light. Nerin's listed I2 force bolts are Medium Impact Size. Against Projected Shaping, the shield must first win its opposed test against the original casting result; apply magical Impact Size only if it wins.
 
@@ -68,17 +68,19 @@ Sources: [Active Guard](../src/content/rules/combat/active-guard.md), [Off-hand 
 
 ## Physical attack results
 
-| Attack           | Reaction                 | Result                                                                                          |
-| ---------------- | ------------------------ | ----------------------------------------------------------------------------------------------- |
-| Ordinary success | None, failure, or fumble | Roll damage, then apply armour.                                                                 |
-| Ordinary success | Ordinary Dodge           | No damage.                                                                                      |
-| Ordinary success | Ordinary Parry           | Reduce damage by Size, then apply armour.                                                       |
-| Ordinary success | Critical Dodge or Parry  | No damage.                                                                                      |
-| Critical         | None, failure, or fumble | Maximum listed weapon damage plus maximum positive DM where normally applicable; ignore armour. |
-| Critical         | Ordinary Dodge or Parry  | Roll ordinary damage and apply armour; the Reaction does not stop or reduce it.                 |
-| Critical         | Critical Dodge or Parry  | No damage; a critical Parry ignores Size.                                                       |
+Compare the original attack and defence using opposed-test grades and tiebreakers. The ordinary defence against a critical is the explicit demotion exception.
 
-For the unopposed Critical result, ignore negative DM and all additional Talent/action damage bonuses: it replaces ordinary damage. For example, Mara's arming sword ordinarily deals **1D8 + 1D4 + 1**, but this Critical deals **12**, not 13. A Critical opposed by an ordinary Reaction still rolls ordinary damage, including her +1.
+| Attack           | Defence                                  | Result                                                                                                                       |
+| ---------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Ordinary success | None, failed, or losing ordinary defence | Roll normal damage with eligible bonuses, then armour.                                                                       |
+| Ordinary success | Winning ordinary Dodge                   | No damage.                                                                                                                   |
+| Ordinary success | Winning ordinary Parry                   | Reduce damage by Size, then armour.                                                                                          |
+| Ordinary success | Critical Dodge or Parry                  | No damage; Parry ignores Size.                                                                                               |
+| Critical         | None, failed, or losing critical defence | Maximum weapon damage plus maximum positive DM when applicable; ignore armour and other damage bonuses.                      |
+| Critical         | Ordinary successful Dodge or Parry       | Demote to an ordinary hit. Roll normal damage with eligible bonuses, then armour. Defence neither stops nor reduces the hit. |
+| Critical         | Winning critical Dodge or Parry          | No damage; Parry ignores Size.                                                                                               |
+
+For a hit that remains Critical, ignore negative DM and all additional Talent/action damage bonuses: it replaces ordinary damage. For example, Mara's arming sword ordinarily deals **1D8 + 1D4 + 1**, but this Critical deals **12**, not 13. An ordinary successful Dodge or Parry demotes it to an ordinary hit: roll normal damage, including her +1. Other eligible bonuses, including Killing Angle and Master Assassin, also apply to demoted hits; their conditions and once-per-round limits still hold.
 
 If a declared Talent replaces normal damage, follow that Talent; a Critical adds no free effect. Shaping uses its own opposed defence and payment rules. A magical Critical never maximises damage or healing dice and does not grant the physical weapon Critical's armour bypass.
 

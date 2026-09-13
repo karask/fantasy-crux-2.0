@@ -32,7 +32,7 @@ Use **Close Combat** with the eligible item ready:
 Ordinary successful Parries block damage according to Size; see page 07.
 Thrown weapons retain their listed Size. Arrows, bolts, and sling projectiles
 are **Light**: any ready shield is large enough to block an ordinary hit fully
-on a successful Parry.
+on a winning Parry.
 
 ## Keep the distinctions clear
 

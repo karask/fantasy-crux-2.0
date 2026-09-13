@@ -21,11 +21,15 @@ misses. Check Criticals and Fumbles as on page 02.
 
 ## 2 · Answer an ordinary hit
 
-- **Dodge:** roll Dodge. An ordinary success avoids an ordinary hit. You may
+Oppose the defence against the original attack roll. Compare grades, then higher
+successful roll, higher base skill, then defender on an exact tie. Do not reroll
+the attack. Criticals use the demotion exception on page 08.
+
+- **Dodge:** roll Dodge. A winning opposed Dodge avoids the hit. You may
   Dodge only once per round, using your base Reaction.
 - **Parry:** roll Close Combat with a ready weapon or shield. An unarmed Parry
   uses Unarmed Combat and can answer an unarmed attack.
-- **No successful Reaction:** the hit proceeds to damage.
+- **No winning Reaction:** the ordinary hit proceeds to damage.
 
 Only **one Reaction** can answer a single attack or trigger. A failed Reaction
 changes nothing. An unaware defender cannot React.
@@ -34,16 +38,16 @@ changes nothing. An unaware defender cannot React.
 
 Sizes ascend: **Light → Medium → Heavy → Huge**.
 
-Against an ordinary hit, a successful Parry with an item:
+Against an ordinary hit, a winning Parry with an item:
 
 - **same Size or larger:** blocks all damage;
 - **one Size smaller:** blocks half the total damage;
 - **two or more Sizes smaller:** blocks none.
 
-A **Critical Parry blocks all damage**, regardless of Size. Apply armour after
+A **winning Critical Parry blocks all damage**, regardless of Size. Apply armour after
 Parry. Unarmed attacks are Light.
 
-**Example:** A Medium arming sword Parries a Heavy great axe: an ordinary Parry
+**Example:** A Medium arming sword Parries a Heavy great axe: a winning ordinary Parry
 blocks half. A Heavy medium shield blocks all.
 
 ## Another use: Opportunity Attack

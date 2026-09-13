@@ -323,7 +323,7 @@ test('Gazetteer introduces the Crownless Realms without restricted campaign mate
 
 test('Talent filters progressively enhance the complete catalogue', async ({ page }) => {
   await page.goto('/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(55);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(56);
 
   const favouredWeapon = page
     .locator('.talent-list [data-filter-item]')
@@ -778,7 +778,7 @@ test('the rules remain readable without JavaScript', async ({ browser, viewport 
   const context = await browser.newContext({ javaScriptEnabled: false, viewport });
   const page = await context.newPage();
   await page.goto('http://127.0.0.1:8080/rules/talents/');
-  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(55);
+  await expect(page.locator('.talent-list [data-filter-item]')).toHaveCount(56);
   await expect(page.locator('.filter-bar')).toBeHidden();
   await expect(page.locator('main')).toContainText('Off-Hand Mastery');
   await expect(page.locator('#off-hand-mastery')).toBeVisible();

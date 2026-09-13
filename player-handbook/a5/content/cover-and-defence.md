@@ -38,11 +38,12 @@ while you wield a weapon with both hands.
 
 ## Resolve the defence
 
-**Ordinary hit:** successful Dodge avoids it; successful Parry blocks by Size.
-Any ready shield fully blocks a **Light** projectile on success.
+**Ordinary hit:** winning Dodge avoids it; winning Parry blocks by Size.
+Any ready shield fully blocks a **Light** projectile when it wins.
 
-**Critical hit:** ordinary defence success means normal rolled damage after
-armour, with no avoidance or Parry reduction. **Critical defence** stops it,
+**Critical hit:** ordinary defence success demotes it to an ordinary hit, with
+normal rolled damage and eligible bonuses, then armour, with no avoidance or
+Parry reduction. **Winning Critical defence** stops it,
 regardless of Size.
 
 ## Extra guard

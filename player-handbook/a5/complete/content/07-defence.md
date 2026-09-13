@@ -16,12 +16,15 @@ failure misses. Check Criticals and Fumbles normally (page 3).
 
 ## 2. Choose a defence
 
+Oppose defence against the original attack: grade, higher successful roll,
+higher base skill, then defender on an exact tie. Criticals use page 8.
+
 **Melee or unarmed:** Dodge normally, or Parry with a ready weapon or shield.
 
 **Ranged:** Dodge at **-1P**. A ranged Parry uses Active Guard (page 13), with
 different choices for thrown weapons and projectiles.
 
-An ordinary successful Dodge avoids the hit. You must perceive it and be able
+A winning opposed Dodge avoids the hit. You must perceive it and be able
 to move. Dodge only **once per round, using your base Reaction**. Parry uses
 Close Combat, or Unarmed Combat against an unarmed attack.
 
@@ -30,11 +33,11 @@ unaware defender cannot React. Critical attacks use page 8.
 
 ## 3. Compare Parry Size
 
-Sizes ascend: **Light, Medium, Heavy, Huge**. Against an ordinary hit, a Parry
+Sizes ascend: **Light, Medium, Heavy, Huge**. A winning ordinary Parry
 of the same/larger Size blocks **all**; one smaller blocks **half**; two or more
 smaller blocks **none**. Then apply armour. Unarmed attacks are Light.
 
-A **Critical Parry blocks all damage regardless of Size**.
+A **winning Critical Parry blocks all damage regardless of Size**.
 
 ## Opportunity Attack
 

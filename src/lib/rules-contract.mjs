@@ -96,6 +96,20 @@ export function opposedWinner(first, second) {
   return defender?.role ?? 'status-quo';
 }
 
+// Participants carry their final grades, including any declared critical-range Talent.
+// 'parry' means apply Size; 'blocked' means no damage regardless of Size.
+export function weaponDefenceOutcome(attack, defence = null, kind = 'dodge') {
+  if (!['dodge', 'parry', 'guard'].includes(kind)) throw new RangeError('Unknown defence.');
+  if (!['success', 'critical'].includes(attack.grade)) return 'miss';
+  if (!defence || !['success', 'critical'].includes(defence.grade)) {
+    return attack.grade === 'critical' ? 'critical' : 'ordinary';
+  }
+  if (attack.grade === 'critical' && defence.grade === 'success') return 'ordinary';
+  const winner = opposedWinner({ ...attack, role: 'attacker' }, { ...defence, role: 'defender' });
+  if (winner === 'attacker') return attack.grade === 'critical' ? 'critical' : 'ordinary';
+  return kind === 'dodge' || defence.grade === 'critical' ? 'blocked' : 'parry';
+}
+
 export function powerPointsRecovered({ pow, hours }) {
   if (!Number.isInteger(pow) || pow < 0) {
     throw new RangeError('POW must be a non-negative integer.');
