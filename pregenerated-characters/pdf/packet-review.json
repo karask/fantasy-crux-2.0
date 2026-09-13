@@ -1,0 +1,57 @@
+{
+  "pages": 19,
+  "bytes": 4327535,
+  "sources": [
+    {
+      "name": "mara-holt",
+      "first_page": 2,
+      "pages": 2,
+      "sha256": "d2f9a3d41e3620618d46797a502628132e523b7a3334ad27e46fc6853cd1432b"
+    },
+    {
+      "name": "pebb-dallow",
+      "first_page": 4,
+      "pages": 2,
+      "sha256": "23b66b32a6cdd6e70db75b3aec3cb26cb828991630f6dacf983e401eaa2a9832"
+    },
+    {
+      "name": "dori-ashlar",
+      "first_page": 6,
+      "pages": 2,
+      "sha256": "c489e1af0bbb486c46ec672b9b440e1d65c3fcbe3886be2e81e1ca37d0d730c9"
+    },
+    {
+      "name": "tamsin-reed",
+      "first_page": 8,
+      "pages": 2,
+      "sha256": "51ec93b1471f71294834f4233038d829c3a3e3f6f3ee7896fb216e7e245ba330"
+    },
+    {
+      "name": "ilen-sedge",
+      "first_page": 10,
+      "pages": 2,
+      "sha256": "1528367396bddd6c19d228246305f389029ba089ba10733cb30dc4fec75ca4f0"
+    },
+    {
+      "name": "orren-pike",
+      "first_page": 12,
+      "pages": 2,
+      "sha256": "c7bb284d2d5d53f6def126549f30fa13ee9aaced01234201ad8d75a3d8715349"
+    },
+    {
+      "name": "seris-vale",
+      "first_page": 14,
+      "pages": 2,
+      "sha256": "f7ad2a20be23d424ee1edc2bc684194df16a513e4ec5119edee65d8772debf9b"
+    },
+    {
+      "name": "nerin-quill",
+      "first_page": 16,
+      "pages": 2,
+      "sha256": "54bc7144391ced20ad0ff0b6c2ebe1169734e6152a0178af9176f012f2099d06"
+    }
+  ],
+  "visual_review": "All 19 rendered pages inspected; no clipping or overlap.",
+  "character_text_check": "All 16 character pages match current individual PDF text, with packet page numbering added.",
+  "paper": "A4 portrait"
+}

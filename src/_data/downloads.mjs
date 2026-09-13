@@ -1,5 +1,17 @@
 export default [
   {
+    id: 'last-wagon-company',
+    title: 'The Last Wagon Company',
+    description:
+      'The company background and eight illustrated, ready-to-play characters, with complete skills, equipment, talents and spells.',
+    format: 'PDF',
+    pages: '19 A4 pages',
+    print:
+      'Print at actual size. The background is page 1; character sheets are pages 2–17, two pages per character. For a separate double-sided sheet per player, print pages 2–17 duplex on the long edge. The licence follows on pages 18–19.',
+    source: 'output/pdf/last-wagon-company-player-packet.pdf',
+    filename: 'last-wagon-company-player-packet.pdf',
+  },
+  {
     id: 'player-reference-cards',
     title: 'Player Reference Cards',
     description:

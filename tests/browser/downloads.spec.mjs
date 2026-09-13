@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test } from '@playwright/test';
 import downloads from '../../src/_data/downloads.mjs';
 
-test('downloads offers both approved card sets with the exact PDF files', async ({ page }) => {
+test('downloads offers the published resources with the exact PDF files', async ({ page }) => {
   await page.goto('/downloads/');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Downloads');
   await expect(page.locator('.download-card')).toHaveCount(downloads.length);
@@ -11,7 +11,7 @@ test('downloads offers both approved card sets with the exact PDF files', async 
   for (const download of downloads) {
     const card = page.getByRole('region', { name: download.title, exact: true });
     await expect(card).toBeVisible();
-    await expect(card).toContainText('3 A4 pages');
+    await expect(card).toContainText(download.pages);
     const advice = card.locator('.download-print');
     await expect(advice).not.toHaveAttribute('open');
     await advice.getByText('Printing advice', { exact: true }).click();
