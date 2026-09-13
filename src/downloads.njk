@@ -15,8 +15,11 @@ eleventyExcludeFromCollections: true
         <div>
           <p class="download-format">{{ download.format }} · {{ download.pages }}</p>
           <h2 id="{{ download.id }}">{{ download.title }}</h2>
-          <p>{{ download.description }}</p>
-          <p>{{ download.print }}</p>
+          <p class="download-description">{{ download.description }}</p>
+          <details class="download-print">
+            <summary>Printing advice</summary>
+            <p>{{ download.print }}</p>
+          </details>
         </div>
         <a class="button button--primary" href="/downloads/{{ download.filename }}" download="{{ download.filename }}" type="application/pdf" aria-label="Download {{ download.title }} PDF">Download PDF</a>
       </section>
