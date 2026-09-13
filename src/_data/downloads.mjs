@@ -1,3 +1,7 @@
+// Approved adventures belong in this catalogue with audience: 'gm'.
+// Do not add drafts: GM entries are hidden from the public grid and excluded
+// from site search, but their files are public and accessible by direct URL.
+// Omit audience for ordinary player resources. No adventures are approved yet.
 export default [
   {
     id: 'player-reference-cards',

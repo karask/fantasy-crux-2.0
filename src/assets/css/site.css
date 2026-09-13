@@ -1346,7 +1346,8 @@ tbody tr:last-child td {
   min-width: 0;
 }
 
-.download-card h2 {
+.download-card h2,
+.download-card h3 {
   margin: 0.4rem 0 0.65rem;
   font-size: 1.4rem;
   line-height: 1.2;
@@ -1385,6 +1386,30 @@ tbody tr:last-child td {
   margin-top: auto;
   font-size: 0.75rem;
   padding: 0.6rem 0.8rem;
+}
+
+.gm-adventures {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--paper-line);
+}
+
+.gm-adventures-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gm-adventures-heading h2 {
+  margin: 0;
+}
+
+[data-gm-trigger] {
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
 }
 
 .search-status {

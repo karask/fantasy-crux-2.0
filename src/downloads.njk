@@ -8,9 +8,10 @@ permalink: /downloads/index.html
 eleventyExcludeFromCollections: true
 ---
 <div class="page-surface page-surface--wide">
-  <h1>Downloads</h1>
+  <h1 data-gm-trigger tabindex="-1">Downloads</h1>
   <div class="download-list">
     {% for download in downloads %}
+      {% if download.audience != "gm" %}
       <section class="download-card" aria-labelledby="{{ download.id }}">
         <div>
           <p class="download-format">{{ download.format }} · {{ download.pages }}</p>
@@ -23,6 +24,36 @@ eleventyExcludeFromCollections: true
         </div>
         <a class="button button--primary" href="/downloads/{{ download.filename }}" download="{{ download.filename }}" type="application/pdf" aria-label="Download {{ download.title }} PDF">Download PDF</a>
       </section>
+      {% endif %}
     {% endfor %}
   </div>
+  <section id="gm-adventures" class="gm-adventures" aria-labelledby="gm-adventures-title" data-pagefind-ignore hidden>
+    <div class="gm-adventures-heading">
+      <h2 id="gm-adventures-title" tabindex="-1">GM Adventures</h2>
+      <button class="button" type="button" data-gm-hide>Hide GM adventures</button>
+    </div>
+    <p>Adventure downloads contain spoilers. These resources are intended for the Gamemaster.</p>
+    {% set gmDownloads = downloads | selectattr("audience", "equalto", "gm") | list %}
+    {% if gmDownloads.length %}
+      <div class="download-list">
+        {% for download in gmDownloads %}
+          <section class="download-card" aria-labelledby="{{ download.id }}">
+            <div>
+              <p class="download-format">{{ download.format }} · {{ download.pages }}</p>
+              <h3 id="{{ download.id }}">{{ download.title }}</h3>
+              <p class="download-description">{{ download.description }}</p>
+              <details class="download-print">
+                <summary>Printing advice</summary>
+                <p>{{ download.print }}</p>
+              </details>
+            </div>
+            <a class="button button--primary" href="/downloads/{{ download.filename }}" download="{{ download.filename }}" type="application/pdf" aria-label="Download {{ download.title }} PDF">Download PDF</a>
+          </section>
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No approved adventures are available yet.</p>
+    {% endif %}
+  </section>
 </div>
+<script src="/assets/js/gm-downloads.js" type="module"></script>
