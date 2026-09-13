@@ -34,12 +34,6 @@ roles=[('Mara Holt','Escort and shield protector'),('Pebb Dallow','Negotiator an
 t=Table([[Paragraph(a,small),Paragraph(b,small)] for a,b in roles],colWidths=[145,W-92-145]);t.setStyle(TableStyle([('VALIGN',(0,0),(-1,-1),'TOP'),('ROWBACKGROUNDS',(0,0),(-1,-1),[colors.HexColor('#ece7d9'),PAPER]),('TOPPADDING',(0,0),(-1,-1),5),('BOTTOMPADDING',(0,0),(-1,-1),5)]));story+=[Spacer(1,14),t]
 SimpleDocTemplate(str(TEMP/'front.pdf'),pagesize=A4,leftMargin=46,rightMargin=46,topMargin=55,bottomMargin=52).build(story,onFirstPage=background)
 assert len(PdfReader(TEMP/'front.pdf').pages)==1
-license=(ROOT/'src/license.md').read_text().split('The following text is the property',1)[1];license='The following text is the property'+license
-license=re.sub(r'\s*\{#[^}]+\}','',license)
-ls=[Paragraph('License and copyright notices',ParagraphStyle('lh',parent=head,fontSize=19,leading=25))]
-for block in license.split('\n\n'):
- if block.strip():ls.append(Paragraph(norm(block.lstrip('# ')),small))
-SimpleDocTemplate(str(TEMP/'license.pdf'),pagesize=A4,leftMargin=46,rightMargin=46,topMargin=45,bottomMargin=52).build(ls,onFirstPage=background,onLaterPages=background)
 w=PdfWriter();w.append(str(TEMP/'front.pdf'),import_outline=False);w.add_outline_item('The company - nobody gets left behind',0)
 names=['mara-holt','pebb-dallow','dori-ashlar','tamsin-reed','ilen-sedge','orren-pike','seris-vale','nerin-quill'];sources=[]
 for name in names:
@@ -48,7 +42,6 @@ for name in names:
  sources.append({'name':name,'first_page':page+1,'pages':len(r.pages),'sha256':hashlib.sha256(path.read_bytes()).hexdigest()})
  for p in w.pages[page:]:
   for im in list(p.images):im.replace(im.image.convert('RGB'),quality=90)
-w.add_outline_item('License and copyright notices',len(w.pages));w.append(str(TEMP/'license.pdf'),import_outline=False)
 for i,p in enumerate(w.pages,1):
  b=BytesIO();c=canvas.Canvas(b,pagesize=A4);c.setFont('Text',8);c.setFillColor(GREEN);c.drawCentredString(W/2,14,str(i));c.save();b.seek(0);p.merge_page(PdfReader(b).pages[0])
 w.compress_identical_objects(remove_duplicates=True,remove_unreferenced=True)

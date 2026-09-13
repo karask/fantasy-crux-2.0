@@ -1,6 +1,6 @@
 # Eight ready-to-play characters
 
-[Download the complete Last Wagon Company player packet](../output/pdf/last-wagon-company-player-packet.pdf): 19 A4 pages, with the [company formation story](00-company-background.md) first, followed by all eight character sheets and the license. Build with `pdf/build_packet.py`.
+[Download the complete Last Wagon Company player packet](../output/pdf/last-wagon-company-player-packet.pdf): 17 A4 pages, with the [company formation story](00-company-background.md) first, followed by all eight character sheets. Build with `pdf/build_packet.py`.
 
 Eight starting members of the **Last Wagon Company** for **Fantasy Crux 2.0 Beta**, expanding Mara, Pebb, Dori, Tamsin, and Ilen with three new companions. Read the [descriptions, personalities, backgrounds, and bonds](01-concepts.md) first, then choose a complete sheet below.
 

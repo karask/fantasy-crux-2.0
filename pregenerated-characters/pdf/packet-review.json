@@ -1,6 +1,6 @@
 {
-  "pages": 19,
-  "bytes": 4327535,
+  "pages": 17,
+  "bytes": 4310486,
   "sources": [
     {
       "name": "mara-holt",
@@ -50,8 +50,5 @@
       "pages": 2,
       "sha256": "54bc7144391ced20ad0ff0b6c2ebe1169734e6152a0178af9176f012f2099d06"
     }
-  ],
-  "visual_review": "All 19 rendered pages inspected; no clipping or overlap.",
-  "character_text_check": "All 16 character pages match current individual PDF text, with packet page numbering added.",
-  "paper": "A4 portrait"
+  ]
 }
