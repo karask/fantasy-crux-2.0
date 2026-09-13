@@ -63,7 +63,7 @@ Containers make their contents manageable but do not remove the contents' ENC.
 
 ## Tools {#equipment-tools}
 
-- **Block and Tackle:** Requires at least 10 metres of rope. Grants `+1B` to Mechanisms tests involving large traps and enables suitable Engineering tasks.
+- **Block and Tackle:** Requires at least 10 metres of rope. Grants `+1B` to Mechanisms tests involving large traps and enables suitable engineering tasks using Mechanisms.
 - **Climbing Kit:** Grants `+1B` to Athletics tests made to climb.
 - **Crowbar:** Grants `+1B` to brute-force Athletics tests. As a weapon, it is a club at `-1P`.
 - **Healing Kit:** Provides five Healing or Surgery attempts; an attempt expends one use whether it succeeds or fails.

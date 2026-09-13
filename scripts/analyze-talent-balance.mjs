@@ -157,7 +157,7 @@ const assessments = Object.freeze({
   ],
   'talent.weak-point': [
     'Change',
-    'Require time, access, Engineering, duration, and a retry condition.',
+    'Require time, access, Mechanisms, duration, and a retry condition.',
   ],
   'talent.wrestler': [
     'Keep',

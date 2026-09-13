@@ -264,7 +264,7 @@ All 56 published Talents appear once below. Sure Hand, Committed Strike, and Dea
 | Trip                 | 3   | T2 standard  | Keep     | Trading all damage for prone is a standard 3-IP maneuver.                                                                                            |
 | Veiled               | 3   | T2 standard  | Keep     | Training unlocks concealment while +1 Magnitude and -1P preserve cost.                                                                               |
 | Wayfinder            | 2   | T1 narrow    | Change   | Bound the safeguard to navigation Fumbles and ordinary travel procedure.                                                                             |
-| Weak Point           | 3   | T2 standard  | Change   | Require time, access, Engineering, duration, and a retry condition.                                                                                  |
+| Weak Point           | 3   | T2 standard  | Change   | Require time, access, Mechanisms, duration, and a retry condition.                                                                                   |
 | Weapon Expertise     | 4   | T3 broad     | Change   | Replace generic Mastery with once-per-round exact-weapon Expertise.                                                                                  |
 | Wrestler             | 2   | T1 narrow    | Keep     | Advanced effects require an established hold and another opposed Action.                                                                             |
 | Sure Hand            | 4   | T3 broad     | Retire   | Routine unhurried work already avoids a roll, so the Talent had no stable priced benefit.                                                            |

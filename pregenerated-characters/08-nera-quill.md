@@ -59,7 +59,7 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 
 ## Every skill
 
-**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 27 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Magic.** Familiar Craft: Calligraphy; it has no free bonus.
+**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 26 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Magic.** Familiar Craft: Calligraphy; it has no free bonus.
 
 ### Resistances
 
@@ -143,10 +143,9 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 | Craft (another named trade) | 28%  | +0     | +0   | **28%** | 01–02    |
 | Deception                   | 31%  | +0     | +0   | **31%** | 01–03    |
 | Driving                     | 31%  | +0     | +0   | **31%** | 01–03    |
-| Engineering                 | 28%  | +15    | +0   | **43%** | 01–04    |
 | Healing                     | 28%  | +0     | +0   | **28%** | 01–02    |
 | Influence                   | 20%  | +5     | +0   | **25%** | 01–02    |
-| Mechanisms                  | 31%  | +15    | +0   | **46%** | 01–04    |
+| Mechanisms                  | 31%  | +30    | +0   | **61%** | 01–06    |
 | Perception                  | 35%  | +15    | +0   | **50%** | 01–05    |
 | Performance                 | 20%  | +0     | +0   | **20%** | 01–02    |
 | Riding                      | 30%  | +0     | +0   | **30%** | 01–03    |

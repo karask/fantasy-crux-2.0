@@ -73,10 +73,9 @@ related test soon after**, when that knowledge can help.
 - **Craft:** make and repair.
 - **Deception:** mislead or conceal.
 - **Driving:** carts and wagons.
-- **Engineering:** build, repair or sabotage.
 - **Healing:** treat injuries.
 - **Influence:** persuade or intimidate.
-- **Mechanisms:** locks and traps.
+- **Mechanisms:** locks, traps and engineering.
 - **Perception:** notice danger.
 - **Performance:** entertain.
 - **Riding:** control a mount.

@@ -57,7 +57,7 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 
 ## Every skill
 
-**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 27 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Bridgeworks.** Familiar Craft: Mason; it has no free bonus.
+**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 26 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Bridgeworks.** Familiar Craft: Mason; it has no free bonus.
 
 ### Resistances
 
@@ -134,14 +134,13 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 | Craft (Bowyer)              | 26%  | +0     | +0   | **26%** | 01–02    |
 | Craft (Brewer)              | 26%  | +0     | +0   | **26%** | 01–02    |
 | Craft (Carpenter)           | 26%  | +0     | +0   | **26%** | 01–02    |
-| Craft (Mason)               | 26%  | +0     | +0   | **26%** | 01–02    |
+| Craft (Mason)               | 26%  | +30    | +0   | **56%** | 01–05    |
 | Craft (Potter)              | 26%  | +0     | +0   | **26%** | 01–02    |
 | Craft (Tailor)              | 26%  | +0     | +0   | **26%** | 01–02    |
 | Craft (Calligraphy)         | 26%  | +0     | +0   | **26%** | 01–02    |
 | Craft (another named trade) | 26%  | +0     | +0   | **26%** | 01–02    |
 | Deception                   | 29%  | +0     | +0   | **29%** | 01–02    |
 | Driving                     | 29%  | +0     | +0   | **29%** | 01–02    |
-| Engineering                 | 26%  | +30    | +0   | **56%** | 01–05    |
 | Healing                     | 26%  | +0     | +0   | **26%** | 01–02    |
 | Influence                   | 20%  | +0     | +0   | **20%** | 01–02    |
 | Mechanisms                  | 29%  | +20    | +5   | **54%** | 01–05    |

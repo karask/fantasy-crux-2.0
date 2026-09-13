@@ -18,7 +18,6 @@ aliases:
 | Craft (type) |  `INT + 10` |
 | Deception    | `DEX + INT` |
 | Driving      | `DEX + INT` |
-| Engineering  |  `INT + 10` |
 | Healing      |  `INT + 10` |
 | Influence    |  `CHA + 10` |
 | Mechanisms   | `DEX + INT` |
@@ -63,10 +62,6 @@ Pickpocketing or planting a small item normally requires at least one minute of 
 Driving covers carts, chariots, wagons, and similar vehicles.
 No test is needed at walking pace on flat ground; test for speed, dangerous terrain, jumps, collisions, or difficult manoeuvres.
 
-## Engineering {#skills-engineering}
-
-Engineering designs, builds, repairs, sabotages, and operates large works such as bridges, fortifications, mines, siege engines, gates, and ships.
-
 ## Healing {#skills-healing}
 
 Healing requires a Healing Kit; without one, the test suffers `-2P`.
@@ -89,9 +84,14 @@ Success can change the target's immediate decision, but cannot force action agai
 
 ## Mechanisms {#skills-mechanisms}
 
-Mechanisms assembles, disables, or repairs devices with complex moving parts, including locks and traps.
-Picking a lock or disarming a trap normally takes at least one minute.
-If a device was designed to resist interference, oppose the creator's Mechanisms.
+Mechanisms designs, assembles, repairs, operates, and disables mechanical devices and engineered structures. Its applications use the same skill score; Engineering is not a separate skill.
+
+- **Locks and devices:** work with locks, moving parts, and other mechanisms.
+- **Traps:** construct, repair, or disable mechanical traps. Picking a lock or disarming a trap normally takes at least one minute. If a device was designed to resist interference, oppose its creator's Mechanisms.
+
+### Engineering {#skills-engineering}
+
+Use Mechanisms to assess, design, construct, repair, or sabotage large works such as bridges, fortifications, mines, siege engines, gates, and ships. Projects require suitable tools, materials, labour, and time. This does not replace Craft for producing appropriate goods and components or Sailing for navigating and manoeuvring vessels.
 
 ## Perception {#skills-perception}
 

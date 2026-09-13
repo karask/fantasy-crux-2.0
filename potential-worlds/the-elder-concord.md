@@ -713,7 +713,7 @@ abilities rather than increasing crowd size.
   houses put current residents first.
 - **Leader and reach:** Serrak Warm-Coil is a lizardfolk refuge keeper, blunt,
   methodical, and ashamed of the concealment. Use the Lizardfolk profile with
-  Engineering, Lore, and Shaping. The houses control shelter, guides, food
+  Mechanisms, Lore, and Shaping. The houses control shelter, guides, food
   caches, and mountain routes.
 - **Shaping:** `Bend·Earth/Stone`, `Alter·Earth/Stone`, `Ward·Earth/Stone`, and
   `Scry·Earth/Stone`; Practices tap heated stones, while Tells give nearby rock
@@ -866,7 +866,7 @@ undermined but not destroyed. Fruit grows without seeds, axes rust from mundane
 damp, and animal paths curve away. The dryad uses her listed Mind cells to
 discourage intruders and wants a drainage trench closed before her tree falls.
 The trench protects two human cottages from flooding. She can be negotiated
-with; Engineering and labor can redirect water without magic. If attacked, her
+with; Mechanisms and labor can redirect water without magic. If attacked, her
 44-metre grove and vegetation make pursuit costly, but the old cart road offers
 clear retreat. Bramble Commons would close the trench; Hearth engineers can
 design a compromise if shown the site.
@@ -1035,7 +1035,7 @@ pilgrim route and sends travelers to unsafe privateers.
 Serrak Warm-Coil hires the party to enter an underway whose heat vents are
 failing. An oread uses its listed `Bend·Earth/Stone` to reshape geothermal vents
 because an old refuge cut into its domain; redirected warmth is a natural
-consequence. A troll occupies the tollhouse above. Engineering can prove the
+consequence. A troll occupies the tollhouse above. Mechanisms can prove the
 sanctuary cannot survive unchanged. The characters must carry bad news, arrange
 evacuation or a new agreement, and resist elders who prefer silence until winter
 makes choice impossible.

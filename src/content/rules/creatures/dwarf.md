@@ -43,7 +43,6 @@ skills:
   - 'Persistence 40%'
   - 'Resilience 55%'
   - 'Athletics 50%'
-  - 'Engineering 35%'
   - 'Mechanisms 40%'
   - 'Trade 60%'
   - 'Craft 70%'

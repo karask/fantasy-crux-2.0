@@ -98,7 +98,6 @@ const skillNames = [
   'Craft',
   'Deception',
   'Driving',
-  'Engineering',
   'Healing',
   'Influence',
   'Mechanisms',

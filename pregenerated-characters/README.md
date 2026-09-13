@@ -12,7 +12,7 @@ All characteristics and ages were chosen without rolling dice. Each PC uses the 
 | -------------------------------- | ------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
 | [Mara Holt](01-mara-holt.md)     | Human escort; shield protector              | Patient and practical; repairs other people's kit; can become too directive under pressure. | Close Combat 58%, Athletics 58%, Dodge 53%; Protector and Shield Cover.                          |
 | [Pebb Dallow](02-pebb-dallow.md) | Goblin former forger; negotiator            | Cheerful, perceptive, exacting about paperwork; sometimes explains too much.                | Deception 61%, Influence 52%, Ranged Combat 61%; Silver Tongue and heat sense.                   |
-| [Dori Ashlar](03-dori-ashlar.md) | Dwarf bridge-worker; engineer               | Deliberate and curious; listens while sketching; always wants one more measurement.         | Engineering 56%, Mechanisms 54%, Close Combat 56%; Earth Sense and Close-Quarters Knack.         |
+| [Dori Ashlar](03-dori-ashlar.md) | Dwarf bridge-worker; engineer               | Deliberate and curious; listens while sketching; always wants one more measurement.         | Mechanisms 54%, Craft (Mason) 56%, Close Combat 56%; Earth Sense and Close-Quarters Knack.       |
 | [Tamsin Reed](04-tamsin-reed.md) | Human healer; Flesh Shaper                  | Warm, direct, dryly funny; neglects her own exhaustion.                                     | Healing 56%, Shaping 62%, Close Combat 51%; bodily healing and diagnosis.                        |
 | [Ilen Sedge](05-ilen-sedge.md)   | Human courier; runner and archer            | Curious, punctual, discreet; sometimes starts moving before the plan is settled.            | Perception 55%, Athletics 54%, Ranged Combat 59%; Quick Reflexes and Battle Awareness.           |
 | [Orren Pike](06-orren-pike.md)   | Orc dockworker; rescuer and wrestler        | Courteous, literal, fond of terrible verse; takes on too much heavy work.                   | Athletics 59%, Sailing 51%, Close and Unarmed Combat 54%; Wrestler and Subdue.                   |
@@ -39,7 +39,7 @@ All characteristics and ages were chosen without rolling dice. Each PC uses the 
 
 - Appearance, age, background, personality, loyalty, immediate goal, trusting bond, and a short roleplaying cue.
 - All seven characteristics, HP, MWL, PP, Hero Points, damage modifier, Combat Order, Movement, armour, recovery, conditions, and cash.
-- All 27 general-skill templates, expanded into 62 explicit nonmagical rows, plus Shaping or an explicit statement that it is unavailable. Each row shows base, pool allocation, IP increase, final percentage, and critical range.
+- All 26 general-skill templates, expanded into 61 explicit nonmagical rows, plus Shaping or an explicit statement that it is unavailable. Each row shows base, pool allocation, IP increase, final percentage, and critical range.
 - Required ancestry abilities and every purchased Talent, with their actual effects and prerequisites. Shapers have two exact cells, Practice, Tell, priced examples, casting limits, and universal magical actions.
 - Weapons, damage including DM and applicable bonuses, requirements, ranges, shield restrictions, ready equipment, ammunition, tools, Healing Kit uses, and an itemised spending ledger.
 - Exact characteristic, skill-pool, and IP accounting. No experience, extra Talents, or discounted equipment is hidden in the backgrounds.
@@ -67,6 +67,6 @@ node pregenerated-characters/build.mjs
 npx prettier --write 'pregenerated-characters/**/*.{md,json,mjs}'
 ```
 
-The generator verifies exact budgets, bounds, all base-skill formulas, ordinary versus converted IP, Talent prerequisites, weapon minimums, legal equipment packages, spending, ammunition capacity, and published ENC. [audit.json](audit.json) contains all 498 calculated skill rows. Regeneration overwrites the eight generated sheets and the two audit files; edit their authored sources instead.
+The generator verifies exact budgets, bounds, all base-skill formulas, ordinary versus converted IP, Talent prerequisites, weapon minimums, legal equipment packages, spending, ammunition capacity, and published ENC. [audit.json](audit.json) contains all 490 calculated skill rows. Regeneration overwrites the eight generated sheets and the two audit files; edit their authored sources instead.
 
 The canonical rules remain in [src/content/rules](../src/content/rules). These are local character artifacts, outside the website's published rules collection. Rules text is Open Game Content under the accompanying [Open Game License](LICENSE.md), copied with its copyright notices from the repository's canonical licence.

@@ -21,7 +21,7 @@ PORTRAIT = ROOT / "pregenerated-characters/pdf/assets/dori-ashlar-portrait.png"
 TMP.mkdir(parents=True, exist_ok=True)
 OUT.parent.mkdir(parents=True, exist_ok=True)
 audited = next(a for a in json.loads((ROOT / "pregenerated-characters/audit.json").read_text()) if a["name"] == "Dori Ashlar")
-assert audited["skillCount"] == 62
+assert audited["skillCount"] == 61
 
 FONT = Path("/usr/share/fonts/truetype/liberation")
 if not FONT.exists():
@@ -249,7 +249,7 @@ expected_skills = {
     or (skill["category"]=="Practical" and not skill["name"].startswith("Craft ("))
     or skill["name"] in {"Craft (Mason)", "Lore (Bridgeworks)", "Natural Lore", "Culture (Whitewater)", "Culture (Deep-Road Compact)", "Language (River Crown)"}
 }
-assert len(skill_log)==25
+assert len(skill_log)==24
 assert {skill["name"] for skill in skill_log}==expected_skills
 assert all(skill["score"]==next(a["score"] for a in skills if a["name"]==skill["name"]) for skill in skill_log)
 writer = PdfWriter()

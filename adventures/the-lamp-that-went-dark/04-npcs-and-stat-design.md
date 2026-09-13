@@ -53,8 +53,8 @@ An exhausted dwarf of the Crown Survey, Tal is an exacting mentor who corrects a
 
 | Skill % | Skills                                             |
 | ------- | -------------------------------------------------- |
-| 70      | Engineering; Lore (Crownworks); Lore (Magic).      |
-| 60      | Shaping; Perception; Mechanisms; Language (Karic). |
+| 70      | Mechanisms; Lore (Crownworks); Lore (Magic).      |
+| 60      | Shaping; Perception; Language (Karic). |
 | 50      | Influence; Persistence; Resilience.                |
 | 40      | Deception; Trade.                                  |
 | 30      | Athletics; Close Combat; Dodge; Healing.           |
@@ -82,7 +82,7 @@ A human officer serving the Veyran road warden. Ina is humane, methodical, and p
 | 50      | Close Combat; Perception; Influence; Lore (Law and Heraldry). |
 | 40      | Athletics; Dodge; Unarmed Combat; Resilience; Persistence.    |
 | 30      | Deception; Healing; Ranged Combat.                            |
-| 20      | Engineering; Trade.                                           |
+| 20      | Mechanisms; Trade.                                           |
 
 **Equipment and abilities:** Shortsword or shield attack 50%; Parry 50% with either ready item, using its Size. Leather armour ENC 3 is already included in Order. Keys, whistle, watch ledger, seal, and a station Healing Kit with 5 uses. No Talents or Shaping. She can defend her post but is not an extra PC combatant below. Use **Persistence 40%** for resisting the access concession and **Perception 50%** against false credentials or a disguised entrant.
 
@@ -130,7 +130,7 @@ A human mercenary hired by Voss. Bren normally makes a living by returning valua
 | ------- | --------------------------------------------------------- |
 | 50      | Close Combat; Athletics.                                  |
 | 40      | Perception; Dodge; Resilience; Unarmed Combat; Influence. |
-| 30      | Persistence; Deception; Engineering; Mechanisms.          |
+| 30      | Persistence; Deception; Mechanisms.          |
 | 20      | Healing; Ranged Combat; Trade.                            |
 
 **Equipment and abilities:** Manufactured club attack/Parry 50%; leather armour ENC 3 already included in Order; 10 m rope, the work order, and an empty receipt book. No Talents, Shaping, shield, or ranged weapon. His club is used in **one hand**, dealing `1D6 + 0`, not the two-handed Flex damage. For the tube, use **Athletics 50% against Tessa's 20%**; this single Combat Action settles the pull. For combat Intimidate, a single-target demand opposes his **Persistence 30%**; a demand to his whole crew opposes his higher **Influence 40%**, before the enemy-condition modifier.
@@ -152,8 +152,8 @@ A human field surveyor whose first concern is still whether everyone else has be
 
 | Skill % | Skills                                          |
 | ------- | ----------------------------------------------- |
-| 60      | Engineering; Lore (Crownworks).                 |
-| 50      | Perception; Influence; Mechanisms; Persistence. |
+| 60      | Mechanisms; Lore (Crownworks).                 |
+| 50      | Perception; Influence; Persistence. |
 | 40      | Resilience; Healing; Deception.                 |
 | 30      | Athletics; Dodge; Close Combat; Unarmed Combat. |
 | 20      | Ranged Combat.                                  |
@@ -177,8 +177,8 @@ A goblin engineer with precise hands and a dry sense of humour. Fen treats a cla
 
 | Skill % | Skills                                                      |
 | ------- | ----------------------------------------------------------- |
-| 60      | Engineering.                                                |
-| 50      | Mechanisms; Craft (Carpentry); Perception; Language (Kesh). |
+| 60      | Mechanisms.                                                |
+| 50      | Craft (Carpentry); Perception; Language (Kesh). |
 | 40      | Athletics; Resilience; Persistence.                         |
 | 30      | Healing; Dodge; Close Combat; Unarmed Combat; Deception.    |
 | 20      | Influence; Ranged Combat.                                   |
@@ -189,7 +189,7 @@ A goblin engineer with precise hands and a dry sense of humour. Fen treats a cla
 - **Wants:** Everyone out, the shutters left secure, and nobody mistaking a reversible access procedure for permission to repair the Crownwork.
 - **Leverage:** Ask for a practical task; listen to a stated hazard; bring suitable tools. Fen responds readily to competence without caring who carries the grandest seal.
 - **Knows:** The chamber's observable working parts, the team's access procedure, and what happened during their descent. Fen can interpret a mechanism or point to a physical clue when the party asks for help. Fen also has a Healing Kit and practical first-aid training, enough to attempt stabilisation if the PC healers are incapacitated; success still requires a roll and the normal full round.
-- **Limits:** Fen does not know who ordered the interference or possess a complete model of the Crownworks. Engineering competence does not make every concealed hazard automatically known.
+- **Limits:** Fen does not know who ordered the interference or possess a complete model of the Crownworks. Mechanisms competence does not make every concealed hazard automatically known.
 - **Play them:** Use Fen to clarify what the characters can see and to confirm a sound solution. Allow the players to make the discovery and choose the action; Fen need not deliver a puzzle lecture on arrival.
 
 ## Tessa Mar — the apprentice who wrote it down
@@ -203,8 +203,8 @@ A human Survey apprentice whose hands shake when people argue. Her notes do not.
 | Skill % | Skills                                                                  |
 | ------- | ----------------------------------------------------------------------- |
 | 50      | Perception; Lore (Surveying).                                           |
-| 40      | Engineering; Culture (Whitewater).                                      |
-| 30      | Mechanisms; Persistence; Resilience; Dodge.                             |
+| 40      | Mechanisms; Culture (Whitewater).                                      |
+| 30      | Persistence; Resilience; Dodge.                             |
 | 20      | Athletics; Close Combat; Unarmed Combat; Deception; Healing; Influence. |
 
 **Equipment and abilities:** Dagger attack/Parry 20%; charcoal, spare paper, station rubbings, and the records tube until possession changes. No Talents or Shaping. Use **Athletics 20%** for her one contested pull against Bren; she is protected by the hatch and that result cannot drag or injure her through it. Her excellent observations do not make her physically strong or especially confident in argument.

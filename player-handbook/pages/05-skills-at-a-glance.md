@@ -40,10 +40,9 @@ Describe the action; choose the skill that fits. Use your sheet's percentages.
 - **Craft:** make and repair goods within a chosen trade.
 - **Deception:** sneak, disguise, misdirect, conceal, or pick pockets.
 - **Driving:** handle carts, wagons, chariots, and similar vehicles.
-- **Engineering:** design, build, repair, or sabotage large works.
 - **Healing:** stabilise patients, treat injuries, and perform Surgery; see page 10.
 - **Influence:** persuade, bargain, command, or intimidate.
-- **Mechanisms:** work with locks, traps, and intricate moving devices.
+- **Mechanisms:** work with locks, traps, devices, and engineering projects.
 - **Perception:** notice hidden things, fine details, and approaching danger.
 - **Performance:** act, dance, sing, speak, or play music.
 - **Riding:** control a mount in challenging circumstances.

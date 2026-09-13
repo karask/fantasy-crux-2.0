@@ -28,7 +28,7 @@
     "skillIP": 0,
     "bonusIP": 0,
     "totalIP": 10,
-    "skillCount": 62,
+    "skillCount": 61,
     "pools": [
       ["Resistances", 50, 0, 0, 50, 0],
       ["Combat", 50, 0, 0, 50, 0],
@@ -557,16 +557,6 @@
         "critical": "01–02"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 21,
-        "pool": 0,
-        "ip": 0,
-        "score": 21,
-        "critical": "01–02"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -687,7 +677,7 @@
     "skillIP": 1,
     "bonusIP": 0,
     "totalIP": 10,
-    "skillCount": 62,
+    "skillCount": 61,
     "pools": [
       ["Resistances", 50, 0, 0, 50, 0],
       ["Combat", 50, 0, 0, 50, 0],
@@ -1216,16 +1206,6 @@
         "critical": "01–03"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 25,
-        "pool": 0,
-        "ip": 0,
-        "score": 25,
-        "critical": "01–02"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -1346,7 +1326,7 @@
     "skillIP": 1,
     "bonusIP": 0,
     "totalIP": 10,
-    "skillCount": 62,
+    "skillCount": 61,
     "pools": [
       ["Resistances", 50, 0, 0, 50, 0],
       ["Combat", 50, 0, 0, 50, 0],
@@ -1809,10 +1789,10 @@
         "category": "Practical",
         "template": "Craft (type)",
         "base": 26,
-        "pool": 0,
+        "pool": 30,
         "ip": 0,
-        "score": 26,
-        "critical": "01–02"
+        "score": 56,
+        "critical": "01–05"
       },
       {
         "name": "Craft (Potter)",
@@ -1873,16 +1853,6 @@
         "ip": 0,
         "score": 29,
         "critical": "01–02"
-      },
-      {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 26,
-        "pool": 30,
-        "ip": 0,
-        "score": 56,
-        "critical": "01–05"
       },
       {
         "name": "Healing",
@@ -2005,7 +1975,7 @@
     "skillIP": 0,
     "bonusIP": 10,
     "totalIP": 20,
-    "skillCount": 63,
+    "skillCount": 62,
     "pools": [
       ["Resistances", 50, 15, 3, 35, 0],
       ["Combat", 50, 15, 3, 35, 0],
@@ -2544,16 +2514,6 @@
         "critical": "01–02"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 26,
-        "pool": 0,
-        "ip": 0,
-        "score": 26,
-        "critical": "01–02"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -2674,7 +2634,7 @@
     "skillIP": 0,
     "bonusIP": 0,
     "totalIP": 10,
-    "skillCount": 62,
+    "skillCount": 61,
     "pools": [
       ["Resistances", 50, 0, 0, 50, 0],
       ["Combat", 50, 0, 0, 50, 0],
@@ -3203,16 +3163,6 @@
         "critical": "01–02"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 23,
-        "pool": 0,
-        "ip": 0,
-        "score": 23,
-        "critical": "01–02"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -3333,7 +3283,7 @@
     "skillIP": 1,
     "bonusIP": 0,
     "totalIP": 10,
-    "skillCount": 62,
+    "skillCount": 61,
     "pools": [
       ["Resistances", 50, 0, 0, 50, 0],
       ["Combat", 50, 0, 0, 50, 0],
@@ -3862,16 +3812,6 @@
         "critical": "01–02"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 19,
-        "pool": 0,
-        "ip": 0,
-        "score": 19,
-        "critical": "01"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -3992,7 +3932,7 @@
     "skillIP": 1,
     "bonusIP": 0,
     "totalIP": 10,
-    "skillCount": 62,
+    "skillCount": 61,
     "pools": [
       ["Resistances", 50, 0, 0, 50, 0],
       ["Combat", 50, 0, 0, 50, 0],
@@ -4521,16 +4461,6 @@
         "critical": "01–03"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 24,
-        "pool": 0,
-        "ip": 0,
-        "score": 24,
-        "critical": "01–02"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -4651,7 +4581,7 @@
     "skillIP": 0,
     "bonusIP": 10,
     "totalIP": 20,
-    "skillCount": 63,
+    "skillCount": 62,
     "pools": [
       ["Resistances", 50, 15, 3, 35, 0],
       ["Combat", 50, 15, 3, 35, 0],
@@ -5190,16 +5120,6 @@
         "critical": "01–03"
       },
       {
-        "name": "Engineering",
-        "category": "Practical",
-        "template": "Engineering",
-        "base": 28,
-        "pool": 15,
-        "ip": 0,
-        "score": 43,
-        "critical": "01–04"
-      },
-      {
         "name": "Healing",
         "category": "Practical",
         "template": "Healing",
@@ -5224,10 +5144,10 @@
         "category": "Practical",
         "template": "Mechanisms",
         "base": 31,
-        "pool": 15,
+        "pool": 30,
         "ip": 0,
-        "score": 46,
-        "critical": "01–04"
+        "score": 61,
+        "critical": "01–06"
       },
       {
         "name": "Perception",

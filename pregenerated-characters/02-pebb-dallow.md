@@ -57,7 +57,7 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 
 ## Every skill
 
-**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 27 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Law and Heraldry.** Familiar Craft: Calligraphy; it has no free bonus.
+**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 26 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Law and Heraldry.** Familiar Craft: Calligraphy; it has no free bonus.
 
 ### Resistances
 
@@ -141,7 +141,6 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 | Craft (another named trade) | 25%  | +0     | +0   | **25%** | 01–02    |
 | Deception                   | 31%  | +30    | +0   | **61%** | 01–06    |
 | Driving                     | 31%  | +0     | +0   | **31%** | 01–03    |
-| Engineering                 | 25%  | +0     | +0   | **25%** | 01–02    |
 | Healing                     | 25%  | +0     | +0   | **25%** | 01–02    |
 | Influence                   | 27%  | +25    | +0   | **52%** | 01–05    |
 | Mechanisms                  | 31%  | +0     | +0   | **31%** | 01–03    |

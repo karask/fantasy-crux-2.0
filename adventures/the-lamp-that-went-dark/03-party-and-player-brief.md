@@ -45,7 +45,7 @@ The bonds below form a circle; change their details together if desired. Nobody 
 - **Wants:** Help ordinary people trust their bridges again, and eventually supervise a crew that listens to its workers.
 - **Trusting bond:** Tamsin kept talking Dori through the flooded wagon's lifting rhythm when panic threatened. Dori trusts Tamsin to say when courage has become exhaustion.
 - **Suggested approach:** Examine loads, wear, and connections before operating machinery. Use a worker's manner or quiet approach to inspect awkward places. In a fight, defend secure footing with a close weapon.
-- **Likely skills:** Engineering, Mechanisms, Perception, Deception, Close Combat, Athletics.
+- **Likely skills:** Mechanisms, Perception, Deception, Close Combat, Athletics.
 - **Local fact:** The White Span is a Crownwork: people walking its pale causeway count fewer steps than its surveyed length should require. Familiarity with bridges does not make its oldest workings familiar.
 
 ## Tamsin Reed — the practical lamp

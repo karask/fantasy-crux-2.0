@@ -135,7 +135,7 @@
         "Unarmed Combat": 5,
         "Lore (Bridgeworks)": 30,
         "Culture (Deep-Road Compact)": 20,
-        "Engineering": 30,
+        "Craft (Mason)": 30,
         "Mechanisms": 20,
         "Perception": 15,
         "Athletics": 10
@@ -431,8 +431,7 @@
         "Ranged Combat": 10,
         "Shaping": 30,
         "Lore (Magic)": 20,
-        "Mechanisms": 15,
-        "Engineering": 15,
+        "Mechanisms": 30,
         "Perception": 15,
         "Influence": 5,
         "Athletics": 5

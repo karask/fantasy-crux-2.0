@@ -154,7 +154,6 @@ Skills with a parenthetical subject, such as `Craft (type)`, are separate skills
 | Craft (type)     |  `INT + 10` |
 | Deception        | `DEX + INT` |
 | Driving          | `DEX + INT` |
-| Engineering      |  `INT + 10` |
 | Healing          |  `INT + 10` |
 | Influence        |  `CHA + 10` |
 | Mechanisms       | `DEX + INT` |

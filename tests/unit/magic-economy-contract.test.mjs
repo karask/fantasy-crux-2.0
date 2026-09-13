@@ -236,7 +236,7 @@ describe('travel and practical Talent procedures', () => {
   it('makes Weak Point a test with a bounded duration and retry condition', () => {
     expect(weakPoint).toMatch(/10 minutes/i);
     expect(weakPoint).toMatch(/access[^.]*quiet/i);
-    expect(weakPoint).toMatch(/successful Engineering test/i);
+    expect(weakPoint).toMatch(/successful Mechanisms test/i);
     expect(weakPoint).toMatch(/direct[^.]*allies[^.]*accessible[^.]*join/i);
     expect(weakPoint).toMatch(
       /ignore[^.]*object(?:'s)? AP[\s\S]{0,160}(?:repaired|materially change[ds]?)/i,

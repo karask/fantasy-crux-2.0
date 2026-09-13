@@ -19,6 +19,21 @@ const records = markdownFiles(contentRoot).map((file) => {
 });
 
 describe('canonical Fantasy Crux 2.0 content', () => {
+  it('uses Mechanisms for engineering without a separate skill or losing the legacy anchor', () => {
+    const practical = readFileSync(path.join(contentRoot, 'skills/practical-skills.md'), 'utf8');
+    const creation = readFileSync(
+      path.join(contentRoot, 'characters/character-creation.md'),
+      'utf8',
+    );
+    expect(practical).toContain('### Engineering {#skills-engineering}');
+    expect(practical).toContain('Projects require suitable tools, materials, labour, and time.');
+    expect(practical).toMatch(/Mechanisms\s*\|\s*`DEX \+ INT`/);
+    expect(practical + creation).not.toMatch(/\| Engineering\s*\|/);
+    const weakPoint = matter(readFileSync(path.join(contentRoot, 'talents/weak-point.md'), 'utf8'));
+    expect(weakPoint.data.prerequisites).toBe('Mechanisms 51%');
+    expect(weakPoint.content).toContain('successful Mechanisms test');
+  });
+
   it('ships exactly the approved 56-Talent catalogue', () => {
     const titles = records
       .filter((record) => record.data.type === 'talent')

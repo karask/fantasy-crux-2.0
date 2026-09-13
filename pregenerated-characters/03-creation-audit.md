@@ -32,7 +32,7 @@ Both Shapers reserve 20 IP before Knowledge allocation. Each converts 15 Resista
 
 ## Completeness and bounds
 
-Every sheet displays all 27 canonical general-skill templates, expanded into 62 nonmagical rows, including all nine gazetteer cultures and languages, all common Lore fields, the roster's additional Lore subjects, Craft subjects, and explicit bases for another named subject. Shapers add their Shaping row; non-Shapers explicitly show it as unavailable. These are subject-specific bases, not free training or shared specialist skills.
+Every sheet displays all 26 canonical general-skill templates, expanded into 61 nonmagical rows, including all nine gazetteer cultures and languages, all common Lore fields, the roster's additional Lore subjects, Craft subjects, and explicit bases for another named subject. Shapers add their Shaping row; non-Shapers explicitly show it as unavailable. These are subject-specific bases, not free training or shared specialist skills.
 
 All category pools are spent exactly. No skill receives more than 30 total points above its base even when an ordinary-IP improvement is included; no skill exceeds 100%. Each skill improved with IP is improved once and gains +5 at 0–50% or +3 at 51–99%. All Talent prerequisites and ancestry costs are checked. All weapons meet STR and DEX minimums. Characteristic, HP, MWL, Combat Order, DM, PP recovery, Active Magnitude, money, ammunition, and published ENC calculations are generated from fixed inputs. Critical ranges use floor(skill / 10), minimum 01.
 

@@ -26,7 +26,7 @@ TMP.mkdir(parents=True, exist_ok=True)
 OUT.parent.mkdir(parents=True, exist_ok=True)
 audited = next(a for a in json.loads((ROOT / "pregenerated-characters/audit.json").read_text()) if a["name"] == "Tamsin Reed")
 character = next(c for c in json.loads((ROOT / "pregenerated-characters/characters.json").read_text())["characters"] if c["id"] == "tamsin-reed")
-assert audited["skillCount"] == 63
+assert audited["skillCount"] == 62
 
 FONT = Path("/usr/share/fonts/truetype/liberation")
 if not FONT.exists():
@@ -263,7 +263,7 @@ expected_skills = {
     or (s["category"] == "Practical" and not s["name"].startswith("Craft ("))
     or s["name"] in {"Craft (Tailor)", "Lore (Medicine)", "Shaping", "Culture (Whitewater)", "Language (River Crown)"}
 }
-assert len(skill_log) == 24
+assert len(skill_log) == 23
 assert {s["name"] for s in skill_log} == expected_skills
 assert all(s["score"] == next(a["score"] for a in skills if a["name"]==s["name"]) for s in skill_log)
 writer = PdfWriter()

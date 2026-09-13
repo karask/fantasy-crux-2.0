@@ -461,7 +461,7 @@ Stocky, long-lived people adapted to darkness and life around stone, with a rema
 
 **Derived:** HP 15; MWL 8; PP 11; Movement 12 m; Combat Order 5; AP 5 chainmail; DM +0.
 
-**Skills:** Dodge 20%; Persistence 40%; Resilience 55%; Athletics 50%; Engineering 35%; Mechanisms 40%; Trade 60%; Craft 70%; Close Combat 65%; Ranged Combat 45%.
+**Skills:** Dodge 20%; Persistence 40%; Resilience 55%; Athletics 50%; Mechanisms 40%; Trade 60%; Craft 70%; Close Combat 65%; Ranged Combat 45%.
 
 **Attacks:** War Hammer or Battleaxe — Close Combat 65%, `1D8 + 0`, Medium; Medium Shield — Close Combat 65%, `1D6 + 0`, Heavy; Light Crossbow — Ranged Combat 45%, `1D8`, 125 m.
 

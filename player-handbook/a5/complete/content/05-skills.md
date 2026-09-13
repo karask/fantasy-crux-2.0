@@ -32,10 +32,9 @@ tools usually needs no roll.
 - **Craft:** make and repair goods in a chosen trade.
 - **Deception:** sneak, disguise, misdirect, conceal and pick pockets.
 - **Driving:** handle carts, wagons and similar vehicles.
-- **Engineering:** design, build, repair or sabotage large works.
 - **Healing:** stabilise, treat injuries and perform Surgery (pages 16-17).
 - **Influence:** persuade, bargain, command and intimidate.
-- **Mechanisms:** locks, traps and intricate devices.
+- **Mechanisms:** locks, traps, devices and engineering projects.
 - **Perception:** notice hidden things, details and danger.
 - **Performance:** act, dance, sing, speak or play music.
 - **Riding:** control a mount in challenging circumstances.

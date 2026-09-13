@@ -383,7 +383,7 @@ Check Range and route when a set-duration effect begins; it then needs attention
 
 Only the strongest magical modifier, armour, or protection of the same kind applies. Mundane circumstances combine normally under the `+3B`/`-3P` cap.
 
-Temporary matter vanishes when Duration ends. It cannot leave value, supply permanent crafting, or create PP, IP, Hero Points, Talents, components, Leverage, anchors, or prices. Complex objects still require relevant Craft, Engineering, or Lore.
+Temporary matter vanishes when Duration ends. It cannot leave value, supply permanent crafting, or create PP, IP, Hero Points, Talents, components, Leverage, anchors, or prices. Complex objects still require relevant Craft, Mechanisms, or Lore.
 
 A created hazard deals fixed damage equal to Intensity per round. It cannot appear overlapping an unwilling subject; drowning, suffocation, restraint, and immediate damage are separate outcomes. Mundane hazards it causes then use core rules.
 

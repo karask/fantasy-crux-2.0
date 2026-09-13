@@ -20,7 +20,7 @@ Check Range and route when set Duration begins, then only during concentration o
 
 Use only the strongest same-kind magical modifier, armour, or protection. Mundane circumstances combine under the `+3B`/`-3P` cap.
 
-Temporary matter vanishes at Duration's end. It leaves no value, permanent crafting supply, PP, IP, Hero Points, Talents, components, anchors, or prices. Complex objects still require relevant Craft, Engineering, or Lore.
+Temporary matter vanishes at Duration's end. It leaves no value, permanent crafting supply, PP, IP, Hero Points, Talents, components, anchors, or prices. Complex objects still require relevant Craft, Mechanisms, or Lore.
 
 ### Created hazards {#magic-created-hazards}
 

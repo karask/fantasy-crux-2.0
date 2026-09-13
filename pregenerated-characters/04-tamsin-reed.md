@@ -59,7 +59,7 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 
 ## Every skill
 
-**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 27 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Medicine.** Familiar Craft: Tailor; it has no free bonus.
+**Final** is the unmodified skill to use in play; situational Bonus/Penalty dice are separate. All 26 general-skill templates are represented. Every gazetteer culture and language, the seven common Lore fields plus this roster's fields, and the listed Craft examples appear individually, including untrained scores. Each subject is a separate skill: an “another named…” row states the creation base for a new subject, not one shared skill that improves every subject. Knowledge still needs a plausible source; a base score grants no impossible information. **Own culture: Whitewater; own language: River Crown; own Lore: Medicine.** Familiar Craft: Tailor; it has no free bonus.
 
 ### Resistances
 
@@ -143,7 +143,6 @@ Round exact halves up for attributes. Critical ranges use the integer tens digit
 | Craft (another named trade) | 26%  | +0     | +0   | **26%** | 01–02    |
 | Deception                   | 28%  | +0     | +0   | **28%** | 01–02    |
 | Driving                     | 28%  | +0     | +0   | **28%** | 01–02    |
-| Engineering                 | 26%  | +0     | +0   | **26%** | 01–02    |
 | Healing                     | 26%  | +30    | +0   | **56%** | 01–05    |
 | Influence                   | 22%  | +10    | +0   | **32%** | 01–03    |
 | Mechanisms                  | 28%  | +0     | +0   | **28%** | 01–02    |
