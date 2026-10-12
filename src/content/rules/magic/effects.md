@@ -5,12 +5,15 @@ chapter: magic
 title: Effects
 slug: effects
 order: 40
-summary: Use fixed benchmarks for damage, healing, protection, movement, senses, conditions, restoration, information, control, transformation, and summoned beings.
+summary: Use fixed benchmarks for damage, healing, protection, movement, senses, conditions, restoration, information, control, transformation, and conjured or called beings.
 aliases:
   - magic damage
   - magical healing
   - magic wards
   - magic summons
+  - standing orders
+  - calling spirits
+  - conjured beings
   - invisibility
   - sensory concealment
   - magical flight
@@ -78,7 +81,7 @@ The cell must explain the protection. `Alter·Flesh` might impart supernatural v
 
 Alter·Flesh repairs corporeal undead at normal healing Intensity, restoring no soul, identity, intelligence, memory, or loyalty. Unmake·Flesh damages living and corporeal undead bodies normally.
 
-Conjure·Flesh may animate remains as a temporary generic **Mindless, Soulless Undead** summon. Use the table below; remains collapse at 0 HP or Duration's end, while conjured matter vanishes. Lasting undead require a named profile, profile-based Intensity, Duration 5, mythic price, and vulnerable physical anchor. Intelligence grants no former identity, memories, or loyalty.
+Conjure·Flesh may animate remains as a temporary generic **Mindless, Soulless Undead** summon. Use the [conjured-being table](#magic-conjured-beings) without a Form trait or drawback; remains collapse at 0 HP or Duration's end, while conjured matter vanishes. Lasting undead require a named profile, profile-based Intensity, Duration 5, mythic price, and vulnerable physical anchor. Intelligence grants no former identity, memories, or loyalty.
 
 Alter·Flesh at Intensity 5 and Duration 5 can make a living subject Undead through mythic ritual and lasting price; its soul departs. Shaping-made or sustained undead are active magic anchored vulnerably to body or remains. Existing undead are not inherently Shapings.
 
@@ -205,23 +208,64 @@ A solid barrier blocks movement and line of effect until destroyed and cannot ap
 
 Scry gives evidence, not omniscience or knowledge absent from accessible minds, places, spirits, traces, or patterns. Possible futures change when acted upon. Live observation, communication, or thought-reading needs concentration; static senses and facts do not.
 
-## Summons and named beings {#magic-summons}
+## Summons and called beings {#magic-summons}
 
-Only one combat-capable summon or actively controlled subject; Reach cannot bypass this.
+Conjure creates a temporary being from its Form; calling brings an existing being that belongs to a Form. Both serve under standing orders. A Shaper may have only one combat-capable summon, created or called, or one actively controlled subject; Reach cannot bypass this.
 
-A generic combat summon acts immediately after its Shaper. It moves, communicates, and defends uncommanded; consequential acts cost the Shaper's Combat Action and the summon's corresponding Action. It has Movement 15, one Movement Action, and one base Reaction.
+### Standing orders {#magic-standing-orders}
 
-| Intensity |  HP |  AP | Attack/defence | Damage |
-| --------: | --: | --: | -------------: | -----: |
-|         1 |   3 |   0 |            25% |  `1D3` |
-|         2 |   6 |   1 |            40% |  `1D6` |
-|         3 |  10 |   2 |            55% |  `1D8` |
-|         4 |  14 |   3 |            70% |  `2D6` |
+When casting, give the summon one short standing order, such as "guard me", "attack the ogre", or "hold this door". It acts on its own turn immediately after its Shaper, spending its own Combat Action, Movement Action, and base Reaction to carry out that order, including Opportunity Attacks when ordered to guard or attack. A Mindless summon follows its order literally; one with a mind uses judgement.
 
-Listed defence covers Dodge, Resilience, Persistence, and possible physical Parry; damage adds no DM. Summons ignore Major Wounds and vanish at 0 HP. Capabilities beyond the profile—including flight, incorporeality, spellcasting, [invisibility](/rules/magic/#effects--magic-sensory-concealment), extra natural armour, or special senses—raise minimum Intensity or add an outcome.
+Changing the order costs the Shaper's Movement Action, once per round, within 15 metres and line of effect. Out of that range, or while its Shaper is unconscious, a summon keeps its last order. A summon needs Duration but neither concentration nor the Shaper's Combat Action, so damage to the Shaper does not end it. It ends at 0 HP, at Duration's end, on dismissal, or through Dispel.
 
-Range sets generic arrival. Calling a named being must also reach its location or realm; use the higher Range.
+### Conjured beings {#magic-conjured-beings}
 
-A named being uses its profile; set Intensity by threat, reserving 5 for legendary beings. An unwilling being resists calling with Persistence. Calling grants no control: it remembers treatment and may demand terms. Binding or command is another Persistence-resisted outcome. Duration and active limits apply until Shaping ends; afterward it may stay willingly, without magical command, guaranteed service, protection, or dismissal.
+| Intensity |  HP |  AP | Attack/defence | Damage | Strike Size | SIZ |
+| --------: | --: | --: | -------------: | -----: | ----------- | --: |
+|         1 |   3 |   0 |            25% |  `1D3` | Light       |   3 |
+|         2 |   6 |   1 |            40% |  `1D6` | Medium      |   9 |
+|         3 |  10 |   2 |            55% |  `1D8` | Medium      |  13 |
+|         4 |  14 |   3 |            70% |  `2D6` | Heavy       |  18 |
+
+A conjured being has Movement 15, PP 0, and no Damage Modifier. Listed attack covers its natural attacks; listed defence covers Dodge, Resilience, Persistence, Perception, and physical Parry. It ignores Major Wounds and vanishes at 0 HP. Reach 0 makes it human-sized or smaller. Reach 1 makes it mount-sized: `+50%` HP, Movement 20, strike Size one step larger, and room for one rider.
+
+Shaping never creates a soul, so every conjured being is Soulless. Its Form sets its body, tags, one signature trait, and one drawback at no cost:
+
+| Form             | Being              | Tags                                                                     | Signature trait                                                               | Drawback                                                                      |
+| ---------------- | ------------------ | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| **Fire**         | Flame being        | Elemental                                                                | Immune to fire; sheds torchlight; its strikes ignite exposed mundane fuel     | Dousing or a hit from Water/Ice Shaping deals `+1D6`; cannot enter deep water |
+| **Water/Ice**    | Water or ice being | Elemental                                                                | Swims at normal Movement; immune to cold and drowning                         | Movement 10 on land                                                           |
+| **Air/Storm**    | Wind being         | Elemental                                                                | Flies at normal Movement at Intensity 3+, otherwise hovers; immune to falling | AP 0 at every Intensity; cannot carry, grapple, or block a passage            |
+| **Earth/Stone**  | Stone being        | Elemental                                                                | `+2` AP                                                                       | Movement 10; cannot swim, fly, or climb                                       |
+| **Flesh**        | Beast              | Living, Corporeal, Soulless; an animal mind                              | Low-Light Sight and scent; Alter·Flesh heals it                               | Subject to Mind, poison, disease, and Bleeding                                |
+| **Force/Motion** | Force construct    | Construct: Mindless, Soulless                                            | Lifts and carries as STR 18; immune to poison and disease                     | Perceives only by touch and where its Shaper directs it                       |
+| **Mind**         | Phantasm           | None; an [illusion](/rules/magic/#techniques-and-forms--magic-illusions) | Any appearance; may speak                                                     | Never combat-capable; moves and harms nothing                                 |
+
+Spirit, Paths, and Fate create no beings: Spirit and Paths [call](#magic-calling) existing ones. Conjure·Flesh may instead animate remains as Mindless, Soulless Undead; see [Corporeal undead](#magic-undead).
+
+Capabilities beyond the table and Form—including flight for a being of another Form, [invisibility](/rules/magic/#effects--magic-sensory-concealment), extra natural armour, special senses, or spellcasting—raise minimum Intensity or add an outcome under their own benchmarks. Giving a Mindless being a mind, so it understands complex orders, speaks, and becomes a valid Mind subject, raises its Intensity by 1; so does removing its Form's drawback. A conjured being cannot be Incorporeal.
+
+### Calling beings {#magic-calling}
+
+Only beings that belong to a Form, or to which the Shaper holds a genuine link, can be called. Ordinary creatures—beasts, monsters, and people—cannot: move one already within Range with Bend·Paths, sway it with [Bend·Mind](#magic-control), or conjure a being instead.
+
+| Callable being                                                                                    | Cell                                                                        | Range                                   |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------- |
+| A Spirit                                                                                          | Conjure·Spirit                                                              | Arrival point                           |
+| An Elemental                                                                                      | Conjure·Fire (Salamander or Shade), ·Water/Ice, ·Air/Storm, or ·Earth/Stone | Arrival point                           |
+| An otherworldly servant of a power the Shaper is pledged to, such as a Holy Steed or Holy Warrior | Conjure·Paths                                                               | 4 through that link; otherwise 5        |
+| A specific individual linked to the Shaper by true name, token, or blood bond                     | Conjure·Paths                                                               | Must also reach its location, usually 4 |
+
+An Anchored being cannot be called beyond its anchor's boundary.
+
+Intensity equals the being's [Threat Intensity](/rules/creatures/#using-creatures--creatures-threat-intensity) and cannot exceed maximum Intensity. For the bestiary: Small Elemental 2; Ancestor Spirit and Ghost 3; Medium Elemental, Disease, Healing, Magic, and Passion Spirits, and Holy Steed 4; Large and Huge Elementals and Holy Warrior 5.
+
+An unwilling being opposes calling with its Persistence or `20 × Threat Intensity`%, whichever is higher. A being that comes willingly, through a pact or bargain, makes no roll.
+
+- **Shaping wins:** it arrives bound for the Duration and serves under standing orders as a conjured being does, using its own profile. At Duration's end, a Spirit or Elemental returns to its Form; a specific individual remains where it is, unbound, and remembers its treatment.
+- **The being wins:** it does not come; the casting still pays its full cost.
+- **Fumble:** instead of Backlash, the Gamemaster may have it arrive free and hostile.
+
+A called being with Shaping casts with its own PP and cells, but its ongoing Shapings count against its caller's Active Magnitude.
 
 Created, summoned, transformed, or compelled beings cannot summon, contribute PP, create magical resources, or pay ritual prices.

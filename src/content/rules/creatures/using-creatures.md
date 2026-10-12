@@ -10,6 +10,8 @@ aliases:
   - monsters as player characters
   - encounter design
   - building a monster
+  - Threat Intensity
+  - creature threat
 ---
 
 Creatures here are as detailed as the characters who meet them. They have skills, weapons, and abilities of their own, and motives that bring them into conflict with the player characters. They are not cannon fodder to be killed and looted.
@@ -31,3 +33,19 @@ Many profiles can in theory serve as a player character. Human, Elf, Dwarf, Orc,
 Be careful raising difficulty by adding bodies. Combat works best with roughly as many creatures as player characters, and a crowd of weak opponents mostly costs table time.
 
 Raise the power of individual creatures instead. Better skills, better equipment, an extra ability, or Shaping cells bring a single creature closer to the party's level without slowing the round down.
+
+## Threat Intensity {#creatures-threat-intensity}
+
+Threat Intensity rates a creature on Shaping's 1–5 Intensity scale. [Calling](/rules/magic/#effects--magic-calling) uses it, and it also gives a quick measure of a creature's danger.
+
+| Rating | Body: HP, or PP if Incorporeal | Best attack |
+| -----: | ------------------------------ | ----------- |
+|      1 | Up to 5                        | Up to 25%   |
+|      2 | 6–10                           | 26–40%      |
+|      3 | 11–15                          | 41–60%      |
+|      4 | 16–25                          | 61–80%      |
+|      5 | 26+                            | 81%+        |
+
+Average the body and attack ratings, rounding up; a creature without an attack uses its body rating. Then add 1, once, for any area attack, Shaping, Regeneration, petrifying or paralysing attack, or, for a Corporeal creature, immunity to mundane weapons. The maximum is 5.
+
+> **Example.** A Wolf (12 HP, 50%) rates 3 and 3: Threat Intensity 3. A Magic Spirit (14 PP, 50%) rates 3, plus 1 for Shaping: 4. A Troll (23 HP, 40%) rates 4 and 2, averaging 3, plus 1 for Regeneration: 4.
