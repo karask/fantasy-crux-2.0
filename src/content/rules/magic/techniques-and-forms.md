@@ -43,6 +43,8 @@ Choose a **Form**—what magic governs—then a **Technique**—what it does. Th
 
 Unmake may damage a manifestation or exploit a genuine natural counter. Only [Dispel](/rules/magic/#ongoing-and-magical-actions--magic-dispel) directly ends an active Shaping.
 
+A conjured being takes its body, tags, signature trait, and drawback from its Form; Spirit and Paths call existing beings instead, and Fate creates none. See [summons and called beings](/rules/magic/#effects--magic-summons).
+
 ## Reading the grid {#magic-reading-grid}
 
 Forms grant permission, not free damage, protection bypass, or outcomes. Harm follows its declared [delivery](/rules/magic/#casting-and-defence--magic-harm-delivery); environmental fire and later mundane consequences use core rules. Spirit damage has its [own rule](/rules/magic/#effects--magic-damage).

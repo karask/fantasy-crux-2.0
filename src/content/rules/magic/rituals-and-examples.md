@@ -69,6 +69,8 @@ Builds abbreviate Intensity as I, Range as R, and Duration as D.
 | Drain life from a touched living target | Unmake·Flesh I2 + Alter·Flesh I2; Reach1, Direct, Confluence |   7 | Resilience opposes; heal yourself `2D4`, capped by actual HP damage dealt.                                               |
 | Bless the next named test this scene    | Bend·Fate; I2, Trigger, wait D1                              |   4 | Declare the trigger first; the test gains `+1B`.                                                                         |
 | Animate a corpse for a scene            | Conjure·Flesh; I3, D1                                        |   4 | Generic 10 HP Mindless, Soulless Undead; remains collapse afterward.                                                     |
+| Stone guardian for a scene              | Conjure·Earth/Stone; I3, D1                                  |   4 | 10 HP, AP 4, Movement 10; follows a standing order; change it with your Movement Action.                                 |
+| Call a Magic Spirit for a scene         | Conjure·Spirit; I4, D1                                       |   5 | Unwilling, it resists at 80%; if called, it serves bound under standing orders.                                          |
 | Hide one subject from five minds        | Alter·Mind; I3, R1, D1, Reach2                               |   7 | Each resists Persistence; later observers remain unaffected.                                                             |
 | Permanently return a willing soul       | Alter·Spirit; I5, D5                                         |  10 | Master mythic ritual, lasting price; restore a body separately.                                                          |
 
