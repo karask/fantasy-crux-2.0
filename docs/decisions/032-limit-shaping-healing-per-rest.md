@@ -19,8 +19,8 @@ restored HP to a Wounded subject before Surgery.
 
 ## Decision
 
-A subject benefits from one HP-restoring Shaping during each encounter and one
-more between that encounter and its next full rest, including enchanted items
+A subject benefits from only one HP-restoring Shaping before its next full rest,
+matching mundane treatment, including enchanted items
 and Confluence outcomes. Removing only Bleeding and Dying is unlimited. Below
 Intensity 3, healing restores HP to a Wounded subject but neither ends Wounded
 nor unlocks natural recovery.
