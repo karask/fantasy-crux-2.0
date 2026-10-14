@@ -21,6 +21,9 @@ Build the Shaping normally, then bind it to the anchor during the ritual. There 
 
 - **Everyday work** uses [Duration 4](/rules/magic/#building-a-shaping--magic-duration): an ordinary ritual and no mythic price.
 - **Legendary work** uses Duration 5: a [mythic ritual](/rules/magic/#rituals-and-examples--magic-mythic) and its declared lasting price.
+- **One-use items**, a potion or scroll with a single charge, skip Duration 4. Price the effect with its own Duration, then add 1 for the binding. The charge keeps until it is used, and binding it is still a ritual of one hour per Magnitude. A `1D4` healing potion is Alter·Flesh at Intensity 1, Duration 0, plus 1: Magnitude 2.
+
+The maker pays a one-use item's PP when binding it. Until it is used, its Magnitude also commits the maker's maximum PP and counts toward their active total, as for any other enchantment.
 
 Without Enchanter, either route commits the maker's maximum Power Points equal to Magnitude and counts toward their active total for as long as the enchantment lasts. A mythic lasting price never reduces either commitment; it is the additional cost of making legendary work.
 
