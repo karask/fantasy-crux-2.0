@@ -21,7 +21,7 @@ tags:
 
 Gain **Enchantment Capacity** equal to your permanent, unmodified POW. A temporary change to POW does not affect this capacity; a permanent change to POW recalculates Enchantment Capacity.
 
-Whether you bind at Duration 4 or Mythic Duration 5, a bound [enchantment](/rules/gm-tools/#enchanted-items) occupies neither your PP commitment nor active total. Its full Magnitude moves into Enchantment Capacity, and it persists without you. You may make Charged items, paying the PP for each charge as you bind it.
+Whether you bind at Duration 4, at Mythic Duration 5, or as a one-use item, a bound [enchantment](/rules/gm-tools/#enchanted-items) occupies neither your PP commitment nor active total. Its full Magnitude moves into Enchantment Capacity, and it persists without you. You may make Charged items, paying the PP for each charge as you bind it.
 
 A Continuous or Activated effect counts its full final Magnitude once. Every unused charge of a Charged effect counts its full final Magnitude separately. Each cost remains attributed to its original creator if the item is sold, stolen, or given away; a transfer never resets attribution.
 
@@ -33,4 +33,4 @@ Capacity frees only when an enchantment permanently ends: it is Dispelled, its a
 
 If permanent POW loss puts a creator over capacity, their extant enchantments persist. They can make no new enchantment, restore none, and increase no Magnitude until the total fits again.
 
-Without this Talent, both Duration 4 and Mythic Duration 5 enchantments commit maximum PP equal to Magnitude and count toward the maker's active total. Duration 5 also requires its lasting price; that price never reduces either commitment.
+Without this Talent, both Duration 4 and Mythic Duration 5 enchantments commit maximum PP equal to Magnitude and count toward the maker's active total. Duration 5 also requires its lasting price; that price never reduces either commitment. An unused one-use item commits the same way until it is used.
