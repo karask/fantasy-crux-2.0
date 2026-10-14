@@ -33,7 +33,7 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) co
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------- |
 | Immediate damage              | Unmake deals `Intensity D6`; never add Damage Modifier.                                                       |
 | Healing                       | Alter·Flesh restores `1D4` HP per Intensity.                                                                  |
-| Armour or reduction           | Ward grants AP of twice Intensity against one defined class of harm.                                          |
+| Armour or reduction           | Ward grants AP of twice Intensity against one [class of harm](#magic-ward-classes).                           |
 | Barrier                       | AP = twice Intensity; total HP = `5 × Intensity`; Reach sets footprint.                                       |
 | Vitality reserve              | Absorb up to `3 × Intensity` HP after other protection and before actual HP.                                  |
 | Skill modifier                | `+1B`/`-1P` at Intensity 2; `+2B`/`-2P` at Intensity 4.                                                       |
@@ -191,7 +191,23 @@ Directing active control spends the Shaper's Combat Action. The subject obeys on
 
 ## Wards and barriers {#magic-wards}
 
-A Ward grants one benefit: AP or reduction equal to twice Intensity; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint, with each crossing opposing the appropriate defence against the stored Shaping result.
+A Ward grants one benefit: AP or reduction equal to twice Intensity against one class of harm; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint, with each crossing opposing the appropriate defence against the stored Shaping result.
+
+### Classes of harm {#magic-ward-classes}
+
+- **Physical:** blows, missiles, falls, and crushing.
+- **Elemental:** fire and heat, cold, lightning, and acid.
+- **Spiritual:** PP damage; only `Ward·Spirit` protects against it.
+
+A class covers its harm whether mundane or Shaped, so an elemental Ward stops a burning building and an `Unmake·Fire` bolt alike. Covering both physical and elemental harm raises the Ward's Intensity by 1, and its cell must explain both.
+
+The cell must explain the hardening. `Ward·Earth/Stone` might turn skin to stone against blows or bake it to clay against heat, and `Ward·Air/Storm` might whirl aside missiles or insulate against heat, cold, and lightning. `Ward·Fire` protects only against elemental harm, and `Ward·Force/Motion` only against physical harm.
+
+Mind, Paths, and Fate grant no AP:
+
+- **`Ward·Mind`:** a defence bonus to Persistence against Mind effects, or denial of one mental intrusion such as illusion or control.
+- **`Ward·Paths`:** denial at a threshold, barring passage across it or arrival there by Paths.
+- **`Ward·Fate`:** a defence bonus against a named doom, declared as [Fate](/rules/magic/#techniques-and-forms--magic-fate) requires.
 
 Ward AP never adds to worn armour against one damage source: use the higher, or Ward AP alone when worn armour cannot protect. Same-kind magical protection never stacks.
 
