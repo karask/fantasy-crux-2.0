@@ -98,7 +98,7 @@ Use Dispel to end active magic; completed permanent changes need a new Shaping.
 
 ## Direct a subject or summon
 
-Only **one combat-capable summon or actively controlled subject**. Giving it a
-consequential action uses your **Combat Action** and its corresponding Action;
-it gains no extra action. A generic summon acts immediately after you and can
-move and defend without a command. Commands need **15 m and line of effect**.
+Only **one combat-capable summon** (created or called) **or controlled subject**.
+A summon follows **one standing order** set when cast and acts right after you
+on its own turn. **Changing the order costs your Movement Action** within
+**15 m and line of effect**. Active control still costs your **Combat Action**.
