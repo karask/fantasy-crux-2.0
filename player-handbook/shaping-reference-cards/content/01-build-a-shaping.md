@@ -99,5 +99,5 @@ Deal **2D6** Projected Harm once. At Shaping 60%, this is within Safe M3;
 ordinary success costs **3 PP**.
 
 **Ward two allies at 15 m for a scene:** Ward·Earth/Stone, I2 + Range 1 +
-Duration 1 + Reach 1 = **M5**. Grant **4 AP against physical blows**. At Shaping
+Duration 1 + Reach 1 = **M5**. Grant **4 AP against physical harm**. At Shaping
 60%, this is Safe + 2: **-2P**; ordinary success costs **5 PP**.

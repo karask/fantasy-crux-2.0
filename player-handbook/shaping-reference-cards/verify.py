@@ -10,7 +10,7 @@ import pdfplumber
 from pypdf import PdfReader
 
 directory = Path(__file__).resolve().parent
-version = sys.argv[1] if len(sys.argv) > 1 else "v03"
+version = sys.argv[1] if len(sys.argv) > 1 else "v04"
 assert re.fullmatch(r"v\d{2,3}", version)
 pdf = directory / "output/pdf" / f"fantasy-crux-shaping-reference-cards-{version}.pdf"
 checks = json.loads((directory / "review" / f"checks-{version}.json").read_text())

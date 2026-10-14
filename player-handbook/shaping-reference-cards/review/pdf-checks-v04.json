@@ -1,0 +1,57 @@
+{
+  "file": "fantasy-crux-shaping-reference-cards-v04.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "sizePt": [
+        594.95996,
+        841.91998
+      ],
+      "completePlayerText": true,
+      "singleFooterNumber": true,
+      "embeddedFonts": [
+        "/AAAAAA+BarlowCondensed-Bold",
+        "/BAAAAA+IBMPlexMono-Medium",
+        "/CAAAAA+AtkinsonHyperlegible-Bold",
+        "/DAAAAA+AtkinsonHyperlegible-Regular",
+        "/CAAAAA+AtkinsonHyperlegible-Bold"
+      ],
+      "footerGapMm": 6.680729166666666
+    },
+    {
+      "page": 2,
+      "sizePt": [
+        594.95996,
+        841.91998
+      ],
+      "completePlayerText": true,
+      "singleFooterNumber": true,
+      "embeddedFonts": [
+        "/AAAAAA+BarlowCondensed-Bold",
+        "/BAAAAA+IBMPlexMono-Medium",
+        "/CAAAAA+AtkinsonHyperlegible-Bold",
+        "/DAAAAA+AtkinsonHyperlegible-Regular",
+        "/CAAAAA+AtkinsonHyperlegible-Bold"
+      ],
+      "footerGapMm": 7.999511718749999
+    },
+    {
+      "page": 3,
+      "sizePt": [
+        594.95996,
+        841.91998
+      ],
+      "completePlayerText": true,
+      "singleFooterNumber": true,
+      "embeddedFonts": [
+        "/AAAAAA+BarlowCondensed-Bold",
+        "/BAAAAA+IBMPlexMono-Medium",
+        "/CAAAAA+AtkinsonHyperlegible-Bold",
+        "/DAAAAA+AtkinsonHyperlegible-Regular",
+        "/CAAAAA+AtkinsonHyperlegible-Bold"
+      ],
+      "footerGapMm": 6.420279947916666
+    }
+  ],
+  "visualReview": "See REVIEW-v04.md"
+}
