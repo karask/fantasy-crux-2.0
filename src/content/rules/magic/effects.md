@@ -59,6 +59,8 @@ Mind deals no HP damage. Unmake·Spirit damage is Direct-only: oppose Persistenc
 
 Healing stops at maximum HP and removes **Bleeding** and **Dying**. A living subject restored above 0 HP may act next turn; Wounded remains.
 
+Like [mundane treatment](/rules/adventuring/#healing-and-recovery--adventuring-ordinary-healing), a subject benefits from only one HP-restoring Shaping before its next full rest. Enchanted items and Confluence outcomes count. An outcome that only removes Bleeding and Dying restores no HP and is never limited. Below Intensity 3, healing restores HP to a Wounded subject but does not end Wounded or unlock natural recovery.
+
 Intensity 3+ healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery), unlocking recovery; after treatment, Wounded ends once HP exceeds MWL.
 
 Curing poison or disease needs Intensity at least Potency divided by 25, and Shaping must win against Potency. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change to retry.
