@@ -4,6 +4,10 @@ const card = (label, value, tone = '') =>
 const die = (label, value) => `<div class="die"><span>${label}</span><b>${value}</b></div>`;
 
 export const diagrams = {
+  attributes: `<div class="diagram">${row([card('SIZ 12 + CON 13, HALVED', 'HP 13', 'good'), card('HALF MAXIMUM HP', 'MWL 7'), card('ONE 7-HP HIT', 'MAJOR WOUND', 'bad')])}</div>`,
+  pools: `<div class="diagram">${row([card('RESISTANCES', '50'), card('COMBAT', '50'), card('KNOWLEDGE', '50'), card('PRACTICAL', '75')])}</div>`,
+  shaping: `<div class="diagram"><p class="diagram-title">MAGNITUDE = SUM OF OUTCOME INTENSITIES + RANGE + DURATION + REACH + ADJUSTMENTS</p>${row([card('INTENSITY', 'EFFECT STRENGTH'), card('MAGNITUDE', 'COST & LOAD', 'good')])}</div>`,
+  active: `<div class="diagram"><p class="diagram-title">INT 10: KEEP AT MOST 10 MAGNITUDE ACTIVE</p>${row([card('M4 WARD + M4 FLIGHT', '8: FITS', 'good'), card('ADD ANOTHER ONGOING M3', '11: TOO MUCH', 'bad')])}<p class="diagram-note">Dismiss one first. An instant M3 firebolt leaves no ongoing M.</p></div>`,
   percentile: `<div class="diagram dice-example" aria-label="Read percentile dice and grade a skill of sixty percent">
     ${row([die('TENS', '5'), die('UNITS', '9'), card('D100 RESULT', '59')])}
     ${row([card('SKILL 60%: CRITICAL', '01-06', 'good'), card('SUCCESS', '07-60', 'good'), card('FAILURE', '61-98'), card('FUMBLE', '99-100', 'bad')])}

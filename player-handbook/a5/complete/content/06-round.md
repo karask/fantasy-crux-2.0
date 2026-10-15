@@ -18,7 +18,7 @@ Example: die **7** + Combat Order **12** = **19**.
 ## Spend during the round
 
 **Combat Action:** attack, start/escape a grapple, Aim, Set Weapon, Intimidate,
-or use a skill/object that takes about five seconds.
+cast a Shaping, activate an item, or use a skill/object that takes about five seconds.
 
 **Movement Action:** move up to Movement in metres, stand, drop prone or
 disengage. Leaving an enemy can trigger an Opportunity Attack (page 10).

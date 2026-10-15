@@ -31,7 +31,7 @@ have separate armour outcomes (page 8). Wearing multiple armours does not combin
 ## Burden and fit
 
 Armour **ENC** counts toward carried load and subtracts from base **Combat
-Order**. Use the armour-adjusted value on your pregen; do not subtract it twice.
+Order**. Use the armour-adjusted value on your sheet; do not subtract it twice.
 If equipment changes, update that value. **SP:** Silver Pieces.
 
 - **SIZ 1-5:** half listed cost and ENC.

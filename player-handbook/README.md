@@ -2,23 +2,24 @@
 
 An independent editorial workspace for an **A5-format player handbook, printed
 on A4 sheets cut in half and spiral bound**, plus A4 player reference cards.
-It covers the core rules needed to play pregenerated characters.
+The v04 handbook covers character creation, improvement, the core player rules,
+all current Talents and Shaping. The approved reference cards remain separate.
 The canonical website rules remain the source of truth.
 
 The initial 23 rules drafts and cover remain available as content modules.
 Their numbers are stable draft IDs, **not the final A5 pagination**. The current
-handbook has **24 pages**, including its cover and two licence pages. Spiral
+handbook has **68 pages**, including its cover and two licence pages. Spiral
 binding does not require a multiple of four.
 
 ## Current deliveries
 
-The [complete A5 spiral handbook](a5/complete/README.md) contains **cover + 21
-rules/reference pages + two licence pages**. It uses six A4 duplex sheets for
+The [complete A5 spiral handbook](a5/complete/README.md) contains **cover + 65
+player pages + two licence pages**. It uses 17 A4 duplex sheets for
 cut-and-stack printing. Editable page chunks, page images, the reading PDF and
 the print PDF are in `a5/complete/`.
 
-- [Complete reading PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v03-reading.pdf)
-- [Complete A4 print PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v03-a4-cut-stack.pdf)
+- [Complete reading PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v04-reading.pdf)
+- [Complete A4 print PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v04-a4-cut-stack.pdf)
 - [Approved three-page A4 player reference](reference-cards/output/pdf/fantasy-crux-player-reference-cards-v05.pdf)
 - [Approved three-page A4 Shaping reference](shaping-reference-cards/README.md)
 - [Final page/content map](a5/complete/CONTENT-MAP.md)
@@ -28,8 +29,10 @@ allowance against the actual punch before binding. The full edition is ready
 for review; it has not been physically printed or punched here.
 
 These editions include the paid Reaction to defend against an initial grapple.
-Earlier handbook v01-v02 and reference v01-v04 PDFs/HTML/review records are
-superseded historical snapshots, not current rules or published downloads.
+The v04 handbook also includes current Counter and hostile-condition retry rules.
+Earlier handbook v01-v03 and reference v01-v04 PDFs/HTML/review records remain
+historical snapshots. The expanded handbook is a local review edition and has
+not replaced the website's approved reference downloads.
 
 ## Preserved design prototypes
 
@@ -58,7 +61,7 @@ The first A4 Terrain Cover prototype remains intact for comparison:
 - [Visual direction](design/STYLE.md)
 - [Verification and review notes](review/REVIEW.md)
 
-## Content inventory (draft IDs, not final folios)
+## Original mundane inventory (preserved draft IDs, not final folios)
 
 |  Page | Draft                                                                | Teaching question                                  |
 | ----: | -------------------------------------------------------------------- | -------------------------------------------------- |
@@ -108,24 +111,16 @@ in `a5/complete/`; keep the original modules for completeness checks and future 
 The older `render.mjs` and `design/page.css` reproduce only the preserved A4
 prototype. Number new review versions instead of overwriting an approved design.
 
-## Boundaries
+## Current scope
 
-Only weapons and armour use tables in the player copy. Skills use 24 brief
-descriptions; procedures and comparisons use illustrated steps or callouts.
-Ammunition is a short note on the ranged-weapon page.
+The v04 handbook adds a complete point-built character path, improvement,
+all 55 current Talents, Shaping and the main PC adventuring rules. Related
+subjects are grouped on short pages; repeated numbers use tables. See the
+[expanded scope and page map](a5/complete/CONTENT-MAP.md) for editorial choices.
 
-Excluded: creation procedures and formulas, improvement, Power Points, Talents,
-Shaping and other magic, creature profiles and abilities, GM material, gazetteer,
-general gear/economy, mounted combat, light/darkness, encumbrance/fatigue systems,
-travel, environmental hazards, poison/disease procedures, and attacking objects.
-The common meaning of a skill may mention an excluded hazard without teaching
-that hazard's subsystem. Descriptive character fields and spending Hero Points
-are extracted from the creation chapter because they are used during play.
-
-Ordinary Active Guard remains included. The passive **Shield Cover Talent** is
-excluded. Pregenerated sheets must carry any special abilities needed to play
-those characters; this booklet does not describe them. An orc can illustrate an
-ordinary opponent without adding creature rules.
+The original mundane drafts keep their historical restrictions for comparison.
+Those restrictions do not apply to the expanded edition. GM procedures,
+creature catalogues and gazetteer material remain outside the handbook.
 
 ## Review and reproduction
 
@@ -133,8 +128,9 @@ From the repository root, using the existing installed dependencies:
 
 ```sh
 node player-handbook/validate.mjs
-node player-handbook/a5/complete/render.mjs v03
-python3 -B player-handbook/a5/complete/assemble.py v03
+node player-handbook/a5/complete/render.mjs v04
+node player-handbook/a5/complete/verify.mjs v04
+python3 -B player-handbook/a5/complete/assemble.py v04
 node player-handbook/reference-cards/render.mjs v05
 python3 -B player-handbook/a5/test_cut_stack.py
 ```
@@ -146,7 +142,7 @@ The self-contained HTML includes the font copyright notices and licence text.
 
 The complete edition is ready for review of annotation clarity, actual-size
 readability, density, and punch-safe margins. Its A4 PDF is the **complete
-six-sheet print file**, not the old one-sheet proof. Follow the stack and cut
+17-sheet print file**, not the old one-sheet proof. Follow the stack and cut
 instructions in the complete guide; do not fold the sheets.
 
 The repository's existing [licence](LICENSE.md) accompanies this workspace and

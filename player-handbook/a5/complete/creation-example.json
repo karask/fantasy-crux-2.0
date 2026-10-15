@@ -1,0 +1,26 @@
+{
+  "name": "Ilan",
+  "characteristics": {
+    "STR": 14,
+    "CON": 13,
+    "DEX": 14,
+    "SIZ": 12,
+    "INT": 13,
+    "POW": 10,
+    "CHA": 10
+  },
+  "allocations": {
+    "Resistances": { "Dodge": 30, "Persistence": 10, "Resilience": 10 },
+    "Combat": { "Close Combat": 30, "Ranged Combat": 10, "Unarmed Combat": 10 },
+    "Knowledge": { "Culture (own)": 10, "Natural Lore": 20, "Lore (own field)": 20 },
+    "Practical": {
+      "Athletics": 20,
+      "Deception": 15,
+      "Perception": 20,
+      "Healing": 10,
+      "Mechanisms": 10
+    }
+  },
+  "talents": ["quick-reflexes", "shield-cover", "missile-guard", "disarm"],
+  "expected": { "HP": 13, "MWL": 7, "PP": 10, "CO": 13, "capacity": 26, "DM": "+1D4" }
+}

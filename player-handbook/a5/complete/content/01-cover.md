@@ -9,7 +9,7 @@ art: female-warrior
 
 Core Rules
 
-Pregenerated Character Edition · 2.0 Beta
+Create · Play · Improve · 2.0 Beta
 
 ## Start with your character
 

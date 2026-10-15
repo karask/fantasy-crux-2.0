@@ -14,7 +14,8 @@ const directory = path.dirname(fileURLToPath(import.meta.url));
 const a5 = path.dirname(directory);
 const handbook = path.dirname(a5);
 const root = path.dirname(handbook);
-const version = process.argv[2] ?? 'v03';
+const edition = JSON.parse(await readFile(path.join(directory, 'edition.json'), 'utf8'));
+const version = process.argv[2] ?? edition.version;
 assert.match(version, /^v\d{2,3}$/);
 const review = path.join(directory, 'review');
 const scratch = path.join(directory, 'tmp/pdfs');
@@ -65,6 +66,10 @@ const artMap = {
     null,
     'Five armour suits: Leather, Ringmail, Scalemail, Chainmail and Platemail.',
   ],
+  'adventuring-company': [null, 'A varied company of adventurers travels together.'],
+  'fire-shaping': [null, 'A Shaper works a visible fiery effect through a deliberate gesture.'],
+  'night-senses-stalking': [null, 'An adventurer observes danger in the night.'],
+  'enchanted-sword-identification': [null, 'An adventurer examines the signs of magic on a sword.'],
 };
 const assetRecords = [];
 const assets = {};
@@ -103,21 +108,43 @@ for (const file of (await readdir(path.join(handbook, 'pages'))).filter((x) => x
   const { data } = matter(await readFile(path.join(handbook, 'pages', file), 'utf8'));
   modules[data.page] = data;
 }
-const files = (await readdir(path.join(directory, 'content')))
-  .filter((x) => x.endsWith('.md'))
-  .map((file) => ({
-    folio: Number(file.slice(0, 2)),
-    file: path.join(directory, 'content', file),
-  }));
-files.push(
-  { folio: 12, file: path.join(a5, 'content/ranged-attacks.md') },
-  { folio: 13, file: path.join(a5, 'content/cover-and-defence.md') },
+const files = edition.pages.map(([id, file, section, oldFolio], index) => ({
+  id,
+  file: path.join(directory, file),
+  section,
+  oldFolio,
+  folio: index + 1,
+}));
+const byId = Object.fromEntries(files.map((entry) => [entry.id, entry]));
+const oldToNew = Object.fromEntries(
+  files.filter((x) => x.oldFolio).map((x) => [x.oldFolio, x.folio]),
 );
-files.sort((a, b) => a.folio - b.folio);
-assert.deepEqual(
-  files.map((x) => x.folio),
-  Array.from({ length: 22 }, (_, i) => i + 1),
-);
+assert.equal(new Set(files.map((x) => x.id)).size, files.length);
+const talents = new Map();
+for (const file of (await readdir(path.join(root, 'src/content/rules/talents'))).filter(
+  (x) => x.endsWith('.md') && x !== 'index.md',
+)) {
+  const source = `src/content/rules/talents/${file}`;
+  const { data } = matter(await readFile(path.join(root, source), 'utf8'));
+  talents.set(data.slug, { ...data, source });
+}
+const coveredTalents = new Set();
+const allowedGM = new Set([
+  'src/content/rules/gm-tools/fantasy-races.md',
+  'src/content/rules/gm-tools/enchanted-items.md',
+]);
+function references(text, legacy) {
+  if (legacy)
+    text = text.replace(/\b(pages?)\s+(\d+)(?:-(\d+))?/gi, (_, label, start, end) => {
+      assert.ok(oldToNew[start], `Unknown legacy page ${start}`);
+      if (end) assert.ok(oldToNew[end]);
+      return `${label} ${oldToNew[start]}${end ? `-${oldToNew[end]}` : ''}`;
+    });
+  return text.replace(/\{\{(ref|num):([^}]+)\}\}/g, (_, type, id) => {
+    assert.ok(byId[id], `Unknown page reference ${id}`);
+    return type === 'num' ? String(byId[id].folio) : `page ${byId[id].folio}`;
+  });
+}
 const covered = new Set();
 const sourceRecords = new Map();
 const pageRecords = [];
@@ -149,16 +176,26 @@ const sections = [];
 for (const entry of files) {
   const { data: original, content } = matter(await readFile(entry.file, 'utf8'));
   const data = { ...original };
-  data.modules ??= data.source_modules;
+  data.modules ??= data.source_modules ?? [];
   assert.ok(Array.isArray(data.modules));
   data.modules.forEach((x) => covered.add(x));
+  const pageTalents = (data.talents ?? []).map((slug) => {
+    assert.ok(talents.has(slug), `Unknown Talent ${slug}`);
+    assert.ok(!coveredTalents.has(slug), `Duplicate Talent ${slug}`);
+    coveredTalents.add(slug);
+    return talents.get(slug);
+  });
   const sources = [
-    ...new Set([...(data.sources ?? []), ...data.modules.flatMap((x) => modules[x].sources)]),
+    ...new Set([
+      ...(data.sources ?? []),
+      ...data.modules.flatMap((x) => modules[x].sources),
+      ...pageTalents.map((x) => x.source),
+    ]),
   ];
   for (const source of sources) {
     assert.ok(
       source.startsWith('src/content/rules/') &&
-        !/\/(magic|talents|creatures|gm-tools|gazetteer)\//.test(source),
+        (!/\/(creatures|gm-tools|gazetteer)\//.test(source) || allowedGM.has(source)),
     );
     sourceRecords.set(
       source,
@@ -169,22 +206,26 @@ for (const entry of files) {
   }
   const [rawCopy, notes, extra] = content.split(/^## Editorial notes\s*$/m);
   assert.ok(rawCopy && notes && !extra);
-  const copy = rawCopy.replace(/[\u2010-\u2015\u2212]/g, '-').trim();
-  assert.ok(!/\b(?:Shaping|Talents?|Power Points|Improvement Points)\b/i.test(copy));
+  const copy = references(rawCopy, Boolean(entry.oldFolio))
+    .replace(/[\u2010-\u2015\u2212]/g, '-')
+    .trim();
+  assert.ok(!/pregenerated character edition|choose a pregenerated character/i.test(copy));
   assert.ok(copy.startsWith(`# ${data.title}\n`));
   for (const match of copy.matchAll(/pages?\s+(\d+)(?:-(\d+))?/g))
-    for (const ref of match.slice(1).filter(Boolean)) assert.ok(+ref >= 1 && +ref <= 22);
-  const pageTables = tables(copy);
-  assert.equal(pageTables.length, data.table ? 1 : 0);
-  if (data.table) tableRecords[data.table].push(...pageTables[0].slice(1));
-  if (entry.folio === 12)
+    for (const ref of match.slice(1).filter(Boolean)) assert.ok(+ref >= 1 && +ref <= files.length);
+  const parsedTables = tables(copy);
+  if (data.table) {
+    assert.equal(parsedTables.length, 1);
+    tableRecords[data.table].push(...parsedTables[0].slice(1));
+  }
+  if (entry.oldFolio === 12)
     Object.assign(data, {
       layout: 'ranged-attacks',
       art: 'legacy-cover',
       caption: 'LOW WALL: ATTACK -1P',
       aim: 'AIM +1B',
     });
-  if (entry.folio === 13)
+  if (entry.oldFolio === 13)
     Object.assign(data, {
       layout: 'cover-and-defence',
       art: 'legacy-guard',
@@ -192,26 +233,24 @@ for (const entry of files) {
     });
   const [head, ...blocks] = copy.replace(/^# .+\n+/, '').split(/^## /m);
   const [lead, ...rest] = head.trim().split(/\n\s*\n/);
+  for (const talent of pageTalents)
+    assert.ok(
+      blocks.some((block) => block.startsWith(`${talent.title}\n`)),
+      `Missing summary for ${talent.title}`,
+    );
   const body = blocks
     .map((block) => {
       const split = block.indexOf('\n');
       const title = block.slice(0, split).trim();
-      return `<section class="rule-block ${slug(title)}"><h2>${esc(title)}</h2>${md.render(block.slice(split).trim())}</section>`;
+      const talent = pageTalents.find((x) => x.title === title);
+      const meta = talent
+        ? `<p class="talent-meta"><strong>${talent.cost} IP</strong> · ${esc(talent.activation)} · ${esc(talent.prerequisites)}</p>`
+        : '';
+      return `<section class="rule-block ${slug(title)}${talent ? ' talent-entry' : ''}"><h2>${esc(title)}</h2>${meta}${md.render(block.slice(split).trim())}</section>`;
     })
     .join('\n');
   const folio = String(entry.folio).padStart(2, '0');
-  const section =
-    entry.folio <= 5
-      ? 'FOUNDATIONS'
-      : entry.folio <= 11
-        ? 'COMBAT'
-        : entry.folio <= 14
-          ? 'RANGED / POSITION'
-          : entry.folio === 15
-            ? 'COMBAT'
-            : entry.folio <= 17
-              ? 'SURVIVAL'
-              : 'EQUIPMENT';
+  const section = entry.section;
   const asset = assets[data.art];
   const art = asset
     ? `<figure class="scene"><div class="art-window"><img src="${asset.src}" alt="${esc(asset.alt)}">${data.aim ? `<span class="aim-label">${data.aim}</span>` : ''}</div><figcaption><span>${esc(data.caption ?? '')}</span>${data.captionRight ? `<span>${esc(data.captionRight)}</span>` : ''}</figcaption></figure>`
@@ -220,7 +259,7 @@ for (const entry of files) {
   const footer = `<footer><span>PLAYER HANDBOOK / 2.0 BETA</span><span>PAGE ${folio}</span></footer>`;
   let inside = `${identity}<h1>${esc(data.title)}</h1><div class="lead player-text">${md.render(lead)}</div>${art}${diagrams[data.diagram] ?? ''}${formatTables(md.render(rest.join('\n\n')), data.table)}<div class="rules">${body}</div>`;
   if (data.layout === 'cover')
-    inside = `${identity}<h1>Player Handbook</h1><div class="cover-subtitle">Core Rules</div><div class="cover-edition">PREGENERATED CHARACTER EDITION / 2.0 BETA</div><img class="cover-art" src="${asset.src}" alt="${esc(asset.alt)}"><div class="cover-copy player-text"><h2>Start with your character</h2><p>Say what your character is trying to do. Roll when the outcome is uncertain. Keep this handbook beside your character sheet during play.</p></div>`;
+    inside = `${identity}<h1>Player Handbook</h1><div class="cover-subtitle">Core Rules</div><div class="cover-edition">CREATE · PLAY · IMPROVE / 2.0 BETA</div><img class="cover-art" src="${asset.src}" alt="${esc(asset.alt)}"><div class="cover-copy player-text"><h2>From your first idea to your next adventure</h2><p>Create a character. Learn the dice and combat. Choose Talents, shape magic and grow through play.</p></div>`;
   sections.push(
     `<article id="page-${folio}" class="sheet ${entry.folio % 2 ? 'odd' : 'even'} ${data.layout}" data-folio="${folio}" data-table="${data.table ?? ''}"><div class="page-content">${inside}</div>${footer}</article>`,
   );
@@ -232,11 +271,25 @@ for (const entry of files) {
     sources,
     wordCount: copy.split(/\s+/).length,
     art: data.art ?? null,
+    id: entry.id,
+    section,
+    talents: pageTalents.map(({ slug, title, cost, prerequisites, activation }) => ({
+      slug,
+      title,
+      cost,
+      prerequisites,
+      activation,
+    })),
   });
 }
 assert.deepEqual(
   [...covered].sort((a, b) => a - b),
   Array.from({ length: 23 }, (_, i) => i + 1),
+);
+assert.deepEqual(
+  [...coveredTalents].sort(),
+  [...talents.keys()].sort(),
+  'Every current Talent must have exactly one catalogue entry.',
 );
 const weaponTables = tables(
   await readFile(path.join(root, 'src/content/rules/equipment/weapons.md'), 'utf8'),
@@ -248,13 +301,17 @@ const sorted = (rows) => [...rows].sort((a, b) => a[0].localeCompare(b[0]));
 assert.deepEqual(sorted(tableRecords.close), sorted(weaponTables[1].slice(1)));
 assert.deepEqual(sorted(tableRecords.ranged), sorted(weaponTables[2].slice(1)));
 assert.deepEqual(tableRecords.armour, armourTables[0].slice(1));
-const skillText = await readFile(path.join(directory, 'content/05-skills.md'), 'utf8');
+const skillText = (
+  await Promise.all(['skills-a', 'skills-b'].map((id) => readFile(byId[id].file, 'utf8')))
+).join('\n');
 const skillNames = (text) => [...text.matchAll(/^- \*\*([^*]+):\*\*/gm)].map((match) => match[1]);
-assert.deepEqual(
-  skillNames(skillText),
-  skillNames(await readFile(path.join(handbook, 'pages/05-skills-at-a-glance.md'), 'utf8')),
+const generalSkills = skillNames(
+  await readFile(path.join(handbook, 'pages/05-skills-at-a-glance.md'), 'utf8'),
 );
-assert.equal(skillNames(skillText).length, 24);
+assert.equal(generalSkills.length, 24);
+for (const skill of generalSkills)
+  assert.ok(skillText.includes(`| ${skill}`), `Missing general skill: ${skill}`);
+assert.ok(/\|\s*Shaping\s*\|\s*INT \+ POW\s*\|/.test(skillText));
 const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fantasy Crux Player Handbook</title><style>${fonts}\n${await readFile(path.join(directory, 'book.css'), 'utf8')}</style></head><body><main class="book">${sections.join('\n')}</main></body></html>`;
 await writeFile(
   path.join(review, `handbook-${version}.html`),
@@ -268,6 +325,8 @@ await writeFile(
       assets: assetRecords,
       sources: Object.fromEntries(sourceRecords),
       equipmentRows: { close: 24, ranged: 12, armour: 5 },
+      talentCount: coveredTalents.size,
+      generalSkillCount: generalSkills.length,
     },
     null,
     2,
@@ -308,7 +367,9 @@ try {
           );
         })
         .map((el) => el.textContent.trim());
-      const body = [...sheet.querySelectorAll('.rules p,.rules li,.lead p,.cover-copy p')];
+      const body = [
+        ...sheet.querySelectorAll('.rules p:not(.talent-meta),.rules li,.lead p,.cover-copy p'),
+      ];
       const minimum = (items) =>
         Math.min(...items.map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75));
       const safe = [
@@ -365,7 +426,7 @@ try {
   });
   for (const check of checks) {
     await page.locator(`#page-${String(check.folio).padStart(2, '0')}`).screenshot({
-      path: path.join(review, `candidate-${String(check.folio).padStart(2, '0')}.png`),
+      path: path.join(review, `${version}-candidate-${String(check.folio).padStart(2, '0')}.png`),
     });
     console.log(JSON.stringify({ ...check, fragments: undefined }));
   }
@@ -386,7 +447,7 @@ try {
     'Layout needs another pass; inspect candidate images.',
   );
   console.log(
-    '22 pages passed geometry, body/table type, artwork, source inventory and equipment checks.',
+    `${files.length} pages passed geometry, type, artwork, source inventory, all ${coveredTalents.size} Talents and equipment checks.`,
   );
 } finally {
   await browser.close();

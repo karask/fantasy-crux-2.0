@@ -21,7 +21,7 @@ from reportlab.platypus import BaseDocTemplate, Frame, PageTemplate, Paragraph, 
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[2]
-VERSION = sys.argv[1] if len(sys.argv) > 1 else "v03"
+VERSION = sys.argv[1] if len(sys.argv) > 1 else "v04"
 assert re.fullmatch(r"v\d{2,3}", VERSION)
 OUTPUT = HERE / "output/pdf"
 SCRATCH = HERE / "tmp/pdfs"
@@ -48,15 +48,16 @@ def compact(value):
 
 checks = json.loads((HERE / "review" / f"checks-{VERSION}.json").read_text())
 manifest = json.loads((HERE / "review" / f"manifest-{VERSION}.json").read_text())
+PLAYER_PAGES = len(manifest["pages"])
 assert checks["fontsLoaded"] and checks["brokenImages"] == 0
 assert not checks["accessibilityViolations"]
-assert len(checks["pages"]) == 22
+assert len(checks["pages"]) == PLAYER_PAGES
 for check in checks["pages"]:
     assert not check["problems"] and check["footerGapMm"] >= 2
     assert check["bindingClearanceMm"] >= 14.95 and check["minBodyPt"] >= 10.99
     assert check["minTablePt"] is None or check["minTablePt"] >= 9.99
 rules = PdfReader(SCRATCH / f"rules-{VERSION}.pdf")
-assert len(rules.pages) == 22
+assert len(rules.pages) == PLAYER_PAGES
 for page, check in zip(rules.pages, checks["pages"]):
     text = normal(page.extract_text())
     for fragment in check["fragments"]:
@@ -76,7 +77,7 @@ heading_style = ParagraphStyle("legal-heading", fontName="LegalSans-Bold",
 
 
 def furniture(canv, doc):
-    folio = 22 + doc.page
+    folio = PLAYER_PAGES + doc.page
     left, right = (15, 10) if folio % 2 else (10, 15)
     canv.saveState()
     canv.setFillColor(BONE)
@@ -100,7 +101,7 @@ doc = BaseDocTemplate(str(legal_file), pagesize=(WIDTH, HEIGHT),
                       title="Fantasy Crux - existing Open Game License")
 frames = [Frame(left * mm, 17 * mm, WIDTH - 25 * mm, HEIGHT - 38 * mm,
                 leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-          for left in [15, 10]]
+          for left in ([15, 10] if PLAYER_PAGES % 2 == 0 else [10, 15])]
 doc.addPageTemplates([
     PageTemplate(id="odd", frames=frames[0], onPage=furniture),
     PageTemplate(id="even", frames=frames[1], onPage=furniture),
@@ -128,13 +129,13 @@ book.append(PdfReader(legal_file))
 page_count = len(book.pages)
 for item in manifest["pages"]:
     book.add_outline_item(item["title"], item["folio"] - 1)
-book.add_outline_item("Open Game License and credits", 22)
+book.add_outline_item("Open Game License and credits", PLAYER_PAGES)
 font_licences = [(ROOT / f"node_modules/@fontsource/{name}/LICENSE").read_text()
                  for name in ["barlow-condensed", "atkinson-hyperlegible", "ibm-plex-mono"]]
 font_licences.append((FONT_DIR / "bitstream-vera-license.txt").read_text().split("Copyright FAQ")[0])
 book.add_metadata({"/Title": "Fantasy Crux - Player Handbook",
                    "/Author": "Konstantinos Karasavvas",
-                   "/Subject": "Core rules. A5 spiral-bound pregenerated character edition. 2.0 Beta.",
+                   "/Subject": "Player rules, character creation, improvement, Talents and Shaping. A5 spiral edition. 2.0 Beta.",
                    "/FontLicenses": "\n\n".join(font_licences)})
 with reading.open("wb") as destination:
     book.write(destination)
@@ -193,12 +194,12 @@ with pdfplumber.open(print_file) as document:
             half = page.crop((column * WIDTH, 0, (column + 1) * WIDTH, HEIGHT))
             actual = normal(half.extract_text(use_text_flow=True))
             assert normal(f"PAGE {number:02}") in actual, f"Wrong content in a physical print slot: {number}."
-            if number <= 22:
+            if number <= PLAYER_PAGES:
                 for fragment in checks["pages"][number - 1]["fragments"]:
                     assert compact(fragment) in compact(actual), f"Imposition loses page {number} text: {fragment}"
 
-production = {"version": VERSION, "playerPagesIncludingCover": 22,
-              "licencePages": page_count - 22, "readingPages": page_count,
+production = {"version": VERSION, "playerPagesIncludingCover": PLAYER_PAGES,
+              "licencePages": page_count - PLAYER_PAGES, "readingPages": page_count,
               "a4Sheets": len(order), "a4PdfSides": 2 * len(order),
               "a5Leaves": (page_count + 1) // 2,
               "bindingTextClearanceMm": pdf_clearances, "cutStackOrder": order,

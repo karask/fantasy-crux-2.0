@@ -1,6 +1,6 @@
 # A5 spiral-bound handbook prototype
 
-The [complete 26-page handbook](complete/README.md) now supersedes this
+The [complete 68-page handbook](complete/README.md) now supersedes this
 two-page format test. This page documents the preserved prototype only.
 
 Status: v02 adapts the existing two-page spread for cutting A4 in half and spiral

@@ -1,26 +1,28 @@
 ---
-title: Read Your Character
+title: Your Guide to Playing
 modules: [1]
-layout: character
-art: female-warrior
-caption: READY TO PLAY
+layout: guide
 ---
 
-# Read Your Character
+# Your Guide to Playing
 
-Choose a pregenerated character. Say what you try; use your sheet's values.
+Create a character, or begin with a ready-made sheet. Say what you want to do;
+the GM describes what happens and calls for a roll when the outcome matters.
 
-## The person
+## Make your first character
 
-**STR (Strength):** power. **CON (Constitution):** endurance.
-**DEX (Dexterity):** coordination. **SIZ (Size):** height and bulk.
-**INT (Intelligence):** reasoning. **POW (Power):** will.
-**CHA (Charisma):** magnetism and leadership.
+1. Write a concept and assign characteristics: {{ref:characteristics}}.
+2. Choose any campaign ancestry and pay its innate package: {{ref:ancestries}}.
+3. Calculate attributes and base skills: {{ref:attributes}}-{{num:skills-b}}.
+4. If starting as a Shaper, reserve its 20 IP before skill allocation.
+5. Allocate skill points, spend starting IP and equip yourself: {{ref:skill-points}}-{{num:starting-kit}}.
+6. Check the complete example on {{ref:creation-example}}.
 
 ## The numbers in play
 
 - **Skill %:** test target; at 60%, roll 60 or less unless it Fumbles.
 - **HP:** current / maximum Hit Points; injury lowers current HP.
+- **PP:** current / maximum Power Points; fuel magic and some items.
 - **MWL:** Major Wound Level; the damage from one hit that wounds you.
 - **Movement:** metres per Movement Action.
 - **Combat Order:** add to 1D10 when combat starts.
@@ -33,13 +35,15 @@ Choose a pregenerated character. Say what you try; use your sheet's values.
 ## Read it correctly
 
 **HP 8/12:** 8 current, 12 maximum. **MWL 6 stays 6** when you lose HP.
-Use armour-adjusted Combat Order; do not subtract its ENC twice. Ask if your
-pregen does not say whether armour is included.
+Use armour-adjusted Combat Order; do not subtract its ENC twice.
 
 ## Find it fast
 
-Rolls **3-4** · Skills **5** · Combat **6-11** · Ranged **12-14** ·
-Intimidate **15** · Wounds and help **16-17** · Equipment **18-22**.
+**Rolls:** {{ref:dice}}-{{num:modifiers}}. **Combat:** {{ref:round}}.
+**Wounds / Hero Points:** {{ref:wounds}}-{{num:recovery}}.
+**Travel / hazards:** {{ref:field-skills}}-{{num:hazards}}.
+**Equipment:** {{ref:close-a}}. **Improvement:** {{ref:improvement}}.
+**Talents:** {{ref:weapon-training}}. **Shaping:** {{ref:shaper}}.
 
 ## Editorial notes
 
