@@ -76,7 +76,7 @@ After a winning Parry, compare the attacking weapon's Size with your parrying it
 
 Sizes run **Light → Medium → Heavy → Huge**. Unarmed attacks and bow, crossbow, and sling projectiles are Light. Natural weapons use their listed Size, or Medium if none is listed. Thrown weapons keep their listed Size.
 
-A losing Parry blocks nothing, even when it demotes a critical. Subtract armour after the Parry.
+A blocked half rounds up, like [every half](/rules/start-here/#d100-percentile--measures-and-rounding). A losing Parry blocks nothing, even when it demotes a critical. Subtract armour after the Parry.
 
 ## Special techniques {#special-techniques}
 

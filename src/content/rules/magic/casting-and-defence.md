@@ -48,7 +48,7 @@ Cancelling or removing the Penalty does not remove overreach. [Shaping Expertise
 | **Failed overreach**              | No effect; lose half Magnitude and suffer Backlash.                                     |
 | **Fumble**                        | No intended effect; lose full Magnitude and suffer Backlash.                            |
 
-A successful casting that a defence stops still pays its full cost. Resolve any Hero Point reroll before PP loss or Backlash. A casting that drops you to 0 PP resolves its effect before you fall unconscious; any concentration then ends.
+Half Magnitude rounds up. A successful casting that a defence stops still pays its full cost. Resolve any Hero Point reroll before PP loss or Backlash. A casting that drops you to 0 PP resolves its effect before you fall unconscious; any concentration then ends.
 
 ## Harm delivery {#magic-harm-delivery}
 
@@ -131,7 +131,7 @@ Each Projected outcome uses its own Intensity to set its **Impact Size**. When s
 After a winning shield Active Guard, compare the shield's Size with each outcome's Impact Size:
 
 - **Same Size or larger:** blocks that outcome's damage and attached effects. If it deals no damage, it blocks the outcome.
-- **One Size smaller:** blocks half that outcome's damage, but a separately paid non-damage outcome remains unless its own Size comparison blocks it.
+- **One Size smaller:** blocks half that outcome's damage, rounded up, but a separately paid non-damage outcome remains unless its own Size comparison blocks it.
 - **Two or more Sizes smaller:** reduce no damage.
 - **A Critical shield Parry that wins** blocks everything regardless of Size.
 

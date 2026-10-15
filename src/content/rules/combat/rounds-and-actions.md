@@ -40,7 +40,7 @@ You cannot choose an option that would give up or restrict an Action or Reaction
 | ---------------------------------------------------------------------- | ------------- | --------------- | ---------------------------- |
 | Attack, aim, cast, or use a skill                                      | Used          | Kept            | Kept                         |
 | Move, stand up, or ready an item                                       | Kept          | Used            | Kept                         |
-| [Withdraw](#withdraw)                                                  | Used          | Used            | Base Reaction kept           |
+| [Withdraw](#withdraw)                                                  | Used          | Used            | Kept                         |
 | [Sprint](#sprint)                                                      | Used          | Used            | Base Reaction for Dodge only |
 | [Charge](#charge)                                                      | Used          | Used            | None left                    |
 | [Reload a light crossbow](/rules/combat/#ranged-combat--crossbows)     | Kept          | Used            | Base Reaction used           |
@@ -70,7 +70,7 @@ Reloading a crossbow has its [own rule](/rules/combat/#ranged-combat--crossbows)
 
 ## Withdraw
 
-Use your Combat Action and Movement Action to move up to your normal Movement without triggering Opportunity Attacks for that movement. You keep your base Reaction.
+Use your Combat Action and Movement Action to move up to your normal Movement without triggering Opportunity Attacks for that movement. You keep your base Reaction and any extra off-hand Reaction.
 
 ## Set Weapon
 
@@ -104,7 +104,11 @@ Give the enemy's roll the one modifier that best describes them; do not add modi
 | Fewer than your side and already wounded                           |    `-1P` |
 | Has lost over half its Hit Points, or half the group is down       |    `-2P` |
 
+If you win, the Gamemaster decides how the enemy gives way, judging its condition and numbers:
+
+- Wounded enemies, or the wounded members of a group, might flee or surrender.
+- Enemies at full strength rarely just flee. They are more likely to hesitate and lose a turn.
 - While the enemy is at full strength or outnumbers your side, only a Critical Influence against a failed Persistence forces a surrender.
 - If the enemy fumbles its Persistence roll, it breaks and flees at once.
-- You need no shared language, but you must make yourself understood by sign, gesture, or bearing.
-- The Gamemaster decides who can be targeted and whether the attempt is possible at all.
+
+You need no shared language, but you must make yourself understood by sign, gesture, or bearing. The Gamemaster decides who can be targeted and whether the attempt is possible at all.

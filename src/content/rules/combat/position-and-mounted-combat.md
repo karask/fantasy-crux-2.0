@@ -19,15 +19,15 @@ Use a modifier only when the situation clearly calls for it. Modifiers from diff
 | ------------------------------------------------- | -----------------: |
 | Target is helpless                                | Automatic critical |
 | Target is prone, flanked, or attacked from behind |    `+1B` to attack |
-| Attacker or defender has higher ground            |              `+1B` |
-| Attacker or defender is prone                     |              `-1P` |
+| Attacker or defender has higher ground            | `+1B` to that side |
+| Attacker or defender is prone                     | `-1P` to that side |
 | Unstable ground                                   |              `-1P` |
 | Underwater                                        |              `-2P` |
 | Partial darkness                                  |              `-1P` |
 | Darkness                                          |              `-2P` |
 | Blinded or in pitch black                         |              `-3P` |
 
-The darkness rows use the light levels in [Light and Darkness](/rules/adventuring/#light-and-darkness).
+The higher-ground and prone modifiers apply to that character's own rolls. So a prone defender gives the attacker `+1B` and takes `-1P` on its own Reaction. The darkness rows use the light levels in [Light and Darkness](/rules/adventuring/#light-and-darkness).
 
 ## Awareness {#awareness}
 

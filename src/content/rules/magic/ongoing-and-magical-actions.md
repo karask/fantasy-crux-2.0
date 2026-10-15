@@ -74,6 +74,6 @@ Spend a Combat Action to end one active Shaping.
 
 1. **Price it.** Dispel Magnitude equals the target's full Magnitude plus Range. Reach is 0 for one Shaping, regardless of its area.
 2. **Cast it.** Test Shaping and pay normally.
-3. **Beat the original.** On a Success or Critical, oppose that result with the original Shaper's current unmodified Shaping. If that is unknown, use `10 × original Magnitude`, maximum 100%. The dispeller must succeed and win.
+3. **Beat the original.** On a Success or Critical, roll a Shaping check for the original Shaper, against their current unmodified Shaping, and oppose your result with it. If their skill is unknown, use `10 × original Magnitude`, maximum 100%. The dispeller must succeed and win.
 
 Completed permanent transformations cannot be Dispelled; active anchored enchantments can.

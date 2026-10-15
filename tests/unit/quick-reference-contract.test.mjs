@@ -103,3 +103,54 @@ describe('Shaping limits by expertise', () => {
     }
   });
 });
+
+describe('rulings confirmed during the plain-English rewrite', () => {
+  const position = read('src/content/rules/combat/position-and-mounted-combat.md');
+  const rounds = read('src/content/rules/combat/rounds-and-actions.md');
+  const reactions = read('src/content/rules/combat/attacks-and-reactions.md');
+  const casting = read('src/content/rules/magic/casting-and-defence.md');
+  const ongoing = read('src/content/rules/magic/ongoing-and-magical-actions.md');
+  const paths = read('src/content/rules/magic/techniques-and-forms.md');
+
+  it('applies higher ground and prone to the affected character', () => {
+    expect(position).toMatch(/higher ground\s*\|\s*`\+1B` to that side/);
+    expect(position).toMatch(/is prone\s*\|\s*`-1P` to that side/);
+    expect(position).toMatch(
+      /prone defender gives the attacker `\+1B` and takes `-1P` on its own Reaction/,
+    );
+  });
+
+  it('lets the Gamemaster judge how an intimidated enemy gives way', () => {
+    expect(rounds).toMatch(/If you win, the Gamemaster decides how the enemy gives way/);
+    expect(rounds).toMatch(
+      /full strength rarely just flee[^.]*\. They are more likely to hesitate and lose a turn/,
+    );
+    expect(rounds).toMatch(
+      /only a Critical Influence against a failed Persistence forces a surrender/,
+    );
+  });
+
+  it('keeps every Reaction on a Withdraw', () => {
+    expect(rounds).toMatch(/\[Withdraw\]\(#withdraw\)\s*\|\s*Used\s*\|\s*Used\s*\|\s*Kept\s*\|/);
+    expect(rounds).toMatch(/You keep your base Reaction and any extra off-hand Reaction/);
+  });
+
+  it('rounds halves up', () => {
+    expect(reactions).toMatch(/blocked half rounds up/i);
+    expect(casting).toMatch(/Half Magnitude rounds up/);
+    expect(casting).toMatch(/blocks half that outcome's damage, rounded up/);
+  });
+
+  it('opposes Dispel with a Shaping check for the original Shaper', () => {
+    expect(ongoing).toMatch(
+      /roll a Shaping check for the original Shaper, against their current unmodified Shaping/,
+    );
+    expect(ongoing).toMatch(/`10 × original Magnitude`, maximum 100%/);
+  });
+
+  it('limits unwilling Bend·Paths moves at Intensity 2', () => {
+    expect(paths).toMatch(
+      /Intensity 2 moves a willing subject within Range, or an unwilling one up to 3 metres/,
+    );
+  });
+});
