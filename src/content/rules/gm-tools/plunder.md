@@ -12,7 +12,7 @@ aliases:
   - loot
 ---
 
-Fantasy Crux is not a game of killing things and taking their stuff, but creatures met on an adventure do own things. Normally the story decides what a creature carries. When it does not, roll on the table below.
+Fantasy Crux is not a game of killing things and taking their stuff, but creatures do own things. Usually the story decides what a creature carries. When it does not, roll on the table below.
 
 Every creature profile lists a **Plunder Rating**. For creatures that gather in groups, raise it by one for a group of up to twenty, by two for up to a hundred, and by three beyond that. Group treasure is held somewhere defended and guarded, and only the leader has access to it.
 
@@ -30,6 +30,6 @@ Every creature profile lists a **Plunder Rating**. For creatures that gather in 
 
 ## Enchantments {#gm-plunder-enchantments}
 
-Roll the minor and major [enchanted items](/rules/gm-tools/#enchanted-items) from that rule, which also covers who may use one and how it is identified.
+Roll the minor and major [enchanted items](/rules/gm-tools/#enchanted-items) from that rule, which also covers who can use one and how it is identified.
 
 In a campaign without Shaping, ignore that column and roll coin alone.

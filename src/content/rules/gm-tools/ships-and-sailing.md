@@ -29,7 +29,7 @@ Ship weapons are abstract: many shots are loosed for each roll, so a vessel's ar
 
 ## Special features {#gm-ship-features}
 
-Every ship has one special feature. A ship may carry more than one; each additional feature adds 50% of the original cost.
+Every ship has one special feature. A ship can carry more than one; each additional feature adds 50% of the original cost.
 
 - **Armoured:** 2 AP against every attack.
 - **Fast:** add one knot to speed.
@@ -57,7 +57,7 @@ In normal conditions a vessel covers 20 miles per day for each knot of speed. Li
 
 Each day out of sight of land carries a 5% chance of a storm. A storm deals `2D6` structure points. A ship at 0 structure points begins to sink, and one reduced past the negative of its original total sinks almost at once. Sailors on deck must Dodge to stay aboard; anyone swept overboard and not immediately recovered must make an Athletics test to survive.
 
-The captain may make a Sailing test to halve a storm's damage. Better still, a storm detected in time can be sailed around.
+The captain can make a Sailing test to halve a storm's damage. Better still, a storm detected in time can be sailed around.
 
 ## Naval combat {#gm-naval-combat}
 
@@ -65,15 +65,15 @@ Ships hold one of two distances.
 
 **Contact.** The vessels can see one another. If both want to close or both want to part, it happens automatically and takes about an hour. If they want different things, roll opposed Sailing tests.
 
-**Combat range.** Combat runs as it does on land, except that Combat Order belongs to the ship rather than the crew: the faster vessel acts first. One test fires a ship's weapons, and no defence is rolled against it. A character appointed weapons officer may make a Ranged Combat test; on a success the ship's attack gains `+1B`.
+**Combat range.** Combat runs as it does on land, except that Combat Order belongs to the ship rather than the crew: the faster vessel acts first. One test fires a ship's weapons, and no defence is rolled against it. A character appointed weapons officer can make a Ranged Combat test; on a success the ship's attack gains `+1B`.
 
 Hand weapons are too small to trouble a hull, though they reach anyone on deck. Fire is the exception, and takes hold in sails and decking.
 
 ## Manoeuvres {#gm-naval-manoeuvres}
 
-One manoeuvre per round, each requiring a Sailing test from the captain.
+A ship makes one manoeuvre per round, each requiring a Sailing test from the captain.
 
 - **Broadside:** on a success, fire the ship's weapons twice instead of once.
-- **Evade:** on a success, the opponent cannot broadside, ram, or board. The vessel may also break to contact range if the other allows it or the opposed Sailing test succeeds.
+- **Evade:** on a success, the opponent cannot broadside, ram, or board. The vessel can also break to contact range if the other allows it or the opposed Sailing test succeeds.
 - **Ram:** on a successful opposed Sailing test, deal `1D6` damage per mast. A ship without a ram takes half that damage itself.
 - **Board:** on a successful opposed Sailing test the vessels are roped together and boarding begins. A successful ram grants an immediate free boarding attempt, and if both crews want to board it happens automatically.

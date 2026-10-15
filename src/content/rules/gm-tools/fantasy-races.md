@@ -17,7 +17,7 @@ aliases:
 
 Most fantasy campaigns offer nonhuman player races, and what those peoples are depends entirely on the setting: the Elves of one world may share little but a name with the Elves of another.
 
-Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk are the recommended player races. Other [creature profiles](/rules/creatures/) can seed player characters at the Gamemaster's discretion, but unusual movement, scale, anatomy, or supernatural powers may require a campaign built to accommodate them. Merfolk and Pixies are obvious examples.
+Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk are the recommended player races. Other [creature profiles](/rules/creatures/) can seed player characters at the Gamemaster's discretion, but unusual movement, scale, anatomy, or supernatural powers can need a campaign built around them. Merfolk and Pixies are obvious examples.
 
 A playable race has a starting spread of characteristics, a set of racial maxima, and any innate abilities. Innate abilities spend some of the character's 10 starting Improvement Points; the remainder is available normally. A race's culture, morality, profession, and allegiance belong to the character and setting, not to these rules.
 
@@ -34,7 +34,7 @@ A human begins with every characteristic at 8 — 56 points in total — and the
 | Goblin     |   6 |   7 |  12 |   4 |   9 |   8 |  10 |
 | Lizardfolk |  11 |   8 |   6 |   8 |   9 |   7 |   7 |
 
-Distribute 30 points on top. `INT` and `SIZ` must finish at 7 or more and every other characteristic at 3 or more. During point-based creation, no characteristic may exceed 18 or its racial maximum, whichever is lower.
+Distribute 30 points on top. `INT` and `SIZ` must finish at 7 or more and every other characteristic at 3 or more. During point-based creation, no characteristic can exceed 18 or its racial maximum, whichever is lower.
 
 ## Random characteristics {#gm-race-random-characteristics}
 
@@ -49,7 +49,7 @@ As an alternative to the point method, roll the race's [characteristic dice](/ru
 | Goblin     | 2D6+3           | 2D6+3           | 3D6+6           | 2D6                | 3D6                | 2D6+3           | 3D6             |
 | Lizardfolk | 3D6+6           | 3D6             | 2D6+3           | 3D6                | 2D6+6              | 3D6             | 3D6             |
 
-After the optional swap, reduce any result above its racial maximum to that maximum; excess points are not redistributed. Random results may exceed the point method's creation cap of 18, but never the player racial maxima below. Random generation therefore produces less predictable starting characters and is not as tightly balanced as the point method.
+After the optional swap, reduce any result above its racial maximum to that maximum; excess points are not redistributed. Random results can exceed the point method's creation cap of 18, but never the player racial maxima below. Random generation therefore produces less predictable starting characters and is not as tightly balanced as the point method.
 
 ## Racial maxima {#gm-race-maxima}
 
@@ -78,7 +78,7 @@ Each nonhuman character must buy the listed innate abilities from their 10 start
 - **Elf** — Low-Light Sight, 3 IP; and Terrain Expertise (Forest), 2 IP. The racial purchase of Terrain Expertise waives its Natural Lore prerequisite. Quick Reflexes remains an optional Talent and stacks normally with the Elf's high Combat Order.
 - **Dwarf** — Blind Sight (heat), 5 IP; and Earth Sense, 2 IP.
 - **Orc** — Adrenaline Surge, 4 IP.
-- **Goblin** — Blind Sight (heat), 5 IP. A Goblin who meets the prerequisites may also buy [Close-Quarters Knack](/rules/talents/#close-quarters-knack) normally.
+- **Goblin** — Blind Sight (heat), 5 IP. A Goblin who meets the prerequisites can also buy [Close-Quarters Knack](/rules/talents/#close-quarters-knack) normally.
 - **Lizardfolk** — Scaled Hide, 4 IP; and Counterbalancing Tail, 2 IP.
 
 ### Innate ability rules
