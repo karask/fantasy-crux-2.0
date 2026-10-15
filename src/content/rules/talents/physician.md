@@ -21,4 +21,4 @@ tags:
 
 Your successful Healing test grants `+2B` rather than `+1B` against a [poison or disease](/rules/adventuring/#poison-and-disease).
 
-A patient you have treated may also make one further resistance test against a poison that beat them, which the poison rules otherwise never allow.
+A patient you have treated can also make one further resistance test against a poison that beat them, which the poison rules otherwise never allow.

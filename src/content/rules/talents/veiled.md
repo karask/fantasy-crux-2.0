@@ -19,6 +19,6 @@ tags:
 
 ## Effect
 
-You may build a Shaping with the **Veiled** adjustment: `+1` Magnitude and `-1P` to the Shaping test conceal its Tell.
+You can build a Shaping with the **Veiled** adjustment: for `+1` Magnitude and `-1P` on the Shaping test, its Tell is concealed.
 
-Noticing a Veiled Tell requires Perception opposed by Shaping. The Practice remains interruptible, and anyone detecting the Tell in time may Counter. A Shaper without this Talent cannot conceal a Tell at all.
+Noticing a Veiled Tell requires Perception opposed by Shaping. The Practice remains interruptible, and anyone detecting the Tell in time can Counter. A Shaper without this Talent cannot conceal a Tell at all.

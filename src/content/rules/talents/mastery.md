@@ -25,9 +25,11 @@ tags:
 
 ## Effect
 
-Choose one exact weapon type from the weapon table, not one physical item. You must have at least 76% in one combat skill used to attack with it. Declare Weapon Expertise for one normal attack, Parry, Active Guard, or Opportunity Attack with that weapon before you roll. After ordinary Bonus and Penalty dice cancellation, but before the final dice cap, remove one remaining Penalty die. This never creates a Bonus die.
+Choose one exact weapon type from the weapon table, not one physical item. You must have at least 76% in one combat skill used to attack with it.
 
-You may use Weapon Expertise once per character per round across all your Weapon Expertise purchases. One test can benefit only once. You may buy the Talent again only for different weapon types.
+Declare Weapon Expertise before you roll one normal attack, Parry, Active Guard, or Opportunity Attack with that weapon. After ordinary Bonus and Penalty dice cancellation, but before the final dice cap, remove one remaining Penalty die. This never creates a Bonus die.
+
+You can use Weapon Expertise once per character per round, across all your Weapon Expertise purchases, and one test benefits only once. You can buy the Talent again only for different weapon types.
 
 The actual unmodified base combat skill rolled for that use must be 76% or higher; temporary modifiers do not qualify. For a dual-profile weapon, use the relevant Close Combat or Ranged Combat skill. Shields and primitive versions of the chosen type qualify. The Talent does not apply to Unarmed Combat, natural weapons, or Shaping, nor when the chosen weapon is used as an improvised weapon.
 

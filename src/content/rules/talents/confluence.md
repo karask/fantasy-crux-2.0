@@ -24,7 +24,7 @@ Pay every outcome's full Intensity. Add shared Range, Duration, and Reach once, 
 
 Each outcome retains its own target, defence, delivery, protection, and other restrictions. Resolve defence rolls per subject: against one subject, outcomes using the same defence share one defence roll; outcomes using different defences resolve separately. Different subjects always defend separately. Counter stops the whole Shaping and Dispel ends the whole ongoing Shaping.
 
-You may declare that one outcome occurs only if another outcome affects its target. This dependency never reduces Magnitude or refunds Power Points. The dependent outcome retains its own dice, limits, and valid subjects.
+You can declare that one outcome occurs only if another outcome affects its target. This dependency never reduces Magnitude or refunds Power Points. The dependent outcome retains its own dice, limits, and valid subjects.
 
 ### Example: life drain {#talent-confluence-life-drain}
 

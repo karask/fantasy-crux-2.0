@@ -19,6 +19,6 @@ tags:
 
 ## Effect
 
-At the time of each attack, let N be the number of enemies engaging you. Before ordinary cancellation and the final cap, those N enemies impose `-2P × max(0, N − 1)`: ignore one enemy's entire `-2P`, while every additional enemy still applies `-2P`.
+At the time of each attack, count the N enemies engaging you at Close range. Ignore one enemy's `-2P`; every other enemy still applies `-2P`, for `-2P × max(0, N − 1)` in total, before ordinary cancellation and the final cap.
 
 Nothing else changes: cover, movement, and every other situational Penalty die apply normally.

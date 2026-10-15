@@ -5,7 +5,7 @@ chapter: talents
 title: Shield Rush
 slug: shield-rush
 order: 110
-summary: A shield attack pushes the target 2 metres and may knock them prone instead of dealing damage.
+summary: A shield attack pushes the target 2 metres and can knock them prone instead of dealing damage.
 aliases:
   - shield bash
   - knock-back attack
@@ -21,4 +21,4 @@ tags:
 
 ## Effect
 
-Declare Shield Rush before a Close Combat attack with a ready shield. If the hit is not stopped, deal no damage and push the target 2 metres. The target then tests Athletics at `-1P` or falls prone. The Gamemaster may bar Shield Rush against impossible Size or anatomy.
+Declare Shield Rush before a Close Combat attack with a ready shield. If the hit is not stopped, deal no damage and push the target 2 metres. The target then tests Athletics at `-1P` or falls prone. The Gamemaster can bar Shield Rush against impossible Size or anatomy.

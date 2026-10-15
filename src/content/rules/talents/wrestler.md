@@ -25,4 +25,4 @@ While already [grappling](/rules/combat/#grappling), spend a Combat Action and m
 - force one held item to be dropped at the target's feet; or
 - throw the target to an adjacent space, leave them prone, and end the grapple.
 
-The Gamemaster may bar an outcome against impossible Size or anatomy.
+The Gamemaster can bar an outcome against impossible Size or anatomy.
