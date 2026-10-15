@@ -61,6 +61,7 @@ describe('magical conditions and restoration', () => {
     expect(effects).toMatch(/Intensity 4 removes Exhausted entirely/i);
     expect(effects).toMatch(/Another nonmagical condition:[\s\S]{0,220}at least the Intensity/i);
     expect(effects).toMatch(/Curse[^.]*not a separate mechanical category/i);
-    expect(forms).toMatch(/Only Dispel ends an active Shaping/i);
+    // The rule lives once, in Rules for every Shaping.
+    expect(building).toMatch(/only \[Dispel\]\([^)]*\) directly ends an active Shaping/i);
   });
 });

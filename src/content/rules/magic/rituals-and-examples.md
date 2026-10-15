@@ -5,7 +5,7 @@ chapter: magic
 title: Rituals and Examples
 slug: rituals-and-examples
 order: 70
-summary: Rituals extend Magnitude through time, preparation, PP contributors, and lasting mythic prices.
+summary: Rituals reach higher Magnitudes through time, preparation, pledged PP, and lasting mythic prices. Examples show complete builds.
 aliases:
   - magic rituals
   - mythic Shaping
@@ -14,7 +14,15 @@ aliases:
 
 ## Rituals {#magic-rituals}
 
-Rituals are required above Safe + 2 and for any outcome at Intensity 5, Range 4+, Reach 3+, or Duration 3+. Each takes one hour per Magnitude, needs a prepared place, full Practice, and fitting focus or offering, grants `+1B`, and permits `Safe Magnitude + 2` or `2 × Safe Magnitude`, whichever is greater. Beyond that requires a unique campaign event, exceptional preparation, Gamemaster approval, and a serious lasting price.
+A ritual is a slow, prepared casting.
+
+**When you need one.** Rituals are required above Safe + 2, and for any outcome at Intensity 5, Range 4+, Reach 3+, or Duration 3+.
+
+**What it takes.** Each ritual takes one hour per Magnitude, a prepared place, full Practice, and a fitting focus or offering.
+
+**What it gives.** A ritual grants `+1B` and permits `Safe Magnitude + 2` or `2 × Safe Magnitude`, whichever is greater. Going beyond that requires a unique campaign event, exceptional preparation, Gamemaster approval, and a serious lasting price.
+
+**The ritual test.** Start from this base modifier:
 
 | Magnitude compared with Safe | Base modifier |
 | ---------------------------- | ------------: |
@@ -22,21 +30,34 @@ Rituals are required above Safe + 2 and for any outcome at Intensity 5, Range 4+
 | 1–2 higher                   |         `-1P` |
 | 3+ higher                    |         `-2P` |
 
-Then apply ritual `+1B`, normal Assistance, circumstances, and the dice cap. Failure above Safe is overreach.
+Then apply the ritual's `+1B`, normal Assistance, circumstances, and the dice cap. Failure above Safe is overreach.
 
-Willing participants who stay and join the Practice may pledge PP. Pledges cover full Magnitude; the leader pledges at least 1 PP. Draw the first PP from the leader, then follow declared order; a Critical leaves unused pledges unspent. One capable Shaper may Assist; only the leader rolls and suffers Backlash. On a fumble, every contributor advances one Fatigue step (normal → Fatigued → Exhausted); an Exhausted contributor falls unconscious for `3D6` minutes and awakens Fatigued.
+### Helpers and pledged PP {#magic-ritual-helpers}
 
-For an indefinite ritual, the leader personally commits full Magnitude; nobody contributes PP. A permanent anchored enchantment made without Enchanter uses the same personal commitment.
+- Willing participants who stay and join the Practice can pledge PP. Pledges cover the full Magnitude, and the leader pledges at least 1 PP.
+- Draw the first PP from the leader, then follow the declared order. A Critical leaves unused pledges unspent.
+- One capable Shaper can Assist. Only the leader rolls and suffers Backlash.
+- On a fumble, every contributor advances one Fatigue step (normal → Fatigued → Exhausted). An Exhausted contributor falls unconscious for `3D6` minutes and awakens Fatigued.
+- For an indefinite ritual, the leader personally commits full Magnitude, and nobody contributes PP. A permanent anchored enchantment made without Enchanter uses the same personal commitment.
 
 ## Permanent and Mythic Shapings {#magic-mythic}
 
-Permanent mundane creation requires equivalent material. It and completed permanent transformations become real and inactive; reversal needs a new Shaping. Supernatural properties remain active enchantments, each with a vulnerable physical or spiritual anchor through which it is Dispellable. Without Enchanter, its full Magnitude commits the creator's maximum PP and counts against their active total, whether it uses Duration 4 or Duration 5. With [Enchanter](/rules/talents/#enchanter), that Magnitude counts against Enchantment Capacity instead, not PP commitment or the active total. See [Enchanted Items](/rules/gm-tools/#enchanted-items).
+**Permanent results.** Permanent mundane creation requires equivalent material. It, and completed permanent transformations, become real and inactive; reversing them needs a new Shaping.
 
-Any dial at 5 makes a ritual **Mythic** and requires a declared lasting price: permanent POW, unique treasure, binding oath, supernatural debt, permanent change, or consequential quest. The price pays for crossing a mythic boundary; it never reduces Magnitude, PP commitment, active total, Enchantment Capacity, or Dispel strength. Consume materials when the ritual begins; permanent POW, oaths, debts, quests, and other changes attach after success resolves. A fumble exacts them only if announced beforehand. PP alone cannot restore the dead or rewrite the setting; rituals cannot create their own costs.
+**Enchantments.** Supernatural properties remain active enchantments. Each has a vulnerable physical or spiritual anchor through which it is Dispellable.
+
+- Without Enchanter, its full Magnitude commits the creator's maximum PP and counts against their active total, whether it uses Duration 4 or Duration 5.
+- With [Enchanter](/rules/talents/#enchanter), that Magnitude counts against Enchantment Capacity instead, not PP commitment or the active total. See [Enchanted Items](/rules/gm-tools/#enchanted-items).
+
+**Mythic rituals.** Any dial at 5 makes a ritual **Mythic**. It requires a declared lasting price: permanent POW, a unique treasure, a binding oath, a supernatural debt, a permanent change, or a consequential quest.
+
+- The price pays for crossing a mythic boundary; it never reduces Magnitude, PP commitment, active total, Enchantment Capacity, or Dispel strength.
+- Consume materials when the ritual begins. Permanent POW, oaths, debts, quests, and other changes attach after success resolves. A fumble exacts them only if announced beforehand.
+- PP alone cannot restore the dead or rewrite the setting, and rituals cannot create their own costs.
 
 ## Examples {#magic-examples}
 
-Builds abbreviate Intensity as I, Range as R, and Duration as D.
+Builds abbreviate Intensity as I, Range as R, Duration as D, and Magnitude as M.
 
 | Intent                                  | Build                                                        |   M | Result                                                                                                                   |
 | --------------------------------------- | ------------------------------------------------------------ | --: | ------------------------------------------------------------------------------------------------------------------------ |
@@ -75,8 +96,4 @@ Builds abbreviate Intensity as I, Range as R, and Duration as D.
 | Hide one subject from five minds        | Alter·Mind; I3, R1, D1, Reach2                               |   7 | Each resists Persistence; later observers remain unaffected.                                                             |
 | Permanently return a willing soul       | Alter·Spirit; I5, D5                                         |  10 | Master mythic ritual, lasting price; restore a body separately.                                                          |
 
-At Shaping 50%, Safe Magnitude and maximum Intensity are 2. Magnitude 3 is one-step overreach at `-1P`; Magnitude 4 is two-step overreach at `-2P`. Greater Magnitude exceeds the Apprentice ritual maximum of 4 and requires a unique campaign event.
-
-## Quick procedure {#magic-quick-procedure}
-
-Follow the five-step [Cast procedure](/rules/magic/#casting-and-defence--magic-cast) and record ongoing effects. Price outcomes, not descriptions: magic may rival specialists through PP and risk, not erase skills, equipment, or preparation.
+**Reading the examples at Shaping 50%.** Safe Magnitude and maximum Intensity are 2. Magnitude 3 is one-step overreach at `-1P`; Magnitude 4 is two-step overreach at `-2P`. Greater Magnitude exceeds the Apprentice ritual maximum of 4 and requires a unique campaign event.

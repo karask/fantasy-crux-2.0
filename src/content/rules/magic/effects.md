@@ -4,8 +4,8 @@ id: magic.effects
 chapter: magic
 title: Effects
 slug: effects
-order: 40
-summary: Use fixed benchmarks for damage, healing, protection, movement, senses, conditions, restoration, information, control, transformation, and conjured or called beings.
+order: 50
+summary: Fixed benchmarks for damage, healing, protection, movement, senses, conditions, restoration, information, control, transformation, and conjured or called beings.
 aliases:
   - magic damage
   - magical healing
@@ -27,7 +27,7 @@ aliases:
   - vitality reserve
 ---
 
-Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) covering the outcome.
+Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) that covers each outcome. Details follow the table.
 
 | Outcome                       | Effect                                                                                                        |
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------- |
@@ -39,7 +39,7 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) co
 | Skill modifier                | `+1B`/`-1P` at Intensity 2; `+2B`/`-2P` at Intensity 4.                                                       |
 | Sensory concealment           | I2: `-1P` to detect through one sense; I3: imperceptible through one sense; I4: every sense the cell governs. |
 | Sensory impairment            | I2: `-1P` through one sense; I3: suppress one sense; I4: every sense the cell governs.                        |
-| Brief hindrance               | Intensity 1 may halve Movement through the subject's next turn.                                               |
+| Brief hindrance               | Intensity 1 can halve Movement through the subject's next turn.                                               |
 | Restraint or forced movement  | Intensity 2 restrains a human-sized subject or moves it up to 3 metres.                                       |
 | Movement mode                 | I2: climb, swim, or traverse a named surface; I3: flight; I4: pass through a named mundane substance.         |
 | Movement speed                | I1: +3 m; I2: ×1.5; I3: ×2; I4: ×3, for one named movement mode.                                              |
@@ -49,53 +49,69 @@ Use the lowest [Intensity](/rules/magic/#building-a-shaping--magic-intensity) co
 
 ## Damage, armour, and wounds {#magic-damage}
 
-Where its Form permits, Unmake deals `Intensity D6`. Projected Harm follows normal [damage rules](/rules/combat/#damage-and-wounds), including nonmagical AP. Direct Harm ignores nonmagical worn, natural, and object AP. Direct Harm against creatures retains Ward AP and named resistances; unattended objects retain magical protection only. Subsequent hazards, summons, falling objects, and mundane consequences use ordinary armour rules.
+Where its Form permits, Unmake deals `Intensity D6`.
 
-A Shaping damage outcome resolves once. Duration cannot attach damage to a target, repeat it each round, add it to every weapon hit, or retaliate when the protected subject is attacked or harmed. A [Trigger](/rules/talents/#trigger) may delay one already targeted damage outcome until an allowed observable event, then fires once. Resolve that Shaping separately from any weapon attack used as its Trigger; neither result adds to, replaces, or inherits the other's damage, defence, armour, or Critical benefits.
+- **Projected Harm** follows the normal [damage rules](/rules/combat/#damage-and-wounds), including nonmagical AP.
+- **Direct Harm** ignores nonmagical worn, natural, and object AP. Direct Harm against creatures retains Ward AP and named resistances. Unattended objects retain magical protection only.
+- **Later effects** use normal armour: subsequent hazards, summons, falling objects, and mundane consequences use ordinary armour rules.
 
-Mind deals no HP damage. Unmake·Spirit damage is Direct-only: oppose Persistence and deal `Intensity D6` PP to a souled target; only magical Ward AP and named resistances apply. A visible spectral bolt is cosmetic Tell, not a projectile. It causes no HP loss, Major Wound, or Bleeding. At 0 PP, a living target falls unconscious, a Spirit is banished, and possession ends. Soulless targets are invalid. Use selected targets and the Direct Range route.
+**Damage happens once.** A Shaping damage outcome resolves once. Duration cannot attach damage to a target, repeat it each round, add it to every weapon hit, or retaliate when the protected subject is attacked or harmed.
+
+A [Trigger](/rules/talents/#trigger) can delay one already-targeted damage outcome until an allowed observable event, then fires once. If a weapon attack is the Trigger, resolve the Shaping separately: neither result adds to, replaces, or inherits the other's damage, defence, armour, or Critical benefits.
+
+**Mind and Spirit.** Mind deals no HP damage. Unmake·Spirit damage is Direct-only: the target opposes with Persistence, and Unmake·Spirit deals `Intensity D6` PP to a souled target.
+
+- For Spirit damage, only magical Ward AP and named resistances apply.
+- A visible spectral bolt is cosmetic Tell, not a projectile. It causes no HP loss, Major Wound, or Bleeding.
+- At 0 PP, a living target falls unconscious, a Spirit is banished, and possession ends.
+- Soulless targets are invalid. Use selected targets and the Direct Range route.
 
 ## Healing and death {#magic-healing}
 
-Healing stops at maximum HP and removes **Bleeding** and **Dying**. A living subject restored above 0 HP may act next turn; Wounded remains.
+Healing stops at maximum HP and removes **Bleeding** and **Dying**. A living subject restored above 0 HP can act on its next turn; Wounded remains.
 
-Like [mundane treatment](/rules/adventuring/#healing-and-recovery--adventuring-ordinary-healing), a subject benefits from only one HP-restoring Shaping before its next full rest. Enchanted items and Confluence outcomes count. An outcome that only removes Bleeding and Dying restores no HP and is never limited. Below Intensity 3, healing restores HP to a Wounded subject but does not end Wounded or unlock natural recovery.
+- **Once per rest.** Like [mundane treatment](/rules/adventuring/#healing-and-recovery--adventuring-ordinary-healing), a subject benefits from only one HP-restoring Shaping before its next full rest. Enchanted items and Confluence outcomes count. An outcome that only removes Bleeding and Dying restores no HP and is never limited.
+- **Wounded.** Below Intensity 3, healing restores HP to a Wounded subject but does not end Wounded or unlock natural recovery. Intensity 3+ healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery) and unlocks recovery; after treatment, Wounded ends once HP exceeds MWL.
+- **Poison and disease.** Curing poison or disease needs Intensity of at least Potency divided by 25, and Shaping must win against Potency. After a failure, that Shaper needs new treatment, discovery, a full rest, or another meaningful change to retry.
+- **Other harm.** Fatigue, deprivation, age, and unrelated conditions need separate outcomes.
 
-Intensity 3+ healing counts as [Surgery](/rules/adventuring/#healing-and-recovery--adventuring-surgery-recovery), unlocking recovery; after treatment, Wounded ends once HP exceeds MWL.
+**No regeneration.** Shaping cannot regenerate. It cannot distribute healing across later turns, restore HP repeatedly through Duration, or create a pool that heals future injuries. Use one immediate healing outcome instead. A creature's explicitly listed Regeneration remains a profile ability, not a Shaping benchmark.
 
-Curing poison or disease needs Intensity at least Potency divided by 25, and Shaping must win against Potency. After failure, that Shaper needs new treatment, discovery, full rest, or another meaningful change to retry.
-
-Shaping cannot regenerate: it cannot distribute healing across later turns, restore HP repeatedly through Duration, or create a pool that heals future injuries. Use one immediate healing outcome instead. A creature's explicitly listed Regeneration remains a profile ability, not a Shaping benchmark.
-
-Fatigue, deprivation, age, and unrelated conditions need separate outcomes. Returning the dead requires Intensity 5, permanent Duration, a mythic ritual, willing reachable soul, and lasting price. The subject returns at 1 HP and Wounded; restoring a destroyed body is separate.
+**Returning the dead** requires Intensity 5, permanent Duration, a mythic ritual, a willing soul within reach, and a lasting price. The subject returns at 1 HP and Wounded. Restoring a destroyed body is separate.
 
 ### Vitality reserves {#magic-vitality-reserves}
 
-A vitality reserve is finite magical protection, not additional Hit Points. It begins with `3 × Intensity` points. After resolving Parry, armour, resistance, and every other applicable damage reduction, subtract qualifying HP damage from the vitality reserve. Any excess damages actual HP. For that hit, only the damage that reaches actual HP is compared with MWL.
+A vitality reserve is finite magical protection, not additional Hit Points. It begins with `3 × Intensity` points.
 
-A reserve persists across any number of damage instances until depleted or its Duration ends. It changes neither maximum HP nor MWL and cannot be healed or replenished. A reserve absorbs HP damage only—not PP damage, a paid HP cost or sacrifice, or another effect that causes HP loss without dealing damage.
+**How it absorbs damage.** After resolving Parry, armour, resistance, and every other applicable damage reduction, subtract qualifying HP damage from the vitality reserve. Any excess damages actual HP. For that hit, only the damage that reaches actual HP is compared with MWL.
 
-A subject can have only one vitality reserve. When a new reserve is granted, compare it with the existing reserve's remaining points and keep the larger; on a tie, the subject chooses. The discarded reserve ends. Unused points vanish when Duration ends without changing actual HP. Once depleted, the reserve ends even if its Duration remains; only a new casting or separately paid item activation can grant a fresh reserve. A vitality-reserve enchantment must be Activated or Charged, never Continuous.
+**Limits.** A reserve changes neither maximum HP nor MWL, and cannot be healed or replenished. It absorbs HP damage only—not PP damage, a paid HP cost or sacrifice, or another effect that causes HP loss without dealing damage. It absorbs only damage its declared method can protect against, and the cell must explain the protection: `Alter·Flesh` might impart supernatural vigour, `Ward·Force/Motion` a finite force shell.
 
-The cell must explain the protection. `Alter·Flesh` might impart supernatural vigour, while `Ward·Force/Motion` might interpose a finite force shell. The reserve can absorb only HP damage that its declared method can protect against. Ward AP remains repeatable against its defined class of harm; a vitality reserve instead provides a finite, depletable pool. Neither may retaliate with damage.
+**Duration.** A reserve persists across any number of damage instances until depleted or its Duration ends. Once depleted, the reserve ends even if its Duration remains. Unused points vanish when Duration ends without changing actual HP.
+
+**One at a time.** A subject can have only one vitality reserve. When a new reserve is granted, compare it with the existing reserve's remaining points and keep the larger; on a tie, the subject chooses. The discarded reserve ends. Only a new casting or a separately paid item activation can grant a fresh reserve, so a vitality-reserve enchantment must be Activated or Charged, never Continuous.
+
+Ward AP remains repeatable against its defined class of harm; a vitality reserve instead provides a finite, depletable pool. Neither can retaliate with damage.
 
 ### Corporeal undead {#magic-undead}
 
-Alter·Flesh repairs corporeal undead at normal healing Intensity, restoring no soul, identity, intelligence, memory, or loyalty. Unmake·Flesh damages living and corporeal undead bodies normally.
+- `Alter·Flesh` repairs corporeal undead at normal healing Intensity. It restores no soul, identity, intelligence, memory, or loyalty.
+- `Unmake·Flesh` damages living and corporeal undead bodies normally.
+- `Conjure·Flesh` can animate remains as a temporary generic **Mindless, Soulless Undead** summon. Use the [conjured-being table](#magic-conjured-beings) without a Form trait or drawback. The remains collapse at 0 HP or when the Duration ends; conjured matter vanishes.
+- Lasting undead require a named profile, profile-based Intensity, Duration 5, a mythic price, and a vulnerable physical anchor. Intelligence grants no former identity, memories, or loyalty.
+- `Alter·Flesh` at Intensity 5 and Duration 5 can make a living subject Undead through a mythic ritual and lasting price. Its soul departs.
 
-Conjure·Flesh may animate remains as a temporary generic **Mindless, Soulless Undead** summon. Use the [conjured-being table](#magic-conjured-beings) without a Form trait or drawback; remains collapse at 0 HP or Duration's end, while conjured matter vanishes. Lasting undead require a named profile, profile-based Intensity, Duration 5, mythic price, and vulnerable physical anchor. Intelligence grants no former identity, memories, or loyalty.
-
-Alter·Flesh at Intensity 5 and Duration 5 can make a living subject Undead through mythic ritual and lasting price; its soul departs. Shaping-made or sustained undead are active magic anchored vulnerably to body or remains. Existing undead are not inherently Shapings.
+Undead made or sustained by Shaping are active magic, anchored vulnerably to a body or remains. Existing undead are not inherently Shapings.
 
 ## Modifiers and transformation {#magic-transformation}
 
-A modifier names one skill or narrow family; identical magical modifiers do not stack. Shaping never widens critical range or grants extra Combat Actions, Movement Actions, Reactions, Dodges, PP, IP, Hero Points, Talents, skills, or memories.
+A modifier names one skill or narrow family of skills; identical magical modifiers do not stack.
 
-A transformation changes appearance and form. AP, attacks, movement modes, senses, Size benefits, and other mechanics need additional outcomes guided by an existing profile. Concept grants permission, not capabilities.
+A transformation changes appearance and form. AP, attacks, movement modes, senses, Size benefits, and other mechanics need additional outcomes, guided by an existing profile. Concept grants permission, not capabilities.
 
 ## Movement, senses, and adaptation {#magic-movement-senses-adaptation}
 
-The benchmark prices a capability, not its fictional method. The chosen Technique·Form must explain how it works and determines valid subjects, defence, and side effects. `Alter·Flesh` might grow adhesive pads, `Bend·Force/Motion` might hold someone against a wall, and Earth cells might reshape or create handholds; none can perform the others' method merely because the movement result is similar.
+The benchmark prices a capability, not its fictional method. The chosen Technique·Form must explain how it works, and determines valid subjects, defence, and side effects. `Alter·Flesh` might grow adhesive pads, `Bend·Force/Motion` might hold someone against a wall, and Earth cells might reshape or create handholds. None can perform the others' method merely because the movement result is similar.
 
 ### Movement {#magic-movement}
 
@@ -105,11 +121,18 @@ The benchmark prices a capability, not its fictional method. The chosen Techniqu
 |         3 | Gain flight at normal Movement.                                                                                        |
 |         4 | Pass through one named mundane substance at half Movement; end every Movement Action in empty space.                   |
 
-Instead of gaining a capability, a separate speed outcome may increase one named movement mode by 3 metres at Intensity 1, multiply it by 1.5 at Intensity 2, double it at Intensity 3, or triple it at Intensity 4. Use only the strongest magical speed adjustment to that mode. Determine its magically modified speed first, then apply mundane reductions such as Fatigue, darkness, or encumbrance.
+**Speed.** Instead of gaining a capability, a separate speed outcome can increase one named movement mode by 3 metres at Intensity 1, multiply it by 1.5 at Intensity 2, double it at Intensity 3, or triple it at Intensity 4. Use only the strongest magical speed adjustment to that mode. Work out its magical speed first, then apply mundane reductions such as Fatigue, darkness, or encumbrance.
 
-A granted mode is subject-directed: its user spends their own Movement Action and chooses where to move. Sustaining it needs Duration but neither concentration nor the Shaper's Combat Action. If the Shaper instead directs another subject's movement, that is active control: the Shaper spends their Combat Action each round, and the subject moves on its turn using its own Movement Action. An unwilling subject under active control moves at most 3 metres per round, in any direction, and may retry its defence as for any [ongoing hostile condition](#magic-conditions-restoration). When a mode ends, unsupported subjects fall and other impossible movement stops where the fiction permits.
+**Who moves.** A granted mode is subject-directed: its user spends their own Movement Action and chooses where to move. Sustaining it needs Duration, but neither concentration nor the Shaper's Combat Action.
 
-A movement capability grants permission and the listed speed, not automatic success in dangerous conditions. Athletics may still be required for violent currents, unstable surfaces, tight passages, or similar hazards. Passing through matter grants no protection, perception, or ability to remain inside it; if the subject cannot leave the substance within the same Movement Action, it returns to the point where it entered.
+If the Shaper instead directs another subject's movement, that is active control:
+
+- The Shaper spends their Combat Action each round, and the subject moves on its turn using its own Movement Action.
+- An unwilling subject under active control moves at most 3 metres per round, in any direction. It can retry its defence as for any [ongoing hostile condition](#magic-conditions-restoration).
+
+When a mode ends, unsupported subjects fall, and other impossible movement stops where the fiction permits.
+
+**Limits.** A movement capability grants permission and the listed speed, not automatic success in dangerous conditions. Athletics may still be required for violent currents, unstable surfaces, tight passages, or similar hazards. Passing through matter grants no protection, perception, or ability to remain inside it. If the subject cannot leave the substance within the same Movement Action, it returns to the point where it entered.
 
 ### Senses {#magic-senses}
 
@@ -120,7 +143,10 @@ A movement capability grants permission and the listed speed, not automatic succ
 |         3 | Blind Sight through one named sense, with a declared blocker; it can substitute for sight only where that sense supplies the necessary information. |
 |         4 | A broad supernatural sense that can detect and locate one defined class its Form governs, limited by purchased Range and a declared blocker.        |
 
-These benchmarks grant a usable sense; a single clue, diagnosis, location, or observation instead uses the [Scry benchmark](/rules/magic/#effects--magic-scry). A sense provides only information its method can logically perceive and uses Perception whenever noticing something remains uncertain. Apply only the best relevant sense; senses do not stack. If one Shaping directly conceals the evidence from a magical sense, oppose their original Shaping results rather than treating either as automatic.
+- These benchmarks grant a usable sense. A single clue, diagnosis, location, or observation uses the [Scry benchmark](#magic-scry) instead.
+- A sense provides only information its method can logically perceive. Use Perception whenever noticing something remains uncertain.
+- Apply only the best relevant sense; senses do not stack.
+- If one Shaping directly conceals the evidence from a magical sense, oppose their original Shaping results rather than treating either as automatic.
 
 ### Breathing {#magic-breathing}
 
@@ -130,29 +156,39 @@ These benchmarks grant a usable sense; a single clue, diagnosis, location, or ob
 |         2 | Breathe one named medium, such as air or water.    |
 |         3 | Function without breathing while the effect lasts. |
 
-Breathing water does not grant swimming, and functioning without breath does not grant protection from pressure, heat, cold, corrosion, obscurity, or contact hazards. It prevents suffocation and effects whose only route is inhalation; hazards that also burn, poison through contact, or otherwise cause harm still require their own protection.
+Breathing water does not grant swimming, and functioning without breath does not grant protection from pressure, heat, cold, corrosion, obscurity, or contact hazards. It prevents suffocation and effects whose only route is inhalation. Hazards that also burn, poison through contact, or otherwise cause harm still require their own protection.
 
 ## Sensory concealment {#magic-sensory-concealment}
 
-Choose what is concealed, the sense or senses affected, and whether the Shaping changes perceivers or the physical world. At Intensity 2, Perception tests using one named sense to detect the subject take `-1P`. At Intensity 3, the subject is imperceptible through one named sense. At Intensity 4, it is imperceptible through every sense the cell can govern. Intensity never widens a Form's scope.
+Sensory concealment hides a subject. Choose what is concealed, which senses it affects, and whether it changes the perceivers or the physical world.
 
-Reach follows what the Shaping directly affects: count perceiving minds for an illusion, or the concealed subjects or area for a physical change. Targeting and defence follow that method. Concealment removes direct sensory evidence only; footprints, opened doors, displaced matter, and other physical consequences remain.
+- At Intensity 2, Perception tests using one named sense to detect the subject take `-1P`.
+- At Intensity 3, the subject is imperceptible through one named sense.
+- At Intensity 4, it is imperceptible through every sense the cell can govern.
 
-When Intensity 3+ removes sight, apply the [Pitch black](/rules/adventuring/#light-and-darkness) vision and attack consequences only against the concealed subject: vision-based Perception and ranged attacks cannot succeed without another applicable sense, and Close attacks take `-3P`. The observer's surrounding illumination and Movement are unchanged.
+Intensity never widens a Form's scope.
+
+Reach, targeting, and defence follow what the Shaping directly affects: perceiving minds for an illusion, or the concealed subjects or area for a physical change. Concealment removes direct sensory evidence only; footprints, opened doors, displaced matter, and other physical consequences remain.
+
+**Invisible to sight.** When Intensity 3+ removes sight, apply the [Pitch black](/rules/adventuring/#light-and-darkness) vision and attack consequences only against the concealed subject: vision-based Perception and ranged attacks cannot succeed without another applicable sense, and Close attacks take `-3P`. The observer's surrounding illumination and Movement are unchanged.
 
 ## Sensory impairment {#magic-sensory-impairment}
 
 Sensory impairment is a condition on a perceiver; sensory concealment instead hides a particular subject or evidence. Reach for impairment counts affected perceivers. A bodily change normally faces Resilience, while a change to perception normally faces Persistence.
 
-At Intensity 2, tests relying on one named sense suffer `-1P`. At Intensity 3, suppress that sense completely. At Intensity 4, suppress every sense the cell can govern. Intensity never widens a Form's scope.
+- At Intensity 2, tests relying on one named sense suffer `-1P`.
+- At Intensity 3, suppress that sense completely.
+- At Intensity 4, suppress every sense the cell can govern.
 
-Suppressing sight applies the [Pitch black](/rules/adventuring/#light-and-darkness) consequences generally to the impaired subject: vision-based Perception and ranged attacks cannot succeed, Close attacks suffer `-3P`, and Movement is quartered unless another applicable sense supplies what sight would. Other suppressed senses lose only information and functions that logically require them.
+Intensity never widens a Form's scope.
 
-Use only the strongest applicable sensory limitation. Impairment and concealment do not add their penalties together. An alternate sense perceives normally when its method can detect the evidence: optical invisibility does not hide body heat from heat-based Blind Sight.
+**Blinded.** Suppressing sight applies the [Pitch black](/rules/adventuring/#light-and-darkness) consequences generally to the impaired subject: vision-based Perception and ranged attacks cannot succeed, Close attacks suffer `-3P`, and Movement is quartered, unless another applicable sense supplies what sight would. Other suppressed senses lose only information and functions that logically require them.
+
+**No double penalty.** Use only the strongest applicable sensory limitation. Impairment and concealment do not add their penalties together. An alternate sense perceives normally when its method can detect the evidence: optical invisibility does not hide body heat from heat-based Blind Sight.
 
 ## Conditions and restoration {#magic-conditions-restoration}
 
-A condition name describes paid consequences; it does not grant a free package of damage, movement, control, transformation, or other effects. Choose the lowest benchmark covering the exact result, and use the declared Technique·Form to explain its method.
+A condition name describes paid consequences. It does not grant a free package of damage, movement, control, transformation, or other effects. Choose the lowest benchmark covering the exact result, and use the declared Technique·Form to explain its method.
 
 | Intensity | Condition benchmark                                                                                                                                                           |
 | --------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -163,9 +199,16 @@ A condition name describes paid consequences; it does not grant a free package o
 
 Duration sustains a state but never repeats a one-use outcome. In particular, a lost Combat Action occurs once regardless of Duration, and that target remains immune until it completes a later Combat Action.
 
-Unless a rule below or the condition itself gives an easier escape, a subject under an ongoing hostile condition may spend a Combat Action to retry its original defence against the stored Shaping result. If the condition prevents Combat Actions, retry freely at the end of the affected subject's own turn instead. Resolve that turn's restrictions before rolling. Winning frees that subject but does not restore any Actions it missed; failure leaves the condition in place. Influence and full control use their specific escape rules. A declared break condition may replace the retry: magical sleep can make its subject unconscious and helpless but end immediately upon damage or when an adjacent character spends a Combat Action to wake it.
+Conditions of the same kind do not stack; use the strongest. Incapacitation alone means no Actions or Reactions, not automatic damage, movement, control, or helplessness. If a declared condition necessarily adds helplessness or another consequence, include it when judging the Intensity, and give it an appropriate retry or break condition.
 
-Conditions of the same kind do not stack; use the strongest. Incapacitation alone means no Actions or Reactions, not automatic damage, movement, control, or helplessness. If a declared condition necessarily adds helplessness or another consequence, include it when judging the Intensity and give it an appropriate retry or break condition.
+### Escaping a condition {#magic-condition-escape}
+
+Unless a rule below or the condition itself gives an easier escape, a subject under an ongoing hostile condition can spend a Combat Action to retry its original defence against the stored Shaping result.
+
+- If the condition prevents Combat Actions, the subject can retry freely at the end of the affected subject's own turn instead. Resolve that turn's restrictions before rolling.
+- Winning frees that subject but does not restore any Actions it missed. Failure leaves the condition in place.
+- Influence and full control use their own [escape rules](#magic-control).
+- A declared break condition can replace the retry. For example, magical sleep can make its subject unconscious and helpless, but end immediately upon damage or when an adjacent character spends a Combat Action to wake it.
 
 ### Removing conditions {#magic-condition-removal}
 
@@ -177,23 +220,32 @@ Identify the source before choosing a restorative Shaping:
 - **Fatigue:** Intensity 3 removes Fatigued or reduces Exhausted to Fatigued; Intensity 4 removes Exhausted entirely. It does not remove deprivation or another continuing cause.
 - **Another nonmagical condition:** use at least the Intensity that could impose the same mechanical severity, with a cell that can genuinely reverse its cause. Restoring a suppressed mundane sense, for example, is Intensity 3.
 
-Removing a condition does not restore HP, senses, or other losses unless those are included as paid outcomes. If exposure, restraint, deprivation, or another cause remains, the condition may return normally.
+Removing a condition does not restore HP, senses, or other losses unless those are included as paid outcomes. If exposure, restraint, deprivation, or another cause remains, the condition can return normally.
 
 “Curse” is not a separate mechanical category. Record its exact effects and source: Dispel an active magical curse, reverse a completed permanent change with a new appropriate Shaping, and resolve an oath, debt, quest, or mythic price through its own terms rather than generic condition removal.
 
 ## Restraint, influence, and control {#magic-control}
 
-Intensity 1 may colour emotion or plant a plausible suggestion. Intensity 2 may compel one limited, reasonable action, but cannot spend or deny a combat Action, cause immediate tactical disadvantage, or oppose the subject's interests. Those need Intensity 3, which may also remove one Combat Action. Intensity 4 permits full control.
+| Intensity | Influence and control                                                                                                                                            |
+| --------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|         1 | Colour an emotion or plant a plausible suggestion.                                                                                                               |
+|         2 | Compel one limited, reasonable action. It cannot spend or deny a combat Action, cause immediate tactical disadvantage, or oppose the subject's interests.        |
+|         3 | Compel an action that spends or denies a combat Action, causes immediate tactical disadvantage, or opposes the subject's interests; or remove one Combat Action. |
+|         4 | Full control.                                                                                                                                                    |
 
-A compelled combat act occurs on the subject's next turn, spending its Action and granting no extra one.
+- A compelled combat act occurs on the subject's next turn, spending its Action and granting no extra one.
+- A restrained subject can spend a Combat Action to retry its original defence against the stored result.
+- Full control grants another Persistence defence against the stored Shaping result before serious self-harm, defining betrayal, or a central belief's violation; winning frees that subject, and certain death always grants one.
 
-A restrained subject may spend a Combat Action to retry its original defence against the stored result. Full control grants another Persistence defence against the stored Shaping result before serious self-harm, defining betrayal, or a central belief's violation; winning frees that subject, and certain death always grants one.
-
-Directing active control spends the Shaper's Combat Action. The subject obeys on its own turn, spends the corresponding Action, and gains none. Without maintenance it regains control; magical movement stops where fiction permits.
+**Directing control.** Directing active control spends the Shaper's Combat Action. The subject obeys on its own turn, spends the corresponding Action, and gains none. Without maintenance it regains control, and magical movement stops where the fiction permits.
 
 ## Wards and barriers {#magic-wards}
 
-A Ward grants one benefit: AP or reduction equal to twice Intensity against one class of harm; `+1B` at Intensity 2 or `+2B` at Intensity 4 to one defence; or denial priced as restraint, with each crossing opposing the appropriate defence against the stored Shaping result.
+A Ward grants one benefit:
+
+- AP or reduction equal to twice Intensity against one class of harm;
+- `+1B` at Intensity 2, or `+2B` at Intensity 4, to one defence; or
+- denial, priced as restraint, with each crossing opposing the appropriate defence against the stored Shaping result.
 
 ### Classes of harm {#magic-ward-classes}
 
@@ -211,9 +263,9 @@ Mind, Paths, and Fate grant no AP:
 - **`Ward·Paths`:** denial at a threshold, barring passage across it or arrival there by Paths.
 - **`Ward·Fate`:** a defence bonus against a named doom, declared as [Fate](/rules/magic/#techniques-and-forms--magic-fate) requires.
 
-Ward AP never adds to worn armour against one damage source: use the higher, or Ward AP alone when worn armour cannot protect. Same-kind magical protection never stacks.
+**Ward AP and worn armour.** Ward AP never adds to worn armour against one damage source: use the higher, or Ward AP alone when worn armour cannot protect. Same-kind magical protection never stacks.
 
-A solid barrier blocks movement and line of effect until destroyed and cannot appear through occupied space. Trapping an unwilling subject is hostile restraint: the defender chooses Dodge or Resilience. Forms unable to make solid structures cannot use barrier statistics.
+**Barriers.** A solid barrier blocks movement and line of effect until destroyed, and cannot appear through occupied space. Trapping an unwilling subject is hostile restraint: the defender chooses Dodge or Resilience. Forms unable to make solid structures cannot use barrier statistics.
 
 ## Scry {#magic-scry}
 
@@ -228,13 +280,19 @@ Scry gives evidence, not omniscience or knowledge absent from accessible minds, 
 
 ## Summons and called beings {#magic-summons}
 
-Conjure creates a temporary being from its Form; calling brings an existing being that belongs to a Form. Both serve under standing orders. A Shaper may have only one combat-capable summon, created or called, or one actively controlled subject; Reach cannot bypass this.
+Conjure creates a temporary being from its Form. Calling brings an existing being that belongs to a Form. Both serve under standing orders.
+
+A Shaper can have only one combat-capable summon, created or called, or one actively controlled subject. Reach cannot bypass this.
 
 ### Standing orders {#magic-standing-orders}
 
-When casting, give the summon one short standing order, such as "guard me", "attack the ogre", or "hold this door". It acts on its own turn immediately after its Shaper, spending its own Combat Action, Movement Action, and base Reaction to carry out that order, including Opportunity Attacks when ordered to guard or attack. A Mindless summon follows its order literally; one with a mind uses judgement.
+When casting, give the summon one short standing order, such as "guard me", "attack the ogre", or "hold this door".
 
-Changing the order costs the Shaper's Movement Action, once per round, within 15 metres and line of effect. Out of that range, or while its Shaper is unconscious, a summon keeps its last order. A summon needs Duration but neither concentration nor the Shaper's Combat Action, so damage to the Shaper does not end it. It ends at 0 HP, at Duration's end, on dismissal, or through Dispel.
+- It acts on its own turn immediately after its Shaper, spending its own Combat Action, Movement Action, and base Reaction to carry out that order. This includes Opportunity Attacks when ordered to guard or attack.
+- A Mindless summon follows its order literally; one with a mind uses judgement.
+- Changing the order costs the Shaper's Movement Action, once per round, within 15 metres and line of effect. Out of that range, or while its Shaper is unconscious, a summon keeps its last order.
+- A summon needs Duration but neither concentration nor the Shaper's Combat Action, so damage to the Shaper does not end it.
+- It ends at 0 HP, at Duration's end, on dismissal, or through Dispel.
 
 ### Conjured beings {#magic-conjured-beings}
 
@@ -245,7 +303,10 @@ Changing the order costs the Shaper's Movement Action, once per round, within 15
 |         3 |  10 |   2 |            55% |  `1D8` | Medium      |  13 |
 |         4 |  14 |   3 |            70% |  `2D6` | Heavy       |  18 |
 
-A conjured being has Movement 15, PP 0, and no Damage Modifier. Listed attack covers its natural attacks; listed defence covers Dodge, Resilience, Persistence, Perception, and physical Parry. It ignores Major Wounds and vanishes at 0 HP. Reach 0 makes it human-sized or smaller. Reach 1 makes it mount-sized: `+50%` HP, Movement 20, strike Size one step larger, and room for one rider.
+- A conjured being has Movement 15, PP 0, and no Damage Modifier.
+- The listed attack covers its natural attacks. The listed defence covers Dodge, Resilience, Persistence, Perception, and physical Parry.
+- It ignores Major Wounds and vanishes at 0 HP.
+- Reach 0 makes it human-sized or smaller. Reach 1 makes it mount-sized: `+50%` HP, Movement 20, strike Size one step larger, and room for one rider.
 
 Shaping never creates a soul, so every conjured being is Soulless. Its Form sets its body, tags, one signature trait, and one drawback at no cost:
 
@@ -257,15 +318,19 @@ Shaping never creates a soul, so every conjured being is Soulless. Its Form sets
 | **Earth/Stone**  | Stone being        | Elemental                                                                | `+2` AP                                                                       | Movement 10; cannot swim, fly, or climb                                       |
 | **Flesh**        | Beast              | Living, Corporeal, Soulless; an animal mind                              | Low-Light Sight and scent; Alter·Flesh heals it                               | Subject to Mind, poison, disease, and Bleeding                                |
 | **Force/Motion** | Force construct    | Construct: Mindless, Soulless                                            | Lifts and carries as STR 18; immune to poison and disease                     | Perceives only by touch and where its Shaper directs it                       |
-| **Mind**         | Phantasm           | None; an [illusion](/rules/magic/#techniques-and-forms--magic-illusions) | Any appearance; may speak                                                     | Never combat-capable; moves and harms nothing                                 |
+| **Mind**         | Phantasm           | None; an [illusion](/rules/magic/#techniques-and-forms--magic-illusions) | Any appearance; can speak                                                     | Never combat-capable; moves and harms nothing                                 |
 
-Spirit, Paths, and Fate create no beings: Spirit and Paths [call](#magic-calling) existing ones. Conjure·Flesh may instead animate remains as Mindless, Soulless Undead; see [Corporeal undead](#magic-undead).
+Spirit, Paths, and Fate create no beings: Spirit and Paths [call](#magic-calling) existing ones. Conjure·Flesh can instead animate remains as Mindless, Soulless Undead; see [Corporeal undead](#magic-undead).
 
-Capabilities beyond the table and Form—including flight for a being of another Form, [invisibility](/rules/magic/#effects--magic-sensory-concealment), extra natural armour, special senses, or spellcasting—raise minimum Intensity or add an outcome under their own benchmarks. Giving a Mindless being a mind, so it understands complex orders, speaks, and becomes a valid Mind subject, raises its Intensity by 1; so does removing its Form's drawback. A conjured being cannot be Incorporeal.
+**More capable beings.** Capabilities beyond the table and Form raise its minimum Intensity or add an outcome under their own benchmarks. These include flight for a being of another Form, [invisibility](#magic-sensory-concealment), extra natural armour, special senses, and spellcasting.
+
+- Giving a Mindless being a mind, so that it understands complex orders, speaks, and becomes a valid Mind subject, raises its Intensity by 1.
+- Removing its Form's drawback also raises its Intensity by 1.
+- A conjured being cannot be Incorporeal.
 
 ### Calling beings {#magic-calling}
 
-Only beings that belong to a Form, or to which the Shaper holds a genuine link, can be called. Ordinary creatures—beasts, monsters, and people—cannot: move one already within Range with Bend·Paths, sway it with [Bend·Mind](#magic-control), or conjure a being instead.
+Only beings that belong to a Form, or to which the Shaper holds a genuine link, can be called. Ordinary creatures—beasts, monsters, and people—cannot. Instead, move one already within Range with Bend·Paths, sway it with [Bend·Mind](#magic-control), or conjure a being.
 
 | Callable being                                                                                    | Cell                                                                        | Range                                   |
 | ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | --------------------------------------- |
@@ -276,13 +341,13 @@ Only beings that belong to a Form, or to which the Shaper holds a genuine link, 
 
 An Anchored being cannot be called beyond its anchor's boundary.
 
-Intensity equals the being's [Threat Intensity](/rules/creatures/#using-creatures--creatures-threat-intensity) and cannot exceed maximum Intensity. For the bestiary: Small Elemental 2; Ancestor Spirit and Ghost 3; Medium Elemental, Disease, Healing, Magic, and Passion Spirits, and Holy Steed 4; Large and Huge Elementals and Holy Warrior 5.
+**Intensity.** Intensity equals the being's [Threat Intensity](/rules/creatures/#using-creatures--creatures-threat-intensity) and cannot exceed maximum Intensity. For the bestiary: Small Elemental 2; Ancestor Spirit and Ghost 3; Medium Elemental, Disease, Healing, Magic, and Passion Spirits, and Holy Steed 4; Large and Huge Elementals and Holy Warrior 5.
 
-An unwilling being opposes calling with its Persistence or `20 × Threat Intensity`%, whichever is higher. A being that comes willingly, through a pact or bargain, makes no roll.
+**Resisting.** An unwilling being opposes calling with its Persistence or `20 × Threat Intensity`%, whichever is higher. A being that comes willingly, through a pact or bargain, makes no roll.
 
 - **Shaping wins:** it arrives bound for the Duration and serves under standing orders as a conjured being does, using its own profile. At Duration's end, a Spirit or Elemental returns to its Form; a specific individual remains where it is, unbound, and remembers its treatment.
 - **The being wins:** it does not come; the casting still pays its full cost.
-- **Fumble:** instead of Backlash, the Gamemaster may have it arrive free and hostile.
+- **Fumble:** instead of Backlash, the Gamemaster can have it arrive free and hostile.
 
 A called being with Shaping casts with its own PP and cells, but its ongoing Shapings count against its caller's Active Magnitude.
 

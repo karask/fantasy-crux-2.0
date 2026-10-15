@@ -5,7 +5,7 @@ chapter: combat
 title: Rounds and Actions
 slug: rounds-and-actions
 order: 10
-summary: Each five-second round grants one Combat Action, one Movement Action, and one base Reaction.
+summary: Each five-second round gives you one Combat Action, one Movement Action, and one base Reaction.
 aliases:
   - action economy
   - Combat Round
@@ -18,59 +18,84 @@ aliases:
 
 **Close** means within 2 metres. Anything farther away is **Ranged**.
 
-At the start of combat, every participant rolls `1D10 + Combat Order`. Act from highest total to lowest; a tied character with higher DEX acts first. If DEX also ties, reroll `1D10` between them.
+## Combat Order {#combat-order}
 
-Each five-second round grants:
+When combat starts, everyone rolls `1D10 + Combat Order` and acts from the highest total to the lowest. Ties go to the higher DEX. If DEX also ties, reroll `1D10` between those characters.
 
-- **one Combat Action**, usually an attack or skill use;
+## Your round {#your-round}
+
+A round lasts five seconds and gives you:
+
+- **one Combat Action**, usually an attack or a skill;
 - **one Movement Action**; and
-- **one base Reaction**, used when its trigger occurs.
+- **one base Reaction**, used when something triggers it.
 
-Combat and Movement Actions happen in Combat Order. A Reaction interrupts that order only long enough to resolve its trigger. Unspent actions do not carry into the next round.
+You take your Combat Action and Movement Action in Combat Order. A Reaction interrupts that order only long enough to resolve its trigger. Unused actions are lost; they do not carry into the next round.
 
-A character cannot choose an option that forfeits or restricts an Action or Reaction they have already used in a way incompatible with that option.
+You cannot choose an option that would give up or restrict an Action or Reaction already used in a different way. For example, after Parrying this round you cannot Sprint, because a Sprint keeps your Reaction for Dodge only.
+
+### What each option costs {#what-each-option-costs}
+
+| Option                                                                 | Combat Action | Movement Action | Reactions                    |
+| ---------------------------------------------------------------------- | ------------- | --------------- | ---------------------------- |
+| Attack, aim, cast, or use a skill                                      | Used          | Kept            | Kept                         |
+| Move, stand up, or ready an item                                       | Kept          | Used            | Kept                         |
+| [Withdraw](#withdraw)                                                  | Used          | Used            | Base Reaction kept           |
+| [Sprint](#sprint)                                                      | Used          | Used            | Base Reaction for Dodge only |
+| [Charge](#charge)                                                      | Used          | Used            | None left                    |
+| [Reload a light crossbow](/rules/combat/#ranged-combat--crossbows)     | Kept          | Used            | Base Reaction used           |
+| [Reload a heavy crossbow](/rules/combat/#ranged-combat--crossbows)     | Used          | Used            | None left                    |
+| [Stabilise a dying character](/rules/combat/#damage-and-wounds--dying) | Used          | Used            | None left                    |
 
 ## Common Combat Actions
 
-- Make one standard Close Combat, Unarmed Combat, or Ranged Combat attack.
+- Make one standard attack with Close Combat, Unarmed Combat, or Ranged Combat.
 - Start or escape a grapple.
 - Aim a ranged weapon.
 - Set a weapon against a Charge.
-- Use a skill or object that can reasonably be handled in about five seconds.
-- Cast or maintain [Shaping](/rules/magic/#casting-and-defence) when its rule requires a Combat Action.
-- Intimidate an enemy or a whole group into surrendering or fleeing.
-- Delay: act after a chosen participant later in the round. To interrupt an action already beginning, make an opposed test using the relevant skills; the winner acts first.
+- Use a skill or object that takes about five seconds.
+- Cast or maintain a [Shaping](/rules/magic/#casting-and-defence) when its rules need a Combat Action.
+- Intimidate one enemy or a whole group into surrendering or fleeing.
+- **Delay:** act later in the round, after a participant you choose. To interrupt an action that is already starting, make an opposed test with the skills involved; the winner acts first.
 
 ## Common Movement Actions
 
-- Move up to Movement in metres.
-- Stand up or drop prone.
-- Disengage and move away. An enemy who can reach you may spend a Reaction on an Opportunity Attack.
-- Ready one item or nock an arrow while moving no more than half Movement. Stowing one item and drawing another, or readying two items, consumes the whole Movement Action.
+- Move up to your Movement in metres.
+- Stand up, or drop prone.
+- Disengage and move away. An enemy who can reach you can spend a Reaction on an Opportunity Attack.
+- Ready one item, or nock an arrow, while moving no more than half your Movement.
+- Stow one item and draw another, or ready two items. This uses the whole Movement Action.
 
-Reloading crossbows uses its own rule and is never shortened by a generic Ready action.
+Reloading a crossbow has its [own rule](/rules/combat/#ranged-combat--crossbows); a Ready action never shortens it.
 
 ## Withdraw
 
-Spend the Combat and Movement Actions to move up to normal Movement without triggering Opportunity Attacks caused by that movement. The character retains their base Reaction.
+Use your Combat Action and Movement Action to move up to your normal Movement without triggering Opportunity Attacks for that movement. You keep your base Reaction.
 
 ## Set Weapon
 
-Spend the Combat Action to set a ready weapon with the **Set** tag. If an opponent Charges into its reach before the wielder's next turn, the wielder makes one Close Combat attack at `+1B` before the Charge attack resolves. This spends no further Action or Reaction, works once, and then the weapon is no longer set. It is not a standard attack and cannot trigger an extra off-hand attack. Taking any Action, Movement Action, or Reaction before the trigger also unsets it.
+Use your Combat Action to set a ready weapon with the **Set** tag. If an opponent Charges into its reach before your next turn, you make one Close Combat attack at `+1B` before their Charge attack is resolved.
+
+- The attack costs no further Action or Reaction and works once; then the weapon is no longer set.
+- It is not a standard attack, so it gives no extra off-hand attack.
+- Taking any Action, Movement Action, or Reaction before the Charge also unsets the weapon.
 
 ## Sprint
 
-Spend the Combat and Movement Actions to move up to twice Movement. The character retains only their base Reaction, and it may only be used to Dodge. No other Reaction is available that round.
+Use your Combat Action and Movement Action to move up to twice your Movement. That round, your only Reaction is your base Reaction, and you can use it only to Dodge.
 
 ## Charge
 
-Spend the Combat and Movement Actions and forfeit all Reactions. Move at least 5 metres and no more than twice Movement along a straight, unobstructed, passable route, ending adjacent to the target; then make one Close Combat attack. A hit gains `+1D6` damage. A Charge allows no other movement and is not a standard Close Combat attack for extra off-hand attacks.
+Use your Combat Action and Movement Action, and give up all your Reactions. Move in a straight line, at least 5 metres and at most twice your Movement, along a clear, passable route that ends adjacent to your target. Then make one Close Combat attack; a hit deals `+1D6` damage.
+
+- You make no other movement that round.
+- A Charge is not a standard Close Combat attack, so it gives no extra off-hand attack.
 
 ## Intimidate
 
-Spend the Combat Action to demand surrender or drive an enemy off. Declare a single target or the whole group, then oppose the character's Influence against the target's Persistence. A group rolls once on its leader's Persistence, or on the leader's Influence when that is higher.
+Use your Combat Action to demand surrender or drive an enemy off. Choose one target or a whole group, then make an opposed test: your Influence against the target's Persistence. A group rolls once, using its leader's Persistence, or the leader's Influence if higher.
 
-Apply the one modifier that best describes the enemy to their resisting roll; the modifiers are not cumulative.
+Give the enemy's roll the one modifier that best describes them; do not add modifiers together.
 
 | Enemy's condition                                                  | Modifier |
 | ------------------------------------------------------------------ | -------: |
@@ -79,6 +104,7 @@ Apply the one modifier that best describes the enemy to their resisting roll; th
 | Fewer than your side and already wounded                           |    `-1P` |
 | Has lost over half its Hit Points, or half the group is down       |    `-2P` |
 
-While the enemy is at full strength or outnumbers the characters, only a Critical Influence against a failed Persistence forces a surrender. A fumbled Persistence routs them outright.
-
-A shared language is not needed, but the character must be able to make themselves understood by sign, gesture, or bearing. The Gamemaster decides who can be targeted and whether the attempt is possible at all.
+- While the enemy is at full strength or outnumbers your side, only a Critical Influence against a failed Persistence forces a surrender.
+- If the enemy fumbles its Persistence roll, it breaks and flees at once.
+- You need no shared language, but you must make yourself understood by sign, gesture, or bearing.
+- The Gamemaster decides who can be targeted and whether the attempt is possible at all.

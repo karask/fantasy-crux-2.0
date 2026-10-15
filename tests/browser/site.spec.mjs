@@ -36,14 +36,16 @@ test('home and primary rules navigation work at the target width', async ({ page
   await expect(page.locator('h1')).toHaveText('Combat');
   await expect(page.locator('#off-hand-options')).toContainText('Fighting With Off-Hand Options');
   await expect(page.locator('main')).toContainText('make one free attack');
-  await expect(page.locator('main')).toContainText('cannot Dodge');
+  await expect(page.locator('main')).toContainText('cannot be used to Dodge');
 
   // Intimidate is a Combat Action, restored from the LaTeX combat chapter.
   const intimidate = page.locator('#rounds-and-actions--intimidate');
   await expect(intimidate).toHaveText(/Intimidate/);
   const intimidateRule = intimidate.locator('xpath=ancestor::section[1]');
-  await expect(intimidateRule).toContainText('Influence against the target’s Persistence');
-  await expect(intimidateRule).toContainText('A fumbled Persistence routs them outright.');
+  await expect(intimidateRule).toContainText('your Influence against the target’s Persistence');
+  await expect(intimidateRule).toContainText(
+    'If the enemy fumbles its Persistence roll, it breaks and flees at once.',
+  );
   await expectNoHorizontalOverflow(page);
 
   // The header stays pinned, so search is reachable from anywhere on a long chapter.
@@ -401,9 +403,9 @@ test('Shaping is a first-class rules chapter', async ({ page }) => {
   const sections = [
     'becoming-a-shaper',
     'building-a-shaping',
+    'casting-and-defence',
     'techniques-and-forms',
     'effects',
-    'casting-and-defence',
     'ongoing-and-magical-actions',
     'rituals-and-examples',
   ];

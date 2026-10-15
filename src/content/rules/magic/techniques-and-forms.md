@@ -4,8 +4,8 @@ id: magic.techniques-and-forms
 chapter: magic
 title: Forms and Techniques
 slug: techniques-and-forms
-order: 30
-summary: Choose what the Shaping governs with a Form, then what it does with a Technique; their intersection is the exact cell a Shaper learns.
+order: 40
+summary: A Form is what magic works on; a Technique is what it does. Where they meet is a cell, and Shapers learn exact cells.
 aliases:
   - Conjure Bend Unmake Alter Ward Scry
   - Fire Water Air Earth Flesh Mind Force Spirit Paths Fate
@@ -13,7 +13,7 @@ aliases:
   - illusions
 ---
 
-Choose a **Form**—what magic governs—then a **Technique**—what it does. Their intersection is a [known cell](/rules/magic/#becoming-a-shaper); the [building rules](/rules/magic/#building-a-shaping) limit and price its outcomes. A Shaping normally uses one known cell; [Confluence](/rules/talents/#confluence) permits exactly two.
+A **Form** is what magic works on; a **Technique** is what it does. Where they meet is a [known cell](/rules/magic/#becoming-a-shaper), and the [building rules](/rules/magic/#building-a-shaping) price its outcomes. A Shaping normally uses one known cell; [Confluence](/rules/talents/#confluence) permits exactly two.
 
 ## Forms {#magic-forms}
 
@@ -41,64 +41,85 @@ Choose a **Form**—what magic governs—then a **Technique**—what it does. Th
 | **Ward**    | Grant one protection, resistance, or denial; no absolute immunity below Intensity 5.            |
 | **Scry**    | Gain information, communication, or a sense without changing the subject.                       |
 
-Unmake may damage a manifestation or exploit a genuine natural counter. Only [Dispel](/rules/magic/#ongoing-and-magical-actions--magic-dispel) directly ends an active Shaping.
-
-A conjured being takes its body, tags, signature trait, and drawback from its Form; Spirit and Paths call existing beings instead, and Fate creates none. See [summons and called beings](/rules/magic/#effects--magic-summons).
-
 ## Reading the grid {#magic-reading-grid}
 
-Forms grant permission, not free damage, protection bypass, or outcomes. Harm follows its declared [delivery](/rules/magic/#casting-and-defence--magic-harm-delivery); environmental fire and later mundane consequences use core rules. Spirit damage has its [own rule](/rules/magic/#effects--magic-damage).
+A Form grants permission, not free damage, a way past protection, or extra outcomes. Harm follows its declared [delivery](/rules/magic/#casting-and-defence--magic-harm-delivery). Environmental fire and later mundane consequences use core rules. Spirit damage has its [own rule](/rules/magic/#effects--magic-damage).
+
+A conjured being takes its body, tags, signature trait, and drawback from its Form. Spirit and Paths call existing beings instead, and Fate creates none. See [summons and called beings](/rules/magic/#effects--magic-summons).
 
 ### Bodies, minds, and souls {#magic-bodies-minds-souls}
 
-All **Undead** are Soulless. Mind affects intelligent, non-Mindless undead; Flesh affects living creatures and corporeal undead. Unmake·Flesh harms the body. Limb loss is narrative with damage or a priced condition or transformation. Spirit cannot affect Soulless creatures.
-
-Bend·Flesh restrains or puppets through Resilience and active control, granting no beliefs, tactics, or loyalty. Alter·Flesh heals living tissue and repairs corporeal undead, granting no soul, identity, or memory.
-
-Force/Motion handles mass—pushing, lifting, pinning. Flesh works limbs, tissue, and actions.
+- All **Undead** are Soulless.
+- **Flesh** affects living creatures and corporeal undead. `Unmake·Flesh` harms the body. Losing a limb is a matter of story: it comes with damage, or with a priced condition or transformation.
+- **Mind** affects intelligent, non-Mindless undead.
+- **Spirit** cannot affect Soulless creatures.
+- `Bend·Flesh` restrains or puppets a body through Resilience and active control. It grants no beliefs, tactics, or loyalty.
+- `Alter·Flesh` heals living tissue and repairs corporeal undead. It grants no soul, identity, or memory.
+- **Force/Motion** handles mass: pushing, lifting, and pinning. **Flesh** works limbs, tissue, and actions.
 
 ### Movement, senses, and adaptation {#magic-methods-for-capabilities}
 
-The [movement, sense, and adaptation benchmarks](/rules/magic/#effects--magic-movement-senses-adaptation) price what a subject can do; they do not choose a cell. The Technique·Form must supply the method. `Alter·Flesh` can change anatomy, `Bend·Force/Motion` can support or propel a subject, and `Scry` can grant information or a sense without changing the subject. A cell that changes terrain, creates breathable air, or opens a route affects that environment instead. Similar practical results do not make those methods interchangeable.
+The [movement, sense, and adaptation benchmarks](/rules/magic/#effects--magic-movement-senses-adaptation) price what a subject can do; they do not choose a cell. The Technique·Form must supply the method:
 
-The same rule applies to [conditions and their removal](/rules/magic/#effects--magic-conditions-restoration). A condition's mechanics set its Intensity, but its name does not choose a cell: inability to see caused by changed eyes, altered perception, extinguished light, or intervening smoke uses different cells, targets, and procedures. Only Dispel ends an active Shaping.
+`Alter·Flesh` can change anatomy, `Bend·Force/Motion` can support or propel a subject, and `Scry` can grant information or a sense without changing the subject. A cell that changes terrain, creates breathable air, or opens a route affects that environment instead. Similar practical results do not make those methods interchangeable.
+
+The same applies to [conditions and their removal](/rules/magic/#effects--magic-conditions-restoration): a condition's mechanics set its Intensity, but its name does not choose a cell. Blindness from changed eyes, altered perception, extinguished light, or smoke in the way uses different cells, targets, and procedures.
 
 ### Paths {#magic-paths}
 
-- **Bend·Paths:** Intensity 2 moves a willing subject or an unwilling one up to 3 metres; Intensity 3 moves an unwilling subject within Range. Use Intensity 4 if relocation alone removes it from the encounter.
-- **Conjure·Paths:** an Intensity 3+ portal is stationary and one-way; changing either adds an outcome. Crossing costs a Movement Action. Sight, attacks, and objects cross. Attack Range equals entrance plus exit-to-target distance; cover at either aperture applies.
-- Range must reach subject or entrance and destination. Reach limits subject size and total creatures or independent objects; worn gear accompanies its bearer. Each passage spends allowance; the portal closes when spent.
-- Arrival must be empty, stable, large enough, and safe from unavoidable harm or confinement. An invalid destination moves nobody. Paths grants no free falling, collision, restraint, suffocation, or damage.
+**Moving a subject (`Bend·Paths`).**
 
-Unwilling relocation uses Resilience; a visible moving aperture or area uses Dodge `-1P`.
+- Intensity 2 moves a willing subject within Range, or an unwilling one up to 3 metres.
+- Intensity 3 moves an unwilling subject anywhere within Range.
+- Use Intensity 4 if the move alone removes the subject from the encounter.
 
-Other Paths cells may Bend distance, Unmake a route, Alter a destination, Ward a threshold, or Scry an exit.
+**Portals (`Conjure·Paths`).**
+
+- An Intensity 3+ portal is stationary and one-way. Making it move or work both ways adds an outcome.
+- Crossing costs a Movement Action. Sight, attacks, and objects cross.
+- An attack through a portal measures Range as the distance to the entrance plus the distance from the exit to the target. Cover at either opening applies.
+- Reach limits the size of each traveller and the total number of creatures or independent objects. Worn gear goes with its bearer. Each passage spends part of that allowance, and the portal closes when it is spent.
+
+**Both.** Range must reach the subject or entrance, and the destination. The arrival point must be empty, stable, large enough, and safe from unavoidable harm or confinement; an invalid destination moves nobody. Paths grants no free falling, collision, restraint, suffocation, or damage. An unwilling subject resists relocation with Resilience; a visible moving opening, or an area, is avoided with Dodge at `-1P`.
+
+Other Paths cells can Bend distance, Unmake a route, Alter a destination, Ward a threshold, or Scry an exit.
 
 ### Fate {#magic-fate}
 
-Before uncertainty resolves, declare: **When [observable event] occurs before [expiry], [named subject] receives [exact paid effect] on [named test, narrow endeavour, or consequence].** Later events need **Trigger** and fire once; vows never compel obedience.
+Fate works on chance that is not yet decided. Before the uncertainty resolves, declare:
 
-Intensity 1 grants a non-numerical omen or coincidence; Intensity 2 grants `+1B` or `-1P`, and Intensity 4 grants `+2B` or `-2P`. Apply the strongest favourable and hostile magical modifiers, then cancel dice. Fate creates only its paid omen, opportunity, modifier, or condition—not another Form's effect.
+> When **[observable event]** occurs before **[expiry]**, **[named subject]** receives **[exact paid effect]** on **[named test, narrow endeavour, or consequence]**.
 
-Fate deals no HP damage or retroactive effects. It grants no rerolls, automatic success, extra Actions/Reactions, chosen die results, wider critical ranges, or rolled-damage changes. Scry·Fate reveals possibilities, not certainty. Hostile Fate uses Persistence.
+- Intensity 1 grants an omen or coincidence with no numbers. Intensity 2 grants `+1B` or `-1P`, and Intensity 4 grants `+2B` or `-2P`.
+- Apply the strongest favourable and the strongest hostile magical modifier, then cancel dice.
+- An event later than the casting needs [Trigger](/rules/talents/#trigger), and fires once.
+- Vows never compel obedience.
+- Hostile Fate is resisted with Persistence.
+- `Scry·Fate` reveals possibilities, not certainty.
 
-Fate may Conjure a chance or vow, Bend odds, Unmake or Alter a mundane vow, Ward against doom, or Scry omens.
+**What Fate cannot do.** Fate creates only its paid omen, opportunity, modifier, or condition, not another Form's effect. It deals no HP damage and has no retroactive effects. It grants no rerolls, automatic success, extra Actions or Reactions, chosen die results, wider critical ranges, or changes to rolled damage.
+
+Fate can Conjure a chance or vow, Bend odds, Unmake or Alter a mundane vow, Ward against doom, or Scry omens.
 
 ### Illusions {#magic-illusions}
 
-Illusions are Mind. Use `Conjure·Mind` to create a perception of something absent, or `Alter·Mind` to change or omit a perception of something present. A phantom guard is Conjure; making a real guard appear different or imperceptible is Alter. When either conceals a subject, use the [sensory-concealment benchmark](/rules/magic/#effects--magic-sensory-concealment).
+Illusions are Mind magic: they change perceptions, not the physical world.
 
-Mind illusions affect perceptions, not the physical world. Reach pays for each affected mind rather than the concealed or depicted subject, and each mind resists with Persistence. Untargeted observers, including those arriving later, perceive normally; Mindless creatures and devices are unaffected.
+- Use `Conjure·Mind` to create a perception of something absent, such as a phantom guard.
+- Use `Alter·Mind` to change or omit a perception of something present, such as making a real guard look different or imperceptible.
+- When either conceals a subject, use the [sensory-concealment benchmark](/rules/magic/#effects--magic-sensory-concealment).
 
-A fixed illusion or sensory omission sustains a state without concentration. Actively directing its behaviour after casting is active control and costs the Shaper's Combat Action each round.
+**Who is fooled.** Reach pays for each affected mind rather than the concealed or depicted subject, and each mind resists with Persistence. Untargeted observers, including those arriving later, perceive normally. Mindless creatures and devices are unaffected.
 
-A fooled witness may spend a Combat Action to oppose Perception with stored Shaping. Success identifies falsehood but neither Dispels it nor reveals concealed matter; failure needs new evidence to retry. Illusions cause no harm.
+**Keeping it going.** A fixed illusion or sensory omission sustains a state without concentration. Actively directing its behaviour after casting is active control, and costs the Shaper's Combat Action each round.
 
-Physical Shaping may reach the same sensory benchmark where its cell permits: `Bend·Fire` can redirect light, `Bend·Air/Storm` can redirect sound, and `Alter·Flesh` can change natural appearance. These change a subject or the environment rather than a mind, so use their actual targets, Reach, and defence instead of the illusion procedure. Created fog, smoke, and similar intervening matter use ordinary obscurity rather than making a subject imperceptible.
+**Seeing through it.** A fooled witness can spend a Combat Action to oppose Perception against the stored Shaping result. Success identifies the falsehood, but neither Dispels it nor reveals concealed matter. After a failure, the witness needs new evidence to try again. Illusions cause no harm.
+
+**Physical alternatives.** Physical Shaping can reach the same sensory benchmark where its cell permits: `Bend·Fire` can redirect light, `Bend·Air/Storm` can redirect sound, and `Alter·Flesh` can change natural appearance. These change a subject or the environment, not a mind, so use their actual targets, Reach, and defence instead of the illusion procedure. Created fog, smoke, and similar matter in the way use ordinary obscurity; they do not make a subject imperceptible.
 
 ## All sixty cells {#magic-cell-grid}
 
-Forms run down the rows; cell names retain Technique·Form order.
+Forms run down the rows; cell names keep Technique·Form order.
 
 | Form             | Conjure                | Bend                | Unmake                | Alter                | Ward                | Scry                |
 | ---------------- | ---------------------- | ------------------- | --------------------- | -------------------- | ------------------- | ------------------- |

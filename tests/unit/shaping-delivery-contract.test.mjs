@@ -118,7 +118,9 @@ describe('Projected and Direct Harm', () => {
     expect(activeGuard).toMatch(
       /Projected Shaping[^.]*oppose Close Combat[^.]*original Shaping result/i,
     );
-    expect(casting).toMatch(/hostile Touch Shaping[^.]*sole defence exception/i);
+    expect(casting).toMatch(
+      /hostile Touch Shaping[^.]*Unarmed Combat attack[^.]*\. This is the sole defence exception/i,
+    );
     expect(casting).toMatch(/defence rolls per subject/i);
     expect(casting).toMatch(/one subject[^.]*same defence share one defence roll/i);
     expect(casting).toMatch(/one subject[^.]*different defences resolve separately/i);
@@ -134,7 +136,9 @@ describe('Projected and Direct Harm', () => {
 
   it('keeps Projected Harm physical and Direct Harm inside mundane armour', () => {
     expect(effects).toMatch(/Projected Harm[^.]*normal [^.]*damage rules[^.]*nonmagical AP/i);
-    expect(effects).toMatch(/Direct Harm ignores nonmagical worn, natural, and object AP/i);
+    expect(effects).toMatch(
+      /Direct Harm(?:\*\*)? ignores nonmagical worn, natural, and object AP/i,
+    );
     expect(effects).toMatch(/Direct Harm against creatures[^.]*Ward AP and named resistances/i);
     expect(effects).toMatch(
       /Unattended objects[^.]*(?:only magical protection|magical protection only)/i,
@@ -147,7 +151,7 @@ describe('Projected and Direct Harm', () => {
   });
 
   it('gives every individually targeted projection the same shield path', () => {
-    expect(casting).toMatch(/projection may be[^.]*ready shield/i);
+    expect(casting).toMatch(/projection (?:may|can) be[^.]*ready shield/i);
     expect(casting).toMatch(/regardless of Form[^.]*solid or non-solid/i);
     expect(casting).toMatch(/weapons cannot Active Guard magical projections/i);
     expect(casting).toMatch(
@@ -156,7 +160,7 @@ describe('Projected and Direct Harm', () => {
     expect(casting).toMatch(/areas cannot be Active Guarded/i);
     expect(casting).toMatch(/Direct Harm and Spirit Harm cannot be Active Guarded/i);
     expect(casting).toMatch(/occupants' shields do not alter (?:an|the) area's shared roll/i);
-    expect(casting).toMatch(/aware subject may Dodge a projected area at `-1P`/i);
+    expect(casting).toMatch(/aware subject (?:may|can) Dodge a projected area at `-1P`/i);
 
     expect(tableWithHeader(activeGuard, 'Incoming attack')?.body).toContainEqual([
       'Individually targeted Projected Shaping',
