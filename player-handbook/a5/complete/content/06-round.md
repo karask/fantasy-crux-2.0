@@ -2,7 +2,8 @@
 title: Your Combat Round
 modules: [6]
 layout: sequence
-diagram: round
+diagram: print-round-costs
+diagram_alt: 'Attacking, aiming, or casting uses the Combat Action and keeps the rest. Withdraw uses both actions and keeps your Reactions. Sprint uses both and keeps only a Dodge. Charge uses both and leaves no Reactions.'
 ---
 
 # Your Combat Round
@@ -13,34 +14,32 @@ diagram: round
 
 At combat start, roll **1D10 + Combat Order**; highest acts first. Ties go to
 higher DEX; if DEX also ties, those characters reroll 1D10 between them.
-Example: die **7** + Combat Order **12** = **19**.
 
 ## Spend during the round
 
-**Combat Action:** attack, start/escape a grapple, Aim, Set Weapon, Intimidate,
-cast a Shaping, activate an item, or use a skill/object that takes about five seconds.
+**Combat Action:** attack, start or escape a grapple, Aim, Set Weapon, Intimidate,
+cast a Shaping, activate an item, or use a skill or object that takes about five seconds.
 
-**Movement Action:** move up to Movement in metres, stand, drop prone or
-disengage. Leaving an enemy can trigger an Opportunity Attack (page 10).
+**Movement Action:** move up to your Movement in metres, stand, drop prone or
+disengage. Leaving an enemy can trigger an Opportunity Attack. Withdraw, Sprint
+and Charge: {{ref:movement}}.
 
-**Base Reaction:** when eligible, Dodge, Parry or make an Opportunity Attack,
+**Base Reaction:** Dodge, Parry or make an Opportunity Attack when triggered,
 even outside your turn. It interrupts only to resolve its trigger.
 
-Combat and Movement Actions happen in Combat Order. Unspent actions never
-carry into the next round. You must still have every Action or Reaction an
-option spends or gives up before you choose it.
+Unused actions are lost at the round's end. You cannot choose an option that
+gives up or restricts an Action or Reaction you have already used another way.
 
 ## Ready equipment
 
-Use Movement Action to ready **one item or nock an arrow** while moving no more
-than **half Movement**. Stow one and draw another, or ready two items: use the
-whole Movement Action. Crossbow reload costs are separate (page 20).
+Ready **one item or nock an arrow** while moving no more than **half Movement**.
+Stowing one and drawing another, or readying two, takes the whole Movement Action.
+Crossbow reloads are separate ({{ref:launchers}}).
 
 ## Delay
 
-Delay your Combat Action until after a chosen participant later this round.
-To interrupt an action already beginning, oppose the relevant skills; winner
-acts first. Delaying never creates an extra action.
+Act later this round, after a participant you choose. To interrupt an action
+already starting, oppose the relevant skills; the winner acts first.
 
 ## Editorial notes
 

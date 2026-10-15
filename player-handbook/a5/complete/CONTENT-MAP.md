@@ -1,4 +1,4 @@
-# Player handbook v04: page map and scope
+# Player handbook v05: page map and scope
 
 The expanded edition has **66 player pages including the cover, plus two legal
 pages**. `edition.json` is the definitive ordering and source-file index. Page
@@ -29,8 +29,14 @@ IDs remain stable when pages move; printed cross-references resolve automaticall
 This is a teaching handbook, not the reference cards enlarged. Each page answers
 one main question or groups closely related choices. Examples follow the rules
 they use. Tables carry repeated numeric comparisons; prose explains decisions.
-Rules remain selectable text; diagrams have editable labels and numbers.
+Rules remain selectable text. Diagrams are generated SVG with real text, drawn
+with the website's diagram kit; each one summarises a rule the page also states.
 Existing artwork and the same palette/type system preserve visual consistency.
+
+v05 rewords every page to match the plain-English website rules: short sentences,
+one name per game term, and no change to how the rules play. Where the website
+rules gained rulings or changed after v04, the handbook follows them. The
+verification record lists those changes.
 
 New creation rules provide a complete default point-build path for all six
 ancestries. Human random generation is also included. Nonhuman random dice
@@ -39,11 +45,11 @@ not consult it to finish a point-built character. Mandatory innate costs,
 trading pool points, Shaping access and starting IP are accounted for, not waived.
 The Ilan example verifies all four pools, starting Talents and derived values.
 
-The Talent catalogue includes **all 55 current Talents**, once each, with exact
+The Talent catalogue includes **all 56 current Talents**, once each, with exact
 costs, prerequisites and activation metadata read from the working rules. Effects
 are concise player summaries. Magical Talents sit beside the Shaping rules, not
 in a disconnected appendix. Passive/action/Reaction conventions precede the
-catalogue. The current Steady Casting and Shaping Expertise drafts are included.
+catalogue. Deadly Precision, added to the rules after v04, is included.
 
 Shaping introduces permissions before construction, explains Intensity before
 the outcome lookup, and places the two worked builds after Range/Duration/Reach.
@@ -53,12 +59,12 @@ and player-facing rituals, summons and enchanted-item rules.
 
 ## Coverage and limits
 
-All 23 original mundane module IDs remain represented. Existing v03 diagrams
-and condensed rules retain the paid Reaction against an initial grapple,
-one base Dodge, off-hand limits, Critical defence outcomes, wound countdown,
-healing limits and all four Hero Point uses. Intimidate stays brief. Blanket
-prone ranged penalties are not introduced. Weapon and armour values are checked
-against the canonical tables: 24 close profiles, 12 ranged profiles, five armours.
+All 23 original mundane module IDs remain represented. The condensed rules
+retain the paid Reaction against an initial grapple, one base Dodge, off-hand
+limits, Critical defence outcomes, wound countdown, healing limits and all four
+Hero Point uses. Intimidate stays brief. Blanket prone ranged penalties are not
+introduced. Weapon and armour values are checked against the canonical tables:
+24 close profiles, 12 ranged profiles, five armours.
 
 This edition adds PC adventuring procedures that matter at the table: relevant
 skill uses, tool requirements, carrying capacity, travel, fatigue, light,

@@ -14,7 +14,7 @@ sources:
 
 # Cover & Defence
 
-**Cover changes the attack.** An aware defender may React only after a hit.
+**Cover changes the attack.** An aware defender can React only after a hit.
 
 ## Terrain cover
 
@@ -41,10 +41,9 @@ while you wield a weapon with both hands.
 **Ordinary hit:** winning Dodge avoids it; winning Parry blocks by Size.
 Any ready shield fully blocks a **Light** projectile when it wins.
 
-**Critical hit:** ordinary defence success demotes it to an ordinary hit, with
-normal rolled damage and eligible bonuses, then armour, with no avoidance or
-Parry reduction. **Winning Critical defence** stops it,
-regardless of Size.
+**Critical hit:** an ordinary successful defence demotes it to an ordinary hit:
+normal damage and bonuses, then armour, with no Parry reduction. A **winning
+Critical defence** stops it, regardless of Size.
 
 ## Extra guard
 

@@ -2,7 +2,8 @@
 title: Better Rolls, Shared Tests
 modules: [3, 4]
 layout: compact
-diagram: bonus
+diagram: print-bonus-penalty
+diagram_alt: 'Units die 5 and tens dice 2 and 6 give 25 or 65. At 70% both succeed, so a Bonus die keeps 65 and a Penalty die keeps 25. At 60%, 65 fails, so a Bonus die keeps 25 and a Penalty die keeps 65.'
 ---
 
 # Better Rolls, Shared Tests
@@ -32,7 +33,7 @@ number. Ordinary attacks use attack-then-Reaction (page 7); grappling is opposed
 ## Helping: one combined bonus
 
 Useful, timely help gives **+1B total**, not per helper. Assistants normally need
-**26% or more** in the relevant skill. Exceptional combined help may give **+2B**.
+**26% or more** in the relevant skill. Exceptional combined help can give **+2B**.
 
 ## Editorial notes
 

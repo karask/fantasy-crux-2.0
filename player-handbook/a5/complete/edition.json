@@ -1,5 +1,5 @@
 {
-  "version": "v04",
+  "version": "v05",
   "pages": [
     ["cover", "content/01-cover.md", "PLAYER GUIDE", 1],
     ["welcome", "content/02-character.md", "START HERE", 2],

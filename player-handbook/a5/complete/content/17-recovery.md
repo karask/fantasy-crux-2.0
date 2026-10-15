@@ -10,7 +10,7 @@ layout: recovery
 
 ## Treat and recover
 
-**Ordinary damage:** after an encounter, a patient who is **not Wounded** may
+**Ordinary damage:** after an encounter, a patient who is **not Wounded** can
 receive **one Healing attempt before their next full rest**. Success restores
 **1D4 HP**, up to maximum. One attempt per patient, even if it fails.
 
@@ -36,7 +36,7 @@ from that hit. It creates no Major Wound needing Surgery. Existing conditions re
 Awaken after the scene at **1 HP**; existing Wounded remains.
 
 **Story benefit:** with GM approval, add a plausible favourable detail or
-coincidence. Larger benefits may cost several points; companions may contribute.
+coincidence. Larger benefits can cost several points; companions can contribute.
 
 **Separate effects:** with 5 HP and MWL 6, taking 7 damage needs **two points**
 to both downgrade the Major Wound and Avoid Death. Mark spent points off your sheet.

@@ -29,11 +29,11 @@ least 7. The usual point-creation maximum is 18, or a lower racial maximum.
 | Ancestry   | STR | CON | DEX | SIZ | INT | POW | CHA |
 | ---------- | --- | --- | --- | --- | --- | --- | --- |
 | Human      | 21  | 21  | 21  | 21  | 21  | 21  | 21  |
-| Elf        | 18  | 21  | 27  | 18  | 27  | 21  | 21  |
-| Dwarf      | 27  | 27  | 21  | 18  | 21  | 21  | 21  |
-| Orc        | 27  | 21  | 21  | 24  | 18  | 18  | 21  |
-| Goblin     | 18  | 18  | 27  | 15  | 21  | 18  | 21  |
-| Lizardfolk | 27  | 21  | 18  | 21  | 21  | 21  | 21  |
+| Elf        | 18  | 21  | 24  | 18  | 24  | 21  | 21  |
+| Dwarf      | 24  | 24  | 18  | 18  | 21  | 21  | 21  |
+| Orc        | 24  | 24  | 21  | 24  | 18  | 18  | 18  |
+| Goblin     | 18  | 21  | 24  | 15  | 24  | 21  | 21  |
+| Lizardfolk | 24  | 24  | 18  | 21  | 21  | 21  | 18  |
 
 SIZ normally cannot be improved with IP, even when its maximum is higher.
 

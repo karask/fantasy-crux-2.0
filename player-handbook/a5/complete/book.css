@@ -61,9 +61,7 @@ footer {
 }
 h1,
 h2,
-.diagram-card strong,
-figcaption,
-.diagram-title {
+figcaption {
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
 }
@@ -156,96 +154,19 @@ figcaption span + span {
   border-top: 0.65mm solid var(--teal);
   break-inside: avoid;
 }
-.diagram-row {
-  display: flex;
-  align-items: stretch;
-  gap: 1.7mm;
+.svg-diagram {
+  padding: 2mm;
 }
-.diagram-row + .diagram-row {
-  margin-top: 2mm;
-}
-.diagram-card {
-  flex: 1;
-  padding: 1.3mm;
-  border-left: 0.6mm solid var(--line);
-  min-width: 0;
-}
-.diagram-card span {
+.svg-diagram svg {
   display: block;
-  font:
-    700 10pt 'Barlow Condensed',
-    sans-serif;
-  line-height: 1.05;
-}
-.diagram-card strong {
-  display: block;
-  font-size: 16pt;
-  line-height: 1.03;
-  margin-top: 0.7mm;
-}
-.diagram-card.good {
-  border-color: var(--teal);
-}
-.diagram-card.bad {
-  border-color: var(--oxide);
-}
-.diagram-card.good strong {
-  color: var(--teal);
-}
-.diagram-card.bad strong {
-  color: var(--oxide);
-}
-.diagram-title {
-  font-size: 11pt;
-  line-height: 1.1;
-  margin-bottom: 1.7mm;
-}
-.diagram-note {
-  font-size: 11pt;
-  line-height: 1.13;
-  margin-top: 1.5mm;
-}
-.die {
-  text-align: center;
-  flex: 1;
-}
-.die span {
-  display: block;
-  font:
-    700 11pt 'Barlow Condensed',
-    sans-serif;
-}
-.die b {
-  display: block;
-  width: 15mm;
-  margin: 1mm auto;
-  padding: 1mm;
-  border: 1mm solid var(--ink);
-  font:
-    500 22pt 'IBM Plex Mono',
-    monospace;
-}
-.dice-example .diagram-row:first-child {
-  align-items: center;
-}
-.dice-example .diagram-row:first-child .diagram-card strong {
-  font-size: 38pt;
+  width: var(--diagram-width, 100%);
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 .dice .diagram {
   padding: 3mm;
   margin-bottom: 3mm;
-}
-.or {
-  align-self: center;
-  color: var(--oxide);
-  font:
-    700 16pt 'Barlow Condensed',
-    sans-serif;
-}
-.position-diagram svg {
-  display: block;
-  width: 100%;
-  height: 17mm;
 }
 footer {
   position: absolute;
@@ -325,9 +246,6 @@ footer {
 .defence .art-window {
   height: 26mm;
 }
-.defence .diagram-card strong {
-  font-size: 14pt;
-}
 .offhand .art-window,
 .movement .art-window {
   height: 45mm;
@@ -358,15 +276,9 @@ footer {
 .wounds .scene img {
   object-position: center 47%;
 }
-.wounds .diagram-card strong {
-  font-size: 14pt;
-}
 .outcomes .diagram {
   padding: 2mm;
   margin: 2mm 0;
-}
-.outcomes .diagram-card strong {
-  font-size: 24pt;
 }
 .outcomes .rule-block:nth-child(2),
 .outcomes .rule-block:nth-child(3) {
@@ -596,9 +508,6 @@ tbody td:first-child {
 .dice .rules {
   gap: 1mm;
 }
-.dice-example .diagram-row:first-child .diagram-card strong {
-  font-size: 30pt;
-}
 .movement .art-window {
   height: 33mm;
 }
@@ -668,8 +577,13 @@ tbody td:first-child {
 .talent-entry p + p {
   margin-top: 1.1mm;
 }
-.guide .diagram-card strong {
-  font-size: 17pt;
+.defence table th:first-child {
+  width: 34%;
+}
+.defence table td,
+.defence table th {
+  padding-top: 0.75mm;
+  padding-bottom: 0.75mm;
 }
 .dial-tables .rules {
   gap: 1.3mm;

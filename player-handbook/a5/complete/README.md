@@ -1,17 +1,19 @@
 # Complete A5 spiral handbook
 
-Expanded review edition **v04, 9 September 2026**. A player can now create a
-character from scratch, play, improve, choose Talents and use Shaping. The guide
-keeps short, subject-led pages and the established visual design. It is a
-player-facing adaptation of the current working rules, not a replacement for
-their authoritative text. Earlier PDFs remain intact as historical snapshots.
+Review edition **v05, 15 October 2026**. A player can create a character from
+scratch, play, improve, choose Talents and use Shaping. v05 follows the
+plain-English rewrite of the website rules: the same mechanics in shorter
+sentences, the rulings made during that rewrite, and a new set of generated
+diagrams. The guide keeps short, subject-led pages and the established visual
+design. It is a player-facing adaptation of the current rules, not a replacement
+for their authoritative text. Earlier PDFs remain intact as historical snapshots.
 
 ## Open the handbook
 
-- [Reading PDF, with navigation bookmarks](output/pdf/fantasy-crux-player-handbook-v04-reading.pdf)
-- [A4 duplex cut-and-stack print PDF](output/pdf/fantasy-crux-player-handbook-v04-a4-cut-stack.pdf)
+- [Reading PDF, with navigation bookmarks](output/pdf/fantasy-crux-player-handbook-v05-reading.pdf)
+- [A4 duplex cut-and-stack print PDF](output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf)
 - [Page map and scope](CONTENT-MAP.md)
-- [Verification record](review/REVIEW-v04.md)
+- [Verification record](review/REVIEW-v05.md)
 - [Core reference cards](../../reference-cards/README.md)
 - [Shaping reference cards](../../shaping-reference-cards/README.md)
 - [Artwork provenance](art/README.md)
@@ -45,7 +47,8 @@ shop's requirements first. No physical print-and-punch test was performed.
 There are no production labels on the pages. If your printer reverses output
 order, restore sheet order before cutting.
 
-Rules text is 11 pt; tables and Talent metadata are 10 pt. The licence is 7.2 pt.
+Rules text is 11 pt; tables and Talent metadata are 10 pt. Diagram text is at
+least 10 pt, and its uppercase labels at least 9 pt. The licence is 7.2 pt.
 Text remains selectable and illustrations are embedded. Use the PDF for printing.
 
 ## Refine individual pages
@@ -56,13 +59,18 @@ There is one Markdown file per player page. The two ranged pages still read
 `../content/ranged-attacks.md` and `../content/cover-and-defence.md` directly.
 `## Editorial notes` separates production guidance from player copy and never prints.
 
-Frontmatter selects artwork, diagrams, canonical sources and Talent slugs.
+Frontmatter selects artwork, a diagram, canonical sources and Talent slugs.
 The renderer inserts each Talent's exact cost, prerequisites and activation
 from its canonical frontmatter; its concise player explanation stays editable.
 Use `{{ref:page-id}}` for automatic page references. Legacy numeric references
 are remapped through their previous folios.
 
-`book.css` holds the shared print design; `diagrams.mjs` contains editable diagrams.
+`book.css` holds the shared print design. Diagrams are SVG files generated with
+the website's diagram kit: the print versions in `diagrams/` come from
+`scripts/diagrams/handbook.mjs`, and a page may also use any website diagram in
+`src/assets/diagrams/`. Name one with `diagram:` and describe its rule in
+`diagram_alt:`. The page text must state every rule the diagram shows. After
+changing a generator, run `npm run diagrams:build`.
 The artwork is reused from the website, existing handbook masters and prototype.
 Rules and labels are not baked into AI images. No new illustrations were needed
 for this edition. All source and asset hashes are recorded in the manifest.
@@ -72,14 +80,15 @@ for this edition. All source and asset hashes are recorded in the manifest.
 From the repository root:
 
 ```sh
+npm run diagrams:build
 node player-handbook/validate.mjs
-node player-handbook/a5/complete/render.mjs v04
-node player-handbook/a5/complete/verify.mjs v04
-python3 -B player-handbook/a5/complete/assemble.py v04
+node player-handbook/a5/complete/render.mjs v05
+node player-handbook/a5/complete/verify.mjs v05
+python3 -B player-handbook/a5/complete/assemble.py v05
 python3 -B player-handbook/a5/test_cut_stack.py
-pdftoppm -r 110 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v04-reading.pdf player-handbook/a5/complete/tmp/pdfs/v04-reading
-pdftoppm -r 90 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v04-a4-cut-stack.pdf player-handbook/a5/complete/tmp/pdfs/v04-print
-python3 -B player-handbook/a5/complete/review/contact-sheets.py v04
+pdftoppm -r 110 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v05-reading.pdf player-handbook/a5/complete/tmp/pdfs/v05-reading
+pdftoppm -r 90 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf player-handbook/a5/complete/tmp/pdfs/v05-print
+python3 -B player-handbook/a5/complete/review/contact-sheets.py v05
 ```
 
 The renderer uses installed Chrome/Playwright dependencies. Python needs
@@ -87,14 +96,15 @@ ReportLab, pypdf, pdfplumber and Pillow. On this machine the bundled interpreter
 `/home/kos/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`.
 Use a new version number for later review editions.
 
-Checks cover original module retention, all 55 current Talents, all general
+Checks cover original module retention, all 56 current Talents, all general
 skill bases, ancestry point spreads/maxima, the worked creation example,
-equipment values, source hashes, page references, font sizes, binding margins,
-overflow, fonts/images and automated HTML accessibility. The assembler checks
+equipment values, source hashes, page references, font sizes (diagram text
+included), binding margins, overflow, fonts/images and automated HTML
+accessibility. The assembler checks
 all player text survives, the complete two-page licence, dimensions, actual
 text clearances and every physical cut-and-stack slot. Always visually inspect
 all final PDF pages too; extraction does not replace visual review.
 
 Final PDFs are in `output/pdf/`; intermediates and final-page renders are in
-`tmp/pdfs/`. The unchanged source licence is `../../LICENSE.md`. These are local
-review deliverables: this update neither commits nor publishes the handbook.
+`tmp/pdfs/`. The unchanged source licence is `../../LICENSE.md`. The PDFs are
+review deliverables committed with their sources; the website does not publish them.

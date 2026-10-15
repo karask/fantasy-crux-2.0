@@ -12,7 +12,7 @@ caption: 'HELD: BOTH -1P · NO MOVEMENT ACTIONS'
 
 ## Seize: Combat Action
 
-Choose an adjacent target and commit one free hand. An aware target may spend
+Choose an adjacent target and commit one free hand. An aware target can spend
 **one eligible Reaction** before opposing your **Unarmed Combat** with **Dodge
 or Parry**. Dodge uses the base Reaction, once per round. Parry uses Close
 Combat with a ready weapon/shield, or Unarmed Combat empty-handed.
@@ -23,7 +23,7 @@ Unarmed Combat test instead. A failed attempt leaves your hand free.
 ## While held together
 
 Neither participant can take a Movement Action, and **both suffer -1P on every
-test**. They may attack or Parry only with Unarmed Combat or a ready **Light
+test**. They can attack or Parry only with Unarmed Combat or a ready **Light
 one-handed weapon**. A hand used to hold cannot attack, Parry or count as an
 off-hand.
 
@@ -31,7 +31,7 @@ off-hand.
 
 The held participant spends a Combat Action and wins **Unarmed Combat versus
 Unarmed Combat**; the controller's opposing roll costs no Reaction. The
-controller may release freely on their turn. Escape or release leaves both
+controller can release freely on their turn. Escape or release leaves both
 adjacent and frees the committed hand.
 
 Only one controller can hold a target. The GM handles unusual Size, anatomy,

@@ -2,7 +2,8 @@
 title: Roll & Read the Dice
 modules: [2]
 layout: dice
-diagram: percentile
+diagram: print-d100-grades
+diagram_alt: 'With a skill of 60%, rolls 01 to 06 are Critical, 07 to 60 succeed, 61 to 98 fail, and 99 or 00 fumble.'
 ---
 
 # Roll & Read the Dice
@@ -32,7 +33,7 @@ compare **grade first** (page 4).
 ## Other dice and measures
 
 **2D6+2:** total two six-sided dice, then add 2. D gives the die's sides.
-Distances use metres; a grid square may represent 2 m.
+Distances use metres; a grid square can represent 2 m.
 Round ordinary fractions to the nearest whole number, **halves up**.
 The Critical threshold specifically rounds **down**.
 

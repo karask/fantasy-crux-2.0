@@ -29,7 +29,7 @@ Agree a place in the campaign with the GM and other players. There are no classe
 
 A human starts at **8 in each score**. Other ancestries start with the spread
 on {{ref:ancestries}}. Add **30 points**; lowering scores returns points to spend.
-Finish with **INT and SIZ at least 7**, all others at least **3**. No score may
+Finish with **INT and SIZ at least 7**, all others at least **3**. No score can
 exceed **18 or its racial maximum, whichever is lower**.
 
 All point-built characters start with **86 characteristic points in total**.
@@ -39,7 +39,7 @@ Remember weapon STR/DEX requirements when choosing your scores.
 
 With the group's agreement, instead roll **4D6, drop the lowest** for STR, CON,
 DEX, POW and CHA. For INT and SIZ, roll **3D6, drop the lowest, add 6**.
-After all seven rolls, you may swap one pair. Nonhuman random generation uses
+After all seven rolls, you can swap one pair. Nonhuman random generation uses
 the campaign's racial dice, not these human rolls.
 
 ## Editorial notes

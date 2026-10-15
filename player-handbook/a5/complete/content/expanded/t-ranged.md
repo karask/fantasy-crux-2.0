@@ -30,7 +30,7 @@ only one of the two attacks.
 ## Rapid Shot
 
 Spend your Combat Action and **forfeit all Reactions** for the round to make
-**two bow or sling attacks at -1P each**. Resolve them one at a time; they may
+**two bow or sling attacks at -1P each**. Resolve them one at a time; they can
 have different targets. The weapon must be ready for the first shot; this Talent
 includes loading the second missile.
 

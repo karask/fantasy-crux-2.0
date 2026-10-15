@@ -1,0 +1,45 @@
+{
+  "version": "v05",
+  "playerPages": 66,
+  "talentCount": 56,
+  "generalSkills": 23,
+  "skillBaseRowsChecked": 26,
+  "ancestryRowsChecked": 12,
+  "creationExample": {
+    "characteristicTotal": 86,
+    "pools": {
+      "Resistances": 50,
+      "Combat": 50,
+      "Knowledge": 50,
+      "Practical": 75
+    },
+    "ipSpent": 10,
+    "finalSkills": {
+      "Dodge": 54,
+      "Persistence": 30,
+      "Resilience": 33,
+      "Close Combat": 58,
+      "Ranged Combat": 37,
+      "Unarmed Combat": 38,
+      "Culture (own)": 33,
+      "Natural Lore": 43,
+      "Lore (own field)": 43,
+      "Athletics": 48,
+      "Deception": 42,
+      "Perception": 43,
+      "Healing": 33,
+      "Mechanisms": 37
+    },
+    "attributes": {
+      "HP": 13,
+      "MWL": 7,
+      "PP": 10,
+      "CO": 13,
+      "capacity": 26,
+      "DM": "+1D4"
+    }
+  },
+  "shaperBudgetVerified": true,
+  "buildExamplesVerified": true,
+  "sourceHashesVerified": true
+}

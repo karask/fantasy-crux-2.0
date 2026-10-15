@@ -26,10 +26,10 @@ does **not** need to hit.
 
 ## Extra defence: reserve the item
 
-Keep the other item for one additional **Parry or Opportunity Attack at -1P**.
-This extra Reaction **cannot Dodge**. Your base Reaction remains available
-with either choice; a base shield Parry has **no inherent off-hand penalty**.
-Other situational penalties still apply.
+Keep the other item for one additional **Parry or Opportunity Attack at -1P**;
+the Parry can be an Active Guard ({{ref:cover-defence}}). It **cannot Dodge**.
+Your base Reaction stays available either way; a base shield Parry has **no
+off-hand penalty**, though situational penalties still apply.
 
 ## One choice, not both
 

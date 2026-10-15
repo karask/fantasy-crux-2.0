@@ -30,14 +30,14 @@ Both give **leather armour, one ranged weapon and a dagger**. Add either:
 - **One two-handed close-combat weapon**, or
 - **One shield and one one-handed close-combat weapon**.
 
-Check STR/DEX requirements. A Flex weapon may be used with one or two hands;
+Check STR/DEX requirements. A Flex weapon can be used with one or two hands;
 ask the GM which starting package it fills. Weapons and armour: {{ref:close-a}}-{{num:armour}}.
 
 ## Pack and purse
 
 Also take a **backpack, 10 m rope, two weeks of travelling provisions, flint
 and tinder, and a waterskin**. Roll **4D6 × 10 SP** for starting money; the GM
-may allow purchases before play. Confirm ammunition and any specialist kit.
+can allow purchases before play. Confirm ammunition and any specialist kit.
 
 **100 CP = 10 SP = 1 GP.** Check the website equipment list for additional goods
 and local availability; free starting equipment does not spend your silver.

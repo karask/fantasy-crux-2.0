@@ -8,18 +8,18 @@ sources:
 
 # Defend Against Magic
 
-**Shaping is opposed**, unlike weapon attacks. The caster must succeed and
-win; a winning shield guard instead uses Size.
+**Every defence is an opposed test** against the original Shaping result, with
+no critical demotion. The caster must succeed and win; a winning Active Guard uses Size.
 
 ## Match the incoming method
 
-| Effect                              | Defence                                                                 |
-| ----------------------------------- | ----------------------------------------------------------------------- |
-| Individual projection               | **Dodge -1P or ready shield guard -1P**, spending an eligible Reaction. |
-| Avoidable area                      | **Dodge -1P**; no shield guard.                                         |
-| Bodily/material change or restraint | **Resilience**, no Reaction cost.                                       |
-| Mind/soul effect                    | **Persistence**, no Reaction cost.                                      |
-| Self / willing / unattended         | No defence.                                                             |
+| Effect                              | Defence                                                               |
+| ----------------------------------- | --------------------------------------------------------------------- |
+| Individual projection               | **Dodge -1P or Active Guard -1P** with a shield, spending a Reaction. |
+| Avoidable area                      | **Dodge -1P**; no Active Guard.                                       |
+| Bodily/material change or restraint | **Resilience**, no Reaction cost.                                     |
+| Mind/soul effect                    | **Persistence**, no Reaction cost.                                    |
+| Self / willing / unattended         | No defence.                                                           |
 
 Dodge uses the base Reaction, once per round. Each subject defends separately;
 same-defence outcomes against one subject share a roll. Ongoing areas store the
@@ -39,10 +39,10 @@ Mind never deals HP damage. Critical Shaping uses normal effect dice and protect
 ## Shields: each outcome has an Impact Size
 
 **I1 Light · I2 Medium · I3 Heavy · I4 Huge · I5 Beyond Huge.**
-Winning guard: same/larger blocks the outcome; one smaller halves its damage;
-two smaller blocks none. A winning Critical guard blocks all. A separate
+Winning Active Guard: same/larger blocks the outcome; one smaller blocks half its
+damage, rounded up; two smaller block none. A winning Critical guard blocks all. A separate
 non-damage outcome needs its own successful Size block. No weapons against magic.
-Shield Cover/Missile Guard work as stated; Counter is on {{ref:magic-training}}.
+Counter: {{ref:magic-training}}.
 
 ## Editorial notes
 

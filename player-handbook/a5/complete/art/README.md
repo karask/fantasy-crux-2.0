@@ -28,6 +28,6 @@ weapon still life and armour comparison. The two prior ranged illustrations are
 unchanged. Their source paths and hashes, along with the page-by-page selections,
 are recorded in `../review/manifest-v01.json`.
 
-Native diagrams in `../diagrams.mjs` explain exact rolls and action costs. They
+Generated SVG diagrams in `../diagrams/` explain exact rolls and action costs. They
 are intentionally typeset graphics, not replacement fantasy-illustration assets.
 The final PNG pages integrate the art with sharp, editable rule text.

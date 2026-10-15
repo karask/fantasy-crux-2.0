@@ -36,7 +36,7 @@ genuinely unavailable goods do not appear.
 ## Tactician
 
 An army you command takes **half normal battle casualties**. When your beaten
-force passes its rout test, it may keep fighting rather than withdraw; other
+force passes its rout test, it can keep fighting rather than withdraw; other
 commanders need a Critical. The GM handles the battle procedure.
 
 ## Editorial notes

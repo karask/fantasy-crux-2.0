@@ -13,11 +13,11 @@ captionRight: 'CHARGE HIT: +1D6 DAMAGE'
 
 ## Disengage or Withdraw
 
-**Disengage:** Movement Action to leave; an enemy in reach may make an
+**Disengage:** Movement Action to leave; an enemy in reach can make an
 Opportunity Attack.
 
 **Withdraw:** Combat + Movement Actions; move normally without those Opportunity
-Attacks. Keep your base Reaction.
+Attacks. Keep your base Reaction and any extra off-hand Reaction.
 
 ## Sprint
 

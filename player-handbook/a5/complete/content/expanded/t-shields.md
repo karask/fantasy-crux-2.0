@@ -8,7 +8,7 @@ sources:
 
 # Protect With a Shield
 
-Use a **ready shield**. Only one Reaction may answer an attack; a Talent never
+Use a **ready shield**. Only one Reaction can answer an attack; a Talent never
 makes a shield available while both hands are using another weapon.
 
 ## Shield Cover

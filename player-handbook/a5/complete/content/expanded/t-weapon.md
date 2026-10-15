@@ -1,42 +1,40 @@
 ---
 title: Train With a Weapon
 layout: talents
-talents: [favoured-weapon, signature-weapon, weapon-expertise]
+talents: [favoured-weapon, signature-weapon, weapon-expertise, deadly-precision]
 sources:
   - src/content/rules/talents/index.md
 ---
 
 # Train With a Weapon
 
-Choose an **exact weapon type**, not one physical item. These Talents can be
-bought again for different weapon types, never twice for the same choice.
+Each applies to one **exact weapon type**; buy it again for other types, never twice for one.
 
 ## Favoured Weapon
 
-Add **1 damage** to every damaging attack with that type, before Parry and armour.
-Both Close and Ranged profiles qualify, including shields and primitive versions.
-No benefit for improvised-club use, unarmed/natural attacks or Shaping.
-
-No bonus when normal damage is replaced: Disarm, Trip, Shield Rush, Subdue or
-a hit that remains Critical. An ordinary successful Dodge or Parry demotes a
-Critical to an ordinary hit: roll normal damage, including this bonus.
+Add **1 damage** to every damaging attack with that type, before Parry and armour:
+Close and Ranged profiles, shields and primitive versions, not improvised, unarmed,
+natural or Shaping attacks. No bonus when Disarm, Trip, Shield Rush or Subdue
+replaces damage, or the hit stays Critical; a demoted Critical gets it.
 
 ## Signature Weapon
 
-For a type already covered by Favoured Weapon, increase its bonus **from +1 to
-+2 damage**, not +3. All Favoured Weapon restrictions remain.
+For a type already covered by Favoured Weapon, the bonus becomes **+2 damage**,
+not +3. All Favoured Weapon restrictions remain.
 
 ## Weapon Expertise
 
-Before an eligible normal attack, Parry, Active Guard or Opportunity Attack,
-declare this Talent. After ordinary cancellation, before the cap, remove **one
-remaining Penalty die**. It never creates a Bonus.
+Declare it before an eligible normal attack, Parry, Active Guard or Opportunity
+Attack. After ordinary cancellation, before the cap, remove **one remaining
+Penalty die**; never create a Bonus. Use it **once per round across all
+purchases**, with an actual unmodified skill of **76%+**. Unarmed Combat, natural
+weapons, Shaping, improvised use, Rapid Shot and off-hand options are ineligible.
 
-Use it **once per character per round across all purchases**, once on that test.
-The actual unmodified combat skill used must be **76%+**. Shields and primitive
-versions qualify; Unarmed Combat, natural weapons, Shaping and improvised use do not.
+## Deadly Precision
 
-**Rapid Shot and every extra off-hand attack or Reaction are ineligible.**
+With all three Talents above for a type, once per round before a damaging attack,
+**double your normal critical range** (01-14 at 76%, 01-20 at 100%), also when grading
+Bonus or Penalty candidates. Not for Parry, Active Guard, unarmed or Shaping.
 
 ## Editorial notes
 

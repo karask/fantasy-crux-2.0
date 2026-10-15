@@ -32,13 +32,14 @@ Winning **does not restore missed Actions**; it does not require being conscious
 
 **Example:** bind, stored success 42. Resilience 60% rolls 55: success and higher,
 so you escape. The Shaper does not reroll.
-Magical sleep may instead end on damage or an adjacent ally's waking Combat Action.
+Magical sleep can instead end on damage or an adjacent ally's waking Combat Action.
 
 ## Control and restoration
 
 I1 can colour emotion; I2 compels a limited reasonable act, not a combat Action,
 tactical disadvantage or action against interests. Such compulsion needs I3.
-Compelled acts use the subject's own turn and Action. Full control needs the
+Compelled acts use the subject's own turn and Action. An unwilling subject you
+move by active control goes at most **3 m per round**. Full control needs the
 Shaper's Combat Action; serious self-harm, defining betrayal or violated central
 belief gives another Persistence defence. Certain death always does.
 

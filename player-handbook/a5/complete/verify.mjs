@@ -65,8 +65,8 @@ for (const row of skillRows) {
     `Wrong skill base: ${row[0]}`,
   );
 }
-assert.equal(skillRows.length, 27, '24 general skills with own/other subject bases');
-assert.equal(new Set(skillRows.map((row) => row[0])).size, 27);
+assert.equal(skillRows.length, 26, '23 general skills with own/other subject bases');
+assert.equal(new Set(skillRows.map((row) => row[0])).size, 26);
 const racialRows = rows(await read('src/content/rules/gm-tools/fantasy-races.md'));
 const ancestryRows = rows(copy.get('ancestries')).filter(
   (row) => row.length === 8 && row[0] !== 'Ancestry',
@@ -164,7 +164,7 @@ const report = {
   version,
   playerPages: edition.pages.length,
   talentCount: included.length,
-  generalSkills: 24,
+  generalSkills: 23,
   skillBaseRowsChecked: skillRows.length,
   ancestryRowsChecked: ancestryRows.length,
   creationExample: {

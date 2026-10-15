@@ -25,8 +25,9 @@ The GM handles wind and other difficult conditions.
 
 - Target prone, flanked or attacked from behind: **attack +1B**.
 - Target helpless: **automatic Critical attack**.
-- Higher ground: the advantaged **attacker or defender +1B**.
-- You are prone: **melee attack or defence -1P**.
+- Higher ground: **+1B** to that attacker's or defender's own roll.
+- You are prone: **-1P** to your melee attack or defence. A prone defender gives
+  the attacker +1B and takes -1P on its Reaction.
 - You are on unstable ground: **-1P to the affected test**.
 
 ## Behind does not mean unnoticed

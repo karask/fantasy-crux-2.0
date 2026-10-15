@@ -30,7 +30,7 @@ Failure above Safe is still overreach. Use normal PP payment results.
 
 Willing participants stay and join Practice. Pledge full M in a declared order;
 the leader pledges at least 1 PP and pays the first point. Critical leaves unused
-pledges unspent. One capable Shaper may Assist; only the leader rolls and suffers
+pledges unspent. One capable Shaper can Assist; only the leader rolls and suffers
 Backlash. A Fumble also advances every contributor one Fatigue step; already
 Exhausted means unconscious 3D6 minutes, waking Fatigued.
 

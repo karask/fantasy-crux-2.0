@@ -36,7 +36,7 @@ If equipment changes, update that value. **SP:** Silver Pieces.
 
 - **SIZ 1-5:** half listed cost and ENC.
 - **SIZ 21+:** double listed cost and ENC.
-- **Ill-fitting plate:** may be worn at double ENC. Other armour must fit
+- **Ill-fitting plate:** can be worn at double ENC. Other armour must fit
   well enough for the GM to allow it.
 
 ## Editorial notes

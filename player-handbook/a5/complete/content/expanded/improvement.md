@@ -10,7 +10,7 @@ sources:
 
 Spend earned **Improvement Points between adventures**. Unspent IP carry forward.
 The GM awards them for progress and achievements; three months of suitable
-practice/research may earn 1 IP with approval.
+practice/research can earn 1 IP with approval.
 
 ## Buy an improvement
 
@@ -37,7 +37,7 @@ magical Talents appear beside the Shaping rules.
 **Passive:** applies when its conditions hold. **Action:** spends your Combat
 Action. **Reaction:** spends the Reaction its text names.
 
-Only **one action Talent** may modify an attack. That attack is not a standard
+Only **one action Talent** can modify an attack. That attack is not a standard
 attack for an extra off-hand attack. Passive Talents still apply when eligible.
 Forfeiting **all Reactions** includes both base and extra Reactions.
 

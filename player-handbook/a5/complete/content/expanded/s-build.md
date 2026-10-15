@@ -1,11 +1,12 @@
 ---
 title: Build an Effect
 layout: guide build-guide
-diagram: shaping
 sources:
   - src/content/rules/magic/building-a-shaping.md
   - src/content/rules/magic/effects.md
   - src/content/rules/magic/rituals-and-examples.md
+diagram: print-shaping-formula
+diagram_alt: 'Magnitude is the sum of each outcome's Intensity, Range, Duration, Reach, and adjustments. A 2D6 firebolt within 15 metres is Intensity 2 plus Range 1: Magnitude 3.'
 ---
 
 # Build an Effect
@@ -15,7 +16,7 @@ for [Duration]**. The GM confirms the build and defence before you roll.
 
 ## Choose the outcome first
 
-**Intensity (I)** buys strength: choose a benchmark on {{ref:outcomes}}-{{num:conditions}}.
+**Intensity (I)** buys strength (benchmarks: {{ref:outcomes}}-{{num:conditions}}).
 **I2 healing restores 2D4 HP per target.** Then set Range, Duration and Reach.
 
 Pay each distinct outcome's I and shared dials once. **Confluence** permits two
