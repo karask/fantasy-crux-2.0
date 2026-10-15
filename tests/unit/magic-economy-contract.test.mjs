@@ -271,7 +271,7 @@ describe('shared timing vocabulary', () => {
 
   it('forbids retroactively forfeiting an action or Reaction already spent', () => {
     expect(actions).toMatch(
-      /cannot choose[^.]*(?:forfeits?|restricts?)[^.]*(?:Action|Reaction)[^.]*already (?:used|spent)[^.]*incompatib/i,
+      /cannot choose[^.]*(?:forfeits?|gives? up|restricts?)[^.]*(?:Action|Reaction)[^.]*already (?:used|spent)[^.]*(?:incompatib|in a different way)/i,
     );
   });
 });

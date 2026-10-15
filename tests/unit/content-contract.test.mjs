@@ -229,9 +229,9 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     ).toEqual([
       ['magic.becoming-a-shaper', 'Becoming a Shaper', 'becoming-a-shaper', 10],
       ['magic.building-a-shaping', 'Building a Shaping', 'building-a-shaping', 20],
-      ['magic.techniques-and-forms', 'Forms and Techniques', 'techniques-and-forms', 30],
-      ['magic.effects', 'Effects', 'effects', 40],
-      ['magic.casting-and-defence', 'Casting and Defence', 'casting-and-defence', 50],
+      ['magic.casting-and-defence', 'Casting and Defence', 'casting-and-defence', 30],
+      ['magic.techniques-and-forms', 'Forms and Techniques', 'techniques-and-forms', 40],
+      ['magic.effects', 'Effects', 'effects', 50],
       [
         'magic.ongoing-and-magical-actions',
         'Ongoing Shapings and Magical Actions',
@@ -246,9 +246,17 @@ describe('canonical Fantasy Crux 2.0 content', () => {
     expect(existsSync(path.resolve('freeform-magic/FC-magic-shaping-potential-1.md'))).toBe(false);
   });
 
-  it('contains no generic image or raw-HTML markup', () => {
+  it('contains no raw HTML and embeds only generated diagrams, each with alt text', () => {
     for (const record of records) {
-      expect(record.content, record.file).not.toMatch(/!\[[^\]]*\]\(|<\/?[a-z][^>]*>/i);
+      expect(record.content, record.file).not.toMatch(/<\/?[a-z][^>]*>/i);
+      for (const [, alt, source] of record.content.matchAll(/!\[([^\]]*)\]\(([^)\s]+)[^)]*\)/g)) {
+        const diagram = /^(?:\.\.\/)+assets\/diagrams\/([a-z0-9-]+)\.svg$/.exec(source);
+        expect(diagram, `${record.file}: ${source}`).not.toBeNull();
+        expect(existsSync(path.resolve(`src/assets/diagrams/${diagram[1]}.svg`)), source).toBe(
+          true,
+        );
+        expect(alt.trim().length, `${record.file}: alt text for ${source}`).toBeGreaterThan(40);
+      }
     }
   });
 });

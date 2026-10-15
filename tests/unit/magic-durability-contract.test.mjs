@@ -44,8 +44,10 @@ describe('magical vitality without regeneration', () => {
     expect(effects).toMatch(/absorbs HP damage only—not PP damage/i);
     expect(effects).toMatch(/paid HP cost or sacrifice/i);
     expect(effects).toMatch(/HP loss without dealing damage/i);
-    expect(combat).toMatch(/apply it after every other applicable reduction but before actual HP/i);
-    expect(combat).toMatch(/Only damage that passes the reserve[^.]*Major Wound/i);
+    expect(combat).toMatch(
+      /apply it after every other applicable reduction,? (?:but|just) before actual HP/i,
+    );
+    expect(combat).toMatch(/Only damage that passes (?:the|a vitality) reserve[^.]*Major Wound/i);
     expect(examples).toMatch(
       /supernatural vigour[^\n]*Alter·Flesh; I2, D1[^\n]*6-point vitality reserve/i,
     );

@@ -1,3 +1,5 @@
+import { existsSync, readFileSync } from 'node:fs';
+import path from 'node:path';
 import { HtmlBasePlugin } from '@11ty/eleventy';
 import markdownIt from 'markdown-it';
 import markdownItAnchor from 'markdown-it-anchor';
@@ -6,6 +8,35 @@ import markdownItDeflist from 'markdown-it-deflist';
 import markdownItFootnote from 'markdown-it-footnote';
 import * as pagefind from 'pagefind';
 import downloads from './src/_data/downloads.mjs';
+
+const diagramDirectory = path.resolve('src/assets/diagrams');
+const diagramCache = new Map();
+
+function diagramName(source) {
+  return /(?:^|\/)assets\/diagrams\/([a-z0-9-]+)\.svg$/.exec(source ?? '')?.[1];
+}
+
+function diagramSvg(name) {
+  if (!diagramCache.has(name)) {
+    const file = path.join(diagramDirectory, `${name}.svg`);
+    if (!existsSync(file))
+      throw new Error(`Missing rules diagram ${name}.svg; run npm run diagrams:build`);
+    diagramCache.set(name, readFileSync(file, 'utf8').trim());
+  }
+  return diagramCache.get(name);
+}
+
+function escapeAttribute(value) {
+  return String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;');
+}
+
+function verdictFor(cell) {
+  const answer = cell.trim();
+  if (/^(?:Yes|All)\b/.test(answer)) return /-\d+P/.test(answer) ? 'partial' : 'yes';
+  if (/^(?:No|None)\b/.test(answer)) return 'no';
+  if (/^Half\b/.test(answer)) return 'partial';
+  return null;
+}
 
 const byOrder = (left, right) =>
   (left.data.order ?? 999) - (right.data.order ?? 999) ||
@@ -41,10 +72,65 @@ export default function configure(eleventyConfig) {
   // clause markers in the Open Game License. No rules content depends on them.
   markdown.disable('replacements');
 
-  markdown.renderer.rules.table_open = () => '<div class="table-wrap" tabindex="0"><table>';
+  markdown.renderer.rules.table_open = (tokens, index, _options, _env, self) =>
+    `<div class="table-wrap" tabindex="0"><table${self.renderAttrs(tokens[index])}>`;
   markdown.renderer.rules.table_close = () => '</table></div>';
 
+  // A table marked {.verdicts} answers "can X do Y?" questions. Tag each answer cell by its
+  // opening word so CSS can tint it; the word itself still carries the meaning.
+  markdown.core.ruler.push('verdict_cells', (state) => {
+    let inVerdictTable = false;
+    state.tokens.forEach((token, index) => {
+      if (token.type === 'table_open') {
+        inVerdictTable = (token.attrGet('class') ?? '').split(/\s+/).includes('verdicts');
+      } else if (token.type === 'table_close') {
+        inVerdictTable = false;
+      } else if (inVerdictTable && token.type === 'td_open') {
+        const verdict = verdictFor(state.tokens[index + 1]?.content ?? '');
+        if (verdict) token.attrSet('data-verdict', verdict);
+      }
+    });
+  });
+
+  // Rules prose may embed only generated diagrams, each as its own paragraph. The SVG is
+  // inlined so it uses the site's fonts; anything else fails the build.
+  markdown.core.ruler.push('rule_diagrams', (state) => {
+    state.tokens.forEach((token, index) => {
+      const images = token.children?.filter((child) => child.type === 'image') ?? [];
+      if (!images.length) return;
+      const [image] = images;
+      const name = diagramName(image.attrGet('src'));
+      const alone = token.children.every(
+        (child) => child === image || (child.type === 'text' && !child.content.trim()),
+      );
+      if (!name || !alone || state.tokens[index - 1]?.type !== 'paragraph_open') {
+        throw new Error(
+          `Rules may only embed a diagram from assets/diagrams/ as its own paragraph: ${image.attrGet('src')}`,
+        );
+      }
+      state.tokens[index - 1].hidden = true;
+      state.tokens[index + 1].hidden = true;
+      image.meta = { ...image.meta, diagram: name };
+    });
+  });
+
+  markdown.renderer.rules.image = (tokens, index) => {
+    const image = tokens[index];
+    const alt = image.children.map((child) => child.content).join('');
+    const caption = image.attrGet('title');
+    const svg = diagramSvg(image.meta.diagram).replace(
+      '<svg ',
+      `<svg class="rule-diagram__art" role="img" aria-label="${escapeAttribute(alt)}" `,
+    );
+    return (
+      `<figure class="rule-diagram" data-pagefind-ignore>${svg}` +
+      (caption ? `<figcaption>${markdown.utils.escapeHtml(caption)}</figcaption>` : '') +
+      '</figure>\n'
+    );
+  };
+
   eleventyConfig.setLibrary('md', markdown);
+  eleventyConfig.on('eleventy.before', () => diagramCache.clear());
   eleventyConfig.addWatchTarget('src/assets/');
   eleventyConfig.addWatchTarget('art/library/chapters/');
   eleventyConfig.addPassthroughCopy('CNAME');

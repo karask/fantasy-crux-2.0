@@ -749,6 +749,12 @@ h3:hover .heading-anchor,
   white-space: normal;
 }
 
+/* Short codes in table cells, such as `+1 M` or `-1P`, read as one unit. */
+.prose td code {
+  overflow-wrap: normal;
+  white-space: nowrap;
+}
+
 .talent-facts code {
   white-space: nowrap;
 }
@@ -800,6 +806,68 @@ tbody tr:nth-child(even) {
 
 tbody tr:last-child td {
   border-bottom: 0;
+}
+
+/* Answer tables: each cell opens with its answer word; the tint only reinforces it. */
+table.verdicts td[data-verdict] {
+  font-weight: 700;
+}
+
+table.verdicts td[data-verdict='yes'] {
+  background: #dbe9ee;
+}
+
+table.verdicts td[data-verdict='partial'] {
+  background: #f1e6c6;
+}
+
+table.verdicts td[data-verdict='no'] {
+  color: #6f291c;
+  background: #f3dcd3;
+}
+
+table.verdicts td[data-verdict] + td[data-verdict] {
+  border-left: 1px solid rgb(255 255 255 / 70%);
+}
+
+/* Generated rules diagrams: inline SVG so the site fonts apply; they scale down, never up. */
+.rule-diagram {
+  clear: both;
+  width: fit-content;
+  max-width: 100%;
+  margin: 1.8rem 0 2rem;
+  padding: clamp(0.6rem, 2vw, 1rem);
+  border-top: 3px solid var(--ink);
+  border-bottom: 1px solid var(--ink);
+  background: var(--bone-light);
+}
+
+.rule-diagram__art {
+  display: block;
+  width: min(100%, 30rem);
+  height: auto;
+}
+
+/* On phones, let diagrams use the page's side padding so their small labels stay legible. */
+@media (max-width: 560px) {
+  .rule-diagram {
+    width: auto;
+    /* The page keeps 1rem of side padding below 720px. */
+    max-width: none;
+    margin-inline: -0.75rem;
+    padding-inline: 0.25rem;
+  }
+
+  .rule-diagram__art {
+    width: 100%;
+  }
+}
+
+.rule-diagram figcaption {
+  max-width: 60ch;
+  margin-top: 0.6rem;
+  color: #3d4747;
+  font-size: 0.9rem;
 }
 
 .footnotes {

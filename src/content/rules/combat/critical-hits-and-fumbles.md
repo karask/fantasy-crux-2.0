@@ -5,35 +5,53 @@ chapter: combat
 title: Critical Hits and Fumbles
 slug: critical-hits-and-fumbles
 order: 70
-summary: Critical attacks overpower ordinary Reactions, while only a critical Reaction stops them completely.
+summary: A critical attack beats an ordinary Reaction; only a critical Reaction stops it completely. A fumble brings one fitting setback.
 aliases:
   - critical matrix
   - combat results
   - fumble
 ---
 
-An attack is critical when it succeeds and its `D100` result is at or below the skill's integer tens digit, minimum 01 for any skill above 0%: skill 59 has a critical range of 01–05, while skill 100 has 01–10. Below skill 100, rolls of 99 or 00 fumble; at skill 100, only 00 fumbles. A fumble overrides success.
+An attack is **critical** when it succeeds with a `D100` roll at or under the tens digit of your skill. Skill 59 is critical on 01–05 and skill 100 on 01–10; any skill above 0% is critical on at least 01. See [exact critical ranges](/rules/skills/#basic-tests--skills-critical-ranges).
 
-[Deadly Precision](/rules/talents/#deadly-precision) doubles the normal critical range for one declared, eligible damaging attack per round. Apply that expanded range when grading Bonus or Penalty dice candidates; the result still uses the matrix below.
+A roll of 99 or 00 is a **fumble** if your skill is below 100%; at 100%, only 00 fumbles. A fumble overrides success.
+
+[Deadly Precision](/rules/talents/#deadly-precision) doubles your normal critical range for one declared, eligible damaging attack each round. Use that wider range when grading Bonus or Penalty dice candidates; the result still uses the matrix below.
 
 ## Combat Result Matrix
 
-Compare the original attack and defence using opposed-test grades and tiebreakers. The ordinary defence against a critical is the explicit demotion exception.
+Compare the original attack and defence as an [opposed test](/rules/skills/#opposed-tests). The one special case is an ordinary defence against a critical attack, which demotes the hit.
 
-| Attack           | Defence                                  | Result                                                                                                                       |
-| ---------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
-| Ordinary success | None, failed, or losing ordinary defence | Roll normal damage with eligible bonuses, then armour.                                                                       |
-| Ordinary success | Winning ordinary Dodge                   | No damage.                                                                                                                   |
-| Ordinary success | Winning ordinary Parry                   | Reduce damage by Size, then armour.                                                                                          |
-| Ordinary success | Critical Dodge or Parry                  | No damage; Parry ignores Size.                                                                                               |
-| Critical         | None, failed, or losing critical defence | Maximum weapon damage plus maximum positive DM when applicable; ignore armour and other damage bonuses.                      |
-| Critical         | Ordinary successful Dodge or Parry       | Demote to an ordinary hit. Roll normal damage with eligible bonuses, then armour. Defence neither stops nor reduces the hit. |
-| Critical         | Winning critical Dodge or Parry          | No damage; Parry ignores Size.                                                                                               |
+### Against an ordinary hit {#against-an-ordinary-hit}
 
-A critical hit grants no free manoeuvre, attack, or Talent. If a Talent was declared before the roll and replaces damage with another effect, follow that Talent; the critical adds no further effect.
+| Defence                                  | Result                                            |
+| ---------------------------------------- | ------------------------------------------------- |
+| None, failed, or losing ordinary defence | Normal damage with eligible bonuses, then armour. |
+| Winning ordinary Dodge                   | No damage.                                        |
+| Winning ordinary Parry                   | Reduce damage by Size, then armour.               |
+| Critical Dodge or Parry                  | No damage. A critical Parry ignores Size.         |
 
-A hit that remains critical deals maximum weapon damage plus maximum positive Damage Modifier when normally added, ignores armour, and gains no additional damage dice or fixed damage bonuses from Actions or Talents. Ignore negative Damage Modifier.
+### Against a critical hit {#against-a-critical-hit}
 
-A critical demoted to an ordinary hit instead uses all normal damage rules, including eligible bonuses and positive or negative Damage Modifier. This demotion determines damage; do not resolve the Reaction a second time or grant an additional attack or manoeuvre.
+| Defence                                  | Result                                                                                                                  |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| None, failed, or losing critical defence | Maximum weapon damage, plus maximum positive DM when it applies. Ignore armour and other damage bonuses.                |
+| Ordinary successful Dodge or Parry       | Demoted to an ordinary hit: normal damage with eligible bonuses, then armour. The defence neither stops nor reduces it. |
+| Winning critical Dodge or Parry          | No damage. A critical Parry ignores Size.                                                                               |
 
-On a fumble, the Gamemaster applies one immediate consequence suited to the risk: fall prone, drop or damage equipment, expose the character, or endanger someone nearby. Avoid consequences that decide an entire fight without regard to the situation. Firing into a crowd has its own concise fumble rule.
+## Critical damage {#critical-damage}
+
+A hit that stays critical:
+
+- deals maximum weapon damage, plus the maximum of a positive Damage Modifier when DM normally applies;
+- ignores armour;
+- gains no extra damage dice or fixed damage bonuses from Actions or Talents; and
+- ignores a negative Damage Modifier.
+
+A critical demoted to an ordinary hit uses all the normal damage rules instead, including eligible bonuses and a positive or negative Damage Modifier. The demotion only decides the damage: do not resolve the Reaction again, and grant no extra attack or manoeuvre.
+
+A critical hit grants no free manoeuvre, attack, or Talent. If a Talent declared before the roll replaces damage with another effect, follow the Talent; the critical adds nothing.
+
+## Fumbles {#fumbles}
+
+On a fumble, the Gamemaster applies one immediate consequence that fits the risk, such as falling prone, dropping or damaging equipment, being exposed, or endangering someone nearby. Avoid consequences that decide a whole fight regardless of the situation. [Firing into a crowd](/rules/combat/#ranged-combat--firing-into-a-crowd) has its own fumble rule.

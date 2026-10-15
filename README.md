@@ -37,6 +37,8 @@ npm run preview
 | `npm run test:unit`        | Test schema and locked rules/content contracts                                                  |
 | `npm run test:browser`     | Rebuild, then test Chrome at 320, 390, 768, and 1440 pixels, including JS-off and accessibility |
 | `npm run validate:content` | Validate strict frontmatter, stable IDs, and unique routes                                      |
+| `npm run diagrams:build`   | Regenerate the rules diagrams in `src/assets/diagrams/` from `scripts/diagrams/`                |
+| `npm run diagrams:check`   | Fail if a committed diagram is stale, missing, or has no generator; part of `check:ci`          |
 
 ## Project structure
 
@@ -61,13 +63,13 @@ The default build targets an origin root. To deploy under a subpath, set `FANTAS
 
 ## Editing rules
 
-Add or change rules in `src/content/rules/`. Keep frontmatter within the strict schemas in `src/lib/content-schema.mjs`; the validator rejects unknown keys, malformed IDs, duplicate IDs, and duplicate URLs. Markdown may use headings, lists, tables, definition lists, footnotes, and explicit heading IDs, but not raw HTML or MDX.
+Add or change rules in `src/content/rules/`. Keep frontmatter within the strict schemas in `src/lib/content-schema.mjs`; the validator rejects unknown keys, malformed IDs, duplicate IDs, and duplicate URLs. Markdown may use headings, lists, tables, definition lists, footnotes, explicit heading IDs, and generated diagrams from `src/assets/diagrams/`, but not raw HTML, MDX, or other images; see [ADR-035](docs/decisions/035-allow-generated-diagrams-in-rules.md).
 
 Creature profiles keep their stat block in frontmatter — category, tags, characteristics, derived attributes, skills, attacks, and Talents — so the layout can render stat grids and the contracts can check the formulas against typed values. Only abilities are Markdown body. Add a thumbnail by setting `image` on a profile; without one the layout draws a placeholder frame.
 
 Creature Plunder Ratings were converted from the original LaTeX creature chapter, which the compendium never carried; the approved table is frozen in `tests/unit/creature-and-shaping-contract.test.mjs`. Most characteristics also carry `characteristicDice`, the die each average was generated from (`4D6` under `STR 14`), for rolling a specific individual or a varied group instead of reusing the average member; a characteristic with nothing to roll is simply omitted. Nine dice formulas in the original LaTeX do not arithmetically match their own stated average — see [ADR-005](docs/decisions/005-restore-creature-characteristic-dice.md) for the list — and ship as authored rather than silently corrected.
 
-Run `npm run check` before treating a change as complete. A `pre-push` hook in `.githooks/` runs `npm run check:deploy` for you and refuses a push that fails it; `npm install` enables the hook by setting `core.hooksPath`, and `git push --no-verify` bypasses it. GitHub runs only `npm run check:ci` on the deploy path — see [ADR-009](docs/decisions/009-run-browser-checks-before-push.md). The content contract also protects the 56-Talent catalogue, the seven-section Shaping chapter, the 57 approved creature profiles and their traceability to `freeform-creatures/`, the approved plunder ratings and characteristic dice, the complete Open Game License, the preserved Magic 2.0 alternative, and the no-image phase boundary for rules prose. Keep rules concise and easy to scan, but prefer clarity and complete procedures over any numeric word or character limit; none is enforced.
+Run `npm run check` before treating a change as complete. A `pre-push` hook in `.githooks/` runs `npm run check:deploy` for you and refuses a push that fails it; `npm install` enables the hook by setting `core.hooksPath`, and `git push --no-verify` bypasses it. GitHub runs only `npm run check:ci` on the deploy path — see [ADR-009](docs/decisions/009-run-browser-checks-before-push.md). The content contract also protects the 56-Talent catalogue, the seven-section Shaping chapter, the 57 approved creature profiles and their traceability to `freeform-creatures/`, the approved plunder ratings and characteristic dice, the complete Open Game License, the preserved Magic 2.0 alternative, and the rule that prose embeds only generated diagrams. Keep rules concise and easy to scan, but prefer clarity and complete procedures over any numeric word or character limit; none is enforced. Write and illustrate rules by the [rules style guide](docs/design/rules-style-guide.md).
 
 Run `npm run audit:talents` to verify that the generated probability and pricing audit still matches the published Talent catalogue and creature armour profiles.
 
