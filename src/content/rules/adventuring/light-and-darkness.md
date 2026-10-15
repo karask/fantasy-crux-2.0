@@ -13,9 +13,9 @@ aliases:
   - low-light sight
 ---
 
-For vision and attacks, use illumination reaching the observed target; for Movement, use light reaching the mover. A light source illuminates its listed radius; weaker outer bands extend from there. Mist, fog, foliage, and smoke are obscurity, not illumination; apply their [ranged-combat modifier](/rules/combat/#ranged-combat--common-situational-modifiers) along the sightline separately.
+For vision and attacks, use the illumination reaching the observed target; for Movement, use the light reaching the mover. A light source illuminates its listed radius, and weaker bands extend beyond it.
 
-[Shaped light or obscurity](/rules/magic/#techniques-and-forms) pays for its mechanical outcome; any mundane illumination it creates then uses these bands.
+Mist, fog, foliage, and smoke are obscurity, not illumination. Apply their [ranged-combat modifier](/rules/combat/#ranged-combat--common-situational-modifiers) along the sightline separately. [Shaped light or obscurity](/rules/magic/#techniques-and-forms) pays for its mechanical outcome; any mundane light it creates then uses these bands.
 
 | Source           | Radius |
 | ---------------- | -----: |
@@ -32,8 +32,10 @@ For vision and attacks, use illumination reaching the observed target; for Movem
 | Darkness         | Starlight; beyond ×3 but within ×5           | `-2P` to vision-based Perception and attacks; half Movement.                                                                              |
 | Pitch black      | Sealed cavern; beyond ×5 with no other light | Vision-based Perception and ranged attacks cannot succeed without another applicable sense; Close attacks suffer `-3P`; quarter Movement. |
 
+![Around a torch, the 3-metre radius is Illuminated. Out to three times the radius, 9 metres, is Partial darkness at -1P. Out to five times, 15 metres, is Darkness at -2P with half Movement. Beyond that, with no other light, is Pitch black.](../../../assets/diagrams/light-bands.svg)
+
 ## Other senses {#adventuring-other-senses}
 
-- **Night Vision:** Natural surface night counts as Illuminated. It does not help underground, in a sealed or supernatural darkness, or against obscurity.
-- **Low-Light Sight:** Treat Partial darkness as Illuminated and Darkness as Partial darkness. Pitch black is unchanged.
-- **Blind Sight (sense):** Ignore illumination for a target the named sense accurately perceives. It gives no colour, writing, fine visual detail, or eye contact. State what blocks it, such as a wall blocking heat or loud noise masking hearing. Use only the best applicable sense; senses do not stack.
+- **Night Vision:** natural surface night counts as Illuminated. It does not help underground, in sealed or supernatural darkness, or against obscurity.
+- **Low-Light Sight:** treat Partial darkness as Illuminated and Darkness as Partial darkness. Pitch black is unchanged.
+- **Blind Sight (sense):** ignore illumination for a target the named sense accurately perceives. It gives no colour, writing, fine visual detail, or eye contact. State what blocks it, such as a wall blocking heat or loud noise masking hearing. Use only the best applicable sense; senses do not stack.
