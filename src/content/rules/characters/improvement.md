@@ -12,39 +12,29 @@ aliases:
   - advance skills
 ---
 
-The Gamemaster awards Improvement Points for achievements and completed adventures.
-Unspent IP carry forward.
-A practical award is **3–5 IP per adventure**: 3 for modest progress, 4 for a completed adventure, or 5 for a major achievement.
+The Gamemaster awards Improvement Points for achievements and completed adventures. Unspent IP carry forward. A practical award is **3–5 IP per adventure**: 3 for modest progress, 4 for a completed adventure, or 5 for a major achievement.
 
 ## Improve a skill {#characters-improve-skills}
 
-Spend 1 IP to improve one skill.
-A particular skill can be improved only once between adventures.
-Use its score before the increase to determine the gain.
+Spend 1 IP to improve one skill. Each skill can be improved only once between adventures, and its score before the increase sets the gain.
 
 | Current skill | Gain for 1 IP | Maximum gain between adventures |
 | ------------: | ------------: | ------------------------------: |
 |         0–50% |           +5% |                             +5% |
 |        51–99% |           +3% |                             +3% |
 
-A skill at 100% cannot be improved, and no skill can exceed 100%.
-A gain cannot pass 100%: a skill at 98% improves to 100%, losing the excess.
+A skill at 100% cannot be improved, and no skill can exceed 100%. A gain cannot pass 100%: a skill at 98% improves to 100%, losing the excess.
 
 ## Improve a characteristic {#characters-improve-characteristics}
 
-Spend 5 IP to raise one characteristic by 1.
-`SIZ` cannot be improved this way.
-A characteristic cannot exceed the character's racial maximum. Humans have a racial maximum of 21; recommended nonhuman maxima appear under [Fantasy Races](/rules/gm-tools/#fantasy-races).
+Spend 5 IP to raise one characteristic by 1. `SIZ` cannot be improved this way. No characteristic can exceed the character's racial maximum: 21 for humans, with recommended nonhuman maxima under [Fantasy Races](/rules/gm-tools/#fantasy-races).
 
-After the increase, recalculate derived attributes such as HP, MWL, maximum PP, Damage Modifier, Combat Order, and a Shaper's Active Magnitude limit.
-Skills keep their current scores: bases seed skills only at creation.
+After the increase, recalculate derived attributes such as HP, MWL, maximum PP, Damage Modifier, Combat Order, and a Shaper's Active Magnitude limit. Skills keep their current scores; bases set skills only at creation.
 
 ## Buy Talents {#characters-buy-talents}
 
-Talents provide trained exceptions and advanced manoeuvres.
-Pay the listed IP cost and meet any prerequisite.
-This includes [Shaping](/rules/talents/#shaping); new [Technique–Form cells](/rules/magic/#becoming-a-shaper) have their own IP costs, while the Shaping skill itself improves normally.
+Talents provide trained exceptions and advanced manoeuvres. Pay the listed IP cost and meet any prerequisite. This includes [Shaping](/rules/talents/#shaping). New [Technique·Form cells](/rules/magic/#becoming-a-shaper) have their own IP costs, while the Shaping skill improves normally.
 
 ## Practice and research {#characters-practice-research}
 
-Three months of suitable practice or research earns 1 IP, subject to the Gamemaster's approval.
+Three months of suitable practice or research earns 1 IP, with the Gamemaster's approval.

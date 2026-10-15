@@ -5,7 +5,7 @@ chapter: characters
 title: Character creation
 slug: character-creation
 order: 10
-summary: Turn a one-sentence concept into characteristics, attributes, skills, starting Improvement Points, equipment, and Hero Points by working the steps in order.
+summary: Work through the steps in order, turning a one-sentence concept into characteristics, attributes, skills, Improvement Points, equipment, and Hero Points.
 aliases:
   - character concept
   - create a character
@@ -28,11 +28,9 @@ aliases:
 
 ## Concept {#characters-concept}
 
-Write one sentence that states who the character is, what they are good at, and what drives them.
-Use it to guide later choices, but change it if a better character emerges during creation.
+Write one sentence that says who the character is, what they are good at, and what drives them. Let it guide later choices, but change it if a better character emerges.
 
-Compare concepts with the other players and confirm that each belongs in the planned campaign.
-A varied group usually has more ways to solve problems.
+Compare concepts with the other players, and check that each fits the planned campaign. A varied group has more ways to solve problems.
 
 > **Examples.** A foolhardy veteran seeking glory; an observant caravan scout paying an old debt; a disgraced courtier surviving by wit.
 
@@ -52,21 +50,17 @@ Every character has seven characteristics.
 
 ### Point allocation {#characters-characteristic-points}
 
-Start every characteristic at 8, then distribute 30 points among them.
-The maximum during creation is 18.
+Start every characteristic at 8, then distribute 30 points among them. The maximum during creation is 18.
 
-You may lower characteristics to reclaim points.
-`INT` and `SIZ` cannot start below 7; every other characteristic cannot start below 3.
+You can lower characteristics to reclaim points. `INT` and `SIZ` cannot start below 7, and every other characteristic cannot start below 3.
 
 ### Random characters {#characters-random-characteristics}
 
-As an alternative, roll `4D6` and discard the lowest die for `STR`, `CON`, `DEX`, `POW`, and `CHA`.
-For `INT` and `SIZ`, roll `3D6`, discard the lowest die, and add 6.
-After all seven rolls, swap one pair if desired.
+Instead, you can roll. For `STR`, `CON`, `DEX`, `POW`, and `CHA`, roll `4D6` and drop the lowest die. For `INT` and `SIZ`, roll `3D6`, drop the lowest die, and add 6. After all seven rolls, you can swap one pair.
 
 ## Attributes {#characters-attributes}
 
-Calculate attributes after assigning characteristics.
+Calculate attributes after assigning characteristics. Round [as usual](/rules/start-here/#d100-percentile--measures-and-rounding): to the nearest whole number, with exact halves up.
 
 | Attribute                   | Value                                  |
 | --------------------------- | -------------------------------------- |
@@ -76,23 +70,15 @@ Calculate attributes after assigning characteristics.
 | Movement                    | 15 metres per Combat Round for a human |
 | Combat Order                | `(DEX + INT) / 2` minus armour ENC     |
 
-Round to the nearest whole number; round exact halves up, as in [D100 Percentile](/rules/start-here/#d100-percentile).
-
 ### Hit Points and Major Wounds {#characters-hit-points}
 
-Hit Points measure how much injury a character can sustain.
-Use maximum HP when calculating MWL, even after losing HP.
-A single post-armour hit that equals or exceeds MWL causes a [Major Wound](/rules/characters/#character-creation--characters-major-wounds).
+Hit Points measure how much injury a character can take. Always calculate MWL from maximum HP, even after losing HP. A single post-armour hit that equals or exceeds MWL causes a [Major Wound](/rules/combat/#damage-and-wounds--major-wounds).
 
 ### Power Points {#characters-power-points}
 
-Power Points fuel [Shaping](/rules/magic/) and other abilities that state a PP cost.
-They cannot exceed maximum PP.
+Power Points fuel [Shaping](/rules/magic/) and other abilities that state a PP cost. They cannot exceed maximum PP.
 
-Recover a quarter of maximum PP after each complete two hours of rest, up to the maximum.
-Round the amount recovered in each two-hour period normally: a character with POW 3 recovers 1 PP per period, while POW 9 recovers 2 PP per period.
-Eight hours of rest restores all PP.
-At 0 PP, living characters fall unconscious until regaining PP; nonliving characters stay active unless stated otherwise.
+Each complete two hours of rest restores a quarter of maximum PP, rounded normally: POW 3 recovers 1 PP per period, and POW 9 recovers 2. Eight hours of rest restores all PP. At 0 PP, living characters fall unconscious until they regain PP; nonliving characters stay active unless stated otherwise.
 
 ### Damage Modifier {#characters-damage-modifier}
 
@@ -111,8 +97,7 @@ Add the Damage Modifier to close-combat, unarmed, and thrown-weapon damage.
 
 ## Starting skills {#characters-starting-skills}
 
-Every character has all general skills.
-Skills with a parenthetical subject, such as `Craft (type)`, are separate skills for each chosen subject.
+Every character has all general skills. A skill with a subject in brackets, such as `Craft (type)`, is a separate skill for each chosen subject.
 
 ### Expertise {#characters-skill-expertise}
 
@@ -173,22 +158,15 @@ Skills with a parenthetical subject, such as `Craft (type)`, are separate skills
 | Knowledge   |     50 |
 | Practical   |     75 |
 
-Add the relevant pool to skills in that category.
-You may add no more than 30 points to a single skill during creation, and no skill can exceed 100%.
+Add each pool to skills in its category. During creation, add no more than 30 points to any one skill, and no skill can exceed 100%.
 
-You may also remove up to 20 points from each of the Resistance, Combat, and Practical pools to gain starting Improvement Points.
-For every 5 points removed, gain 1 IP, to a maximum of 4 IP per category and 12 IP in total.
-These bonus IP may raise characteristics or buy Talents, but may not raise skills.
+**Trading points for IP.** You can remove up to 20 points from each of the Resistance, Combat, and Practical pools. Every 5 points removed gives 1 IP, up to 4 IP per category and 12 IP in total. These bonus IP can raise characteristics or buy Talents, but cannot raise skills.
 
-A character beginning as a Shaper declares the choice and reserves 20 IP before allocating skill points.
-They may then add up to 30 Knowledge points to Shaping, whose base is `INT + POW`.
-This changes only the order of creation: the character must still assemble and spend the full 20 IP.
+**Starting as a Shaper.** Reserve the 20 IP before allocating skill points; see [Becoming a Shaper](/rules/magic/#becoming-a-shaper--magic-at-creation).
 
 ## Starting Improvement Points {#characters-starting-ip}
 
-Begin with 10 Improvement Points.
-Spend them on [improvements](/rules/characters/#improvement) or available Talents, including [Shaping](/rules/talents/#shaping) for a character who begins play as a Shaper.
-Characteristics remain capped at 18 during creation.
+Begin with 10 Improvement Points. Spend them on [improvements](/rules/characters/#improvement) or available Talents, including [Shaping](/rules/talents/#shaping) for a character who begins play as a Shaper. Characteristics stay capped at 18 during creation.
 
 ## Equipment and details {#characters-equipment-details}
 
@@ -197,54 +175,27 @@ Begin with `4D6 × 10` Silver Pieces and choose one package:
 - leather armour, a ranged weapon, a two-handed close-combat weapon, and a dagger; or
 - leather armour, a shield, a ranged weapon, a one-handed close-combat weapon, and a dagger.
 
-Every character also has a backpack, 10 metres of rope, two weeks of travelling provisions, flint and tinder, and a waterskin.
-The Gamemaster may allow purchases from starting money before play.
+Every character also has a backpack, 10 metres of rope, two weeks of travelling provisions, flint and tinder, and a waterskin. The Gamemaster can allow purchases from starting money before play.
 
 ### Finishing details {#characters-finishing-details}
 
-Name the character and note their appearance, background, personality, loyalties, and immediate goal.
-A few concrete details are enough to begin play.
+Name the character and note their appearance, background, personality, loyalties, and immediate goal. A few concrete details are enough to begin.
 
-Human characters normally begin between 18 and 28 years old.
-Roll `2D6 + 16` for a random starting age.
+Human characters normally begin between 18 and 28 years old. Roll `2D6 + 16` for a random starting age.
 
-## Hero Points and wounds {#characters-hero-points}
+## Hero Points {#characters-hero-points}
 
-Player Characters begin with 2 Hero Points.
-Spend a Hero Point when its effect is declared; spent points are gone.
-The Gamemaster awards Hero Points for major achievements and genuinely heroic play.
-
-Each test allows at most one reroll, regardless of its source.
-Declare a reroll after seeing the result but before applying consequences, costs, or Backlash; the new result stands.
-A Fumble also counts as a failed test, so effects such as rerolls that apply to failed tests apply to it.
-
-### Major Wounds {#characters-major-wounds}
-
-When one post-armour hit deals damage equal to or greater than MWL, apply the damage and both conditions below:
-
-- **Wounded:** suffer `-1P` on every test.
-- **Bleeding:** lose 1 HP at the end of every Combat Round.
-
-These conditions do not stack. Further Major Wounds still deal damage and can restart Bleeding after it has been stopped, but do not create wounds that must be tracked separately.
-
-At 0 HP, the character falls unconscious and gains **Dying**.
-A Dying character dies after 3 Combat Rounds unless stabilised.
-Do not make a Resilience test or roll on an injury table.
-
-### Treatment {#characters-wound-treatment}
-
-A helper can spend a full Combat Round and pass a Healing test to remove Bleeding and Dying; this restores no HP, so a patient at 0 HP remains unconscious. A Major Wound cannot recover until successful Surgery, which restores 1 HP and unlocks normal recovery; Wounded then ends once current HP is greater than MWL. [Healing and Recovery](/rules/adventuring/#healing-and-recovery) gives the full procedure.
+Player Characters begin with 2 Hero Points. The Gamemaster awards more for major achievements and genuinely heroic play. Spend a Hero Point when you declare its effect; spent points are gone.
 
 ### Spending Hero Points {#characters-spending-hero-points}
 
 Spend 1 Hero Point for one of these effects:
 
 - **Reroll:** reroll a failed test and use the new result.
-- **Downgrade a Major Wound:** keep the full HP loss but do not gain Wounded or Bleeding from that hit.
-- **Avoid Death:** when reduced to 0 HP, fall stably unconscious instead of Dying.
-  The character is not Bleeding, awakens after the scene with 1 HP, and remains Wounded if that condition already applied.
-- **Story benefit:** with the Gamemaster's approval, establish a plausible favourable detail or coincidence.
-  Larger changes may require several Hero Points, including points contributed by other characters.
+- **Downgrade a Major Wound:** keep the full HP loss, but gain no Wounded or Bleeding from that hit.
+- **Avoid Death:** at 0 HP, fall stably unconscious instead of Dying. You are not Bleeding, wake after the scene with 1 HP, and stay Wounded if you already were.
+- **Story benefit:** with the Gamemaster's approval, establish a plausible favourable detail or coincidence. Larger changes can need several Hero Points, including points from other characters.
 
-Downgrading a Major Wound does not cancel the 0 HP rule.
-If the retained damage reduces the character to 0 HP, Avoid Death requires another Hero Point.
+**Rerolls.** Each test allows at most one reroll, whatever its source. Declare a reroll after seeing the result but before applying consequences, costs, or Backlash; the new result stands. A Fumble also counts as a failed test, so effects that apply to failed tests, such as rerolls, apply to it.
+
+**Wounds.** Downgrading a Major Wound does not cancel the 0 HP rule: if the damage you keep takes you to 0 HP, Avoid Death costs another Hero Point. [Damage and Wounds](/rules/combat/#damage-and-wounds) covers Major Wounds, Bleeding, Dying, and treatment.
