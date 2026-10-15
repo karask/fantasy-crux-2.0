@@ -23,23 +23,18 @@ aliases:
 
 ## Dodge {#skills-dodge}
 
-Use Dodge against an attack or physical danger the character can perceive and move away from.
-Combat rules state when a Reaction and any Penalty dice are required.
+Use Dodge against an attack or physical danger you can perceive and move away from. The Combat rules say when it needs a Reaction or Penalty dice.
 
 ## Persistence {#skills-persistence}
 
-Persistence measures mental resolve.
-Use it to resist Influence, intimidation, fear, and other attempts to override the character's judgement or will.
+Persistence is mental resolve. Use it to resist Influence, intimidation, fear, and other attempts to override your judgement or will.
 
 ## Resilience {#skills-resilience}
 
-Resilience measures physical endurance.
-It is the standard skill for Fatigue tests and for resisting poison, disease, exposure, starvation, thirst, and similar bodily threats.
+Resilience is physical endurance. It is the standard skill for Fatigue tests and for resisting poison, disease, exposure, starvation, thirst, and similar bodily threats.
 
 ## Combat skills {#skills-combat-skills}
 
-Close Combat covers melee weapons and shields.
-Ranged Combat covers missile and thrown weapons.
-Unarmed Combat covers grappling and natural attacks. An unarmed human normally deals `1D3` damage and counts as Light; a natural weapon uses its listed damage and Size, defaulting to Medium Size.
+Close Combat covers melee weapons and shields. Ranged Combat covers missile and thrown weapons. Unarmed Combat covers grappling and natural attacks: an unarmed human normally deals `1D3` damage and counts as Light, while a natural weapon uses its listed damage and Size, defaulting to Medium.
 
-The Combat chapter defines attacks, Parries, Dodges, damage, range, and weapon restrictions.
+The [Combat](/rules/combat/) chapter defines attacks, Parries, Dodges, damage, range, and weapon restrictions.

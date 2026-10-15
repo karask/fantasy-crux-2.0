@@ -14,11 +14,8 @@ aliases:
 
 ## Helping a test {#skills-helping-test}
 
-One or more characters can assist when they have a practical way to contribute to the task.
-The Gamemaster decides whether the method and available time make assistance possible.
+One or more characters can assist when they have a practical way to contribute. The Gamemaster decides whether the method and the time available make assistance possible.
 
-An assistant normally needs at least 26% in the relevant skill.
-Meaningful assistance grants `+1B` to the acting character's test in total, not per helper.
-Exceptionally effective combined help may grant `+2B`.
-
-Apply assistance with all other modifiers, then cancel and cap Bonus or Penalty dice normally.
+- An assistant normally needs at least 26% in the relevant skill.
+- Meaningful assistance grants `+1B` to the acting character's test in total, not per helper. Exceptionally effective combined help can grant `+2B`.
+- Apply assistance with all other modifiers, then cancel and cap Bonus and Penalty dice normally.

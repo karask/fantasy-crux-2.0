@@ -7,7 +7,7 @@ slug: basic-tests
 order: 10
 summary:
   - Roll D100 at or below the skill to succeed; 00 counts as 100.
-  - The critical range is 01 through the skill's integer tens digit, minimum 01 at any skill above 0%; fumbles are 99–00 below 100%, and 00 at 100%.
+  - Critical is 01 through the skill's tens digit, at least 01 above 0%. Fumbles are 99–00 below 100%, and 00 at 100%.
 aliases:
   - roll under
   - critical success
@@ -15,26 +15,13 @@ aliases:
   - D100 test
 ---
 
-State the intended action, then roll `D100` against the relevant skill.
-Roll two ten-sided dice: one is the tens digit and one is the units digit.
-`00` means 100.
+Roll `D100` against the relevant skill, as described in [Make a test](/rules/start-here/#d100-percentile--make-a-test). `00` reads as 100.
 
-Do not roll for routine work when the character has enough time, suitable tools, and relevant competence.
-Roll when pressure, danger, limited time, or meaningful uncertainty makes both success and failure interesting.
+Do not roll for routine work when the character has enough time, suitable tools, and relevant competence. Roll when pressure, danger, limited time, or real uncertainty makes both success and failure interesting.
 
 ## Result grades {#skills-result-grades}
 
-Check fumbles first; a fumble overrides success.
-
-| Grade    | Result                                                                                    |
-| -------- | ----------------------------------------------------------------------------------------- |
-| Critical | Roll from 01 through the skill's tens digit; 01 is always critical at any skill above 0%. |
-| Success  | Roll at or below the skill without a Critical or Fumble.                                  |
-| Failure  | Roll above the skill without a Fumble.                                                    |
-| Fumble   | Roll 99 or 00 with a skill below 100%; at 100%, only 00.                                  |
-
-Skills cannot exceed 100%.
-At 100%, rolls 01–10 are Critical, 11–99 are Success, and 00 is a Fumble.
+Check fumbles first; a fumble overrides success. The [result grades](/rules/start-here/#d100-percentile--result-grades) are Critical, Success, Failure, and Fumble. Skills cannot exceed 100%. At 100%, rolls 01–10 are Critical, 11–99 Success, and 00 a Fumble.
 
 ## Exact critical ranges {#skills-critical-ranges}
 
@@ -50,11 +37,10 @@ Use the integer tens digit, not rounding. Any skill above 0% has a critical rang
 |   99% |          01–09 |
 |  100% |          01–10 |
 
-[Deadly Precision](/rules/talents/#deadly-precision) is a specific exception for one eligible weapon attack: double the normal range above. Other tests retain their normal critical range.
+[Deadly Precision](/rules/talents/#deadly-precision) is the one exception: it doubles the normal range for one eligible weapon attack. Other tests keep their normal range.
 
 ## Interpreting exceptional results {#skills-exceptional-results}
 
-A Critical achieves the stated intent especially quickly, thoroughly, or effectively and may reveal an extra benefit or useful information.
+A **Critical** achieves the stated intent especially quickly, thoroughly, or effectively, and may reveal an extra benefit or useful information.
 
-A Fumble fails and introduces a serious consequence appropriate to the declared action, such as lost time, damaged equipment, danger, or a worse position.
-It should follow from the risk already present rather than invent an unrelated disaster.
+A **Fumble** fails and adds a serious consequence that fits the declared action, such as lost time, damaged equipment, danger, or a worse position. It should follow from the risk already present, not invent an unrelated disaster.

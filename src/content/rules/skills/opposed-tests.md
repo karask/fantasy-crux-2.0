@@ -12,22 +12,18 @@ aliases:
   - opposed tie
 ---
 
-Use an opposed test when two characters directly compete or one actively resists another.
-Each participant rolls the relevant skill with their own Bonus or Penalty dice.
-Resolve each participant's Bonus or Penalty dice before comparing their final results.
+Use an opposed test when two characters directly compete, or one actively resists another. Each participant rolls the relevant skill with their own Bonus or Penalty dice. Resolve each participant's Bonus or Penalty dice before comparing their final results.
 
 ## Compare results {#skills-compare-opposed-results}
 
-1. Compare result grade: **Critical > Success > Failure > Fumble**.
+1. Compare result grades: **Critical > Success > Failure > Fumble**.
 2. If both achieve the same successful grade, the higher roll wins.
-3. If both Fail, the lower roll wins.
-   If both Fumble, the lower roll also wins.
+3. If both Fail, or both Fumble, the lower roll wins.
 4. If the rolls are exactly equal, the higher unmodified base skill wins.
-5. If both roll and base skill tie, the defender wins.
-   When there is no clear defender, the status quo remains.
+5. If base skill also ties, the defender wins. With no clear defender, the status quo remains.
 
-The base-skill and defender or status-quo tiebreakers compare participants only.
-Weapon defences use this comparison with one [combat exception](/rules/combat/#critical-hits-and-fumbles): an ordinary successful Dodge or Parry still demotes a critical attack to an ordinary hit without blocking damage. Grappling and Shaping do not use that exception.
-They never choose between one participant's candidate results from Bonus or Penalty dice.
+These tiebreakers compare participants only; they never choose between one participant's Bonus or Penalty candidates.
 
-> **Example.** Two ordinary Successes of 42 and 31 favour 42. Two Failures of 72 and 85 favour 72. A Critical always defeats an ordinary Success, regardless of the numbers rolled.
+Weapon defences add one [combat exception](/rules/combat/#critical-hits-and-fumbles): an ordinary successful Dodge or Parry still demotes a critical attack to an ordinary hit, without blocking damage. Grappling and Shaping do not use that exception.
+
+> **Example.** Two ordinary Successes of 42 and 31 favour 42. Two Failures of 72 and 85 favour 72. A Critical always defeats an ordinary Success, whatever the numbers.

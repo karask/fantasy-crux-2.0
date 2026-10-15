@@ -4,9 +4,10 @@ import { mkdirSync, readFileSync, readdirSync, writeFileSync, existsSync } from 
 import path from 'node:path';
 import combat from './diagrams/combat.mjs';
 import shaping from './diagrams/shaping.mjs';
+import skills from './diagrams/skills.mjs';
 
 const outputDirectory = path.resolve('src/assets/diagrams');
-const diagrams = { ...combat, ...shaping };
+const diagrams = { ...combat, ...shaping, ...skills };
 const check = process.argv.includes('--check');
 
 const problems = [];
