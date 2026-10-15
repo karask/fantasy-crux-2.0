@@ -15,6 +15,8 @@
     "build": "npm run validate:content && npm run build:site && node scripts/assert-output.mjs",
     "art:build": "node scripts/build-art-library.mjs",
     "art:validate": "node scripts/validate-art-library.mjs",
+    "diagrams:build": "node scripts/build-diagrams.mjs",
+    "diagrams:check": "node scripts/build-diagrams.mjs --check",
     "audit:talents": "node scripts/analyze-talent-balance.mjs --check",
     "preview": "node scripts/serve-site.mjs",
     "validate:content": "node scripts/validate-content.mjs",
@@ -28,7 +30,7 @@
     "test:browser:built": "node scripts/run-browser-tests.mjs",
     "check": "npm run format:check && npm run check:deploy",
     "check:deploy": "npm run check:ci && npm run test:browser:built",
-    "check:ci": "npm run lint:md && npm run art:validate && npm run test:unit && npm run build && npm run lint:html && npm run lint:links",
+    "check:ci": "npm run lint:md && npm run art:validate && npm run diagrams:check && npm run test:unit && npm run build && npm run lint:html && npm run lint:links",
     "hooks:install": "node scripts/install-git-hooks.mjs",
     "prepare": "node scripts/install-git-hooks.mjs"
   },
