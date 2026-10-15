@@ -1,0 +1,50 @@
+[
+  {
+    "design": "ironbound",
+    "pages": 7,
+    "fields": 534,
+    "blank_values": true,
+    "widgets_match_field_tree": true,
+    "no_widget_overlaps": true,
+    "saved_value_roundtrip": 534,
+    "all_general_skills": true,
+    "spell_cards": 4,
+    "license_embedded": true
+  },
+  {
+    "design": "wayfarer",
+    "pages": 7,
+    "fields": 534,
+    "blank_values": true,
+    "widgets_match_field_tree": true,
+    "no_widget_overlaps": true,
+    "saved_value_roundtrip": 534,
+    "all_general_skills": true,
+    "spell_cards": 4,
+    "license_embedded": true
+  },
+  {
+    "design": "starweaver",
+    "pages": 7,
+    "fields": 535,
+    "blank_values": true,
+    "widgets_match_field_tree": true,
+    "no_widget_overlaps": true,
+    "saved_value_roundtrip": 535,
+    "all_general_skills": true,
+    "spell_cards": 4,
+    "license_embedded": true
+  },
+  {
+    "design": "chronicle",
+    "pages": 7,
+    "fields": 534,
+    "blank_values": true,
+    "widgets_match_field_tree": true,
+    "no_widget_overlaps": true,
+    "saved_value_roundtrip": 534,
+    "all_general_skills": true,
+    "spell_cards": 4,
+    "license_embedded": true
+  }
+]
