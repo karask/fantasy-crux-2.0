@@ -59,24 +59,24 @@ aliases:
 | Waterskin              |        Two days' water for one adventurer |
 | Rope or grappling hook | 50 ENC, 50 SIZ, or a combined total of 50 |
 
-Containers make their contents manageable but do not remove the contents' ENC.
+Containers make their contents manageable, but the contents keep their ENC.
 
 ## Tools {#equipment-tools}
 
-- **Block and Tackle:** Requires at least 10 metres of rope. Grants `+1B` to Mechanisms tests involving large traps and enables suitable engineering tasks using Mechanisms.
-- **Climbing Kit:** Grants `+1B` to Athletics tests made to climb.
-- **Crowbar:** Grants `+1B` to brute-force Athletics tests. As a weapon, it is a club at `-1P`.
-- **Healing Kit:** Provides five Healing or Surgery attempts; an attempt expends one use whether it succeeds or fails.
-- **Fish Hook:** Allows Natural Lore to catch fish without an equipment penalty.
-- **Fishing Kit:** Grants `+1B` to Natural Lore tests made to catch fish.
-- **Flint and Tinder:** Starts an ordinary fire in one minute without a Natural Lore test under normal conditions.
-- **Lock Picks:** Grant `+1B` to Mechanisms tests made to open locks.
-- **Hammer, Mining Pick, or Spade:** As a weapon, treat it as a club at `-1P`. A hammer or mining pick may strike hard objects without being ruined automatically.
-- **Scythe:** As a weapon, treat it as a polearm at `-1P`.
+- **Block and Tackle:** needs at least 10 metres of rope. Grants `+1B` to Mechanisms tests involving large traps, and enables suitable engineering tasks with Mechanisms.
+- **Climbing Kit:** `+1B` to Athletics tests to climb.
+- **Crowbar:** `+1B` to brute-force Athletics tests. As a weapon, a club at `-1P`.
+- **Healing Kit:** five Healing or Surgery attempts. Each attempt uses one, whether it succeeds or fails.
+- **Fish Hook:** lets Natural Lore catch fish without an equipment penalty.
+- **Fishing Kit:** `+1B` to Natural Lore tests to catch fish.
+- **Flint and Tinder:** starts an ordinary fire in one minute, with no Natural Lore test in normal conditions.
+- **Lock Picks:** `+1B` to Mechanisms tests to open locks.
+- **Hammer, Mining Pick, or Spade:** as a weapon, a club at `-1P`. A hammer or mining pick can strike hard objects without automatically being ruined.
+- **Scythe:** as a weapon, a polearm at `-1P`.
 
 ## Light and fuel {#equipment-light-fuel}
 
-- A candle burns for one hour, lights a 1-metre radius, and goes out in more than a slight breeze.
-- A lantern burns for two hours on one flask of oil and lights a 3-metre radius.
-- Spilled and ignited lamp oil sustains a small fire for one minute.
-- A torch burns for one hour and lights a 3-metre radius. As a weapon, attack as with a club at `-1P`, but deal `1D4` fire damage instead of normal club damage. **Only an attack fumble extinguishes it.**
+- A **candle** burns for one hour, lights a 1-metre radius, and goes out in more than a slight breeze.
+- A **lantern** burns for two hours on one flask of oil and lights a 3-metre radius.
+- Spilled and ignited **lamp oil** sustains a small fire for one minute.
+- A **torch** burns for one hour and lights a 3-metre radius. As a weapon, it attacks as a club at `-1P` but deals `1D4` fire damage instead of club damage. **Only an attack fumble puts it out.**

@@ -13,7 +13,7 @@ aliases:
   - lodging
 ---
 
-These are baseline prices in a settled market. Training, scarcity, pedigree, danger, and local custom may change them.
+These are baseline prices in a settled market. Training, scarcity, pedigree, danger, and local custom can change them.
 
 ## Animals and transport {#equipment-transport}
 
