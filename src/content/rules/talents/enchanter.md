@@ -21,7 +21,7 @@ tags:
 
 Gain **Enchantment Capacity** equal to your permanent, unmodified POW. A temporary change to POW does not affect this capacity; a permanent change to POW recalculates Enchantment Capacity.
 
-Whether you bind at Duration 4, at Mythic Duration 5, or as a one-use item, a bound [enchantment](/rules/gm-tools/#enchanted-items) occupies neither your PP commitment nor active total. Its full Magnitude moves into Enchantment Capacity, and it persists without you. You may make Charged items, paying the PP for each charge as you bind it.
+Whether you bind at Duration 4, at Mythic Duration 5, or as a one-use item, a bound [enchantment](/rules/gm-tools/#enchanted-items) occupies neither your PP commitment nor active total. Its full Magnitude moves into Enchantment Capacity, and it persists without you. You can make Charged items, paying the PP for each charge as you bind it.
 
 A Continuous or Activated effect counts its full final Magnitude once. Every unused charge of a Charged effect counts its full final Magnitude separately. Each cost remains attributed to its original creator if the item is sold, stolen, or given away; a transfer never resets attribution.
 

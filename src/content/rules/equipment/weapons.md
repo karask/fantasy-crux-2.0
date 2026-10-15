@@ -13,22 +13,9 @@ aliases:
   - weapon size
 ---
 
-Use Close Combat for hand-to-hand attacks and Ranged Combat for attacks made at distance. If either STR or DEX is below a weapon's listed minimum, attacks and Parries with it suffer `-1P`; being below both still applies only `-1P`.
+If your STR or DEX is below a weapon's listed minimum, attacks and Parries with it are at `-1P`. Being below both still gives only `-1P`.
 
-Damage Modifier (DM) applies to melee, unarmed, and thrown attacks. Bows, slings, and crossbows use only their listed damage unless a Talent says otherwise.
-
-## Weapon size {#equipment-weapon-size}
-
-Weapons use four sizes: **Light, Medium, Heavy,** and **Huge**. After a Parry wins its opposed defence, Size determines how much damage it blocks:
-
-| Parrying item compared with the attack |          Damage blocked |
-| -------------------------------------- | ----------------------: |
-| Same size or larger                    |                     All |
-| One size smaller                       |                    Half |
-| Two or more sizes smaller              |                    None |
-| Winning critical Parry                 | All, regardless of size |
-
-Unarmed attacks such as punches and kicks are Light. A natural weapon uses the Size in its creature profile, or Medium when none is listed. A thrown weapon uses the Size in the ranged table when Parried.
+Weapons come in four Sizes: **Light, Medium, Heavy,** and **Huge**. Size decides how much a winning Parry blocks; see [Parry Size](/rules/combat/#attacks-and-reactions--parry-size).
 
 ## Close Combat weapons {#equipment-close-weapons}
 
@@ -59,13 +46,16 @@ Unarmed attacks such as punches and kicks are Light. A natural weapon uses the S
 | Unarmed        | —               |    1D3 |       — |   — | Light  |      — |
 | War Hammer     | 1H              |    1D8 |     9/9 |   2 | Medium | 120 SP |
 
-**1H:** Requires one hand. **2H:** Requires two hands. **Flex:** May be used in two hands for +2 damage and a STR requirement 2 lower than listed. **Set:** May be set against a charge using the Combat rules. **Thrown:** May use its ranged profile without an improvised-weapon penalty.
+- **1H:** needs one hand. **2H:** needs two hands.
+- **Flex:** can be used in two hands for +2 damage and a STR requirement 2 lower than listed.
+- **Set:** can be [set against a Charge](/rules/combat/#rounds-and-actions--set-weapon).
+- **Thrown:** can use its ranged profile without an improvised-weapon penalty.
 
 Primitive or improvised versions of listed weapons deal 1 less damage, to a minimum of 1.
 
 ## Ranged weapons {#equipment-ranged-weapons}
 
-A target within Range can be attacked normally. A target beyond Range but no farther than twice Range may be attacked at `-2P`; anything farther away cannot be hit.
+[Ranged Combat](/rules/combat/#ranged-combat) explains Range, reloading crossbows, and cover.
 
 | Weapon          | Type         | Damage |     Range | STR/DEX | ENC | Size   |   Cost |
 | --------------- | ------------ | -----: | --------: | ------: | --: | ------ | -----: |
@@ -82,14 +72,11 @@ A target within Range can be attacked normally. A target beyond Range but no far
 | Sling           | 1H/Missile   |    1D6 |      50 m |     —/9 |   — | —      |   5 SP |
 | Whip            | Close        |    1D3 |       5 m |     —/9 |   — | Light  |  50 SP |
 
-**Close:** Within 2 metres, attack with Close Combat and the listed damage. **Thrown:** The ranged attack adds DM. **Missile:** Bows, crossbows, and slings do not add DM. A weapon without Close used within 2 metres is an improvised Light club (`1D6+DM`) and attacks at `-1P`.
+- **Close:** within 2 metres, attack with Close Combat and the listed damage.
+- **Thrown:** the ranged attack adds DM.
+- **Missile:** bows, crossbows, and slings do not add DM.
 
-A small shield may be strapped to the arm while carrying a 2H ranged weapon, but it cannot attack, Parry, or provide Active Guard until the ranged weapon is no longer being wielded.
-
-## Reloading crossbows {#equipment-crossbow-reload}
-
-- Reloading a light crossbow spends the character's Movement Action and base Reaction.
-- Reloading a heavy crossbow consumes the entire round: Combat Action, Movement Action, and all Reactions.
+A small shield can be strapped to the arm while you carry a 2H ranged weapon, but it cannot attack, Parry, or provide Active Guard until you stop wielding the ranged weapon.
 
 ## Ammunition {#equipment-ammunition}
 

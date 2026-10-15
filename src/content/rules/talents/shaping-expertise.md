@@ -19,4 +19,4 @@ Once per round, before rolling a Shaping casting test, declare use of this Talen
 
 Removing an overreach Penalty does not change Safe Magnitude: failed overreach still causes its normal PP loss and Backlash. Magnitude, maximum Intensity, and ritual requirements remain unchanged.
 
-This Talent applies only to casting a Shaping, not Sense Magic, Dispel, or Counter. It may be purchased only once.
+This Talent applies only to casting a Shaping, not Sense Magic, Dispel, or Counter. It can be bought only once.

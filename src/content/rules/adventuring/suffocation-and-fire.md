@@ -15,9 +15,9 @@ aliases:
 
 ## Suffocation {#adventuring-suffocation}
 
-A character can hold their breath for CON Combat Rounds. After that, make a Resilience test each round with a cumulative `-1P`, subject to the normal `-3P` cap.
+You can hold your breath for CON Combat Rounds. After that, make a Resilience test each round with a cumulative `-1P`, up to the normal `-3P` cap.
 
-On the first failure, the character inhales the substance and immediately suffers its effect. Apply that effect again at the end of every following round until the character reaches breathable air; do not make further breath tests. Armour does not reduce this damage.
+On the first failure, you inhale the substance and suffer its effect at once. Apply the effect again at the end of every following round until you reach breathable air; make no further breath tests. Armour does not reduce this damage.
 
 | Inhaled substance | Effect per round                                                    |
 | ----------------- | ------------------------------------------------------------------- |
@@ -26,13 +26,13 @@ On the first failure, the character inhales the substance and immediately suffer
 | Thick smoke       | `1D6` damage                                                        |
 | Poison gas        | Exposure to the poison; also `1D6` damage if the gas is thick smoke |
 
-After reaching breathable air, make a Resilience test. On a failure, the character can only retch or gasp for `1D4` rounds.
+After reaching breathable air, make a Resilience test. On a failure, you can only retch or gasp for `1D4` rounds.
 
 ## Fire and heat {#adventuring-fire-heat}
 
 Apply damage each round of direct exposure. Metal armour does not reduce fire or heat damage; other protection applies only when it plausibly insulates against the source.
 
-Shaped fire deals its damage once, when cast, and [created magical hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) never deal damage each round. Only fire it ignites in mundane fuel burns on, using the table below.
+Shaped fire deals its damage once, when cast, and [created magical hazards](/rules/magic/#ongoing-and-magical-actions--magic-created-hazards) never deal damage each round. Only fire it ignites in mundane fuel burns on, using this table.
 
 | Intensity   | Example                               | Damage per round |
 | ----------- | ------------------------------------- | ---------------: |

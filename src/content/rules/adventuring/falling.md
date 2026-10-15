@@ -12,15 +12,15 @@ aliases:
 
 ## Falling damage {#adventuring-falling-damage}
 
-A fall deals `1D6` damage per full 3 metres and ignores armour. A character damaged by a fall lands prone.
+A fall deals `1D6` damage per full 3 metres, ignoring armour. A character damaged by a fall lands prone.
 
-If conscious, unsurprised, and able to control the landing, the character may make one **Athletics (Acrobatics)** test:
+If you are conscious, not surprised, and able to control the landing, make one **Athletics (Acrobatics)** test:
 
-- **Success:** Remove `1D6` of damage and avoid prone.
-- **Critical:** Remove `2D6` of damage and avoid prone.
-- **Failure:** Apply the fall normally.
-- **Fumble:** Maximise every remaining damage die.
+- **Success:** remove `1D6` of damage and avoid landing prone.
+- **Critical:** remove `2D6` of damage and avoid landing prone.
+- **Failure:** take the fall normally.
+- **Fumble:** maximise every remaining damage die.
 
-Damage dice cannot be reduced below zero. Soft ground, deep snow, a sloped canopy, or a similar yielding surface may halve the effective distance before counting dice.
+Damage dice cannot be reduced below zero. Soft ground, deep snow, a sloped canopy, or a similar yielding surface can halve the effective distance before you count dice.
 
-> **Example:** A 100-metre fall deals `33D6`. A successful Acrobatics test reduces it to `32D6`; it does not make the fall survivable by halving the damage.
+> **Example.** A 100-metre fall deals `33D6`. A successful Acrobatics test reduces it to `32D6`; it does not make the fall survivable.

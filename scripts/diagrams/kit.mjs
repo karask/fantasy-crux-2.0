@@ -341,3 +341,28 @@ export function svgDocument(width, height, content) {
     '',
   ].join('\n');
 }
+
+/** A ten-sided die face (a kite) showing one digit, centred on (cx, cy). */
+export function die(cx, cy, value, { size = 34, tone = 'plain' } = {}) {
+  const palette = tones[tone];
+  const half = size / 2;
+  const points = [
+    [cx, cy - half],
+    [cx + half * 0.86, cy - half * 0.18],
+    [cx, cy + half],
+    [cx - half * 0.86, cy - half * 0.18],
+  ]
+    .map(([x, y]) => `${round(x)},${round(y)}`)
+    .join(' ');
+  const label = text(
+    cx,
+    cy - half * 0.62,
+    String(value),
+    { ...type.big, size: size * 0.5, lineHeight: 1.6 },
+    {
+      anchor: 'middle',
+      fill: tone === 'plain' ? colour.ink : palette.stroke,
+    },
+  );
+  return `<polygon points="${points}" fill="${palette.fill}" stroke="${palette.stroke}" stroke-width="1.6" stroke-linejoin="round"/>${label.svg}`;
+}

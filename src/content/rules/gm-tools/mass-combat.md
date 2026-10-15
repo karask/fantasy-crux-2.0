@@ -33,4 +33,4 @@ Modify the test for the situation:
 
 The commander of the losing side must then make an **Influence** or **Performance** test. On a failure the army routs: troops flee in panic, or surrender when they cannot flee, and a further 10% of the army is lost. On a success the force withdraws in good order. Only on a Critical does a beaten force keep fighting. A force with nowhere to retreat to fights on regardless.
 
-Larger forces may split into several armies, each with its own commander. Resolve each the same way; every army must choose an opposing force to attack.
+Larger forces can split into several armies, each with its own commander. Resolve each the same way; every army must choose an opposing force to attack.

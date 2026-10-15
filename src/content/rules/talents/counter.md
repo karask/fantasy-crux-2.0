@@ -21,8 +21,8 @@ tags:
 
 After perceiving a successful Shaping being cast within 15 metres, or its projected effect entering within 15 metres, spend the base Reaction before defence or effect. Current PP must at least equal its Magnitude.
 
-Oppose Shaping with the original result; Counter must succeed and win. Spend full Magnitude either way; a fumble also causes Backlash at that Magnitude.
+Test Shaping, opposed against the Shaper's original result; Counter must succeed and win. Spend full Magnitude either way; a fumble also causes Backlash at that Magnitude.
 
 **Attempting Counter replaces your own defence against that Shaping.** If it does not stop the Shaping, you cannot then Dodge, Active Guard, or resist it with Resilience or Persistence. Another character's Counter does not consume your defence. See [Casting and Defence](/rules/magic/#casting-and-defence--magic-defence).
 
-Only one Counter may answer a Shaping, and Counter cannot be Countered.
+Only one Counter can answer a Shaping, and Counter cannot be Countered.

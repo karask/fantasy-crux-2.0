@@ -5,7 +5,7 @@ chapter: gm-tools
 title: 'Enchanted Items'
 slug: enchanted-items
 order: 15
-summary: 'An anchored Shaping becomes a Continuous, Activated, or Charged item; Trigger may delay an Activated or Charged use.'
+summary: 'An anchored Shaping becomes a Continuous, Activated, or Charged item; Trigger can delay an Activated or Charged use.'
 aliases:
   - magic items
   - enchanting
@@ -17,11 +17,12 @@ An **enchantment** is a Shaping bound to a vulnerable anchor, either a physical 
 
 ## Making one {#gm-enchanting}
 
-Build the Shaping normally, then bind it to the anchor during the ritual. There are two routes:
+Build the Shaping normally, then bind it to the anchor during the ritual. A lasting enchantment takes one of two routes:
 
 - **Everyday work** uses [Duration 4](/rules/magic/#building-a-shaping--magic-duration): an ordinary ritual and no mythic price.
 - **Legendary work** uses Duration 5: a [mythic ritual](/rules/magic/#rituals-and-examples--magic-mythic) and its declared lasting price.
-- **One-use items**, a potion or scroll with a single charge, skip Duration 4. Price the effect with its own Duration, then add 1 for the binding. The charge keeps until it is used, and binding it is still a ritual of one hour per Magnitude. A `1D4` healing potion is Alter·Flesh at Intensity 1, Duration 0, plus 1: Magnitude 2.
+
+**One-use items**, such as a potion or scroll with a single charge, skip Duration 4. Price the effect with its own Duration, then add 1 for the binding. The charge keeps until it is used, and binding it is still a ritual of one hour per Magnitude. A `1D4` healing potion is Alter·Flesh at Intensity 1, Duration 0, plus 1: Magnitude 2.
 
 The maker pays a one-use item's PP when binding it. Until it is used, its Magnitude also commits the maker's maximum PP and counts toward their active total, as for any other enchantment.
 
@@ -35,7 +36,7 @@ A **minor** enchantment is Magnitude 1–4 and one modest effect. A **major** on
 
 ## Using one {#gm-using-enchantments}
 
-Anyone may use an enchantment. Neither the Shaping skill nor a known cell is required, and the item shows its maker's Tell whenever it works, so using one is conspicuous.
+Anyone can use an enchantment; it needs neither the Shaping skill nor a known cell. The item shows its maker's Tell whenever it works, so using one is conspicuous.
 
 | Kind           | How it runs                                          | Power Points                                                                      |
 | -------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------- |
@@ -59,7 +60,7 @@ A depletable outcome such as a [vitality reserve](/rules/magic/#effects--magic-v
 
 [Scry](/rules/magic/#effects--magic-scry) the matching Form to learn more. Intensity 2 diagnoses what the item does and how to set it off; Intensity 3 reveals a curse, a limit, or a trigger its maker concealed.
 
-Until then an item is only what it appears to be, and the Gamemaster may let use reveal the rest.
+Until then an item is only what it appears to be, and the Gamemaster can let use reveal the rest.
 
 ## Destroying one {#gm-destroying-enchantments}
 

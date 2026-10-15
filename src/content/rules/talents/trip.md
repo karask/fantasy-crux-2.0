@@ -21,4 +21,4 @@ tags:
 
 ## Effect
 
-Declare Trip before a Close Combat or Unarmed Combat attack. If the hit is not stopped by a Reaction, deal no damage and leave the target prone. The Gamemaster may bar Trip against impossible Size or anatomy.
+Declare Trip before a Close Combat or Unarmed Combat attack. If the hit is not stopped by a Reaction, deal no damage and leave the target prone. The Gamemaster can bar Trip against impossible Size or anatomy.

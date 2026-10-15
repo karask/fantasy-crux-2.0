@@ -14,29 +14,27 @@ aliases:
   - creature threat
 ---
 
-Creatures here are as detailed as the characters who meet them. They have skills, weapons, and abilities of their own, and motives that bring them into conflict with the player characters. They are not cannon fodder to be killed and looted.
+Creatures are as detailed as the characters who meet them. They have skills, weapons, abilities, and motives that bring them into conflict with the player characters. They are not cannon fodder to be killed and looted.
 
-Each profile is the bare bones of its kind. Use one as written for an average, unremarkable member of that species, and treat the lot of them as examples for the creatures a particular campaign needs.
-
-An intelligent creature profile describes one ready-to-use individual, often equipped for danger. It does not assign morality, culture, or allegiance to every member of that people.
+Each profile is the bare bones of its kind: use it as written for an average member of the species, or as an example for the creatures your campaign needs. An intelligent creature's profile describes one ready-to-use individual, often equipped for danger. It does not assign morality, culture, or allegiance to every member of that people.
 
 ## Building on a profile {#creatures-building-on-a-profile}
 
-Monsters are people too. To make one that deserves a name, take the profile as a base, decide on a concept, and add the skills, characteristics, and abilities that concept implies. For a truly significant opponent, build the creature the way a player builds a character; the result stands at comparable experience to the party and fights like it.
+Monsters are people too. To make one that deserves a name, start from the profile, decide on a concept, and add the skills, characteristics, and abilities it implies. For a truly significant opponent, build the creature as a player builds a character; it then stands at comparable experience to the party and fights like it.
 
 ## Creatures as player characters {#creatures-as-player-characters}
 
-Many profiles can in theory serve as a player character. Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk are the recommended player races because their capabilities work readily in a typical adventuring company. Other creatures, including Merfolk and Pixies, are available at the Gamemaster's discretion when the campaign can accommodate their movement, scale, or other unusual needs. [Fantasy Races](/rules/gm-tools/#fantasy-races) gives the recommended nonhuman races complete starting spreads, racial maxima, and Improvement Point costs.
+Many profiles could serve as player characters. Human, Elf, Dwarf, Orc, Goblin, and Lizardfolk are the recommended player races, because their capabilities suit a typical adventuring company. Others, including Merfolk and Pixies, are available at the Gamemaster's discretion when the campaign can accommodate their movement, scale, or other needs. [Fantasy Races](/rules/gm-tools/#fantasy-races) gives the recommended nonhuman races complete starting spreads, racial maxima, and Improvement Point costs.
 
 ## Scaling an encounter {#creatures-scaling-encounters}
 
-Be careful raising difficulty by adding bodies. Combat works best with roughly as many creatures as player characters, and a crowd of weak opponents mostly costs table time.
+Be careful adding bodies to raise difficulty. Combat works best with roughly as many creatures as player characters, and a crowd of weak opponents mostly costs table time.
 
-Raise the power of individual creatures instead. Better skills, better equipment, an extra ability, or Shaping cells bring a single creature closer to the party's level without slowing the round down.
+Raise the power of individual creatures instead. Better skills, better equipment, an extra ability, or Shaping cells bring one creature closer to the party's level without slowing the round.
 
 ## Threat Intensity {#creatures-threat-intensity}
 
-Threat Intensity rates a creature on Shaping's 1–5 Intensity scale. [Calling](/rules/magic/#effects--magic-calling) uses it, and it also gives a quick measure of a creature's danger.
+Threat Intensity rates a creature on Shaping's 1–5 Intensity scale. [Calling](/rules/magic/#effects--magic-calling) uses it, and it gives a quick measure of a creature's danger.
 
 | Rating | Body: HP, or PP if Incorporeal | Best attack |
 | -----: | ------------------------------ | ----------- |

@@ -639,7 +639,13 @@ test('Gamemaster tools publish the procedures that reach past one character', as
   const dragon = page.locator('#dragon').locator('xpath=ancestor::article[1]');
   await expect(dragon.locator('.creature-inline').last()).toContainText('Plunder');
   await expect(dragon.locator('.creature-inline').last()).toContainText('5');
-  await dragon.getByRole('link', { name: 'Plunder' }).click();
+  // The bestiary page is heavy, so a click can land while portraits still shift the layout.
+  // Retry the click until the navigation happens instead of trusting the first one.
+  const plunderLink = dragon.getByRole('link', { name: 'Plunder' });
+  await expect(async () => {
+    await plunderLink.click();
+    await expect(page).toHaveURL(/\/rules\/gm-tools\/#plunder$/, { timeout: 2000 });
+  }).toPass({ timeout: 15000 });
   await expect(page.locator('h1')).toHaveText('GM Tools');
 });
 

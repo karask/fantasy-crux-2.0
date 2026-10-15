@@ -20,4 +20,4 @@ tags:
 
 An army you command loses half the usual casualties from a [battle](/rules/gm-tools/#mass-combat).
 
-When your beaten force passes its rout test, it may also keep fighting rather than withdraw, where another commander's force needs a Critical to fight on.
+When your beaten force passes its rout test, it can keep fighting rather than withdraw; another commander's force needs a Critical to fight on.

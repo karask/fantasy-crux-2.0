@@ -13,16 +13,14 @@ aliases:
 
 ## Carrying capacity {#adventuring-carrying-capacity}
 
-Encumbrance (ENC) measures both weight and awkwardness. Armour, weapons, containers, and their contents all count toward the carried total.
+Encumbrance (ENC) measures weight and awkwardness together. Armour, weapons, containers, and their contents all count toward the carried total. Items marked `—` are negligible alone; in a suitable container, every 20 of them count as 1 ENC.
 
-Items marked `—` are negligible individually. If carried in a suitable container, every 20 such items count as 1 ENC.
+**Capacity.** You carry up to `STR + SIZ` ENC without penalty.
 
-**Capacity:** A character carries up to `STR + SIZ` ENC without penalty.
+**Overloaded.** Above Capacity, you:
 
-**Overloaded:** Above Capacity, the character:
+- suffer `-1P` on physical tests, including weapon tests and most tests based on STR or DEX;
+- have half Movement; and
+- suffer `-1P` on Fatigue tests.
 
-- suffers `-1P` on physical tests, including weapon tests and most tests based on STR or DEX;
-- has half Movement;
-- suffers `-1P` on Fatigue tests.
-
-A character cannot carry more than `2 × (STR + SIZ)` ENC. Containers make loads practical to carry but do not reduce ENC.
+You cannot carry more than `2 × (STR + SIZ)` ENC. Containers make loads practical to carry but do not reduce ENC.

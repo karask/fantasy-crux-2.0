@@ -13,7 +13,7 @@ aliases:
 
 ## Daily pace {#adventuring-daily-travel}
 
-Daily rates assume ten hours of travel in fair conditions. When it matters which group arrives first, make an opposed Athletics test for travellers on foot or Riding test for mounted groups.
+Daily rates assume ten hours of travel in fair conditions. When it matters who arrives first, make an opposed Athletics test for groups on foot, or Riding for mounted groups.
 
 | Pace          | Distance per day | Cost                                                                                           |
 | ------------- | ---------------: | ---------------------------------------------------------------------------------------------- |
@@ -36,8 +36,10 @@ Multiply the chosen rate by the worst terrain crossed for a substantial part of 
 
 ## Navigation
 
-Once per uncertain travel day, make a Natural Lore navigation test. Make another test after a material route change.
+Once per uncertain travel day, make a Natural Lore navigation test, and test again after a material route change.
 
-On a Success, make full progress. On a Failure, lose one quarter of that day's progress. On a Fumble, make no progress and become lost.
+- On a Success, make full progress.
+- On a Failure, lose one quarter of that day's progress.
+- On a Fumble, make no progress and become lost.
 
-Weather, steep slopes, navigation errors, forced stops, and exceptional mounts may alter the final distance at the Gamemaster's discretion.
+Weather, steep slopes, navigation errors, forced stops, and exceptional mounts can change the final distance at the Gamemaster's discretion.

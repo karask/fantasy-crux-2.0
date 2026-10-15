@@ -19,4 +19,6 @@ tags:
 
 ## Effect
 
-Forfeit all Reactions for the round, then make two Ranged Combat attacks with a bow or sling at `-1P` each. The weapon must be ready for the first attack; the Talent includes drawing or loading the second missile. Resolve the attacks one at a time; they may have different targets. Rapid Shot cannot be used after taking a Reaction that round and never works with a crossbow.
+Forfeit all Reactions for the round, then make two Ranged Combat attacks with a bow or sling at `-1P` each. The weapon must be ready for the first attack; the Talent includes drawing or loading the second missile. Resolve the attacks one at a time; they can have different targets.
+
+Rapid Shot cannot be used after taking a Reaction that round, and never works with a crossbow.

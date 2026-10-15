@@ -2,11 +2,13 @@
 // `--check` regenerates in memory and fails if any committed SVG is missing, stale, or orphaned.
 import { mkdirSync, readFileSync, readdirSync, writeFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
+import adventuring from './diagrams/adventuring.mjs';
 import combat from './diagrams/combat.mjs';
 import shaping from './diagrams/shaping.mjs';
+import skills from './diagrams/skills.mjs';
 
 const outputDirectory = path.resolve('src/assets/diagrams');
-const diagrams = { ...combat, ...shaping };
+const diagrams = { ...combat, ...shaping, ...skills, ...adventuring };
 const check = process.argv.includes('--check');
 
 const problems = [];
