@@ -14,7 +14,7 @@ import { format } from 'prettier';
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(directory, '../..');
 const rules = path.join(root, 'src/content/rules');
-const version = process.argv[2] ?? 'v01';
+const version = process.argv[2] ?? 'v02';
 assert.match(version, /^v\d{2,3}$/);
 const output = path.join(directory, 'output/pdf');
 const review = path.join(directory, 'review');
@@ -138,6 +138,45 @@ async function bestiary(entries) {
   return rows.join('\n\n');
 }
 
+// Talent costs and requirements come straight from the Talent files, as "(2 IP; Close Combat 51%)".
+// A group placeholder stands for Talents that share a cost and a 51% requirement in their own skill.
+const talentSlugs = new Set();
+function requirement(text) {
+  return String(text)
+    .replace(/^A /, 'a ')
+    .replace(/, as used by the chosen weapon$/, '')
+    .replace(/(\w+) Combat (\d+%) or (\w+) Combat \2/, '$1 or $3 Combat $2')
+    .replace(/ and /, ', ');
+}
+async function talentTag(list) {
+  const slugs = list.split(',').map((slug) => slug.trim());
+  const talents = [];
+  for (const talent of slugs) {
+    const { data } = await body(path.join(rules, 'talents', `${talent}.md`));
+    assert.ok(
+      Number.isInteger(data.cost) && data.prerequisites,
+      `${talent}: cost and prerequisites`,
+    );
+    talentSlugs.add(talent);
+    talents.push(data);
+  }
+  if (talents.length === 1)
+    return `(${talents[0].cost} IP; ${requirement(talents[0].prerequisites)})`;
+  const [first] = talents;
+  assert.ok(
+    talents.every((t) => t.cost === first.cost && /^[A-Z][A-Za-z ]+ 51%$/.test(t.prerequisites)),
+    `${list}: a group must share its cost and a 51% requirement`,
+  );
+  return `(${first.cost} IP; 51% in that skill)`;
+}
+async function expandTalents(text) {
+  let result = text;
+  for (const match of text.matchAll(/\{\{talent:([a-z,-]+)\}\}/g)) {
+    result = result.replace(match[0], await talentTag(match[1]));
+  }
+  return result;
+}
+
 function sectionHtml(block) {
   const split = block.indexOf('\n');
   const title = block.slice(0, split).trim();
@@ -156,6 +195,8 @@ for (const [index, { file, data, copy }] of pageData.entries()) {
     assert.ok(text.includes('{{bestiary}}'), `${file}: place {{bestiary}}`);
     text = text.replace('{{bestiary}}', await bestiary(data.bestiary));
   }
+  text = await expandTalents(text);
+  assert.ok(!text.includes('{{'), `${file}: unknown placeholder`);
   const blocks = text
     .replace(/^# .+\n+/, '')
     .split(/^## /m)
@@ -289,6 +330,20 @@ check(
         .slice(1),
     ),
 );
+
+// Ancestry abilities: Lite's IP costs must equal the sum of the listed abilities.
+const raceBody = (await body(path.join(rules, 'gm-tools/fantasy-races.md'))).content;
+const characters = pageData.find((p) => p.file.includes('characters')).copy.replace(/\s+/g, ' ');
+for (const line of raceBody.match(/^- \*\*\w+\*\* — .+$/gm)) {
+  const race = line.match(/^- \*\*(\w+)\*\*/)[1];
+  const cost = /No innate abilities/.test(line)
+    ? 0
+    : [...line.matchAll(/(\d+) IP/g)].reduce((sum, m) => sum + Number(m[1]), 0);
+  const lite = characters.match(new RegExp(`\\*\\*${race}\\*\\* \\((\\d+) IP\\)`));
+  check(`Ancestry IP: ${race}`, lite && Number(lite[1]) === cost, `(${lite?.[1]} vs ${cost})`);
+}
+check('Talent costs from the Talent files', talentSlugs.size > 0, `(${talentSlugs.size} Talents)`);
+for (const talent of talentSlugs) check(`Talent: ${talent}`, true);
 
 const building = await canonical('magic/building-a-shaping.md');
 const limits = tableWith(building, 'Shaping', 'Safe Magnitude').slice(1);

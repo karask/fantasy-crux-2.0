@@ -1,22 +1,22 @@
 # Fantasy Crux Lite
 
 A short, compatible version of Fantasy Crux 2.0 for conventions, one-shots and
-Gamemasters who want the whole system in their heads. **Status: v01 draft for
+Gamemasters who want the whole system in their heads. **Status: v02 draft for
 review.** It is not on the website or the Downloads page.
 
-- [Lite PDF, A4](output/pdf/fantasy-crux-lite-v01.pdf)
-- [Review record](review/REVIEW-v01.md)
+- [Lite PDF, A4](output/pdf/fantasy-crux-lite-v02.pdf)
+- [Review record](review/REVIEW-v02.md)
 
 ## What it is
 
-Twelve A4 pages of rules plus the one-page Open Game License: about 5,900 words,
+Twelve A4 pages of rules plus the one-page Open Game License: about 6,000 words,
 a fifth of the full rules without the bestiary and gazetteer.
 
 |  Page | Subject                                                               |
 | ----: | --------------------------------------------------------------------- |
 |     1 | Cover, what Lite is, what you need                                    |
 |   2–3 | Play: tests, grades, dice, Hero Points; every common circumstance     |
-|   4–5 | Characters, edges, starting gear and growth                           |
+|   4–5 | Characters, Improvement Points, Talents and gear                      |
 |   6–7 | Combat: rounds, defence, damage, criticals; grapples, wounds, healing |
 |   8–9 | Equipment; adventuring and hazards                                    |
 | 10–11 | Shaping: cells, building, limits; outcomes, casting, defence          |
@@ -33,34 +33,31 @@ Lite keeps every number the full rules use: characteristics, ancestry spreads
 and maxima, attributes, Damage Modifier, all skill bases, every weapon and
 armour profile, Parry Size, criticals, wounds, healing, travel, fatigue,
 objects, Shaping limits and conjured beings. Full-rules characters, creatures
-and adventures work unchanged, and full-rules Talents can be bought at their
-listed IP cost.
+and adventures work unchanged, and every full-rules Talent can be bought at
+its listed IP cost.
 
 `render.mjs` enforces this. Before it prints anything, it compares Lite's
-tables with the canonical rules in `src/content/rules/` (282 checks in v01) and
-stops on any difference. The bestiary is generated from the creature profiles.
+tables with the canonical rules in `src/content/rules/` (315 checks in v02) and
+stops on any difference. Talent costs and requirements, ancestry ability costs
+and the bestiary are generated from or checked against their source files.
 
 ### What Lite changes
 
 These are presentation and scope decisions, listed so the full rules stay the
 reference:
 
-- **Edges replace starting Talents.** Characters choose two edges, three for a
-  human. The 20 edges are full-rules Talents in one line each, without their
-  prerequisites; Expertise stands for the six Talents that cancel a Penalty
-  die. A new edge costs 3 IP, close to the Talents' average cost.
-- **Ancestry abilities come free.** In the full rules, nonhumans pay for them
-  from their 10 starting IP; in Lite, humans get the extra edge instead.
-- **Starting as a Shaper** stays as costly as in the full rules: only a human
-  can, using all three edges and 50 fewer skill points. That mirrors the full
-  rules, where only a human can raise the 20 IP at creation.
-- **No starting IP or point trading.** Growth after play uses the full rules'
-  IP costs.
+- **Character creation uses the full rules' Improvement Points.** Characters
+  start with 10 IP, minus their ancestry's abilities, and can keep back skill
+  points for more, as in the full rules. Shaping (20 IP) is therefore open at
+  the start only to a human who trades 50 skill points.
+- **A short Talent list.** Lite describes 20 Talents briefly, with their costs
+  and requirements; Expertise stands for the six Talents that cancel a Penalty
+  die.
 - **Left out:** rituals, enchanting and enchanted items, the learned Shaping
   adjustments (Confluence, Trigger, Indirect, Selective, Veiled), Counter,
   calling beings, Spirit Combat and possession, mass combat, ships, plunder,
-  epic characters, random characteristics, and most special cases. Lite points
-  to the full rules for them.
+  epic characters, random characteristics, the other Talents and most special
+  cases. Lite points to the full rules for them.
 
 ## Format
 
@@ -77,16 +74,17 @@ One Markdown file per page in `content/`. Frontmatter sets the title, subtitle,
 running label, the section that starts the second column (`column_break`), any
 full-width sections (`wide_top`, `wide_bottom`) and the full-rules `sources`.
 The Gamemaster page lists bestiary creatures by slug, with an optional note.
+`{{talent:slug}}` prints a Talent's cost and requirement from its rules file.
 
 From the repository root:
 
 ```sh
-node player-handbook/lite/render.mjs v01
-python3 -B player-handbook/lite/verify.py v01
-pdftoppm -r 100 -png player-handbook/lite/output/pdf/fantasy-crux-lite-v01.pdf player-handbook/lite/tmp/pdfs/lite-v01
+node player-handbook/lite/render.mjs v02
+python3 -B player-handbook/lite/verify.py v02
+pdftoppm -r 100 -png player-handbook/lite/output/pdf/fantasy-crux-lite-v02.pdf player-handbook/lite/tmp/pdfs/lite-v02
 ```
 
-The renderer fails on any rules difference, overflow, text under 9.5 pt, a
+The renderer fails on any rules difference, an unknown placeholder, overflow, text under 9.5 pt, a
 footer gap under 4 mm, missing licence text, or an automated accessibility
 violation. `verify.py` checks the PDF: complete text, A4 pages, embedded fonts
 and one folio per page. Python needs pypdf and pdfplumber; the bundled

@@ -40,7 +40,8 @@ for damage. A character sheet and a pencil for each player.
 ## Contents
 
 - **Play** and **Circumstances**: tests and the dice that modify them.
-- **Characters** and **Edges and Growth**: build and improve a character.
+- **Characters** and **Improvement and Talents**: build and improve a
+  character.
 - **Combat** and **More Combat**: fights, wounds and healing.
 - **Equipment** and **Adventuring**: gear, travel and hazards.
 - **Shaping**: magic, in two pages.

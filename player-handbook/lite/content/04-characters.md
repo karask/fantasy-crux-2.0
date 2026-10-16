@@ -1,6 +1,6 @@
 ---
 title: Characters
-subtitle: Build a character in five steps, or play a ready-made one.
+subtitle: Build a character in six steps, or play a ready-made one.
 label: Characters
 column_break: 4. Skills
 sources:
@@ -32,13 +32,14 @@ and SIZ at least 7, the rest at least 3. **Quick human:** assign 16, 14, 13,
 | Goblin     |   6 |   7 |  12 |   4 |   9 |   8 |  10 |
 | Lizardfolk |  11 |   8 |   6 |   8 |   9 |   7 |   7 |
 
-**Human:** one extra edge. **Elf:** Low-Light Sight; in forests, ignore one
-Penalty die on Natural Lore. **Dwarf:** Blind Sight (heat); Earth Sense, knowing your depth and
-whether a cave is unstable while touching stone. **Orc:** Adrenaline Surge: once per
-fight, on becoming Wounded or Fatigued, ignore both penalties until the end of
-your next turn. **Goblin:** Blind Sight (heat). **Lizardfolk:** scaled hide, +1 AP that
-stacks with armour; a tail that gives -1P to attempts to trip, throw or push
-you.
+**Ancestry abilities** cost IP from your starting 10 (step 5). **Human** (0 IP):
+none. **Elf** (5 IP): Low-Light Sight; in forests, ignore one Penalty die on
+Natural Lore. **Dwarf** (7 IP): Blind Sight (heat); Earth Sense, knowing your
+depth and whether a cave is unstable while touching stone. **Orc** (4 IP):
+Adrenaline Surge: once per fight, on becoming Wounded or Fatigued, ignore both
+penalties until the end of your next turn. **Goblin** (5 IP): Blind Sight
+(heat). **Lizardfolk** (6 IP): scaled hide, +1 AP that stacks with armour; a
+tail that gives -1P to attempts to trip, throw or push you.
 
 **Blind Sight (heat)** perceives warm bodies without light, but no colour,
 writing or fine detail; walls and insulation block it.
@@ -54,7 +55,8 @@ writing or fine detail; walls and insulation block it.
 | Combat Order            | (DEX + INT) / 2, minus armour ENC |
 | Carrying capacity       | STR + SIZ, in ENC                 |
 
-**Damage Modifier (DM),** from STR + SIZ: 1–10 **-1D6**; 11–15 **-1D4**; 16–25
+Recalculate them whenever a characteristic changes. **Damage Modifier (DM),**
+from STR + SIZ: 1–10 **-1D6**; 11–15 **-1D4**; 16–25
 **+0**; 26–30 **+1D4**; 31–45 **+1D6**; 46–60 **+2D6**; 61–75 **+3D6**; each 15
 more, another +1D6.
 
@@ -103,8 +105,8 @@ skill. Each Craft, Culture, Language and Lore subject is a separate skill.
 | Streetwise    | CHA + POW | Rumours       |
 | Trade         | INT + 10  | Haggle, value |
 
-## 5. Edges, gear and finish
+## Example
 
-Choose **two edges**, three for a human, and a starting gear package: see Edges
-and Growth. Name your character, then record HP, MWL, PP, DM, Combat Order,
-armour, weapons and **2 Hero Points**.
+Mara, a human warrior, takes the quick array: STR 16, CON 14, DEX 13, SIZ 12,
+INT 11, POW 10, CHA 10. She has HP 13, MWL 7, PP 10, DM +1D4 and Combat Order
+12, or 9 in leather. With 30 Combat points, her Close Combat is 59%.

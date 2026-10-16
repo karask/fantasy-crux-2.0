@@ -332,3 +332,18 @@ td {
 .licence-text .keep {
   break-inside: avoid;
 }
+
+.improvement-points th:first-child,
+.improvement-points td:first-child {
+  width: 80%;
+}
+
+/* Talent list: full width, two flowing columns. */
+.talents ul {
+  column-count: 2;
+  column-gap: 6mm;
+  margin-top: 1mm;
+}
+.talents li {
+  break-inside: avoid;
+}

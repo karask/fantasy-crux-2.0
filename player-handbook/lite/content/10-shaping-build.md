@@ -6,6 +6,7 @@ column_break: Build an effect
 sources:
   - src/content/rules/magic/becoming-a-shaper.md
   - src/content/rules/characters/character-creation.md
+  - src/content/rules/talents/shaping.md
   - src/content/rules/magic/techniques-and-forms.md
   - src/content/rules/magic/building-a-shaping.md
   - src/content/rules/magic/effects.md
@@ -15,14 +16,16 @@ sources:
 
 ## Becoming a Shaper
 
-**Shaper** is a special edge. A human can start with it in place of all three
-edges, adding 50 fewer points to Resistance, Combat and Practical skills (at
-most 20 fewer from each). Others learn it in play, for 20 IP. It gives:
+**Shaping** {{talent:shaping}} is a Talent. Only a human can afford it at the
+start; others learn it in play. It gives:
 
 - the **Shaping** skill, base INT + POW; you can add up to 30 Knowledge points;
 - a **specialty**, one Form or one Technique, and two known **cells** that
   contain it; and
 - **Sense Magic** and **Dispel**, which need no cell.
+
+**More cells:** 2 IP with your specialty; otherwise 4 IP, after an ordeal or
+with a master.
 
 Your **Practice** is what you visibly do to cast: speech, gesture, a focus or
 prayer. If it is prevented, you cannot cast. Your **Tell** is a sign around you

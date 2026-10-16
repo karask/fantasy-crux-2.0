@@ -44,7 +44,7 @@ it without a roll. Ask for one test for a long task, not one per step.
 ## Setting difficulty
 
 There are no difficulty numbers. Most tests use the plain skill; let the
-situation add dice. A helpful edge is +1B, a hard task -1P, and a very hard one
+situation add dice. A clear advantage is +1B, a hard task -1P, and a very hard one
 -2P. If it cannot fail, it succeeds; if it cannot succeed, do not roll.
 
 ## Morale

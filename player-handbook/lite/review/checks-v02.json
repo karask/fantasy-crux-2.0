@@ -1,0 +1,1962 @@
+{
+  "version": "v02",
+  "pages": [
+    {
+      "page": 1,
+      "footerGapMm": 28.413769531249997,
+      "columns": [
+        28.49645182291666,
+        28.413769531249997
+      ],
+      "sections": [
+        "What is Lite? 45",
+        "Using Lite 41",
+        "You need 28",
+        "Contents 58"
+      ],
+      "minPt": 9.999975,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nLITE RULES\nFANTASY CRUX LITE\n\nThe whole game in a few pages, for fast play and convention tables.\n\nWHAT IS LITE?\n\nFantasy Crux is a gritty percentile game about capable adventurers. Violence is dangerous, preparation matters, and Hero Points leave room for epic reversals.\n\nLite is the same game with its side rules folded together. Almost everything is a skill test, and almost every special case is a reason to add Bonus or Penalty dice. An experienced Gamemaster can read it in an evening and run it from memory.\n\nUSING LITE\n\nLite keeps the same numbers as the full rules: characteristics, skills, weapons, armour, wounds and Shaping. Characters, creatures and adventures for Fantasy Crux 2.0 work in Lite unchanged, and so do any Talents a character has.\n\nWhen Lite is silent, use the full rules at fantasycrux.org, or make a quick ruling and keep playing.\n\nYOU NEED\n\nTwo ten-sided dice for percentile rolls, one for tens and one for units, plus a few spare ten-sided dice for Bonus and Penalty dice. A D4, D6, D8, D10 and D12 for damage. A character sheet and a pencil for each player.\n\nCONTENTS\nPlay and Circumstances: tests and the dice that modify them.\nCharacters and Improvement and Talents: build and improve a character.\nCombat and More Combat: fights, wounds and healing.\nEquipment and Adventuring: gear, travel and hazards.\nShaping: magic, in two pages.\nGamemaster: running tests, quick NPCs and common creatures.\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 1"
+    },
+    {
+      "page": 2,
+      "footerGapMm": 20.038053385416667,
+      "columns": [
+        24.775748697916665,
+        20.038053385416667
+      ],
+      "sections": [
+        "Make a test 41",
+        "Result grades 76",
+        "Bonus and Penalty dice 53",
+        "Opposed tests 36",
+        "Let the fiction lead 32",
+        "Help 24",
+        "Group tests 28",
+        "Hero Points 55",
+        "Example of play 36",
+        "Dice and time 32"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nPLAY\nPLAY\n\nSay what you try. Roll only when failure would matter.\n\nMAKE A TEST\nSay what your character wants and how they try.\nThe GM names the skill and any Bonus or Penalty dice. Routine and impossible tasks need no roll.\nRoll D100: a tens die and a units die read 01 to 100; 00 is 100. A result at or under the skill succeeds.\nApply the result and play on. Do not repeat the test until something changes.\nRESULT GRADES\nRoll\tGrade\n01 to the skill's tens digit\tCritical: success with an extra benefit.\nAt or under the skill\tSuccess.\nOver the skill\tFailure.\n99–00; only 00 at 100%\tFumble: failure with a consequence fitting the risk.\n\nA 59% skill is Critical on 01–05; any skill above 0% is Critical on 01. A Fumble overrides success. Skills never exceed 100%.\n\nA Critical succeeds especially quickly, thoroughly or well, and can reveal something extra. A Fumble adds a serious consequence that follows from the risk: lost time, broken gear, danger or a worse position.\n\nBONUS AND PENALTY DICE\n\nEach +1B adds one tens die and you keep the best result; each -1P adds one and you keep the worst. Pair every tens die with the same units die. Cancel them one for one and keep at most +3B or -3P.\n\nBest result: the higher grade first (Critical, Success, Failure, Fumble). Among successes the higher roll is better; among failures, the lower.\n\nExample. Skill 70%, +1B: units 5, tens 2 and 6 give 25 or 65. Both succeed, so keep 65.\n\nOPPOSED TESTS\n\nWhen someone resists, both roll. The higher grade wins. With the same grade, the higher success wins, or the lower failure. Still tied: the higher skill wins, then the defender; with no defender, nothing changes. Two successes of 42 and 31: 42 wins. Two failures of 72 and 85: 72 wins.\n\nLET THE FICTION LEAD\n\nRules settle uncertain moments; they do not replace common sense. The GM can grant dice for a strong advantage, rule that size or anatomy makes an action impossible, or let an obvious approach succeed without a roll. Say so before the roll.\n\nHELP\n\nHelpers who know the job, with 26% or more in the skill, give +1B in total, not per helper. Exceptional teamwork can give +2B.\n\nGROUP TESTS\n\nIf one failure sinks everyone, such as sneaking past a guard, roll once for the weakest member. If one success is enough, such as spotting an ambush, roll once for the best, with +1B for the others' help.\n\nHERO POINTS\n\nEach player character starts with 2; the GM awards more for heroic play. Spend 1 to:\n\nReroll a failed test, before its consequences. One reroll per test.\nDowngrade a Major Wound: keep the HP loss, but not Wounded or Bleeding.\nAvoid Death: at 0 HP, become stable and unconscious. Wake after the scene with 1 HP.\nStory benefit: with GM approval, add a plausible favourable detail.\nEXAMPLE OF PLAY\n\nCorin sneaks past a sentry at night: Deception 55% against the sentry's Perception 45%. Moonlight is partial darkness, so the sentry rolls at -1P, and Corin's dark cloak gives him +1B. Corin's dice read 25 or 65; he keeps 25, a Success. The sentry's read 38 or 78; he must keep 78, a Failure. Corin slips past.\n\nDICE AND TIME\n\n2D6+1 means roll two six-sided dice and add 1. Round to the nearest whole number; halves round up. A round is five seconds. A scene is one continuous situation, such as a fight, a chase or a negotiation. Distances are in metres; on a grid, a square is 2 m.\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 2"
+    },
+    {
+      "page": 3,
+      "footerGapMm": 16.548860677083333,
+      "columns": [
+        16.548860677083333,
+        44.177148437499994
+      ],
+      "sections": [
+        "Add dice for what matters 32",
+        "Your condition 64",
+        "Close combat 57",
+        "Skills and tasks 61",
+        "Ranged attacks 81",
+        "Light 79",
+        "Example 28"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nPLAY\nCIRCUMSTANCES\n\nMost special rules are reasons to add Bonus or Penalty dice.\n\nADD DICE FOR WHAT MATTERS\n\nA clear advantage is +1B, a clear problem -1P; two dice are for strong factors. Add up different causes, but use only the strongest of one kind, such as the worst cover. Then cancel and cap at +3B or -3P. Judge new cases alike.\n\nYOUR CONDITION\nYou are…\tDice\nWounded, after a Major Wound\t-1P on every test\nFatigued / Exhausted\t-1P / -2P on every test\nHeld in a grapple, or holding someone\t-1P on every test\nBelow a weapon's STR or DEX minimum\t-1P with that weapon\nOverloaded: over STR + SIZ in ENC\t-1P on physical tests\nOn unstable ground\t-1P\nCLOSE COMBAT\nSituation\tDice\nTarget prone, flanked or attacked from behind\t+1B to attack\nYou have higher ground\t+1B to your own rolls\nYou are prone\t-1P to your own rolls\nFighting underwater\t-2P\nRider against someone on foot\tRider +1B; foe -1P to defend\nTarget helpless\tAutomatic Critical\nSKILLS AND TASKS\nSituation\tDice\nGood tools: climbing kit, crowbar, lock picks\t+1B\nA sound plan, or real leverage\t+1B\nA successful related Lore test just before\t+1B to one test\nSkilled helpers\t+1B in total\nHealing without a Healing Kit\t-2P\nResisting poison or disease after treatment\t+1B\nRANGED ATTACKS\nSituation\tDice\nYou spent a Combat Action to Aim at the target\t+1B\nBeyond Range, up to twice Range\t-2P\nPartial / substantial cover\t-1P / -2P\nTarget moved 10 m / 30 m since your last turn\t-1P / -2P\nTarget partly / heavily hidden by mist, smoke or foliage\t-1P / -2P\nTarget prone\t-1P\nTarget helpless\t+2B\nYou are prone\t-2P\nAn enemy is adjacent to you\t-2P per enemy\nHigh wind / fierce wind\t-1P / -3P\nLIGHT\n\nLight at the target counts for seeing and attacking; light at you, for moving. Radius: candle 1 m, torch or lantern 3 m, campfire 5 m, bonfire 10 m.\n\nLight\tEffect\nDaylight, or within a light's radius\tNone\nPartial darkness: twilight, or up to 3× a radius\t-1P to sight-based Perception and attacks\nDarkness: starlight, or up to 5× a radius\t-2P to them; half Movement\nPitch black\tSight fails; close attacks -3P; quarter Movement\n\nLow-Light Sight counts partial darkness as light and darkness as partial darkness. Night Vision counts natural night outdoors as light.\n\nEXAMPLE\n\nAn archer aims at a running orc behind a low wall at dusk. Aim gives +1B; the orc moved 10 m (-1P), has partial cover (-1P) and stands in partial darkness (-1P). Net: -2P. Roll three tens dice and keep the worst result.\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 3"
+    },
+    {
+      "page": 4,
+      "footerGapMm": 6.999055989583334,
+      "columns": [
+        15.924609375,
+        6.999055989583334
+      ],
+      "sections": [
+        "1. Concept 20",
+        "2. Ancestry and characteristics 124",
+        "3. Attributes 73",
+        "4. Skills 196",
+        "Example 32"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nCHARACTERS\nCHARACTERS\n\nBuild a character in six steps, or play a ready-made one.\n\n1. CONCEPT\n\nWrite one sentence: who they are, what they do well and what drives them.\n\n2. ANCESTRY AND CHARACTERISTICS\n\nStart from your ancestry's spread and add 30 points. No score above 18; INT and SIZ at least 7, the rest at least 3. Quick human: assign 16, 14, 13, 12, 11, 10 and 10.\n\nAncestry\tSTR\tCON\tDEX\tSIZ\tINT\tPOW\tCHA\nHuman\t8\t8\t8\t8\t8\t8\t8\nElf\t6\t8\t10\t6\t10\t8\t8\nDwarf\t10\t12\t6\t4\t8\t8\t8\nOrc\t10\t8\t8\t10\t6\t6\t8\nGoblin\t6\t7\t12\t4\t9\t8\t10\nLizardfolk\t11\t8\t6\t8\t9\t7\t7\n\nAncestry abilities cost IP from your starting 10 (step 5). Human (0 IP): none. Elf (5 IP): Low-Light Sight; in forests, ignore one Penalty die on Natural Lore. Dwarf (7 IP): Blind Sight (heat); Earth Sense, knowing your depth and whether a cave is unstable while touching stone. Orc (4 IP): Adrenaline Surge: once per fight, on becoming Wounded or Fatigued, ignore both penalties until the end of your next turn. Goblin (5 IP): Blind Sight (heat). Lizardfolk (6 IP): scaled hide, +1 AP that stacks with armour; a tail that gives -1P to attempts to trip, throw or push you.\n\nBlind Sight (heat) perceives warm bodies without light, but no colour, writing or fine detail; walls and insulation block it.\n\n3. ATTRIBUTES\nAttribute\tValue\nHit Points (HP)\t(SIZ + CON) / 2\nMajor Wound Level (MWL)\tHP / 2\nPower Points (PP)\tPOW\nMovement\t15 m a round\nCombat Order\t(DEX + INT) / 2, minus armour ENC\nCarrying capacity\tSTR + SIZ, in ENC\n\nRecalculate them whenever a characteristic changes. Damage Modifier (DM), from STR + SIZ: 1–10 -1D6; 11–15 -1D4; 16–25 +0; 26–30 +1D4; 31–45 +1D6; 46–60 +2D6; 61–75 +3D6; each 15 more, another +1D6.\n\n4. SKILLS\n\nEvery character has every skill at its base. Add 50 points to Resistances, 50 to Combat, 50 to Knowledge and 75 to Practical skills, at most 30 to any one skill. Each Craft, Culture, Language and Lore subject is a separate skill.\n\nResistances\tBase\tUse\nDodge\tDEX + 10\tAvoid harm\nPersistence\tPOW + 10\tResist fear\nResilience\tCON + POW\tEndure harm\nCombat\tBase\tUse\nClose Combat\tDEX + STR\tWeapons, shields\nRanged Combat\tDEX + INT\tShoot, throw\nUnarmed Combat\tDEX + STR\tPunch, grapple\nKnowledge\tBase\tUse\nCulture (own)\tINT + 10\tCustoms\nCulture (other)\tINT\tCustoms\nLanguage (own)\tINT + 50\tSpeak\nLanguage (other)\tINT\t50% is fluent\nLore (own field)\tINT + 10\tStudy\nLore (other)\tINT\tStudy\nNatural Lore\tINT + 10\tTrack, forage\nShaping\tINT + POW\tShapers only\nPractical\tBase\tUse\nAthletics\tDEX + STR\tClimb, swim\nCraft (trade)\tINT + 10\tMake, repair\nDeception\tDEX + INT\tSneak, hide\nDriving\tDEX + INT\tCarts, wagons\nHealing\tINT + 10\tTreat wounds\nInfluence\tCHA + 10\tPersuade\nMechanisms\tDEX + INT\tLocks, traps\nPerception\tINT + POW\tNotice\nPerformance\tCHA + 10\tEntertain\nRiding\tDEX + POW\tMounts\nSailing\tDEX + INT\tBoats, ships\nStreetwise\tCHA + POW\tRumours\nTrade\tINT + 10\tHaggle, value\nEXAMPLE\n\nMara, a human warrior, takes the quick array: STR 16, CON 14, DEX 13, SIZ 12, INT 11, POW 10, CHA 10. She has HP 13, MWL 7, PP 10, DM +1D4 and Combat Order 12, or 9 in leather. With 30 Combat points, her Close Combat is 59%.\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 4"
+    },
+    {
+      "page": 5,
+      "footerGapMm": 5.180045572916667,
+      "columns": [
+        145.76888020833334,
+        150.00634765625
+      ],
+      "sections": [
+        "5. Improvement Points 92",
+        "6. Gear and finish 36",
+        "Ancestry maxima 49",
+        "Talents 138"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nCHARACTERS\nIMPROVEMENT AND TALENTS\n\nImprovement Points buy Talents now and better skills later.\n\n5. IMPROVEMENT POINTS\n\nImprovement Points (IP) buy Talents and improvements. You start with 10 IP, minus your ancestry's abilities. The GM awards 3 to 5 IP after each adventure, and three months of practice or study earns 1 IP. Unspent IP carry over.\n\nSpend\tCost\nA Talent, if you meet its requirement\tListed\nOne skill +5%, or +3% above 50%; each skill once between adventures, never above 100%\t1 IP\n+1 to a characteristic other than SIZ, up to its maximum; 18 at most when you start\t5 IP\n\nMore IP at the start: keep back up to 20 points from each of your Resistance, Combat and Practical pools. Every 5 kept back gives 1 IP, at most 12. They buy Talents or characteristics, not skills.\n\nShaping costs 20 IP. Only a human can start with it: all 10 starting IP, plus 10 from 50 skill points kept back. Other ancestries learn it in play.\n\n6. GEAR AND FINISH\n\nTake leather armour, a ranged weapon, a dagger, and either a two-handed close weapon or a shield and a one-handed one. Add a backpack, 10 m of rope, two weeks' provisions, flint and tinder, a waterskin and 4D6 × 10 SP. Record HP, MWL, PP, DM, Combat Order, gear, Talents and 2 Hero Points.\n\nANCESTRY MAXIMA\nAncestry\tSTR\tCON\tDEX\tSIZ\tINT\tPOW\tCHA\nHuman\t21\t21\t21\t21\t21\t21\t21\nElf\t18\t21\t24\t18\t24\t21\t21\nDwarf\t24\t24\t18\t18\t21\t21\t21\nOrc\t24\t24\t21\t24\t18\t18\t18\nGoblin\t18\t21\t24\t15\t24\t21\t21\nLizardfolk\t24\t24\t18\t21\t21\t21\t18\nTALENTS\n\nTalents are trained knacks. Each shows its IP cost and the requirement to buy it; Shaping is on the Shaping page. A Talent marked † replaces a hit's damage, and only if no Dodge or full Parry stops the hit; use one † Talent per attack. Any other full-rules Talent can be bought at its listed cost.\n\nAmbusher (4 IP; Deception 76%): your first attack in a scene, from hiding against an unaware target, turns an ordinary hit into a Critical.\nBattle Awareness (3 IP; Perception 51%): while you are aware of an enemy, attacks on you from the flank or behind gain no +1B.\nDisarm † (2 IP; Close Combat 51%): knock one held item 1D6 m away.\nExpertise (2 IP; 51% in that skill): in one narrow use of a skill, such as climbing, sneaking, persuading, commanding, tracking, or Natural Lore in one terrain, ignore one Penalty die. It never adds a Bonus die. Take it again for another use.\nFavoured Weapon (3 IP; Close or Ranged Combat 51%): +1 damage with one named weapon.\nField Surgeon (3 IP; Healing 76%): perform Surgery anywhere outside combat; your success ends Wounded at once.\nIron Fist (3 IP; Unarmed Combat 51%): your unarmed blows deal 1D4 and count as Medium.\nKilling Angle (4 IP; Deception 51%): once per round, +1D4 damage to a close or unarmed attack against a flanked, rear or unaware target; not on a Critical.\nMissile Guard (2 IP; Close Combat 51%): no -1P when you Active Guard with a shield.\nOff-Hand Mastery (5 IP; Close or Unarmed Combat 76%): no -1P on off-hand attacks and Parries.\nPractised Hands (4 IP; Healing 51%): your first aid restores 1D4 + 2 HP, and you can retry a failed attempt once.\nProtector (2 IP; Close Combat 51%): with a ready shield, spend your base Reaction to Parry a hit on an adjacent ally.\nQuick Reflexes (3 IP; DEX 13, Dodge 51%): +2 Combat Order.\nRally (4 IP; Influence 51%): Combat Action: two allies who hear you gain +1B on their next test.\nRapid Shot (4 IP; Ranged Combat 76%): Combat Action and all Reactions: shoot a bow or sling twice, each at -1P.\nShield Cover (3 IP; Close Combat 51%): with a ready medium or large shield, ranged attacks and Shaping bolts aimed at you take -1P.\nShield Rush † (3 IP; Close Combat 51%): with a shield, push the target 2 m; it tests Athletics at -1P or falls prone.\nSilent Step (3 IP; Deception 51%): while you move at half speed or less, anyone trying to notice you takes -1P.\nSteady Casting (3 IP; Shaping 76%): ignore one Penalty die from Wounded or a grapple on Shaping tests.\nTrip † (3 IP; Close or Unarmed Combat 51%): knock the target prone.\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 5"
+    },
+    {
+      "page": 6,
+      "footerGapMm": 20.724316406249997,
+      "columns": [
+        20.724316406249997,
+        24.453287760416668
+      ],
+      "sections": [
+        "The round 70",
+        "Moving in a fight 74",
+        "Attack 28",
+        "Two weapons 37",
+        "Defend 66",
+        "Parry Size 43",
+        "Damage 47",
+        "Criticals and Fumbles 49"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nCOMBAT\nCOMBAT\n\nAttack first. If it hits, an aware defender can react.\n\nTHE ROUND\n\nA round is five seconds. When a fight starts, everyone rolls 1D10 + Combat Order once and acts from highest to lowest; ties go to the higher DEX. Each round you have:\n\none Combat Action: attack, Aim, grapple, cast, Intimidate, or use a skill or item;\none Movement Action: move up to your Movement, stand up, drop prone, or ready an item while moving half as far;\none Reaction: Dodge, Parry or an Opportunity Attack, when something triggers it, even on another's turn.\n\nUnused actions are lost. Delay: act later in the round, after someone you choose.\n\nMOVING IN A FIGHT\nOption\tCost and effect\nDisengage\tMovement Action: move away; adjacent enemies can make an Opportunity Attack.\nWithdraw\tBoth actions: move away without Opportunity Attacks. Keep your Reactions.\nSprint\tBoth actions: move twice your Movement. Your only Reaction is a Dodge.\nCharge\tBoth actions and all Reactions: run straight at least 5 m, up to twice your Movement, and attack. +1D6 damage on a hit.\nSet Weapon\tCombat Action: brace a Set weapon. The first foe to Charge you before your next turn takes your attack first, at +1B.\nATTACK\n\nRoll Close Combat for held weapons and shields, Unarmed Combat for fists, kicks and natural weapons, or Ranged Combat. Unarmed blows deal 1D3. A result at or under your skill hits, unless the defender stops it.\n\nTWO WEAPONS\n\nWith two ready one-handed items (an empty hand counts as a fist), once per round choose one:\n\nright after a normal close or unarmed attack, attack with the other at -1P, at no cost; or\nkeep the other for one extra Parry or Opportunity Attack at -1P. It cannot Dodge.\nDEFEND\n\nWhen an attack hits you and you are aware of it, you can spend one Reaction. One Reaction answers one attack. Your roll opposes the attack roll; the attacker does not roll again.\n\nDodge: if you win, the attack misses. -1P against ranged attacks. Once per round.\nParry: Close Combat with a ready weapon or shield, or Unarmed Combat against an unarmed attack. If you win, block damage by Size.\nActive Guard: Parry a ranged attack. Against a thrown weapon, use a ready weapon at -1P or a shield normally; against arrows, bolts and stones, a shield only, at -1P.\nPARRY SIZE\n\nWeapons and shields are Light, Medium, Heavy or Huge. Fists, kicks, arrows, bolts and stones are Light.\n\nYour parrying item is…\tDamage blocked\nThe same Size or larger\tAll\nOne Size smaller\tHalf, rounded up\nTwo or more Sizes smaller\tNone\nDAMAGE\n\nRoll the weapon's damage. Add your Damage Modifier (DM) to close, unarmed and thrown attacks, but not to bows, crossbows or slings. Subtract a winning Parry, then the target's Armour Points (AP). The rest comes off HP. Damage and HP never go below 0.\n\nExample. An ogre's Heavy club hits for 12. Your Medium sword Parries and blocks half: 6 remain. Leather armour (2 AP) stops 2. You lose 4 HP.\n\nCRITICALS AND FUMBLES\nA Critical hit deals maximum weapon damage plus maximum positive DM, nothing more, and ignores armour.\nAn ordinary successful Dodge or Parry turns a Critical hit into an ordinary one: roll damage and apply armour, but the defence blocks nothing.\nA Critical defence that wins stops any hit.\nA Fumble brings an immediate mishap: a dropped weapon, a fall, an opening.\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 6"
+    },
+    {
+      "page": 7,
+      "footerGapMm": 15.197005208333332,
+      "columns": [
+        20.620963541666665,
+        15.197005208333332
+      ],
+      "sections": [
+        "Opportunity Attack 24",
+        "Surprise 24",
+        "Ranged attacks 74",
+        "Grapple 62",
+        "Mounted 24",
+        "Intimidate 57",
+        "Major Wounds 37",
+        "Dying 37",
+        "Healing 57",
+        "Hero Points save lives 24"
+      ],
+      "minPt": 9.999975,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nCOMBAT\nMORE COMBAT\n\nSecond weapons, missiles, grapples, threats, and wounds.\n\nOPPORTUNITY ATTACK\n\nWhen an adjacent enemy moves away, or gives you a clear opening, spend your Reaction on one Close Combat attack.\n\nSURPRISE\n\nAn unaware defender cannot React. Sneaking up is Deception against Perception. Being behind someone does not by itself make them unaware.\n\nRANGED ATTACKS\nRange: up to the weapon's Range, attack normally; up to twice its Range, at -2P; farther, you cannot hit.\nAim: Combat Action. Your next shot at that target gains +1B. You lose the Aim if you React, lose sight of the target, or do not shoot with your next Combat Action.\nReload: nock an arrow with your Movement Action, moving up to half your Movement. A light crossbow takes your Movement Action and your Reaction; a heavy crossbow takes the whole round.\nInto a melee: apply cover. Only a Fumble hits someone else nearby.\nAt arm's length: within 2 m, a bow, crossbow, sling or javelin is a club: 1D6 + DM at -1P. Daggers, hatchets and shortspears work as close weapons.\nGRAPPLE\n\nCombat Action, with a free hand, against an adjacent target: roll Unarmed Combat. An aware target can spend its Reaction to oppose with Dodge or Parry; otherwise you only need a success. If you win, you hold the target, and while the hold lasts, both of you:\n\ncannot take a Movement Action;\ntake -1P on every test; and\nfight only unarmed or with a Light one-handed weapon.\n\nEscape: Combat Action and an opposed Unarmed Combat test. The holder can let go at any time on their turn.\n\nMOUNTED\n\nUse the mount's Movement. Your attack skill cannot exceed your Riding. A mount untrained for battle might bolt: test Riding at the start of each round.\n\nINTIMIDATE\n\nCombat Action: demand surrender or retreat from one foe or a group. Oppose your Influence against the Persistence of the foe or its leader. The foe gets one modifier: at full strength +2B; outnumbering you but down 20% +1B; outnumbered and wounded -1P; lost half its HP or numbers -2P.\n\nIf you win, the GM decides how the foe gives way. The wounded might flee or surrender; healthy foes more often hesitate and lose a turn. A foe at full strength, or outnumbering you, surrenders only to a Critical against a failed roll. A fumbled Persistence breaks it at once.\n\nMAJOR WOUNDS\n\nOne hit that deals at least your MWL after armour causes a Major Wound:\n\nWounded: -1P on every test.\nBleeding: lose 1 HP at the end of every round.\n\nThey do not stack, but a new Major Wound can restart Bleeding.\n\nDYING\n\nAt 0 HP you fall unconscious and are Dying. You die at the end of the third round unless someone stabilises you.\n\nStabilise: an adjacent helper spends the whole round, staying put, and passes Healing; -2P without a Healing Kit. It stops Bleeding and Dying but restores no HP.\n\nHEALING\nFirst aid: after a fight, a patient who is not Wounded can receive one Healing attempt before their next full rest. Success restores 1D4 HP.\nSurgery: a Wounded patient heals naturally only after Surgery: a Healing test in safety, outside combat. Success restores 1 HP.\nRest: with only light activity, recover CON / 4 HP a day. Wounded ends when HP rises above MWL.\nPower Points: recover a quarter of your PP per two hours of rest; eight hours restores them all. At 0 PP you fall unconscious.\nHERO POINTS SAVE LIVES\n\nSpend 1 to keep a Major Wound's HP loss without Wounded or Bleeding, and 1 more at 0 HP to become stable instead of Dying. One hit can need both.\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 7"
+    },
+    {
+      "page": 8,
+      "footerGapMm": 7.491015624999999,
+      "columns": [
+        15.883268229166667,
+        7.491015624999999
+      ],
+      "sections": [
+        "Close weapons 112",
+        "Ranged weapons 65",
+        "Weapon tags 40",
+        "Armour 48"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nEQUIPMENT\nEQUIPMENT\n\nThe same weapons, armour and prices as the full rules.\n\nCLOSE WEAPONS\nWeapon\tDamage\tSize\tHands\tSTR/DEX\tENC\tCost\nDagger\t1D4+1\tLight\t1H, Thrown\t—\t—\t20 SP\nClub\t1D6\tLight\tFlex\t5/9\t1\t20 SP\nHatchet\t1D6\tLight\t1H, Thrown\t5/9\t1\t20 SP\nShortsword\t1D6\tMedium\t1H\t5/5\t1\t100 SP\nShortspear\t1D6\tMedium\tFlex, Set, Thrown\t5/5\t2\t20 SP\nArming sword, scimitar\t1D8\tMedium\t1H\t9/9\t2\t150 SP\nBattleaxe, war hammer, ball and chain\t1D8\tMedium\t1H\t9/9\t2\t120 SP\nMace\t1D8\tMedium\tFlex\t9/9\t2\t120 SP\nLongsword\t1D8\tMedium\tFlex\t13/11\t2\t250 SP\nQuarterstaff\t1D8\tMedium\t2H\t5/9\t2\t20 SP\nLongspear\t1D8+1\tMedium\t2H, Set\t9/5\t2\t30 SP\nPolearm\t1D8\tHeavy\t2H, Set\t9/9\t3\t200 SP\nLance\t1D10\tHeavy\tFlex, Set\t11/9\t3\t150 SP\nGreat axe, great hammer, military flail\t2D8\tHeavy\t2H\t13/5\t4\t200 SP\nGreatsword\t2D8\tHeavy\t2H\t13/9\t4\t300 SP\nShield, small\t1D4\tMedium\t1H\t—\t1\t50 SP\nShield, medium\t1D6\tHeavy\t1H\t9/—\t2\t150 SP\nShield, large\t1D6\tHuge\t1H\t13/—\t3\t300 SP\nRANGED WEAPONS\nWeapon\tDamage\tRange\tSTR/DEX\tENC\tCost\nDart\t1D3\tSTR m\t—/9\t—\t15 SP\nImprovised rock\t1D4\tSTR m\t5/5\t1\t—\nJavelin\t1D6\tSTR × 2 m\t5/9\t1\t20 SP\nWhip\t1D3\t5 m\t—/9\t—\t50 SP\nSling\t1D6\t50 m\t—/9\t—\t5 SP\nShortbow\t1D8\t75 m\t9/9\t1\t75 SP\nCrossbow, light\t1D8\t125 m\t5/9\t1\t150 SP\nLongbow\t1D10\t150 m\t13/9\t1\t150 SP\nCrossbow, heavy\t2D6\t150 m\t9/9\t2\t350 SP\nWEAPON TAGS\n\n1H / 2H: hands needed. Flex: in two hands, +2 damage and 2 less STR. Set: can be braced against a Charge. Thrown: adds DM and keeps its Size; a thrown dagger or hatchet reaches STR m, a shortspear STR × 2 m, and each needs DEX 9. Missiles add no DM and are Light. Below a STR or DEX minimum: -1P. Improvised weapons deal 1 less damage. 10 arrows cost 1 SP; 10 bolts, 2 SP.\n\nARMOUR\nArmour\tAP\tENC\tCost\nLeather\t2\t3\t500 SP\nRingmail\t3\t4\t1,000 SP\nScalemail\t4\t6\t1,500 SP\nChainmail\t5\t7\t3,000 SP\nPlatemail\t6\t9\t9,000 SP\n\nArmour cannot stack; ENC lowers Combat Order.\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 8"
+    },
+    {
+      "page": 9,
+      "footerGapMm": 19.17815755208333,
+      "columns": [
+        19.17815755208333,
+        22.869921875
+      ],
+      "sections": [
+        "Travel 78",
+        "Moving about 36",
+        "Fatigue 69",
+        "Load 28",
+        "Hazards 104",
+        "Objects 48",
+        "Useful gear 57"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nADVENTURING\nADVENTURING\n\nDistance, weariness, falls, fire and poison push back.\n\nTRAVEL\n\nA day is ten hours of travel in fair weather.\n\nPace\tPer day\tCost\nMarching\t30 km\tArrive ready to fight\nHiking\t50 km\tA Fatigue test at day's end\nRiding slowly\t30 km\tWith pack animals or wagons\nRiding\t50 km\t\nRiding fast\t90 km\tRider and mount test Fatigue at day's end\n\nOn rough ground, multiply: light brush 80%; medium brush, light woods or hills 70%; heavy woodland 50%.\n\nNavigation: test Natural Lore once per uncertain day. A failure loses a quarter of the day's progress; a Fumble means no progress, and you are lost.\n\nMOVING ABOUT\n\nClimb at a quarter of your Movement where there are holds; an Athletics success doubles it. Swim at half Movement in calm water; test Athletics in currents, bad weather or under a heavy load. Jump: with a 5 m run, a success clears about twice your height across, or half your height up.\n\nFATIGUE\n\nAfter hard effort, such as a long fight, a sprint, or a hard climb or swim, the GM can call for a Fatigue test: Resilience.\n\nState\tTests\tMovement\tCombat Order\nFatigued\t-1P\tThree-quarters\t-3\nExhausted\t-2P\tHalf\t-6\n\nFail once to become Fatigued. More hard effort calls for another test at -1P; fail it to become Exhausted. A fumbled test knocks you out for 3D6 minutes, and you wake Fatigued. 20 - CON hours of rest, at least 1, clears either state.\n\nLOAD\n\nYou carry up to STR + SIZ ENC freely. Above that you take -1P on physical and Fatigue tests and move at half speed. You can never carry twice that. Twenty small items in a container count as 1 ENC.\n\nHAZARDS\nHazard\tEffect\nFalling\t1D6 per full 3 m, ignoring armour; you land prone. If you can control the landing, an Athletics success removes 1D6, a Critical 2D6; a Fumble maximises the dice.\nFire\tEach round: candle 1, torch 1D4, campfire 1D6, bonfire or burning room 2D6, lava 3D6. Metal armour does not help.\nHolding breath\tCON rounds; then Resilience each round at a cumulative -1P. On a failure take, each round until you reach air: water 2D6, thick smoke 1D6. Armour does not help.\nPoison, disease\tAfter the Delay, oppose your Resilience against its Potency. Lose and suffer its effect. A disease returns after each Delay until you win. Treatment first gives +1B.\nExposure, hunger, thirst\tSafe for CON hours without shelter, CON days without food, CON × 2 hours without water (less in heat). After that, a daily Fatigue test at -1P and 1D6 damage for each lack.\nOBJECTS\n\nAttacks on still objects hit automatically. Subtract AP, then HP; at 0 HP the object breaks.\n\nObject\tAP\tHP\nWooden chair\t2\t6\nWooden door\t2\t25\nIron door\t4\t75\nCastle gate\t4\t120\nUSEFUL GEAR\nItem\tCost\nHealing Kit: five Healing attempts\t25 SP\nClimbing Kit: +1B to climb\t25 SP\nCrowbar: +1B to force\t25 SP\nLock Picks: +1B to open locks\t75 SP\nLantern: 3 m of light, 2 hours a flask\t10 SP\nTorch: 3 m of light for an hour\t4 CP\n\nMoney: 10 copper pieces (CP) make 1 silver piece (SP); 10 SP make 1 gold piece (GP).\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 9"
+    },
+    {
+      "page": 10,
+      "footerGapMm": 4.3904296875,
+      "columns": [
+        4.3904296875,
+        33.196940104166664
+      ],
+      "sections": [
+        "Becoming a Shaper 75",
+        "Cells 121",
+        "Rules of thumb 32",
+        "Build an effect 102",
+        "Your limits 64",
+        "Two examples 33"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nSHAPING\nSHAPING\n\nMagic is built from what you affect and what you do to it.\n\nBECOMING A SHAPER\n\nShaping (20 IP; a supernatural initiation or discovery) is a Talent. Only a human can afford it at the start; others learn it in play. It gives:\n\nthe Shaping skill, base INT + POW; you can add up to 30 Knowledge points;\na specialty, one Form or one Technique, and two known cells that contain it; and\nSense Magic and Dispel, which need no cell.\n\nMore cells: 2 IP with your specialty; otherwise 4 IP, after an ordeal or with a master.\n\nYour Practice is what you visibly do to cast: speech, gesture, a focus or prayer. If it is prevented, you cannot cast. Your Tell is a sign around you and your target, seen within 10 × M metres (at least 3 m). It shows magic, not its purpose.\n\nCELLS\n\nA cell joins a Technique (what you do) and a Form (what you affect), such as Unmake·Fire. You can cast only cells you know.\n\nTechnique\tWhat it does\nConjure\tCreate things, barriers, beings\nBend\tMove or control; no damage\nUnmake\tDamage, destroy, suppress, banish\nAlter\tHeal, transform, impose conditions\nWard\tProtect, resist or deny\nScry\tLearn, sense or speak; no change\nForm\tWhat it affects\nFire\tFlame, heat and light\nWater/Ice\tWater, cold and ice\nAir/Storm\tAir, wind, sound, weather and lightning\nEarth/Stone\tSoil, stone and natural minerals\nFlesh\tBodies, living or dead; plants\nMind\tThought, emotion, memory, senses\nForce/Motion\tForce, movement, weight and mass\nSpirit\tSouls, spirits and possession\nPaths\tRoutes, thresholds and distance\nFate\tChance, omens and vows\nRULES OF THUMB\n\nDamage, healing and lost actions happen once; Duration never repeats them. Same-kind magic does not stack. Magic grants no extra actions or resources. Conjured things vanish when the Duration ends. Only Dispel ends active magic.\n\nBUILD AN EFFECT\n\nSay: using [cell], I cause [outcome] at [Range], affecting [Reach], for [Duration]. The GM confirms it before you roll.\n\nMagnitude (M) = Intensity of each outcome + Range + Duration + Reach, +1 for Direct Harm.\n\nIntensity (I) is an outcome's strength: see Common outcomes. Each different outcome adds its own Intensity; Range, Duration and Reach count once.\n\nRating\tRange\tDuration\tReach\n0\tSelf, touch\tInstant\tOne target\n1\t15 m\tA scene, 10 min\t2 targets, 3 m radius\n2\t50 m\tTo a full rest\t5 targets, 10 m radius\n3\tVisible point\tRitual\tRitual\n\nInstant lasts at most to the target's next turn; a full rest, at most 8 hours. Reach also limits size: 0 a person or door, 1 a wagon, 2 a room. Range 1–3 needs a clear route: seeing through a barrier is not enough. An area includes allies.\n\nYOUR LIMITS\nShaping\tMaximum I\tSafe M\n0–25%\t1\t1\n26–50%\t2\t2\n51–75%\t3\t3\n76–99%\t4\t4\n100%\t5\t5\n\nNo outcome can exceed your maximum Intensity. You can cast up to Safe M + 2, at -1P for Safe + 1 and -2P for Safe + 2. This is overreach: failing it brings Backlash. Intensity 5 or anything bigger needs a ritual (full rules).\n\nTWO EXAMPLES\n\nFirebolt: Unmake·Fire, 2D6 Projected Harm (I2) at 15 m (Range 1) = M3.\n\nStone skin for two: Ward·Earth/Stone, 4 AP against blows (I2), 15 m (Range 1), a scene (Duration 1), two allies (Reach 1) = M5.\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 10"
+    },
+    {
+      "page": 11,
+      "footerGapMm": 12.8984375,
+      "columns": [
+        12.8984375,
+        16.83411458333333
+      ],
+      "sections": [
+        "Common outcomes 152",
+        "Harm: Projected or Direct 36",
+        "Sense Magic and Dispel 32",
+        "Cast 77",
+        "Defending against magic 73",
+        "Keep it going 65"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nSHAPING\nCAST AND SUSTAIN\n\nPay Power Points, beat the defence, keep the magic going.\n\nCOMMON OUTCOMES\n\nUse the lowest Intensity that covers what you want. Your cell must allow it.\n\nOutcome\tIntensity buys\nHarm\tI D6 damage, no DM. Choose Projected or Direct Harm.\nHeal\tI D4 HP; stops Bleeding and Dying. I3+ counts as Surgery. Once per subject per rest.\nProtect\t2 × I AP against physical or elemental harm; both: +1 I. Use it or armour, whichever is higher.\nBarrier\t2 × I AP and 5 × I HP; it blocks movement and attacks.\nBoost, hinder\tOne skill: I2 +1B or -1P; I4 +2B or -2P.\nRestrain\tI1 prone, or half Movement for a turn; I2 hold a person or push 3 m; I3 lose a Combat Action; I4 incapacitate.\nSway a mind\tI1 colour an emotion; I2 a reasonable command; I3 one against their interest; I4 full control.\nMove\tI2 climb, swim or walk a surface; I3 fly; I4 pass through a substance. Speed: I1 +3 m; I2 ×1.5; I3 ×2.\nSenses\tI1 Low-Light Sight; I2 Night Vision; I3 Blind Sight through one sense. Hide: I2 -1P to notice; I3 undetectable.\nLearn\tI1 a clue; I2 locate, diagnose or talk; I3 watch afar or read surface thoughts; I4 deep secrets.\nSummon\tA being for the Duration. I1: 3 HP, 25%, 1D3. I2: 6 HP, 1 AP, 40%, 1D6. I3: 10 HP, 2 AP, 55%, 1D8. I4: 14 HP, 3 AP, 70%, 2D6.\nHARM: PROJECTED OR DIRECT\n\nProjected Harm crosses space like an arrow: Dodge or shield Active Guard, both at -1P; cover and armour apply. Direct Harm (+1 M) arises inside chosen targets: they resist with Resilience, or Persistence for mind and soul, and a win cancels it. Only magical protection helps against it.\n\nSENSE MAGIC AND DISPEL\n\nSense Magic: Combat Action and 1 PP; a Shaping test finds active magic within 15 m and its Form. Dispel: Combat Action; M is the target's M plus Range. Cast normally, then also beat a fresh Shaping roll for the original caster.\n\nCAST\n\nSpend your Combat Action, perform your Practice and roll Shaping. You must have PP to cover the full M. A calm, cosmetic trick (M0) is free and automatic.\n\nResult\tYou pay\nCritical\tHalf M\nSuccess\tM\nFailure within Safe M\t1 PP; no effect\nFailure while overreaching\tHalf M; no effect; Backlash\nFumble\tM; Backlash\n\nBacklash (roll 1D4, or the GM chooses): 1 take M damage, ignoring armour; 2 lose M more PP; 3 a weaker version of the effect strikes you or something near; 4 become Fatigued, or one step worse.\n\nDEFENDING AGAINST MAGIC\n\nEach target opposes the casting roll; the Shaper must succeed and win.\n\nEffect\tDefence\nA bolt at one target\tDodge -1P, or shield Active Guard -1P\nAn area you can avoid\tDodge -1P\nA change to body or matter\tResilience; no Reaction\nA change to mind or soul\tPersistence; no Reaction\nWilling, yourself, an object\tNone\n\nA winning shield Active Guard blocks by Size. A spell's Size follows its Intensity: I1 Light, I2 Medium, I3 Heavy, I4 Huge. A Critical casting is not maximised and does not ignore armour.\n\nKEEP IT GOING\nAll your ongoing effects together cannot exceed your INT in M. Dismiss one on your turn, freely.\nA lasting benefit needs no action. Concentration, or directing another's body, costs your Combat Action each round; damage or distraction calls for Persistence, or it ends.\nA summon follows one standing order, such as \"guard me\". Changing it costs your Movement Action within 15 m. Keep one fighting summon, or one controlled subject, at a time.\nHeld or controlled by magic? Spend a Combat Action to repeat your defence against the stored casting roll.\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 11"
+    },
+    {
+      "page": 12,
+      "footerGapMm": 17.7849609375,
+      "columns": [
+        119.28987630208333,
+        125.89619140625
+      ],
+      "sections": [
+        "When to roll 32",
+        "Setting difficulty 28",
+        "Morale 28",
+        "Rewards 24",
+        "Quick NPCs 73",
+        "Creatures 36",
+        "Common creatures 99"
+      ],
+      "minPt": 9.500025,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nGAMEMASTER\nGAMEMASTER\n\nRoll when it matters, keep it moving, and let the world bite back.\n\nWHEN TO ROLL\n\nRoll when the outcome is uncertain and failure has a real consequence. Warn the players before a risky roll. If success would give only something minor, give it without a roll. Ask for one test for a long task, not one per step.\n\nSETTING DIFFICULTY\n\nThere are no difficulty numbers. Most tests use the plain skill; let the situation add dice. A clear advantage is +1B, a hard task -1P, and a very hard one -2P. If it cannot fail, it succeeds; if it cannot succeed, do not roll.\n\nMORALE\n\nFoes want to live. When a fight turns against them, the wounded might flee or surrender, while healthy foes rarely just run. Use Intimidate when the heroes demand it.\n\nREWARDS\n\nAward 3 IP for modest progress, 4 for a completed adventure and 5 for a major achievement, plus a Hero Point for heroic play.\n\nQUICK NPCS\n\nWrite a description, a level and gear: Guard 50 (Shortsword 1D6+1, Leather 2). The guard has 50% in what guards do best, Close Combat and Perception; 40% in related skills such as Dodge, Resilience and Ranged Combat; 30% or less in the rest. A minor NPC has 10 HP and Combat Order 10 unless the role calls for more.\n\nLevel\tTypical NPC\n30\tFrightened villager, untrained thug\n40\tBandit, militia\n50\tGuard, hunter, sellsword\n60\tSergeant, assassin, cult leader\n70\tChampion, master of a craft\nCREATURES\n\nAny full-rules creature works as written. Undead and constructs never bleed, breathe, tire or suffer poison; at 0 HP they are destroyed. Threat: roughly as many foes as player characters makes a fair fight. Raise one foe's skill or gear rather than adding more bodies; crowds of weak foes mostly cost time.\n\nCOMMON CREATURES\n\nWolf · HP 12 · MWL 6 · AP 0 · Move 23 m · CO 9 · Dodge 39%, Persistence 33%, Resilience 42%. Bite 50%, 1D8, Medium; Claw 50%, 1D6, Medium.\n\nBear · HP 19 · MWL 10 · AP 3 (hide) · Move 23 m · CO 8 · Dodge 33%, Persistence 33%, Resilience 39%. Bite 60%, 1D8+2D6, Heavy; Claw 60%, 1D6+2D6, Heavy.\n\nGiant Spider · HP 22 · MWL 11 · AP 4 (chitin) · Move 15 m ground, 23 m on web · CO 12 · Dodge 48%, Persistence 33%, Resilience 51%. Bite 50%, 1D6+1D6, Heavy; Web 50%, special, Heavy, 15 m. Web: Combat Action, Unarmed Combat against Athletics within 15 m; a caught target cannot move and takes -1P. Venom: Potency 51, -6 DEX.\n\nGoblin · HP 9 · MWL 5 · AP 2 (leather) · Move 15 m · CO 11 · Dodge 50%, Persistence 20%, Resilience 35%. Shortspear 40%, 1D6, Medium; Small Shield 40%, 1D4, Medium; Sling 50%, 1D6, 50 m. Blind Sight (heat). Deception 75%.\n\nOrc · HP 13 · MWL 7 · AP 2 (leather) · Move 15 m · CO 8 · Dodge 35%, Persistence 35%, Resilience 35%. Scimitar 40%, 1D8+1D4, Medium; Medium Shield 40%, 1D6+1D4, Heavy; Shortbow 50%, 1D8, 75 m. Adrenaline Surge, as the Orc ancestry.\n\nSkeleton · HP 8 · MWL 4 · AP 2 (leather) · Move 15 m · CO 3 · Dodge 10%, Persistence 100%, Resilience 100%. Arming Sword 35%, 1D8, Medium; Medium Shield 35%, 1D6, Heavy. Mindless undead. Halve piercing damage after armour.\n\nZombie · HP 7 · MWL 4 · AP 0 · Move 7 m · CO 4 · Dodge 0%, Persistence 100%, Resilience 100%. Fist 50%, 1D3+1D6, Light. Mindless undead.\n\nGhoul · HP 12 · MWL 6 · AP 0 · Move 15 m · CO 11 · Dodge 40%, Persistence 30%, Resilience 40%. Claw 60%, 1D4+1D4, Medium; Bite 60%, 1D6+1D4, Medium. Howl: listeners within 11 m oppose its Persistence or take -1P to attacks and Reactions. Venom: Potency 22, paralysis.\n\nOgre · HP 18 · MWL 9 · AP 2 (skin) · Move 15 m · CO 11 · Dodge 35%, Persistence 45%, Resilience 35%. Great Axe 60%, 2D8+2D6, Heavy; Improvised Rock 40%, 1D4+2D6, Light, 23 m; Fist 60%, 1D6+2D6, Light.\n\nTroll · HP 23 · MWL 12 · AP 3 (hide) · Move 23 m · CO 7 · Dodge 25%, Persistence 25%, Resilience 60%. Club 40%, 1D6+2D6, Light; Claw 40%, 1D6+2D6, Heavy. Regenerates 1D6 HP at the start of each turn, even at 0 HP, unless burned since its last turn. Blind Sight (heat).\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 12"
+    },
+    {
+      "page": 13,
+      "footerGapMm": 5.59345703125,
+      "columns": [],
+      "sections": [],
+      "minPt": 9.999975,
+      "problems": [],
+      "expectedText": "FANTASY CRUX LITE\nLICENCE\nOPEN GAME LICENSE\n\nVersion 1.0a, with the copyright notices it requires.\n\nThe rules text on this site is Open Game Content, published under the Open Game License 1.0a and derived from the works credited in Section 15 below. Section 10 of that licence requires a copy to travel with every distribution of the content, which is what this page is.\n\nTERMS OF THE LICENSE\n\nThe following text is the property of Wizards of the Coast Inc. and is Copyright 2000 Wizards of the Coast, Inc (“Wizards”). All Rights Reserved.\n\nDefinitions: (a)”Contributors” means the copyright and/or trademark owners who have contributed Open Game Content; (b)”Derivative Material” means copyrighted material including derivative works and translations (including into other computer languages), potation, modification, correction, addition, extension, upgrade, improvement, compilation, abridgment or other form in which an existing work may be recast, transformed or adapted; (c) “Distribute” means to reproduce, license, rent, lease, sell, broadcast, publicly display, transmit or otherwise distribute; (d)”Open Game Content” means the game mechanic and includes the methods, procedures, processes and routines to the extent such content does not embody the Product Identity and is an enhancement over the prior art and any additional content clearly identified as Open Game Content by the Contributor, and means any work covered by this License, including translations and derivative works under copyright law, but specifically excludes Product Identity. (e) “Product Identity” means product and product line names, logos and identifying marks including trade dress; artifacts; creatures characters; stories, storylines, plots, thematic elements, dialogue, incidents, language, artwork, symbols, designs, depictions, likenesses, formats, poses, concepts, themes and graphic, photographic and other visual or audio representations; names and descriptions of characters, spells, enchantments, personalities, teams, personas, likenesses and special abilities; places, locations, environments, creatures, equipment, magical or supernatural abilities or effects, logos, symbols, or graphic designs; and any other trademark or registered trademark clearly identified as Product identity by the owner of the Product Identity, and which specifically excludes the Open Game Content; (f) “Trademark” means the logos, names, mark, sign, motto, designs that are used by a Contributor to identify itself or its products or the associated products contributed to the Open Game License by the Contributor (g) “Use”, “Used” or “Using” means to use, Distribute, copy, edit, format, modify, translate and otherwise create Derivative Material of Open Game Content. (h) “You” or “Your” means the licensee in terms of this agreement.\n\nThe License: This License applies to any Open Game Content that contains a notice indicating that the Open Game Content may only be Used under and in terms of this License. You must affix such a notice to any Open Game Content that you Use. No terms may be added to or subtracted from this License except as described by the License itself. No other terms or conditions may be applied to any Open Game Content distributed using this License.\n\nOffer and Acceptance: By Using the Open Game Content You indicate Your acceptance of the terms of this License.\n\nGrant and Consideration: In consideration for agreeing to use this License, the Contributors grant You a perpetual, worldwide, royalty-free, non-exclusive license with the exact terms of this License to Use, the Open Game Content.\n\nRepresentation of Authority to Contribute: If You are contributing original material as Open Game Content, You represent that Your Contributions are Your original creation and/or You have sufficient rights to grant the rights conveyed by this License.\n\nNotice of License Copyright: You must update the COPYRIGHT NOTICE portion of this License to include the exact text of the COPYRIGHT NOTICE of any Open Game Content You are copying, modifying or distributing, and You must add the title, the copyright date, and the copyright holder’s name to the COPYRIGHT NOTICE of any original Open Game Content you Distribute.\n\nUse of Product Identity: You agree not to Use any Product Identity, including as an indication as to compatibility, except as expressly licensed in another, independent Agreement with the owner of each element of that Product Identity. You agree not to indicate compatibility or co-adaptability with any Trademark or Registered Trademark in conjunction with a work containing Open Game Content except as expressly licensed in another, independent Agreement with the owner of such Trademark or Registered Trademark. The use of any Product Identity in Open Game Content does not constitute a challenge to the ownership of that Product Identity. The owner of any Product Identity used in Open Game Content shall retain all rights, title and interest in and to that Product Identity.\n\nIdentification: If you distribute Open Game Content You must clearly indicate which portions of the work that you are distributing are Open Game Content.\n\nUpdating the License: Wizards or its designated Agents may publish updated versions of this License. You may use any authorized version of this License to copy, modify and distribute any Open Game Content originally distributed under any version of this License.\n\nCopy of this License: You MUST include a copy of this License with every copy of the Open Game Content You Distribute.\n\nUse of Contributor Credits: You may not market or advertise the Open Game Content using the name of any Contributor unless You have written permission from the Contributor to do so.\n\nInability to Comply: If it is impossible for You to comply with any of the terms of this License with respect to some or all of the Open Game Content due to statute, judicial order, or governmental regulation then You may not Use any Open Game Material so affected.\n\nTermination: This License will terminate automatically if You fail to comply with all terms herein and fail to cure such breach within 30 days of becoming aware of the breach. All sublicenses shall survive the termination of this License.\n\nReformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.\n\n15. COPYRIGHT NOTICE\n\nOpen Game License v 1.0a Copyright 2000, Wizards of the Coast, Inc.\n\nModern System Reference Document Copyright 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins and JD Wiker.\n\nSystem Reference Document Copyright 2000-2003, Wizards of the Coast, Inc.; Authors Jonathan Tweet, Monte Cook, Skip Williams, Rich Baker, Andy Collins, David Noonan, Rich Redman, Bruce R. Cordell, based on original material by E. Gary Gygax and Dave Arneson.\n\nRuneQuest System Reference Document Copyright 2006, Mongoose Publishing; Author Matthew Sprange, based on original material by Greg Stafford.\n\nRuneQuest Companion System Reference Document Copyright 2006, Mongoose Publishing; Author Greg Lynch et al., based on original material by Greg Stafford.\n\nRuneQuest Monster System Reference Document Copyright 2006, Mongoose Publishing; Author Greg Lynch et al., based on original material by Greg Stafford.\n\nOpenQuest Copyright 2009-2013, D101 Games; Author Newt Newport, Simon Bray, Paul Mitchner, Tom Zunder.\n\nLegend Copyright 2011, Mongoose Publishing; Author Lawrence Whitaker Pete Nash et al., based on original material by Greg Stafford.\n\nThe Age of Shadow Copyright 2011; Author Kristian Richards\n\nThe Age of Shadow Campaign Guide Copyright 2011; Author Kristian Richards\n\nFantasy Crux Copyright 2024; Author Konstantinos Karasavvas\n\nFantasy Crux 2.0 Copyright 2026; Author Konstantinos Karasavvas\n\nFANTASY CRUX LITE · 2.0 BETA\nPAGE 13"
+    }
+  ],
+  "compatibilityChecks": 314,
+  "compatibility": [
+    {
+      "label": "Close weapons: Dagger is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Dagger Damage",
+      "ok": true,
+      "detail": "(1D4+1 vs 1D4+1)"
+    },
+    {
+      "label": "Close weapons: Dagger Size",
+      "ok": true,
+      "detail": "(Light vs Light)"
+    },
+    {
+      "label": "Close weapons: Dagger Hands",
+      "ok": true,
+      "detail": "(1H/Thrown vs 1H/Thrown)"
+    },
+    {
+      "label": "Close weapons: Dagger STR/DEX",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Close weapons: Dagger ENC",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Close weapons: Dagger Cost",
+      "ok": true,
+      "detail": "(20 SP vs 20 SP)"
+    },
+    {
+      "label": "Close weapons: Club is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Club Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Close weapons: Club Size",
+      "ok": true,
+      "detail": "(Light vs Light)"
+    },
+    {
+      "label": "Close weapons: Club Hands",
+      "ok": true,
+      "detail": "(Flex vs Flex)"
+    },
+    {
+      "label": "Close weapons: Club STR/DEX",
+      "ok": true,
+      "detail": "(5/9 vs 5/9)"
+    },
+    {
+      "label": "Close weapons: Club ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Close weapons: Club Cost",
+      "ok": true,
+      "detail": "(20 SP vs 20 SP)"
+    },
+    {
+      "label": "Close weapons: Hatchet is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Hatchet Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Close weapons: Hatchet Size",
+      "ok": true,
+      "detail": "(Light vs Light)"
+    },
+    {
+      "label": "Close weapons: Hatchet Hands",
+      "ok": true,
+      "detail": "(1H/Thrown vs 1H/Thrown)"
+    },
+    {
+      "label": "Close weapons: Hatchet STR/DEX",
+      "ok": true,
+      "detail": "(5/9 vs 5/9)"
+    },
+    {
+      "label": "Close weapons: Hatchet ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Close weapons: Hatchet Cost",
+      "ok": true,
+      "detail": "(20 SP vs 20 SP)"
+    },
+    {
+      "label": "Close weapons: Shortsword is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Shortsword Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Close weapons: Shortsword Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Shortsword Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: Shortsword STR/DEX",
+      "ok": true,
+      "detail": "(5/5 vs 5/5)"
+    },
+    {
+      "label": "Close weapons: Shortsword ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Close weapons: Shortsword Cost",
+      "ok": true,
+      "detail": "(100 SP vs 100 SP)"
+    },
+    {
+      "label": "Close weapons: Shortspear is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Shortspear Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Close weapons: Shortspear Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Shortspear Hands",
+      "ok": true,
+      "detail": "(Flex/Set/Thrown vs Flex/Set/Thrown)"
+    },
+    {
+      "label": "Close weapons: Shortspear STR/DEX",
+      "ok": true,
+      "detail": "(5/5 vs 5/5)"
+    },
+    {
+      "label": "Close weapons: Shortspear ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Shortspear Cost",
+      "ok": true,
+      "detail": "(20 SP vs 20 SP)"
+    },
+    {
+      "label": "Close weapons: Arming sword is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Arming sword Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: Arming sword Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Arming sword Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: Arming sword STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: Arming sword ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Arming sword Cost",
+      "ok": true,
+      "detail": "(150 SP vs 150 SP)"
+    },
+    {
+      "label": "Close weapons: scimitar is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: scimitar Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: scimitar Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: scimitar Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: scimitar STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: scimitar ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: scimitar Cost",
+      "ok": true,
+      "detail": "(150 SP vs 150 SP)"
+    },
+    {
+      "label": "Close weapons: Battleaxe is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Battleaxe Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: Battleaxe Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Battleaxe Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: Battleaxe STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: Battleaxe ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Battleaxe Cost",
+      "ok": true,
+      "detail": "(120 SP vs 120 SP)"
+    },
+    {
+      "label": "Close weapons: war hammer is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: war hammer Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: war hammer Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: war hammer Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: war hammer STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: war hammer ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: war hammer Cost",
+      "ok": true,
+      "detail": "(120 SP vs 120 SP)"
+    },
+    {
+      "label": "Close weapons: ball and chain is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: ball and chain Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: ball and chain Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: ball and chain Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: ball and chain STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: ball and chain ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: ball and chain Cost",
+      "ok": true,
+      "detail": "(120 SP vs 120 SP)"
+    },
+    {
+      "label": "Close weapons: Mace is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Mace Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: Mace Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Mace Hands",
+      "ok": true,
+      "detail": "(Flex vs Flex)"
+    },
+    {
+      "label": "Close weapons: Mace STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: Mace ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Mace Cost",
+      "ok": true,
+      "detail": "(120 SP vs 120 SP)"
+    },
+    {
+      "label": "Close weapons: Longsword is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Longsword Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: Longsword Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Longsword Hands",
+      "ok": true,
+      "detail": "(Flex vs Flex)"
+    },
+    {
+      "label": "Close weapons: Longsword STR/DEX",
+      "ok": true,
+      "detail": "(13/11 vs 13/11)"
+    },
+    {
+      "label": "Close weapons: Longsword ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Longsword Cost",
+      "ok": true,
+      "detail": "(250 SP vs 250 SP)"
+    },
+    {
+      "label": "Close weapons: Quarterstaff is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Quarterstaff Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: Quarterstaff Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Quarterstaff Hands",
+      "ok": true,
+      "detail": "(2H vs 2H)"
+    },
+    {
+      "label": "Close weapons: Quarterstaff STR/DEX",
+      "ok": true,
+      "detail": "(5/9 vs 5/9)"
+    },
+    {
+      "label": "Close weapons: Quarterstaff ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Quarterstaff Cost",
+      "ok": true,
+      "detail": "(20 SP vs 20 SP)"
+    },
+    {
+      "label": "Close weapons: Longspear is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Longspear Damage",
+      "ok": true,
+      "detail": "(1D8+1 vs 1D8+1)"
+    },
+    {
+      "label": "Close weapons: Longspear Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Longspear Hands",
+      "ok": true,
+      "detail": "(2H/Set vs 2H/Set)"
+    },
+    {
+      "label": "Close weapons: Longspear STR/DEX",
+      "ok": true,
+      "detail": "(9/5 vs 9/5)"
+    },
+    {
+      "label": "Close weapons: Longspear ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Longspear Cost",
+      "ok": true,
+      "detail": "(30 SP vs 30 SP)"
+    },
+    {
+      "label": "Close weapons: Polearm is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Polearm Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Close weapons: Polearm Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: Polearm Hands",
+      "ok": true,
+      "detail": "(2H/Set vs 2H/Set)"
+    },
+    {
+      "label": "Close weapons: Polearm STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Close weapons: Polearm ENC",
+      "ok": true,
+      "detail": "(3 vs 3)"
+    },
+    {
+      "label": "Close weapons: Polearm Cost",
+      "ok": true,
+      "detail": "(200 SP vs 200 SP)"
+    },
+    {
+      "label": "Close weapons: Lance is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Lance Damage",
+      "ok": true,
+      "detail": "(1D10 vs 1D10)"
+    },
+    {
+      "label": "Close weapons: Lance Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: Lance Hands",
+      "ok": true,
+      "detail": "(Flex/Set vs Flex/Set)"
+    },
+    {
+      "label": "Close weapons: Lance STR/DEX",
+      "ok": true,
+      "detail": "(11/9 vs 11/9)"
+    },
+    {
+      "label": "Close weapons: Lance ENC",
+      "ok": true,
+      "detail": "(3 vs 3)"
+    },
+    {
+      "label": "Close weapons: Lance Cost",
+      "ok": true,
+      "detail": "(150 SP vs 150 SP)"
+    },
+    {
+      "label": "Close weapons: Great axe is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Great axe Damage",
+      "ok": true,
+      "detail": "(2D8 vs 2D8)"
+    },
+    {
+      "label": "Close weapons: Great axe Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: Great axe Hands",
+      "ok": true,
+      "detail": "(2H vs 2H)"
+    },
+    {
+      "label": "Close weapons: Great axe STR/DEX",
+      "ok": true,
+      "detail": "(13/5 vs 13/5)"
+    },
+    {
+      "label": "Close weapons: Great axe ENC",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Close weapons: Great axe Cost",
+      "ok": true,
+      "detail": "(200 SP vs 200 SP)"
+    },
+    {
+      "label": "Close weapons: great hammer is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: great hammer Damage",
+      "ok": true,
+      "detail": "(2D8 vs 2D8)"
+    },
+    {
+      "label": "Close weapons: great hammer Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: great hammer Hands",
+      "ok": true,
+      "detail": "(2H vs 2H)"
+    },
+    {
+      "label": "Close weapons: great hammer STR/DEX",
+      "ok": true,
+      "detail": "(13/5 vs 13/5)"
+    },
+    {
+      "label": "Close weapons: great hammer ENC",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Close weapons: great hammer Cost",
+      "ok": true,
+      "detail": "(200 SP vs 200 SP)"
+    },
+    {
+      "label": "Close weapons: military flail is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: military flail Damage",
+      "ok": true,
+      "detail": "(2D8 vs 2D8)"
+    },
+    {
+      "label": "Close weapons: military flail Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: military flail Hands",
+      "ok": true,
+      "detail": "(2H vs 2H)"
+    },
+    {
+      "label": "Close weapons: military flail STR/DEX",
+      "ok": true,
+      "detail": "(13/5 vs 13/5)"
+    },
+    {
+      "label": "Close weapons: military flail ENC",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Close weapons: military flail Cost",
+      "ok": true,
+      "detail": "(200 SP vs 200 SP)"
+    },
+    {
+      "label": "Close weapons: Greatsword is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Greatsword Damage",
+      "ok": true,
+      "detail": "(2D8 vs 2D8)"
+    },
+    {
+      "label": "Close weapons: Greatsword Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: Greatsword Hands",
+      "ok": true,
+      "detail": "(2H vs 2H)"
+    },
+    {
+      "label": "Close weapons: Greatsword STR/DEX",
+      "ok": true,
+      "detail": "(13/9 vs 13/9)"
+    },
+    {
+      "label": "Close weapons: Greatsword ENC",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Close weapons: Greatsword Cost",
+      "ok": true,
+      "detail": "(300 SP vs 300 SP)"
+    },
+    {
+      "label": "Close weapons: Shield, small is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Shield, small Damage",
+      "ok": true,
+      "detail": "(1D4 vs 1D4)"
+    },
+    {
+      "label": "Close weapons: Shield, small Size",
+      "ok": true,
+      "detail": "(Medium vs Medium)"
+    },
+    {
+      "label": "Close weapons: Shield, small Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: Shield, small STR/DEX",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Close weapons: Shield, small ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Close weapons: Shield, small Cost",
+      "ok": true,
+      "detail": "(50 SP vs 50 SP)"
+    },
+    {
+      "label": "Close weapons: Shield, medium is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Shield, medium Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Close weapons: Shield, medium Size",
+      "ok": true,
+      "detail": "(Heavy vs Heavy)"
+    },
+    {
+      "label": "Close weapons: Shield, medium Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: Shield, medium STR/DEX",
+      "ok": true,
+      "detail": "(9/— vs 9/—)"
+    },
+    {
+      "label": "Close weapons: Shield, medium ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Close weapons: Shield, medium Cost",
+      "ok": true,
+      "detail": "(150 SP vs 150 SP)"
+    },
+    {
+      "label": "Close weapons: Shield, large is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Close weapons: Shield, large Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Close weapons: Shield, large Size",
+      "ok": true,
+      "detail": "(Huge vs Huge)"
+    },
+    {
+      "label": "Close weapons: Shield, large Hands",
+      "ok": true,
+      "detail": "(1H vs 1H)"
+    },
+    {
+      "label": "Close weapons: Shield, large STR/DEX",
+      "ok": true,
+      "detail": "(13/— vs 13/—)"
+    },
+    {
+      "label": "Close weapons: Shield, large ENC",
+      "ok": true,
+      "detail": "(3 vs 3)"
+    },
+    {
+      "label": "Close weapons: Shield, large Cost",
+      "ok": true,
+      "detail": "(300 SP vs 300 SP)"
+    },
+    {
+      "label": "Ranged weapons: Dart is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Dart Damage",
+      "ok": true,
+      "detail": "(1D3 vs 1D3)"
+    },
+    {
+      "label": "Ranged weapons: Dart Range",
+      "ok": true,
+      "detail": "(STR m vs STR m)"
+    },
+    {
+      "label": "Ranged weapons: Dart STR/DEX",
+      "ok": true,
+      "detail": "(—/9 vs —/9)"
+    },
+    {
+      "label": "Ranged weapons: Dart ENC",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Ranged weapons: Dart Cost",
+      "ok": true,
+      "detail": "(15 SP vs 15 SP)"
+    },
+    {
+      "label": "Ranged weapons: Improvised rock is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Improvised rock Damage",
+      "ok": true,
+      "detail": "(1D4 vs 1D4)"
+    },
+    {
+      "label": "Ranged weapons: Improvised rock Range",
+      "ok": true,
+      "detail": "(STR m vs STR m)"
+    },
+    {
+      "label": "Ranged weapons: Improvised rock STR/DEX",
+      "ok": true,
+      "detail": "(5/5 vs 5/5)"
+    },
+    {
+      "label": "Ranged weapons: Improvised rock ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Ranged weapons: Improvised rock Cost",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Ranged weapons: Javelin is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Javelin Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Ranged weapons: Javelin Range",
+      "ok": true,
+      "detail": "(STR × 2 m vs STR × 2 m)"
+    },
+    {
+      "label": "Ranged weapons: Javelin STR/DEX",
+      "ok": true,
+      "detail": "(5/9 vs 5/9)"
+    },
+    {
+      "label": "Ranged weapons: Javelin ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Ranged weapons: Javelin Cost",
+      "ok": true,
+      "detail": "(20 SP vs 20 SP)"
+    },
+    {
+      "label": "Ranged weapons: Whip is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Whip Damage",
+      "ok": true,
+      "detail": "(1D3 vs 1D3)"
+    },
+    {
+      "label": "Ranged weapons: Whip Range",
+      "ok": true,
+      "detail": "(5 m vs 5 m)"
+    },
+    {
+      "label": "Ranged weapons: Whip STR/DEX",
+      "ok": true,
+      "detail": "(—/9 vs —/9)"
+    },
+    {
+      "label": "Ranged weapons: Whip ENC",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Ranged weapons: Whip Cost",
+      "ok": true,
+      "detail": "(50 SP vs 50 SP)"
+    },
+    {
+      "label": "Ranged weapons: Sling is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Sling Damage",
+      "ok": true,
+      "detail": "(1D6 vs 1D6)"
+    },
+    {
+      "label": "Ranged weapons: Sling Range",
+      "ok": true,
+      "detail": "(50 m vs 50 m)"
+    },
+    {
+      "label": "Ranged weapons: Sling STR/DEX",
+      "ok": true,
+      "detail": "(—/9 vs —/9)"
+    },
+    {
+      "label": "Ranged weapons: Sling ENC",
+      "ok": true,
+      "detail": "(— vs —)"
+    },
+    {
+      "label": "Ranged weapons: Sling Cost",
+      "ok": true,
+      "detail": "(5 SP vs 5 SP)"
+    },
+    {
+      "label": "Ranged weapons: Shortbow is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Shortbow Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Ranged weapons: Shortbow Range",
+      "ok": true,
+      "detail": "(75 m vs 75 m)"
+    },
+    {
+      "label": "Ranged weapons: Shortbow STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Ranged weapons: Shortbow ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Ranged weapons: Shortbow Cost",
+      "ok": true,
+      "detail": "(75 SP vs 75 SP)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, light is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Crossbow, light Damage",
+      "ok": true,
+      "detail": "(1D8 vs 1D8)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, light Range",
+      "ok": true,
+      "detail": "(125 m vs 125 m)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, light STR/DEX",
+      "ok": true,
+      "detail": "(5/9 vs 5/9)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, light ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, light Cost",
+      "ok": true,
+      "detail": "(150 SP vs 150 SP)"
+    },
+    {
+      "label": "Ranged weapons: Longbow is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Longbow Damage",
+      "ok": true,
+      "detail": "(1D10 vs 1D10)"
+    },
+    {
+      "label": "Ranged weapons: Longbow Range",
+      "ok": true,
+      "detail": "(150 m vs 150 m)"
+    },
+    {
+      "label": "Ranged weapons: Longbow STR/DEX",
+      "ok": true,
+      "detail": "(13/9 vs 13/9)"
+    },
+    {
+      "label": "Ranged weapons: Longbow ENC",
+      "ok": true,
+      "detail": "(1 vs 1)"
+    },
+    {
+      "label": "Ranged weapons: Longbow Cost",
+      "ok": true,
+      "detail": "(150 SP vs 150 SP)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, heavy is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ranged weapons: Crossbow, heavy Damage",
+      "ok": true,
+      "detail": "(2D6 vs 2D6)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, heavy Range",
+      "ok": true,
+      "detail": "(150 m vs 150 m)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, heavy STR/DEX",
+      "ok": true,
+      "detail": "(9/9 vs 9/9)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, heavy ENC",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Ranged weapons: Crossbow, heavy Cost",
+      "ok": true,
+      "detail": "(350 SP vs 350 SP)"
+    },
+    {
+      "label": "Armour: Leather is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Armour: Leather AP",
+      "ok": true,
+      "detail": "(2 vs 2)"
+    },
+    {
+      "label": "Armour: Leather ENC",
+      "ok": true,
+      "detail": "(3 vs 3)"
+    },
+    {
+      "label": "Armour: Leather Cost",
+      "ok": true,
+      "detail": "(500 SP vs 500 SP)"
+    },
+    {
+      "label": "Armour: Ringmail is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Armour: Ringmail AP",
+      "ok": true,
+      "detail": "(3 vs 3)"
+    },
+    {
+      "label": "Armour: Ringmail ENC",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Armour: Ringmail Cost",
+      "ok": true,
+      "detail": "(1,000 SP vs 1,000 SP)"
+    },
+    {
+      "label": "Armour: Scalemail is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Armour: Scalemail AP",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Armour: Scalemail ENC",
+      "ok": true,
+      "detail": "(6 vs 6)"
+    },
+    {
+      "label": "Armour: Scalemail Cost",
+      "ok": true,
+      "detail": "(1,500 SP vs 1,500 SP)"
+    },
+    {
+      "label": "Armour: Chainmail is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Armour: Chainmail AP",
+      "ok": true,
+      "detail": "(5 vs 5)"
+    },
+    {
+      "label": "Armour: Chainmail ENC",
+      "ok": true,
+      "detail": "(7 vs 7)"
+    },
+    {
+      "label": "Armour: Chainmail Cost",
+      "ok": true,
+      "detail": "(3,000 SP vs 3,000 SP)"
+    },
+    {
+      "label": "Armour: Platemail is a full-rules entry",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Armour: Platemail AP",
+      "ok": true,
+      "detail": "(6 vs 6)"
+    },
+    {
+      "label": "Armour: Platemail ENC",
+      "ok": true,
+      "detail": "(9 vs 9)"
+    },
+    {
+      "label": "Armour: Platemail Cost",
+      "ok": true,
+      "detail": "(9,000 SP vs 9,000 SP)"
+    },
+    {
+      "label": "Skill base: Dodge",
+      "ok": true,
+      "detail": "(DEX + 10 vs DEX + 10)"
+    },
+    {
+      "label": "Skill base: Persistence",
+      "ok": true,
+      "detail": "(POW + 10 vs POW + 10)"
+    },
+    {
+      "label": "Skill base: Resilience",
+      "ok": true,
+      "detail": "(CON + POW vs CON + POW)"
+    },
+    {
+      "label": "Skill base: Close Combat",
+      "ok": true,
+      "detail": "(DEX + STR vs DEX + STR)"
+    },
+    {
+      "label": "Skill base: Ranged Combat",
+      "ok": true,
+      "detail": "(DEX + INT vs DEX + INT)"
+    },
+    {
+      "label": "Skill base: Unarmed Combat",
+      "ok": true,
+      "detail": "(DEX + STR vs DEX + STR)"
+    },
+    {
+      "label": "Skill base: Culture (own)",
+      "ok": true,
+      "detail": "(INT + 10 vs INT + 10)"
+    },
+    {
+      "label": "Skill base: Culture (other)",
+      "ok": true,
+      "detail": "(INT vs INT)"
+    },
+    {
+      "label": "Skill base: Language (own)",
+      "ok": true,
+      "detail": "(INT + 50 vs INT + 50)"
+    },
+    {
+      "label": "Skill base: Language (other)",
+      "ok": true,
+      "detail": "(INT vs INT)"
+    },
+    {
+      "label": "Skill base: Natural Lore",
+      "ok": true,
+      "detail": "(INT + 10 vs INT + 10)"
+    },
+    {
+      "label": "Skill base: Lore (own field)",
+      "ok": true,
+      "detail": "(INT + 10 vs INT + 10)"
+    },
+    {
+      "label": "Skill base: Lore (other)",
+      "ok": true,
+      "detail": "(INT vs INT)"
+    },
+    {
+      "label": "Skill base: Athletics",
+      "ok": true,
+      "detail": "(DEX + STR vs DEX + STR)"
+    },
+    {
+      "label": "Skill base: Craft (trade)",
+      "ok": true,
+      "detail": "(INT + 10 vs INT + 10)"
+    },
+    {
+      "label": "Skill base: Deception",
+      "ok": true,
+      "detail": "(DEX + INT vs DEX + INT)"
+    },
+    {
+      "label": "Skill base: Driving",
+      "ok": true,
+      "detail": "(DEX + INT vs DEX + INT)"
+    },
+    {
+      "label": "Skill base: Healing",
+      "ok": true,
+      "detail": "(INT + 10 vs INT + 10)"
+    },
+    {
+      "label": "Skill base: Influence",
+      "ok": true,
+      "detail": "(CHA + 10 vs CHA + 10)"
+    },
+    {
+      "label": "Skill base: Mechanisms",
+      "ok": true,
+      "detail": "(DEX + INT vs DEX + INT)"
+    },
+    {
+      "label": "Skill base: Perception",
+      "ok": true,
+      "detail": "(INT + POW vs INT + POW)"
+    },
+    {
+      "label": "Skill base: Performance",
+      "ok": true,
+      "detail": "(CHA + 10 vs CHA + 10)"
+    },
+    {
+      "label": "Skill base: Riding",
+      "ok": true,
+      "detail": "(DEX + POW vs DEX + POW)"
+    },
+    {
+      "label": "Skill base: Sailing",
+      "ok": true,
+      "detail": "(DEX + INT vs DEX + INT)"
+    },
+    {
+      "label": "Skill base: Streetwise",
+      "ok": true,
+      "detail": "(CHA + POW vs CHA + POW)"
+    },
+    {
+      "label": "Skill base: Trade",
+      "ok": true,
+      "detail": "(INT + 10 vs INT + 10)"
+    },
+    {
+      "label": "Skill count",
+      "ok": true,
+      "detail": "(27)"
+    },
+    {
+      "label": "Shaping base",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Damage Modifier steps",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ancestry spreads",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ancestry maxima",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Ancestry IP: Human",
+      "ok": true,
+      "detail": "(0 vs 0)"
+    },
+    {
+      "label": "Ancestry IP: Elf",
+      "ok": true,
+      "detail": "(5 vs 5)"
+    },
+    {
+      "label": "Ancestry IP: Dwarf",
+      "ok": true,
+      "detail": "(7 vs 7)"
+    },
+    {
+      "label": "Ancestry IP: Orc",
+      "ok": true,
+      "detail": "(4 vs 4)"
+    },
+    {
+      "label": "Ancestry IP: Goblin",
+      "ok": true,
+      "detail": "(5 vs 5)"
+    },
+    {
+      "label": "Ancestry IP: Lizardfolk",
+      "ok": true,
+      "detail": "(6 vs 6)"
+    },
+    {
+      "label": "Talent costs from the Talent files",
+      "ok": true,
+      "detail": "(26 Talents)"
+    },
+    {
+      "label": "Talent: ambusher",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: battle-awareness",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: disarm",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: athletics-expertise",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: deception-expertise",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: silver-tongue",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: commanding-presence",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: tracker",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: terrain-expertise",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: favoured-weapon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: field-surgeon",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: iron-fist",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: killing-angle",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: missile-guard",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: off-hand-mastery",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: practised-hands",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: protector",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: quick-reflexes",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: rally",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: rapid-shot",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: shield-cover",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: shield-rush",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: silent-step",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: steady-casting",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: trip",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Talent: shaping",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Shaping limits",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Summon I1",
+      "ok": true,
+      "detail": "(I1: 3 HP, 25%, 1D3.)"
+    },
+    {
+      "label": "Summon I2",
+      "ok": true,
+      "detail": "(I2: 6 HP, 1 AP, 40%, 1D6.)"
+    },
+    {
+      "label": "Summon I3",
+      "ok": true,
+      "detail": "(I3: 10 HP, 2 AP, 55%, 1D8.)"
+    },
+    {
+      "label": "Summon I4",
+      "ok": true,
+      "detail": "(I4: 14 HP, 3 AP, 70%, 2D6.)"
+    },
+    {
+      "label": "Travel: Marching",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Travel: Hiking",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Travel: Riding slowly",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Travel: Riding",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Travel: Riding fast",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Fatigue states",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Object: Wooden chair",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Object: Wooden door",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Object: Iron door",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "label": "Object: Castle gate",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "fontsLoaded": true,
+  "accessibilityViolations": [],
+  "sources": [
+    {
+      "file": "01-cover.md",
+      "sources": [
+        "src/content/rules/start-here/index.md"
+      ]
+    },
+    {
+      "file": "02-play.md",
+      "sources": [
+        "src/content/rules/start-here/d100-percentile.md",
+        "src/content/rules/start-here/index.md",
+        "src/content/rules/skills/basic-tests.md",
+        "src/content/rules/skills/bonus-and-penalty-dice.md",
+        "src/content/rules/skills/opposed-tests.md",
+        "src/content/rules/skills/assistance.md",
+        "src/content/rules/gm-tools/calling-for-tests.md",
+        "src/content/rules/characters/character-creation.md"
+      ]
+    },
+    {
+      "file": "03-circumstances.md",
+      "sources": [
+        "src/content/rules/skills/bonus-and-penalty-dice.md",
+        "src/content/rules/combat/position-and-mounted-combat.md",
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/combat/grappling.md",
+        "src/content/rules/adventuring/fatigue-and-survival.md",
+        "src/content/rules/adventuring/encumbrance.md",
+        "src/content/rules/adventuring/light-and-darkness.md",
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/equipment/general-gear.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/adventuring/poison-and-disease.md"
+      ]
+    },
+    {
+      "file": "04-characters.md",
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/gm-tools/fantasy-races.md",
+        "src/content/rules/skills/resistance-and-combat-skills.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/skills/practical-skills.md"
+      ]
+    },
+    {
+      "file": "05-improvement-and-talents.md",
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/characters/improvement.md",
+        "src/content/rules/talents/index.md",
+        "src/content/rules/gm-tools/fantasy-races.md",
+        "src/content/rules/magic/becoming-a-shaper.md"
+      ]
+    },
+    {
+      "file": "06-combat.md",
+      "sources": [
+        "src/content/rules/combat/rounds-and-actions.md",
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/active-guard.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/combat/off-hand-options.md"
+      ]
+    },
+    {
+      "file": "07-more-combat.md",
+      "sources": [
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/combat/grappling.md",
+        "src/content/rules/combat/rounds-and-actions.md",
+        "src/content/rules/combat/position-and-mounted-combat.md",
+        "src/content/rules/skills/opposed-tests.md",
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/adventuring/healing-and-recovery.md",
+        "src/content/rules/skills/practical-skills.md"
+      ]
+    },
+    {
+      "file": "08-equipment.md",
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/equipment/armour.md",
+        "src/content/rules/equipment/general-gear.md",
+        "src/content/rules/equipment/economy.md",
+        "src/content/rules/characters/character-creation.md"
+      ]
+    },
+    {
+      "file": "09-adventuring.md",
+      "sources": [
+        "src/content/rules/adventuring/travel.md",
+        "src/content/rules/adventuring/fatigue-and-survival.md",
+        "src/content/rules/adventuring/encumbrance.md",
+        "src/content/rules/adventuring/falling.md",
+        "src/content/rules/adventuring/suffocation-and-fire.md",
+        "src/content/rules/adventuring/poison-and-disease.md",
+        "src/content/rules/adventuring/objects.md",
+        "src/content/rules/skills/practical-skills.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/equipment/general-gear.md",
+        "src/content/rules/equipment/economy.md"
+      ]
+    },
+    {
+      "file": "10-shaping-build.md",
+      "sources": [
+        "src/content/rules/magic/becoming-a-shaper.md",
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/talents/shaping.md",
+        "src/content/rules/magic/techniques-and-forms.md",
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/magic/effects.md"
+      ]
+    },
+    {
+      "file": "11-shaping-cast.md",
+      "sources": [
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/magic/casting-and-defence.md",
+        "src/content/rules/magic/ongoing-and-magical-actions.md"
+      ]
+    },
+    {
+      "file": "12-gamemaster.md",
+      "sources": [
+        "src/content/rules/gm-tools/calling-for-tests.md",
+        "src/content/rules/gm-tools/minor-npcs.md",
+        "src/content/rules/creatures/using-creatures.md",
+        "src/content/rules/creatures/creature-tags.md",
+        "src/content/rules/characters/improvement.md"
+      ]
+    }
+  ]
+}
