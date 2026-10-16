@@ -1,0 +1,1761 @@
+{
+  "pages": [
+    {
+      "folio": 1,
+      "title": "Player Handbook",
+      "file": "player-handbook/a5/complete/content/01-cover.md",
+      "modules": [],
+      "sources": [],
+      "wordCount": 41,
+      "art": "female-warrior",
+      "id": "cover",
+      "section": "PLAYER GUIDE",
+      "talents": []
+    },
+    {
+      "folio": 2,
+      "title": "Your Guide to Playing",
+      "file": "player-handbook/a5/complete/content/02-character.md",
+      "modules": [
+        1
+      ],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/equipment/armour.md"
+      ],
+      "wordCount": 274,
+      "art": null,
+      "id": "welcome",
+      "section": "START HERE",
+      "talents": []
+    },
+    {
+      "folio": 3,
+      "title": "Roll & Read the Dice",
+      "file": "player-handbook/a5/complete/content/03-roll.md",
+      "modules": [
+        2
+      ],
+      "sources": [
+        "src/content/rules/start-here/d100-percentile.md",
+        "src/content/rules/skills/basic-tests.md"
+      ],
+      "wordCount": 207,
+      "art": null,
+      "id": "dice",
+      "section": "FOUNDATIONS",
+      "talents": []
+    },
+    {
+      "folio": 4,
+      "title": "Better Rolls, Shared Tests",
+      "file": "player-handbook/a5/complete/content/04-modifiers.md",
+      "modules": [
+        3,
+        4
+      ],
+      "sources": [
+        "src/content/rules/skills/bonus-and-penalty-dice.md",
+        "src/content/rules/skills/opposed-tests.md",
+        "src/content/rules/skills/assistance.md"
+      ],
+      "wordCount": 173,
+      "art": null,
+      "id": "modifiers",
+      "section": "FOUNDATIONS",
+      "talents": []
+    },
+    {
+      "folio": 5,
+      "title": "Make a Character",
+      "file": "player-handbook/a5/complete/content/expanded/characteristics.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/gm-tools/fantasy-races.md"
+      ],
+      "wordCount": 240,
+      "art": "adventuring-company",
+      "id": "characteristics",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 6,
+      "title": "Choose Your Ancestry",
+      "file": "player-handbook/a5/complete/content/expanded/ancestries.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/gm-tools/fantasy-races.md"
+      ],
+      "wordCount": 395,
+      "art": null,
+      "id": "ancestries",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 7,
+      "title": "Innate Abilities",
+      "file": "player-handbook/a5/complete/content/expanded/innate.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/gm-tools/fantasy-races.md",
+        "src/content/rules/adventuring/light-and-darkness.md"
+      ],
+      "wordCount": 253,
+      "art": null,
+      "id": "innate",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 8,
+      "title": "Calculate Your Attributes",
+      "file": "player-handbook/a5/complete/content/expanded/attributes.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/adventuring/encumbrance.md"
+      ],
+      "wordCount": 273,
+      "art": null,
+      "id": "attributes",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 9,
+      "title": "Skills / Fight & Know",
+      "file": "player-handbook/a5/complete/content/expanded/skills-a.md",
+      "modules": [
+        5
+      ],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/skills/resistance-and-combat-skills.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/magic/becoming-a-shaper.md",
+        "src/content/rules/skills/practical-skills.md"
+      ],
+      "wordCount": 286,
+      "art": null,
+      "id": "skills-a",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 10,
+      "title": "Skills / Get Things Done",
+      "file": "player-handbook/a5/complete/content/expanded/skills-b.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/skills/practical-skills.md",
+        "src/content/rules/skills/assistance.md"
+      ],
+      "wordCount": 264,
+      "art": null,
+      "id": "skills-b",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 11,
+      "title": "Allocate Your Skill Points",
+      "file": "player-handbook/a5/complete/content/expanded/skill-points.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/magic/becoming-a-shaper.md"
+      ],
+      "wordCount": 273,
+      "art": null,
+      "id": "skill-points",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 12,
+      "title": "Finish & Equip Yourself",
+      "file": "player-handbook/a5/complete/content/expanded/starting-kit.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/characters/improvement.md",
+        "src/content/rules/equipment/general-gear.md",
+        "src/content/rules/equipment/economy.md"
+      ],
+      "wordCount": 265,
+      "art": null,
+      "id": "starting-kit",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 13,
+      "title": "A Character From Scratch",
+      "file": "player-handbook/a5/complete/content/expanded/creation-example.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/characters/improvement.md",
+        "src/content/rules/talents/quick-reflexes.md",
+        "src/content/rules/talents/shield-cover.md",
+        "src/content/rules/talents/missile-guard.md",
+        "src/content/rules/talents/disarm.md"
+      ],
+      "wordCount": 309,
+      "art": null,
+      "id": "creation-example",
+      "section": "CREATE A CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 14,
+      "title": "Improve & Buy Talents",
+      "file": "player-handbook/a5/complete/content/expanded/improvement.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/characters/improvement.md",
+        "src/content/rules/talents/index.md"
+      ],
+      "wordCount": 296,
+      "art": null,
+      "id": "improvement",
+      "section": "GROW YOUR CHARACTER",
+      "talents": []
+    },
+    {
+      "folio": 15,
+      "title": "Your Combat Round",
+      "file": "player-handbook/a5/complete/content/06-round.md",
+      "modules": [
+        6
+      ],
+      "sources": [
+        "src/content/rules/combat/rounds-and-actions.md"
+      ],
+      "wordCount": 221,
+      "art": null,
+      "id": "round",
+      "section": "COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 16,
+      "title": "Attack, Dodge & Parry",
+      "file": "player-handbook/a5/complete/content/07-defence.md",
+      "modules": [
+        7
+      ],
+      "sources": [
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md"
+      ],
+      "wordCount": 291,
+      "art": null,
+      "id": "defence",
+      "section": "COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 17,
+      "title": "Damage & Critical Hits",
+      "file": "player-handbook/a5/complete/content/08-damage.md",
+      "modules": [
+        8
+      ],
+      "sources": [
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/start-here/d100-percentile.md"
+      ],
+      "wordCount": 222,
+      "art": null,
+      "id": "damage",
+      "section": "COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 18,
+      "title": "Your Other Hand",
+      "file": "player-handbook/a5/complete/content/09-off-hand.md",
+      "modules": [
+        12
+      ],
+      "sources": [
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 202,
+      "art": "new-offhand",
+      "id": "offhand",
+      "section": "COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 19,
+      "title": "Move, Charge & Set",
+      "file": "player-handbook/a5/complete/content/10-movement.md",
+      "modules": [
+        18
+      ],
+      "sources": [
+        "src/content/rules/combat/rounds-and-actions.md"
+      ],
+      "wordCount": 156,
+      "art": "new-charge",
+      "id": "movement",
+      "section": "COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 20,
+      "title": "Seize & Escape",
+      "file": "player-handbook/a5/complete/content/11-grapple.md",
+      "modules": [
+        13
+      ],
+      "sources": [
+        "src/content/rules/combat/grappling.md",
+        "src/content/rules/skills/assistance.md"
+      ],
+      "wordCount": 196,
+      "art": "grapple-reversal",
+      "id": "grapple",
+      "section": "COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 21,
+      "title": "Take the Shot",
+      "file": "player-handbook/a5/content/ranged-attacks.md",
+      "modules": [
+        14,
+        16
+      ],
+      "sources": [
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/active-guard.md",
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/skills/resistance-and-combat-skills.md"
+      ],
+      "wordCount": 191,
+      "art": "legacy-cover",
+      "id": "shot",
+      "section": "RANGED COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 22,
+      "title": "Cover & Defence",
+      "file": "player-handbook/a5/content/cover-and-defence.md",
+      "modules": [
+        15,
+        16
+      ],
+      "sources": [
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/combat/active-guard.md",
+        "src/content/rules/combat/attacks-and-reactions.md",
+        "src/content/rules/combat/off-hand-options.md",
+        "src/content/rules/combat/critical-hits-and-fumbles.md",
+        "src/content/rules/skills/resistance-and-combat-skills.md"
+      ],
+      "wordCount": 187,
+      "art": "legacy-guard",
+      "id": "cover-defence",
+      "section": "RANGED COMBAT",
+      "talents": []
+    },
+    {
+      "folio": 23,
+      "title": "Position & Difficult Shots",
+      "file": "player-handbook/a5/complete/content/14-position.md",
+      "modules": [
+        17,
+        20
+      ],
+      "sources": [
+        "src/content/rules/combat/ranged-combat.md",
+        "src/content/rules/skills/bonus-and-penalty-dice.md",
+        "src/content/rules/combat/position-and-mounted-combat.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 223,
+      "art": "ambusher-from-rafters",
+      "id": "position",
+      "section": "POSITION",
+      "talents": []
+    },
+    {
+      "folio": 24,
+      "title": "Talk, Trade & Go Unnoticed",
+      "file": "player-handbook/a5/complete/content/15-intimidate.md",
+      "modules": [
+        19
+      ],
+      "sources": [
+        "src/content/rules/skills/practical-skills.md",
+        "src/content/rules/combat/rounds-and-actions.md",
+        "src/content/rules/skills/opposed-tests.md"
+      ],
+      "wordCount": 212,
+      "art": "battle-command",
+      "id": "social",
+      "section": "SOCIAL / STEALTH",
+      "talents": []
+    },
+    {
+      "folio": 25,
+      "title": "Wounds & Saving a Life",
+      "file": "player-handbook/a5/complete/content/16-wounds.md",
+      "modules": [
+        9,
+        10
+      ],
+      "sources": [
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/adventuring/healing-and-recovery.md",
+        "src/content/rules/skills/practical-skills.md"
+      ],
+      "wordCount": 194,
+      "art": "field-surgeon-under-fire",
+      "id": "wounds",
+      "section": "SURVIVAL",
+      "talents": []
+    },
+    {
+      "folio": 26,
+      "title": "Recover & Change Your Fate",
+      "file": "player-handbook/a5/complete/content/17-recovery.md",
+      "modules": [
+        10,
+        11
+      ],
+      "sources": [
+        "src/content/rules/adventuring/healing-and-recovery.md",
+        "src/content/rules/combat/damage-and-wounds.md",
+        "src/content/rules/skills/practical-skills.md",
+        "src/content/rules/characters/character-creation.md"
+      ],
+      "wordCount": 281,
+      "art": null,
+      "id": "recovery",
+      "section": "SURVIVAL",
+      "talents": []
+    },
+    {
+      "folio": 27,
+      "title": "Move & Work in the Field",
+      "file": "player-handbook/a5/complete/content/expanded/field-skills.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/skills/practical-skills.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/adventuring/objects.md",
+        "src/content/rules/equipment/general-gear.md"
+      ],
+      "wordCount": 271,
+      "art": null,
+      "id": "field-skills",
+      "section": "ADVENTURING",
+      "talents": []
+    },
+    {
+      "folio": 28,
+      "title": "Travel & Find Your Way",
+      "file": "player-handbook/a5/complete/content/expanded/travel.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/adventuring/travel.md",
+        "src/content/rules/skills/knowledge-skills.md",
+        "src/content/rules/adventuring/encumbrance.md"
+      ],
+      "wordCount": 231,
+      "art": "adventuring-company",
+      "id": "travel",
+      "section": "ADVENTURING",
+      "talents": []
+    },
+    {
+      "folio": 29,
+      "title": "Load, Fatigue & Necessities",
+      "file": "player-handbook/a5/complete/content/expanded/fatigue.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/adventuring/encumbrance.md",
+        "src/content/rules/adventuring/fatigue-and-survival.md"
+      ],
+      "wordCount": 271,
+      "art": null,
+      "id": "fatigue",
+      "section": "ADVENTURING",
+      "talents": []
+    },
+    {
+      "folio": 30,
+      "title": "Light & Other Senses",
+      "file": "player-handbook/a5/complete/content/expanded/light.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/adventuring/light-and-darkness.md",
+        "src/content/rules/equipment/general-gear.md"
+      ],
+      "wordCount": 191,
+      "art": "night-senses-stalking",
+      "id": "light",
+      "section": "ADVENTURING",
+      "talents": []
+    },
+    {
+      "folio": 31,
+      "title": "Survive Common Hazards",
+      "file": "player-handbook/a5/complete/content/expanded/hazards.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/adventuring/falling.md",
+        "src/content/rules/adventuring/suffocation-and-fire.md",
+        "src/content/rules/adventuring/poison-and-disease.md"
+      ],
+      "wordCount": 270,
+      "art": null,
+      "id": "hazards",
+      "section": "ADVENTURING",
+      "talents": []
+    },
+    {
+      "folio": 32,
+      "title": "Close Weapons / A-L",
+      "file": "player-handbook/a5/complete/content/18-close-a.md",
+      "modules": [
+        21
+      ],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 347,
+      "art": null,
+      "id": "close-a",
+      "section": "EQUIPMENT",
+      "talents": []
+    },
+    {
+      "folio": 33,
+      "title": "Close Weapons / M-Z",
+      "file": "player-handbook/a5/complete/content/19-close-b.md",
+      "modules": [
+        21
+      ],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/attacks-and-reactions.md"
+      ],
+      "wordCount": 355,
+      "art": null,
+      "id": "close-b",
+      "section": "EQUIPMENT",
+      "talents": []
+    },
+    {
+      "folio": 34,
+      "title": "Bows, Crossbows & Slings",
+      "file": "player-handbook/a5/complete/content/20-launchers.md",
+      "modules": [
+        22
+      ],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/ranged-combat.md"
+      ],
+      "wordCount": 282,
+      "art": null,
+      "id": "launchers",
+      "section": "EQUIPMENT",
+      "talents": []
+    },
+    {
+      "folio": 35,
+      "title": "Thrown Weapons & Whip",
+      "file": "player-handbook/a5/complete/content/21-thrown.md",
+      "modules": [
+        22
+      ],
+      "sources": [
+        "src/content/rules/equipment/weapons.md",
+        "src/content/rules/combat/ranged-combat.md"
+      ],
+      "wordCount": 315,
+      "art": "weapons-field-sketch",
+      "id": "thrown",
+      "section": "EQUIPMENT",
+      "talents": []
+    },
+    {
+      "folio": 36,
+      "title": "Armour & Protection",
+      "file": "player-handbook/a5/complete/content/22-armour.md",
+      "modules": [
+        23
+      ],
+      "sources": [
+        "src/content/rules/equipment/armour.md",
+        "src/content/rules/combat/damage-and-wounds.md"
+      ],
+      "wordCount": 216,
+      "art": "armour-field-sketch",
+      "id": "armour",
+      "section": "EQUIPMENT",
+      "talents": []
+    },
+    {
+      "folio": 37,
+      "title": "Train With a Weapon",
+      "file": "player-handbook/a5/complete/content/expanded/t-weapon.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/favoured-weapon.md",
+        "src/content/rules/talents/signature-weapon.md",
+        "src/content/rules/talents/mastery.md",
+        "src/content/rules/talents/deadly-precision.md"
+      ],
+      "wordCount": 202,
+      "art": null,
+      "id": "weapon-training",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "favoured-weapon",
+          "title": "Favoured Weapon",
+          "cost": 3,
+          "prerequisites": "Close Combat 51% or Ranged Combat 51%, as used by the chosen weapon",
+          "activation": "passive"
+        },
+        {
+          "slug": "signature-weapon",
+          "title": "Signature Weapon",
+          "cost": 4,
+          "prerequisites": "Favoured Weapon for the chosen weapon and Close Combat 76% or Ranged Combat 76%, as used by that weapon",
+          "activation": "passive"
+        },
+        {
+          "slug": "weapon-expertise",
+          "title": "Weapon Expertise",
+          "cost": 4,
+          "prerequisites": "Close Combat or Ranged Combat at 76%, as used by the chosen weapon",
+          "activation": "passive"
+        },
+        {
+          "slug": "deadly-precision",
+          "title": "Deadly Precision",
+          "cost": 5,
+          "prerequisites": "Favoured Weapon, Signature Weapon, and Weapon Expertise for the same weapon type; Close Combat or Ranged Combat 76%, as used for the attack",
+          "activation": "Once per round, declared before rolling"
+        }
+      ]
+    },
+    {
+      "folio": 38,
+      "title": "Awareness & Your Other Hand",
+      "file": "player-handbook/a5/complete/content/expanded/t-awareness.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/battle-awareness.md",
+        "src/content/rules/talents/quick-reflexes.md",
+        "src/content/rules/talents/off-hand-mastery.md"
+      ],
+      "wordCount": 145,
+      "art": "shield-reaction",
+      "id": "awareness",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "battle-awareness",
+          "title": "Battle Awareness",
+          "cost": 3,
+          "prerequisites": "Perception 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "quick-reflexes",
+          "title": "Quick Reflexes",
+          "cost": 3,
+          "prerequisites": "DEX 13 and Dodge 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "off-hand-mastery",
+          "title": "Off-Hand Mastery",
+          "cost": 5,
+          "prerequisites": "Close Combat 76% or Unarmed Combat 76%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 39,
+      "title": "Protect With a Shield",
+      "file": "player-handbook/a5/complete/content/expanded/t-shields.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/shield-cover.md",
+        "src/content/rules/talents/missile-guard.md",
+        "src/content/rules/talents/protector.md",
+        "src/content/rules/talents/defensive-stance.md"
+      ],
+      "wordCount": 209,
+      "art": null,
+      "id": "shield-talents",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "shield-cover",
+          "title": "Shield Cover",
+          "cost": 3,
+          "prerequisites": "Close Combat 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "missile-guard",
+          "title": "Missile Guard",
+          "cost": 2,
+          "prerequisites": "Close Combat 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "protector",
+          "title": "Protector",
+          "cost": 2,
+          "prerequisites": "Close Combat 51%",
+          "activation": "reaction"
+        },
+        {
+          "slug": "defensive-stance",
+          "title": "Defensive Stance",
+          "cost": 2,
+          "prerequisites": "Close Combat 51%",
+          "activation": "action"
+        }
+      ]
+    },
+    {
+      "folio": 40,
+      "title": "Change the Fight",
+      "file": "player-handbook/a5/complete/content/expanded/t-manoeuvres.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/disarm.md",
+        "src/content/rules/talents/trip.md",
+        "src/content/rules/talents/shield-rush.md"
+      ],
+      "wordCount": 133,
+      "art": "battle-command",
+      "id": "manoeuvres",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "disarm",
+          "title": "Disarm",
+          "cost": 2,
+          "prerequisites": "Close Combat 51%",
+          "activation": "action"
+        },
+        {
+          "slug": "trip",
+          "title": "Trip",
+          "cost": 3,
+          "prerequisites": "Close Combat 51% or Unarmed Combat 51%",
+          "activation": "action"
+        },
+        {
+          "slug": "shield-rush",
+          "title": "Shield Rush",
+          "cost": 3,
+          "prerequisites": "Close Combat 51%",
+          "activation": "action"
+        }
+      ]
+    },
+    {
+      "folio": 41,
+      "title": "Brawl, Wrestle & Subdue",
+      "file": "player-handbook/a5/complete/content/expanded/t-unarmed.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/iron-fist.md",
+        "src/content/rules/talents/master-brawler.md",
+        "src/content/rules/talents/wrestler.md",
+        "src/content/rules/talents/subdue.md"
+      ],
+      "wordCount": 207,
+      "art": null,
+      "id": "unarmed-talents",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "iron-fist",
+          "title": "Iron Fist",
+          "cost": 3,
+          "prerequisites": "Unarmed Combat 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "master-brawler",
+          "title": "Master Brawler",
+          "cost": 4,
+          "prerequisites": "Unarmed Combat 76% and Iron Fist",
+          "activation": "passive"
+        },
+        {
+          "slug": "wrestler",
+          "title": "Wrestler",
+          "cost": 2,
+          "prerequisites": "Unarmed Combat 51%",
+          "activation": "action"
+        },
+        {
+          "slug": "subdue",
+          "title": "Subdue",
+          "cost": 3,
+          "prerequisites": "Close Combat 51% or Unarmed Combat 51%",
+          "activation": "action"
+        }
+      ]
+    },
+    {
+      "folio": 42,
+      "title": "Master the Ranged Shot",
+      "file": "player-handbook/a5/complete/content/expanded/t-ranged.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/steady-aim.md",
+        "src/content/rules/talents/point-blank-shot.md",
+        "src/content/rules/talents/mighty-shot.md",
+        "src/content/rules/talents/rapid-shot.md"
+      ],
+      "wordCount": 211,
+      "art": null,
+      "id": "ranged-talents",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "steady-aim",
+          "title": "Steady Aim",
+          "cost": 2,
+          "prerequisites": "Ranged Combat 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "point-blank-shot",
+          "title": "Point-Blank Shot",
+          "cost": 3,
+          "prerequisites": "Ranged Combat 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "mighty-shot",
+          "title": "Mighty Shot",
+          "cost": 5,
+          "prerequisites": "Ranged Combat 76%",
+          "activation": "passive"
+        },
+        {
+          "slug": "rapid-shot",
+          "title": "Rapid Shot",
+          "cost": 4,
+          "prerequisites": "Ranged Combat 76%",
+          "activation": "action"
+        }
+      ]
+    },
+    {
+      "folio": 43,
+      "title": "Strike From an Opening",
+      "file": "player-handbook/a5/complete/content/expanded/t-ambush.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/silent-step.md",
+        "src/content/rules/talents/killing-angle.md",
+        "src/content/rules/talents/master-assassin.md",
+        "src/content/rules/talents/ambusher.md"
+      ],
+      "wordCount": 223,
+      "art": null,
+      "id": "ambush-talents",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "silent-step",
+          "title": "Silent Step",
+          "cost": 3,
+          "prerequisites": "Deception 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "killing-angle",
+          "title": "Killing Angle",
+          "cost": 4,
+          "prerequisites": "Deception 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "master-assassin",
+          "title": "Master Assassin",
+          "cost": 5,
+          "prerequisites": "Deception 76% and Killing Angle",
+          "activation": "passive"
+        },
+        {
+          "slug": "ambusher",
+          "title": "Ambusher",
+          "cost": 4,
+          "prerequisites": "Deception 76%",
+          "activation": "action"
+        }
+      ]
+    },
+    {
+      "folio": 44,
+      "title": "Infiltration & Fine Work",
+      "file": "player-handbook/a5/complete/content/expanded/t-infiltration.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/deception-expertise.md",
+        "src/content/rules/talents/cutpurse.md",
+        "src/content/rules/talents/lockbreaker.md",
+        "src/content/rules/talents/close-quarters-knack.md"
+      ],
+      "wordCount": 163,
+      "art": null,
+      "id": "infiltration",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "deception-expertise",
+          "title": "Deception Expertise",
+          "cost": 2,
+          "prerequisites": "Deception 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "cutpurse",
+          "title": "Cutpurse",
+          "cost": 2,
+          "prerequisites": "Deception 51%",
+          "activation": "action"
+        },
+        {
+          "slug": "lockbreaker",
+          "title": "Lockbreaker",
+          "cost": 2,
+          "prerequisites": "Mechanisms 51%",
+          "activation": "action"
+        },
+        {
+          "slug": "close-quarters-knack",
+          "title": "Close-Quarters Knack",
+          "cost": 2,
+          "prerequisites": "DEX 13 and SIZ 9 or lower",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 45,
+      "title": "Words, Trade & Leadership",
+      "file": "player-handbook/a5/complete/content/expanded/t-leadership.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/silver-tongue.md",
+        "src/content/rules/talents/commanding-presence.md",
+        "src/content/rules/talents/rally.md",
+        "src/content/rules/talents/merchants-eye.md",
+        "src/content/rules/talents/tactician.md"
+      ],
+      "wordCount": 198,
+      "art": null,
+      "id": "leadership",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "silver-tongue",
+          "title": "Silver Tongue",
+          "cost": 2,
+          "prerequisites": "Influence 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "commanding-presence",
+          "title": "Commanding Presence",
+          "cost": 2,
+          "prerequisites": "Influence 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "rally",
+          "title": "Rally",
+          "cost": 4,
+          "prerequisites": "Influence 51%",
+          "activation": "action"
+        },
+        {
+          "slug": "merchants-eye",
+          "title": "Merchant's Eye",
+          "cost": 3,
+          "prerequisites": "Trade 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "tactician",
+          "title": "Tactician",
+          "cost": 4,
+          "prerequisites": "Lore (Military Tactics) 51%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 46,
+      "title": "Skilled Hands & Care",
+      "file": "player-handbook/a5/complete/content/expanded/t-craft-care.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/practised-hands.md",
+        "src/content/rules/talents/field-surgeon.md",
+        "src/content/rules/talents/physician.md",
+        "src/content/rules/talents/master-craftsman.md",
+        "src/content/rules/talents/weak-point.md"
+      ],
+      "wordCount": 205,
+      "art": null,
+      "id": "craft-care",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "practised-hands",
+          "title": "Practised Hands",
+          "cost": 4,
+          "prerequisites": "Healing 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "field-surgeon",
+          "title": "Field Surgeon",
+          "cost": 3,
+          "prerequisites": "Healing 76%",
+          "activation": "passive"
+        },
+        {
+          "slug": "physician",
+          "title": "Physician",
+          "cost": 3,
+          "prerequisites": "Healing 76%",
+          "activation": "passive"
+        },
+        {
+          "slug": "master-craftsman",
+          "title": "Master Craftsman",
+          "cost": 4,
+          "prerequisites": "Craft 76%",
+          "activation": "passive"
+        },
+        {
+          "slug": "weak-point",
+          "title": "Weak Point",
+          "cost": 3,
+          "prerequisites": "Mechanisms 51%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 47,
+      "title": "Travel & Terrain Talents",
+      "file": "player-handbook/a5/complete/content/expanded/t-wild.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/talents/athletics-expertise.md",
+        "src/content/rules/talents/terrain-expertise.md",
+        "src/content/rules/talents/tracker.md",
+        "src/content/rules/talents/wayfinder.md"
+      ],
+      "wordCount": 178,
+      "art": null,
+      "id": "wild-talents",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "athletics-expertise",
+          "title": "Athletics Expertise",
+          "cost": 2,
+          "prerequisites": "Athletics 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "terrain-expertise",
+          "title": "Terrain Expertise",
+          "cost": 2,
+          "prerequisites": "Natural Lore 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "tracker",
+          "title": "Tracker",
+          "cost": 2,
+          "prerequisites": "Natural Lore 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "wayfinder",
+          "title": "Wayfinder",
+          "cost": 2,
+          "prerequisites": "Natural Lore 51%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 48,
+      "title": "Alchemy & Poison",
+      "file": "player-handbook/a5/complete/content/expanded/t-alchemy.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/adventuring/poison-and-disease.md",
+        "src/content/rules/talents/alchemist.md",
+        "src/content/rules/talents/poisoner.md"
+      ],
+      "wordCount": 194,
+      "art": null,
+      "id": "alchemy",
+      "section": "TALENTS",
+      "talents": [
+        {
+          "slug": "alchemist",
+          "title": "Alchemist",
+          "cost": 4,
+          "prerequisites": "Lore (Alchemy) 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "poisoner",
+          "title": "Poisoner",
+          "cost": 4,
+          "prerequisites": "Lore (Alchemy) 76% and Alchemist",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 49,
+      "title": "Become a Shaper",
+      "file": "player-handbook/a5/complete/content/expanded/s-access.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/becoming-a-shaper.md",
+        "src/content/rules/characters/character-creation.md",
+        "src/content/rules/talents/shaping.md"
+      ],
+      "wordCount": 223,
+      "art": "fire-shaping",
+      "id": "shaper",
+      "section": "SHAPING",
+      "talents": [
+        {
+          "slug": "shaping",
+          "title": "Shaping",
+          "cost": 20,
+          "prerequisites": "A supernatural initiation or discovery",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 50,
+      "title": "Forms & Techniques",
+      "file": "player-handbook/a5/complete/content/expanded/s-cells.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/techniques-and-forms.md"
+      ],
+      "wordCount": 254,
+      "art": null,
+      "id": "cells",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 51,
+      "title": "Build an Effect",
+      "file": "player-handbook/a5/complete/content/expanded/s-build.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/magic/rituals-and-examples.md"
+      ],
+      "wordCount": 234,
+      "art": null,
+      "id": "build",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 52,
+      "title": "Duration, Reach & Examples",
+      "file": "player-handbook/a5/complete/content/expanded/s-dials.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/building-a-shaping.md"
+      ],
+      "wordCount": 281,
+      "art": null,
+      "id": "dials",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 53,
+      "title": "Harm, Heal & Protect",
+      "file": "player-handbook/a5/complete/content/expanded/s-outcomes.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/magic/casting-and-defence.md"
+      ],
+      "wordCount": 308,
+      "art": null,
+      "id": "outcomes",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 54,
+      "title": "Move, Sense & Learn",
+      "file": "player-handbook/a5/complete/content/expanded/s-capabilities.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/adventuring/light-and-darkness.md"
+      ],
+      "wordCount": 279,
+      "art": null,
+      "id": "capabilities",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 55,
+      "title": "Conditions & Escaping Them",
+      "file": "player-handbook/a5/complete/content/expanded/s-conditions.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/adventuring/light-and-darkness.md"
+      ],
+      "wordCount": 288,
+      "art": null,
+      "id": "conditions",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 56,
+      "title": "Cast & Pay the Cost",
+      "file": "player-handbook/a5/complete/content/expanded/s-casting.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/casting-and-defence.md",
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/characters/character-creation.md"
+      ],
+      "wordCount": 299,
+      "art": null,
+      "id": "casting",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 57,
+      "title": "Defend Against Magic",
+      "file": "player-handbook/a5/complete/content/expanded/s-defence.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/casting-and-defence.md",
+        "src/content/rules/magic/effects.md"
+      ],
+      "wordCount": 289,
+      "art": null,
+      "id": "magic-defence",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 58,
+      "title": "Keep Magic Active",
+      "file": "player-handbook/a5/complete/content/expanded/s-active.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/ongoing-and-magical-actions.md"
+      ],
+      "wordCount": 238,
+      "art": null,
+      "id": "active",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 59,
+      "title": "Counter & Casting Training",
+      "file": "player-handbook/a5/complete/content/expanded/s-training.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/magic/casting-and-defence.md",
+        "src/content/rules/talents/counter.md",
+        "src/content/rules/talents/steady-casting.md",
+        "src/content/rules/talents/shaping-expertise.md"
+      ],
+      "wordCount": 223,
+      "art": null,
+      "id": "magic-training",
+      "section": "SHAPING TALENTS",
+      "talents": [
+        {
+          "slug": "counter",
+          "title": "Counter",
+          "cost": 4,
+          "prerequisites": "Shaping 51%",
+          "activation": "reaction"
+        },
+        {
+          "slug": "steady-casting",
+          "title": "Steady Casting",
+          "cost": 3,
+          "prerequisites": "Shaping 76%",
+          "activation": "passive"
+        },
+        {
+          "slug": "shaping-expertise",
+          "title": "Shaping Expertise",
+          "cost": 5,
+          "prerequisites": "Shaping 76%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 60,
+      "title": "Learn Shaping Adjustments",
+      "file": "player-handbook/a5/complete/content/expanded/s-adjustments.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/talents/selective.md",
+        "src/content/rules/talents/indirect.md",
+        "src/content/rules/talents/veiled.md",
+        "src/content/rules/talents/confluence.md"
+      ],
+      "wordCount": 190,
+      "art": null,
+      "id": "adjustments",
+      "section": "SHAPING TALENTS",
+      "talents": [
+        {
+          "slug": "selective",
+          "title": "Selective",
+          "cost": 3,
+          "prerequisites": "Shaping 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "indirect",
+          "title": "Indirect",
+          "cost": 3,
+          "prerequisites": "Shaping 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "veiled",
+          "title": "Veiled",
+          "cost": 3,
+          "prerequisites": "Shaping 51%",
+          "activation": "passive"
+        },
+        {
+          "slug": "confluence",
+          "title": "Confluence",
+          "cost": 5,
+          "prerequisites": "Shaping 76%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 61,
+      "title": "Make Magic Wait",
+      "file": "player-handbook/a5/complete/content/expanded/s-trigger.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/magic/building-a-shaping.md",
+        "src/content/rules/magic/rituals-and-examples.md",
+        "src/content/rules/talents/trigger.md"
+      ],
+      "wordCount": 264,
+      "art": null,
+      "id": "trigger",
+      "section": "SHAPING TALENTS",
+      "talents": [
+        {
+          "slug": "trigger",
+          "title": "Trigger",
+          "cost": 4,
+          "prerequisites": "Shaping 76%",
+          "activation": "passive"
+        }
+      ]
+    },
+    {
+      "folio": 62,
+      "title": "Illusions, Paths & Fate",
+      "file": "player-handbook/a5/complete/content/expanded/s-methods.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/techniques-and-forms.md",
+        "src/content/rules/magic/effects.md"
+      ],
+      "wordCount": 260,
+      "art": null,
+      "id": "special-methods",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 63,
+      "title": "Summon & Call a Being",
+      "file": "player-handbook/a5/complete/content/expanded/s-summons.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/effects.md",
+        "src/content/rules/magic/ongoing-and-magical-actions.md"
+      ],
+      "wordCount": 329,
+      "art": null,
+      "id": "summons",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 64,
+      "title": "Rituals & Lasting Magic",
+      "file": "player-handbook/a5/complete/content/expanded/s-rituals.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/magic/rituals-and-examples.md",
+        "src/content/rules/magic/ongoing-and-magical-actions.md"
+      ],
+      "wordCount": 288,
+      "art": null,
+      "id": "rituals",
+      "section": "SHAPING",
+      "talents": []
+    },
+    {
+      "folio": 65,
+      "title": "Use a Magical Item",
+      "file": "player-handbook/a5/complete/content/expanded/s-items.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/gm-tools/enchanted-items.md",
+        "src/content/rules/magic/ongoing-and-magical-actions.md"
+      ],
+      "wordCount": 258,
+      "art": "enchanted-sword-identification",
+      "id": "items",
+      "section": "MAGICAL ITEMS",
+      "talents": []
+    },
+    {
+      "folio": 66,
+      "title": "Make an Enchantment",
+      "file": "player-handbook/a5/complete/content/expanded/s-enchanter.md",
+      "modules": [],
+      "sources": [
+        "src/content/rules/talents/index.md",
+        "src/content/rules/gm-tools/enchanted-items.md",
+        "src/content/rules/magic/rituals-and-examples.md",
+        "src/content/rules/talents/enchanter.md"
+      ],
+      "wordCount": 296,
+      "art": null,
+      "id": "enchanter",
+      "section": "SHAPING TALENTS",
+      "talents": [
+        {
+          "slug": "enchanter",
+          "title": "Enchanter",
+          "cost": 10,
+          "prerequisites": "Shaping 51%",
+          "activation": "passive"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "key": "new-offhand",
+      "path": "player-handbook/a5/complete/art/off-hand-v01.png",
+      "sha256": "a16986d17de0d6ed6fe4ccd4af58b8bf71e9e69bd948c7e59cf1de1f0629e23e"
+    },
+    {
+      "key": "new-charge",
+      "path": "player-handbook/a5/complete/art/charge-v01.png",
+      "sha256": "088d2c7649cf0228bbcfb398ded90041268db92285586857495d1d9d75768085"
+    },
+    {
+      "key": "legacy-cover",
+      "path": "player-handbook/art/15-terrain-cover/illustration-v01.png",
+      "sha256": "5f8f78a1abb6afacc827bfcc432fcf7c39ad4adaca0fedc41e8c209552e78d8a"
+    },
+    {
+      "key": "legacy-guard",
+      "path": "player-handbook/a5/art/guard-v01.png",
+      "sha256": "9265377ac1bbec83525424d651cc34daa6bdd8198bdbcd5971e8c458342e23ff"
+    },
+    {
+      "key": "female-warrior",
+      "path": "art/library/subjects/female-warrior/styles/inked-adventure-comic-vivid.png",
+      "sha256": "200fdb1f34aff9f672061b4e8dacf45607fd105a1573ee3dacb3991eeec2de23"
+    },
+    {
+      "key": "mechanisms-trapwork",
+      "path": "art/library/subjects/mechanisms-trapwork/styles/inked-adventure-comic-vivid.png",
+      "sha256": "68a14f140b20decedee52dc6f6bfa5ce080ccb99ae8064948356a772e015b265"
+    },
+    {
+      "key": "battle-command",
+      "path": "art/library/subjects/battle-command/styles/inked-adventure-comic-vivid.png",
+      "sha256": "9b0793b8f4605e2a504654267d24f1201c08f96be4a3e57405faa95ba6bc7253"
+    },
+    {
+      "key": "ambusher-from-rafters",
+      "path": "art/library/subjects/ambusher-from-rafters/styles/inked-adventure-comic-vivid.png",
+      "sha256": "dcb5dfebae221331ea6f245eb6f8548c3cd7c39f6f313e68f32181f60a3da922"
+    },
+    {
+      "key": "shield-reaction",
+      "path": "art/library/subjects/shield-reaction/styles/inked-adventure-comic-vivid.png",
+      "sha256": "981b7e025fe8d3b218502788eebc8de563114527a14ad006e5e275baab6a9ed2"
+    },
+    {
+      "key": "grapple-reversal",
+      "path": "art/library/subjects/grapple-reversal/styles/inked-adventure-comic-vivid.png",
+      "sha256": "5e2fc9e8ae5d187c3296fa706c4e19fa220e0e8e0c661581d867cd9fb7fc3bd9"
+    },
+    {
+      "key": "field-surgeon-under-fire",
+      "path": "art/library/subjects/field-surgeon-under-fire/styles/inked-adventure-comic-vivid.png",
+      "sha256": "6e0467a34a905947c8c8a8655870222d36e5eaba1b54218a0b5ff286540763cd"
+    },
+    {
+      "key": "weapons-field-sketch",
+      "path": "art/library/subjects/weapons-field-sketch/styles/inked-adventure-comic-vivid.png",
+      "sha256": "759472a76c1d4f83e4bb5c18500a9fa30ab72517c9d62dad2256d3b111fa35d0"
+    },
+    {
+      "key": "armour-field-sketch",
+      "path": "art/library/subjects/armour-field-sketch/styles/inked-adventure-comic-vivid.png",
+      "sha256": "4cba5bd37bac6e3c42b313124ce107652d739569594717f66ce0ae6bf079b833"
+    },
+    {
+      "key": "adventuring-company",
+      "path": "art/library/subjects/adventuring-company/styles/inked-adventure-comic-vivid.png",
+      "sha256": "ece999a61994790809ac85050bf5c35d8d8565f31fba7d2980c6f0f6abd0f4e0"
+    },
+    {
+      "key": "fire-shaping",
+      "path": "art/library/subjects/fire-shaping/styles/inked-adventure-comic-vivid.png",
+      "sha256": "19bcd7012aeafa2eb8cfd7aab54236c021a5bfe9ca8380d7623d2261b21721fb"
+    },
+    {
+      "key": "night-senses-stalking",
+      "path": "art/library/subjects/night-senses-stalking/styles/inked-adventure-comic-vivid.png",
+      "sha256": "bd235ec688dd96311464ade9825eb65e3dc1010a8ede565cd86d94a123faeb1c"
+    },
+    {
+      "key": "enchanted-sword-identification",
+      "path": "art/library/subjects/enchanted-sword-identification/styles/inked-adventure-comic-vivid.png",
+      "sha256": "6fb9eb8fa3d5e12693e775a79705a2b97ccb813c6a28f5ec101edb2d8150f99f"
+    },
+    {
+      "key": "diagram:print-d100-grades",
+      "path": "player-handbook/a5/complete/diagrams/print-d100-grades.svg",
+      "sha256": "0b28c538035eecb7df2610b47e3c444d5f11941c02f630316edcc7ff4c06499f"
+    },
+    {
+      "key": "diagram:print-bonus-penalty",
+      "path": "player-handbook/a5/complete/diagrams/print-bonus-penalty.svg",
+      "sha256": "206fd9bc460402daf72550d93be6d3f39824a8617f10f4310989afcb2249889f"
+    },
+    {
+      "key": "diagram:print-skill-pools",
+      "path": "player-handbook/a5/complete/diagrams/print-skill-pools.svg",
+      "sha256": "85c9bb4353398931e1bacb28cc139a236fffcb7ebdd6f5b205e97946400ab338"
+    },
+    {
+      "key": "diagram:print-round-costs",
+      "path": "player-handbook/a5/complete/diagrams/print-round-costs.svg",
+      "sha256": "d00776b0082627f5da3935f47d8da52496961a6738a06e9b6f9e486622baddd3"
+    },
+    {
+      "key": "diagram:print-damage-steps",
+      "path": "player-handbook/a5/complete/diagrams/print-damage-steps.svg",
+      "sha256": "f51e02c7d7a175b25d5ed87b00c634d5d233d97497c451cba0dcf60f90a8ae61"
+    },
+    {
+      "key": "diagram:print-dying-countdown",
+      "path": "player-handbook/a5/complete/diagrams/print-dying-countdown.svg",
+      "sha256": "e46f51a0deb651519f9f72ffffcd47b756e4510deb89454c8c3ac9fc0cadc7ac"
+    },
+    {
+      "key": "diagram:print-reload-costs",
+      "path": "player-handbook/a5/complete/diagrams/print-reload-costs.svg",
+      "sha256": "5e0fe898a50c31f00c4f6988456435c1a49126c75a64106d8eaf01e9446dc384"
+    },
+    {
+      "key": "diagram:print-shaping-formula",
+      "path": "player-handbook/a5/complete/diagrams/print-shaping-formula.svg",
+      "sha256": "dfaa106cda795bdddb375b5e638be99f1e2ba4f1d080e05ed75febfbfad8183c"
+    },
+    {
+      "key": "diagram:print-active-magnitude",
+      "path": "player-handbook/a5/complete/diagrams/print-active-magnitude.svg",
+      "sha256": "1d949b0ba3c36ee4b87b61a9564323b2033f8ed86a803ddd98095901021de362"
+    }
+  ],
+  "sources": {
+    "src/content/rules/characters/character-creation.md": "11d0636c051dc61bac9a96940e6bb2661b0c011f21b316e727beba5c7339cf32",
+    "src/content/rules/equipment/armour.md": "81df2a7f920915744d60707c8dde674c604c8a8f078b3e6b849c5e7c5347d91c",
+    "src/content/rules/start-here/d100-percentile.md": "23be5d67b455149be7eedf3f59f5c7663080cab0484ce99b23f1f8caa03f483f",
+    "src/content/rules/skills/basic-tests.md": "ffda2cd5ab071564a4456c28802cb430087d68c098ea294fd3b06e240bb099a3",
+    "src/content/rules/skills/bonus-and-penalty-dice.md": "ada5b539331afa5f4b7355fd0a5a0791576d1504a05fed0c061a80f740bba19c",
+    "src/content/rules/skills/opposed-tests.md": "581027bf35c6fd5ce753ceafef0267523b71be8ef42023c8a868d0bb5e11a363",
+    "src/content/rules/skills/assistance.md": "cb74ae2d1e7197dabe7bbf80c6138bcb93e01173512beb6dbec863d900534770",
+    "src/content/rules/gm-tools/fantasy-races.md": "5cec63c6e5dd7101a17b78b0bc6e5fc42eb66aa4eb166a857bce4d4e8898de3f",
+    "src/content/rules/adventuring/light-and-darkness.md": "4abd844e3f79122c93c5b6dbfbad1bb299d6fc991db69f99660ef13e67d0893e",
+    "src/content/rules/adventuring/encumbrance.md": "32122f3cf03bb7ad3446271633fd794121a9bb77b270601911b3ff8485fe7325",
+    "src/content/rules/skills/resistance-and-combat-skills.md": "da0f5643663a80310b81676576cec4c7d7d072dc2866f77fe675c0488b055ded",
+    "src/content/rules/skills/knowledge-skills.md": "79082d2ee2e3929c730b6ac1e76df9fdfbf0a18e077c8d6a18a777c1c65f1529",
+    "src/content/rules/magic/becoming-a-shaper.md": "0e76bc2ed44d5d75ec2ba416f99b89f6e16317b48fdcf5146253b3d8bdc15ef6",
+    "src/content/rules/skills/practical-skills.md": "0b707a0627e707feb4ac8b03a714025d72ef2c67d32671357ed6c0d6e9ccf5dd",
+    "src/content/rules/characters/improvement.md": "79e527c56fe91357cbae0b6f4bc15f9211d444ef33372e772d8d93f5ab2b034b",
+    "src/content/rules/equipment/general-gear.md": "1e9c1b87c859d36ed1fd0c1ef9c21ebaf8e6c7772a48e19dd8195d82524c57d0",
+    "src/content/rules/equipment/economy.md": "984ec4e4df7db21462229dece32e37eb75ea46afebfd87cf54c3f29f758b02a7",
+    "src/content/rules/talents/quick-reflexes.md": "a4e2cbcb33e406bebfbe9dd63851220c6fc2d6c83785048ebda866932453dd26",
+    "src/content/rules/talents/shield-cover.md": "7b67efce4952143fe7469361a6615f82be61fa63f68b7b95d27566a52cda13d6",
+    "src/content/rules/talents/missile-guard.md": "130af90d318db96ef8113f826cfc807c850a8956a04f29c635fad6d550c1b154",
+    "src/content/rules/talents/disarm.md": "8214c1806976664bee7a8b0f278dfee99e0c6651c35c1ed433a7a4888e614cae",
+    "src/content/rules/talents/index.md": "02d35c908f738b3b00c74397f8802174257a7df84e680c6b1d3444a573264770",
+    "src/content/rules/combat/rounds-and-actions.md": "ec359a23c9fb56d0740b67d518a31c15a7b2f8d34b8e8e0e621ac1deb3281804",
+    "src/content/rules/combat/attacks-and-reactions.md": "0b0d3a50cd3784546fb9786f411b927df4677f12d9d7fd964dd03f53afdcd35f",
+    "src/content/rules/combat/critical-hits-and-fumbles.md": "bccd7e1f0cdeaac77f86ae1dea17f6b91a04219a392c127b72a23fc3893b2d0b",
+    "src/content/rules/combat/damage-and-wounds.md": "b9c68766f38fd25c167f4971400adfbae2ced8b0cfda48b6f230bc1117a59391",
+    "src/content/rules/combat/off-hand-options.md": "323d2c0bb646e979cb518d023aaebd63f36fc32ad24238fc18361b40da5b6fb4",
+    "src/content/rules/combat/grappling.md": "3dc1862a2e86d072e68a2265366e26c814fd98aac0d85a69702389795a23ebc6",
+    "src/content/rules/combat/ranged-combat.md": "6b3fb7e9e506a6edc7b961e646fe3729c9f98d2c36668a4117fd1c1336bc0c73",
+    "src/content/rules/equipment/weapons.md": "c75bd9e8d7d8a39e010cfbcd7faab6494c8e3c1615e03fe34a9b4f649b68e855",
+    "src/content/rules/combat/active-guard.md": "e2e77f2700e8b76ab3595c3be6de6471c7741586a7eac9077f019982e0d80e40",
+    "src/content/rules/combat/position-and-mounted-combat.md": "f9e7b91e425f4c81bd1d67beba1a1c76d5af054256fd2986463fb48cdb647b4b",
+    "src/content/rules/adventuring/healing-and-recovery.md": "4fb77c5d38b9a46520a59e87ead1e7457fedd36f950bcf137553ac0de7786e40",
+    "src/content/rules/adventuring/objects.md": "dd6970846974ab60314fc2f14054f9263a0ce4fcf421a847d057643f020b5bfc",
+    "src/content/rules/adventuring/travel.md": "27037bfc1112cca2aa1b3364d620b135becdb56754498488c25a4cd1751d84e5",
+    "src/content/rules/adventuring/fatigue-and-survival.md": "0ead317b81a50d62d5b3d9f34f05c6ec8fed8a98241da1eb07440d75823360ef",
+    "src/content/rules/adventuring/falling.md": "c4a45b297b7bd7a28641525dca909e1acfef5a400b59bcf339480eb868412e52",
+    "src/content/rules/adventuring/suffocation-and-fire.md": "ed73de5f3b6391cfc91df8d66ded0e2f58c872bc380b5fb61f1a11f4c3cbbb45",
+    "src/content/rules/adventuring/poison-and-disease.md": "7533297e40e8be81f38b4c9092005dacd61d0d11e01f65988789f40a3401146d",
+    "src/content/rules/talents/favoured-weapon.md": "7c2910cae48cff985f21219083a02bb7039f6c37fc8e6398903b5fcbeee6a194",
+    "src/content/rules/talents/signature-weapon.md": "f5eac371f3305c1cb46ad9a4eba759774c88f877e072610a0c42b363905dbf90",
+    "src/content/rules/talents/mastery.md": "c7beb13fe54d017d9bad1508470d854d279d536123fa3d017f1cf506c9880f24",
+    "src/content/rules/talents/deadly-precision.md": "93b08a2fdd9007f50898bd1dc3cec5be83c72357fae5f173d3b54e742edc036a",
+    "src/content/rules/talents/battle-awareness.md": "b650096da397664eb898e3a888c44446417cf93b92e517fee4ebda299857b9c5",
+    "src/content/rules/talents/off-hand-mastery.md": "dc2942d84ef822460ea3af8ceb1b626b1c3dc0e3df28a8b37dd510d1b824bd6c",
+    "src/content/rules/talents/protector.md": "202039a0b179639b88f0d5ba0d33c81f34203d364ca6888531d7aec77295b6f4",
+    "src/content/rules/talents/defensive-stance.md": "cfb8fe1d605790c0cdf05f8bfbef7e9195448bf9980ae286845e4c783e12d84a",
+    "src/content/rules/talents/trip.md": "d8a0d241b728a79f4646c42a6723b5c34ee1ec2519f8c56372ec69343c4024cb",
+    "src/content/rules/talents/shield-rush.md": "9deb0f232cd9af00a9b3f9092f358bbe6d100e6c6997a1fd437a0836d83c59fe",
+    "src/content/rules/talents/iron-fist.md": "071daadcc065392a5680b967f121aedf541c4be296434be1f136e6743e888651",
+    "src/content/rules/talents/master-brawler.md": "1b93d2b96130b0a9a8242fca7c42c91c42d855932468b3be2a284b71cdcf60a2",
+    "src/content/rules/talents/wrestler.md": "19c4463de5312fcab5c8007b24fa6fcea0680f1ee8add53f165b9fc50800e1cc",
+    "src/content/rules/talents/subdue.md": "1c2cf3810c9f1dc7d92e555840f3e934c59225d5fb8e394d78294a85370a6430",
+    "src/content/rules/talents/steady-aim.md": "d04978d364619be98e37a39f019e26798edb7814a723e9d7fbb34ced359d958f",
+    "src/content/rules/talents/point-blank-shot.md": "cfd970fb25cdc081f0c3d6eadf05d05b6dbb3fe4bddca2419bc12f969d0b0c54",
+    "src/content/rules/talents/mighty-shot.md": "140648deb908a9243c4436e13382229596493aa897877af9d3a8e39cc52067e8",
+    "src/content/rules/talents/rapid-shot.md": "7a2f03be602dd220a142bf91c859b0f103f176dfaf40833e01511bac8eb673f3",
+    "src/content/rules/talents/silent-step.md": "363cc80aff8c6a11cbf400e14a8aee89df4164aefcefcf7e1d96068ab745d741",
+    "src/content/rules/talents/killing-angle.md": "9d71604579151f049d0a964104ca50dbc836334dca864699815d3b6405da3046",
+    "src/content/rules/talents/master-assassin.md": "17731e076614bfeb11535ee65f474f0a2439ec3d3c392f0de8e6baa7782c194a",
+    "src/content/rules/talents/ambusher.md": "a1b7d06a16410eedbca579c34651b05d8f754ec98b9839e66e38d237c2cd24ab",
+    "src/content/rules/talents/deception-expertise.md": "32072adfcafefe135578182500b7a05d700dc6b0e1d179cad751e21056f9dcd0",
+    "src/content/rules/talents/cutpurse.md": "ec016c408c57cd60aaebb6ad62b75bfe429db5921787164325bd446f09089383",
+    "src/content/rules/talents/lockbreaker.md": "b378bbc418929c6be2ecf1c6ada3cb41c3467e256be24496e096bdf6877de53c",
+    "src/content/rules/talents/close-quarters-knack.md": "5e7fab50a8eacaa7dc7101f9c8dd80324321d05cb6166db243df3706645fdd67",
+    "src/content/rules/talents/silver-tongue.md": "cfbb10e385d57a9a63410116ab0b92662ec89d131c8d0982b083b3488e3ab22f",
+    "src/content/rules/talents/commanding-presence.md": "74614d265ea12c8f3087f3e2d168cb3bd7e5fb6b89080a228dbdddb25d0921fb",
+    "src/content/rules/talents/rally.md": "500f78afb38546c67ead67064dfc38f9b4ddad4ea2146ba7b7ae22257942f804",
+    "src/content/rules/talents/merchants-eye.md": "6a226d400ded1572b23a60c7126a967600cf9d750ac6e704945caeb764edbd52",
+    "src/content/rules/talents/tactician.md": "f1ff328440fa54c140193b3762a988d3966d760910e058c8604320f39171f114",
+    "src/content/rules/talents/practised-hands.md": "d00268f68e81d2ad2f552a1599ecf13b2bfd162ff8c089a22004da0d3d0563b5",
+    "src/content/rules/talents/field-surgeon.md": "5fab6392bb56c7851b97d7fe5da301f7bfdff6e84ab0f572e644f2c546086934",
+    "src/content/rules/talents/physician.md": "a8408cfd1db8cd1d765910a8371674060a0f65de6bd2739c00694ef9d53c729d",
+    "src/content/rules/talents/master-craftsman.md": "8e17c21a1ce6ec48e8d8cb0d7bc0584adc8bb246bb1cb6bf7465a6d49d3d3c27",
+    "src/content/rules/talents/weak-point.md": "9402771a7c894e04b60848c8184bebe912f31e82f308f66117a779c91b41b89d",
+    "src/content/rules/talents/athletics-expertise.md": "50e32e54d8a7371140365abc395923e523197e306d3e8a0e63a20de812d33178",
+    "src/content/rules/talents/terrain-expertise.md": "6ac1759024ed4b61efc4c51f56e1f8193509eb87fdd48017a4a7c4ba7ecbee72",
+    "src/content/rules/talents/tracker.md": "869599cdd2876fd44de93b08e67df08b9e907478d4dbfaa9fef58f7f14a76a56",
+    "src/content/rules/talents/wayfinder.md": "438714efb3ee7a995fc0985827f8928fe9a3f9b9e7a644e98e4be31d7e953ddd",
+    "src/content/rules/talents/alchemist.md": "39d88b3117ad9cf8296888abf86338546d405856373245c57d7f0b4f858e2339",
+    "src/content/rules/talents/poisoner.md": "d7669e252471a039434c4811c93ecfae6181ed1de11844acdc9c8e74a90c410c",
+    "src/content/rules/talents/shaping.md": "d005805d095d9b0300755a610e1087762f8273feeb03b23c6885f43f98233b64",
+    "src/content/rules/magic/techniques-and-forms.md": "3f3c948869daed7d348a46cc8298b919afdfac849e94f1c54a9a9adb8390f036",
+    "src/content/rules/magic/building-a-shaping.md": "3082e819082b3025ee4ba540ff08bbcd2c731fae8075f2210158ab7df0ae42f1",
+    "src/content/rules/magic/effects.md": "708e5251261b2d70bd776445731e2a33cae3e071c65a5dba40d355d72c548968",
+    "src/content/rules/magic/rituals-and-examples.md": "e2b76847cf37436d3dc0a9f12407c02d3ce3dd7a67030b541f35ddcf614749e6",
+    "src/content/rules/magic/casting-and-defence.md": "d831fd3ff94918856b18b22abb499653ca5557f48e521af90aee7d01484b4385",
+    "src/content/rules/magic/ongoing-and-magical-actions.md": "77acc3506b42a09f9d8435c43f094ff02b615c3f522686b13dfdc5b94b9684a0",
+    "src/content/rules/talents/counter.md": "6a621ceea52cea5cd5ce8876f81fdf65e356b98b97f15bf5716d683c6d62f100",
+    "src/content/rules/talents/steady-casting.md": "1e22fbb7006e8977bcd5521a2bcf3de5c16ff3835c5b2098ec07f9f75014202a",
+    "src/content/rules/talents/shaping-expertise.md": "20f92de1a22af0cf1fcf8f90afa35b5e2b8ad978383fed1b026654c91a959bb6",
+    "src/content/rules/talents/selective.md": "7d81de840e7c4524199d13c3332811019023c194722d1dab66ef56ebe77c310d",
+    "src/content/rules/talents/indirect.md": "914833c360d514d6d8fb3d1956afed13ce2009470a3e76d2cb28197a82bd7387",
+    "src/content/rules/talents/veiled.md": "ec781aa95221b5009331d6440012152c2a22a0a86588f2afbb4515c1b8e95f25",
+    "src/content/rules/talents/confluence.md": "7bec1ca9cc22d321d2614a8f3060f93351db9f5926a929681a72708afd52ef54",
+    "src/content/rules/talents/trigger.md": "ac40ba06a97bb9cedc26ba6e9cf795d3ce27710710fb8ea2524f21965b460ca4",
+    "src/content/rules/gm-tools/enchanted-items.md": "3e3d04f0064ff6aafbe4865e382a353b44c5c4ff003f8266ed1be61b2902722a",
+    "src/content/rules/talents/enchanter.md": "a6534d32080bb57bae69218ba53967fd67860e67bc0331cde3d6fca9da2590d6"
+  },
+  "equipmentRows": {
+    "close": 24,
+    "ranged": 12,
+    "armour": 5
+  },
+  "talentCount": 56,
+  "generalSkillCount": 23
+}

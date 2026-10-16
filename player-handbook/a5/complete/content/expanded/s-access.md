@@ -25,7 +25,7 @@ Sense Magic and Dispel. Without this Talent, you cannot cast.
 
 ## Beginning play with magic
 
-Reserve and pay **20 IP before allocating skills**; you may then put up to
+Reserve and pay **20 IP before allocating skills**; you can then put up to
 30 Knowledge points into Shaping. The full-price trade example is on {{ref:skill-points}}.
 With INT 14 and POW 13, base 27% plus 30 points gives **Shaping 57%**.
 

@@ -37,7 +37,7 @@ Action, roll, PP payment and Tell.
 Each outcome keeps its own delivery, targets, defence and protection. Same-defence
 outcomes against one subject share a defence roll; different defences/subjects
 do not. Counter stops the whole Shaping; Dispel ends the whole ongoing Shaping.
-One outcome may depend on another succeeding, but never earns a discount/refund.
+One outcome can depend on another succeeding, but never earns a discount/refund.
 
 ## Editorial notes
 

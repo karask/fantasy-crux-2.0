@@ -1,11 +1,11 @@
 # Shaping reference cards
 
 Three A4 player reference pages, matching the approved core reference cards.
-Version v04 is the current set, with independently editable Markdown for each card.
+Version v05 is the current set, with independently editable Markdown for each card.
 
 ## Open and print
 
-[Shaping reference cards v04](output/pdf/fantasy-crux-shaping-reference-cards-v04.pdf)
+[Shaping reference cards v05](output/pdf/fantasy-crux-shaping-reference-cards-v05.pdf)
 
 Print at **100% / actual size on A4**, as three separate cards. For duplex,
 use long-edge binding: cards 1 and 2 share a sheet; card 3 has a blank reverse.
@@ -22,11 +22,14 @@ The footer has only SHAPING and one card number. Browser print labels are disabl
    recovery, Active Magnitude with an INT 10 example, concentration, a concrete
    escape example, Sense Magic, Dispel and summon standing orders.
 
-Version v04 follows the October 2026 rule changes: Ward classes of harm, the
-3-metre limit on moving an unwilling controlled subject, one healing Shaping per
-subject before its next full rest, and summon standing orders. It retains v03's
-teaching order, examples and retry timing. Earlier versioned PDFs and HTML/check
-records are superseded snapshots for comparison.
+Version v05 follows the plain-English rules of October 2026: it uses the term
+shield Active Guard throughout, rounds a half block up, and opposes Dispel with a
+fresh Shaping roll for the original caster. v04 added the October rule changes:
+Ward classes of harm, the 3-metre limit on moving an unwilling controlled
+subject, one healing Shaping per subject before its next full rest, and summon
+standing orders. Both keep v03's teaching order, examples and retry timing.
+Earlier versioned PDFs and HTML/check records are superseded snapshots for
+comparison.
 
 The initial two-page draft overflowed at the core cards' approved type sizes.
 Three pages retain **10 pt body text / 9.5 pt tables** and separate the build,
@@ -48,16 +51,16 @@ on their character or effect sheet. Backlash is a short risk reminder; the GM
 resolves its table. The full Shaping chapter remains authoritative.
 
 The website [Downloads section](https://fantasycrux.org/downloads/) offers this
-approved set alongside the core cards. `src/_data/downloads.mjs` selects v04 and
+approved set alongside the core cards. `src/_data/downloads.mjs` selects v05 and
 publishes it at the stable URL
 [Shaping Reference Cards PDF](https://fantasycrux.org/downloads/fantasy-crux-shaping-reference-cards.pdf).
 
 ## Rebuild
 
 ```sh
-node player-handbook/shaping-reference-cards/render.mjs v04
-python3 -B player-handbook/shaping-reference-cards/verify.py v04
-pdftoppm -r 144 -png player-handbook/shaping-reference-cards/output/pdf/fantasy-crux-shaping-reference-cards-v04.pdf player-handbook/shaping-reference-cards/tmp/pdfs/shaping-v04
+node player-handbook/shaping-reference-cards/render.mjs v05
+python3 -B player-handbook/shaping-reference-cards/verify.py v05
+pdftoppm -r 144 -png player-handbook/shaping-reference-cards/output/pdf/fantasy-crux-shaping-reference-cards-v05.pdf player-handbook/shaping-reference-cards/tmp/pdfs/shaping-v05
 ```
 
 Use the bundled Python runtime if system Python lacks pypdf or pdfplumber.

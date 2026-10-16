@@ -2,47 +2,47 @@
 title: Attack, Dodge & Parry
 modules: [7]
 layout: defence
-diagram: parry
 ---
 
 # Attack, Dodge & Parry
 
-**Attack first; an aware defender may React after a hit.** Not an opposed test.
+**Attack first. If it hits, an aware defender can spend one Reaction to defend before damage.**
 
-## 1. Make the attack
+## 1. Attack, then defend
 
-Roll **Close Combat**, **Unarmed Combat** or **Ranged Combat**. Success hits;
-failure misses. Check Criticals and Fumbles normally (page 3).
+Roll **Close Combat**, **Unarmed Combat** or **Ranged Combat**; roll at or under the
+skill to hit. The defender opposes that original roll: grade first, then the higher
+successful roll, base skill, then the defender. A failed defence changes nothing.
+**One Reaction per attack**; an unaware defender cannot React.
 
-## 2. Choose a defence
+- **Dodge:** win and the attack misses. Ranged gives **-1P**. Once per round, base
+  Reaction only.
+- **Parry:** Close Combat with a ready weapon or shield, or Unarmed Combat against
+  unarmed. Ranged needs Active Guard ({{ref:cover-defence}}).
 
-Oppose defence against the original attack: grade, higher successful roll,
-higher base skill, then defender on an exact tie. Criticals use page 8.
+## Which defence works?
 
-**Melee or unarmed:** Dodge normally, or Parry with a ready weapon or shield.
+| Attack             | Dodge | Weapon | Shield | Armour |
+| ------------------ | ----- | ------ | ------ | ------ |
+| Melee or unarmed   | Yes   | Yes    | Yes    | Yes    |
+| Thrown             | -1P   | AG -1P | AG     | Yes    |
+| Arrow, bolt, stone | -1P   | No     | AG -1P | Yes    |
+| Shaping at you     | -1P   | No     | AG -1P | Yes    |
+| Shaping area       | -1P   | No     | No     | Yes    |
+| Direct Shaping     | No    | No     | No     | Wards  |
 
-**Ranged:** Dodge at **-1P**. A ranged Parry uses Active Guard (page 13), with
-different choices for thrown weapons and projectiles.
+AG: Active Guard. Resist Direct Shaping with Resilience or Persistence.
 
-A winning opposed Dodge avoids the hit. You must perceive it and be able
-to move. Dodge only **once per round, using your base Reaction**. Parry uses
-Close Combat, or Unarmed Combat against an unarmed attack.
+## 2. Parry Size
 
-A failed Reaction changes nothing. **One Reaction per attack or trigger.** An
-unaware defender cannot React. Critical attacks use page 8.
-
-## 3. Compare Parry Size
-
-Sizes ascend: **Light, Medium, Heavy, Huge**. A winning ordinary Parry
-of the same/larger Size blocks **all**; one smaller blocks **half**; two or more
-smaller blocks **none**. Then apply armour. Unarmed attacks are Light.
-
-A **winning Critical Parry blocks all damage regardless of Size**.
+**Light, Medium, Heavy, Huge.** A winning Parry of the same or larger Size blocks
+**all**; one smaller, **half**, rounded up; two smaller, **none**. A winning Critical
+Parry blocks all. Then apply armour. Criticals: {{ref:damage}}.
 
 ## Opportunity Attack
 
-When an adjacent enemy disengages or creates a clear opening, spend an eligible
-Reaction on one Close Combat attack. It grants no extra off-hand attack.
+When an adjacent enemy disengages or gives a clear opening, spend an eligible
+Reaction on one Close Combat attack. It gives no extra off-hand attack.
 
 ## Editorial notes
 

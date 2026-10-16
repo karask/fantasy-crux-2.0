@@ -29,7 +29,7 @@ The item's observable event was fixed when made.
 
 ## One hit can be the event
 
-A successful weapon hit on the **already chosen target** may trigger magic.
+A successful weapon hit on the **already chosen target** can trigger magic.
 Resolve the weapon, then the separate Shaping with its normal defence/protection.
 It inherits no DM or weapon-Critical benefits. A miss leaves the Trigger waiting.
 

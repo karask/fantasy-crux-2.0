@@ -20,7 +20,7 @@ current PP at least its full M. Oppose Shaping against the **original result**;
 you must succeed and win to stop it.
 
 Pay **full M either way**; a Fumble also causes Backlash at that M. Only one
-Counter may answer a Shaping, and Counter cannot be Countered.
+Counter can answer a Shaping, and Counter cannot be Countered.
 
 **Counter replaces your own defence.** If it fails to stop the Shaping, you
 cannot then Dodge, guard, or roll Resilience/Persistence against it. Another

@@ -26,7 +26,7 @@ Iron Fist's values. A Medium Parry now blocks only half an ordinary hit.
 While already grappling, spend a Combat Action and win opposed **Unarmed Combat**.
 Choose: deal normal unarmed damage (armour applies); drop one held item at the
 target's feet; or throw it to an adjacent space, **prone**, ending the grapple.
-Impossible Size or anatomy may prevent an outcome.
+Impossible Size or anatomy can prevent an outcome.
 
 ## Subdue
 

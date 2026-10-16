@@ -1,9 +1,10 @@
 ---
 title: Keep Magic Active
 layout: guide
-diagram: active
 sources:
   - src/content/rules/magic/ongoing-and-magical-actions.md
+diagram: print-active-magnitude
+diagram_alt: 'With INT 13, a Magnitude 4 Ward, flight, and summon total 12 and fit. Another ongoing Magnitude 3 would make 15, so dismiss one first.'
 ---
 
 # Keep Magic Active
@@ -32,9 +33,9 @@ with its original result. Practice and Tell still apply.
 ## Dispel: no cell needed
 
 Combat Action; **M = target's full M + Range**, Reach 0 for one Shaping even if
-it covers an area. Cast/pay normally. You must succeed and win against the
-original caster's **current unmodified Shaping**, not its stored casting roll.
-If unknown, use 10 × original M, capped 100%.
+it covers an area. Cast/pay normally. Then you must win an opposed test against a
+fresh **Shaping check rolled for the original caster**, using their current unmodified
+skill, not the stored casting roll. If unknown, use 10 × original M, capped 100%.
 
 Active anchored enchantments can be Dispelled. Completed permanent transformations
 cannot: reversing them needs a new appropriate Shaping.

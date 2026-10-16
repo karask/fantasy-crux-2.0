@@ -8,17 +8,18 @@ column_break: Your other hand
 
 ## Attack and defend
 
-Test **Close, Unarmed or Ranged Combat**. After a hit, an aware defender may
+Test **Close, Unarmed or Ranged Combat**. After a hit, an aware defender can
 spend **one Reaction**. Oppose defence against the original attack (card 1).
 
-| Incoming hit             | Ordinary defence                                             |
-| ------------------------ | ------------------------------------------------------------ |
-| **Melee / unarmed**      | Dodge normally, or Parry with an eligible ready item.        |
-| **Thrown weapon**        | Dodge -1P; guard with a ready weapon -1P or shield normally. |
-| **Arrow / bolt / sling** | Dodge -1P; guard with a ready shield -1P.                    |
+| Incoming hit             | Ordinary defence                                                       |
+| ------------------------ | ---------------------------------------------------------------------- |
+| **Melee / unarmed**      | Dodge normally, or Parry with an eligible ready item.                  |
+| **Thrown weapon**        | Dodge -1P; Active Guard with a ready weapon -1P, or a shield normally. |
+| **Arrow / bolt / sling** | Dodge -1P; Active Guard with a ready shield -1P.                       |
 
 **Dodge:** base Reaction only, once per round; a winning Dodge avoids the hit.
-**Parry/guard:** Close Combat, or Unarmed Combat against an unarmed attack.
+**Parry:** Close Combat, or Unarmed Combat against an unarmed attack. **Active
+Guard** is a Parry against a ranged attack.
 
 **Opportunity Attack:** spend an eligible Reaction on one Close Combat attack
 when an adjacent enemy disengages or creates a clear opening.
@@ -35,7 +36,7 @@ Sizes: **Light, Medium, Heavy, Huge**. Unarmed attacks and arrows, bolts and
 sling projectiles are Light; thrown weapons keep their listed Size.
 
 Order: **roll damage -> apply Parry -> subtract AP -> lose remaining HP**.
-Minimum damage and HP: 0. Round halves up.
+Minimum 0; halves round up.
 
 Add **DM** to melee, unarmed and thrown damage. Bows, crossbows and slings use
 their listed damage.
@@ -59,7 +60,8 @@ hand counts; a two-handed item does not qualify.
 - **Extra attack:** immediately after a standard Close Combat or Unarmed Combat
   attack, attack with the other item at **-1P**, at no Action or Reaction cost.
 - **Extra defence:** reserve the other item for one extra Parry or Opportunity
-  Attack at **-1P**. This extra Reaction **cannot Dodge**.
+  Attack at **-1P**. The Parry can be an Active Guard; both penalties apply.
+  This extra Reaction **cannot Dodge**.
 
 Using either locks out the other. Your base Reaction remains. Charge, Set
 Weapon and Opportunity Attacks do not trigger an extra off-hand attack.

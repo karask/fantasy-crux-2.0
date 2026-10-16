@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import { existsSync } from 'node:fs';
 import { readFile, readdir, writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -8,7 +9,6 @@ import AxeBuilder from '@axe-core/playwright';
 import matter from 'gray-matter';
 import MarkdownIt from 'markdown-it';
 import { format } from 'prettier';
-import { diagrams } from './diagrams.mjs';
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const a5 = path.dirname(directory);
@@ -72,6 +72,29 @@ const artMap = {
   'enchanted-sword-identification': [null, 'An adventurer examines the signs of magic on a sword.'],
 };
 const assetRecords = [];
+// Diagrams are generated SVG from scripts/diagrams/: print variants first, then the website set.
+const diagramFolders = [path.join(directory, 'diagrams'), path.join(root, 'src/assets/diagrams')];
+async function diagramFigure(data) {
+  if (!data.diagram) return '';
+  assert.ok(data.diagram_alt, `${data.title}: a diagram needs diagram_alt that states its rule`);
+  const folder = diagramFolders.find((candidate) =>
+    existsSync(path.join(candidate, `${data.diagram}.svg`)),
+  );
+  assert.ok(folder, `Unknown diagram ${data.diagram}`);
+  const filename = path.join(folder, `${data.diagram}.svg`);
+  const bytes = await readFile(filename);
+  assetRecords.push({
+    key: `diagram:${data.diagram}`,
+    path: path.relative(root, filename),
+    sha256: createHash('sha256').update(bytes).digest('hex'),
+  });
+  const width = data.diagram_width ? ` style="--diagram-width:${data.diagram_width}mm"` : '';
+  const svg = bytes
+    .toString('utf8')
+    .trim()
+    .replace('<svg ', `<svg role="img" aria-label="${esc(data.diagram_alt)}" `);
+  return `<figure class="diagram svg-diagram"${width}>${svg}</figure>`;
+}
 const assets = {};
 for (const [key, [relative, alt]] of Object.entries(artMap)) {
   const filename = relative
@@ -257,7 +280,8 @@ for (const entry of files) {
     : '';
   const identity = `<header class="identity"><span>FANTASY CRUX <small>2.0</small></span><span class="section">${section}</span></header>`;
   const footer = `<footer><span>PLAYER HANDBOOK / 2.0 BETA</span><span>PAGE ${folio}</span></footer>`;
-  let inside = `${identity}<h1>${esc(data.title)}</h1><div class="lead player-text">${md.render(lead)}</div>${art}${diagrams[data.diagram] ?? ''}${formatTables(md.render(rest.join('\n\n')), data.table)}<div class="rules">${body}</div>`;
+  const figure = await diagramFigure(data);
+  let inside = `${identity}<h1>${esc(data.title)}</h1><div class="lead player-text">${md.render(lead)}</div>${art}${figure}${formatTables(md.render(rest.join('\n\n')), data.table)}<div class="rules">${body}</div>`;
   if (data.layout === 'cover')
     inside = `${identity}<h1>Player Handbook</h1><div class="cover-subtitle">Core Rules</div><div class="cover-edition">CREATE · PLAY · IMPROVE / 2.0 BETA</div><img class="cover-art" src="${asset.src}" alt="${esc(asset.alt)}"><div class="cover-copy player-text"><h2>From your first idea to your next adventure</h2><p>Create a character. Learn the dice and combat. Choose Talents, shape magic and grow through play.</p></div>`;
   sections.push(
@@ -298,8 +322,11 @@ const armourTables = tables(
   await readFile(path.join(root, 'src/content/rules/equipment/armour.md'), 'utf8'),
 );
 const sorted = (rows) => [...rows].sort((a, b) => a[0].localeCompare(b[0]));
-assert.deepEqual(sorted(tableRecords.close), sorted(weaponTables[1].slice(1)));
-assert.deepEqual(sorted(tableRecords.ranged), sorted(weaponTables[2].slice(1)));
+// Find the weapon tables by their headers, not their position in the chapter.
+const closeWeapons = weaponTables.find((t) => t[0][0] === 'Weapon' && !t[0].includes('Range'));
+const rangedWeapons = weaponTables.find((t) => t[0][0] === 'Weapon' && t[0].includes('Range'));
+assert.deepEqual(sorted(tableRecords.close), sorted(closeWeapons.slice(1)));
+assert.deepEqual(sorted(tableRecords.ranged), sorted(rangedWeapons.slice(1)));
 assert.deepEqual(tableRecords.armour, armourTables[0].slice(1));
 const skillText = (
   await Promise.all(['skills-a', 'skills-b'].map((id) => readFile(byId[id].file, 'utf8')))
@@ -308,7 +335,8 @@ const skillNames = (text) => [...text.matchAll(/^- \*\*([^*]+):\*\*/gm)].map((ma
 const generalSkills = skillNames(
   await readFile(path.join(handbook, 'pages/05-skills-at-a-glance.md'), 'utf8'),
 );
-assert.equal(generalSkills.length, 24);
+// Engineering merged into Mechanisms (ADR-029), leaving 23 general skills.
+assert.equal(generalSkills.length, 23);
 for (const skill of generalSkills)
   assert.ok(skillText.includes(`| ${skill}`), `Missing general skill: ${skill}`);
 assert.ok(/\|\s*Shaping\s*\|\s*INT \+ POW\s*\|/.test(skillText));
@@ -352,7 +380,7 @@ try {
       const content = sheet.querySelector('.page-content').getBoundingClientRect();
       const texts = [
         ...sheet.querySelectorAll(
-          'h1,h2,p,li,td,th,figcaption,.diagram-card span,.diagram-card strong,.die span,.die b,.aim-label,.cover-subtitle,.cover-edition,footer span',
+          'h1,h2,p,li,td,th,figcaption,.aim-label,.cover-subtitle,.cover-edition,footer span',
         ),
       ];
       const edge = sheet.classList.contains('odd') ? 'left' : 'right';
@@ -372,6 +400,17 @@ try {
       ];
       const minimum = (items) =>
         Math.min(...items.map((el) => parseFloat(getComputedStyle(el).fontSize) * 0.75));
+      // Diagram text prints at its SVG font size times the figure's scale. Uppercase condensed
+      // labels may be smaller than the mixed-case text that carries the content.
+      const diagramText = [...sheet.querySelectorAll('.svg-diagram text')].map((el) => {
+        const svg = el.ownerSVGElement;
+        const scale = svg.getBoundingClientRect().width / svg.viewBox.baseVal.width;
+        return {
+          pt: parseFloat(el.getAttribute('font-size')) * scale * 0.75,
+          label: el.getAttribute('font-family').includes('Barlow'),
+        };
+      });
+      const smallest = (items) => (items.length ? Math.min(...items.map((item) => item.pt)) : null);
       const safe = [
         ...sheet.querySelectorAll(
           '.identity,h1,.lead,.scene,.diagram,table,.rules,footer,.cover-art,.cover-copy,.cover-subtitle,.cover-edition',
@@ -393,6 +432,8 @@ try {
         minTablePt: sheet.querySelector('td')
           ? minimum([...sheet.querySelectorAll('td,th')])
           : null,
+        minDiagramPt: smallest(diagramText.filter((item) => !item.label)),
+        minDiagramLabelPt: smallest(diagramText.filter((item) => item.label)),
         problems,
         fragments: texts.map((el) => el.textContent.trim().replace(/\s+/g, ' ')),
       };
@@ -439,7 +480,9 @@ try {
       x.footerGapMm < 2 ||
       x.bindingClearanceMm < 14.95 ||
       x.minBodyPt < 10.99 ||
-      (x.minTablePt !== null && x.minTablePt < 9.99),
+      (x.minTablePt !== null && x.minTablePt < 9.99) ||
+      (x.minDiagramPt !== null && x.minDiagramPt < 9.99) ||
+      (x.minDiagramLabelPt !== null && x.minDiagramLabelPt < 8.99),
   );
   assert.deepEqual(
     errors.map(({ fragments, ...metrics }) => metrics),

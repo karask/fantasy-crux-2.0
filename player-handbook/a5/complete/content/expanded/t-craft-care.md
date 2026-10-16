@@ -12,7 +12,7 @@ Use normal treatment and tool rules unless the Talent explicitly changes them.
 
 ## Practised Hands
 
-After-encounter treatment restores **1D4 + 2 HP**. If it fails, you may try once
+After-encounter treatment restores **1D4 + 2 HP**. If it fails, you can try once
 more on that patient before their next full rest. Never more than one success
 per patient; this does not replace Surgery for a Major Wound.
 
@@ -25,7 +25,7 @@ Surgery ends **Wounded immediately**, without waiting for HP to exceed MWL.
 ## Physician
 
 Your successful Healing gives **+2B instead of +1B** against poison or disease.
-A patient you treated may also make **one extra resistance test** against a
+A patient you treated can also make **one extra resistance test** against a
 poison that beat them; ordinary poison gives no retry.
 
 ## Master Craftsman

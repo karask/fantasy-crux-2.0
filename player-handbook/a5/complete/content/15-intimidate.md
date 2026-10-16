@@ -15,9 +15,11 @@ Success changes the situation; it does not give control of another person's mind
 
 ## Intimidate: Combat Action
 
-State your demand to one enemy or a group. Oppose **Influence against Persistence**.
-The GM applies modifiers and describes whether an enemy yields or flees.
-Intimidation is pressure, not mind control.
+State your demand to one enemy or a group. Oppose **Influence against Persistence**;
+the enemy's condition modifies its roll. If you win, the GM judges how it gives way:
+wounded enemies may flee or surrender, while healthy ones rarely just flee and more
+often hesitate and lose a turn. A strong enemy surrenders only to a Critical against
+a failed Persistence; a fumbled Persistence breaks it.
 
 ## Persuade or bargain
 

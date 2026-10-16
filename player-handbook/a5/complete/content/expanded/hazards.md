@@ -33,6 +33,7 @@ each later round's end until breathable air, with **no more breath tests**.
 | Bonfire, steam, burning room / inferno | 2D6 / 3D6 in direct exposure.              |
 
 Metal armour does not reduce fire/heat; other protection must plausibly insulate.
+Shaped fire deals its damage once, when cast; only fire it lights in mundane fuel burns on.
 Back in breathable air, test Resilience; failure means retching/gasping for **1D4 rounds**.
 
 ## Poison and disease

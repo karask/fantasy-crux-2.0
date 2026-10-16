@@ -20,7 +20,7 @@ quarters Movement, while invisibility does not darken the surroundings.
 **Conjure·Mind:** perceive something absent. **Alter·Mind:** change/omit what is
 present. Reach counts **each affected mind**; each resists Persistence. Later
 observers, devices and Mindless beings perceive normally. Illusions never harm.
-A fooled witness may spend an Action to oppose Perception with stored Shaping;
+A fooled witness can spend an Action to oppose Perception with stored Shaping;
 winning identifies falsehood, not hidden matter. Failure needs new evidence.
 Fixed illusions need no maintenance; directing behaviour costs the caster's Action.
 

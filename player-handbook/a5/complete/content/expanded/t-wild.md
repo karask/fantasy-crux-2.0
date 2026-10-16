@@ -21,13 +21,13 @@ only for different applications, never twice for the same one.
 
 Choose a terrain, such as **forest, mountain, desert, swamp, steppe or coast**.
 Remove one remaining Penalty from Natural Lore in or about that terrain. You
-may buy it again for different terrains. It may combine with Tracker.
+can buy it again for different terrains. It can combine with Tracker.
 
 ## Tracker
 
 Remove one remaining Penalty from Natural Lore to **find or follow a trail**.
 No benefit to other Natural Lore uses. With applicable Terrain Expertise,
-the two Talents may remove two remaining Penalties, never produce a Bonus.
+the two Talents can remove two remaining Penalties, never produce a Bonus.
 
 ## Wayfinder
 

@@ -36,7 +36,7 @@ attacking at **-1P**.
 
 ## Shooting into a crowd
 
-Apply cover normally. An ordinary failure misses. Only a **Fumble** may hit a
+Apply cover normally. An ordinary failure misses. Only a **Fumble** can hit a
 fairly or randomly selected nearby target: normal rolled damage, then armour.
 
 ## Worked shot

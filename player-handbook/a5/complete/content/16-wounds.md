@@ -4,7 +4,8 @@ modules: [9, 10]
 layout: wounds
 art: field-surgeon-under-fire
 caption: 'HELPER: WHOLE ROUND + HEALING TEST'
-diagram: wounds
+diagram: print-dying-countdown
+diagram_alt: 'At 0 HP you are unconscious and Dying. Stabilise before the end of round 3, or you die.'
 ---
 
 # Wounds & Saving a Life

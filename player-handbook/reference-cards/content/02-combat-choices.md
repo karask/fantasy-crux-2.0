@@ -25,36 +25,36 @@ actions do not carry over.
 
 An option cannot conflict with Actions or Reactions you already used this round.
 
-**Delay:** take your Combat Action after a chosen participant later this round.
-To interrupt an action already beginning, oppose the relevant skills; winner
-acts first.
+**Delay:** act after a chosen participant later this round. To interrupt an
+action already starting, oppose the relevant skills; the winner acts first.
 
 ## Movement choices
 
-| Choice        | Cost and effect                                                                           |
-| ------------- | ----------------------------------------------------------------------------------------- |
-| **Disengage** | Movement Action: move normally; an adjacent enemy may make an Opportunity Attack.         |
-| **Withdraw**  | Both Actions; move normally without those Opportunity Attacks. Keep your base Reaction.   |
-| **Sprint**    | Both Actions; move up to twice Movement; keep only base Dodge.                            |
-| **Charge**    | Both Actions + all Reactions; move 5 m to twice Movement straight, attack, +1D6 on a hit. |
+| Choice        | Cost and effect                                                                                                   |
+| ------------- | ----------------------------------------------------------------------------------------------------------------- |
+| **Disengage** | Movement Action: move normally; an adjacent enemy can make an Opportunity Attack.                                 |
+| **Withdraw**  | Both Actions; move normally without those Opportunity Attacks. Keep your base Reaction and any off-hand Reaction. |
+| **Sprint**    | Both Actions; move up to twice Movement; keep only base Dodge.                                                    |
+| **Charge**    | Both Actions + all Reactions; move 5 m to twice Movement straight, attack, +1D6 on a hit.                         |
 
 **Set Weapon:** Combat Action; brace a ready **Set-tagged weapon**. A Charge
-into reach before your next turn triggers one attack at **+1B, before the
-Charge**, with no further cost. Works once; any Action or Reaction unsets it.
+into reach before your next turn triggers one free attack at **+1B, before the
+Charge**. Works once; any Action or Reaction unsets it.
 
 ## Intimidate
 
-Combat Action: state a demand and oppose **Influence vs Persistence**.
-The GM decides the response; success creates pressure, not mind control.
+Combat Action: oppose **Influence vs Persistence**. If you win, the GM decides
+how the enemy gives way: the wounded might flee or surrender; the healthy more
+often hesitate and lose a turn.
 
 ## Position yourself
 
-| Close-combat situation                        | Effect                        |
-| --------------------------------------------- | ----------------------------- |
-| Target prone, flanked or attacked from behind | **Attack +1B**                |
-| You have higher ground                        | **Attack or defence +1B**     |
-| You are prone or on unstable ground           | **Affected test -1P**         |
-| Target helpless                               | **Automatic Critical attack** |
+| Close-combat situation                        | Effect                         |
+| --------------------------------------------- | ------------------------------ |
+| Target prone, flanked or attacked from behind | **Attack +1B**                 |
+| You have higher ground                        | **Your attack or defence +1B** |
+| You are prone or on unstable ground           | **Affected test -1P**          |
+| Target helpless                               | **Automatic Critical attack**  |
 
 An unaware defender cannot React. Being behind someone does not automatically
 make you unnoticed. Combine different causes, then cancel and cap +B/-P.
@@ -84,11 +84,11 @@ Stow one and draw another, or ready two items: the whole Movement Action.
 ## Grapple
 
 Combat Action, adjacent target, free hand: **Unarmed Combat**. An aware target
-may spend **one eligible Reaction** to oppose with **Dodge or Parry** (card 3).
+can spend **one eligible Reaction** to oppose with **Dodge or Parry** (card 3).
 **Win to hold; if undefended, succeed unopposed.**
 
 Both lose Movement Actions and take **-1P on every test**. Attack/Parry only
 unarmed or with a ready **Light one-handed weapon**.
 
 **Escape:** Combat Action; win opposed Unarmed Combat (holder's roll costs no
-Reaction). Holder may release freely on their turn.
+Reaction). Holder can release freely on their turn.

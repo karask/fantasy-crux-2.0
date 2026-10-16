@@ -29,8 +29,8 @@ Creation, restoration and increases must fit capacity. Only a **permanently ende
 effect** frees capacity: Dispel, destroyed anchor or spent charge. Reusable
 activation and temporary suppression free none.
 
-If permanent POW loss leaves you over capacity, items persist. You cannot create,
-restore or increase enchantments until the total fits again.
+If permanent POW loss leaves you over capacity, items persist, but you can create,
+restore or increase none until the total fits again.
 
 ## Example: count uses, not objects
 
@@ -40,12 +40,12 @@ Using one M3 charge frees 3 capacity; using the Activated item frees none.
 
 ## Without Enchanter
 
-Duration 4 **and** Duration 5 enchantments instead commit the maker's full M
-from maximum PP and count against active M. The Mythic price is additional,
-not a replacement for either commitment. Item users still pay their own listed costs.
+Duration 4 **and** 5 enchantments commit the maker's full M from maximum PP and
+active M; a Mythic price is extra.
 
-Temporary conjured matter vanishes with Duration; it cannot supply permanent
-crafting material, value or ritual prices.
+**One-use items** (potions, scrolls) skip Duration 4: price the effect with its own
+Duration, plus 1 for binding; a **1D4 healing potion is M2**. Pay its PP when binding;
+until used it commits like any enchantment, or uses capacity with Enchanter.
 
 ## Editorial notes
 
