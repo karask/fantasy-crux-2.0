@@ -23,6 +23,8 @@ the print PDF are in `a5/complete/`.
 - [Approved three-page A4 player reference](reference-cards/output/pdf/fantasy-crux-player-reference-cards-v06.pdf)
 - [Approved three-page A4 Shaping reference](shaping-reference-cards/README.md)
 - [Final page/content map](a5/complete/CONTENT-MAP.md)
+- [Fantasy Crux Lite](lite/README.md): a compatible 12-page A4 summary of the
+  whole game for conventions and quick play; a draft for review, not published
 
 The 15 mm mirrored binding allowance and 11-point rules text remain. Check the
 allowance against the actual punch before binding. The full edition is ready

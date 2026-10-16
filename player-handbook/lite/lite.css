@@ -1,0 +1,334 @@
+/* Lite pages reuse the approved reference-card stylesheet, loaded first. These rules add the
+   cover, full-width sections, page numbers, licence typesetting and table widths. */
+.card {
+  padding-bottom: 14mm;
+}
+.identity .side {
+  text-transform: uppercase;
+}
+.rules + .rules {
+  margin-top: 2.5mm;
+}
+.rule-wide {
+  grid-column: 1 / -1;
+}
+.rules-wide {
+  display: block;
+}
+.rules-wide + .rules,
+.rules + .rules-wide {
+  margin-top: 2.5mm;
+}
+.rule h3 {
+  margin: 1.4mm 0 0.6mm;
+  font:
+    700 11.5pt/1 'Barlow Condensed',
+    sans-serif;
+  text-transform: uppercase;
+}
+.rule blockquote {
+  margin: 1.2mm 0 0;
+  padding: 1.2mm 2mm;
+  border-left: 0.8mm solid var(--oxide);
+  background: var(--panel);
+}
+.rule blockquote p {
+  margin: 0;
+}
+td strong {
+  font-weight: 700;
+}
+td:empty {
+  padding: 0;
+}
+
+/* Cover */
+.cover h1 {
+  margin-top: 3mm;
+  font-size: 52pt;
+  letter-spacing: -0.01em;
+}
+.cover .subtitle {
+  font-size: 14pt;
+  margin-bottom: 3mm;
+}
+.cover-art {
+  display: block;
+  margin: 0 0 3mm;
+  border-top: 0.8mm solid var(--oxide);
+}
+.cover-art img {
+  display: block;
+  width: 100%;
+  height: 112mm;
+  object-fit: cover;
+  object-position: center 40%;
+}
+
+/* Section accents */
+.what-is-lite,
+.make-a-test,
+.add-dice-for-what-matters,
+.the-round,
+.becoming-a-shaper,
+.cast,
+.when-to-roll {
+  border-color: var(--oxide);
+}
+.hero-points,
+.two-examples,
+.rules-of-thumb,
+.hero-points-save-lives,
+.starting-gear {
+  background: var(--panel);
+  border-color: var(--oxide);
+}
+
+/* Table widths */
+.result-grades th:first-child,
+.result-grades td:first-child {
+  width: 40%;
+}
+.your-condition th:first-child,
+.your-condition td:first-child,
+.close-combat th:first-child,
+.close-combat td:first-child,
+.skills-and-tasks th:first-child,
+.skills-and-tasks td:first-child {
+  width: 62%;
+}
+.ranged-attacks th:first-child,
+.ranged-attacks td:first-child {
+  width: 70%;
+}
+.light th:first-child,
+.light td:first-child {
+  width: 52%;
+}
+.ancestry-and-characteristics th,
+.ancestry-and-characteristics td,
+.ancestry-maxima th,
+.ancestry-maxima td {
+  width: 10.5%;
+  text-align: right;
+  padding-left: 0.6mm;
+  padding-right: 0.6mm;
+}
+.ancestry-and-characteristics th:first-child,
+.ancestry-and-characteristics td:first-child,
+.ancestry-maxima th:first-child,
+.ancestry-maxima td:first-child {
+  width: 26.5%;
+  text-align: left;
+}
+.attributes th:first-child,
+.attributes td:first-child {
+  width: 46%;
+}
+.skills th:first-child,
+.skills td:first-child {
+  width: 35%;
+}
+.skills th:nth-child(2),
+.skills td:nth-child(2) {
+  width: 23%;
+}
+.skills td,
+.skills th {
+  padding-top: 0.55mm;
+  padding-bottom: 0.55mm;
+}
+.growth th:first-child,
+.growth td:first-child {
+  width: 80%;
+}
+.growth td:last-child,
+.growth th:last-child {
+  text-align: right;
+}
+.moving-in-a-fight th:first-child,
+.moving-in-a-fight td:first-child {
+  width: 25%;
+}
+.parry-size th:first-child,
+.parry-size td:first-child {
+  width: 62%;
+}
+.close-weapons th:first-child,
+.close-weapons td:first-child {
+  width: 33%;
+}
+.close-weapons th:nth-child(4),
+.close-weapons td:nth-child(4) {
+  width: 17%;
+}
+.ranged-weapons th:first-child,
+.ranged-weapons td:first-child {
+  width: 30%;
+}
+.armour th:first-child,
+.armour td:first-child,
+.objects th:first-child,
+.objects td:first-child {
+  width: 46%;
+}
+.useful-gear th:first-child,
+.useful-gear td:first-child {
+  width: 78%;
+}
+.travel th:first-child,
+.travel td:first-child {
+  width: 30%;
+}
+.travel th:nth-child(2),
+.travel td:nth-child(2) {
+  width: 18%;
+}
+.fatigue th:first-child,
+.fatigue td:first-child {
+  width: 26%;
+}
+.hazards th:first-child,
+.hazards td:first-child {
+  width: 27%;
+}
+.cells th:first-child,
+.cells td:first-child {
+  width: 31%;
+}
+.build-an-effect th:first-child,
+.build-an-effect td:first-child {
+  width: 12%;
+}
+.your-limits th,
+.your-limits td {
+  width: 33%;
+}
+.common-outcomes th:first-child,
+.common-outcomes td:first-child {
+  width: 21%;
+}
+.cast th:first-child,
+.cast td:first-child,
+.defending-against-magic th:first-child,
+.defending-against-magic td:first-child {
+  width: 55%;
+}
+.quick-npcs th:first-child,
+.quick-npcs td:first-child {
+  width: 18%;
+}
+.bestiary th,
+.bestiary td {
+  font-size: 9.5pt;
+}
+.bestiary th:first-child,
+.bestiary td:first-child {
+  width: 12%;
+}
+.bestiary th:nth-child(2),
+.bestiary td:nth-child(2) {
+  width: 8%;
+}
+.bestiary th:nth-child(3),
+.bestiary td:nth-child(3) {
+  width: 8%;
+}
+.bestiary th:nth-child(4),
+.bestiary td:nth-child(4) {
+  width: 9%;
+}
+.bestiary th:nth-child(5),
+.bestiary td:nth-child(5),
+.bestiary th:nth-child(6),
+.bestiary td:nth-child(6) {
+  width: 6%;
+}
+.bestiary th:nth-child(7),
+.bestiary td:nth-child(7) {
+  width: 25%;
+}
+
+/* Licence */
+.licence-text {
+  column-count: 3;
+  column-gap: 5mm;
+  column-fill: auto;
+  height: 232mm;
+}
+.licence-text h2 {
+  margin: 0 0 1mm;
+  font:
+    700 10pt/1.05 'Barlow Condensed',
+    sans-serif;
+  text-transform: uppercase;
+}
+.licence-text p,
+.licence-text li {
+  margin: 0 0 1mm;
+  font-size: 7.2pt;
+  line-height: 1.2;
+}
+.licence-text ol {
+  margin: 0;
+  padding-left: 4.5mm;
+}
+
+/* Bestiary: full width, stat lines flowing in two columns. */
+.common-creatures {
+  column-count: 2;
+  column-gap: 5mm;
+}
+.common-creatures h2 {
+  column-span: all;
+}
+.common-creatures p {
+  break-inside: avoid;
+  font-size: 9.5pt;
+  line-height: 1.12;
+}
+
+/* Lite tables are reference lists: keep each row on one line where possible. */
+th,
+td {
+  padding-top: 0.6mm;
+  padding-bottom: 0.6mm;
+}
+.close-weapons th:first-child,
+.close-weapons td:first-child {
+  width: 36%;
+}
+.close-weapons th:nth-child(4),
+.close-weapons td:nth-child(4) {
+  width: 16%;
+}
+.ranged-weapons th:first-child,
+.ranged-weapons td:first-child {
+  width: 36%;
+}
+.resistances th:first-child,
+.skills th:first-child,
+.skills td:first-child {
+  width: 40%;
+}
+.skills th:nth-child(2),
+.skills td:nth-child(2) {
+  width: 24%;
+}
+
+.armour th:first-child,
+.armour td:first-child {
+  width: 34%;
+}
+.armour th:last-child,
+.armour td:last-child {
+  width: 32%;
+}
+.build-an-effect th:first-child,
+.build-an-effect td:first-child {
+  width: 16%;
+}
+
+.licence-text .keep {
+  break-inside: avoid;
+}
