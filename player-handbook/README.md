@@ -20,7 +20,7 @@ the print PDF are in `a5/complete/`.
 
 - [Complete reading PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v05-reading.pdf)
 - [Complete A4 print PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf)
-- [Approved three-page A4 player reference](reference-cards/output/pdf/fantasy-crux-player-reference-cards-v05.pdf)
+- [Approved three-page A4 player reference](reference-cards/output/pdf/fantasy-crux-player-reference-cards-v06.pdf)
 - [Approved three-page A4 Shaping reference](shaping-reference-cards/README.md)
 - [Final page/content map](a5/complete/CONTENT-MAP.md)
 
@@ -30,7 +30,7 @@ for review; it has not been physically printed or punched here.
 
 These editions include the paid Reaction to defend against an initial grapple.
 The v05 handbook follows the plain-English website rules of October 2026.
-Earlier handbook v01-v04 and reference v01-v04 PDFs/HTML/review records remain
+Earlier handbook v01-v04 and reference v01-v05 PDFs/HTML/review records remain
 historical snapshots. The expanded handbook is a local review edition and has
 not replaced the website's approved reference downloads.
 
@@ -132,7 +132,7 @@ node player-handbook/validate.mjs
 node player-handbook/a5/complete/render.mjs v05
 node player-handbook/a5/complete/verify.mjs v05
 python3 -B player-handbook/a5/complete/assemble.py v05
-node player-handbook/reference-cards/render.mjs v05
+node player-handbook/reference-cards/render.mjs v06
 python3 -B player-handbook/a5/test_cut_stack.py
 ```
 

@@ -9,7 +9,7 @@ import { format } from 'prettier';
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(directory, '../..');
-const version = process.argv[2] ?? 'v05';
+const version = process.argv[2] ?? 'v06';
 assert.match(version, /^v\d{2,3}$/);
 const output = path.join(directory, 'output/pdf');
 const review = path.join(directory, 'review');

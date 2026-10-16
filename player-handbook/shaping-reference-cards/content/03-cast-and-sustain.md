@@ -20,7 +20,7 @@ sources:
 4. Resolve any Counter, then defence (card 2). **Pay PP**, then apply the effect.
 
 **Hostile touch:** first make a no-damage **Unarmed Combat delivery attack**
-in that action; the target may React normally. A failed delivery uses the action
+in that action; the target can React normally. A failed delivery uses the action
 but no PP. Contact then needs the Shaping roll and its normal resistance.
 
 ## Ordinary casting risk
@@ -31,7 +31,7 @@ but no PP. Contact then needs the Shaping roll and its normal resistance.
 | **Safe + 1**     | **-1P**; overreach.  |
 | **Safe + 2**     | **-2P**; overreach.  |
 
-Bonus dice may cancel the penalty, but **overreach still risks Backlash**.
+Bonus dice can cancel the penalty, but **overreach still risks Backlash**.
 
 ## Pay Power Points
 
@@ -79,7 +79,7 @@ Shaping result; win to escape.
 If the condition prevents Combat Actions, retry freely at the **end of your own
 turn**. Apply that turn's restrictions first. Winning ends the condition but
 **does not restore missed Actions**. A stated break condition or specific control
-rule may replace the retry.
+rule can replace the retry.
 
 **Example:** a force bind held you with an ordinary Shaping success of **42**.
 Spend a Combat Action and roll your **Resilience 60%**. A **55** succeeds and
@@ -93,8 +93,9 @@ Both use Practice and Tell; **no known cell needed**.
 magic within **15 m** and reveals Form. Critical adds Technique, M and its state.
 
 **Dispel:** Combat Action; **M = target's full M + Range**, Reach 0. Cast and pay
-normally; you must succeed and win against the original caster's current unmodified Shaping.
-Use Dispel to end active magic; completed permanent changes need a new Shaping.
+normally, then succeed and win against a **fresh Shaping roll for the original
+caster** (if their skill is unknown, 10 × the target's M, max 100%). Completed
+permanent changes cannot be Dispelled.
 
 ## Direct a subject or summon
 

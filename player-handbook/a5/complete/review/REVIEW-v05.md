@@ -1,8 +1,8 @@
 # Handbook v05 review
 
 Date: 15 October 2026. Status: **ready for user review**, not published and not
-physically print-and-punch tested. Earlier editions are preserved. The approved
-core and Shaping reference cards were not modified by this task.
+physically print-and-punch tested. Earlier editions are preserved. The core and
+Shaping reference cards were updated in a companion change (core v06, Shaping v05).
 
 ## What changed since v04
 

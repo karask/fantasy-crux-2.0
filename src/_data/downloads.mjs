@@ -13,7 +13,7 @@ export default [
     print:
       'Print at actual size as three separate cards, or duplex on the long edge with the final reverse blank.',
     source:
-      'player-handbook/reference-cards/output/pdf/fantasy-crux-player-reference-cards-v05.pdf',
+      'player-handbook/reference-cards/output/pdf/fantasy-crux-player-reference-cards-v06.pdf',
     filename: 'fantasy-crux-player-reference-cards.pdf',
   },
   {
@@ -26,7 +26,7 @@ export default [
     print:
       'Print at actual size as three separate cards, or duplex on the long edge with the final reverse blank.',
     source:
-      'player-handbook/shaping-reference-cards/output/pdf/fantasy-crux-shaping-reference-cards-v04.pdf',
+      'player-handbook/shaping-reference-cards/output/pdf/fantasy-crux-shaping-reference-cards-v05.pdf',
     filename: 'fantasy-crux-shaping-reference-cards.pdf',
   },
   {

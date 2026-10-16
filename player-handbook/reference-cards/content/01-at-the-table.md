@@ -46,7 +46,7 @@ Both sides roll and choose their final result. Compare:
 
 **Assist:** explain how you help. Normally you need **26%** in the relevant
 skill. Meaningful help gives **+1B total**, not per helper; exceptional combined
-help may give +2B.
+help can give +2B.
 
 **Prepare with Lore:** a successful Lore test gives **+1B to one directly
 related test soon after**, when that knowledge can help.
@@ -94,7 +94,7 @@ Each use costs **1 point**:
 - **Avoid Death:** at 0 HP, become stable and unconscious, without Bleeding or
   Dying. Awaken after the scene at **1 HP**; existing Wounded remains.
 - **Story benefit:** add a plausible favourable detail with GM approval.
-  Larger benefits may cost more points.
+  Larger benefits can cost more points.
 
 Downgrading a wound and avoiding death are **separate costs**. Injury and
 recovery: card 3.

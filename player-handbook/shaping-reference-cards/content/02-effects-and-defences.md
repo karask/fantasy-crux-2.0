@@ -44,15 +44,15 @@ exceeds MWL. Below I3, HP returns but Wounded stays.
 ## Defend against magic
 
 Defence is **opposed to the original Shaping roll**. Shaping must succeed and
-win to affect you; a winning shield guard instead uses Size (below).
+win to affect you; a winning shield Active Guard uses Size instead (below).
 
-| Incoming effect                 | Defence                                                                  |
-| ------------------------------- | ------------------------------------------------------------------------ |
-| **Individual projection**       | Dodge **-1P** or ready shield guard **-1P**; spend an eligible Reaction. |
-| **Avoidable area**              | Dodge **-1P**; no shield guard.                                          |
-| **Body / material change**      | **Resilience**; no Reaction cost.                                        |
-| **Mind / soul effect**          | **Persistence**; no Reaction cost.                                       |
-| **Self / willing / unattended** | No defence.                                                              |
+| Incoming effect                 | Defence                                                                   |
+| ------------------------------- | ------------------------------------------------------------------------- |
+| **Individual projection**       | Dodge **-1P** or shield Active Guard **-1P**; spend an eligible Reaction. |
+| **Avoidable area**              | Dodge **-1P**; no Active Guard.                                           |
+| **Body / material change**      | **Resilience**; no Reaction cost.                                         |
+| **Mind / soul effect**          | **Persistence**; no Reaction cost.                                        |
+| **Self / willing / unattended** | No defence.                                                               |
 
 **Dodge** uses the base Reaction, once per round. Each subject defends separately;
 outcomes using the same defence against one subject share a roll.
@@ -61,7 +61,7 @@ A **Critical Shaping** keeps its opposed grade. It does **not** maximise effect
 dice or bypass armour.
 
 **Counter replaces your own defence. If it does not stop the Shaping, you get
-no Dodge, shield guard, Persistence or Resilience roll against it.** An ally's
+no Dodge, Active Guard, Persistence or Resilience roll against it.** An ally's
 failed Counter still leaves your defence available.
 
 ## Harm, cover and shields
@@ -70,11 +70,12 @@ Choose delivery **before calculating M**.
 
 **Projected Harm:** no added M; crosses space. Normal armour applies.
 Partial cover gives the caster **-1P**; substantial cover **-2P**. A complete
-barrier blocks the route. Shields cannot guard areas.
+barrier blocks the route. Areas cannot be Active Guarded.
 
 **Direct Harm: +1 M.** Arises inside selected targets; still needs a valid route.
 Bodily/material harm faces **Resilience**, soul harm **Persistence**. It ignores
-nonmagical AP; magical Wards and named resistances still apply. No Dodge or guard.
+nonmagical AP; magical Wards and named resistances still apply. No Dodge or
+Active Guard.
 
 **Spirit harm** is Direct-only: **I D6 PP**, not HP; Soulless targets are invalid.
 Mind causes no HP damage.
@@ -85,6 +86,7 @@ Mind causes no HP damage.
 | ----- | ------ | ----- | ---- | ----------- |
 | Light | Medium | Heavy | Huge | Beyond Huge |
 
-If shield guard wins: same Size or larger blocks the outcome; one smaller
-halves damage; two or more smaller blocks none. A winning Critical guard blocks all.
-Only shields can guard magical projections; use each outcome's own I.
+If shield Active Guard wins: same Size or larger blocks the outcome; one smaller
+blocks half its damage, rounded up; two or more smaller block none. A winning
+Critical Active Guard blocks all. Weapons cannot Active Guard magical projections;
+use each outcome's own I.
