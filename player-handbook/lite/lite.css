@@ -279,7 +279,8 @@ td:empty {
   column-count: 2;
   column-gap: 5mm;
 }
-.common-creatures h2 {
+.common-creatures h2,
+.common-creatures h2 + p {
   column-span: all;
 }
 .common-creatures p {

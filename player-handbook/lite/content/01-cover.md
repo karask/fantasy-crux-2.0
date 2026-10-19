@@ -45,4 +45,5 @@ for damage. A character sheet and a pencil for each player.
 - **Combat** and **More Combat**: fights, wounds and healing.
 - **Equipment** and **Adventuring**: gear, travel and hazards.
 - **Shaping**: magic, in two pages.
-- **Gamemaster**: running tests, quick NPCs and common creatures.
+- **Gamemaster** and **Creatures**: running tests, quick NPCs, creature
+  rules and common creatures.

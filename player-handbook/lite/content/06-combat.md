@@ -23,12 +23,14 @@ round you have:
 - one **Combat Action:** attack, Aim, grapple, cast, Intimidate, or use a skill
   or item;
 - one **Movement Action:** move up to your Movement, stand up, drop prone, or
-  ready an item while moving half as far;
+  ready an item while moving half as far. Stowing one item and drawing
+  another, or readying two, takes the whole Movement Action;
 - one **Reaction:** Dodge, Parry or an Opportunity Attack, when something
   triggers it, even on another's turn.
 
-Unused actions are lost. **Delay:** act later in the round, after someone you
-choose.
+Unused actions are lost. You cannot choose an option that conflicts with an
+action you already used: after a Parry, you cannot Sprint. **Delay:** act later
+in the round, after someone you choose.
 
 ## Moving in a fight
 

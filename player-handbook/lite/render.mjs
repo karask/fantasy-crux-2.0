@@ -14,7 +14,7 @@ import { format } from 'prettier';
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(directory, '../..');
 const rules = path.join(root, 'src/content/rules');
-const version = process.argv[2] ?? 'v02';
+const version = process.argv[2] ?? 'v03';
 assert.match(version, /^v\d{2,3}$/);
 const output = path.join(directory, 'output/pdf');
 const review = path.join(directory, 'review');
@@ -116,7 +116,8 @@ async function bestiary(entries) {
         const damage = rest
           .match(/`([^`]+)`/)?.[1]
           .replace(/\s*\+\s*0$/, '')
-          .replace(/\s+/g, '');
+          .replace(/\s+/g, '')
+          .concat(/`[^`]+` PP\b/.test(rest) ? ' PP' : '');
         const size = rest.match(/\b(Light|Medium|Heavy|Huge)\b/)?.[1];
         const reach = rest.match(/(\d+ m)\b/)?.[1];
         return [`${name} ${chance}%`, damage ?? 'special', size, reach].filter(Boolean).join(', ');
@@ -215,11 +216,14 @@ for (const [index, { file, data, copy }] of pageData.entries()) {
       `${file}: no section ${title}`,
     );
   const flowing = sections.filter((s) => !isWide(s.title));
-  const columnBreak = flowing.findIndex((s) => s.title === data.column_break);
-  assert.ok(columnBreak > 0, `${file}: column_break must name a later section`);
-  const columns = [flowing.slice(0, columnBreak), flowing.slice(columnBreak)]
-    .map((column) => `<div class="rule-column">${column.map((s) => s.html).join('\n')}</div>`)
-    .join('\n');
+  let columns = '';
+  if (flowing.length) {
+    const columnBreak = flowing.findIndex((s) => s.title === data.column_break);
+    assert.ok(columnBreak > 0, `${file}: column_break must name a later section`);
+    columns = `<main class="rules">${[flowing.slice(0, columnBreak), flowing.slice(columnBreak)]
+      .map((column) => `<div class="rule-column">${column.map((s) => s.html).join('\n')}</div>`)
+      .join('\n')}</main>`;
+  }
   const wide = (titles) =>
     titles.length
       ? `<div class="rules-wide">${sections
@@ -237,7 +241,7 @@ for (const [index, { file, data, copy }] of pageData.entries()) {
     ? `<h1>${esc(data.title)}</h1><p class="subtitle">${esc(data.subtitle)}</p>${art}`
     : `<h1>${esc(data.title)}</h1><p class="subtitle">${esc(data.subtitle)}</p>`;
   pages.push(
-    `<article id="page-${String(folio).padStart(2, '0')}" class="card${data.cover ? ' cover' : ''}" data-folio="${folio}"><header class="identity"><span>FANTASY CRUX <small>LITE</small></span><span class="side">${esc(data.label)}</span></header>${heading}${wide(wideTop)}<main class="rules">${columns}</main>${wide(wideBottom)}<footer><span>FANTASY CRUX LITE · 2.0 BETA</span><span>PAGE ${folio}</span></footer></article>`,
+    `<article id="page-${String(folio).padStart(2, '0')}" class="card${data.cover ? ' cover' : ''}" data-folio="${folio}"><header class="identity"><span>FANTASY CRUX <small>LITE</small></span><span class="side">${esc(data.label)}</span></header>${heading}${wide(wideTop)}${columns}${wide(wideBottom)}<footer><span>FANTASY CRUX LITE · 2.0 BETA</span><span>PAGE ${folio}</span></footer></article>`,
   );
 }
 

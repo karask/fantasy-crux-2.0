@@ -55,7 +55,8 @@ writing or fine detail; walls and insulation block it.
 | Combat Order            | (DEX + INT) / 2, minus armour ENC |
 | Carrying capacity       | STR + SIZ, in ENC                 |
 
-Recalculate them whenever a characteristic changes. **Damage Modifier (DM),**
+Recalculate them whenever a characteristic changes; skills keep their scores.
+**Damage Modifier (DM),**
 from STR + SIZ: 1–10 **-1D6**; 11–15 **-1D4**; 16–25
 **+0**; 26–30 **+1D4**; 31–45 **+1D6**; 46–60 **+2D6**; 61–75 **+3D6**; each 15
 more, another +1D6.

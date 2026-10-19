@@ -1,16 +1,17 @@
 # Fantasy Crux Lite
 
 A short, compatible version of Fantasy Crux 2.0 for conventions, one-shots and
-Gamemasters who want the whole system in their heads. **Status: v02 draft for
+Gamemasters who want the whole system in their heads. **Status: v03 draft for
 review.** It is not on the website or the Downloads page.
 
-- [Lite PDF, A4](output/pdf/fantasy-crux-lite-v02.pdf)
-- [Review record](review/REVIEW-v02.md)
+- [Lite PDF, A4](output/pdf/fantasy-crux-lite-v03.pdf)
+- [Review record](review/REVIEW-v03.md)
+- [What Lite leaves out](MISSING.md)
 
 ## What it is
 
-Twelve A4 pages of rules plus the one-page Open Game License: about 6,000 words,
-a fifth of the full rules without the bestiary and gazetteer.
+Thirteen A4 pages of rules plus the one-page Open Game License: about 6,400
+words, a fifth of the full rules without the bestiary and gazetteer.
 
 |  Page | Subject                                                               |
 | ----: | --------------------------------------------------------------------- |
@@ -20,8 +21,9 @@ a fifth of the full rules without the bestiary and gazetteer.
 |   6–7 | Combat: rounds, defence, damage, criticals; grapples, wounds, healing |
 |   8–9 | Equipment; adventuring and hazards                                    |
 | 10–11 | Shaping: cells, building, limits; outcomes, casting, defence          |
-|    12 | Gamemaster: running tests, quick NPCs, morale, ten creatures          |
-|    13 | Open Game License 1.0a and copyright notices                          |
+|    12 | Gamemaster: running tests, quick NPCs, creature rules                 |
+|    13 | Creatures: 21 stat lines from the full bestiary                       |
+|    14 | Open Game License 1.0a and copyright notices                          |
 
 The system is already skill tests plus Bonus and Penalty dice. Lite leans into
 that: the Circumstances page gathers the side rules into tables of dice, and
@@ -37,7 +39,7 @@ and adventures work unchanged, and every full-rules Talent can be bought at
 its listed IP cost.
 
 `render.mjs` enforces this. Before it prints anything, it compares Lite's
-tables with the canonical rules in `src/content/rules/` (315 checks in v02) and
+tables with the canonical rules in `src/content/rules/` (315 checks in v03) and
 stops on any difference. Talent costs and requirements, ancestry ability costs
 and the bestiary are generated from or checked against their source files.
 
@@ -56,14 +58,15 @@ reference:
 - **Left out:** rituals, enchanting and enchanted items, the learned Shaping
   adjustments (Confluence, Trigger, Indirect, Selective, Veiled), Counter,
   calling beings, Spirit Combat and possession, mass combat, ships, plunder,
-  epic characters, random characteristics, the other Talents and most special
-  cases. Lite points to the full rules for them.
+  epic characters, random characteristics, the other Talents, most creatures
+  and most special cases. Lite points to the full rules for them;
+  [MISSING.md](MISSING.md) lists everything left out.
 
 ## Format
 
 **A4, recommended.** A5 suits a book read cover to cover; Lite is a reference a
 GM consults mid-scene. A4 holds each subject on one page, keeps the weapon and
-skill tables whole at 9.5–10 pt, prints at home on 13 single sheets without
+skill tables whole at 9.5–10 pt, prints at home on 14 single sheets without
 imposition, and works as a convention handout. The pages use the approved
 reference cards' stylesheet, so Lite matches the cards a table may already
 use. An A5 edition can be made later from the same Markdown.
@@ -73,15 +76,15 @@ use. An A5 edition can be made later from the same Markdown.
 One Markdown file per page in `content/`. Frontmatter sets the title, subtitle,
 running label, the section that starts the second column (`column_break`), any
 full-width sections (`wide_top`, `wide_bottom`) and the full-rules `sources`.
-The Gamemaster page lists bestiary creatures by slug, with an optional note.
+The Creatures page lists bestiary creatures by slug, with an optional note.
 `{{talent:slug}}` prints a Talent's cost and requirement from its rules file.
 
 From the repository root:
 
 ```sh
-node player-handbook/lite/render.mjs v02
-python3 -B player-handbook/lite/verify.py v02
-pdftoppm -r 100 -png player-handbook/lite/output/pdf/fantasy-crux-lite-v02.pdf player-handbook/lite/tmp/pdfs/lite-v02
+node player-handbook/lite/render.mjs v03
+python3 -B player-handbook/lite/verify.py v03
+pdftoppm -r 100 -png player-handbook/lite/output/pdf/fantasy-crux-lite-v03.pdf player-handbook/lite/tmp/pdfs/lite-v03
 ```
 
 The renderer fails on any rules difference, an unknown placeholder, overflow, text under 9.5 pt, a
