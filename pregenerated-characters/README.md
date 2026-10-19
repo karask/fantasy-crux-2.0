@@ -23,13 +23,13 @@ All characteristics and ages were chosen without rolling dice. Each PC uses the 
 
 ## What each sheet contains
 
-**Courier and archer:** [Ilen Sedge - complete A4 PDF](../output/pdf/ilen-sedge-a4.pdf), two pages with his portrait, 24 skills, equipment, and four talent explanations. All eight PCs now have illustrated PDFs.
+**Courier and archer:** [Ilen Sedge - complete A4 PDF](../output/pdf/ilen-sedge-a4.pdf), two pages with his portrait, 23 skills, equipment, and four talent explanations. All eight PCs now have illustrated PDFs.
 
-**Woodland guide:** [Seris Vale - complete A4 PDF](../output/pdf/seris-vale-a4.pdf), two pages with her portrait, 24 skills, equipment, and four talent and ancestry explanations.
+**Woodland guide:** [Seris Vale - complete A4 PDF](../output/pdf/seris-vale-a4.pdf), two pages with her portrait, 23 skills, equipment, and four talent and ancestry explanations.
 
-**Rescuer and wrestler:** [Orren Pike - complete A4 PDF](../output/pdf/orren-pike-a4.pdf), two pages with his portrait, 24 skills, equipment, and explanations for Adrenaline Surge, Wrestler, and Subdue.
+**Rescuer and wrestler:** [Orren Pike - complete A4 PDF](../output/pdf/orren-pike-a4.pdf), two pages with his portrait, 23 skills, equipment, and explanations for Adrenaline Surge, Wrestler, and Subdue.
 
-**Goblin negotiator:** [Pebb Dallow - complete A4 PDF](../output/pdf/pebb-dallow-a4.pdf), two pages with his portrait, 24 skills, equipment, and talent and ancestry explanations.
+**Goblin negotiator:** [Pebb Dallow - complete A4 PDF](../output/pdf/pebb-dallow-a4.pdf), two pages with his portrait, 23 skills, equipment, and talent and ancestry explanations.
 
 **Printable example:** [Tamsin Reed - complete A4 PDF](../output/pdf/tamsin-reed-a4.pdf), two pages with her portrait, description, personality, acquired skills at their final values, Talent, spells, and equipment. Named Craft, Knowledge, Culture, and Language placeholders are omitted. Rules explanations and creation accounting are kept in the reference material. The licence is embedded as an attachment.
 

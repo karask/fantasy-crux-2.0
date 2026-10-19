@@ -112,7 +112,7 @@ const listedSkills = [...pages[4].copy.matchAll(/^- \*\*([^*]+):\*\*/gm)].map((m
 assert.deepEqual(
   listedSkills,
   skillNames,
-  'The skill reference must contain all 24 mundane skills.',
+  `The skill reference must contain all ${skillNames.length} mundane skills.`,
 );
 
 // Initial grapple defence costs a Reaction; opposing an established hold does not.
@@ -143,7 +143,9 @@ console.log(
 console.log(
   'Equipment matches the canonical 24 close-weapon, 12 ranged-weapon, and 5 armour rows.',
 );
-console.log('All 24 mundane skills are present; tables appear only on equipment pages.');
+console.log(
+  `All ${skillNames.length} mundane skills are present; tables appear only on equipment pages.`,
+);
 console.log(
   'All current player grapple copies charge a defence Reaction and cover unopposed attempts.',
 );
