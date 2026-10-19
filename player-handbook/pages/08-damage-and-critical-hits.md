@@ -39,7 +39,7 @@ Parry blocks **6**. Leather armour removes **2** more: lose **4 HP**.
   plus maximum positive DM when normally added; ignore armour. Ignore negative
   DM and any other bonus damage, including a Charge's extra die.
 - **Ordinary successful Dodge or Parry:** demote to an ordinary hit; roll normal
-  damage, including eligible Action and Talent bonuses, and apply armour.
+  damage, including eligible bonuses, and apply armour.
   This Reaction neither stops nor reduces the hit.
 - **Both rolls Critical:** compare rolls, then base skills; exact ties favour the defender. Winning defence stops all damage; a losing defence leaves full Critical damage.
 
