@@ -73,12 +73,12 @@ const armourTables = tables(
 );
 assert.deepEqual(
   pages[20].tables[0],
-  weaponTables[1],
+  weaponTables[0],
   'Close weapons differ from the canonical table.',
 );
 assert.deepEqual(
   pages[21].tables[0],
-  weaponTables[2],
+  weaponTables[1],
   'Ranged weapons differ from the canonical table.',
 );
 assert.deepEqual(pages[22].tables[0], armourTables[0], 'Armour differs from the canonical table.');
