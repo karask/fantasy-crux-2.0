@@ -1,28 +1,28 @@
-# Player handbook v05: page map and scope
+# Player handbook v06: page map and scope
 
-The expanded edition has **66 player pages including the cover, plus two legal
+The expanded edition has **67 player pages including the cover, plus two legal
 pages**. `edition.json` is the definitive ordering and source-file index. Page
 IDs remain stable when pages move; printed cross-references resolve automatically.
 
-| Pages | Subjects in order                                                                                               |
-| ----- | --------------------------------------------------------------------------------------------------------------- |
-| 1-4   | Cover; player guide and navigation; D100 tests; Bonus/Penalty dice and opposition.                              |
-| 5-8   | Characteristics; six ancestries; innate packages; derived attributes and damage modifier.                       |
-| 9-10  | All general skills, one skill/base variant per row; gated Shaping base.                                         |
-| 11-14 | Skill pools and trades; starting IP/kit/details; complete worked character; improvement and Talent conventions. |
-| 15-20 | Round; attacks/defences; damage; off-hand options; movement/charges; grappling.                                 |
-| 21-26 | Ranged shots; cover/missile defence; position; social/stealth choices; wounds/dying; healing/Hero Points.       |
-| 27-31 | Field skills/tools; travel/load; fatigue; light/awareness; common hazards.                                      |
-| 32-36 | Close weapons A-L; close weapons M-Z/shields; launchers; thrown weapons; armour.                                |
-| 37-40 | Weapon training; awareness; shield Talents; combat manoeuvres.                                                  |
-| 41-44 | Unarmed Talents; ranged Talents; ambush; infiltration.                                                          |
-| 45-48 | Leadership; craft/care; wilderness Talents; alchemy.                                                            |
-| 49-52 | Become a Shaper; cells/Practice/Tell; build an effect and Range; Duration/Reach and worked builds.              |
-| 53-56 | Common outcomes; capability benchmarks; hostile conditions and escape; casting/costs/Backlash.                  |
-| 57-60 | Magical defence/Dispel/Sense; active magic and INT; training Talents/Counter; learned adjustments.              |
-| 61-64 | Trigger; illusions/Paths/Fate; summons; rituals.                                                                |
-| 65-66 | Use enchanted items; Enchanter/capacity and making enchantments.                                                |
-| 67-68 | Complete existing Open Game License and copyright notices.                                                      |
+| Pages | Subjects in order                                                                                                     |
+| ----- | --------------------------------------------------------------------------------------------------------------------- |
+| 1-4   | Cover; player guide and navigation; D100 tests; Bonus/Penalty dice and opposition.                                    |
+| 5-8   | Characteristics; six ancestries; innate packages; derived attributes and damage modifier.                             |
+| 9-10  | All general skills, one skill/base variant per row; gated Shaping base.                                               |
+| 11-14 | Skill pools and trades; starting IP/kit/details; complete worked character; improvement and Talent conventions.       |
+| 15-20 | Round; attacks/defences; damage; off-hand options; movement/charges; grappling.                                       |
+| 21-27 | Ranged shots; cover/missile defence; position; Intimidate; social/stealth choices; wounds/dying; healing/Hero Points. |
+| 28-32 | Field skills/tools; travel/load; fatigue; light/awareness; common hazards.                                            |
+| 33-37 | Close weapons A-L; close weapons M-Z/shields; launchers; thrown weapons; armour.                                      |
+| 38-41 | Weapon training; awareness; shield Talents; combat manoeuvres.                                                        |
+| 42-45 | Unarmed Talents; ranged Talents; ambush; infiltration.                                                                |
+| 46-49 | Leadership; craft/care; wilderness Talents; alchemy.                                                                  |
+| 50-53 | Become a Shaper; cells/Practice/Tell; build an effect and Range; Duration/Reach and worked builds.                    |
+| 54-57 | Common outcomes; capability benchmarks; hostile conditions and escape; casting/costs/Backlash.                        |
+| 58-61 | Magical defence/Dispel/Sense; active magic and INT; training Talents/Counter; learned adjustments.                    |
+| 62-65 | Trigger; illusions/Paths/Fate; summons; rituals.                                                                      |
+| 66-67 | Use enchanted items; Enchanter/capacity and making enchantments.                                                      |
+| 68-69 | Complete existing Open Game License and copyright notices.                                                            |
 
 ## Editorial rationale
 
@@ -62,8 +62,9 @@ and player-facing rituals, summons and enchanted-item rules.
 All 23 original mundane module IDs remain represented. The condensed rules
 retain the paid Reaction against an initial grapple, one base Dodge, off-hand
 limits, Critical defence outcomes, wound countdown, healing limits and all four
-Hero Point uses. Intimidate stays brief. Blanket prone ranged penalties are not
-introduced. Weapon and armour values are checked against the canonical tables:
+Hero Point uses. v06 adds the website rules v05 had left to the GM: Intimidate in
+full on its own page, the second grappling limb and weapon-Parry damage, the wind
+and prone-shooter modifiers, and mounted combat. Weapon and armour values are checked against the canonical tables:
 24 close profiles, 12 ranged profiles, five armours.
 
 This edition adds PC adventuring procedures that matter at the table: relevant

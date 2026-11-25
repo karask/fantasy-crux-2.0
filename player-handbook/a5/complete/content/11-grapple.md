@@ -19,6 +19,8 @@ Combat with a ready weapon/shield, or Unarmed Combat empty-handed.
 
 **Win to hold them.** Without a defence Reaction, succeed at an unopposed
 Unarmed Combat test instead. A failed attempt leaves your hand free.
+**Weapon Parry:** if the target wins with a successful weapon Parry, the
+weapon also deals you **1 HP**, ignoring AP.
 
 ## While held together
 
@@ -34,10 +36,15 @@ Unarmed Combat**; the controller's opposing roll costs no Reaction. The
 controller can release freely on their turn. Escape or release leaves both
 adjacent and frees the committed hand.
 
+**Second limb:** commit a second usable limb for **+1B** on seizing, escaping
+and opposing grapple tests. Either side can add or release it at the start of
+their own turn.
+
 Only one controller can hold a target. The GM handles unusual Size, anatomy,
 footing and help.
 
 ## Editorial notes
 
 The reused wrist-hold art illustrates an ordinary hold, not a throw or damaging
-technique. Leverage details remain in the full rules for the GM to adjudicate.
+technique. v06 adds the second-limb bonus and the weapon-Parry damage from the website rules;
+the Wrestler Talent's leverage details stay on its Talent page.

@@ -1,7 +1,8 @@
 # Complete A5 spiral handbook
 
-Review edition **v05, 15 October 2026**. A player can create a character from
-scratch, play, improve, choose Talents and use Shaping. v05 follows the
+Review edition **v06, 25 November 2026**. A player can create a character from
+scratch, play, improve, choose Talents and use Shaping. v06 adds the website
+rules that v05 had left to the GM (see the verification record). v05 followed the
 plain-English rewrite of the website rules: the same mechanics in shorter
 sentences, the rulings made during that rewrite, and a new set of generated
 diagrams. The guide keeps short, subject-led pages and the established visual
@@ -10,33 +11,34 @@ for their authoritative text. Earlier PDFs remain intact as historical snapshots
 
 ## Open the handbook
 
-- [Reading PDF, with navigation bookmarks](output/pdf/fantasy-crux-player-handbook-v05-reading.pdf)
-- [A4 duplex cut-and-stack print PDF](output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf)
+- [Reading PDF, with navigation bookmarks](output/pdf/fantasy-crux-player-handbook-v06-reading.pdf)
+- [A4 duplex cut-and-stack print PDF](output/pdf/fantasy-crux-player-handbook-v06-a4-cut-stack.pdf)
 - [Page map and scope](CONTENT-MAP.md)
-- [Verification record](review/REVIEW-v05.md)
+- [Verification record](review/REVIEW-v06.md)
 - [Core reference cards](../../reference-cards/README.md)
 - [Shaping reference cards](../../shaping-reference-cards/README.md)
 - [Artwork provenance](art/README.md)
 
-There are **68 A5-format pages**: cover, 65 player pages and two pages containing
+There are **69 A5-format pages**: cover, 66 player pages and two pages containing
 the complete existing licence and copyright notices. PDF page numbers match
 the printed folios, including the cover as 1. No filler pages were added.
 This handbook update does not change or publish either approved reference card.
 
 ## Print and bind
 
-The print file has **34 landscape A4 sides: 17 duplex sheets**.
+The print file has **36 landscape A4 sides: 18 duplex sheets**. The back of
+the last leaf is blank.
 
 1. Print at **actual size / 100%, A4 landscape, duplex short-edge binding**.
    Do not add Booklet mode or another two-pages-per-sheet transformation.
    Test sheet 1 first; both sides must be upright.
-2. Stack sheets **1 through 17**, in order with sheet 1 on top and fronts up.
+2. Stack sheets **1 through 18**, in order with sheet 1 on top and fronts up.
    Keep their tops aligned.
 3. Cut vertically at **148.5 mm**, following the dashed centre line printed on
    each front side.
 4. Keep both piles in their existing order; put the **whole left pile on top
    of the whole right pile**. Do not alternate pieces sheet by sheet.
-5. You now have **34 A5 leaves**, with pages 1/2 through 67/68 in order.
+5. You now have **35 A5 leaves**, with pages 1/2 through 69 in order.
 6. Check all page pairs before punching. With the cover facing you, punch the
    stack's **left edge** and add the spiral.
 
@@ -82,13 +84,13 @@ From the repository root:
 ```sh
 npm run diagrams:build
 node player-handbook/validate.mjs
-node player-handbook/a5/complete/render.mjs v05
-node player-handbook/a5/complete/verify.mjs v05
-python3 -B player-handbook/a5/complete/assemble.py v05
+node player-handbook/a5/complete/render.mjs v06
+node player-handbook/a5/complete/verify.mjs v06
+python3 -B player-handbook/a5/complete/assemble.py v06
 python3 -B player-handbook/a5/test_cut_stack.py
-pdftoppm -r 110 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v05-reading.pdf player-handbook/a5/complete/tmp/pdfs/v05-reading
-pdftoppm -r 90 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf player-handbook/a5/complete/tmp/pdfs/v05-print
-python3 -B player-handbook/a5/complete/review/contact-sheets.py v05
+pdftoppm -r 110 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v06-reading.pdf player-handbook/a5/complete/tmp/pdfs/v06-reading
+pdftoppm -r 90 -png player-handbook/a5/complete/output/pdf/fantasy-crux-player-handbook-v06-a4-cut-stack.pdf player-handbook/a5/complete/tmp/pdfs/v06-print
+python3 -B player-handbook/a5/complete/review/contact-sheets.py v06
 ```
 
 The renderer uses installed Chrome/Playwright dependencies. Python needs

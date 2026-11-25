@@ -30,6 +30,12 @@ Combat + Movement Actions; forfeit all Reactions. Move **5 m to twice Movement**
 in a straight, clear route, end adjacent, then attack. A hit adds **+1D6 damage**.
 No other movement or off-hand attack.
 
+**Mounted:** against an adjacent foe on foot, a rider gets **+1B** on Close
+Combat attacks and Parries, and the foe **-1P** on Reactions, unless it is as
+tall or wields a weapon two Sizes larger. Use the mount's Movement, and its DM
+for a lance Charge. Riding caps your weapon skill. A mount new to battle: test
+Riding each round or it Sprints away.
+
 ## Set Weapon against a Charge
 
 Combat Action to set a ready **Set-tagged weapon**. A Charge into reach before
@@ -41,3 +47,4 @@ It works once. Any Action, Movement Action or Reaction before the trigger unsets
 
 The illustration shows an open gap before impact and a straight route, not a
 free attack outside the stated Set trigger. All source action restrictions retained.
+v06 adds mounted combat from the website rules.

@@ -1,5 +1,5 @@
 {
-  "version": "v05",
+  "version": "v06",
   "pages": [
     ["cover", "content/01-cover.md", "PLAYER GUIDE", 1],
     ["welcome", "content/02-character.md", "START HERE", 2],
@@ -24,6 +24,7 @@
     ["shot", "../content/ranged-attacks.md", "RANGED COMBAT", 12],
     ["cover-defence", "../content/cover-and-defence.md", "RANGED COMBAT", 13],
     ["position", "content/14-position.md", "POSITION", 14],
+    ["intimidate", "content/expanded/intimidate.md", "SOCIAL / STEALTH"],
     ["social", "content/15-intimidate.md", "SOCIAL / STEALTH", 15],
     ["wounds", "content/16-wounds.md", "SURVIVAL", 16],
     ["recovery", "content/17-recovery.md", "SURVIVAL", 17],

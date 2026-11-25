@@ -2,8 +2,6 @@
 title: Talk, Trade & Go Unnoticed
 modules: [19]
 layout: guide
-art: battle-command
-caption: MAKE THE DEMAND CLEAR
 sources:
   - src/content/rules/skills/practical-skills.md
 ---
@@ -12,14 +10,6 @@ sources:
 
 Describe what you want and what leverage or concealment makes it possible.
 Success changes the situation; it does not give control of another person's mind.
-
-## Intimidate: Combat Action
-
-State your demand to one enemy or a group. Oppose **Influence against Persistence**;
-the enemy's condition modifies its roll. If you win, the GM judges how it gives way:
-wounded enemies may flee or surrender, while healthy ones rarely just flee and more
-often hesitate and lose a turn. A strong enemy surrenders only to a Critical against
-a failed Persistence; a fumbled Persistence breaks it.
 
 ## Persuade or bargain
 
@@ -41,5 +31,5 @@ resistant device opposes with its maker's Mechanisms.
 
 ## Editorial notes
 
-Only the player's decision and roll are shown. Enemy modifiers, group leadership
-and exceptional rout details remain in the full rules for the GM.
+Intimidate moved to its own page in v06, with the enemy-condition modifiers
+and the group roll from the website rules.

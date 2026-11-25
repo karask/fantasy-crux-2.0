@@ -2,24 +2,24 @@
 
 An independent editorial workspace for an **A5-format player handbook, printed
 on A4 sheets cut in half and spiral bound**, plus A4 player reference cards.
-The v05 handbook covers character creation, improvement, the core player rules,
+The v06 handbook covers character creation, improvement, the core player rules,
 all current Talents and Shaping. The approved reference cards remain separate.
 The canonical website rules remain the source of truth.
 
 The initial 23 rules drafts and cover remain available as content modules.
 Their numbers are stable draft IDs, **not the final A5 pagination**. The current
-handbook has **68 pages**, including its cover and two licence pages. Spiral
+handbook has **69 pages**, including its cover and two licence pages. Spiral
 binding does not require a multiple of four.
 
 ## Current deliveries
 
-The [complete A5 spiral handbook](a5/complete/README.md) contains **cover + 65
-player pages + two licence pages**. It uses 17 A4 duplex sheets for
+The [complete A5 spiral handbook](a5/complete/README.md) contains **cover + 66
+player pages + two licence pages**. It uses 18 A4 duplex sheets for
 cut-and-stack printing. Editable page chunks, page images, the reading PDF and
 the print PDF are in `a5/complete/`.
 
-- [Complete reading PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v05-reading.pdf)
-- [Complete A4 print PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf)
+- [Complete reading PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v06-reading.pdf)
+- [Complete A4 print PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v06-a4-cut-stack.pdf)
 - [Approved three-page A4 player reference](reference-cards/output/pdf/fantasy-crux-player-reference-cards-v06.pdf)
 - [Approved three-page A4 Shaping reference](shaping-reference-cards/README.md)
 - [Final page/content map](a5/complete/CONTENT-MAP.md)
@@ -31,8 +31,9 @@ allowance against the actual punch before binding. The full edition is ready
 for review; it has not been physically printed or punched here.
 
 These editions include the paid Reaction to defend against an initial grapple.
-The v05 handbook follows the plain-English website rules of October 2026.
-Earlier handbook v01-v04 and reference v01-v05 PDFs/HTML/review records remain
+The v06 handbook follows the plain-English website rules of October 2026, now
+including the rules v05 had left to the GM.
+Earlier handbook v01-v05 and reference v01-v05 PDFs/HTML/review records remain
 historical snapshots. The expanded handbook is a local review edition and has
 not replaced the website's approved reference downloads.
 
@@ -131,9 +132,9 @@ From the repository root, using the existing installed dependencies:
 ```sh
 npm run diagrams:build
 node player-handbook/validate.mjs
-node player-handbook/a5/complete/render.mjs v05
-node player-handbook/a5/complete/verify.mjs v05
-python3 -B player-handbook/a5/complete/assemble.py v05
+node player-handbook/a5/complete/render.mjs v06
+node player-handbook/a5/complete/verify.mjs v06
+python3 -B player-handbook/a5/complete/assemble.py v06
 node player-handbook/reference-cards/render.mjs v06
 python3 -B player-handbook/a5/test_cut_stack.py
 ```

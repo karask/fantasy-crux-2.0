@@ -15,11 +15,11 @@ caption: 'MELEE FROM ABOVE OR BEHIND: ATTACK +1B'
 - Target moved since your last turn: **10 m or more -1P; 30 m or more -2P instead**.
 - Target partly obscured by mist, smoke, fog or foliage: **-1P**; heavily **-2P**.
 - Target prone: **-1P**. Target helpless: **+2B**.
-- You are on unstable ground: **-1P**. Prone firing depends on the weapon; check with the GM.
+- High wind: **-1P**; fierce wind **-3P**; in a hurricane the shot fails.
+- You are prone: **-2P**. You are on unstable ground: **-1P**.
 - You are engaged at Close range: **-2P per enemy**.
 
 Range/Aim: page 12. Terrain cover: page 13. Obscurity is not cover.
-The GM handles wind and other difficult conditions.
 
 ## Melee: attack the opening
 
@@ -43,4 +43,5 @@ Cancel +B/-P, then cap at **+3B / -3P**.
 ## Editorial notes
 
 The inconsistent stick-figure diagram was removed. Existing website artwork now
-shows the positional idea; rare wind detail remains in the full rules.
+shows the positional idea. v06 adds the wind and prone-shooter rows from the website rules;
+mounted combat is on the Move, Charge & Set page.
