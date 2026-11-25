@@ -1,6 +1,6 @@
 # A4 player reference cards
 
-This is the approved compact play aid, separate from the A5 handbook. The v06
+This is the approved compact play aid, separate from the A4 handbook. The v06
 edition has three A4 player reference pages. Equipment tables, licence text,
 character creation, advancement and GM procedures remain outside the cards.
 

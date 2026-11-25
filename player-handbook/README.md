@@ -1,153 +1,29 @@
 # Fantasy Crux player handbook
 
-An independent editorial workspace for an **A5-format player handbook, printed
-on A4 sheets cut in half and spiral bound**, plus A4 player reference cards.
-The v05 handbook covers character creation, improvement, the core player rules,
-all current Talents and Shaping. The approved reference cards remain separate.
+The workspace for the Fantasy Crux 2.0 player-facing books. **A4 is the only
+handbook format.** The earlier A5 spiral handbook (v01 to v06) and its draft
+modules were retired on 25 November 2026; they remain in the git history.
 The canonical website rules remain the source of truth.
-
-The initial 23 rules drafts and cover remain available as content modules.
-Their numbers are stable draft IDs, **not the final A5 pagination**. The current
-handbook has **68 pages**, including its cover and two licence pages. Spiral
-binding does not require a multiple of four.
 
 ## Current deliveries
 
-The [complete A5 spiral handbook](a5/complete/README.md) contains **cover + 65
-player pages + two licence pages**. It uses 17 A4 duplex sheets for
-cut-and-stack printing. Editable page chunks, page images, the reading PDF and
-the print PDF are in `a5/complete/`.
-
-- [Complete reading PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v05-reading.pdf)
-- [Complete A4 print PDF](a5/complete/output/pdf/fantasy-crux-player-handbook-v05-a4-cut-stack.pdf)
+- [A4 Player's Handbook](a4/README.md): 32 pages in two columns, built with
+  DesignCraft. Character creation, play, combat, wounds, adventuring,
+  equipment, Improvement and all Talents, Shaping, and the licence.
 - [Approved three-page A4 player reference](reference-cards/output/pdf/fantasy-crux-player-reference-cards-v06.pdf)
 - [Approved three-page A4 Shaping reference](shaping-reference-cards/README.md)
-- [Final page/content map](a5/complete/CONTENT-MAP.md)
 - [Fantasy Crux Lite](lite/README.md): a compatible 12-page A4 summary of the
   whole game for conventions and quick play; a draft for review, not published
 
-The 15 mm mirrored binding allowance and 11-point rules text remain. Check the
-allowance against the actual punch before binding. The full edition is ready
-for review; it has not been physically printed or punched here.
+The handbook is a review edition and has not replaced the website's approved
+reference downloads. GM procedures, creature catalogues and gazetteer material
+stay outside it.
 
-These editions include the paid Reaction to defend against an initial grapple.
-The v05 handbook follows the plain-English website rules of October 2026.
-Earlier handbook v01-v04 and reference v01-v05 PDFs/HTML/review records remain
-historical snapshots. The expanded handbook is a local review edition and has
-not replaced the website's approved reference downloads.
+## Editing
 
-## Preserved design prototypes
-
-The preserved design candidate is a **two-page A5 ranged-combat spread**: Take the Shot
-on the left, Cover & Defence on the right. It brings draft modules 14, 15, and 16
-onto two smaller pages. Complete cover is a sentence, not a dedicated illustration.
-The v02 spiral candidate keeps 11-point body text and reserves a mirrored
-15 mm binding margin. This working allowance must be checked against the actual
-punch or print shop's template. Its two pages are included in the complete edition.
-
-- [A5 spread and print-proof guide](a5/README.md)
-- [Current two-page preview](a5/review/ranged-spread-v02.png)
-- [A5 reading PDF](a5/output/pdf/ranged-spread-v02-reading.pdf)
-- [One-sheet A4 cut-and-stack spiral proof](a5/output/pdf/a4-cut-stack-v02.pdf)
-
-Superseded v01 exports may remain in local generated-output folders for
-comparison. They are not published; do not use the old folding proof for the
-new cut-and-stack workflow.
-
-The first A4 Terrain Cover prototype remains intact for comparison:
-
-- [Page 15 review image](review/15-terrain-cover-v01.png)
-- [Page 15 print-sized image](review/15-terrain-cover-v01-print.png)
-- [Editable page text](pages/15-terrain-cover.md)
-- [Prototype art brief and prompt](art/15-terrain-cover/BRIEF.md)
-- [Visual direction](design/STYLE.md)
-- [Verification and review notes](review/REVIEW.md)
-
-## Original mundane inventory (preserved draft IDs, not final folios)
-
-|  Page | Draft                                                                | Teaching question                                  |
-| ----: | -------------------------------------------------------------------- | -------------------------------------------------- |
-| Cover | [Player Handbook](cover.md)                                          | What is this booklet for?                          |
-|    01 | [Read Your Character](pages/01-read-your-character.md)               | What do the numbers on my pregen mean?             |
-|    02 | [Make a Skill Roll](pages/02-make-a-skill-roll.md)                   | How do I roll and recognise my result?             |
-|    03 | [Bonus & Penalty Dice](pages/03-bonus-and-penalty-dice.md)           | Which dice do I roll and which result do I keep?   |
-|    04 | [Competing & Helping](pages/04-competing-and-helping.md)             | How do we compete or work together?                |
-|    05 | [Skills at a Glance](pages/05-skills-at-a-glance.md)                 | Which skill fits my approach?                      |
-|    06 | [The Combat Round](pages/06-the-combat-round.md)                     | When do I act and what can I spend?                |
-|    07 | [Attack, Dodge & Parry](pages/07-attack-dodge-and-parry.md)          | How do ordinary attacks and defences work?         |
-|    08 | [Damage & Critical Hits](pages/08-damage-and-critical-hits.md)       | How much damage reaches my HP?                     |
-|    09 | [Wounds & Dying](pages/09-wounds-and-dying.md)                       | What happens when I am badly hurt?                 |
-|    10 | [Healing & Recovery](pages/10-healing-and-recovery.md)               | How do I save someone and help them recover?       |
-|    11 | [Hero Points](pages/11-hero-points.md)                               | When can I change my fortunes?                     |
-|    12 | [Off-Hand Options](pages/12-off-hand-options.md)                     | What can I do with my other hand?                  |
-|    13 | [Grappling](pages/13-grappling.md)                                   | How do I hold someone or break free?               |
-|    14 | [Ranged Attacks](pages/14-ranged-attacks.md)                         | How do range and aiming affect my shot?            |
-|    15 | [Terrain Cover](pages/15-terrain-cover.md)                           | How does an obstacle protect the target?           |
-|    16 | [Defending Against Missiles](pages/16-defending-against-missiles.md) | Can I Dodge or Parry that projectile?              |
-|    17 | [Difficult Shots](pages/17-difficult-shots.md)                       | Which circumstances change my ranged test?         |
-|    18 | [Movement & Charges](pages/18-movement-and-charges.md)               | What do speed, withdrawal, and a Charge cost?      |
-|    19 | [Intimidate](pages/19-intimidate.md)                                 | Can I make the enemy surrender or flee?            |
-|    20 | [Fighting Position](pages/20-fighting-position.md)                   | How do position and awareness affect melee?        |
-|    21 | [Close Weapons](pages/21-close-weapons.md)                           | What are my weapon's properties?                   |
-|    22 | [Ranged Weapons](pages/22-ranged-weapons.md)                         | What can I shoot or throw, and how do I reload?    |
-|    23 | [Armour](pages/23-armour.md)                                         | What protection and burden does my armour provide? |
-
-## Editing a page
-
-Each numbered Markdown file has small editorial frontmatter: page, title,
-section, teaching objective, suggested layout, and canonical source paths.
-The body above `## Editorial notes` is the complete player-facing draft.
-Everything below that heading is production guidance and must not appear in the
-handbook. Examples in the player copy are deliberate teaching content.
-
-Change copy here without modifying the main rules. Recheck its listed sources
-when a mechanic changes. These drafts were first checked against repository
-revision `1c2737102ed4217e71b98163efc8f8c69b9f82fc` on 6 September 2026.
-Source references describe the rules being abridged, not permission to import
-every subject from those files.
-
-The complete A5 composition reads new condensed text from `a5/complete/content/`
-and the existing ranged pair from `a5/content/`. Each
-file records which source modules it covers. Edit the A5 typography and layout
-in `a5/complete/`; keep the original modules for completeness checks and future reflow.
-The older `render.mjs` and `design/page.css` reproduce only the preserved A4
-prototype. Number new review versions instead of overwriting an approved design.
-
-## Current scope
-
-The handbook has a complete point-built character path, improvement,
-all 56 current Talents, Shaping and the main PC adventuring rules. Related
-subjects are grouped on short pages; repeated numbers use tables. See the
-[expanded scope and page map](a5/complete/CONTENT-MAP.md) for editorial choices.
-
-The original mundane drafts keep their historical restrictions for comparison.
-Those restrictions do not apply to the expanded edition. GM procedures,
-creature catalogues and gazetteer material remain outside the handbook.
-
-## Review and reproduction
-
-From the repository root, using the existing installed dependencies:
-
-```sh
-npm run diagrams:build
-node player-handbook/validate.mjs
-node player-handbook/a5/complete/render.mjs v05
-node player-handbook/a5/complete/verify.mjs v05
-python3 -B player-handbook/a5/complete/assemble.py v05
-node player-handbook/reference-cards/render.mjs v06
-python3 -B player-handbook/a5/test_cut_stack.py
-```
-
-Rendering uses the existing Playwright/Chrome installation and local fonts.
-The spiral-proof script uses ReportLab, pypdf, and pdfplumber; the bundled Python runtime is
-documented in the A5 guide. The A5 PDFs retain selectable text and embedded fonts.
-The self-contained HTML includes the font copyright notices and licence text.
-
-The complete edition is ready for review of annotation clarity, actual-size
-readability, density, and punch-safe margins. Its A4 PDF is the **complete
-17-sheet print file**, not the old one-sheet proof. Follow the stack and cut
-instructions in the complete guide; do not fold the sheets.
+Edit the chapters in `a4/content/`, one Markdown file per chapter, and rebuild
+with the steps in the [A4 guide](a4/README.md). Recheck the website source when a
+mechanic changes; the handbook rewords the rules but does not change them.
 
 The repository's existing [licence](LICENSE.md) accompanies this workspace and
-must accompany the eventual distributed handbook. If bound into the booklet,
-legal pages count towards its physical page total. Keep all copyright notices.
+must accompany every distributed handbook. Keep all copyright notices.

@@ -1,0 +1,390 @@
+{
+ "chapters": [
+  {
+   "key": "front",
+   "md": "00-front.md",
+   "runningHead": "Player's Handbook",
+   "images": [
+    {
+     "page": 1,
+     "img": "cover-art",
+     "fixed": true,
+     "x": -8.5,
+     "w": 612.3,
+     "y": -8.5,
+     "wrap": "none"
+    },
+    {
+     "page": 2,
+     "img": "shared-rules-codex",
+     "x": "outer",
+     "w": 400,
+     "bottom": true
+    }
+   ],
+   "title": {
+    "kicker": "Fantasy Crux 2.0",
+    "text": "Player's Handbook",
+    "sub": "Create · Play · Improve",
+    "size": 40,
+    "rect": [
+     30,
+     640,
+     565,
+     780
+    ],
+    "spacer": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "storyPage": 2,
+   "keepLast": true,
+   "maxPages": 2
+  },
+  {
+   "key": "ch1",
+   "md": "01-how-to-play.md",
+   "runningHead": "Chapter One · How to Play",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch1-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    }
+   ],
+   "title": {
+    "kicker": "Chapter One",
+    "text": "How to Play",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   }
+  },
+  {
+   "key": "ch2",
+   "md": "02-create.md",
+   "runningHead": "Chapter Two · Create a Character",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch2-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    },
+    {
+     "page": 4,
+     "img": "medieval-village",
+     "w": 300,
+     "caption": "Ilan guards caravans: Close Combat 58%, Dodge 54%.",
+     "x": "outer",
+     "bottom": true,
+     "keep": true,
+     "capW": 240
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Two",
+    "text": "Create a Character",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   }
+  },
+  {
+   "key": "ch3",
+   "md": "03-combat.md",
+   "runningHead": "Chapter Three · Combat",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch3-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    },
+    {
+     "page": 5,
+     "img": "ranged-from-cover",
+     "w": 340,
+     "caption": "Behind a low wall: attackers shoot at −1P.",
+     "x": "outer",
+     "bottom": true,
+     "keep": true,
+     "capW": 240
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Three",
+    "text": "Combat",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   }
+  },
+  {
+   "key": "ch4",
+   "md": "04-wounds.md",
+   "runningHead": "Chapter Four · Wounds & Healing",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch4-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    },
+    {
+     "page": 2,
+     "img": "shield-reaction",
+     "w": 440,
+     "caption": "Parry, then armour: only what gets through costs HP.",
+     "x": "outer",
+     "bottom": true,
+     "keep": true,
+     "capW": 260
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Four",
+    "text": "Wounds & Healing",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   }
+  },
+  {
+   "key": "ch5",
+   "md": "05-adventuring.md",
+   "runningHead": "Chapter Five · Adventuring",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch5-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    },
+    {
+     "page": 3,
+     "img": "rope-rescue-fall",
+     "w": 440,
+     "caption": "Falling: 1D6 damage for every full 3 m.",
+     "x": "outer",
+     "bottom": true,
+     "keep": true,
+     "capW": 240
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Five",
+    "text": "Adventuring",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   }
+  },
+  {
+   "key": "ch6",
+   "md": "06-equipment.md",
+   "runningHead": "Chapter Six · Equipment",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch6-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Six",
+    "text": "Equipment",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   },
+   "panels": {
+    "weapons": {
+     "page": 2,
+     "y": 58
+    }
+   },
+   "maxPages": 10
+  },
+  {
+   "key": "ch7",
+   "md": "07-talents.md",
+   "runningHead": "Chapter Seven · Improvement & Talents",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch7-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    },
+    {
+     "page": 4,
+     "img": "battle-command",
+     "w": 340,
+     "caption": "Tactician: an army you command takes half the casualties.",
+     "x": "outer",
+     "bottom": true,
+     "keep": true,
+     "capW": 240
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Seven",
+    "text": "Improvement & Talents",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   }
+  },
+  {
+   "key": "ch8",
+   "md": "08-shaping.md",
+   "runningHead": "Chapter Eight · Shaping Magic",
+   "images": [
+    {
+     "page": 1,
+     "img": "ch8-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    },
+    {
+     "page": 6,
+     "img": "enchanted-sword-identification",
+     "w": 420,
+     "caption": "Sense Magic shows that an item is magic, and its Form.",
+     "x": "outer",
+     "bottom": true,
+     "keep": true,
+     "capW": 240
+    }
+   ],
+   "title": {
+    "kicker": "Chapter Eight",
+    "text": "Shaping Magic",
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   },
+   "maxPages": 12
+  },
+  {
+   "key": "lic",
+   "md": "99-licence.md",
+   "runningHead": "Open Game License",
+   "images": [
+    {
+     "page": 1,
+     "img": "lic-T",
+     "banner": true,
+     "w": 0,
+     "tuck": 0
+    }
+   ],
+   "bodySize": 7.6,
+   "bodyLeading": 9.2,
+   "title": {
+    "kicker": "Fantasy Crux 2.0",
+    "text": "Open Game License",
+    "size": 26,
+    "rect": [
+     40,
+     322,
+     555,
+     400
+    ],
+    "spacer": [
+     0,
+     0,
+     595.3,
+     412
+    ]
+   },
+   "maxPages": 4
+  }
+ ]
+}

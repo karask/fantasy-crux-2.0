@@ -1,0 +1,17 @@
+{
+ "d100": "Tens die 5 and units die 9 read 59. With skill 60%: 01 to 06 Critical, 07 to 60 Success, 61 to 98 Failure, 99 and 00 Fumble.",
+ "bonus": "Units 5 with tens 2 and 6 gives 25 or 65. At 70% both succeed: a Bonus die keeps 65, a Penalty die 25. At 60% only 25 succeeds: a Bonus die keeps 25, a Penalty die 65.",
+ "pools": "Four skill point pools: Resistance 50, Combat 50, Knowledge 50, Practical 75.",
+ "round": "What each option costs: Combat Action, Movement Action and Reactions, from a normal attack to stabilising someone.",
+ "parry": "Sizes run Light, Medium, Heavy, Huge. A winning Parry with an item of the same Size or larger blocks all damage, one Size smaller blocks half, two or more smaller blocks none.",
+ "damage": "Damage: roll dice plus DM, apply a winning Parry by Size, subtract armour, then any magical reserve; the rest is lost from HP. A critical hit deals maximum damage and skips Parry and armour.",
+ "moves": "Charge: a straight clear run of at least 5 m and at most twice Movement ends adjacent; a hit adds 1D6 and the charger has no Reactions. A braced Set weapon attacks a charger first at +1B.",
+ "grapple": "Grappling: seize with a Combat Action and Unarmed Combat; the target may Dodge or Parry. Lose and your hands stay free, taking 1 HP if beaten by a weapon Parry. Win and you hold: no Movement, both at \u22121P, only unarmed or Light one-handed weapons. Escape with a Combat Action and opposed Unarmed Combat.",
+ "range": "Range bands: up to the weapon's Range R attack normally, beyond R up to twice R at \u22122P, beyond twice R no hit. A shortbow has R 75 m.",
+ "dying": "At 0 HP you are unconscious and Dying. Stabilise before the end of the third round or you die.",
+ "fatigue": "Fatigue: failing a Resilience test makes a fresh character Fatigued (\u22121P, three-quarter Movement, \u22123 Combat Order); failing again at \u22121P makes them Exhausted (\u22122P, half Movement, \u22126). Rest 20 \u2212 CON hours to recover.",
+ "light": "Light bands from a source: Illuminated within its radius, partial darkness to three times it, Darkness to five times it, pitch black beyond. A torch lights 3 m.",
+ "formula": "Magnitude is Intensity plus Range plus Duration plus Reach plus adjustments. A 2D6 firebolt at 15 m: 2 + 1 + 0 + 0 = M3.",
+ "harm": "Projected harm crosses space: Dodge or shield at \u22121P, cover and armour apply, no extra cost. Direct harm costs +1 M and arises inside the target, which resists with Resilience or Persistence; only magical Wards protect.",
+ "active": "With INT 13, an M4 Ward, M4 flight and M4 summon total 12 and fit. Another ongoing M3 would make 15, over the limit."
+}
