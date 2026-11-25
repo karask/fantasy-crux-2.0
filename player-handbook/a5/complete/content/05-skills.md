@@ -46,4 +46,4 @@ Craft subjects, Cultures, Languages and Lore fields are separate skills.
 
 ## Editorial notes
 
-All 24 mundane skills, in short descriptions. No skill bases or excluded subsystems.
+All 23 mundane skills, in short descriptions. No skill bases or excluded subsystems.
