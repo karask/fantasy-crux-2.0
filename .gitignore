@@ -10,3 +10,7 @@ playwright-report/
 .env.*
 *.pem
 *.log
+
+# Adventure PDF build review output and the Horse Fair preview site (local only)
+adventures/print/review/
+adventures/the-dragon-at-the-horse-fair/pdf/download-site/

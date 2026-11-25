@@ -1,0 +1,87 @@
+{
+  "pages": 17,
+  "sections": [
+    {
+      "page": 2,
+      "title": "Run this tonight"
+    },
+    {
+      "page": 2,
+      "title": "The theft behind the escape"
+    },
+    {
+      "page": 4,
+      "title": "Rillmarket and the orchards"
+    },
+    {
+      "page": 4,
+      "title": "The demonstration goes wrong"
+    },
+    {
+      "page": 6,
+      "title": "Venn's false directions"
+    },
+    {
+      "page": 6,
+      "title": "At the watering trough"
+    },
+    {
+      "page": 7,
+      "title": "The old loading yard"
+    },
+    {
+      "page": 8,
+      "title": "The thieves"
+    },
+    {
+      "page": 8,
+      "title": "Recovering the case"
+    },
+    {
+      "page": 10,
+      "title": "Bringing Copperback home"
+    },
+    {
+      "page": 11,
+      "title": "People and creatures"
+    },
+    {
+      "page": 11,
+      "title": "Serrik - the handler"
+    },
+    {
+      "page": 12,
+      "title": "Venn Rook - the convenient guide"
+    },
+    {
+      "page": 12,
+      "title": "Dask Pellin - the cart driver"
+    },
+    {
+      "page": 13,
+      "title": "Fairwarden Jessa Fen"
+    },
+    {
+      "page": 13,
+      "title": "People of the fair"
+    },
+    {
+      "page": 14,
+      "title": "Hounds and Copperback"
+    },
+    {
+      "page": 15,
+      "title": "Freight-hoist instructions"
+    },
+    {
+      "page": 15,
+      "title": "The buyer's note"
+    },
+    {
+      "page": 16,
+      "title": "License and copyright notices"
+    }
+  ],
+  "bytes": 8706895,
+  "layout": "Continuous sections; dedicated breaks for NPC appendix, print handouts and license."
+}

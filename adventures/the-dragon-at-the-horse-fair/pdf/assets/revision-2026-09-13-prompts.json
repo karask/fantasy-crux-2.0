@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-13",
+  "method": "Built-in imagegen reference edits",
+  "prompts": [
+    [
+      "02-rillmarket-routes.png",
+      "Edit the supplied map. Preserve the antique isometric ink watercolor style, exact orchard, roads, trough, ridge, ruin and market positions. Correct the wooden town palisade: it is ONE continuous outer defensive wall enclosing ALL town buildings, not an enclosure around the market alone. The western gate stays at its current location. From the gate extend sharpened wooden palisade north along the outer left boundary of ALL the town houses, curving around the northern edge of the houses to leave the upper-right image border. Extend the south wall from the gate along the OUTSIDE of the foreground houses, between houses and open fields, leaving the lower-right image border. Houses and streets continue east off the right edge INSIDE these walls. Remove internal market-enclosing wall segments. Keep all houses inside town wall. Clear readable timber stakes, no text or labels. Same 3:2 aspect."
+    ],
+    [
+      "03-loading-yard.png",
+      "Edit supplied antique isometric cutaway map, preserve viewpoint and area geometry. The old manual freight hoist has TWO IDENTICAL large square flat plank platforms, each the same width and depth. No compartments or slots. Four loose stone ballast blocks labeled 1, 2, 4, 8 sit on skids scattered on the upper platform, with visible bare plank space. On the other equally large platform below is ONE small wooden cargo case beneath blue cloth, stamped '6' as its weight; it occupies only the middle of the platform, with plenty of empty plank on every side. Raise the upper platform flush with the yard landing, leave the lower platform six meters below. Include a small covered wooden instruction board attached to the winch post at the upper landing, no readable small lettering. Keep dogs, cart, entrances, walls, blocked lower passage, warm parchment and watercolor ink style. No modern lights, no electronics. Same landscape aspect."
+    ]
+  ],
+  "finalTownCorrection": "Move the lower-right palisade outward around all foreground houses, removing the old internal wall. Preserve all other features.",
+  "acceptedImages": {
+    "town": "exec-7ded7152-23d8-4948-bf2d-4d08edbf8ac4.png",
+    "yard": "exec-d591587d-dc0e-40f3-8181-e1cf3a4634a9.png"
+  }
+}
