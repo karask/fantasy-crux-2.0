@@ -6,20 +6,20 @@ with DesignCraft in the same style as the adventure booklet. **Status: v01 draft
 - [Reading PDF](output/pdf/players-handbook-a4-v01.pdf) (images compressed, about 9 MB).
   The print master (PDF/X-4, about 100 MB) is rebuilt with `build.py --pdf` and is not committed.
 
-| Pages | Chapter |
-| ----: | ------- |
-|   1–2 | Cover, welcome, contents |
+| Pages | Chapter                                                               |
+| ----: | --------------------------------------------------------------------- |
+|   1–2 | Cover, welcome, contents                                              |
 |   3–4 | One: How to Play (tests, grades, Bonus and Penalty dice, Hero Points) |
-|   5–8 | Two: Create a Character (ten steps and a worked example) |
-|  9–13 | Three: Combat |
-| 14–15 | Four: Wounds and Healing |
-| 16–18 | Five: Adventuring |
-| 19–20 | Six: Equipment |
-| 21–24 | Seven: Improvement and Talents |
-| 25–30 | Eight: Shaping Magic |
-| 31–32 | Open Game License |
+|   5–8 | Two: Create a Character (ten steps and a worked example)              |
+|  9–13 | Three: Combat                                                         |
+| 14–15 | Four: Wounds and Healing                                              |
+| 16–18 | Five: Adventuring                                                     |
+| 19–20 | Six: Equipment                                                        |
+| 21–24 | Seven: Improvement and Talents                                        |
+| 25–30 | Eight: Shaping Magic                                                  |
+| 31–32 | Open Game License                                                     |
 
-## How it differs from the A5 handbook
+## How it differs from the retired A5 handbook
 
 - No one-concept-per-page rule: chapters flow in two columns, each opening on a banner.
 - Text is shorter (about 14,700 words against 19,000). Wording only: no mechanic changed.

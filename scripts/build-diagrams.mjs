@@ -1,11 +1,9 @@
-// Generates the rules diagrams: website diagrams into src/assets/diagrams/, and the handbook's
-// print variants into player-handbook/a5/complete/diagrams/. `--check` regenerates in memory and
-// fails if any committed SVG is missing, stale, or orphaned.
+// Generates the website rules diagrams into src/assets/diagrams/. `--check` regenerates in memory
+// and fails if any committed SVG is missing, stale, or orphaned.
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import adventuring from './diagrams/adventuring.mjs';
 import combat from './diagrams/combat.mjs';
-import handbook from './diagrams/handbook.mjs';
 import shaping from './diagrams/shaping.mjs';
 import skills from './diagrams/skills.mjs';
 
@@ -14,7 +12,6 @@ const targets = [
     directory: 'src/assets/diagrams',
     diagrams: { ...combat, ...shaping, ...skills, ...adventuring },
   },
-  { directory: 'player-handbook/a5/complete/diagrams', diagrams: handbook },
 ];
 const check = process.argv.includes('--check');
 const problems = [];

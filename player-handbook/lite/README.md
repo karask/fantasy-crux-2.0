@@ -64,12 +64,12 @@ reference:
 
 ## Format
 
-**A4, recommended.** A5 suits a book read cover to cover; Lite is a reference a
-GM consults mid-scene. A4 holds each subject on one page, keeps the weapon and
+**A4**, like every Fantasy Crux book. Lite is a reference a GM consults
+mid-scene. A4 holds each subject on one page, keeps the weapon and
 skill tables whole at 9.5–10 pt, prints at home on 14 single sheets without
 imposition, and works as a convention handout. The pages use the approved
 reference cards' stylesheet, so Lite matches the cards a table may already
-use. An A5 edition can be made later from the same Markdown.
+use.
 
 ## Edit and rebuild
 
@@ -90,8 +90,7 @@ pdftoppm -r 100 -png player-handbook/lite/output/pdf/fantasy-crux-lite-v03.pdf p
 The renderer fails on any rules difference, an unknown placeholder, overflow, text under 9.5 pt, a
 footer gap under 4 mm, missing licence text, or an automated accessibility
 violation. `verify.py` checks the PDF: complete text, A4 pages, embedded fonts
-and one folio per page. Python needs pypdf and pdfplumber; the bundled
-interpreter is named in `../a5/complete/README.md`. Use a new version number
+and one folio per page. Python needs pypdf and pdfplumber. Use a new version number
 for each review edition.
 
 The Markdown is written to become a website section later: each page lists its
