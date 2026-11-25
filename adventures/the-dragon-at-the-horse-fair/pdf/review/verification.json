@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-13",
+  "gm_pages": 17,
+  "player_packet_pages": 19,
+  "format": "A4",
+  "visual_review": "All pages reviewed; final reunion heading kept with image.",
+  "checks": [
+    "Separate download on GM page 2",
+    "Existing eight PC sheets preserved in packet",
+    "Company background first in separate packet",
+    "No removed GM primer sections",
+    "All text within page bounds"
+  ],
+  "sha256": {
+    "the-dragon-at-the-horse-fair-gm.pdf": "cbbfb9d69204ee8a98769e25d3df0db5113f276b86c73d59051db4b13fc254df",
+    "last-wagon-company-player-packet.pdf": "bfa017840812774f804933418ebaafe247674768766eb975ff5180ee962f88d2"
+  },
+  "publication": {
+    "url": "https://dragon-horse-fair-gm.kkarasavvas.chatgpt.site",
+    "status": "succeeded",
+    "version": 3,
+    "separate_downloads": true,
+    "archive_pdf_bytes_match": true
+  }
+}

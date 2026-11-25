@@ -1,0 +1,1154 @@
+/* A4 Gamemaster editions of the one-shot adventures. The house type and palette of the rules
+   site and handbook: Barlow Condensed for display, Atkinson Hyperlegible for reading, IBM Plex
+   Mono for dice. Page furniture (running heads and folios) is added by render.mjs, which knows
+   each edition's title. Text stays at 9 pt or more everywhere except the licence. */
+
+:root {
+  --ink: #171c1d;
+  --iron: #1c2325;
+  --paper: #f8f4ec;
+  --bone: #e7e0d2;
+  --bone-light: #f4efe5;
+  --rule: #b7ad9b;
+  --muted: #4d5857;
+  --oxide: #a73e29;
+  --oxide-tint: #f3dcd3;
+  --brass: #8a6d22;
+  --brass-tint: #f1e6c6;
+  --good: #2c6a83;
+  --good-tint: #dbe9ee;
+  --display: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --body: 'Atkinson Hyperlegible', Arial, sans-serif;
+  --mono: 'IBM Plex Mono', Consolas, monospace;
+  --serif: 'Noto Serif', Georgia, serif;
+  --serif-display: 'Noto Serif Display', 'Noto Serif', Georgia, serif;
+  --hand: 'Kalam', 'Comic Sans MS', cursive;
+  --page-width: 166mm;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--body);
+  font-size: 10.5pt;
+  line-height: 1.45;
+  color: var(--ink);
+  background: #fff;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  margin: 0;
+}
+
+/* On screen the book takes the printed measure, so the layout checks see the printed line breaks.
+   In print each page's own content box sets the width: portrait, cover and landscape map pages. */
+.book {
+  width: var(--page-width);
+  margin: 0 auto;
+}
+
+@media print {
+  .book {
+    width: auto;
+    margin: 0;
+  }
+}
+
+p {
+  margin: 0 0 5pt;
+  orphans: 3;
+  widows: 3;
+}
+
+strong {
+  font-weight: 700;
+}
+
+a {
+  color: var(--good);
+  text-decoration: underline;
+  text-decoration-thickness: 0.5pt;
+  text-underline-offset: 1.6pt;
+}
+
+.toc a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+code {
+  font-family: var(--mono);
+  font-weight: 500;
+  font-size: 0.96em;
+  white-space: nowrap;
+}
+
+ul,
+ol {
+  margin: 0 0 6pt;
+  padding-left: 15pt;
+}
+
+li {
+  margin: 0 0 2.5pt;
+  orphans: 2;
+  widows: 2;
+}
+
+li::marker {
+  color: var(--oxide);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--display);
+  font-weight: 700;
+  text-transform: uppercase;
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+h2 {
+  font-size: 17pt;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  margin: 14pt 0 6pt;
+  padding-bottom: 3pt;
+  border-bottom: 1.5pt solid var(--oxide);
+}
+
+h3 {
+  font-size: 12.5pt;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: var(--good);
+  margin: 11pt 0 4pt;
+}
+
+/* Keep a heading with the first lines that follow it. */
+h2 + *,
+h3 + * {
+  break-before: avoid;
+}
+
+blockquote {
+  margin: 7pt 0 9pt;
+  padding: 7pt 11pt;
+  background: var(--bone-light);
+  border-left: 3pt solid var(--brass);
+  font-style: italic;
+  break-inside: avoid;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 6pt 0 11pt;
+  font-size: 9.4pt;
+  line-height: 1.32;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  break-inside: avoid;
+}
+
+/* A table that breaks keeps at least two rows on each page. */
+tbody tr:first-child {
+  break-after: avoid;
+}
+
+tbody tr:last-child {
+  break-before: avoid;
+}
+
+/* render.mjs marks tables shorter than 55 mm, which read best on one page. */
+table.keep {
+  break-inside: avoid;
+}
+
+th {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-align: left;
+  vertical-align: bottom;
+  background: var(--iron);
+  color: var(--bone-light);
+  padding: 4pt 6pt 3pt;
+}
+
+td {
+  padding: 3.5pt 6pt;
+  vertical-align: top;
+  border-bottom: 0.5pt solid var(--rule);
+}
+
+tbody tr:nth-child(even) td {
+  background: var(--paper);
+}
+
+pre {
+  font-family: var(--mono);
+  font-weight: 500;
+  font-size: 9.2pt;
+  line-height: 1.38;
+  background: var(--bone-light);
+  border: 0.75pt solid var(--rule);
+  padding: 7pt 9pt;
+  margin: 6pt 0 10pt;
+  white-space: pre;
+  break-inside: avoid;
+}
+
+pre code {
+  font-size: inherit;
+  white-space: inherit;
+}
+
+s,
+del {
+  text-decoration-thickness: 1.2pt;
+}
+
+/* ---- Cover ---------------------------------------------------------------------------------- */
+
+.cover {
+  page: cover;
+  position: relative;
+  width: 210mm;
+  height: 296.5mm;
+  overflow: hidden;
+  margin: 0;
+  background: var(--iron);
+  color: var(--bone-light);
+  break-after: page;
+}
+
+.cover-art {
+  position: absolute;
+  inset: 0;
+  width: 210mm;
+  height: 296.5mm;
+}
+
+.cover-top {
+  position: absolute;
+  top: 16mm;
+  left: 18mm;
+  right: 18mm;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10.5pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--bone);
+}
+
+.cover-title {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  font-family: var(--display);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 0.86;
+  letter-spacing: 0.01em;
+  margin: 0;
+  color: #fff;
+}
+
+.cover-title span {
+  display: block;
+}
+
+.cover-tagline {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  font-style: italic;
+  font-size: 15pt;
+  line-height: 1.35;
+  color: var(--bone);
+  margin: 0;
+}
+
+.cover-track {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  top: 264mm;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.6mm;
+}
+
+.cover-track span {
+  height: 8.5mm;
+  border: 0.9pt solid var(--bone);
+  border-radius: 1.5pt;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 12pt;
+  color: var(--bone);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-track span.dawn {
+  background: var(--oxide);
+  border-color: var(--oxide);
+  color: #fff;
+  font-size: 10pt;
+  letter-spacing: 0.08em;
+}
+
+.cover-foot {
+  position: absolute;
+  left: 18mm;
+  right: 18mm;
+  bottom: 14mm;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 11pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--bone);
+  display: flex;
+  justify-content: space-between;
+  gap: 8mm;
+}
+
+/* ---- Contents ------------------------------------------------------------------------------- */
+
+.contents {
+  break-after: page;
+}
+
+.contents .kicker,
+.chapter-head .kicker {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10.5pt;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--oxide);
+  margin: 0;
+}
+
+.contents h1,
+.chapter-head h1 {
+  font-size: 32pt;
+  line-height: 1;
+  margin: 2pt 0 0;
+}
+
+.contents-head,
+.chapter-head {
+  border-bottom: 3pt solid var(--ink);
+  padding-bottom: 6pt;
+  margin-bottom: 10pt;
+}
+
+.toc {
+  columns: 2;
+  column-gap: 9mm;
+}
+
+.toc-group {
+  break-inside: avoid;
+  margin: 0 0 9pt;
+}
+
+.toc-entry {
+  display: flex;
+  align-items: baseline;
+  gap: 4pt;
+  font-size: 9.6pt;
+  line-height: 1.38;
+  margin: 0;
+}
+
+.toc-entry .fill {
+  flex: 1;
+  border-bottom: 0.9pt dotted var(--rule);
+  transform: translateY(-2.5pt);
+}
+
+.toc-entry .folio {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10.5pt;
+  min-width: 12pt;
+  text-align: right;
+}
+
+.toc-entry.chapter-entry {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 12pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-bottom: 1pt solid var(--ink);
+  margin-bottom: 2pt;
+}
+
+.toc-entry.chapter-entry .fill {
+  border: 0;
+}
+
+.toc-note {
+  font-size: 9.6pt;
+  color: var(--muted);
+  margin: 4pt 0 0;
+  column-span: all;
+}
+
+/* ---- Chapters ------------------------------------------------------------------------------- */
+
+.chapter {
+  break-before: page;
+}
+
+.chapter > :is(p, ul, ol, table, blockquote, pre):first-child {
+  margin-top: 0;
+}
+
+/* ---- Landscape map pages -------------------------------------------------------------------- */
+
+.map-page {
+  page: map;
+  break-before: page;
+  break-after: page;
+  width: 277mm;
+  height: 189mm;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.map-page .map-label {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 11pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  border-bottom: 1pt solid var(--ink);
+  padding-bottom: 2pt;
+  margin: 0 0 3mm;
+}
+
+.map-page .map-label h2 {
+  font-size: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.map-page svg {
+  display: block;
+  height: 176mm;
+  width: auto;
+}
+
+/* ---- Print and play ------------------------------------------------------------------------- */
+
+.print-page {
+  page: handout;
+  break-before: page;
+  display: flex;
+  flex-direction: column;
+  gap: 7mm;
+}
+
+.handout {
+  break-inside: avoid;
+}
+
+.handout + .handout:not(.handout-player) {
+  border-top: 1.2pt dashed var(--muted);
+  padding-top: 8mm;
+}
+
+.handout-player + .handout-player {
+  margin-top: -2mm;
+}
+
+.handout-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 0 0 4mm;
+  border-bottom: 1pt solid var(--ink);
+  padding-bottom: 2pt;
+}
+
+.handout-label h2 {
+  font-size: 13pt;
+  letter-spacing: 0.08em;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.handout-label span {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.player-sheet {
+  font-size: 11pt;
+  line-height: 1.45;
+}
+
+.player-sheet p {
+  margin-bottom: 6pt;
+}
+
+.prop {
+  margin: 0 auto;
+  break-inside: avoid;
+}
+
+.prop-caption {
+  font-size: 10.5pt;
+  font-style: italic;
+  color: var(--muted);
+  text-align: center;
+  margin: 4mm auto 0;
+  max-width: 130mm;
+}
+
+/* The bell code, as a notice nailed by the shaft. */
+.prop-card {
+  width: 150mm;
+  border: 2.2pt solid var(--ink);
+  border-radius: 5pt;
+  padding: 9mm 11mm 8mm;
+  background: var(--paper);
+}
+
+.prop-card .card-title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 22pt;
+  letter-spacing: 0.06em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 4mm;
+}
+
+.prop-card .card-text {
+  font-size: 12.5pt;
+  text-align: center;
+  margin: 0 0 3mm;
+}
+
+.prop-card .signals {
+  margin: 4mm auto 5mm;
+  border-collapse: separate;
+  border-spacing: 0 2.4mm;
+  width: auto;
+  font-size: inherit;
+}
+
+.prop-card .signals td {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.prop-card .signals .count {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 26pt;
+  line-height: 1;
+  width: 14mm;
+  height: 14mm;
+  text-align: center;
+  color: #fff;
+  background: var(--oxide);
+  border-radius: 50%;
+}
+
+.prop-card .signals .meaning {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 19pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-left: 6mm;
+}
+
+.prop-card .card-text.strong {
+  font-weight: 700;
+}
+
+/* Handwriting on ruled ledger paper. */
+.prop-ledger,
+.prop-letter {
+  width: 158mm;
+  padding: 8mm 11mm 8mm 18mm;
+  font-family: var(--hand);
+  font-style: normal;
+  font-size: 13pt;
+  line-height: 8mm;
+  color: #23305c;
+  background:
+    linear-gradient(90deg, transparent 13mm, #d9a6a0 13mm, #d9a6a0 13.4mm, transparent 13.4mm),
+    repeating-linear-gradient(
+      180deg,
+      #fbf8ef 0,
+      #fbf8ef 6.05mm,
+      #c9d7e3 6.05mm,
+      #c9d7e3 6.3mm,
+      #fbf8ef 6.3mm,
+      #fbf8ef 8mm
+    );
+  border: 0.75pt solid var(--rule);
+  box-shadow: 0 0 0 0.75pt #fff inset;
+}
+
+.prop-ledger p,
+.prop-letter p {
+  margin: 0 0 8mm;
+}
+
+/* The handwriting has one weight: underline instead of a synthetic bold. */
+.prop-ledger,
+.prop-letter {
+  font-synthesis: none;
+}
+
+.prop-ledger strong,
+.prop-letter strong {
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-thickness: 0.8pt;
+  text-underline-offset: 2pt;
+}
+
+.prop-ledger p:last-child,
+.prop-letter p:last-child {
+  margin-bottom: 0;
+}
+
+.prop-ledger ul {
+  margin: 0 0 8mm;
+  padding-left: 7mm;
+}
+
+.prop-ledger li {
+  margin: 0;
+}
+
+.prop-ledger li::marker {
+  color: #23305c;
+}
+
+.prop-ledger em,
+.prop-letter em {
+  font-style: normal;
+  color: #5b5f66;
+}
+
+.prop-letter {
+  color: #3b3d42;
+}
+
+/* An engraved brass plate. */
+.prop-plate {
+  position: relative;
+  width: 132mm;
+  padding: 11mm 14mm;
+  text-align: center;
+  font-family: var(--serif-display);
+  font-style: normal;
+  color: #3a2a07;
+  background: linear-gradient(160deg, #e3c77d 0%, #c49a45 38%, #e6cd88 62%, #a97f2f 100%);
+  border: 1.6pt solid #6e5214;
+  border-radius: 3pt;
+  box-shadow:
+    0 0 0 2.2mm #c49a45 inset,
+    0 0 0 2.6mm #6e5214 inset;
+}
+
+.prop-plate p {
+  font-size: 19pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.3;
+  margin: 0 0 3mm;
+}
+
+.prop-plate p:last-child {
+  font-size: 14pt;
+  font-weight: 400;
+  margin: 5mm 0 0;
+}
+
+.prop-plate .screw {
+  position: absolute;
+  width: 4.2mm;
+  height: 4.2mm;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, #f3e2ad, #7c5c18);
+  border: 0.6pt solid #4f3a0c;
+}
+
+.prop-plate .screw::after {
+  content: '';
+  position: absolute;
+  left: 0.6mm;
+  right: 0.6mm;
+  top: 1.85mm;
+  height: 0.5mm;
+  background: #4f3a0c;
+  transform: rotate(35deg);
+}
+
+/* A printed bill with a red stamp. */
+.prop-bill {
+  width: 150mm;
+  padding: 10mm 12mm;
+  font-family: var(--serif);
+  font-style: normal;
+  font-size: 11.5pt;
+  line-height: 1.5;
+  background: #fffdf7;
+  border: 0.75pt solid var(--rule);
+  border-top: 5pt double var(--ink);
+}
+
+.prop-bill p:first-child {
+  font-size: 12.5pt;
+  letter-spacing: 0.08em;
+  text-align: center;
+  border-bottom: 0.75pt solid var(--ink);
+  padding-bottom: 3mm;
+  margin-bottom: 5mm;
+}
+
+.prop-bill .stamp {
+  display: inline-block;
+  font-family: var(--display);
+  font-size: 15pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--oxide);
+  border: 2pt solid var(--oxide);
+  border-radius: 3pt;
+  padding: 1mm 3mm;
+  transform: rotate(-3deg);
+  margin: 2mm 0;
+}
+
+/* A formal document or proclamation. */
+.prop-document,
+.prop-decree {
+  width: 150mm;
+  padding: 12mm 14mm;
+  font-family: var(--serif);
+  font-style: normal;
+  font-size: 11.5pt;
+  line-height: 1.55;
+  background: #fbf6e8;
+  border: 0.75pt solid #8b7a52;
+  box-shadow:
+    0 0 0 2mm #fbf6e8 inset,
+    0 0 0 2.3mm #8b7a52 inset;
+}
+
+.prop-document p:first-child,
+.prop-decree p:first-child {
+  text-align: center;
+}
+
+.prop-decree .seal {
+  width: 20mm;
+  height: 20mm;
+  margin: 6mm auto 0;
+  border-radius: 50%;
+  background: radial-gradient(circle at 40% 35%, #c4523b, #7d2414 70%);
+  box-shadow: 0 0 0 1.2mm #9d3320;
+}
+
+/* Words cut into a stone arch. */
+.prop-inscription {
+  width: 150mm;
+  padding: 13mm 12mm;
+  text-align: center;
+  font-family: var(--serif-display);
+  font-style: normal;
+  color: #2f3334;
+  background: linear-gradient(170deg, #cfcbc2, #a8a39a);
+  border: 1.5pt solid #6d6a63;
+  border-radius: 75mm 75mm 3mm 3mm / 34mm 34mm 3mm 3mm;
+  padding-top: 19mm;
+  padding-bottom: 10mm;
+}
+
+.prop-inscription p {
+  font-size: 15pt;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  line-height: 1.3;
+  margin: 0 0 3mm;
+}
+
+.prop-inscription p:first-child {
+  font-size: 17pt;
+  margin-bottom: 5mm;
+}
+
+/* The Water track, large enough to cross off from across a table. */
+.prop-track {
+  width: 100%;
+}
+
+.track {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1.6mm;
+  margin: 2mm 0 0;
+}
+
+.track .box {
+  position: relative;
+  height: 17mm;
+  border: 1.6pt solid var(--ink);
+  border-radius: 2pt;
+  background: #fff;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 18pt;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.track .box.marked {
+  border-color: var(--brass);
+  background: var(--brass-tint);
+}
+
+.track .box.last {
+  border-color: var(--oxide);
+  background: var(--oxide-tint);
+}
+
+.track .box .top {
+  position: absolute;
+  top: -6.2mm;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11pt;
+  letter-spacing: 0.1em;
+  color: var(--oxide);
+}
+
+.track-labels {
+  position: relative;
+  height: 9mm;
+  margin: 1.5mm 0 0;
+}
+
+.track-labels span {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10.5pt;
+  line-height: 1.1;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.track-labels span::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: -1.6mm;
+  height: 1.3mm;
+  border-left: 1pt solid var(--ink);
+}
+
+.prop-note {
+  font-size: 11pt;
+  margin: 0 0 3mm;
+}
+
+.track-title {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 16pt;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 6mm;
+}
+
+.prop-tokens {
+  width: 100%;
+}
+
+.token-level {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 11pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 3mm 0 1.5mm;
+}
+
+.tokens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+}
+
+.token {
+  width: 41.5mm;
+  height: 17mm;
+  border: 0.9pt dashed var(--muted);
+  margin: 0 -0.9pt -0.9pt 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1mm 2mm;
+}
+
+.token strong {
+  font-family: var(--display);
+  font-size: 14pt;
+  line-height: 1.05;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.token span {
+  font-size: 9pt;
+  color: var(--muted);
+}
+
+/* A printed festival song sheet. */
+.prop-songsheet {
+  width: 150mm;
+  padding: 9mm 12mm 8mm;
+  text-align: center;
+  font-family: var(--serif);
+  font-size: 12pt;
+  line-height: 1.45;
+  color: #2b2418;
+  background: #fbf6e8;
+  border-top: 5pt double #4a3b1c;
+  border-bottom: 5pt double #4a3b1c;
+}
+
+.prop-songsheet .song-title {
+  font-family: var(--serif-display);
+  font-weight: 700;
+  font-size: 22pt;
+  letter-spacing: 0.14em;
+  margin: 0 0 1mm;
+}
+
+.prop-songsheet .song-sub {
+  font-style: italic;
+  font-size: 11pt;
+  margin: 0;
+}
+
+.prop-songsheet .stanza {
+  margin: 5mm 0 0;
+}
+
+.prop-songsheet .stanza p {
+  margin: 0;
+}
+
+.prop-songsheet .stanza-head {
+  font-family: var(--serif-display);
+  font-weight: 700;
+  font-size: 11pt;
+  letter-spacing: 0.16em;
+  margin-bottom: 1mm;
+}
+
+.prop-songsheet .chorus p {
+  font-style: italic;
+}
+
+.prop-songsheet .song-foot {
+  font-style: italic;
+  font-size: 10.5pt;
+  color: #5d4d2e;
+  margin: 6mm 0 0;
+  padding-top: 3mm;
+  border-top: 0.75pt solid #8b7a52;
+}
+
+/* The seal ribbon. */
+.prop-seals {
+  width: 100%;
+  padding: 8mm 6mm;
+  background: #f6efdc;
+  border: 0.75pt solid #8b7a52;
+  text-align: center;
+}
+
+.prop-seals .seals-title {
+  font-family: var(--serif);
+  font-size: 11pt;
+  letter-spacing: 0.12em;
+  margin: 0 0 6mm;
+}
+
+.seals {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 3mm;
+}
+
+.seal-slot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5mm;
+}
+
+.seal-disc {
+  width: 19mm;
+  height: 19mm;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 40% 35%, #c4523b, #7d2414 70%);
+  box-shadow: 0 0 0 1mm #9d3320;
+  color: #fbe9d8;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 10.5pt;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.seal-disc.ash {
+  background: radial-gradient(circle at 40% 35%, #b9b4ab, #6b6760 70%);
+  box-shadow: 0 0 0 1mm #8f8a82;
+  color: #2f2d2a;
+}
+
+.seal-state {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 11pt;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.seal-box {
+  width: 6mm;
+  height: 6mm;
+  border: 1.2pt solid var(--ink);
+  border-radius: 1pt;
+  background: #fff;
+}
+
+.prop-seals .seals-foot {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 11.5pt;
+  margin: 7mm 0 0;
+}
+
+/* ---- Licence -------------------------------------------------------------------------------- */
+
+.contents .about {
+  margin-top: 10pt;
+  padding-top: 7pt;
+  border-top: 1pt solid var(--ink);
+  font-size: 9.6pt;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.contents .about strong {
+  color: var(--ink);
+}
+
+.licence .chapter-head h1 {
+  font-size: 24pt;
+}
+
+.licence-text {
+  columns: 3;
+  column-gap: 5mm;
+  font-size: 7.2pt;
+  line-height: 1.26;
+}
+
+.licence-text h2 {
+  font-size: 10pt;
+  margin: 5pt 0 2.5pt;
+  padding-bottom: 1.5pt;
+  border-bottom-width: 1pt;
+  column-span: none;
+}
+
+.licence-text h2:first-child {
+  margin-top: 0;
+}
+
+.licence-text p,
+.licence-text li {
+  margin: 0 0 2.4pt;
+}
+
+.licence-text ol {
+  padding-left: 12pt;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

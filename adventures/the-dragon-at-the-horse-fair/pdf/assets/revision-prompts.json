@@ -1,0 +1,38 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-09-09",
+  "prompts": [
+    {
+      "file": "02-rillmarket-routes.png",
+      "prompt": "Edit this isometric antique watercolor map. Preserve all western terrain, roads, orchard, trough, culvert and loading yard exactly. Change only town on right: it is the western MARKET QUARTER of Rillmarket, a town of 1000 permanent residents. Remove the enclosing eastern palisade; instead dense continuous streets and houses extend beyond the right image boundary, visibly cropped. Western gate and western palisade stay. Add many roofs in upper-right and right cropped edge, no enclosing miniature town. Keep sale ring in same position, 3:2 landscape, no labels.",
+      "mode": "edit"
+    },
+    {
+      "file": "05-serrik.png",
+      "prompt": "Serrik: ochre-scaled male lizardfolk caravan handler, reptilian head, kind alert amber eyes, practical canvas waistcoat, polishing a leather lizard nose-band between clawed hands. Proud and worried. Half-length individual portrait, square. ",
+      "mode": "generate"
+    },
+    {
+      "file": "06-venn.png",
+      "prompt": "Venn Rook: human male livestock broker, brushed dark hair, mustard riding coat, calculating narrow face, smile lasting too long, fingers adjusting sleeve, half-length individual portrait, square.",
+      "mode": "generate"
+    },
+    {
+      "file": "07-dask.png",
+      "prompt": "Dask Pellin: weather-beaten broad-handed human woman cart driver, dark brown hair tied back, worn work jacket with dog hairs, holding dog leads, worried guarded expression, half-length individual portrait, square.",
+      "mode": "generate"
+    },
+    {
+      "file": "08-jessa.png",
+      "prompt": "Jessa Fen: sun-reddened middle-aged human woman fairwarden, green sash over practical brown leather armor, sensible short auburn hair, steady practical expression, one hand directing traffic, half-length individual portrait, square.",
+      "mode": "generate"
+    },
+    {
+      "file": "09-parchment.png",
+      "prompt": "A single old ivory parchment sheet laid flat, landscape 3:2 aspect, straight-on full sheet with lightly ragged edges, delicate age stains around edges, very pale clean empty center for handwriting, no text, no objects, no curls obscuring writing area.",
+      "mode": "generate"
+    }
+  ],
+  "styleSuffix": "Style: antique fantasy book watercolor and delicate sepia ink hatching on warm ivory, muted olive sage ochre palette, restrained naturalistic detail, no lettering or borders.",
+  "handwriting": "Native PDF text in Kalam, Italianno and Patrick Hand, with SIL Open Font License files in assets/fonts."
+}
