@@ -36,9 +36,9 @@ Describe what you do; the GM picks the skill. Routine work with time and tools n
 
 Walking a trained mount with tack, driving on flat ground and sailing calm water need no roll. Test Riding, Driving or Sailing when speed, terrain or weather make it dangerous.
 
-### Tools worth packing
+### Tools
 
-**Climbing kit:** +1B to climb. **Crowbar:** +1B to force. **Lock picks:** +1B to open locks. **Fishing kit:** +1B to catch fish. **Healing kit:** five Healing attempts; without one, Healing is at −2P.
+The right tool often gives +1B: a climbing kit to climb, a crowbar to force, lock picks to open locks. Without a Healing kit, Healing is at −2P. Chapter Six lists every tool and what it does.
 
 ## Travel
 
@@ -99,7 +99,7 @@ Check the light **at the target** for seeing and attacking, and **at the mover**
 | Darkness | Those tests −2P; half Movement. |
 | Pitch black | No sight at all: Perception by sight and ranged attacks cannot succeed; Close attacks −3P; quarter Movement. |
 
-A light source illuminates its **radius**: **candle 1 m, torch or lantern 3 m, campfire 5 m, bonfire 10 m.** Out to 3× the radius is partial darkness, out to 5× is Darkness, and beyond is pitch black unless another light reaches it.
+A light source illuminates its **radius**: **candle 1 m, torch or lantern 3 m, campfire 5 m, bonfire 10 m.** Chapter Six gives how long each one burns. Out to 3× the radius is partial darkness, out to 5× is Darkness, and beyond is pitch black unless another light reaches it.
 
 Smoke, mist and foliage are **obscurity**, not darkness: they penalise attacks separately (Chapter Three).
 
@@ -127,7 +127,8 @@ You can hold your breath for **CON rounds**. Then test Resilience every round at
 | Thick smoke inhaled | 1D6, armour does not help |
 | Poison gas | Its poison (plus 1D6 if also smoky) |
 | Candle / torch / campfire | 1 / 1D4 / 1D6 |
-| Bonfire or steam / burning room | 2D6 / 3D6 |
+| Bonfire, steam or burning room | 2D6 |
+| Lava or blast furnace | 3D6 |
 
 Metal armour gives no protection from heat. Back in clean air, test Resilience or spend **1D4 rounds** retching.
 
