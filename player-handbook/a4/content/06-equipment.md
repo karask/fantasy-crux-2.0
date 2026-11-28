@@ -87,3 +87,82 @@ Armour ENC counts toward your load **and** comes off your Combat Order. Wearers 
 | Whip | Close | 1D3 | 5 m | —/9 | — | Light | 50 SP |
 
 {{/panel}}
+
+## Adventuring Gear
+
+Prices assume a prosperous city market. Towns stock less, villages sell mostly local goods, and remote places may charge more or want barter. A dash under ENC means negligible.
+
+| Item | ENC | Cost |
+| --- | --- | --- |
+| Backpack | 1 | 5 SP |
+| Bedroll | 1 | 1 SP |
+| Block and tackle | 1 | 15 SP |
+| Bottle, glass | — | 2 SP |
+| Candle, 1 hour | — | 1 CP |
+| Chain, 2 m | 2 | 40 SP |
+| Climbing kit | 1 | 25 SP |
+| Craft tools | 2 | 75 SP |
+| Crowbar | 1 | 25 SP |
+| Fish hook | — | 1 CP |
+| Fishing kit | 1 | 15 SP |
+| Flint and tinder | — | 5 CP |
+| Grappling hook | — | 5 SP |
+| Hammer | — | 1 SP |
+| Healing kit | — | 25 SP |
+| Ladder, 3 m | 4 | 2 SP |
+| Lantern | 1 | 10 SP |
+| Lock picks | — | 75 SP |
+| Mining pick | 1 | 35 SP |
+| Musical instrument | 2 | 70 SP |
+| Oil, flask | 1 | 1 SP |
+| Papyrus, sheet | — | 1 SP |
+| Quiver | — | 2 SP |
+| Rope, 10 m | 2 | 10 SP |
+| Sack, large | 1 | 5 CP |
+| Sack, small | — | 2 CP |
+| Scythe | 2 | 30 SP |
+| Slingbag | 1 | 5 CP |
+| Spade | 1 | 25 SP |
+| Torch, 1 hour | — | 4 CP |
+| Waterskin | 1 | 5 CP |
+| Writing kit | 1 | 45 SP |
+
+### Containers
+
+Contents keep their ENC. A **backpack** holds 20 ENC, a **slingbag** 15, a **large sack** 10 and a **small sack** 5. A **quiver** holds 30 arrows or bolts, and a **waterskin** two days' water for one person. **Rope or a grappling hook** bears 50 ENC, 50 SIZ, or 50 of both together.
+
+### Tools
+
+- **Block and tackle:** needs 10 m of rope. +1B to Mechanisms with large traps, and makes suitable engineering work possible.
+- **Climbing kit:** +1B to climb.
+- **Crowbar:** +1B to force things with Athletics. As a weapon, a club at −1P.
+- **Fish hook:** lets you fish with Natural Lore without an equipment penalty. A **fishing kit** gives +1B.
+- **Flint and tinder:** lights an ordinary fire in one minute, with no test in normal conditions.
+- **Healing kit:** five Healing or Surgery attempts; each attempt uses one, success or failure.
+- **Lock picks:** +1B to open locks.
+- **Hammer, mining pick or spade:** as a weapon, a club at −1P. A hammer or pick can strike stone or iron without being ruined.
+- **Scythe:** as a weapon, a polearm at −1P.
+
+### Light and fuel
+
+- **Candle:** burns 1 hour and lights a 1 m radius. More than a slight breeze puts it out.
+- **Lantern:** burns 2 hours on one flask of oil and lights a 3 m radius.
+- **Torch:** burns 1 hour and lights a 3 m radius. Only a fumbled attack puts it out. As a weapon it is a club at −1P that deals **1D4 fire damage** instead of club damage.
+- **Lamp oil,** spilled and lit, keeps a small fire going for one minute.
+
+## Animals and Transport
+
+| Animal, vehicle or service | Cost |
+| --- | --- |
+| Cat / domestic dog / fowl | 2 / 2 / 1 SP |
+| Hunting dog | 25 SP |
+| Sheep / goat / pig | 30 / 50 / 50 SP |
+| Mule / cow | 125 / 150 SP |
+| Ox or bison / bull | 200 / 250 SP |
+| Horse: riding / draft / combat-trained | 350 / 400 / 500 SP |
+| Hawk | 400 SP |
+| Saddle and bridle | 75 SP |
+| Cart / wagon / chariot | 75 / 300 / 600 SP |
+| Travel by ship / post-horse / wagon | 1 / 2 / 5 SP per km |
+
+**Food and lodging** per day, poor / average / superior: **lodging** 2 CP / 1 SP / 5 SP; **food and drink** 1 CP / 5 CP / 2 SP. **Trail rations** cost 5 CP a day. Training, pedigree, scarcity, danger and local custom can all change prices.

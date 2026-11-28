@@ -51,7 +51,19 @@ Start from your ancestry's row and **add 30 points**. You can lower a score to g
 
 Check the STR and DEX each weapon needs (Chapter Six) before you settle.
 
-**Rolling instead (humans).** With the group's agreement, roll **4D6 and drop the lowest** for STR, CON, DEX, POW and CHA, and **3D6, drop the lowest, +6** for INT and SIZ. You can then swap one pair of results. Nonhuman random rolls use the campaign's own dice; ask the GM.
+**Rolling instead.** With the group's agreement, roll each characteristic on your ancestry's dice. **Humans** roll 4D6 and drop the lowest die for STR, CON, DEX, POW and CHA, and 3D6, drop the lowest, +6 for INT and SIZ. Other ancestries use this table (\* means roll 4D6 and drop the lowest). After all seven rolls you can swap one pair of results.
+
+| Roll | Elf | Dwarf | Orc | Goblin | Lizardfolk |
+| --- | --- | --- | --- | --- | --- |
+| STR | 2D6+3 | 4D6 | 4D6 | 2D6+3 | 3D6+6 |
+| CON | 3D6 | 2D6+12 | 3D6 | 2D6+3 | 3D6 |
+| DEX | 3D6+6 | 3D6 | 4D6\* | 3D6+6 | 2D6+3 |
+| SIZ | 2D6+3 | 2D6+3 | 3D6+3 | 2D6 | 3D6 |
+| INT | 3D6+6 | 2D6+6 | 2D6+3 | 3D6 | 2D6+6 |
+| POW | 2D6+6 | 3D6 | 2D6+3 | 2D6+3 | 3D6 |
+| CHA | 3D6 | 3D6 | 3D6 | 3D6 | 3D6 |
+
+Rolled scores can go above 18, but a result above your ancestry's maximum (below) drops to that maximum, and the excess is lost. Rolling is less balanced than spending points.
 
 ### Ancestry maximums
 

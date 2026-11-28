@@ -1,9 +1,9 @@
 # Player's Handbook, A4 edition
 
-The Fantasy Crux 2.0 Player's Handbook as a 32-page A4 book in two columns, laid out
-with DesignCraft in the same style as the adventure booklet. **Status: v01 draft for review.**
+The Fantasy Crux 2.0 Player's Handbook as a 36-page A4 book in two columns, laid out
+with DesignCraft in the same style as the adventure booklet. **Status: v02 draft for review.**
 
-- [Reading PDF](output/pdf/players-handbook-a4-v01.pdf) (images compressed, about 9 MB).
+- [Reading PDF](output/pdf/players-handbook-a4-v02.pdf) (images compressed, about 9 MB).
   The print master (PDF/X-4, about 100 MB) is rebuilt with `build.py --pdf` and is not committed.
 
 | Pages | Chapter                                                               |
@@ -14,15 +14,20 @@ with DesignCraft in the same style as the adventure booklet. **Status: v01 draft
 |  9–13 | Three: Combat                                                         |
 | 14–15 | Four: Wounds and Healing                                              |
 | 16–18 | Five: Adventuring                                                     |
-| 19–20 | Six: Equipment                                                        |
-| 21–24 | Seven: Improvement and Talents                                        |
-| 25–30 | Eight: Shaping Magic                                                  |
-| 31–32 | Open Game License                                                     |
+| 19–21 | Six: Equipment (weapons, armour, gear, animals, food and lodging)     |
+| 22–25 | Seven: Improvement and Talents                                        |
+| 26–34 | Eight: Shaping Magic                                                  |
+| 35–36 | Open Game License                                                     |
 
 ## How it differs from the retired A5 handbook
 
 - No one-concept-per-page rule: chapters flow in two columns, each opening on a banner.
-- Text is shorter (about 14,700 words against 19,000). Wording only: no mechanic changed.
+- Text is shorter than the website (about 19,800 words against about 40,000). Wording only: no mechanic changed.
+  v02 adds what players use at the table and v01 left out: the gear, animal, transport, food and
+  lodging price lists, light burn times, the non-human random-roll dice, the Alchemist and Poisoner
+  brewing cost, and in Shaping the Backlash table, Form and Technique limits, the rules for every
+  Shaping, ward classes, conjured-being and calling tables, Paths, Fate and illusion detail. It
+  also fixes the burning-room fire damage (2D6) and the free Trick (Magnitude 0, as on the website).
   Where the A5 text had left out a rule that the website rules have (second grappling limb,
   weapon Parry against a grapple, Intimidate modifiers, wind and prone ranged modifiers,
   mounted combat, darkness in melee), this edition follows the website.
@@ -53,7 +58,7 @@ python3 diagrams.py && node render_diagrams.mjs 5   # diagrams -> ../diagrams/
 python3 build.py                         # lay out every chapter (or: build.py ch3 ch4)
 python3 render.py 0.8                    # page and spread previews -> build/work/
 python3 build.py --pdf                   # PDF/X-4 master -> build/work/handbook-full.pdf
-python3 shrink.py work/handbook-full.pdf ../output/pdf/players-handbook-a4-v01.pdf
+python3 shrink.py work/handbook-full.pdf ../output/pdf/players-handbook-a4-v02.pdf
 ```
 
 Run `build.py` twice after page counts change: the contents table reads the page numbers

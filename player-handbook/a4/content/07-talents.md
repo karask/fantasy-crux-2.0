@@ -278,6 +278,8 @@ Each Talent brews **one dose a day** from **50 SP** of materials. A dose lasts a
 ### Alchemist
 *4 IP · Lore (Alchemy) 51% · Passive*
 
+Each dose takes **a day** and **50 SP** of materials to brew, and keeps for **a month**. Choose one:
+
 - **Antidote:** +2B to one test against a named poison or disease.
 - **Salve:** restores 1D6 HP over an hour's rest, once per patient per day.
 - **Alchemical fire:** a Light flask thrown with Ranged Combat, Range 10 m, 1D6 fire damage, no DM. A miss wastes it.
@@ -285,4 +287,4 @@ Each Talent brews **one dose a day** from **50 SP** of materials. A dose lasts a
 ### Poisoner
 *4 IP · Lore (Alchemy) 76% and Alchemist · Passive*
 
-Brew a poison whose **Potency is half your Lore (Alchemy)**. Choose its effect: **1D6 damage**, **−2 to one characteristic**, or **unconsciousness**, lasting 1D6 × 10 minutes. Choose **smeared** (Delay 1 round; coating a blade takes a Combat Action and the dose is spent on the first damaging hit or after an hour) or **ingested** (Delay 1D6 minutes). The victim gets one Resilience test against it; a second dose of the same active poison does nothing more.
+Spend **a day** and **50 SP** of materials to brew one dose of poison, which keeps for **a month**. Its **Potency is half your Lore (Alchemy)**. Choose its effect: **1D6 damage**, **−2 to one characteristic**, or **unconsciousness**, lasting 1D6 × 10 minutes. Choose **smeared** (Delay 1 round; coating a blade takes a Combat Action and the dose is spent on the first damaging hit or after an hour) or **ingested** (Delay 1D6 minutes). The victim gets one Resilience test against it; a second dose of the same active poison does nothing more.
